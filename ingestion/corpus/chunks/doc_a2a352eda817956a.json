@@ -1,0 +1,208 @@
+{
+  "document_id": "doc_a2a352eda817956a",
+  "chunk_count": 10,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0000",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0000",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "We introduce ViTGAN, a purely transformer-based generative adversarial network for high-fidelity image synthesis. Our model removes convolutional inductive biases and demonstrates competitive results on standard benchmarks such as CIFAR-10 and CelebA. arXiv:2107.04589",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: Abstract\n\nWe introduce ViTGAN, a purely transformer-based generative adversarial network for high-fidelity image synthesis. Our model removes convolutional inductive biases and demonstrates competitive results on standard benchmarks such as CIFAR-10 and CelebA. arXiv:2107.04589",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        1
+      ],
+      "token_count": 68,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0001",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0001",
+      "section_title": "1 Introduction",
+      "section_path": [
+        "1 Introduction"
+      ],
+      "source_text": "Generative adversarial networks (GANs) have become a dominant paradigm for image synthesis since their introduction. Recently, vision transformers have shown strong performance on discriminative tasks, motivating their use in generative settings as well.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 1 Introduction\n\nGenerative adversarial networks (GANs) have become a dominant paradigm for image synthesis since their introduction. Recently, vision transformers have shown strong performance on discriminative tasks, motivating their use in generative settings as well.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        2
+      ],
+      "token_count": 50,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0002",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0002",
+      "section_title": "2 Related Work",
+      "section_path": [
+        "2 Related Work"
+      ],
+      "source_text": "2 Related Work",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 2 Related Work\n\n2 Related Work",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0003",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0003",
+      "section_title": "2.1 Generative Adversarial Networks",
+      "section_path": [
+        "2 Related Work",
+        "2.1 Generative Adversarial Networks"
+      ],
+      "source_text": "GANs consist of a generator and a discriminator trained in a minimax game. Numerous architectural improvements have been proposed to stabilize training and improve sample quality.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 2 Related Work\nSubsection: 2.1 Generative Adversarial Networks\n\nGANs consist of a generator and a discriminator trained in a minimax game. Numerous architectural improvements have been proposed to stabilize training and improve sample quality.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        3
+      ],
+      "token_count": 32,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0004",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0004",
+      "section_title": "2.2 Vision Transformers",
+      "section_path": [
+        "2 Related Work",
+        "2.2 Vision Transformers"
+      ],
+      "source_text": "Vision Transformers (ViT) apply the standard transformer architecture directly to sequences of image patches, achieving strong results on image classification.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 2 Related Work\nSubsection: 2.2 Vision Transformers\n\nVision Transformers (ViT) apply the standard transformer architecture directly to sequences of image patches, achieving strong results on image classification.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        4
+      ],
+      "token_count": 26,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0005",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0005",
+      "section_title": "3 ViTGAN",
+      "section_path": [
+        "3 ViTGAN"
+      ],
+      "source_text": "3 ViTGAN",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 3 ViTGAN\n\n3 ViTGAN",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0006",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0006",
+      "section_title": "3.1 Discriminator",
+      "section_path": [
+        "3 ViTGAN",
+        "3.1 Discriminator"
+      ],
+      "source_text": "The discriminator treats an image as a sequence of patches and processes them with a standard transformer encoder, followed by a classification head.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 3 ViTGAN\nSubsection: 3.1 Discriminator\n\nThe discriminator treats an image as a sequence of patches and processes them with a standard transformer encoder, followed by a classification head.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        5
+      ],
+      "token_count": 30,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0007",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0007",
+      "section_title": "3.2 Generator",
+      "section_path": [
+        "3 ViTGAN",
+        "3.2 Generator"
+      ],
+      "source_text": "The generator maps a latent vector to a sequence of patch embeddings which are decoded into image patches and assembled into the final output image.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 3 ViTGAN\nSubsection: 3.2 Generator\n\nThe generator maps a latent vector to a sequence of patch embeddings which are decoded into image patches and assembled into the final output image.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        6
+      ],
+      "token_count": 31,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0008",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0008",
+      "section_title": "4 Experiments",
+      "section_path": [
+        "4 Experiments"
+      ],
+      "source_text": "We evaluate ViTGAN on CIFAR-10 and CelebA, reporting FID scores compared to convolutional baselines. Our model achieves competitive performance without any convolutional layers.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 4 Experiments\n\nWe evaluate ViTGAN on CIFAR-10 and CelebA, reporting FID scores compared to convolutional baselines. Our model achieves competitive performance without any convolutional layers.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        7
+      ],
+      "token_count": 44,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_a2a352eda817956a_0009",
+      "document_id": "doc_a2a352eda817956a",
+      "section_id": "sec_doc_a2a352eda817956a_0009",
+      "section_title": "5 Conclusion",
+      "section_path": [
+        "5 Conclusion"
+      ],
+      "source_text": "We presented ViTGAN, demonstrating that pure transformer architectures are viable for high-fidelity image generation, opening avenues for future convolution-free generative models.",
+      "embedding_text": "Document: ViTGAN: Generative Adversarial Networks with Vision Transformers\nSection: 5 Conclusion\n\nWe presented ViTGAN, demonstrating that pure transformer architectures are viable for high-fidelity image generation, opening avenues for future convolution-free generative models.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        8
+      ],
+      "token_count": 36,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

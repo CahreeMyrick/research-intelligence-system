@@ -1,0 +1,805 @@
+{
+  "identity": {
+    "id": "doc_706e9db13da269f0",
+    "source": {
+      "filename": "refactoring-architecture-models.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/papers/refactoring-architecture-models.pdf",
+      "content_hash": "706e9db13da269f0af4b49adc08042b990d2e9939739bcb64236671c988a793d"
+    }
+  },
+  "metadata": {
+    "title": "ACM/IEEE MODELS 2018, København, Denmark",
+    "authors": [
+      "Ta’id Holmes"
+    ],
+    "affiliations": [],
+    "publication_year": 2018,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "ACM/IEEE MODELS 2018, København, Denmark",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Ta’id Holmes",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Motivation",
+      "level": 3,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Customization of Architecture Models",
+          "page": 1,
+          "position": 0
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Vision Idea",
+      "level": 3,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Automated Model Refactoring",
+          "page": 1,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Application",
+      "level": 3,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Cloud Application Orchestration",
+          "page": 1,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "Assumptions and Opportunities",
+          "page": 1,
+          "position": 3
+        }
+      ],
+      "subsections": [
+        {
+          "title": "New Ideas and Vision Paper @ Foundations Track",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Credits",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Jan Feb Mar Apr May Jun Jul Aug Sept Oct Nov Dec",
+              "page": 3,
+              "position": 4
+            },
+            {
+              "text": "Abstract Submission",
+              "page": 3,
+              "position": 5
+            },
+            {
+              "text": "Author Notification",
+              "page": 3,
+              "position": 6
+            },
+            {
+              "text": "Change of Employment",
+              "page": 3,
+              "position": 7
+            },
+            {
+              "text": "Paper Submission Presentation",
+              "page": 3,
+              "position": 8
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Publication Process",
+              "level": 4,
+              "page_start": 3,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "Camera Ready",
+                  "page": 3,
+                  "position": 9
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "● Work was carried out at Deutsche Telekom in collaboration with the University of Vienna (cf. author affiliations of published paper).",
+          "page": 4,
+          "position": 10
+        }
+      ],
+      "subsections": [
+        {
+          "title": "● It was partially supported by:",
+          "level": 4,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "○ Austrian Science Fund (FWF) Project ADDCompliance (no. I – 2885)",
+              "page": 4,
+              "position": 11
+            },
+            {
+              "text": "○ Austrian Research Promotion Agency (FFG) Project DECO (no. 864707)",
+              "page": 4,
+              "position": 12
+            },
+            {
+              "text": "● Conference participation and presentation of the contribution is conducted with Google.",
+              "page": 4,
+              "position": 13
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Motivation",
+          "level": 3,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Customers have Individual Requirements",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Not Always Known @ Design Time",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "… and Subject to Change",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Often, New Requirements Emerge",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "⇒ Architecture Models Need to be Customized",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 13,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Model-Based Engineering Custom Requirement Architecture Knowledge Custom- ization",
+              "level": 4,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "Security Policies",
+                  "page": 11,
+                  "position": 14
+                },
+                {
+                  "text": "Operational Requirements",
+                  "page": 11,
+                  "position": 15
+                },
+                {
+                  "text": "Local Legislations",
+                  "page": 11,
+                  "position": 16
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Customizing Software-Intensive Systems",
+              "level": 4,
+              "page_start": 11,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Vision Idea",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 13,
+              "paragraphs": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Compliance Through Refactorings",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "a change to the internal structure […] to improve[…] characteristics without changing its […] behavior.",
+              "page": 14,
+              "position": 17
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Martin Fowler “",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "”",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "Refactoring: Improving the Design of Existing Code. 1999, Addison-Wesley",
+          "page": 14,
+          "position": 18
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Deriving AK Out of Requirements First",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 16,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "2 Formalizing AK in Model Transformations",
+      "level": 1,
+      "page_start": 16,
+      "page_end": 23,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Application",
+          "level": 3,
+          "page_start": 17,
+          "page_end": 23,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Cloud Application Orchestration",
+              "level": 4,
+              "page_start": 18,
+              "page_end": 18,
+              "paragraphs": [
+                {
+                  "text": "Cloud Application Orchestration Models describe Cloud Applications:",
+                  "page": 18,
+                  "position": 19
+                },
+                {
+                  "text": "● Resources (e.g., Networking, Compute, Memory, Storage)",
+                  "page": 18,
+                  "position": 20
+                },
+                {
+                  "text": "● Dependencies",
+                  "page": 18,
+                  "position": 21
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Consumed by an Orchestration Engine",
+              "level": 4,
+              "page_start": 18,
+              "page_end": 19,
+              "paragraphs": [
+                {
+                  "text": "● Automates Deployment of an Application",
+                  "page": 18,
+                  "position": 22
+                },
+                {
+                  "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+                  "page": 18,
+                  "position": 23
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Deriving Architectural Knowledge from Requirements",
+              "level": 4,
+              "page_start": 19,
+              "page_end": 19,
+              "paragraphs": [
+                {
+                  "text": "● Architecture: high availability of services",
+                  "page": 19,
+                  "position": 24
+                },
+                {
+                  "text": "● Legislator: API for Legal Interception",
+                  "page": 19,
+                  "position": 25
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "● Operations",
+              "level": 4,
+              "page_start": 19,
+              "page_end": 20,
+              "paragraphs": [
+                {
+                  "text": "○ Secure Shell access over bastion host to instances",
+                  "page": 19,
+                  "position": 26
+                },
+                {
+                  "text": "○ unified solutions, e.g., for logging or monitoring",
+                  "page": 19,
+                  "position": 27
+                },
+                {
+                  "text": "● Security: firewalls mandated for protecting services",
+                  "page": 19,
+                  "position": 28
+                },
+                {
+                  "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+                  "page": 19,
+                  "position": 29
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Capturing Architectural Knowledge in Transformations",
+              "level": 4,
+              "page_start": 20,
+              "page_end": 20,
+              "paragraphs": [
+                {
+                  "text": "Model refactorings can be realized using, e.g.,",
+                  "page": 20,
+                  "position": 30
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "● Epsilon Object Language (EOL)",
+              "level": 4,
+              "page_start": 20,
+              "page_end": 20,
+              "paragraphs": [
+                {
+                  "text": "In particular:",
+                  "page": 20,
+                  "position": 31
+                },
+                {
+                  "text": "● Epsilon Wizard Language (EWL)",
+                  "page": 20,
+                  "position": 32
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "● Epsilon Validation Language (EVL)",
+              "level": 4,
+              "page_start": 20,
+              "page_end": 21,
+              "paragraphs": [
+                {
+                  "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+                  "page": 20,
+                  "position": 33
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Protecting a Service with a Firewall (EWL)",
+              "level": 4,
+              "page_start": 21,
+              "page_end": 22,
+              "paragraphs": [
+                {
+                  "text": "wizard Firewall_Protection {",
+                  "page": 21,
+                  "position": 34
+                },
+                {
+                  "text": "guard : self.isKindOf(Model!ao::ConnectionPoint) and",
+                  "page": 21,
+                  "position": 35
+                },
+                {
+                  "text": "guard : self.isPublic() and not self.isProtected()",
+                  "page": 21,
+                  "position": 36
+                },
+                {
+                  "text": "title : \"inserting a firewall for protecting \" + self.name",
+                  "page": 21,
+                  "position": 37
+                },
+                {
+                  "text": "do { self.owningModel.insertFirewall(self) }",
+                  "page": 21,
+                  "position": 38
+                },
+                {
+                  "text": "}",
+                  "page": 21,
+                  "position": 39
+                },
+                {
+                  "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+                  "page": 21,
+                  "position": 40
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Establishing High Service Availability (EVL)",
+              "level": 4,
+              "page_start": 22,
+              "page_end": 23,
+              "paragraphs": [
+                {
+                  "text": "context High_Availability {",
+                  "page": 22,
+                  "position": 41
+                },
+                {
+                  "text": "guard : self.isKindOf(Model!ao::ConnectionPoint) constraint C2_derived_from_R2 {",
+                  "page": 22,
+                  "position": 42
+                },
+                {
+                  "text": "check : self.ha message : \"R2 is not met by \" + self.name fix {",
+                  "page": 22,
+                  "position": 43
+                },
+                {
+                  "text": "title : \"new server instance with keepalived\" do {",
+                  "page": 22,
+                  "position": 44
+                },
+                {
+                  "text": "var service : new Service(\"keepalived\"); … } } } }",
+                  "page": 22,
+                  "position": 45
+                },
+                {
+                  "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+                  "page": 22,
+                  "position": 46
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 23,
+      "page_end": 28,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Manual Customization",
+          "level": 4,
+          "page_start": 24,
+          "page_end": 24,
+          "paragraphs": [
+            {
+              "text": "Each application is customized",
+              "page": 24,
+              "position": 47
+            },
+            {
+              "text": "individually while respecting",
+              "page": 24,
+              "position": 48
+            },
+            {
+              "text": "requirements.",
+              "page": 24,
+              "position": 49
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Model Refactoring",
+          "level": 4,
+          "page_start": 24,
+          "page_end": 24,
+          "paragraphs": [
+            {
+              "text": "Transformations capturing",
+              "page": 24,
+              "position": 50
+            },
+            {
+              "text": "architectural knowledge",
+              "page": 24,
+              "position": 51
+            },
+            {
+              "text": "automate customizations.",
+              "page": 24,
+              "position": 52
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Architectural Knowledge",
+          "level": 4,
+          "page_start": 24,
+          "page_end": 24,
+          "paragraphs": [
+            {
+              "text": "Architectural knowledge is derived",
+              "page": 24,
+              "position": 53
+            },
+            {
+              "text": "from requirements prior to any",
+              "page": 24,
+              "position": 54
+            },
+            {
+              "text": "customization.",
+              "page": 24,
+              "position": 55
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Customization Delivery Scenarios",
+          "level": 4,
+          "page_start": 24,
+          "page_end": 25,
+          "paragraphs": [
+            {
+              "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+              "page": 24,
+              "position": 56
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Effort Manual Centralized AK Model Refactoring",
+          "level": 4,
+          "page_start": 25,
+          "page_end": 25,
+          "paragraphs": [
+            {
+              "text": "Req. Disclosure (E1) required not required not required",
+              "page": 25,
+              "position": 57
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Arch. Knowledge (E2) every ISV once once",
+          "level": 4,
+          "page_start": 25,
+          "page_end": 25,
+          "paragraphs": [
+            {
+              "text": "Implementation (E3) for each application for each application automated",
+              "page": 25,
+              "position": 58
+            },
+            {
+              "text": "Verification (E4) for each application for each application automated",
+              "page": 25,
+              "position": 59
+            },
+            {
+              "text": "Total E1+E2*n(ISV)+(E3+E4)*n(Apps) E2+(E3+E4)*n(Apps) E2(Refactoring)",
+              "page": 25,
+              "position": 60
+            },
+            {
+              "text": "Key Takeaway: automated model refactoring approach scales best.",
+              "page": 25,
+              "position": 61
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Evaluating Approaches",
+          "level": 4,
+          "page_start": 25,
+          "page_end": 26,
+          "paragraphs": [
+            {
+              "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+              "page": 25,
+              "position": 62
+            },
+            {
+              "text": "● Architectural knowledge can be",
+              "page": 26,
+              "position": 63
+            },
+            {
+              "text": "○ derived from requirements;",
+              "page": 26,
+              "position": 64
+            },
+            {
+              "text": "○ formalized and expressed as model transformations.",
+              "page": 26,
+              "position": 65
+            },
+            {
+              "text": "● Conflicting requirements have been identified and resolved.",
+              "page": 26,
+              "position": 66
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Assumptions",
+          "level": 4,
+          "page_start": 26,
+          "page_end": 27,
+          "paragraphs": [
+            {
+              "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+              "page": 26,
+              "position": 67
+            },
+            {
+              "text": "● Systematic methods",
+              "page": 27,
+              "position": 68
+            },
+            {
+              "text": "for deriving model transformations from requirements.",
+              "page": 27,
+              "position": 69
+            },
+            {
+              "text": "● Idempotency, transitivity, and order of transformations.",
+              "page": 27,
+              "position": 70
+            },
+            {
+              "text": "● Non-destructive transformations.",
+              "page": 27,
+              "position": 71
+            },
+            {
+              "text": "● Protecting parts of the architecture prior to transformations.",
+              "page": 27,
+              "position": 72
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Further Work",
+          "level": 4,
+          "page_start": 27,
+          "page_end": 28,
+          "paragraphs": [
+            {
+              "text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+              "page": 27,
+              "position": 73
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Thank You",
+          "level": 2,
+          "page_start": 28,
+          "page_end": 28,
+          "paragraphs": [],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "page_count": 29,
+  "warnings": [
+    "no references detected"
+  ]
+}

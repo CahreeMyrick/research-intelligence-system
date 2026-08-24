@@ -1,0 +1,619 @@
+{
+  "document_id": "doc_0f0d2c208894485b",
+  "chunk_count": 25,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0000",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0000",
+      "section_title": "(preamble)",
+      "section_path": [
+        "(preamble)"
+      ],
+      "source_text": "36COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "embedding_text": "Document: practice\nSection: (preamble)\n\n36COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0
+      ],
+      "token_count": 20,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0001",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0001",
+      "section_title": "practice",
+      "section_path": [
+        "practice"
+      ],
+      "source_text": "FOR DECADES, DISCUSSION of software reuse was more common than actual software reuse. Today, the situation is reversed: developers reuse software written by others every day, in the form of software dependencies, and the situation goes mostly unexamined.\n\nMy background includes a decade of working with Google’s internal source code system, which treats software dependencies as a first-class concept,17 as well as developing support for dependencies in the Go programming language.2\n\nSoftware dependencies carry with them serious risks that are too often overlooked. The shift to easy, fine-grained software reuse has happened so quickly that we do not yet understand the best practices for choosing and using dependencies effectively, or even for deciding when they are appropriate and when not. The purpose of this article is to raise awareness of the risks and encourage more investigation of solutions.",
+      "embedding_text": "Document: practice\nSection: practice\n\nFOR DECADES, DISCUSSION of software reuse was more common than actual software reuse. Today, the situation is reversed: developers reuse software written by others every day, in the form of software dependencies, and the situation goes mostly unexamined.\n\nMy background includes a decade of working with Google’s internal source code system, which treats software dependencies as a first-class concept,17 as well as developing support for dependencies in the Go programming language.2\n\nSoftware dependencies carry with them serious risks that are too often overlooked. The shift to easy, fine-grained software reuse has happened so quickly that we do not yet understand the best practices for choosing and using dependencies effectively, or even for deciding when they are appropriate and when not. The purpose of this article is to raise awareness of the risks and encourage more investigation of solutions.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        1,
+        2,
+        3
+      ],
+      "token_count": 173,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0002",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0002",
+      "section_title": "In software development today, a dependency",
+      "section_path": [
+        "practice",
+        "In software development today, a dependency"
+      ],
+      "source_text": "is additional code a programmer wants to call. Adding a dependency avoids repeating work: designing, testing, de- bugging, and maintaining a specific unit of code. In this article, that unit of code is referred to as a package; some systems use the terms library and mod- ule instead.\n\nTaking on externally written depen- dencies is not new. Most programmers have at one point in their careers had to go through the steps of manually installing a required library, such as C’s PCRE or zlib; C++’s Boost or Qt; or Java’s JodaTime or JUnit. These pack- ages contain high-quality, debugged code that required significant exper- tise to develop. For a program that needs the functionality provided by one of these packages, the tedious work of manually downloading, in- stalling, and updating the package is easier than the work of redeveloping that functionality from scratch. The high fixed costs of reuse, however, mean manually reused packages tend to be big; a tiny package would be easier to reimplement.\n\nA dependency manager (a.k.a. pack- age manager) automates the download- ing and installation of dependency packages. As dependency managers make individual packages easier to download and install, the lower fixed costs make smaller packages economi- cal to publish and reuse. For example, the Node.js dependency manager NPM provides access to more than 750,000 packages. One of them, escape-string- regexp, consists of a single function that escapes regular expression opera- tors in its input. The entire implemen- tation is:\n\nvar matchOperatorsRe = /[|\\\\{}()[\\]^$+*?.]/g; module.exports = function (str) { if (typeof str !== ’string’) { throw new TypeError( ’Expected a string’); } return str.replace( matchOperatorsRe, ’\\\\$&’); };",
+      "embedding_text": "Document: practice\nSection: practice\nSubsection: In software development today, a dependency\n\nis additional code a programmer wants to call. Adding a dependency avoids repeating work: designing, testing, de- bugging, and maintaining a specific unit of code. In this article, that unit of code is referred to as a package; some systems use the terms library and mod- ule instead.\n\nTaking on externally written depen- dencies is not new. Most programmers have at one point in their careers had to go through the steps of manually installing a required library, such as C’s PCRE or zlib; C++’s Boost or Qt; or Java’s JodaTime or JUnit. These pack- ages contain high-quality, debugged code that required significant exper- tise to develop. For a program that needs the functionality provided by one of these packages, the tedious work of manually downloading, in- stalling, and updating the package is easier than the work of redeveloping that functionality from scratch. The high fixed costs of reuse, however, mean manually reused packages tend to be big; a tiny package would be easier to reimplement.\n\nA dependency manager (a.k.a. pack- age manager) automates the download- ing and installation of dependency packages. As dependency managers make individual packages easier to download and install, the lower fixed costs make smaller packages economi- cal to publish and reuse. For example, the Node.js dependency manager NPM provides access to more than 750,000 packages. One of them, escape-string- regexp, consists of a single function that escapes regular expression opera- tors in its input. The entire implemen- tation is:\n\nvar matchOperatorsRe = /[|\\\\{}()[\\]^$+*?.]/g; module.exports = function (str) { if (typeof str !== ’string’) { throw new TypeError( ’Expected a string’); } return str.replace( matchOperatorsRe, ’\\\\$&’); };",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "token_count": 435,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0003",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0003",
+      "section_title": "Surviving Software Dependencies",
+      "section_path": [
+        "Surviving Software Dependencies"
+      ],
+      "source_text": "Surviving Software Dependencies",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\n\nSurviving Software Dependencies",
+      "page_start": 0,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0004",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0004",
+      "section_title": "DOI:10.1145/3347446",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "DOI:10.1145/3347446"
+      ],
+      "source_text": "\u0007Article development led by\n\nqueue.acm.org\n\nSoftware reuse is finally here but comes with risks.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: DOI:10.1145/3347446\n\n\u0007Article development led by\n\nqueue.acm.org\n\nSoftware reuse is finally here but comes with risks.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        8,
+        9,
+        10
+      ],
+      "token_count": 21,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0005",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0005",
+      "section_title": "BY RUSS COX",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "BY RUSS COX"
+      ],
+      "source_text": "SEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM37\n\nIMAGE BY T. EMIL\n\nBefore dependency managers, publishing an eight-line code library would have been unthinkable: too much overhead for too little benefit. NPM, however, has driven the over- head approximately to zero, with the result that nearly trivial functionality can be packaged and reused. In late April 2019, the escape-string-regexp package was explicitly depended upon by almost a thousand other NPM packages, not to mention all the packages developers write for their own use and don’t share.\n\nDependency managers now exist for essentially every programming lan- guage: Maven Central (Java), NuGet (.NET), Packagist (PHP), PyPI (Python),\n\nand RubyGems (Ruby) each host more than 100,000 packages. The arrival of this kind of fine-grained, widespread software reuse is one of the most con- sequential shifts in software develop- ment over the past two decades. And if we are not more careful, it will lead to serious problems.\n\nWhat Could Go Wrong? A package, for this discussion, is code downloaded from the Internet. Adding a package as a dependency outsources the work of developing that code—de- signing, writing, testing, debugging, and maintaining—to someone else on the Internet, often unknown to the pro- grammer. Using that code exposes the program to all the failures and flaws in the dependency. The program’s ex- ecution now literally depends on code downloaded from this stranger on the Internet. Presented this way, it sounds incredibly unsafe. Why would anyone do this?\n\nBecause it’s easy, it seems to work, everyone else is doing it, and, most importantly, it seems like a natural continuation of age-old established\n\npractice. But there are important dif- ferences that are being ignored.\n\nDecades ago, most developers trust- ed others to write the software they depended on, such as operating sys- tems and compilers. That software was purchased from known sources, often with some kind of support agreement. There was still a potential for bugs or outright mischief,20 but at least the de- velopers knew who they were dealing with and usually had commercial or legal recourses available.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: BY RUSS COX\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM37\n\nIMAGE BY T. EMIL\n\nBefore dependency managers, publishing an eight-line code library would have been unthinkable: too much overhead for too little benefit. NPM, however, has driven the over- head approximately to zero, with the result that nearly trivial functionality can be packaged and reused. In late April 2019, the escape-string-regexp package was explicitly depended upon by almost a thousand other NPM packages, not to mention all the packages developers write for their own use and don’t share.\n\nDependency managers now exist for essentially every programming lan- guage: Maven Central (Java), NuGet (.NET), Packagist (PHP), PyPI (Python),\n\nand RubyGems (Ruby) each host more than 100,000 packages. The arrival of this kind of fine-grained, widespread software reuse is one of the most con- sequential shifts in software develop- ment over the past two decades. And if we are not more careful, it will lead to serious problems.\n\nWhat Could Go Wrong? A package, for this discussion, is code downloaded from the Internet. Adding a package as a dependency outsources the work of developing that code—de- signing, writing, testing, debugging, and maintaining—to someone else on the Internet, often unknown to the pro- grammer. Using that code exposes the program to all the failures and flaws in the dependency. The program’s ex- ecution now literally depends on code downloaded from this stranger on the Internet. Presented this way, it sounds incredibly unsafe. Why would anyone do this?\n\nBecause it’s easy, it seems to work, everyone else is doing it, and, most importantly, it seems like a natural continuation of age-old established\n\npractice. But there are important dif- ferences that are being ignored.\n\nDecades ago, most developers trust- ed others to write the software they depended on, such as operating sys- tems and compilers. That software was purchased from known sources, often with some kind of support agreement. There was still a potential for bugs or outright mischief,20 but at least the de- velopers knew who they were dealing with and usually had commercial or legal recourses available.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "token_count": 482,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0006",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0005",
+      "section_title": "BY RUSS COX",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "BY RUSS COX"
+      ],
+      "source_text": "The phenomenon of open source software, distributed at no cost over the Internet, has displaced many of those earlier software purchases. When reuse was difficult, there were fewer projects publishing reusable code packages. Even though their licenses typically dis- claimed, among other things, any “im- plied warranties of merchantability and fitness for a particular purpose,” the projects built up well-known reputa- tions that often factored heavily into people’s decisions about which to use. The commercial and legal sup- port for trusting software sources was replaced by reputational support.\n\n38COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: BY RUSS COX\n\nThe phenomenon of open source software, distributed at no cost over the Internet, has displaced many of those earlier software purchases. When reuse was difficult, there were fewer projects publishing reusable code packages. Even though their licenses typically dis- claimed, among other things, any “im- plied warranties of merchantability and fitness for a particular purpose,” the projects built up well-known reputa- tions that often factored heavily into people’s decisions about which to use. The commercial and legal sup- port for trusting software sources was replaced by reputational support.\n\n38COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        20,
+        21
+      ],
+      "token_count": 140,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0007",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0006",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "No matter what the expected cost, experiences with larger dependencies suggest some approaches for estimat- ing and reducing the risks of adding a software dependency. Better tooling is likely needed to help reduce the costs of these approaches, much as depen- dency managers have focused to date on reducing the costs of downloading and installation.\n\nInspect the Dependency You would not hire a software devel- oper you have never heard of and know nothing about. You would learn more about the person first: check referenc- es, conduct a job interview, run back- ground checks, and so on. Before you depend on a package found on the In- ternet, it is similarly prudent to learn a bit about it first.\n\nA basic inspection can provide a sense of how likely you are to run into problems trying to use this code. If the inspection reveals likely minor prob- lems, you can take steps to prepare for or perhaps avoid them. If the in- spection reveals major problems, it may be best not to use the package; maybe you will find a more suitable one, or maybe you need to develop one yourself. Remember that open source packages are published by their authors in the hope they will be useful but with no guarantee of usability or support. In the middle of a production outage, you will be the one debugging the package. As the original GNU General Public Li- cense warned, “The entire risk as to the quality and performance of the program is with you. Should the pro- gram prove defective, you assume the cost of all necessary servicing, repair or correction.”7\n\nThe following are some consider- ations when inspecting a package and deciding whether to depend on it:\n\nDesign. Is the documentation clear? Does the API have a clear design? If the authors can explain the package’s API and its design well in the documen- tation, that increases the likelihood they have explained the implementa- tion well to the computer in the source code. Writing code using a clear, well- designed API is also easier, faster, and hopefully less error-prone. Have the authors documented what they expect from client code in order to make fu-\n\nMany common early packages still en- joy good reputations: consider BLAS (published in 1979), Netlib (1987), libjpeg (1991), LAPACK (1992), HP STL (1994), and zlib (1995).",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nNo matter what the expected cost, experiences with larger dependencies suggest some approaches for estimat- ing and reducing the risks of adding a software dependency. Better tooling is likely needed to help reduce the costs of these approaches, much as depen- dency managers have focused to date on reducing the costs of downloading and installation.\n\nInspect the Dependency You would not hire a software devel- oper you have never heard of and know nothing about. You would learn more about the person first: check referenc- es, conduct a job interview, run back- ground checks, and so on. Before you depend on a package found on the In- ternet, it is similarly prudent to learn a bit about it first.\n\nA basic inspection can provide a sense of how likely you are to run into problems trying to use this code. If the inspection reveals likely minor prob- lems, you can take steps to prepare for or perhaps avoid them. If the in- spection reveals major problems, it may be best not to use the package; maybe you will find a more suitable one, or maybe you need to develop one yourself. Remember that open source packages are published by their authors in the hope they will be useful but with no guarantee of usability or support. In the middle of a production outage, you will be the one debugging the package. As the original GNU General Public Li- cense warned, “The entire risk as to the quality and performance of the program is with you. Should the pro- gram prove defective, you assume the cost of all necessary servicing, repair or correction.”7\n\nThe following are some consider- ations when inspecting a package and deciding whether to depend on it:\n\nDesign. Is the documentation clear? Does the API have a clear design? If the authors can explain the package’s API and its design well in the documen- tation, that increases the likelihood they have explained the implementa- tion well to the computer in the source code. Writing code using a clear, well- designed API is also easier, faster, and hopefully less error-prone. Have the authors documented what they expect from client code in order to make fu-\n\nMany common early packages still en- joy good reputations: consider BLAS (published in 1979), Netlib (1987), libjpeg (1991), LAPACK (1992), HP STL (1994), and zlib (1995).",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "token_count": 508,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0008",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0006",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "Many common early packages still en- joy good reputations: consider BLAS (published in 1979), Netlib (1987), libjpeg (1991), LAPACK (1992), HP STL (1994), and zlib (1995).\n\nDependency managers have scaled down this open source code reuse mod- el. Now, developers can share code at the granularity of individual functions consisting of tens of lines of code. This is a major technical accomplishment. Myriad packages are available, and writing code can involve a large num- ber of them, but the commercial, legal, and reputational support mechanisms for trusting the code have not carried over. Developers trust more code with less justification for doing so.\n\nThe cost of adopting a bad depen- dency can be viewed as the sum, over all possible bad outcomes, of the cost of each bad outcome multiplied by its probability of happening (risk), as shown in the equation.\n\nexpected cost = cost(b) × probability(b)\n\nb∈ bad outcomes ∑\n\nThe context in which a dependency will be used determines the cost of a bad outcome. At one end of the spec- trum is a personal hobby project, where the cost of most bad outcomes is near zero: you are just having fun, bugs have no real impact other than wasting time, and even debugging can be fun. So, the risk probability almost doesn’t matter—it’s being multiplied by a failure cost of almost zero. At the other end of the spectrum is produc- tion software that must be maintained for years. Here, the cost of a bug in a dependency can be very high: servers may go down, sensitive data may be di- vulged, customers may be harmed, or companies may fail. High failure costs make it much more important to esti- mate and then reduce any risk of a seri- ous failure.\n\nDevelopers trust more code with less justification for doing so.\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM39",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nMany common early packages still en- joy good reputations: consider BLAS (published in 1979), Netlib (1987), libjpeg (1991), LAPACK (1992), HP STL (1994), and zlib (1995).\n\nDependency managers have scaled down this open source code reuse mod- el. Now, developers can share code at the granularity of individual functions consisting of tens of lines of code. This is a major technical accomplishment. Myriad packages are available, and writing code can involve a large num- ber of them, but the commercial, legal, and reputational support mechanisms for trusting the code have not carried over. Developers trust more code with less justification for doing so.\n\nThe cost of adopting a bad depen- dency can be viewed as the sum, over all possible bad outcomes, of the cost of each bad outcome multiplied by its probability of happening (risk), as shown in the equation.\n\nexpected cost = cost(b) × probability(b)\n\nb∈ bad outcomes ∑\n\nThe context in which a dependency will be used determines the cost of a bad outcome. At one end of the spec- trum is a personal hobby project, where the cost of most bad outcomes is near zero: you are just having fun, bugs have no real impact other than wasting time, and even debugging can be fun. So, the risk probability almost doesn’t matter—it’s being multiplied by a failure cost of almost zero. At the other end of the spectrum is produc- tion software that must be maintained for years. Here, the cost of a bug in a dependency can be very high: servers may go down, sensitive data may be di- vulged, customers may be harmed, or companies may fail. High failure costs make it much more important to esti- mate and then reduce any risk of a seri- ous failure.\n\nDevelopers trust more code with less justification for doing so.\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM39",
+      "page_start": 2,
+      "page_end": 3,
+      "paragraph_positions": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "token_count": 424,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0009",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0007",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "ture upgrades compatible? (Examples include the C++23 and Go8 compatibil- ity documents.)\n\nCode quality. Is the code well writ- ten? Read some of it. Does it look like the authors have been careful, consci- entious, and consistent? Does it look like code you would want to debug? You may need to.\n\nDevelop your own systematic ways to check code quality. For example, something as simple as compiling a C or C++ program with important com- piler warnings enabled (for example, –Wall) can give you a sense of how se- riously the developers work to avoid various undefined behaviors. Recent languages such as Go, Rust, and Swift use an unsafe keyword to mark code that violates the type system; look to see how much unsafe code there is. More advanced semantic tools such as Infer6 or SpotBugs19 are helpful, too. Linters are less helpful: you should ignore rote suggestions about topics such as brace style and focus instead on semantic problems.\n\nKeep an open mind about unfamil- iar development practices. For exam- ple, the SQLite library ships as a single 200,000-line C source file and a single 11,000-line header called the amal- gamation. The sheer size of these files should raise an initial red flag, but closer investigation would turn up the actual development source code, a traditional file tree with more than 100 C source files, tests, and support scripts. It turns out the single-file distribution is built automatically from the original sources and is easier for end users, especially those without dependency managers. (The compiled code also runs faster, be- cause the compiler can see more optimi- zation opportunities.)\n\nTesting. Does the code have tests? Can you run them? Do they pass? Tests establish the code’s basic functionality is correct, and they signal the developer is serious about keeping it correct. For example, the SQLite development tree has an incredibly thorough test suite with more than 30,000 individual test cases, as well as developer documenta- tion explaining the testing strategy.10 On the other hand, if there are few tests or no tests, or if the tests fail, that’s a serious red flag. Future changes to the package are likely to introduce re- gressions that could easily have been",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nture upgrades compatible? (Examples include the C++23 and Go8 compatibil- ity documents.)\n\nCode quality. Is the code well writ- ten? Read some of it. Does it look like the authors have been careful, consci- entious, and consistent? Does it look like code you would want to debug? You may need to.\n\nDevelop your own systematic ways to check code quality. For example, something as simple as compiling a C or C++ program with important com- piler warnings enabled (for example, –Wall) can give you a sense of how se- riously the developers work to avoid various undefined behaviors. Recent languages such as Go, Rust, and Swift use an unsafe keyword to mark code that violates the type system; look to see how much unsafe code there is. More advanced semantic tools such as Infer6 or SpotBugs19 are helpful, too. Linters are less helpful: you should ignore rote suggestions about topics such as brace style and focus instead on semantic problems.\n\nKeep an open mind about unfamil- iar development practices. For exam- ple, the SQLite library ships as a single 200,000-line C source file and a single 11,000-line header called the amal- gamation. The sheer size of these files should raise an initial red flag, but closer investigation would turn up the actual development source code, a traditional file tree with more than 100 C source files, tests, and support scripts. It turns out the single-file distribution is built automatically from the original sources and is easier for end users, especially those without dependency managers. (The compiled code also runs faster, be- cause the compiler can see more optimi- zation opportunities.)\n\nTesting. Does the code have tests? Can you run them? Do they pass? Tests establish the code’s basic functionality is correct, and they signal the developer is serious about keeping it correct. For example, the SQLite development tree has an incredibly thorough test suite with more than 30,000 individual test cases, as well as developer documenta- tion explaining the testing strategy.10 On the other hand, if there are few tests or no tests, or if the tests fail, that’s a serious red flag. Future changes to the package are likely to introduce re- gressions that could easily have been",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "token_count": 494,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0010",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0007",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "caught. If you insist on tests in code you write (you do, right?), you should insist on tests in code you outsource to others.\n\nAssuming the tests exist, run, and pass, you can gather more information by running them with runtime instru- mentation such as code coverage analy- sis, race detection,16 memory-allocation checking, and memory-leak detection.\n\nDebugging. Find the package’s is- sue tracker. Are there many open bug reports? How long have they been open? Are there many fixed bugs? Have any bugs been fixed recently? If you see lots of open issues about what look like real bugs, especially if they have been open for a long time, that’s not a good sign. On the other hand, if the closed issues show that bugs are rarely found and promptly fixed, that’s great.\n\nMaintenance. Look at the pack- age’s commit history. How long has the code been actively maintained? Is it actively maintained now? Packages that have been actively maintained for an extended amount of time are more likely to continue to be main- tained. How many people work on the package? Many packages are per- sonal projects that developers create and share for fun in their spare time. Others are the result of thousands of hours of work by a group of paid de- velopers. In general, the latter kind of package is more likely to have prompt bug fixes, steady improvements, and general upkeep.\n\nOn the other hand, some code really is “done.” For example, NPM’s escape- string-regexp, shown earlier, may nev- er need to be modified again.\n\nUsage. Do many other packages de- pend on this code? Dependency man- agers can often provide statistics about usage, or you can use a Web search to estimate how often others write about using the package. More users should\n\nat least mean more people for whom the code works well enough, along with faster detection of new bugs. Wide- spread usage is also a hedge against the question of continued maintenance; if a widely used package loses its main- tainer, an interested user is likely to step forward.\n\nFor example, libraries such as PCRE or Boost or JUnit are incredibly widely used. That makes it more likely—al- though certainly not guaranteed—that bugs you might otherwise run into have already been fixed, because others ran into them first.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\ncaught. If you insist on tests in code you write (you do, right?), you should insist on tests in code you outsource to others.\n\nAssuming the tests exist, run, and pass, you can gather more information by running them with runtime instru- mentation such as code coverage analy- sis, race detection,16 memory-allocation checking, and memory-leak detection.\n\nDebugging. Find the package’s is- sue tracker. Are there many open bug reports? How long have they been open? Are there many fixed bugs? Have any bugs been fixed recently? If you see lots of open issues about what look like real bugs, especially if they have been open for a long time, that’s not a good sign. On the other hand, if the closed issues show that bugs are rarely found and promptly fixed, that’s great.\n\nMaintenance. Look at the pack- age’s commit history. How long has the code been actively maintained? Is it actively maintained now? Packages that have been actively maintained for an extended amount of time are more likely to continue to be main- tained. How many people work on the package? Many packages are per- sonal projects that developers create and share for fun in their spare time. Others are the result of thousands of hours of work by a group of paid de- velopers. In general, the latter kind of package is more likely to have prompt bug fixes, steady improvements, and general upkeep.\n\nOn the other hand, some code really is “done.” For example, NPM’s escape- string-regexp, shown earlier, may nev- er need to be modified again.\n\nUsage. Do many other packages de- pend on this code? Dependency man- agers can often provide statistics about usage, or you can use a Web search to estimate how often others write about using the package. More users should\n\nat least mean more people for whom the code works well enough, along with faster detection of new bugs. Wide- spread usage is also a hedge against the question of continued maintenance; if a widely used package loses its main- tainer, an interested user is likely to step forward.\n\nFor example, libraries such as PCRE or Boost or JUnit are incredibly widely used. That makes it more likely—al- though certainly not guaranteed—that bugs you might otherwise run into have already been fixed, because others ran into them first.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "token_count": 506,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0011",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0007",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "For example, libraries such as PCRE or Boost or JUnit are incredibly widely used. That makes it more likely—al- though certainly not guaranteed—that bugs you might otherwise run into have already been fixed, because others ran into them first.\n\nSecurity. Will you be processing un- trusted inputs with the package? If so, does it seem to be robust against mali- cious inputs? Does it have a history of security problems listed in the NVD (National Vulnerability Database)?13\n\nFor example, in 2006 when Jeff Dean and I started work on Google Code Search5—grep over public source code—the popular PCRE regular ex- pression library seemed like an ob- vious choice. In an early discussion with Google’s security team, however, we learned that PCRE had a history of problems such as buffer overflows, especially in its parser. We could have learned the same by searching for PCRE in the NVD. That discovery did not immediately cause us to abandon PCRE, but it did make us think more carefully about testing and isolation.\n\nLicensing. Is the code properly li- censed? Does it have a license at all? Is the license acceptable for your proj- ect or company? A surprising fraction of projects on GitHub have no clear license. Your project or company may impose further restrictions on the al- lowed licenses of dependencies. For example, Google disallows the use of code licensed under AGPL-like licens- es (too onerous), as well as WTFPL-like licenses (too vague).9\n\nDependencies. Does the code have\n\n40COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nFor example, libraries such as PCRE or Boost or JUnit are incredibly widely used. That makes it more likely—al- though certainly not guaranteed—that bugs you might otherwise run into have already been fixed, because others ran into them first.\n\nSecurity. Will you be processing un- trusted inputs with the package? If so, does it seem to be robust against mali- cious inputs? Does it have a history of security problems listed in the NVD (National Vulnerability Database)?13\n\nFor example, in 2006 when Jeff Dean and I started work on Google Code Search5—grep over public source code—the popular PCRE regular ex- pression library seemed like an ob- vious choice. In an early discussion with Google’s security team, however, we learned that PCRE had a history of problems such as buffer overflows, especially in its parser. We could have learned the same by searching for PCRE in the NVD. That discovery did not immediately cause us to abandon PCRE, but it did make us think more carefully about testing and isolation.\n\nLicensing. Is the code properly li- censed? Does it have a license at all? Is the license acceptable for your proj- ect or company? A surprising fraction of projects on GitHub have no clear license. Your project or company may impose further restrictions on the al- lowed licenses of dependencies. For example, Google disallows the use of code licensed under AGPL-like licens- es (too onerous), as well as WTFPL-like licenses (too vague).9\n\nDependencies. Does the code have\n\n40COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "page_start": 3,
+      "page_end": 4,
+      "paragraph_positions": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "token_count": 357,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0012",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0008",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "tute a different, equally appropriate dependency later, by changing only the wrapper. Migrating your per-proj- ect tests to use the new interface will test the interface and wrapper imple- mentation, as well as making it easy to test any potential replacements for the dependency.\n\nFor Code Search, we developed an abstract Regexp class that defined the interface Code Search needed from any regular expression engine. Then we wrote a thin wrapper around PCRE implementing that interface. The indirection made it easy to test alternate libraries, and it prevented accidentally introducing knowledge of PCRE internals into the rest of the source tree. That in turn ensured it would be easy to switch to a different dependency if needed.\n\nIsolate the Dependency Isolating a dependency at runtime may also be appropriate in order to limit the possible damage caused by bugs. For example, Google Chrome allows users to add dependencies—extension code—to the browser. When Chrome launched in 2008, it introduced the critical feature (now standard in all browsers) of isolating each extension in a sandbox running in a separate op- erating-system process.18\n\nAn exploitable bug in a badly writ- ten extension therefore did not au- tomatically have access to the entire memory of the browser itself and could be stopped from making inap- propriate system calls.12 For Code Search, until we dropped PCRE en- tirely, the plan was to isolate at least the PCRE parser in a similar sandbox. Today, another option would be a lightweight hypervisor-based sand- box such as gVisor.11 Isolating depen- dencies reduces the associated risks of running that code.\n\nEven with these examples and oth-\n\ndependencies of its own? Flaws in in- direct dependencies are just as bad for your program as flaws in direct dependencies. Dependency managers can list all the transitive dependen- cies of a given package, and each of them should ideally be inspected as described here. A package with many dependencies incurs additional in- spection work, because those same dependencies incur additional risk that needs to be evaluated.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\ntute a different, equally appropriate dependency later, by changing only the wrapper. Migrating your per-proj- ect tests to use the new interface will test the interface and wrapper imple- mentation, as well as making it easy to test any potential replacements for the dependency.\n\nFor Code Search, we developed an abstract Regexp class that defined the interface Code Search needed from any regular expression engine. Then we wrote a thin wrapper around PCRE implementing that interface. The indirection made it easy to test alternate libraries, and it prevented accidentally introducing knowledge of PCRE internals into the rest of the source tree. That in turn ensured it would be easy to switch to a different dependency if needed.\n\nIsolate the Dependency Isolating a dependency at runtime may also be appropriate in order to limit the possible damage caused by bugs. For example, Google Chrome allows users to add dependencies—extension code—to the browser. When Chrome launched in 2008, it introduced the critical feature (now standard in all browsers) of isolating each extension in a sandbox running in a separate op- erating-system process.18\n\nAn exploitable bug in a badly writ- ten extension therefore did not au- tomatically have access to the entire memory of the browser itself and could be stopped from making inap- propriate system calls.12 For Code Search, until we dropped PCRE en- tirely, the plan was to isolate at least the PCRE parser in a similar sandbox. Today, another option would be a lightweight hypervisor-based sand- box such as gVisor.11 Isolating depen- dencies reduces the associated risks of running that code.\n\nEven with these examples and oth-\n\ndependencies of its own? Flaws in in- direct dependencies are just as bad for your program as flaws in direct dependencies. Dependency managers can list all the transitive dependen- cies of a given package, and each of them should ideally be inspected as described here. A package with many dependencies incurs additional in- spection work, because those same dependencies incur additional risk that needs to be evaluated.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "token_count": 442,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0013",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0008",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "Many developers have never looked at the full list of transitive dependen- cies of their code and do not know what they depend on. For example, the NPM user community discovered in March 2016 that many popular projects—including Babel, Ember, and React—all depended indirectly on a tiny package called left-pad, con- sisting of a single eight-line function body. They discovered this when the author of left-pad deleted that pack- age from NPM, inadvertently break- ing most Node.js users’ builds.22 And left-pad is hardly exceptional in this regard. For example, 30% of the 750,000 packages published on NPM depend—at least indirectly—on es- cape-string-regexp. Adapting Leslie Lamport’s observation about distrib- uted systems, a dependency manager can easily create a situation in which the failure of a package you did not even know existed can render your own code unusable.\n\nTest the Dependency The inspection process should in- clude running a package’s own tests. If the package passes the inspection and you decide to make your project depend on it, the next step should be to write new tests focused on the functionality needed by your appli- cation. These tests often start out as short stand-alone programs written to ensure you can understand the\n\npackage’s API and that it does what you think it does. (If you can’t or it doesn’t, turn back now!) It is worth making the extra effort to turn those programs into automated tests that can be run against newer versions of the package. If you find a bug and have a potential fix, you will want to be able to rerun these project-specific tests easily, to ensure the fix did not break anything else.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nMany developers have never looked at the full list of transitive dependen- cies of their code and do not know what they depend on. For example, the NPM user community discovered in March 2016 that many popular projects—including Babel, Ember, and React—all depended indirectly on a tiny package called left-pad, con- sisting of a single eight-line function body. They discovered this when the author of left-pad deleted that pack- age from NPM, inadvertently break- ing most Node.js users’ builds.22 And left-pad is hardly exceptional in this regard. For example, 30% of the 750,000 packages published on NPM depend—at least indirectly—on es- cape-string-regexp. Adapting Leslie Lamport’s observation about distrib- uted systems, a dependency manager can easily create a situation in which the failure of a package you did not even know existed can render your own code unusable.\n\nTest the Dependency The inspection process should in- clude running a package’s own tests. If the package passes the inspection and you decide to make your project depend on it, the next step should be to write new tests focused on the functionality needed by your appli- cation. These tests often start out as short stand-alone programs written to ensure you can understand the\n\npackage’s API and that it does what you think it does. (If you can’t or it doesn’t, turn back now!) It is worth making the extra effort to turn those programs into automated tests that can be run against newer versions of the package. If you find a bug and have a potential fix, you will want to be able to rerun these project-specific tests easily, to ensure the fix did not break anything else.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        59,
+        60,
+        61
+      ],
+      "token_count": 373,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0014",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0008",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "It is especially worth exercising the likely problem areas identified by the basic inspection. For Code Search, we knew from past experience that PCRE sometimes took a long time to execute certain regular expression searches. The initial plan was to have separate thread pools for “simple” and “complicated” regular expres- sion searches. One of the first tests was a benchmark comparing pcre- grep with a few other grep implemen- tations. For one basic test case, pcre- grep was 70 times slower than the fastest grep available, so we started to rethink the plan to use PCRE. Even though PCRE was eventually dropped entirely, that benchmark remains in the code base today.\n\nAbstract the Dependency Depending on a package is a decision likely to be revisited later. Perhaps updates will take the package in a new direction. Perhaps serious secu- rity problems will be found. Perhaps a better option will come along. For all these reasons, it is worth the effort to make it easy to migrate your project to a new dependency.\n\nIf the package will be used from many places in your project’s source code, migrating to a new dependen- cy would require making changes to all those different source locations. Worse, if the package will be exposed in your own project’s API, migrat- ing to a new dependency would re- quire making changes in all the code calling your API, which you might not control. To avoid these costs, it makes sense to define an interface of your own, along with a thin wrapper implementing that interface using the dependency. Note that the wrap- per should include only what your project needs from the dependency, not everything the dependency of- fers. Ideally, that allows you to substi-\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM41",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nIt is especially worth exercising the likely problem areas identified by the basic inspection. For Code Search, we knew from past experience that PCRE sometimes took a long time to execute certain regular expression searches. The initial plan was to have separate thread pools for “simple” and “complicated” regular expres- sion searches. One of the first tests was a benchmark comparing pcre- grep with a few other grep implemen- tations. For one basic test case, pcre- grep was 70 times slower than the fastest grep available, so we started to rethink the plan to use PCRE. Even though PCRE was eventually dropped entirely, that benchmark remains in the code base today.\n\nAbstract the Dependency Depending on a package is a decision likely to be revisited later. Perhaps updates will take the package in a new direction. Perhaps serious secu- rity problems will be found. Perhaps a better option will come along. For all these reasons, it is worth the effort to make it easy to migrate your project to a new dependency.\n\nIf the package will be used from many places in your project’s source code, migrating to a new dependen- cy would require making changes to all those different source locations. Worse, if the package will be exposed in your own project’s API, migrat- ing to a new dependency would re- quire making changes in all the code calling your API, which you might not control. To avoid these costs, it makes sense to define an interface of your own, along with a thin wrapper implementing that interface using the dependency. Note that the wrap- per should include only what your project needs from the dependency, not everything the dependency of- fers. Ideally, that allows you to substi-\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM41",
+      "page_start": 4,
+      "page_end": 5,
+      "paragraph_positions": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "token_count": 379,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0015",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0009",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "er off-the-shelf options, runtime iso- lation of suspect code is still too dif- ficult and rarely done. True isolation would require a completely memory- safe language, with no escape hatch into untyped code. That’s challeng- ing not just in entirely unsafe lan- guages such as C and C++, but also in languages that provide restricted un- safe operations, such as Java when including JNI (Java Native Interface), or Go, Rust, and Swift when includ- ing their “unsafe” features. Even in a memory-safe language such as Ja- vaScript, code often has access to far more than it needs. In November 2018, the latest version of the NPM package event-stream, which pro- vided a functional streaming API for JavaScript events, was discovered to contain obfuscated malicious code that had been added 2.5 months ear- lier. The code, which harvested large Bitcoin wallets from users of the Co- pay mobile app, was accessing system resources entirely unrelated to pro- cessing event streams.1 One of many possible defenses to this kind of prob- lem would be to better restrict what dependencies can access.\n\nAvoid the Dependency If a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.\n\nFor example, as we better under- stood the risks and costs associated with PCRE, our plan for Google Code Search evolved from “use PCRE di- rectly,” to “use PCRE but sandbox the parser,” to “write a new regular ex- pression parser but keep the PCRE ex- ecution engine,” to “write a new pars- er and connect it to a different, more efficient open source execution en- gine.” Later we rewrote the execution engine as well, so that no dependen- cies were left, and we open sourced the result: RE2.4\n\nIf you need only a tiny fraction of a dependency, the simplest solu- tion may be to make a copy of what you need (preserving appropriate copyright and other legal notices, of course). You are taking on responsi- bility for fixing bugs, maintenance, and so on, but you are also completely isolated from the larger risks. The Go",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\ner off-the-shelf options, runtime iso- lation of suspect code is still too dif- ficult and rarely done. True isolation would require a completely memory- safe language, with no escape hatch into untyped code. That’s challeng- ing not just in entirely unsafe lan- guages such as C and C++, but also in languages that provide restricted un- safe operations, such as Java when including JNI (Java Native Interface), or Go, Rust, and Swift when includ- ing their “unsafe” features. Even in a memory-safe language such as Ja- vaScript, code often has access to far more than it needs. In November 2018, the latest version of the NPM package event-stream, which pro- vided a functional streaming API for JavaScript events, was discovered to contain obfuscated malicious code that had been added 2.5 months ear- lier. The code, which harvested large Bitcoin wallets from users of the Co- pay mobile app, was accessing system resources entirely unrelated to pro- cessing event streams.1 One of many possible defenses to this kind of prob- lem would be to better restrict what dependencies can access.\n\nAvoid the Dependency If a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.\n\nFor example, as we better under- stood the risks and costs associated with PCRE, our plan for Google Code Search evolved from “use PCRE di- rectly,” to “use PCRE but sandbox the parser,” to “write a new regular ex- pression parser but keep the PCRE ex- ecution engine,” to “write a new pars- er and connect it to a different, more efficient open source execution en- gine.” Later we rewrote the execution engine as well, so that no dependen- cies were left, and we open sourced the result: RE2.4\n\nIf you need only a tiny fraction of a dependency, the simplest solu- tion may be to make a copy of what you need (preserving appropriate copyright and other legal notices, of course). You are taking on responsi- bility for fixing bugs, maintenance, and so on, but you are also completely isolated from the larger risks. The Go",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "token_count": 511,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0016",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0009",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "developer community has a proverb about this: “A little copying is better than a little dependency.”14\n\nUpgrade the Dependency For a long time, the conventional wis- dom about software was, “If it ain’t broke, don’t fix it.” Upgrading carries a chance of introducing new bugs; with- out a corresponding reward—such as a new feature you need—why take the risk? This analysis ignores two costs. The first is the cost of the eventual upgrade. In software, the difficulty of making code changes does not scale linearly: making 10 small changes is less work and easier to get right than making one equivalent large change. The second is the cost of discovering already-fixed bugs the hard way. Es- pecially in a security context, where known bugs are actively exploited, ev- ery day you wait is another day that at- tackers can break in.\n\nFor example, consider what hap- pened at Equifax in 2017, as recounted by executives in detailed Congressional testimony.21 On March 7, a new vulner- ability in Apache Struts was disclosed, and a patched version was released. On March 8, Equifax received a notice from US-CERT (United States Comput- er Emergency Readiness Team) about the need to update any uses of Apache Struts. Equifax ran source code and network scans on March 9 and March 15, respectively; neither scan turned up a particular group of public-facing Web servers. On May 13, attackers found the servers that Equifax’s se- curity teams could not. They used the Apache Struts vulnerability to breach Equifax’s network and then steal de- tailed personal and financial informa- tion about 148 million people over the next two months. Equifax finally no- ticed the breach on July 29 and publicly disclosed it on September 4. By the end of September, Equifax’s CEO, CIO, and\n\nEven after all that work, you are not done tending your dependencies. It’s important to continue to monitor them and perhaps even re-evaluate your decision to use them.\n\n42COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\ndeveloper community has a proverb about this: “A little copying is better than a little dependency.”14\n\nUpgrade the Dependency For a long time, the conventional wis- dom about software was, “If it ain’t broke, don’t fix it.” Upgrading carries a chance of introducing new bugs; with- out a corresponding reward—such as a new feature you need—why take the risk? This analysis ignores two costs. The first is the cost of the eventual upgrade. In software, the difficulty of making code changes does not scale linearly: making 10 small changes is less work and easier to get right than making one equivalent large change. The second is the cost of discovering already-fixed bugs the hard way. Es- pecially in a security context, where known bugs are actively exploited, ev- ery day you wait is another day that at- tackers can break in.\n\nFor example, consider what hap- pened at Equifax in 2017, as recounted by executives in detailed Congressional testimony.21 On March 7, a new vulner- ability in Apache Struts was disclosed, and a patched version was released. On March 8, Equifax received a notice from US-CERT (United States Comput- er Emergency Readiness Team) about the need to update any uses of Apache Struts. Equifax ran source code and network scans on March 9 and March 15, respectively; neither scan turned up a particular group of public-facing Web servers. On May 13, attackers found the servers that Equifax’s se- curity teams could not. They used the Apache Struts vulnerability to breach Equifax’s network and then steal de- tailed personal and financial informa- tion about 148 million people over the next two months. Equifax finally no- ticed the breach on July 29 and publicly disclosed it on September 4. By the end of September, Equifax’s CEO, CIO, and\n\nEven after all that work, you are not done tending your dependencies. It’s important to continue to monitor them and perhaps even re-evaluate your decision to use them.\n\n42COMMUNICATIONS OF THE ACM|  SEPTEMBER 2019  |  VOL. 62  |  NO. 9",
+      "page_start": 5,
+      "page_end": 6,
+      "paragraph_positions": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "token_count": 473,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0017",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0010",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "reach production, then in most cases delaying an upgrade is riskier than up- grading quickly.\n\nThe window for security-critical upgrades is especially short. In the aftermath of the Equifax breach, fo- rensic security teams found evidence that attackers (perhaps different ones) had successfully exploited the Apache Struts vulnerability on the affected servers on March 10, only three days after it was publicly dis- closed, but they had run only a single whoami command.\n\nWatch Your Dependencies Even after all that work, you are not done tending your dependencies. It’s important to continue to monitor them and perhaps even re-evaluate your decision to use them.\n\nFirst, ensure you keep using the specific package versions you think you are. Most dependency managers now make it easy or even automatic to record the cryptographic hash of the expected source code for a given pack- age version and then to check that hash when redownloading the pack- age on another computer or in a test environment. This ensures your build uses the same dependency source code you inspected and tested. These kinds of checks prevented the event- stream attacker, described earlier, from silently inserting malicious code in the already-released version 3.3.5. Instead, the attacker had to create a new version, 3.3.6, and wait for people to upgrade (without looking closely at the changes).\n\nIt is also important to watch for new indirect dependencies creeping in. Upgrades can easily introduce new packages upon which the success of your project now depends. They de- serve your attention as well. In the case of event-stream, the malicious code was hidden in a different pack- age, flatmap-stream, which the new event-stream release added as a new dependency.\n\nCreeping dependencies can also affect the size of your project. Dur- ing the development of Google’s Sawzall15—a JIT’ed logs processing language—the authors discovered at various times that the main inter- preter binary contained not just Saw- zall’s JIT but also (unused) PostScript,\n\nCSO had all resigned, and a Congres- sional investigation was underway.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nreach production, then in most cases delaying an upgrade is riskier than up- grading quickly.\n\nThe window for security-critical upgrades is especially short. In the aftermath of the Equifax breach, fo- rensic security teams found evidence that attackers (perhaps different ones) had successfully exploited the Apache Struts vulnerability on the affected servers on March 10, only three days after it was publicly dis- closed, but they had run only a single whoami command.\n\nWatch Your Dependencies Even after all that work, you are not done tending your dependencies. It’s important to continue to monitor them and perhaps even re-evaluate your decision to use them.\n\nFirst, ensure you keep using the specific package versions you think you are. Most dependency managers now make it easy or even automatic to record the cryptographic hash of the expected source code for a given pack- age version and then to check that hash when redownloading the pack- age on another computer or in a test environment. This ensures your build uses the same dependency source code you inspected and tested. These kinds of checks prevented the event- stream attacker, described earlier, from silently inserting malicious code in the already-released version 3.3.5. Instead, the attacker had to create a new version, 3.3.6, and wait for people to upgrade (without looking closely at the changes).\n\nIt is also important to watch for new indirect dependencies creeping in. Upgrades can easily introduce new packages upon which the success of your project now depends. They de- serve your attention as well. In the case of event-stream, the malicious code was hidden in a different pack- age, flatmap-stream, which the new event-stream release added as a new dependency.\n\nCreeping dependencies can also affect the size of your project. Dur- ing the development of Google’s Sawzall15—a JIT’ed logs processing language—the authors discovered at various times that the main inter- preter binary contained not just Saw- zall’s JIT but also (unused) PostScript,\n\nCSO had all resigned, and a Congres- sional investigation was underway.",
+      "page_start": 6,
+      "page_end": 6,
+      "paragraph_positions": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "token_count": 446,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0018",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0010",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "CSO had all resigned, and a Congres- sional investigation was underway.\n\nEquifax’s experience drives home the point that although dependency managers know the versions they are using at build time, other arrange- ments must be made to track that information through the produc- tion deployment process. For the Go language, we are experimenting with automatically including a ver- sion manifest in every binary, so that deployment processes can scan bi- naries for dependencies that need upgrading. Go also makes that in- formation available at runtime, so that servers can consult databases of known bugs and self-report to moni- toring software when they are in need of upgrades.\n\nUpgrading promptly is important, but it means adding new code to your project, which should mean updating your evaluation of the risks of using the dependency based on the new ver- sion. At minimum, you would want to skim the diffs showing the changes being made from the current version to the upgraded versions, or at least read the release notes, to identify the most likely areas of concern in the up- graded code. If a lot of code is chang- ing, so that the diffs are difficult to di- gest, you can incorporate that fact into your risk-assessment update.\n\nYou will also want to rerun the tests you have written that are specific to your project, to ensure the upgraded package is at least as suitable for the project as the earlier version. Rerun- ning the package’s own tests also makes sense. If the package has its own dependencies, it is entirely pos- sible that your project’s configuration uses versions of those dependencies (either older or newer ones) different from those used by the package’s au- thors. Running the package’s own tests can quickly identify problems specific to your configuration.\n\nAgain, upgrades should not be completely automatic. You must ver- ify the upgraded versions are appro- priate for your environment before deploying them.3\n\nIf your upgrade process includes re- running the integration and qualifica- tion tests you have already written for the dependency, so that you are likely to identify new problems before they\n\nIf a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nCSO had all resigned, and a Congres- sional investigation was underway.\n\nEquifax’s experience drives home the point that although dependency managers know the versions they are using at build time, other arrange- ments must be made to track that information through the produc- tion deployment process. For the Go language, we are experimenting with automatically including a ver- sion manifest in every binary, so that deployment processes can scan bi- naries for dependencies that need upgrading. Go also makes that in- formation available at runtime, so that servers can consult databases of known bugs and self-report to moni- toring software when they are in need of upgrades.\n\nUpgrading promptly is important, but it means adding new code to your project, which should mean updating your evaluation of the risks of using the dependency based on the new ver- sion. At minimum, you would want to skim the diffs showing the changes being made from the current version to the upgraded versions, or at least read the release notes, to identify the most likely areas of concern in the up- graded code. If a lot of code is chang- ing, so that the diffs are difficult to di- gest, you can incorporate that fact into your risk-assessment update.\n\nYou will also want to rerun the tests you have written that are specific to your project, to ensure the upgraded package is at least as suitable for the project as the earlier version. Rerun- ning the package’s own tests also makes sense. If the package has its own dependencies, it is entirely pos- sible that your project’s configuration uses versions of those dependencies (either older or newer ones) different from those used by the package’s au- thors. Running the package’s own tests can quickly identify problems specific to your configuration.\n\nAgain, upgrades should not be completely automatic. You must ver- ify the upgraded versions are appro- priate for your environment before deploying them.3\n\nIf your upgrade process includes re- running the integration and qualifica- tion tests you have already written for the dependency, so that you are likely to identify new problems before they\n\nIf a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.",
+      "page_start": 6,
+      "page_end": 6,
+      "paragraph_positions": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      "token_count": 499,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0019",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0010",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "If a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM43",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nIf a dependency seems too risky and you can’t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.\n\nSEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM43",
+      "page_start": 6,
+      "page_end": 7,
+      "paragraph_positions": [
+        87,
+        88
+      ],
+      "token_count": 59,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0020",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0011",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "Python, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google’s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that’s changing. It’s also important to periodically revisit any dependen- cy that isn’t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it’s time to start planning to replace that dependency.\n\nIt’s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It’s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, “Let’s see what happens.” Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nPython, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google’s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that’s changing. It’s also important to periodically revisit any dependen- cy that isn’t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it’s time to start planning to replace that dependency.\n\nIt’s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It’s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, “Let’s see what happens.” Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ],
+      "token_count": 494,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0021",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0011",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.\n\n2.\t Establish best practices for today. Best practices are needed for manag- ing dependencies using what is avail- able today. This means working out processes that evaluate, reduce, and track risk, from the original adoption decision through production use. In fact, just as some engineers specialize in testing, others may need to special- ize in managing dependencies.\n\n3.\tDevelop better dependency tech- nology for tomorrow. Dependency managers have essentially eliminated the cost of downloading and install- ing a dependency. Future develop- ment efforts should focus on reducing the cost of the kind of evaluation and maintenance necessary to use a de- pendency. For example, package-dis- covery sites might work to find more ways to allow developers to share their findings. Build tools should, at the least, make it easy to run a pack- age’s own tests. More aggressively, build tools and package-management systems could also work together to allow package authors to test new changes against all public clients of their APIs. Languages should also provide easy ways to isolate a suspect package.\n\nThere is a lot of good software out there. Let’s work together to find out how to reuse it safely.\n\nRelated articles on queue.acm.org\n\nThe Calculus of Service Availability Ben Treynor, Mike Dahlin, Vivek Rau, and Betsy Beyer https://queue.acm.org/detail.cfm?id=3096459\n\nTracking and Controlling Microservice Dependencies Silvia Esparrachiari, Tanya Reilly, and Ashleigh Rentz https://queue.acm.org/detail.cfm?id=3277541\n\nThou Shalt Not Depend on Me Tobias Lauinger, Abdelberi Chaabane, and Christo B. Wilson https://queue.acm.org/detail.cfm?id=3205288\n\nReferences 1.\n\nBaldwin, A.\n\nDetails about the event-stream incident.\n\nThe npm Blog (Nov.\n\n2018); https://bit.ly/2DRjySJ 2.\n\nCox, R.\n\nGo & Versioning, 2018; https://research.swtch.\n\ncom/vgo.\n\n3.\n\nCox, R.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.\n\n2.\t Establish best practices for today. Best practices are needed for manag- ing dependencies using what is avail- able today. This means working out processes that evaluate, reduce, and track risk, from the original adoption decision through production use. In fact, just as some engineers specialize in testing, others may need to special- ize in managing dependencies.\n\n3.\tDevelop better dependency tech- nology for tomorrow. Dependency managers have essentially eliminated the cost of downloading and install- ing a dependency. Future develop- ment efforts should focus on reducing the cost of the kind of evaluation and maintenance necessary to use a de- pendency. For example, package-dis- covery sites might work to find more ways to allow developers to share their findings. Build tools should, at the least, make it easy to run a pack- age’s own tests. More aggressively, build tools and package-management systems could also work together to allow package authors to test new changes against all public clients of their APIs. Languages should also provide easy ways to isolate a suspect package.\n\nThere is a lot of good software out there. Let’s work together to find out how to reuse it safely.\n\nRelated articles on queue.acm.org\n\nThe Calculus of Service Availability Ben Treynor, Mike Dahlin, Vivek Rau, and Betsy Beyer https://queue.acm.org/detail.cfm?id=3096459\n\nTracking and Controlling Microservice Dependencies Silvia Esparrachiari, Tanya Reilly, and Ashleigh Rentz https://queue.acm.org/detail.cfm?id=3277541\n\nThou Shalt Not Depend on Me Tobias Lauinger, Abdelberi Chaabane, and Christo B. Wilson https://queue.acm.org/detail.cfm?id=3205288\n\nReferences 1.\n\nBaldwin, A.\n\nDetails about the event-stream incident.\n\nThe npm Blog (Nov.\n\n2018); https://bit.ly/2DRjySJ 2.\n\nCox, R.\n\nGo & Versioning, 2018; https://research.swtch.\n\ncom/vgo.\n\n3.\n\nCox, R.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "token_count": 510,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0022",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0011",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "The npm Blog (Nov.\n\n2018); https://bit.ly/2DRjySJ 2.\n\nCox, R.\n\nGo & Versioning, 2018; https://research.swtch.\n\ncom/vgo.\n\n3.\n\nCox, R.\n\nThe principles of versioning in Go.\n\nGopherCon Singapore (May 2018); https://www.youtube.com/ watch?v=F8nrpe0XWRg.\n\n4.\n\nCox, R.\n\nRE2: A principled approach to regular expression matching.\n\nGoogle Open Source Blog (Mar.\n\n2010); https://bit.ly/2XoLFzC.\n\n5.\n\nCox, R.\n\nRegular expression matching with a trigram index or how Google Code Search worked.\n\nSwtch.com (Jan.\n\n2012); https://swtch.com/~rsc/regexp/regexp4.\n\nhtml.\n\n6.\n\nFacebook.\n\nInfer: A tool to detect bugs in Java and C/ C++/Objective-C code before it ships; https://fbinfer.\n\ncom/.\n\n7.\n\nGNU Project.\n\nGNU General Public License, version 1, 1989; https://www.gnu.org/licenses/old-licenses/ gpl-1.0.html.\n\n8.\n\nGo Project.\n\nGo 1 and the future of Go programs, 2013; https://golang.org/doc/go1compat.\n\n9.\n\nGoogle Open Source.\n\nUsing third-party licenses; https://opensource.google.com/docs/thirdparty/ licenses/#banned.\n\n10.\n\nHipp, D.\n\nR.\n\nHow SQLite is tested; https://www.sqlite.\n\norg/testing.html.\n\n11.\n\nLacasse, N., Open-sourcing gVisor, a sandboxed container runtime.\n\nGoogle Cloud (May 2018); http:// bit.ly/2wzA84D.\n\n12.\n\nLangley, A.\n\nChromium’s seccomp sandbox.\n\nImperialViolet (Aug.\n\n2009); https://www.\n\nimperialviolet.org/2009/08/26/seccomp.html.\n\n13.\n\nNational Institute of Standards and Technology.\n\nNational Vulnerability Database—Search and Statistics; https://nvd.nist.gov/vuln/search.\n\n14.\n\nPike, R.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nThe npm Blog (Nov.\n\n2018); https://bit.ly/2DRjySJ 2.\n\nCox, R.\n\nGo & Versioning, 2018; https://research.swtch.\n\ncom/vgo.\n\n3.\n\nCox, R.\n\nThe principles of versioning in Go.\n\nGopherCon Singapore (May 2018); https://www.youtube.com/ watch?v=F8nrpe0XWRg.\n\n4.\n\nCox, R.\n\nRE2: A principled approach to regular expression matching.\n\nGoogle Open Source Blog (Mar.\n\n2010); https://bit.ly/2XoLFzC.\n\n5.\n\nCox, R.\n\nRegular expression matching with a trigram index or how Google Code Search worked.\n\nSwtch.com (Jan.\n\n2012); https://swtch.com/~rsc/regexp/regexp4.\n\nhtml.\n\n6.\n\nFacebook.\n\nInfer: A tool to detect bugs in Java and C/ C++/Objective-C code before it ships; https://fbinfer.\n\ncom/.\n\n7.\n\nGNU Project.\n\nGNU General Public License, version 1, 1989; https://www.gnu.org/licenses/old-licenses/ gpl-1.0.html.\n\n8.\n\nGo Project.\n\nGo 1 and the future of Go programs, 2013; https://golang.org/doc/go1compat.\n\n9.\n\nGoogle Open Source.\n\nUsing third-party licenses; https://opensource.google.com/docs/thirdparty/ licenses/#banned.\n\n10.\n\nHipp, D.\n\nR.\n\nHow SQLite is tested; https://www.sqlite.\n\norg/testing.html.\n\n11.\n\nLacasse, N., Open-sourcing gVisor, a sandboxed container runtime.\n\nGoogle Cloud (May 2018); http:// bit.ly/2wzA84D.\n\n12.\n\nLangley, A.\n\nChromium’s seccomp sandbox.\n\nImperialViolet (Aug.\n\n2009); https://www.\n\nimperialviolet.org/2009/08/26/seccomp.html.\n\n13.\n\nNational Institute of Standards and Technology.\n\nNational Vulnerability Database—Search and Statistics; https://nvd.nist.gov/vuln/search.\n\n14.\n\nPike, R.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        104
+      ],
+      "token_count": 511,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0023",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0011",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "imperialviolet.org/2009/08/26/seccomp.html.\n\n13.\n\nNational Institute of Standards and Technology.\n\nNational Vulnerability Database—Search and Statistics; https://nvd.nist.gov/vuln/search.\n\n14.\n\nPike, R.\n\nGo Proverbs, 2015; https://go-proverbs.\n\ngithub.io/.\n\n15.\n\nPike, R., Dorward, S., Griesemer, R.\n\nand Quinlan, S.\n\nInterpreting the data: Parallel analysis with Sawzall.\n\nScientific Programming J.\n\n13, 4 (2005), 277–298; https://doi.org/10.1155/2005/962135.\n\n16.\n\nPotapenko, A.\n\nTesting Chromium: ThreadSanitizer v2, a next-gen data race detector.\n\nChromium Blog (Apr.\n\n2014); http://bit.ly/2WN29o0.\n\n17.\n\nPotvin, R., Levenberg, J.\n\nWhy Google stores billions of lines of code in a single repository.\n\nCommun.\n\nACM 59, 7 (July 2016), 78–87; https://doi.org/10.1145/2854146.\n\n18.\n\nReis, C.\n\nMulti-process architecture.\n\nChromium Blog (Sept.\n\n2008); https://blog.chromium.org/2008/09/ multi-process-architecture.html.\n\n19.\n\nSpotBugs: Find bugs in Java programs; https:// spotbugs.github.io/.\n\n20.\n\nThompson, K.\n\nReflections on trusting trust.\n\nCommun.\n\nACM 27, 8 (Aug.\n\n1984), 761–763; https://doi.\n\norg/10.1145/358198.358210.\n\n21.\n\nU.S.\n\nHouse of Representatives Committee on Oversight and Government Reform.\n\nThe Equifax Data Breach, Majority Staff Report, 115th Congress (Dec.\n\n2018); http://bit.ly/2Gf53IJ.\n\n22.\n\nWillis, N.\n\nA single Node of failure.\n\nLWN.net (Mar.\n\n2016); https://lwn.net/Articles/681410/.\n\n23.\n\nWinters, T.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\nimperialviolet.org/2009/08/26/seccomp.html.\n\n13.\n\nNational Institute of Standards and Technology.\n\nNational Vulnerability Database—Search and Statistics; https://nvd.nist.gov/vuln/search.\n\n14.\n\nPike, R.\n\nGo Proverbs, 2015; https://go-proverbs.\n\ngithub.io/.\n\n15.\n\nPike, R., Dorward, S., Griesemer, R.\n\nand Quinlan, S.\n\nInterpreting the data: Parallel analysis with Sawzall.\n\nScientific Programming J.\n\n13, 4 (2005), 277–298; https://doi.org/10.1155/2005/962135.\n\n16.\n\nPotapenko, A.\n\nTesting Chromium: ThreadSanitizer v2, a next-gen data race detector.\n\nChromium Blog (Apr.\n\n2014); http://bit.ly/2WN29o0.\n\n17.\n\nPotvin, R., Levenberg, J.\n\nWhy Google stores billions of lines of code in a single repository.\n\nCommun.\n\nACM 59, 7 (July 2016), 78–87; https://doi.org/10.1145/2854146.\n\n18.\n\nReis, C.\n\nMulti-process architecture.\n\nChromium Blog (Sept.\n\n2008); https://blog.chromium.org/2008/09/ multi-process-architecture.html.\n\n19.\n\nSpotBugs: Find bugs in Java programs; https:// spotbugs.github.io/.\n\n20.\n\nThompson, K.\n\nReflections on trusting trust.\n\nCommun.\n\nACM 27, 8 (Aug.\n\n1984), 761–763; https://doi.\n\norg/10.1145/358198.358210.\n\n21.\n\nU.S.\n\nHouse of Representatives Committee on Oversight and Government Reform.\n\nThe Equifax Data Breach, Majority Staff Report, 115th Congress (Dec.\n\n2018); http://bit.ly/2Gf53IJ.\n\n22.\n\nWillis, N.\n\nA single Node of failure.\n\nLWN.net (Mar.\n\n2016); https://lwn.net/Articles/681410/.\n\n23.\n\nWinters, T.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        104
+      ],
+      "token_count": 488,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_0f0d2c208894485b_0024",
+      "document_id": "doc_0f0d2c208894485b",
+      "section_id": "sec_doc_0f0d2c208894485b_0011",
+      "section_title": "practice",
+      "section_path": [
+        "Surviving Software Dependencies",
+        "practice"
+      ],
+      "source_text": "2018); http://bit.ly/2Gf53IJ.\n\n22.\n\nWillis, N.\n\nA single Node of failure.\n\nLWN.net (Mar.\n\n2016); https://lwn.net/Articles/681410/.\n\n23.\n\nWinters, T.\n\nSD-8: Standard library compatibility, C++ standing document, 2018; http://bit.ly/2QNhT5k.\n\nRuss Cox leads the development of the Go programming language at Google, with a current focus on improving the security and reliability of using software dependencies. With Jeff Dean, he created Google Code Search. He worked for many years on the Plan 9 from Bell Labs operating system.\n\nCopyright held by author/owner.",
+      "embedding_text": "Document: practice\nSection: Surviving Software Dependencies\nSubsection: practice\n\n2018); http://bit.ly/2Gf53IJ.\n\n22.\n\nWillis, N.\n\nA single Node of failure.\n\nLWN.net (Mar.\n\n2016); https://lwn.net/Articles/681410/.\n\n23.\n\nWinters, T.\n\nSD-8: Standard library compatibility, C++ standing document, 2018; http://bit.ly/2QNhT5k.\n\nRuss Cox leads the development of the Go programming language at Google, with a current focus on improving the security and reliability of using software dependencies. With Jeff Dean, he created Google Code Search. He worked for many years on the Plan 9 from Bell Labs operating system.\n\nCopyright held by author/owner.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        104,
+        105,
+        106
+      ],
+      "token_count": 154,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

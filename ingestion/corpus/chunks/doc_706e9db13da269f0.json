@@ -1,0 +1,988 @@
+{
+  "document_id": "doc_706e9db13da269f0",
+  "chunk_count": 46,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0000",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0000",
+      "section_title": "ACM/IEEE MODELS 2018, København, Denmark",
+      "section_path": [
+        "ACM/IEEE MODELS 2018, København, Denmark"
+      ],
+      "source_text": "ACM/IEEE MODELS 2018, København, Denmark",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: ACM/IEEE MODELS 2018, København, Denmark\n\nACM/IEEE MODELS 2018, København, Denmark",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [],
+      "token_count": 14,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0001",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0001",
+      "section_title": "Ta’id Holmes",
+      "section_path": [
+        "Ta’id Holmes"
+      ],
+      "source_text": "Ta’id Holmes",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Ta’id Holmes\n\nTa’id Holmes",
+      "page_start": 0,
+      "page_end": 1,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0002",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0002",
+      "section_title": "Motivation",
+      "section_path": [
+        "Motivation"
+      ],
+      "source_text": "Customization of Architecture Models",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Motivation\n\nCustomization of Architecture Models",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        0
+      ],
+      "token_count": 5,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0003",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0003",
+      "section_title": "Vision Idea",
+      "section_path": [
+        "Vision Idea"
+      ],
+      "source_text": "Automated Model Refactoring",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Vision Idea\n\nAutomated Model Refactoring",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        1
+      ],
+      "token_count": 6,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0004",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0004",
+      "section_title": "Application",
+      "section_path": [
+        "Application"
+      ],
+      "source_text": "Cloud Application Orchestration",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Application\n\nCloud Application Orchestration",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        2
+      ],
+      "token_count": 4,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0005",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0005",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "Assumptions and Opportunities",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\n\nAssumptions and Opportunities",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        3
+      ],
+      "token_count": 3,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0006",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0006",
+      "section_title": "New Ideas and Vision Paper @ Foundations Track",
+      "section_path": [
+        "Discussion",
+        "New Ideas and Vision Paper @ Foundations Track"
+      ],
+      "source_text": "New Ideas and Vision Paper @ Foundations Track",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: New Ideas and Vision Paper @ Foundations Track\n\nNew Ideas and Vision Paper @ Foundations Track",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [],
+      "token_count": 8,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0007",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0007",
+      "section_title": "Credits",
+      "section_path": [
+        "Discussion",
+        "Credits"
+      ],
+      "source_text": "Jan Feb Mar Apr May Jun Jul Aug Sept Oct Nov Dec\n\nAbstract Submission\n\nAuthor Notification\n\nChange of Employment\n\nPaper Submission Presentation",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Credits\n\nJan Feb Mar Apr May Jun Jul Aug Sept Oct Nov Dec\n\nAbstract Submission\n\nAuthor Notification\n\nChange of Employment\n\nPaper Submission Presentation",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "token_count": 22,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0008",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0008",
+      "section_title": "Publication Process",
+      "section_path": [
+        "Discussion",
+        "Credits",
+        "Publication Process"
+      ],
+      "source_text": "Camera Ready",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Credits\nSubsection: Publication Process\n\nCamera Ready",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        9
+      ],
+      "token_count": 2,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0009",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0009",
+      "section_title": "Acknowledgements",
+      "section_path": [
+        "Acknowledgements"
+      ],
+      "source_text": "● Work was carried out at Deutsche Telekom in collaboration with the University of Vienna (cf. author affiliations of published paper).",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\n\n● Work was carried out at Deutsche Telekom in collaboration with the University of Vienna (cf. author affiliations of published paper).",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        10
+      ],
+      "token_count": 28,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0010",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0010",
+      "section_title": "● It was partially supported by:",
+      "section_path": [
+        "Acknowledgements",
+        "● It was partially supported by:"
+      ],
+      "source_text": "○ Austrian Science Fund (FWF) Project ADDCompliance (no. I – 2885)\n\n○ Austrian Research Promotion Agency (FFG) Project DECO (no. 864707)\n\n● Conference participation and presentation of the contribution is conducted with Google.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: ● It was partially supported by:\n\n○ Austrian Science Fund (FWF) Project ADDCompliance (no. I – 2885)\n\n○ Austrian Research Promotion Agency (FFG) Project DECO (no. 864707)\n\n● Conference participation and presentation of the contribution is conducted with Google.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        11,
+        12,
+        13
+      ],
+      "token_count": 54,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0011",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0011",
+      "section_title": "Motivation",
+      "section_path": [
+        "Acknowledgements",
+        "Motivation"
+      ],
+      "source_text": "Motivation",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Motivation\n\nMotivation",
+      "page_start": 5,
+      "page_end": 6,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0012",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0012",
+      "section_title": "Customers have Individual Requirements",
+      "section_path": [
+        "Acknowledgements",
+        "Customers have Individual Requirements"
+      ],
+      "source_text": "Customers have Individual Requirements",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Customers have Individual Requirements\n\nCustomers have Individual Requirements",
+      "page_start": 6,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0013",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0013",
+      "section_title": "Not Always Known @ Design Time",
+      "section_path": [
+        "Acknowledgements",
+        "Not Always Known @ Design Time"
+      ],
+      "source_text": "Not Always Known @ Design Time",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Not Always Known @ Design Time\n\nNot Always Known @ Design Time",
+      "page_start": 7,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 6,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0014",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0014",
+      "section_title": "… and Subject to Change",
+      "section_path": [
+        "Acknowledgements",
+        "… and Subject to Change"
+      ],
+      "source_text": "… and Subject to Change",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: … and Subject to Change\n\n… and Subject to Change",
+      "page_start": 8,
+      "page_end": 9,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0015",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0015",
+      "section_title": "Often, New Requirements Emerge",
+      "section_path": [
+        "Acknowledgements",
+        "Often, New Requirements Emerge"
+      ],
+      "source_text": "Often, New Requirements Emerge",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Often, New Requirements Emerge\n\nOften, New Requirements Emerge",
+      "page_start": 9,
+      "page_end": 10,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0016",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0016",
+      "section_title": "⇒ Architecture Models Need to be Customized",
+      "section_path": [
+        "Acknowledgements",
+        "⇒ Architecture Models Need to be Customized"
+      ],
+      "source_text": "⇒ Architecture Models Need to be Customized",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: ⇒ Architecture Models Need to be Customized\n\n⇒ Architecture Models Need to be Customized",
+      "page_start": 10,
+      "page_end": 13,
+      "paragraph_positions": [],
+      "token_count": 7,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0017",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0017",
+      "section_title": "Model-Based Engineering Custom Requirement Architecture Knowledge Custom- ization",
+      "section_path": [
+        "Acknowledgements",
+        "⇒ Architecture Models Need to be Customized",
+        "Model-Based Engineering Custom Requirement Architecture Knowledge Custom- ization"
+      ],
+      "source_text": "Security Policies\n\nOperational Requirements\n\nLocal Legislations",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: ⇒ Architecture Models Need to be Customized\nSubsection: Model-Based Engineering Custom Requirement Architecture Knowledge Custom- ization\n\nSecurity Policies\n\nOperational Requirements\n\nLocal Legislations",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        14,
+        15,
+        16
+      ],
+      "token_count": 7,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0018",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0018",
+      "section_title": "Customizing Software-Intensive Systems",
+      "section_path": [
+        "Acknowledgements",
+        "⇒ Architecture Models Need to be Customized",
+        "Customizing Software-Intensive Systems"
+      ],
+      "source_text": "Customizing Software-Intensive Systems",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: ⇒ Architecture Models Need to be Customized\nSubsection: Customizing Software-Intensive Systems\n\nCustomizing Software-Intensive Systems",
+      "page_start": 11,
+      "page_end": 12,
+      "paragraph_positions": [],
+      "token_count": 6,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0019",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0019",
+      "section_title": "Vision Idea",
+      "section_path": [
+        "Acknowledgements",
+        "⇒ Architecture Models Need to be Customized",
+        "Vision Idea"
+      ],
+      "source_text": "Vision Idea",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: ⇒ Architecture Models Need to be Customized\nSubsection: Vision Idea\n\nVision Idea",
+      "page_start": 12,
+      "page_end": 13,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0020",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0020",
+      "section_title": "Compliance Through Refactorings",
+      "section_path": [
+        "Acknowledgements",
+        "Compliance Through Refactorings"
+      ],
+      "source_text": "a change to the internal structure […] to improve[…] characteristics without changing its […] behavior.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Compliance Through Refactorings\n\na change to the internal structure […] to improve[…] characteristics without changing its […] behavior.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        17
+      ],
+      "token_count": 23,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0021",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0021",
+      "section_title": "Martin Fowler “",
+      "section_path": [
+        "Acknowledgements",
+        "Compliance Through Refactorings",
+        "Martin Fowler “"
+      ],
+      "source_text": "Martin Fowler “",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Acknowledgements\nSubsection: Compliance Through Refactorings\nSubsection: Martin Fowler “\n\nMartin Fowler “",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0022",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0022",
+      "section_title": "”",
+      "section_path": [
+        "”"
+      ],
+      "source_text": "Refactoring: Improving the Design of Existing Code. 1999, Addison-Wesley",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: ”\n\nRefactoring: Improving the Design of Existing Code. 1999, Addison-Wesley",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        18
+      ],
+      "token_count": 17,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0023",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0023",
+      "section_title": "1 Deriving AK Out of Requirements First",
+      "section_path": [
+        "1 Deriving AK Out of Requirements First"
+      ],
+      "source_text": "1 Deriving AK Out of Requirements First",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 1 Deriving AK Out of Requirements First\n\n1 Deriving AK Out of Requirements First",
+      "page_start": 15,
+      "page_end": 16,
+      "paragraph_positions": [],
+      "token_count": 8,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0024",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0024",
+      "section_title": "2 Formalizing AK in Model Transformations",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations"
+      ],
+      "source_text": "2 Formalizing AK in Model Transformations",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\n\n2 Formalizing AK in Model Transformations",
+      "page_start": 16,
+      "page_end": 23,
+      "paragraph_positions": [],
+      "token_count": 7,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0025",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0025",
+      "section_title": "Application",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application"
+      ],
+      "source_text": "Application",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\n\nApplication",
+      "page_start": 17,
+      "page_end": 23,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 25,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0026",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0026",
+      "section_title": "Cloud Application Orchestration",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Cloud Application Orchestration"
+      ],
+      "source_text": "Cloud Application Orchestration Models describe Cloud Applications:\n\n● Resources (e.g., Networking, Compute, Memory, Storage)\n\n● Dependencies",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Cloud Application Orchestration\n\nCloud Application Orchestration Models describe Cloud Applications:\n\n● Resources (e.g., Networking, Compute, Memory, Storage)\n\n● Dependencies",
+      "page_start": 18,
+      "page_end": 18,
+      "paragraph_positions": [
+        19,
+        20,
+        21
+      ],
+      "token_count": 28,
+      "chunk_index": 26,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0027",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0027",
+      "section_title": "Consumed by an Orchestration Engine",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Consumed by an Orchestration Engine"
+      ],
+      "source_text": "● Automates Deployment of an Application\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Consumed by an Orchestration Engine\n\n● Automates Deployment of an Application\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 18,
+      "page_end": 18,
+      "paragraph_positions": [
+        22,
+        23
+      ],
+      "token_count": 46,
+      "chunk_index": 27,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0028",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0028",
+      "section_title": "Deriving Architectural Knowledge from Requirements",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Deriving Architectural Knowledge from Requirements"
+      ],
+      "source_text": "● Architecture: high availability of services\n\n● Legislator: API for Legal Interception",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Deriving Architectural Knowledge from Requirements\n\n● Architecture: high availability of services\n\n● Legislator: API for Legal Interception",
+      "page_start": 19,
+      "page_end": 19,
+      "paragraph_positions": [
+        24,
+        25
+      ],
+      "token_count": 14,
+      "chunk_index": 28,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0029",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0029",
+      "section_title": "● Operations",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "● Operations"
+      ],
+      "source_text": "○ Secure Shell access over bastion host to instances\n\n○ unified solutions, e.g., for logging or monitoring\n\n● Security: firewalls mandated for protecting services\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: ● Operations\n\n○ Secure Shell access over bastion host to instances\n\n○ unified solutions, e.g., for logging or monitoring\n\n● Security: firewalls mandated for protecting services\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 19,
+      "page_end": 19,
+      "paragraph_positions": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "token_count": 71,
+      "chunk_index": 29,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0030",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0030",
+      "section_title": "Capturing Architectural Knowledge in Transformations",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Capturing Architectural Knowledge in Transformations"
+      ],
+      "source_text": "Model refactorings can be realized using, e.g.,",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Capturing Architectural Knowledge in Transformations\n\nModel refactorings can be realized using, e.g.,",
+      "page_start": 20,
+      "page_end": 20,
+      "paragraph_positions": [
+        30
+      ],
+      "token_count": 15,
+      "chunk_index": 30,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0031",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0031",
+      "section_title": "● Epsilon Object Language (EOL)",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "● Epsilon Object Language (EOL)"
+      ],
+      "source_text": "In particular:\n\n● Epsilon Wizard Language (EWL)",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: ● Epsilon Object Language (EOL)\n\nIn particular:\n\n● Epsilon Wizard Language (EWL)",
+      "page_start": 20,
+      "page_end": 20,
+      "paragraph_positions": [
+        31,
+        32
+      ],
+      "token_count": 11,
+      "chunk_index": 31,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0032",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0032",
+      "section_title": "● Epsilon Validation Language (EVL)",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "● Epsilon Validation Language (EVL)"
+      ],
+      "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: ● Epsilon Validation Language (EVL)\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 20,
+      "page_end": 20,
+      "paragraph_positions": [
+        33
+      ],
+      "token_count": 39,
+      "chunk_index": 32,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0033",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0033",
+      "section_title": "Protecting a Service with a Firewall (EWL)",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Protecting a Service with a Firewall (EWL)"
+      ],
+      "source_text": "wizard Firewall_Protection {\n\nguard : self.isKindOf(Model!ao::ConnectionPoint) and\n\nguard : self.isPublic() and not self.isProtected()\n\ntitle : \"inserting a firewall for protecting \" + self.name\n\ndo { self.owningModel.insertFirewall(self) }\n\n}\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Protecting a Service with a Firewall (EWL)\n\nwizard Firewall_Protection {\n\nguard : self.isKindOf(Model!ao::ConnectionPoint) and\n\nguard : self.isPublic() and not self.isProtected()\n\ntitle : \"inserting a firewall for protecting \" + self.name\n\ndo { self.owningModel.insertFirewall(self) }\n\n}\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 21,
+      "page_end": 21,
+      "paragraph_positions": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "token_count": 113,
+      "chunk_index": 33,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0034",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0034",
+      "section_title": "Establishing High Service Availability (EVL)",
+      "section_path": [
+        "2 Formalizing AK in Model Transformations",
+        "Application",
+        "Establishing High Service Availability (EVL)"
+      ],
+      "source_text": "context High_Availability {\n\nguard : self.isKindOf(Model!ao::ConnectionPoint) constraint C2_derived_from_R2 {\n\ncheck : self.ha message : \"R2 is not met by \" + self.name fix {\n\ntitle : \"new server instance with keepalived\" do {\n\nvar service : new Service(\"keepalived\"); … } } } }\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: 2 Formalizing AK in Model Transformations\nSubsection: Application\nSubsection: Establishing High Service Availability (EVL)\n\ncontext High_Availability {\n\nguard : self.isKindOf(Model!ao::ConnectionPoint) constraint C2_derived_from_R2 {\n\ncheck : self.ha message : \"R2 is not met by \" + self.name fix {\n\ntitle : \"new server instance with keepalived\" do {\n\nvar service : new Service(\"keepalived\"); … } } } }\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 22,
+      "page_end": 22,
+      "paragraph_positions": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "token_count": 122,
+      "chunk_index": 34,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0035",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0035",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "Discussion",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\n\nDiscussion",
+      "page_start": 23,
+      "page_end": 28,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 35,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0036",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0036",
+      "section_title": "Manual Customization",
+      "section_path": [
+        "Discussion",
+        "Manual Customization"
+      ],
+      "source_text": "Each application is customized\n\nindividually while respecting\n\nrequirements.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Manual Customization\n\nEach application is customized\n\nindividually while respecting\n\nrequirements.",
+      "page_start": 24,
+      "page_end": 24,
+      "paragraph_positions": [
+        47,
+        48,
+        49
+      ],
+      "token_count": 9,
+      "chunk_index": 36,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0037",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0037",
+      "section_title": "Model Refactoring",
+      "section_path": [
+        "Discussion",
+        "Model Refactoring"
+      ],
+      "source_text": "Transformations capturing\n\narchitectural knowledge\n\nautomate customizations.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Model Refactoring\n\nTransformations capturing\n\narchitectural knowledge\n\nautomate customizations.",
+      "page_start": 24,
+      "page_end": 24,
+      "paragraph_positions": [
+        50,
+        51,
+        52
+      ],
+      "token_count": 9,
+      "chunk_index": 37,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0038",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0038",
+      "section_title": "Architectural Knowledge",
+      "section_path": [
+        "Discussion",
+        "Architectural Knowledge"
+      ],
+      "source_text": "Architectural knowledge is derived\n\nfrom requirements prior to any\n\ncustomization.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Architectural Knowledge\n\nArchitectural knowledge is derived\n\nfrom requirements prior to any\n\ncustomization.",
+      "page_start": 24,
+      "page_end": 24,
+      "paragraph_positions": [
+        53,
+        54,
+        55
+      ],
+      "token_count": 12,
+      "chunk_index": 38,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0039",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0039",
+      "section_title": "Customization Delivery Scenarios",
+      "section_path": [
+        "Discussion",
+        "Customization Delivery Scenarios"
+      ],
+      "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Customization Delivery Scenarios\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 24,
+      "page_end": 24,
+      "paragraph_positions": [
+        56
+      ],
+      "token_count": 39,
+      "chunk_index": 39,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0040",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0040",
+      "section_title": "Effort Manual Centralized AK Model Refactoring",
+      "section_path": [
+        "Discussion",
+        "Effort Manual Centralized AK Model Refactoring"
+      ],
+      "source_text": "Req. Disclosure (E1) required not required not required",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Effort Manual Centralized AK Model Refactoring\n\nReq. Disclosure (E1) required not required not required",
+      "page_start": 25,
+      "page_end": 25,
+      "paragraph_positions": [
+        57
+      ],
+      "token_count": 13,
+      "chunk_index": 40,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0041",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0041",
+      "section_title": "Arch. Knowledge (E2) every ISV once once",
+      "section_path": [
+        "Discussion",
+        "Arch. Knowledge (E2) every ISV once once"
+      ],
+      "source_text": "Implementation (E3) for each application for each application automated\n\nVerification (E4) for each application for each application automated\n\nTotal E1+E2*n(ISV)+(E3+E4)*n(Apps) E2+(E3+E4)*n(Apps) E2(Refactoring)\n\nKey Takeaway: automated model refactoring approach scales best.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Arch. Knowledge (E2) every ISV once once\n\nImplementation (E3) for each application for each application automated\n\nVerification (E4) for each application for each application automated\n\nTotal E1+E2*n(ISV)+(E3+E4)*n(Apps) E2+(E3+E4)*n(Apps) E2(Refactoring)\n\nKey Takeaway: automated model refactoring approach scales best.",
+      "page_start": 25,
+      "page_end": 25,
+      "paragraph_positions": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "token_count": 86,
+      "chunk_index": 41,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0042",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0042",
+      "section_title": "Evaluating Approaches",
+      "section_path": [
+        "Discussion",
+        "Evaluating Approaches"
+      ],
+      "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM\n\n● Architectural knowledge can be\n\n○ derived from requirements;\n\n○ formalized and expressed as model transformations.\n\n● Conflicting requirements have been identified and resolved.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Evaluating Approaches\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM\n\n● Architectural knowledge can be\n\n○ derived from requirements;\n\n○ formalized and expressed as model transformations.\n\n● Conflicting requirements have been identified and resolved.",
+      "page_start": 25,
+      "page_end": 26,
+      "paragraph_positions": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "token_count": 67,
+      "chunk_index": 42,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0043",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0043",
+      "section_title": "Assumptions",
+      "section_path": [
+        "Discussion",
+        "Assumptions"
+      ],
+      "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM\n\n● Systematic methods\n\nfor deriving model transformations from requirements.\n\n● Idempotency, transitivity, and order of transformations.\n\n● Non-destructive transformations.\n\n● Protecting parts of the architecture prior to transformations.",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Assumptions\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM\n\n● Systematic methods\n\nfor deriving model transformations from requirements.\n\n● Idempotency, transitivity, and order of transformations.\n\n● Non-destructive transformations.\n\n● Protecting parts of the architecture prior to transformations.",
+      "page_start": 26,
+      "page_end": 27,
+      "paragraph_positions": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "token_count": 80,
+      "chunk_index": 43,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0044",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0044",
+      "section_title": "Further Work",
+      "section_path": [
+        "Discussion",
+        "Further Work"
+      ],
+      "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Further Work\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+      "page_start": 27,
+      "page_end": 27,
+      "paragraph_positions": [
+        73
+      ],
+      "token_count": 39,
+      "chunk_index": 44,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_706e9db13da269f0_0045",
+      "document_id": "doc_706e9db13da269f0",
+      "section_id": "sec_doc_706e9db13da269f0_0045",
+      "section_title": "Thank You",
+      "section_path": [
+        "Discussion",
+        "Thank You"
+      ],
+      "source_text": "Thank You",
+      "embedding_text": "Document: ACM/IEEE MODELS 2018, København, Denmark\nSection: Discussion\nSubsection: Thank You\n\nThank You",
+      "page_start": 28,
+      "page_end": 28,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 45,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "created_at": "2026-08-24T06:26:58.850462+00:00",
+  "document_count": 3,
+  "documents": [
+    {
+      "id": "doc_706e9db13da269f0",
+      "filename": "refactoring-architecture-models.pdf",
+      "content_hash": "706e9db13da269f0af4b49adc08042b990d2e9939739bcb64236671c988a793d",
+      "title": "ACM/IEEE MODELS 2018, København, Denmark",
+      "authors": [
+        "Ta’id Holmes"
+      ],
+      "publication_year": 2018,
+      "doi": null,
+      "arxiv_id": null,
+      "page_count": 29,
+      "raw_path": "raw/pdf/doc_706e9db13da269f0.pdf",
+      "parsed_path": "parsed/doc_706e9db13da269f0.json",
+      "chunks_path": "chunks/doc_706e9db13da269f0.json",
+      "embeddings_path": "embeddings/doc_706e9db13da269f0.json",
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_a2a352eda817956a",
+      "filename": "sample_001.pdf",
+      "content_hash": "a2a352eda817956a954421c2411555610c1c1247662b5d1deff7bc141991cae0",
+      "title": "ViTGAN: Generative Adversarial Networks with Vision Transformers",
+      "authors": [
+        "Jane Doe",
+        "John Smith",
+        "Alice Wu"
+      ],
+      "publication_year": 2021,
+      "doi": "10.1145/3422622",
+      "arxiv_id": "2107.04589",
+      "page_count": 2,
+      "raw_path": "raw/pdf/doc_a2a352eda817956a.pdf",
+      "parsed_path": "parsed/doc_a2a352eda817956a.json",
+      "chunks_path": "chunks/doc_a2a352eda817956a.json",
+      "embeddings_path": "embeddings/doc_a2a352eda817956a.json",
+      "warnings": []
+    },
+    {
+      "id": "doc_0f0d2c208894485b",
+      "filename": "surviving-software-dependencies.pdf",
+      "content_hash": "0f0d2c208894485ba99c43b83bd42a4617caccd33b0482ce3710298c4878a95f",
+      "title": "practice",
+      "authors": [],
+      "publication_year": 2019,
+      "doi": "10.1145/3347446",
+      "arxiv_id": null,
+      "page_count": 8,
+      "raw_path": "raw/pdf/doc_0f0d2c208894485b.pdf",
+      "parsed_path": "parsed/doc_0f0d2c208894485b.json",
+      "chunks_path": "chunks/doc_0f0d2c208894485b.json",
+      "embeddings_path": "embeddings/doc_0f0d2c208894485b.json",
+      "warnings": [
+        "no references detected"
+      ]
+    }
+  ]
+}
