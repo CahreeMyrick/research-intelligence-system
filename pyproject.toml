@@ -1,0 +1,40 @@
+[project]
+name = "ris"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.6",
+    "psycopg[binary]>=3.1",
+    "pgvector>=0.3",
+    "sentence-transformers>=3.0",
+    "torch>=2.0",
+    "requests>=2.34.2",
+]
+
+[project.optional-dependencies]
+ingestion = ["pymupdf>=1.24"]
+chunking = []
+embeddings = ["sentence-transformers", "torch"]
+graph = ["networkx"]
+retrieval = ["qdrant-client"]
+dev = ["pytest", "reportlab", "ipython"]
+all = ["ris[ingestion,chunking,embeddings,graph,retrieval,dev]"]
+
+[project.scripts]
+ris = "ris.cli:main"
+indexer = "indexer.cli.commands:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-dir]
+ingest = "ingestion/ingest"
+indexer = "indexer"
+
+[tool.setuptools]
+packages = ["ingest", "indexer", "indexer.schemas", "indexer.chunking", "indexer.embeddings", "indexer.citations", "indexer.database", "indexer.pipeline", "indexer.cli"]
+
+[tool.setuptools.package-data]
+"indexer.database" = ["migrations/*.sql"]
+
