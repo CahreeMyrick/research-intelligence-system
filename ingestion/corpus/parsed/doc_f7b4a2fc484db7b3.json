@@ -1,0 +1,1544 @@
+{
+  "identity": {
+    "id": "doc_f7b4a2fc484db7b3",
+    "source": {
+      "filename": "towards-a-scalable-solution-for-improving-multi-group-fairness-in-compositional-classification.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/papers/towards-a-scalable-solution-for-improving-multi-group-fairness-in-compositional-classification.pdf",
+      "content_hash": "f7b4a2fc484db7b3355ed2dd60073ac3c63b74b10e9dd06e9ce17b6e6232c41f"
+    }
+  },
+  "metadata": {
+    "title": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+    "authors": [
+      "James AtwoodTina TianBen PackerMeghana DeodharJilin ChenAlex BeutelFlavien Prost"
+    ],
+    "affiliations": [],
+    "publication_year": 2023,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2307.05728",
+    "abstract": "Despitetherichliteratureonmachinelearning fairness,relatively little attention has been paid to remediating complex systems, where the final prediction is the combination of multiple classi- fiersandwhere multiplegroupsarepresent.In this paper, we first show that natural baseline ap- proachesforimprovingequalopportunityfair- ness scale linearly with the product of the number of remediated groups and the number of remedi- ated prediction labels, rendering them impractical. We then introduce two simple techniques, called task-overconditioning and group-interleaving, to achieveaconstantscalinginthismulti-group multi-label setup.Our experimental results in aca- demic and real-world environments demonstrate theeffectivenessofourproposalatmitigation within this environment.",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+          "page": 0,
+          "position": 0
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "James Atwood1Tina Tian1Ben Packer1Meghana Deodhar1Jilin Chen1Alex Beutel2Flavien Prost1",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Ahmad Beirami1",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Despitetherichliteratureonmachinelearning fairness,relatively little attention has been paid to remediating complex systems, where the final prediction is the combination of multiple classi- fiersandwhere multiplegroupsarepresent.In this paper, we first show that natural baseline ap- proachesforimprovingequalopportunityfair- ness scale linearly with the product of the number of remediated groups and the number of remedi- ated prediction labels, rendering them impractical. We then introduce two simple techniques, called task-overconditioning and group-interleaving, to achieveaconstantscalinginthismulti-group multi-label setup.Our experimental results in aca- demic and real-world environments demonstrate theeffectivenessofourproposalatmitigation within this environment.",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "The literature around group fairness is relatively rich when we consider a binary classifier and desire to satisfy group fairness for a (binary) group (Dwork et al., 2012; Kamiran et al., 2010; Zafar et al., 2017; Beutel et al., 2017; Agarwal etal.,2018;Doninietal.,2018;Maryetal.,2019;Prost etal.,2019;Baharloueietal.,2020b;Choetal.,2020a; Lowy et al., 2022).However, many real-world applications go beyond a single binary decision and we are often faced with multi-label systems where the end decision is a com- position of the individual labels (Dwork & Ilvento, 2018; Adomavicius & Tuzhilin, 2005; Burke, 2002; He et al., 2014; Wang et al., 2011).",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "In this paper, we study a multi-label classification system where several binary classification decisions are combined to make a final prediction for any given input.We consider",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "1Google2OpenAI (work done while at Google).Correspon- denceto:JamesAtwood<atwoodj@google.com>,TinaTian <ttian@google.com>, Ahmad Beirami <beirami@google.com>.",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Proceedingsofthe39thInternationalConferenceonMachine Learning, Baltimore, Maryland, USA, PMLR 162, 2022.Copy- right 2022 by the author(s).",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "a special composite classifier where the overall system de- cision is 1 if any of the individual binary classifier outputs are 1.For example, consider a content moderation system for an online forum that predicts whether a given comment istoxic,insulting,orattackingidentity,andhidesacom- mentifanyofthepredictionsarepositive(Pavlopoulos et al., 2020).How do we perform classification based on the combination of these individual predictions, and achieve specificgroupfairnessgoals?Thisproblem,whichisa specialinstanceofthecompositionalfairness(Dwork& Ilvento, 2018; Wang et al., 2021), is the focus of this paper. In addition, we also study a multi-group setting where we are interested in the fairness of the classifier system with respect to many groups",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Amongthein-processmitigationtechniques(Ristanoski etal.,2013;Quadrianto&Sharmanska,2017;Kamiran et al., 2010; Raff et al., 2018; Aghaei et al., 2019; Donini et al., 2018; Fish et al., 2015; Grari et al., 2020; Cho et al., 2020b;Prostetal.,2019;Lowyetal.,2022;Zafaretal., 2017; Berk etal., 2017; Taskesen et al., 2020;Chzhen & Schreuder, 2020; Baharlouei et al., 2020a; Jiang et al., 2020; Grari et al., 2019), we focus our mitigation strategy on the MinDiff technique (Beutel et al., 2019b; Prost et al., 2019) for improving equality of opportunity (Hardt et al., 2016) in classifiers.MinDiff has proven to be effective at inducing equality of opportunity while maintaining overall classifier performanceacrossavarietyoftasksbyrelyingonthe maximum mean discrepancy (MMD) estimators (Gretton et al., 2012; Prost et al., 2019).Importantly, MinDiff can besuccessfullyappliedtoenvironmentswheninstances labeled with group membership are very sparse, by using adedicateddatastreamstoensurethateachmini-batch contains a constant number of group labeled examples.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "A natural baseline in this scenario is an extension of Min- Diff to fairness mitigation in multigroup, multilabel environ- ments, where one regularizer is introduced per each group and per each classifier.However, this baseline causes the batchsizetoscalelinearlyinboththenumberofgroups and number of prediction tasks being remediated.Even for small number of groups and and small number of classifiers, thiscanquicklygrowoutofhandtotheextentthatthis baseline becomes impractical, especially when the baseline",
+          "page": 0,
+          "position": 8
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "arXiv:2307.05728v1  [cs.LG]  11 Jul 2023",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+          "page": 1,
+          "position": 9
+        },
+        {
+          "text": "classifierisalreadyexpensivetotrain.Thissignificantly increases resource usage and slows training as the number of groups and prediction tasks grows.We propose two sim- pleoptimizationtechniquestoachievethisfairnessgoal withaconstantscaling,withempiricalverification.Our contributions are summarized below:",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "•Task-overconditioning:The natural extension of Min- Diffrequiresabatchofnegativeexamplesforeach label, resulting in a constant scaling with the number of classifiers.Instead, task-overconditioning suggests using a single batch that contains the negative examples across all labels.We argue that task-overconditioning further aligns the overall optimization objective to that of mitigating the overall compositional decision, which is our goal, while also achieving a constant scaling with the number of individual classifiers.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "•Group-interleaving:The natural extension of the miti- gation solution requires a batch of negative examples with respect to each group at each iteration.Instead, group-interleaving makes the optimization objective stochastic with respect to groups at each iteration, al- lowing a constant scaling with the number of groups.",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "•Empirical verification:We empirically show that our proposed method, which combines overconditioning and group-interleaving results in equal or better Pareto frontiers than baseline methods, with significant train- ing speedup, on two datasets.",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "RelatedWork.Methodsforimprovinggroupfairness cangenerallybecategorizedinthreemainclasses:pre- processing,post-processing,andin-processingmethods. Pre-processingalgorithms(Feldmanetal.,2015;Zemel et al., 2013; Calmon et al., 2017) transform the biased data featurestoanewspaceinwhichthelabelsandsensitive attributes are statistically independent.Post-processing ap- proaches (Hardt et al., 2016; Pleiss et al., 2017; Alghamdi et al., 2022) achieve group fairness properties by altering the final decision of the classifier.",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "The focus of this paper is on in-processing methods, which introduce constraints/regularizers for improving fairness in training.Thesemethodshaveempiricallyshowntopro- duce a more favorable performance/fairness Pareto tradeoff compared to other methods (Lowy et al., 2022).These in- clude (Ristanoski et al., 2013; Quadrianto & Sharmanska, 2017) decision-trees (Kamiran et al., 2010; Raff et al., 2018; Aghaei et al., 2019), support vector machines (Donini et al., 2018), boosting (Fish et al., 2015), neural networks (Grari etal.,2020;Choetal.,2020b;Prostetal.,2019;Lowy etal.,2022),or(logistic)regressionmodels(Zafaretal., 2017; Berk etal., 2017; Taskesen et al., 2020;Chzhen & Schreuder, 2020; Baharlouei et al., 2020a; Jiang et al., 2020; Grari et al., 2019). See the recent paper by (Hort et al., 2022) for a more comprehensive literature survey.We focus in this",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "paper on the MinDiff technique, which has been successful across tasks (Beutel et al., 2019b; Prost et al., 2019; Beutel et al., 2019a).",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "This paper is also broadly related to the compositional fair- ness literature (Dwork & Ilvento, 2018; Dwork et al., 2020; Wang et al., 2021).In contrast to these works, we focus on a narrower sense of compositionality (only the intersection) for which we derive a scalable specialized solution.",
+          "page": 1,
+          "position": 17
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2 Background & Problem Setup",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Here,weformallyprovidetheproblemsetup. Let (x, {yt}t∈[T ]) represent a feature and a set of Tbinary la-",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "bels, where x ∈X, and yt∈{0, 1} for all t ∈[T]1.In our setup, the overall decision is a simple composite function of the individual labels:y=maxt∈T {yt}, i.e., y=1 if and only if there exists t ∈[T] s.t.yt= 1.",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "We consider a scenario where we train Tindividual predic- tors {byt(x; θ)}t∈[T ] in a multi-label setup, where byt(x; θ) ∈ {0, 1} is a binary classifier from features x, and θ represents model parameters.2Similarly, the overall model prediction is given by by= maxt∈T {byt}, i.e., by= 1 if and only if there exists t∈[T] s.t.byt=1. In other words, we predict that the overall label is 1 when any of the underlying classifiers is triggered.As explained before, this setup is common in many applications, where the final decision (e.g.rejecting a comment (Dixon et al., 2018)) based on by depends on many sub-decisions byt (properties of the customer or comment).",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "Our goal is to optimize for fairness in the equal opportunity sense (Hardt et al., 2016) for the overall model prediction with respect to multiple group memberships.3Let the set G capture all groups for which we would like to improve fair- ness.Let gm∈{0, 1} denote the identifier for membership in group gm, for m ∈[|G|].",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Definition2.1(overallequalopportunitywithrespectto membership in group m).",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "P(bY= 1|Gm= 0, Y= 0) = P(bY= 1|Gm= 1, Y= 0),",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "(1) Note that in this paper, we do not consider the intersectional fairnesssetting(Kearnsetal.,2018;Fouldsetal.,2020) where the goal is to ensure fairness to all intersections of group memberships; see Appendix A.",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "While there are numerous ways to optimize for fairness in machine learning, specifically in equal opportunity sense, the methods that achieve better fairness/performance Pareto frontiers have been empirically observed to be mostly in- processing methods (Lowy et al., 2022), where a regularizer",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "1We define [T]:= {1, . . . , T}. 2We often drop (x; θ) for brevity and refer to the output of the t-th classifier as byt.",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "3Fairness of individual predictors is desirable but not required.",
+          "page": 1,
+          "position": 27
+        },
+        {
+          "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "is added to the (cross-entropy) training loss to mitigate the model fairness gap.The regularizer is usually of the form: D(bY (θ), Gm|Y= 0) where D(·, ·) is a proper divergence between two random variables.",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "Notice that in our problem setupbY (θ) is not a differentiable function of the task-level predictors.Hence, we cannot use it directly to regularize the training of the individual task- level classifiers via backpropagation.This situation occurs when task-level predictors are not trained jointly or are even owned by different teams in an organization.",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "Oneintuitivesolutiontoremediatethismulti-labelsetup istoensurethateachindividualclassifierisfairforeach group(Dwork&Ilvento,2018).Thisintuitivedesignis motivated by previous work (Wang et al., 2021) which finds that fairness of individual predictors might be sufficient to improve fairness of the overall system, even if there are no theoreticalguarantees.Werefertothisobjectiveastask- level equal opportunity:",
+          "page": 2,
+          "position": 31
+        },
+        {
+          "text": "Definition 2.2 (Task-level equal opportunity with respect to group Gm).For any task t ∈[T] and group m for m ∈|G|,",
+          "page": 2,
+          "position": 32
+        },
+        {
+          "text": "P(bYt= 1|Gm= 0, Yt= 0) = P(bYt= 1|Gm= 1, Yt= 0).",
+          "page": 2,
+          "position": 33
+        },
+        {
+          "text": "(2)",
+          "page": 2,
+          "position": 34
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3 Baseline:Many MinDiff Regularizers",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Whiletherearemanyeffectivemethodsforsolvingtask- level equal opportunity in (2), as discussed in related work, herewefocusonanadaptationofMinDiff(Zafaretal., 2017; Beutel et al., 2019b; Prost et al., 2019) to the multi- group multi-label classification case.This regularization- based approach has a number of advantages.First, it does not require group labels at inference time, which is often true for real-world applications.Next, it has been empirically demonstrated to be effective at remediating fairness issues whilestillmaintainingoverallperformance(Prostetal., 2019).Finally,it is designed to be effective when group- labeled instances are rare even in training data.",
+          "page": 2,
+          "position": 35
+        },
+        {
+          "text": "This MinDiff technique introduces a new loss term based on maximum mean discrepancy (MMD) to promote (condi- tional) independence between the predictions and sensitive group(Prostetal.,2019)pereachgroupandeachtask. More precisely, the loss becomes:",
+          "page": 2,
+          "position": 36
+        },
+        {
+          "text": "LMinDiff= LCE( ˆY , Y ) + λ",
+          "page": 2,
+          "position": 37
+        },
+        {
+          "text": "X",
+          "page": 2,
+          "position": 38
+        },
+        {
+          "text": "t∈T",
+          "page": 2,
+          "position": 39
+        },
+        {
+          "text": "X",
+          "page": 2,
+          "position": 40
+        },
+        {
+          "text": "m∈[|G|]",
+          "page": 2,
+          "position": 41
+        },
+        {
+          "text": "Rt,m, (3)",
+          "page": 2,
+          "position": 42
+        },
+        {
+          "text": "where LCE is the empirical cross-entropy loss, λ is a hyper- parameter that sets the relative strength of the entropy and MMD loss,4and",
+          "page": 2,
+          "position": 43
+        },
+        {
+          "text": "4In practice, one can tune the MinDiff strength for each regu- larizer at the expense of a complex hyperparameter tuning.",
+          "page": 2,
+          "position": 44
+        },
+        {
+          "text": "Rt,m =MMD( ˆYt|Yt =0, Gm =0;ˆYt|Yt =0, Gm =1).(4)",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "Computing Rt,mrequires negative labeled instances (Yt= 0) for both group membership cases (Gm= 0 and Gm= 1). In practice, instances with group membership information are much less frequently available than those without.Min Diffhandlesthisbycreatingdedicateddatastreamsfor group-labeled instances that ensure that every batch has the data required to compute the MMD kernel component of theloss.Asthenumberofgroupsandpredictionstasks increases, this leads to O(T· |G|) data streams that must be stored and a T· |G| multiplier on the batch size.",
+          "page": 2,
+          "position": 46
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "4 Proposed Method:MinDiff-IO",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "We now describe our proposed method, MinDiff-IO, which is built on two main components:Group-Interleaving and Task-Overconditioning. The central insight behind these two",
+          "page": 2,
+          "position": 47
+        },
+        {
+          "text": "approaches is that we can still accomplish our goal, overall equal opportunity defined by Equation (1), by optimizing a slightly different objective that is better aligned and is easier to compute.We describe these techniques in the subsequent sections.",
+          "page": 2,
+          "position": 48
+        }
+      ],
+      "subsections": [
+        {
+          "title": "4.1 Task-Overconditioning",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "The baseline method that targets task-level equal opportu- nity has a number of data streams and batch size that scales linearly with T, making it intractable for systems where T might be large (e.g., O(100)).Additionally, it does not nec- essarily imply overall equal opportunity(Dwork & Ilvento, 2018), Equation (1), which is what is desired.",
+              "page": 2,
+              "position": 49
+            },
+            {
+              "text": "In this section, we present our proposal towards satisfying overall equal opportunity in this compositional decision sys- tem.We provide limited theoretical motivation for why it might be more aligned with the overall fairness objective under restrictive assumptions.We shall also see in the exper- imental section (where those restrictive assumptions are not satisfied) that it leads to equal or better fairness/performance Pareto frontiers.",
+              "page": 2,
+              "position": 50
+            },
+            {
+              "text": "Definition 4.1 (Overconditioning task-level equal opportu- nity).For all t ∈[T],",
+              "page": 2,
+              "position": 51
+            },
+            {
+              "text": "P(bYt =1|Gm =0, Y=0)=P(bYt =1|Gm =1,Y=0).(5)",
+              "page": 2,
+              "position": 52
+            },
+            {
+              "text": "Note that, unlike Equation (4), we condition on all labels having negative truth.This has the effect of requiring only one dataset for all tasks when computing loss rather than T datasets.",
+              "page": 2,
+              "position": 53
+            },
+            {
+              "text": "Assumption 4.2.Let task-level classifiers {byt(x; θ)}t∈[T ] be such that for all x ∈X, and for any t̸ = τ,",
+              "page": 2,
+              "position": 54
+            },
+            {
+              "text": "byt(x; θ)byτ(x; θ) = 0. (6)",
+              "page": 2,
+              "position": 55
+            },
+            {
+              "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+              "page": 3,
+              "position": 56
+            },
+            {
+              "text": "In other words, the classifiers don’t trigger simultaneously; if byt= 1 then byτ= 0 for all τ̸= t.",
+              "page": 3,
+              "position": 57
+            },
+            {
+              "text": "NoticethatAssumption4.2isastrongassumptionasit requires the classifiers to have non-overlapping coverage, which is not necessarily satisfied in practice. For example, in the content moderation example, a comment might be toxic, insulting, and attacking identity at the same time.While this assumption is very restrictive, we show that under this sce- nario overconditioning is perfectly aligned with the goal of mitigating overall classifier.We also don’t need this assump- tionforourempiricalresults,whichshowimprovements over the baseline classifier.",
+              "page": 3,
+              "position": 58
+            },
+            {
+              "text": "Lemma4.3.IfAssumption4.2issatisfied,thenDefini- tion 4.1 (overconditioned task-level equal opportunity) im- plies Definition 2.1 (overall equal opportunity).",
+              "page": 3,
+              "position": 59
+            },
+            {
+              "text": "The proof is relegated to the appendix.Lemma 4.3 deter- mines a scenario where overconditioning task-level equal opportunity indeed implies the desired overall equal opportu- nity.Notice that even under Assumption 4.2, Definition 4.1 isastrongerrequirementthanDefinition2.1,andisnot implied by it.In other words, we might be able to satisfy the overall equal opportunity and yet the overconditioning equal opportunity might not be satisfied for all task-level classifiers.",
+              "page": 3,
+              "position": 60
+            },
+            {
+              "text": "To solve for Task-Overconditioning, we adapt MinDiff loss as follows:",
+              "page": 3,
+              "position": 61
+            },
+            {
+              "text": "LMinDiff-O= LCE( ˆY , Y ) + λ",
+              "page": 3,
+              "position": 62
+            },
+            {
+              "text": "X",
+              "page": 3,
+              "position": 63
+            },
+            {
+              "text": "t∈T",
+              "page": 3,
+              "position": 64
+            },
+            {
+              "text": "X",
+              "page": 3,
+              "position": 65
+            },
+            {
+              "text": "m∈[|G|]",
+              "page": 3,
+              "position": 66
+            },
+            {
+              "text": "RO",
+              "page": 3,
+              "position": 67
+            },
+            {
+              "text": "t,m, (7)",
+              "page": 3,
+              "position": 68
+            },
+            {
+              "text": "where",
+              "page": 3,
+              "position": 69
+            },
+            {
+              "text": "RO",
+              "page": 3,
+              "position": 70
+            },
+            {
+              "text": "t,m=MMD( ˆYt|Y=0, Gm=0;ˆYt|Y=0, Gm=1).(8)",
+              "page": 3,
+              "position": 71
+            },
+            {
+              "text": "Note that there will be fewer data instances that are suitable forcomputing(8),whichrequiresalllabelstobejointly negative,than(4),whichonlyrequiresindividuallabels tobenegative.Wehavenotfoundthistobeanissuein practical applications where positive label incidence is low.",
+              "page": 3,
+              "position": 72
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.2 Group-Interleaving",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "MinDiff was originally designed to present remediation data fromallgroupstothemodelateachiteration.However, wecanreducethecomplexityofcomputingtheMinDiff regularizer further by presenting only one group per batch to the model.In this case, the loss becomes:",
+              "page": 3,
+              "position": 73
+            },
+            {
+              "text": "LMinDiff-IO= LCE( ˆY , Y ) + RO",
+              "page": 3,
+              "position": 74
+            },
+            {
+              "text": "M (9)",
+              "page": 3,
+              "position": 75
+            },
+            {
+              "text": "whereMisarandomindexsupportedon[|G|].Inother words, here we remediate against a random draw from the groups at each iteration of the algorithm.Notice that the",
+              "page": 3,
+              "position": 76
+            },
+            {
+              "text": "newlossisthesameasthetask-overconditionedlossin expectation, and is expected to converge to a stationary point of the same objective.On the other hand, when combined with Task-Overconditioning, the loss can be computed with only O(1) extra instances in each batch, with no dependence on |G| and T.",
+              "page": 3,
+              "position": 77
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "5 Evaluation Metrics",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "Foreachbinarygroupmembership,i.e.,Gm∈{0, 1}, where Gm=1 is considered the minority group member- ship,wequantifythefairnessgapthroughthefollowing interchangeable metrics that are expressed in terms of the absolute gap and the ratio of the two groups:",
+          "page": 3,
+          "position": 78
+        },
+        {
+          "text": "dEO,m= |FPRGm=1 −FPRGm=0|, (10)",
+          "page": 3,
+          "position": 79
+        },
+        {
+          "text": "and",
+          "page": 3,
+          "position": 80
+        },
+        {
+          "text": "rEO,m= FPRGm=1/FPRGm=0, (11)",
+          "page": 3,
+          "position": 81
+        },
+        {
+          "text": "wherebPdenotetheempiricaldistributionoveratest setofNi.i.dsamplesfromPXY ,andfori∈{0, 1}, FPRGm=i:=bP(bY= 1|Gm= i, Y= 0).",
+          "page": 3,
+          "position": 82
+        },
+        {
+          "text": "To measure the classification performance we both compute the Area Under the ROC Curve (ROC AUC) of the classifier as well as accuracy.Finally, to measure speed, we report the number of iterations per second achieved during model training.",
+          "page": 3,
+          "position": 83
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "6 Experiments",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "We run two experiments.The first experiment provides the Pareto frontier of fairness vs performance for each approach using a publicly-available academic dataset, and the second providestheperformance,fairness,andspeedofareal- world policy enforcement classifier at a particular operating point with each of the proposed approaches.Overall, these experiments show that MinDiffIO provides equal or better fairness/performance while improving training speed.",
+          "page": 3,
+          "position": 84
+        }
+      ],
+      "subsections": [
+        {
+          "title": "6.1 Civil Comments",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "The first set of experiments are run on the Civil Comments Dataset (Pavlopoulos et al., 2020); details are given in Ap- pendixB.3.CivilCommentscontainscommenttextand seven associated crowd annotated labels related to the ‘ci- vility’ of the comment; whether the comment is an insult, toxic, or attacking identity, and so on.We use the subset of the data that are labeled with group information.Groups are related to race, ethnicity, gender, disability, and sexuality.",
+              "page": 3,
+              "position": 85
+            },
+            {
+              "text": "We train comment classifiers on three of the seven labels and combine the predictions into a system-level prediction: a comment is classified as unsafe is any of the prediction is unsafe.We compare this with ‘direct remediation’ where",
+              "page": 3,
+              "position": 86
+            },
+            {
+              "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+              "page": 4,
+              "position": 87
+            },
+            {
+              "text": "Method Avg Steps / Sec (↑) Avg AUCPR (↑) rEO,1 (↓) rEO,2 (↓) No remediation A B C D MinDiff – – – – MinDiff-O 0.60 × A 0.96 × B 0.66 × C 0.79 × D MinDiff-IO 0.86 × A 0.96 × B 0.65 × C 0.83 × D",
+              "page": 4,
+              "position": 88
+            },
+            {
+              "text": "Table 1. Comparison of different remediation techniques for the policy classification model.Avg AUCPR is a summary measurement of",
+              "page": 4,
+              "position": 89
+            },
+            {
+              "text": "the area under the precision-recall curve for each policy classifier; and Group 1 and Group 2 FPR ratio (rEO,1and rEO,2, respectively) denote the ratio of minority to baseline false positive rates at the system level.The baseline MinDiff remediation is too slow to run at this scale (second row).We show how the introduction of Task Overconditioning allows us to remediate at all (third row) and how adding Group Interleaving reduces the speed cost incurred by remediation (fourth row).",
+              "page": 4,
+              "position": 90
+            },
+            {
+              "text": "Figure 1. System-leveltradeoffcurveforthecivilcomments",
+              "page": 4,
+              "position": 91
+            },
+            {
+              "text": "dataset, achieved by varying regularizer strength λ.Note that di- rect remediation is outperformed by component-based approaches; for a given level of fairness, the component-based approaches pro- vide better performance.Both component-based approaches offer similar performance.Five runs were performed for each λ and the faint cross-hatches represent 95% confidence intervals.",
+              "page": 4,
+              "position": 92
+            },
+            {
+              "text": "a classifier is trained to predict the system-level label (the logical OR of the component labels) rather than the com- ponents.In addition, we compare with ‘component-based’ remediationwhereMinDifforMinDiffIOareappliedto componentclassifiers.Resultsareshownforonegroup (Black) in Figure 1; results for other groups and component- level results for all predictions and groups can be found in Appendix B.3.",
+              "page": 4,
+              "position": 93
+            },
+            {
+              "text": "The plot displays the tradeoff between fairness and perfor- mance as the hyperparameter λ is varied.As λ increases, the contribution of the MMD component of the loss grows, leading to increased fairness at the cost of performance.",
+              "page": 4,
+              "position": 94
+            },
+            {
+              "text": "We observe that the component-based approaches offer bet- ter performance for a given fairness than direct remediation. Also, MindDiff and MinDiffIO offer qualitatively similar results.",
+              "page": 4,
+              "position": 95
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.2 Product Policy Compliance Detection",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Wenowstudyarealworldsystem,whichisresponsible for filtering out examples which break the product policy. Thisissimilartoliteratureontoxiccommentdetection (Pavlopoulos et al., 2020) or hateful speech filtering (Dixon",
+              "page": 4,
+              "position": 96
+            },
+            {
+              "text": "et al., 2018).To reflect the different facets of the product, a set of rules (10-1000) are defined and an example is against product policy if any given rule is broken.In practice, we use individual classifiers to predict each rule, and an exam- ple is filtered out if any individual soft prediction reaches a certain threshold.Samples can be categorized into two sensitive attributes (each considered as binary) and we want toguaranteefairnesstosamplesfromeachgroup,which lends itself to the multi-label and multigroup classification.",
+              "page": 4,
+              "position": 97
+            },
+            {
+              "text": "Note that a false positive of this system is a user harm be- cause policy-following content is flagged as policy-violating. Our goal is to reduce the gaps between false positive rates between minority groups and a baseline population.",
+              "page": 4,
+              "position": 98
+            },
+            {
+              "text": "We first evaluate the initial system without any remediation and find that two groups have high false positive rate dif- ferences.Our goal is to design the mitigation strategy that reduces the observed gaps on the final policy (gap from Def- inition 2.1) for both groups, while maintaining good perfor- mance (measured by AUCPR) and training speed (training steps/sec).",
+              "page": 4,
+              "position": 99
+            },
+            {
+              "text": "In Table 1, we show four different remediation approaches. The first approach, unremediated, has some performance, fairness, and speed characteristics that we compare other ap- proaches to.The second approach, baseline, is unworkably slow, so we are unable to run experiments or provide results. The third approach, which introduces Task Overcondition- ing, reduces fairness gaps with a minor hit to performance and a major hit to speed.Finally, the fourth approach adds Group Interleaving to mitigate the speed impact while main- taining similar fairness and performance characteristics.",
+              "page": 4,
+              "position": 100
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "7 Conclusion",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "Prior in-process equal opportunity remediation methods suf- fer from poor (linear) scaling in the number of prediction tasks and number of groups to remediate, making existing techniques sometimes impossible to apply to real-world sce- narios.We present Mindiff-IO, a new method that builds on the MinDiff approach to provide constant scaling with re- spect to tasks and groups. We show that Mindiff-IO provides similar performance and fairness characteristics to MinDiff while scaling much better in multilabel and multigroup en-",
+          "page": 4,
+          "position": 101
+        },
+        {
+          "text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+          "page": 5,
+          "position": 102
+        },
+        {
+          "text": "vironmentsthroughexperimentswithbothacademicand real-worlddatasets.Thelimitationsofthisworkarepro- vided in Appendix A.",
+          "page": 5,
+          "position": 103
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Acknowledgements",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "We would like to thank Preethi Lahoti, Ananth Balashankar, Lucian Cionca, and Katherine Heller for their constructive feedback on this paper.",
+          "page": 5,
+          "position": 104
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Adomavicius, G. and Tuzhilin, A.Toward the next gener-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "ation of recommender systems:a survey of the state-of- the-art and possible extensions.IEEE Transactions on Knowledge and Data Engineering, 17(6):734–749, 2005. doi:10.1109/TKDE.2005.99.",
+      "authors": [],
+      "title": null,
+      "year": 2005,
+      "venue": null,
+      "doi": "10.1109/TKDE.2005.99"
+    },
+    {
+      "id": 3,
+      "raw_text": "Agarwal, A., Beygelzimer, A., Dud´ık, M., Langford, J., and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "Wallach, H.A reductions approach to fair classification. InInternationalConferenceonMachineLearning,pp. 60–69. PMLR, 2018.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "Aghaei, S., Azizi, M. J., and Vayanos, P.Learning optimal",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 6,
+      "raw_text": "andfairdecisiontreesfornon-discriminativedecision- making.In Proceedings of the AAAI Conference on Arti- ficial Intelligence, volume 33, pp. 1418–1426, 2019.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "Alghamdi, W., Hsu, H., Jeong, H., Wang, H., Michalak, P.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Asoodeh, S., and Calmon, F.Beyond adult and compas: Fairmulti-classpredictionviainformationprojection. Advances in Neural Information Processing Systems, 35:",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 9,
+      "raw_text": "38747–38760, 2022.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "Baharlouei, S., Nouiehed, M., Beirami, A., and Razaviyayn,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 11,
+      "raw_text": "M.R´enyi fair inference.In ICLR, 2020a.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 12,
+      "raw_text": "Baharlouei, S., Nouiehed, M., Beirami, A., and Razaviyayn,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 13,
+      "raw_text": "M.R´enyi fair inference.In International Conference on Learning Representations, 2020b.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 14,
+      "raw_text": "Berk,R.,Heidari,H.,Jabbari,S.,Joseph,M.,Kearns,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 15,
+      "raw_text": "M.,Morgenstern,J.,Neel,S.,andRoth,A. Acon- vexframeworkforfairregression. arXivpreprint arXiv:1706.02409, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 16,
+      "raw_text": "Beutel, A., Chen, J., Zhao, Z., and Chi, E. H.Data decisions",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 17,
+      "raw_text": "and theoretical implications when adversarially learning fairrepresentations.arXivpreprintarXiv:1707.00075, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 18,
+      "raw_text": "Beutel, A., Chen, J., Doshi, T., Qian, H., Wei, L., Wu, Y.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 19,
+      "raw_text": "Heldt, L., Zhao, Z., Hong, L., Chi, E. H., et al. Fairness in recommendation ranking through pairwise comparisons. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pp. 2212–2220, 2019a.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 20,
+      "raw_text": "Beutel, A., Chen, J., Doshi, T., Qian, H., Woodruff, A., Luu,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 21,
+      "raw_text": "C.,Kreitmann,P.,Bischof,J.,andChi,E.H.Putting fairness principles into practice:Challenges, metrics, and improvements.CoRR,abs/1901.04562,2019b.URL http://arxiv.org/abs/1901.04562.",
+      "authors": [],
+      "title": null,
+      "year": 1901,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 22,
+      "raw_text": "Burke, R.Hybrid recommender systems:Survey and exper-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 23,
+      "raw_text": "iments.User modeling and user-adapted interaction, 12: 331–370, 2002.",
+      "authors": [],
+      "title": null,
+      "year": 2002,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 24,
+      "raw_text": "Calmon,F.,Wei,D.,Vinzamuri,B.,Ramamurthy,K. N.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 25,
+      "raw_text": "and Varshney, K. R.Optimized pre-processing for dis- crimination prevention.In Advances in Neural Informa- tion Processing Systems, pp. 3992–4001, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 26,
+      "raw_text": "Cho,J.,Hwang,G.,andSuh,C.Afairclassifierusing",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 27,
+      "raw_text": "mutual information.In 2020 IEEE International Sympo- sium on Information Theory (ISIT), pp. 2521–2526. IEEE, 2020a.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 28,
+      "raw_text": "Cho,J.,Hwang,G.,andSuh,C.Afairclassifierusing",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 29,
+      "raw_text": "kernel density estimation.In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H. (eds.), Advances in Neural Information Processing Systems 33:Annual Con- ference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual, 2020b.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 30,
+      "raw_text": "Chzhen, E. and Schreuder, N.A minimax framework for",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 31,
+      "raw_text": "quantifying risk-fairness trade-off in regression.arXiv preprint arXiv:2007.14265, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2007,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 32,
+      "raw_text": "Dixon, L., Li, J., Sorensen, J., Thain, N., and Vasserman,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 33,
+      "raw_text": "L.Measuringandmitigatingunintendedbiasintext classification.InProceedingsofthe2018AAAI/ACM ConferenceonAI,Ethics,andSociety,AIES’18,pp. 67–73, New York, NY, USA, 2018. Association for Com- putingMachinery. ISBN9781450360128. doi:10. 1145/3278721.3278729.URLhttps://doi.org/ 10.1145/3278721.3278729.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1145/3278721.3278729"
+    },
+    {
+      "id": 34,
+      "raw_text": "Donini, M., Oneto, L., Ben-David, S., Shawe-Taylor, J. S.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 35,
+      "raw_text": "and Pontil, M. Empirical risk minimization under fairness constraints.In Advances in Neural Information Process- ing Systems, pp. 2791–2801, 2018.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 36,
+      "raw_text": "Dwork, C. and Ilvento, C.Individual fairness under com-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 37,
+      "raw_text": "position.Proceedings of Fairness, Accountability, Trans- parency in Machine Learning, 2018.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 38,
+      "raw_text": "Dwork, C., Hardt, M., Pitassi, T., Reingold, O., and Zemel,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 39,
+      "raw_text": "R.Fairness through awareness.In Proceedings of the 3rd innovations in theoretical computer science conference, pp. 214–226, 2012.",
+      "authors": [],
+      "title": null,
+      "year": 2012,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 40,
+      "raw_text": "Dwork,C.,Ilvento,C.,andJagadeesan,M.Individual",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 41,
+      "raw_text": "fairness in pipelines.arXiv preprint arXiv:2004.05167, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2004,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 42,
+      "raw_text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 43,
+      "raw_text": "Feldman, M., Friedler, S. A., Moeller, J., Scheidegger, C.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 44,
+      "raw_text": "and Venkatasubramanian, S. Certifying and removing dis- parate impact.In proceedings of the 21th ACM SIGKDD internationalconferenceonknowledgediscoveryand data mining, pp. 259–268, 2015.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 45,
+      "raw_text": "Fish, B., Kun, J., and Lelkes, A. D.Fair boosting:a case",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 46,
+      "raw_text": "study.InWorkshoponFairness,Accountability,and Transparency in Machine Learning. Citeseer, 2015.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 47,
+      "raw_text": "Foulds,J.R.,Islam,R.,Keya,K.N.,andPan,S. An intersectional definition of fairness.In 2020 IEEE 36th International Conference on Data Engineering (ICDE), pp. 1918–1921. IEEE, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 48,
+      "raw_text": "Grari, V., Ruf, B., Lamprier, S., and Detyniecki, M. Fairness-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 49,
+      "raw_text": "aware neural R´eyni minimization for continuous features. arXiv preprint arXiv:1911.04929, 2019.",
+      "authors": [],
+      "title": null,
+      "year": 1911,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 50,
+      "raw_text": "Grari, V., Hajouji, O. E., Lamprier, S., and Detyniecki, M.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 51,
+      "raw_text": "Learning unbiased representations via R´enyi minimiza- tion.arXiv preprint arXiv:2009.03183, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2009,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 52,
+      "raw_text": "Gretton, A., Borgwardt, K. M., Rasch, M. J., Sch¨olkopf, B.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 53,
+      "raw_text": "and Smola, A.A kernel two-sample test.The Journal of Machine Learning Research, 13(1):723–773, 2012.",
+      "authors": [],
+      "title": null,
+      "year": 2012,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 54,
+      "raw_text": "Hardt, M., Price, E., and Srebro, N.Equality of opportunity",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 55,
+      "raw_text": "in supervised learning. In Advances in neural information processing systems, pp. 3315–3323, 2016.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 56,
+      "raw_text": "He,X.,Pan,J.,Jin,O.,Xu,T.,Liu,B.,Xu,T.,Shi,Y.,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 57,
+      "raw_text": "Atallah,A.,Herbrich,R.,Bowers,S.,etal.Practical lessonsfrompredictingclicksonadsatfacebook.In Proceedings of the eighth international workshop on data mining for online advertising, pp. 1–9, 2014.",
+      "authors": [],
+      "title": null,
+      "year": 2014,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 58,
+      "raw_text": "Hort,M.,Chen,Z.,Zhang,J. M.,Sarro,F.,and Harman,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 59,
+      "raw_text": "M.Biamitigationformachinelearningclassifiers:A comprehensive survey.arXiv preprint arXiv:2207.07068, 2022.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 60,
+      "raw_text": "Jiang, R., Pacchiano, A., Stepleton, T., Jiang, H., and Chi-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 61,
+      "raw_text": "appa, S.Wasserstein fair classification.In Uncertainty in Artificial Intelligence, pp. 862–872. PMLR, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 62,
+      "raw_text": "Kamiran, F., Calders, T., and Pechenizkiy, M.Discrimina-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 63,
+      "raw_text": "tion aware decision tree learning.In 2010 IEEE Interna- tional Conference on Data Mining, pp. 869–874. IEEE, 2010.",
+      "authors": [],
+      "title": null,
+      "year": 2010,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 64,
+      "raw_text": "Kearns, M., Neel, S., Roth, A., and Wu, Z. S.Preventing",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 65,
+      "raw_text": "fairness gerrymandering:Auditing and learning for sub- group fairness.In International Conference on Machine Learning, pp. 2564–2572, 2018.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 66,
+      "raw_text": "Lowy, A., Baharlouei, S., Pavan, R., Razaviyayn, M., and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 67,
+      "raw_text": "Beirami, A.A stochastic optimization framework for fair",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 68,
+      "raw_text": "riskminimization.TransactionsofMachineLearning Research, 2022.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 69,
+      "raw_text": "Mary, J., Calauzenes, C., and El Karoui, N.Fairness-aware",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 70,
+      "raw_text": "learning for continuous attributes and treatments.In In- ternational Conference on Machine Learning, pp. 4382– 4391. PMLR, 2019.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 71,
+      "raw_text": "Pavlopoulos,J.,Sorensen,J.,Dixon,L.,Thain,N.,and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 72,
+      "raw_text": "Androutsopoulos,I.Toxicitydetection:Doescontext really matter?, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 73,
+      "raw_text": "Pleiss, G., Raghavan, M., Wu, F., Kleinberg, J., and Wein-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 74,
+      "raw_text": "berger, K. Q.On fairness and calibration.In Advances in Neural Information Processing Systems, pp. 5680–5689, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 75,
+      "raw_text": "Prost, F., Qian, H., Chen, Q., Chi, E. H., Chen, J., and Beutel,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 76,
+      "raw_text": "A.Toward a better trade-off between performance and fairness with kernel-based distribution matching.arXiv preprint arXiv:1910.11779, 2019.",
+      "authors": [],
+      "title": null,
+      "year": 1910,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 77,
+      "raw_text": "Quadrianto, N. and Sharmanska, V.Recycling privileged",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 78,
+      "raw_text": "learning and distribution matching for fairness.Advances in Neural Information Processing Systems, 30, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 79,
+      "raw_text": "Raff, E., Sylvester, J., and Mills, S. Fair forests: Regularized",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 80,
+      "raw_text": "tree induction to minimize model bias.In Proceedings ofthe2018AAAI/ACMConferenceonAI,Ethics,and Society, pp. 243–250, 2018.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 81,
+      "raw_text": "Ristanoski, G., Liu, W., and Bailey, J.Discrimination aware",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 82,
+      "raw_text": "classification for imbalanced datasets.In Proceedings of the 22nd ACM international conference on Information & Knowledge Management, pp. 1529–1532, 2013.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 83,
+      "raw_text": "Taskesen,B.,Nguyen,V.A.,Kuhn,D.,andBlanchet,J.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 84,
+      "raw_text": "A distributionally robust approach to fair classification. arXiv preprint arXiv:2007.09530, 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2007,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 85,
+      "raw_text": "Wang, L., Lin, J., and Metzler, D.A cascade ranking model",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 86,
+      "raw_text": "for efficient ranked retrieval.In Proceedings of the 34th international ACM SIGIR conference on Research and development in Information Retrieval, pp. 105–114, 2011.",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 87,
+      "raw_text": "Wang, X., Thain, N., Sinha, A., Prost, F., Chi, E. H., Chen,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 88,
+      "raw_text": "J., and Beutel, A.Practical compositional fairness:Un- derstanding fairness in multi-component recommender systems.In Proceedings of the 14th ACM International Conference on Web Search and Data Mining,pp. 436– 444, 2021.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 89,
+      "raw_text": "Zafar, M. B., Valera, I., Rogriguez, M. G., and Gummadi,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 90,
+      "raw_text": "K. P.Fairness constraints:Mechanisms for fair classifica- tion.In Artificial Intelligence and Statistics, pp. 962–970. PMLR, 2017.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 91,
+      "raw_text": "Zemel, R., Wu, Y., Swersky, K., Pitassi, T., and Dwork, C.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 92,
+      "raw_text": "Learningfairrepresentations.InInternationalConfer- ence on Machine Learning, pp. 325–333, 2013.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 93,
+      "raw_text": "Towards A Scalable Solution for Improving Multi-Group Fairness in Compositional Classification",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 10,
+  "warnings": []
+}

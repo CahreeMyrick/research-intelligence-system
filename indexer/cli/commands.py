@@ -11,34 +11,83 @@ from indexer.database.repository import IndexRepository
 from indexer.pipeline.indexer import CorpusIndexer
 
 
+CONFIG_PATH = Path(__file__).resolve().parents[1] / "config.yaml"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="indexer",
         description="Hierarchical research document indexer with PostgreSQL + pgvector.",
     )
-    subparsers = parser.add_subparsers(dest="command", help="Subcommand to run")
 
+    subparsers = parser.add_subparsers(
+        dest="command",
+        help="Subcommand to run",
+    )
+
+    # -----------------
     # index command
-    index_parser = subparsers.add_parser("index", help="Index a parsed document corpus into PostgreSQL.")
-    index_parser.add_argument("corpus_dir", help="Path to corpus directory (containing parsed/)")
-    index_parser.add_argument("--db-url", help="PostgreSQL connection URL (default: from DATABASE_URL or postgresql://localhost:5432/research_intel)")
-    index_parser.add_argument("--model", help="Embedding model name (default: BAAI/bge-base-en-v1.5)")
-    index_parser.add_argument("--batch-size", type=int, default=32, help="Embedding batch size (default: 32)")
-    index_parser.add_argument("--force", action="store_true", help="Force re-indexing even if documents are up to date")
-    index_parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose debug logging")
+    # -----------------
 
+    index_parser = subparsers.add_parser(
+        "index",
+        help="Index a parsed document corpus into PostgreSQL.",
+    )
+
+    index_parser.add_argument(
+        "corpus_dir",
+        help="Path to corpus directory containing parsed documents.",
+    )
+
+    index_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force re-indexing even if documents are already up to date.",
+    )
+
+    index_parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="Enable verbose debug logging.",
+    )
+
+    # -----------------
     # status command
-    status_parser = subparsers.add_parser("status", help="Show database index statistics.")
-    status_parser.add_argument("--db-url", help="PostgreSQL connection URL")
-    status_parser.add_argument("-v", "--verbose", action="store_true")
+    # -----------------
+
+    status_parser = subparsers.add_parser(
+        "status",
+        help="Show database index statistics.",
+    )
+
+    status_parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="Enable verbose debug logging.",
+    )
 
     return parser
 
 
 def main() -> None:
-    # If invoked directly with 'corpus/' without 'index' subcommand, default to index command
+    # Allow:
+    #
+    #   python -m indexer.cli.commands ingestion/corpus
+    #
+    # to behave like:
+    #
+    #   python -m indexer.cli.commands index ingestion/corpus
+
     argv = sys.argv[1:]
-    if argv and argv[0] not in ("index", "status", "-h", "--help"):
+
+    if argv and argv[0] not in (
+        "index",
+        "status",
+        "-h",
+        "--help",
+    ):
         argv = ["index"] + argv
 
     parser = build_parser()
@@ -49,49 +98,96 @@ def main() -> None:
         sys.exit(1)
 
     logging.basicConfig(
-        level=logging.DEBUG if getattr(args, "verbose", False) else logging.INFO,
+        level=(
+            logging.DEBUG
+            if getattr(args, "verbose", False)
+            else logging.INFO
+        ),
         format="%(asctime)s %(levelname)s %(name)s: %(message)s",
         datefmt="%H:%M:%S",
     )
 
-    if args.command == "status":
-        config = IndexerConfig.from_env(database_url=args.db_url)
-        db = DatabaseManager(config.database_url)
-        repo = IndexRepository(db)
-        try:
-            stats = repo.get_stats()
-            print("\n=== Index Database Statistics ===")
-            print(f"Documents: {stats['documents']}")
-            print(f"Sections:  {stats['sections']}")
-            print(f"Chunks:    {stats['chunks']}")
-            print(f"Embeddings: {stats['embeddings']}")
-            print(f"Citations: {stats['citations']}")
-            print(f"Unresolved: {stats['unresolved_references']}")
-            print(f"Statuses:  {stats['statuses']}\n")
-        except Exception as e:
-            print(f"Failed to query index status: {e}", file=sys.stderr)
-            sys.exit(1)
-        return
+    # -----------------
+    # Load configuration
+    # -----------------
 
-    if args.command == "index":
-        config = IndexerConfig.from_env(
-            database_url=args.db_url,
-            embedding_model=args.model,
-            embedding_batch_size=args.batch_size,
+    try:
+        config = IndexerConfig.from_yaml(CONFIG_PATH)
+
+    except Exception as exc:
+        print(
+            f"Failed to load configuration from {CONFIG_PATH}: {exc}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    # -----------------
+    # status command
+    # -----------------
+
+    if args.command == "status":
+        db = DatabaseManager(
+            config.database_url,
+        )
+
+        repo = IndexRepository(
+            db,
         )
 
         try:
-            indexer = CorpusIndexer(config=config)
-            summary = indexer.index_corpus(args.corpus_dir, force=args.force)
+            stats = repo.get_stats()
 
-            print("\n=== Indexing Summary ===")
+            print()
+            print("=== Index Database Statistics ===")
+            print(f"Documents:  {stats['documents']}")
+            print(f"Sections:   {stats['sections']}")
+            print(f"Chunks:     {stats['chunks']}")
+            print(f"Embeddings: {stats['embeddings']}")
+            print(f"Citations:  {stats['citations']}")
+            print(f"Unresolved: {stats['unresolved_references']}")
+            print(f"Statuses:   {stats['statuses']}")
+            print()
+
+        except Exception as exc:
+            print(
+                f"Failed to query index status: {exc}",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        return
+
+    # -----------------
+    # index command
+    # -----------------
+
+    if args.command == "index":
+        try:
+            indexer = CorpusIndexer(
+                config=config,
+            )
+
+            summary = indexer.index_corpus(
+                args.corpus_dir,
+                force=args.force,
+            )
+
+            print()
+            print("=== Indexing Summary ===")
             print(summary.format_report())
-            print(f"Completed in {summary.duration_seconds:.2f}s\n")
+            print(
+                f"Completed in {summary.duration_seconds:.2f}s"
+            )
+            print()
 
             if summary.failed > 0:
                 sys.exit(1)
-        except Exception as e:
-            print(f"Fatal error during indexing: {e}", file=sys.stderr)
+
+        except Exception as exc:
+            print(
+                f"Fatal error during indexing: {exc}",
+                file=sys.stderr,
+            )
             sys.exit(1)
 
 

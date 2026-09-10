@@ -2,15 +2,17 @@ from __future__ import annotations
 
 import argparse
 
+from indexer.config import IndexerConfig
 from indexer.database.connection import DatabaseManager
 from indexer.embeddings.ollama import OllamaEmbeddingProvider
 from indexer.llm import AnswerService, OllamaLLM
 from indexer.retrieval.repository import RetrievalRepository
 from indexer.retrieval.service import RetrievalService
 
+from pathlib import Path
 
-DATABASE_URL = "postgresql://localhost:5432/research_intel"
-
+INDEXER_DIR = Path(__file__).resolve().parents[1]
+DEFAULT_CONFIG = INDEXER_DIR / "config.yaml"
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -23,14 +25,24 @@ def main() -> None:
         help="Question to ask.",
     )
 
+    parser.add_argument(
+        "--config",
+        default=DEFAULT_CONFIG,
+        help="Path to YAML configuration file.",
+    )
+
     args = parser.parse_args()
 
     question = " ".join(args.question)
 
-    db = DatabaseManager(DATABASE_URL)
+    config = IndexerConfig.from_yaml(args.config)
+
+    db = DatabaseManager(
+        config.database_url,
+    )
 
     embedding_provider = OllamaEmbeddingProvider(
-        model="nomic-embed-text:latest",
+        model=config.embedding_model,
     )
 
     retrieval_repository = RetrievalRepository(
@@ -43,7 +55,7 @@ def main() -> None:
     )
 
     llm = OllamaLLM(
-        model="qwen3:4b-docmind",
+        model=config.llm_model,
     )
 
     answer_service = AnswerService(
@@ -52,8 +64,8 @@ def main() -> None:
 
     evidence = retrieval_service.retrieve(
         question,
-        top_k=5,
-        candidate_k=20,
+        top_k=config.top_k,
+        candidate_k=config.candidate_k,
     )
 
     answer = answer_service.answer(

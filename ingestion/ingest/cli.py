@@ -14,7 +14,7 @@ from ingest.pipeline import ingest
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Ingest a directory of paper PDFs into a canonical Corpus.")
-    parser.add_argument("papers_dir", help="Directory containing .pdf files")
+    parser.add_argument("--papers_dir", help="Directory containing .pdf files")
     parser.add_argument("--out", "-o", default="corpus", help="Output directory or JSON file (default: corpus)")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()

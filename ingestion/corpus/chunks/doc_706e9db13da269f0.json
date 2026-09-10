@@ -17,7 +17,7 @@
       "page_start": 0,
       "page_end": 0,
       "paragraph_positions": [],
-      "token_count": 9,
+      "token_count": 14,
       "chunk_index": 0,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -55,7 +55,7 @@
       "paragraph_positions": [
         0
       ],
-      "token_count": 4,
+      "token_count": 5,
       "chunk_index": 2,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -75,7 +75,7 @@
       "paragraph_positions": [
         1
       ],
-      "token_count": 3,
+      "token_count": 6,
       "chunk_index": 3,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -95,7 +95,7 @@
       "paragraph_positions": [
         2
       ],
-      "token_count": 3,
+      "token_count": 4,
       "chunk_index": 4,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -201,7 +201,7 @@
       "paragraph_positions": [
         10
       ],
-      "token_count": 25,
+      "token_count": 28,
       "chunk_index": 9,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -224,7 +224,7 @@
         12,
         13
       ],
-      "token_count": 44,
+      "token_count": 54,
       "chunk_index": 10,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -362,7 +362,7 @@
         15,
         16
       ],
-      "token_count": 6,
+      "token_count": 7,
       "chunk_index": 17,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -382,7 +382,7 @@
       "page_start": 11,
       "page_end": 12,
       "paragraph_positions": [],
-      "token_count": 5,
+      "token_count": 6,
       "chunk_index": 18,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -463,7 +463,7 @@
       "paragraph_positions": [
         18
       ],
-      "token_count": 14,
+      "token_count": 17,
       "chunk_index": 22,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -481,7 +481,7 @@
       "page_start": 15,
       "page_end": 16,
       "paragraph_positions": [],
-      "token_count": 7,
+      "token_count": 8,
       "chunk_index": 23,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -499,7 +499,7 @@
       "page_start": 16,
       "page_end": 23,
       "paragraph_positions": [],
-      "token_count": 6,
+      "token_count": 7,
       "chunk_index": 24,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -542,7 +542,7 @@
         20,
         21
       ],
-      "token_count": 26,
+      "token_count": 28,
       "chunk_index": 26,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -565,7 +565,7 @@
         22,
         23
       ],
-      "token_count": 39,
+      "token_count": 46,
       "chunk_index": 27,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -613,7 +613,7 @@
         28,
         29
       ],
-      "token_count": 63,
+      "token_count": 71,
       "chunk_index": 29,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -635,7 +635,7 @@
       "paragraph_positions": [
         30
       ],
-      "token_count": 12,
+      "token_count": 15,
       "chunk_index": 30,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -658,7 +658,7 @@
         31,
         32
       ],
-      "token_count": 10,
+      "token_count": 11,
       "chunk_index": 31,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -680,7 +680,7 @@
       "paragraph_positions": [
         33
       ],
-      "token_count": 33,
+      "token_count": 39,
       "chunk_index": 32,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -708,7 +708,7 @@
         39,
         40
       ],
-      "token_count": 89,
+      "token_count": 113,
       "chunk_index": 33,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -735,7 +735,7 @@
         45,
         46
       ],
-      "token_count": 99,
+      "token_count": 122,
       "chunk_index": 34,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -799,7 +799,7 @@
         51,
         52
       ],
-      "token_count": 7,
+      "token_count": 9,
       "chunk_index": 37,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -822,7 +822,7 @@
         54,
         55
       ],
-      "token_count": 11,
+      "token_count": 12,
       "chunk_index": 38,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -843,7 +843,7 @@
       "paragraph_positions": [
         56
       ],
-      "token_count": 33,
+      "token_count": 39,
       "chunk_index": 39,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -864,7 +864,7 @@
       "paragraph_positions": [
         57
       ],
-      "token_count": 11,
+      "token_count": 13,
       "chunk_index": 40,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -888,7 +888,7 @@
         60,
         61
       ],
-      "token_count": 68,
+      "token_count": 86,
       "chunk_index": 41,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -913,7 +913,7 @@
         65,
         66
       ],
-      "token_count": 60,
+      "token_count": 67,
       "chunk_index": 42,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -939,7 +939,7 @@
         71,
         72
       ],
-      "token_count": 69,
+      "token_count": 80,
       "chunk_index": 43,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"
@@ -960,7 +960,7 @@
       "paragraph_positions": [
         73
       ],
-      "token_count": 33,
+      "token_count": 39,
       "chunk_index": 44,
       "chunker_version": "1.0",
       "chunker_config_hash": "c9d4dc2ec8f5bbd1"

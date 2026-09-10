@@ -73,3 +73,5 @@ dmypy.json
 *.un~
 .DS_Store
 Thumbs.db
+
+scratch/

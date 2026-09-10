@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from pathlib import Path
 
 from indexer.config import IndexerConfig
 from indexer.database.connection import DatabaseManager
@@ -11,6 +12,10 @@ from indexer.embeddings.sentence_transformers import SentenceTransformersProvide
 
 from indexer.qa.ollama import OllamaQwenProvider
 from indexer.qa.service import QuestionAnsweringService
+
+
+INDEXER_DIR = Path(__file__).resolve().parents[1]
+CONFIG_PATH = INDEXER_DIR / "config.yaml"
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -47,17 +52,20 @@ def build_parser() -> argparse.ArgumentParser:
         "--year-from",
         type=int,
         default=None,
+        help="Only search documents from this year onward.",
     )
 
     parser.add_argument(
         "--year-to",
         type=int,
         default=None,
+        help="Only search documents up to this year.",
     )
 
     parser.add_argument(
         "--document-id",
         default=None,
+        help="Restrict retrieval to a specific document.",
     )
 
     return parser
@@ -67,20 +75,21 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
 
-    config = IndexerConfig.from_env()
+    config = IndexerConfig.from_yaml(CONFIG_PATH)
 
     db_manager = DatabaseManager(
         config.database_url
-    )
-
-    retrieval_repository = RetrievalRepository(
-        db_manager=db_manager,
     )
 
     embedding_provider = SentenceTransformersProvider(
         model_name=config.embedding_model,
         model_version=config.embedding_model_version,
         expected_dimensions=config.embedding_dimensions,
+    )
+
+    retrieval_repository = RetrievalRepository(
+        db_manager=db_manager,
+        embedding_provider=embedding_provider,
     )
 
     retrieval_service = RetrievalService(
@@ -127,6 +136,7 @@ def main() -> int:
                 f"{citation.document_id} / "
                 f"{citation.chunk_id}"
             )
+
             print(citation.quote)
             print()
 

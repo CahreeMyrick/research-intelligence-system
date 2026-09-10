@@ -1,0 +1,2135 @@
+{
+  "identity": {
+    "id": "doc_aaa06543abe44cc9",
+    "source": {
+      "filename": "towards-better-evaluation-of-instruction-following-a-case-study-in-summarization.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/papers/towards-better-evaluation-of-instruction-following-a-case-study-in-summarization.pdf",
+      "content_hash": "aaa06543abe44cc9b4ce43ea77f62d7265ce9f3d0db9577467db352dc2345975"
+    }
+  },
+  "metadata": {
+    "title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+    "authors": [
+      "Ondrej Skopek∗"
+    ],
+    "affiliations": [],
+    "publication_year": 2023,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2310.08394",
+    "abstract": "Despite recent advances, evaluating how well large language models (LLMs) follow user in- structionsremainsanopenproblem.While evaluation methods of language models have seenariseinprompt-basedapproaches,lim- itedworkonthecorrectnessofthesemeth- odshasbeenconducted. Inthiswork,we perform a meta-evaluation of a variety of met- rics to quantify how accurately they measure theinstruction-followingabilitiesofLLMs. Ourinvestigationisperformedongrounded query-based summarization by collecting a new short-form, real-world dataset riSum, contain- ing 300 document-instruction pairs with 3 an- swers each.All 900 answers are rated by 3 hu- man annotators.Using riSum, we analyze the agreement between evaluation methods and hu- man judgment.Finally, we propose new LLM- basedreference-freeevaluationmethodsthat improveuponestablishedbaselinesandper- form on par with costly reference-based metrics that require high-quality summaries.",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+          "page": 0,
+          "position": 0
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Ondrej Skopek∗",
+      "level": 3,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Google Research",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Rahul Aralikatte",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Google Research",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Sian Gooding Google Research",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Victor C˘arbune Google Research",
+          "page": 0,
+          "position": 4
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Despite recent advances, evaluating how well large language models (LLMs) follow user in- structionsremainsanopenproblem.While evaluation methods of language models have seenariseinprompt-basedapproaches,lim- itedworkonthecorrectnessofthesemeth- odshasbeenconducted. Inthiswork,we perform a meta-evaluation of a variety of met- rics to quantify how accurately they measure theinstruction-followingabilitiesofLLMs. Ourinvestigationisperformedongrounded query-based summarization by collecting a new short-form, real-world dataset riSum, contain- ing 300 document-instruction pairs with 3 an- swers each.All 900 answers are rated by 3 hu- man annotators.Using riSum, we analyze the agreement between evaluation methods and hu- man judgment.Finally, we propose new LLM- basedreference-freeevaluationmethodsthat improveuponestablishedbaselinesandper- form on par with costly reference-based metrics that require high-quality summaries.",
+          "page": 0,
+          "position": 5
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "LargeLanguageModels(LLMs)haveshown human-level performance in many NLP tasks.Re- cent advances in instruction tuning (Ouyang et al., 2022; Brown et al., 2020) and alignment (Stiennon et al., 2020; Zhou et al., 2023) have dramatically increased the ability of these models to follow in- structions.In addition to being used to tackle un- seen tasks in zero-shot setups (Chung et al., 2022), thesemodelsarenowalsousedassurrogatesto human annotators, especially for NLG tasks (Chi- ang and Lee, 2023; Wu et al., 2023), where human evaluations are time-consuming and expensive.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Considertheinstruction“Brieflydescribethe purpose of the assignment and assumption agree- ment mentioned in the paragraph” from Figure 1.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "∗Correspondence to:oskopek@google.com",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "There are several dimensions to evaluate a gener- atedoutputon:(i)Coherence:whetheritisun- derstandable and free of grammatical mistakes, (ii) Faithfulness:whether facts in the output are sup-",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "ported by the document,(iii) Style:whether spe- cific formatting requirements (lists, brevity, ...)are met, and (iv) Alignment:whether it semantically fulfills the instruction.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Analyzing these different facets for each model output increases the cognitive load of annotators, thereby increasing the likelihood of errors or low- qualityevaluations(Goyaletal.,2022).Italso increasestheturnaroundtimeandhenceannota- tions become expensive.An increasingly popular alternative is to ask LLMs to evaluate the generated outputs.Recent work like Liu et al. (2023a) and Fu et al. (2023) show that LLMs can produce human- like evaluations of text by using clever prompting techniques (Wei et al., 2022b; Yao et al., 2023). But preliminary studies have shown that LLMs can be inconsistent in their evaluations and can easily be influenced (Wang et al., 2023a; Shen et al., 2023). Gehrmann et al. (2023) have also looked at evalua- tion flaws and have recommended that metric de- velopers should focus on metrics with smaller, but better defined scopes (like instruction-following).",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Hence,thereisanurgentneedforastandard framework to analyze the specifics of instruction- followingabilitiesofLLMs. SummEval(Fab- brietal.,2021)proposessomethingsimilarfor vanilla summarization.Doing this for instruction- following can be tricky because we would like to not only evaluate the LLMs as task solvers “Sum- marizethisdocumentin20wordsorless”,but alsoastaskevaluators“Doesthesummarysat- isfy the conditions of the instruction?”.The meta- evaluation framework should be robust and ideally reference-free (Liu et al., 2023a).Reference-free evaluation for text generation has been widely stud- ied (Liu et al., 2022; Hessel et al., 2021; Ke et al., 2022), but to the best of our knowledge, there has",
+          "page": 0,
+          "position": 12
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "arXiv:2310.08394v2  [cs.CL]  20 Oct 2023",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Document: Lee, You should be receiving a package shortly containing the following:(...) 3.Assignment and assumption agreement to move the equipment from TurboPark to the CAED I. There will be one for CAED II as well.This document is being reviewed by the bank, so I’m not convinced it is in final form.You will note that there is an acknowledgement section for GE. I cut and pasted from the consent to assignment from the TurboPark documents, but shortened the whole thing considerably.Here’s that document: 4.Signature pages (signed by Enron) from the ESA deal, both the facility agreement and the override letter.Obviously, we need your signature.I will forward the final CA facility agreements to you once again, along with the blacklines against what you initialled. Instructions:",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "•Briefly describe the purpose of the assignment and assumption agreement mentioned in the paragraph. •Explain the changes made to the GE acknowledgement section in the context of the TurboPark documents. •Summarize the final steps regarding the CA facility agreements and signature pages. Answers (for instruction #1): F-PaLM 2-S The assignment and assumption agreement is to move the equipment from TurboPark to the CAED I. F-PaLM 2-ScThe purpose of the assignment and assumption agreement is to move the equipment from TurboPark",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "to the CAED I. GPT-3.5 (...)The purpose of the assignment and assumption agreement is not specified.",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "Figure 1:Randomly sampled example from riSum (data source:AESLC). Highlighted how GPT-4 transforms parts of the input document into grounded instructions.",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "been no prior work on reference-free evaluations for instruction-following.",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "Inthiswork,wetakethefirststepstowards buildingsuchaframework.Tomakethisprob- lem tractable, we choose to limit our scope to the task of query-based summarization.We consider this to be an appropriate initial task since (i) numer- ous domains to source documents from exist, (ii) the space of appropriate instructions is broad, while still (iii) maintaining groundedness of both instruc- tionsandanswersintofactspresentinthedocu- ments.Weleavetheexpansionofthedatasetin size and domain/instruction scope to future work.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "Contributions Forthispurpose,wereleasea rated,instructedsummarizationdatasetriSum1, consisting of 900 instruction-summary pairs with 3 human ratings each (Figure 1).",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "We introduce several reference-free evaluation methodswhichperformon-parwithexpensive reference-based methods and outperform existing reference-free baselines in terms of correlation with human judgement.",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "Lastly, we leverage riSum to perform an exten- sive meta-evaluation, quantifying how well differ- ent evaluation methods are able to replace human judgments by statistically ranking model outputs.",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Model naming In this work, we rely on different LLMs for a variety of tasks.Specifically, we use GPT-3.5 (Ouyang et al., 2022) and GPT-42(Ope-",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "1 The dataset will be made available at goo.gle/risum. 2 OpenAI model id:gpt-4-0314",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "Data source MinMedMax",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "AESLC emails (Zhang and Tetreault, 2019)118172.0469 arXiv abstracts (Clement et al., 2019) 122145.5224 BBC news (Narayan et al., 2018) 173272.5473 CNN/DM news (Hermann et al., 2015) 244465.5532 Common Crawl (Raffel et al., 2019) 127282.5506 ForumSum threads (Khalman et al., 2021)158320.0519 Reddit posts (Völske et al., 2017) 156299.0552 SAMSum dialogues (Gliwa et al., 2019) 127189.5384 Task-Oriented dialogues (Lee et al., 2022)161329.5605 Yelp reviews (Zhang et al., 2015) 119140.5357",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "Table1:DatasourcesfromwhichriSumissampled and the minimum (Min), median (Med), and maximum (Max) sampled document length (in words).10 docu- ments were sampled without replacement from each of the 10 data sources.",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "nAI, 2023) models from the GPT LLM family, and PaLM 2-S and PaLM 2-L models from the PaLM family (Anil et al., 2023).The models are also fine- tuned on the Flan corpus as described in Anil et al. (2023, Appendix A.2), denoted as F-PaLM 2-S and F-PaLM 2-L.Finally, these models are further fine- tuned using standard methods and data known to improve instruction-following (Taori et al., 2023), denoted as F-PaLM 2-Sc and F-PaLM 2-Lc.",
+          "page": 1,
+          "position": 27
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2 Data Collection",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "2.1 Dataset collection",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Datasourcing TocreateriSum,atotalof100 documents are chosen from 10 existing datasets of different domains to ensure the data is as diverse as possible.The documents are uniformly sampled",
+              "page": 1,
+              "position": 28
+            },
+            {
+              "text": "α method Follows Instruction? How Well?",
+              "page": 2,
+              "position": 29
+            },
+            {
+              "text": "Mean±SE ≥50% Mean±SE≥50%",
+              "page": 2,
+              "position": 30
+            },
+            {
+              "text": "Globaln=90054.3 11.4 Localn=295 62.1 ± 3.6 67.5 31.9 ± 4.5 56.9",
+              "page": 2,
+              "position": 31
+            },
+            {
+              "text": "Table 2:Krippendorff α values (in %) of riSum human ratings.≥50% denotes the % of pairs where α ≥0.5.",
+              "page": 2,
+              "position": 32
+            },
+            {
+              "text": "from each dataset, restricting to documents with a word count between 100 and 500 words (Table 1).",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "Instruction generation To procure instructions foreachdocument,wefirstevaluatethequality ofgenerationsfromfourmodels:F-PaLM 2-Sc, F-PaLM 2-Lc, GPT-3.5, and GPT-4.We randomly sample 10 documents from the dataset and let each model generate 3 instructions per document.Each of the 40 (10 × 4 models) document-instructions pairs was rated “good”, “neutral”, or “bad” by three evaluators in a side-by-side setting.In this evalua- tion, GPT-4 outperformed the other models on 6/10 documents, therefore we used it to sample instruc- tions for all documents in the dataset.This results in a total of 300 document-instruction pairs.",
+              "page": 2,
+              "position": 34
+            },
+            {
+              "text": "Answer generation Subsequently,three differ- ent models3are used to generate answers for each of the document-instruction pairs, yielding the final dataset with 900 data points.",
+              "page": 2,
+              "position": 35
+            },
+            {
+              "text": "Humanevaluation Finally,eachdocument- instruction-output triplet individually is evaluated by at least three human annotators.They are asked two questions:",
+              "page": 2,
+              "position": 36
+            },
+            {
+              "text": "1.Does the output follow the instruction?(Y/N). 2.Rate the output on a scale of 1 to 5.1 indicates the output does not follow the instruction at all, 5 indicates the instruction is followed strictly. SeeAppendixCforadescriptionoftheannota- tor UI, Appendix D for annotator guidelines, and Appendix E for the instruction-generation prompt.",
+              "page": 2,
+              "position": 37
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.2 Analysis of Human Ratings",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "For analyzing annotator agreement (Table 2), we leverage locally and globally computed Krippen- dorff α (Krippendorff, 2019).For the first boolean question, we use the nominal distance function (in- dicator function) and for the second ordinal ques- tion, we use the interval distance method (squared difference).For local application,we compute a",
+              "page": 2,
+              "position": 38
+            },
+            {
+              "text": "3 F-PaLM 2-S, F-PaLM 2-Sc, and GPT-3.5.We do not use GPT-4 as it was used to generate the instructions.",
+              "page": 2,
+              "position": 39
+            },
+            {
+              "text": "−3 −2 −1 0 1 0",
+              "page": 2,
+              "position": 40
+            },
+            {
+              "text": "50",
+              "page": 2,
+              "position": 41
+            },
+            {
+              "text": "100",
+              "page": 2,
+              "position": 42
+            },
+            {
+              "text": "150",
+              "page": 2,
+              "position": 43
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "200 Follows Instruction? How Well?(1-5)",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "Figure2: HistogramoflocalKrippendorffαfor document-instruction pairs.",
+          "page": 2,
+          "position": 44
+        },
+        {
+          "text": "localized α for each document-instruction pair and then aggregate the results over all pairs.We omit 5 document-instruction pairs from the analysis for which the Krippendorff α is not defined because there is no annotator overlap among the 3 ratings for each of the 3 model outputs.",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "We note that around 67% of the dataset has high levels of agreement on the first question and 57% on the second question.The tail of disagreement is long (Figure 2), but we hypothesize that given the difficulty of rating outputs in these diverse and highly specific texts, disagreements would be non- negligibleevenwithhigherreplicationrates.At the expense of gathering only relative information, ranking two responses against each other instead ofratingsingleresponsesmayhelp.Giventhe diversityofdomainsandinstructions,hiringdo- main experts for future ratings could help increase quality and agreement, whilst also increasing costs.",
+          "page": 2,
+          "position": 46
+        },
+        {
+          "text": "Additionally,factoringoutindependentrating dimensions(e.g.languagelevel,factuality)may help quantify common mistakes types in LLM in- struction following and identity misalignment areas with respect to human expectations at the expense of a slower and more expensive rating process.",
+          "page": 2,
+          "position": 47
+        },
+        {
+          "text": "In Table 3a, we present aggregate numbers for annotator preferences among the three model out- puts.We explore the mean of ratings, majority con- sensus votes (ties broken randomly), and a global mean over individual ratings (no aggregation).In Table3b,thethreemodeloutputsarerankedfor each document-instruction pair and the ranking in- dices are then averaged across the dataset, with ties brokenrandomly.Bothtablesareaveragedover 100,000 runs to eliminate noise from tie-breaking.",
+          "page": 2,
+          "position": 48
+        },
+        {
+          "text": "Label Agg. F-PaLM 2-S F-PaLM 2-Sc GPT-3.5",
+          "page": 3,
+          "position": 49
+        },
+        {
+          "text": "FI",
+          "page": 3,
+          "position": 50
+        },
+        {
+          "text": "Mean 80.8 ± 1.8 85.0 ± 1.6 94.0 ± 1.0 Maj. 81.3 ± 2.2 86.8 ± 2.0 96.7 ± 1.0 None 80.9 ± 1.3 85.0 ± 1.2 94.0 ± 0.8",
+          "page": 3,
+          "position": 51
+        },
+        {
+          "text": "HW",
+          "page": 3,
+          "position": 52
+        },
+        {
+          "text": "Mean 61.1 ± 1.8 65.0 ± 1.6 73.5 ± 1.2 Maj. 59.8 ± 2.2 64.4 ± 2.1 74.8 ± 1.5 None 61.1 ± 1.2 65.1 ± 1.2 73.6 ± 0.9",
+          "page": 3,
+          "position": 53
+        },
+        {
+          "text": "(a) Average annotator response per answer (%, higher is bet- ter).",
+          "page": 3,
+          "position": 54
+        },
+        {
+          "text": "Label Agg. F-PaLM 2-S F-PaLM 2-Sc GPT-3.5",
+          "page": 3,
+          "position": 55
+        },
+        {
+          "text": "FI",
+          "page": 3,
+          "position": 56
+        },
+        {
+          "text": "Mean 2.12 ± 0.05 2.05 ± 0.05 1.83 ± 0.05 Maj. 2.10 ± 0.05 2.02 ± 0.05 1.87 ± 0.05 None 2.12 ± 0.05 2.05 ± 0.05 1.83 ± 0.05",
+          "page": 3,
+          "position": 57
+        },
+        {
+          "text": "HW",
+          "page": 3,
+          "position": 58
+        },
+        {
+          "text": "Mean 2.16 ± 0.05 2.09 ± 0.05 1.75 ± 0.05 Maj. 2.16 ± 0.05 2.04 ± 0.05 1.80 ± 0.05 None 2.16 ± 0.05 2.09 ± 0.05 1.75 ± 0.05",
+          "page": 3,
+          "position": 59
+        },
+        {
+          "text": "(b) Model ranking per (doc., instr.)pair (1–3, lower is better).",
+          "page": 3,
+          "position": 60
+        },
+        {
+          "text": "Table 3:Aggregate model quality according to human ratings.“Mean” aggregation takes the mean of human ratings for each model output (n = 300), “Maj.”takes the majority vote with ties broken randomly (n = 300), and “None” performs no aggregation (n = 900).Averaged across 100,000 runs.FI is the binary rating “Follows Instruction?”, HW is the qualitative rating of “How Well?”.Ratings are normalized to 0–1 and reported as %.",
+          "page": 3,
+          "position": 61
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3 Evaluation Methods",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "Weproposeandevaluateseveralmethodsthat",
+          "page": 3,
+          "position": 62
+        },
+        {
+          "text": "modelannotatorpreferences,focusingouranal- ysis on reference-based vs. reference-free methods and their effectiveness in different data regimes.",
+          "page": 3,
+          "position": 63
+        }
+      ],
+      "subsections": [
+        {
+          "title": "3.1 Reference-based methods",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Reference-based methods require access to at least one reference answer which can be considered the “gold standard” for each document-instruction pair.",
+              "page": 3,
+              "position": 64
+            },
+            {
+              "text": "Given numerous prior work noting that summaries writtenbycrowdworkersexhibitlimitationsas- sociatedwithlackofannotatorexpertiseinthe domain (Gillick and Liu, 2010), especially at nar- rower tasks like query-based summarization (Jiang et al., 2018), we use LLM-generated references for benchmarking reference-based methods instead.",
+              "page": 3,
+              "position": 65
+            },
+            {
+              "text": "The requirement of having access to high-quality references fundamentallylimits theutility ofthe methods.In all our reference-based experiments, weuseGPT-4andF-PaLM 2-Lcgeneratedsum- maries as references.Since we use GPT-3.5 and F-PaLM 2-S, and F-PaLM 2-Sc to generate candi- date answers for evaluations, we use larger variants of these models to generate the “gold” references, whichensuresthattheyaregenerallyofhigher quality (see e.g. Table 19 of Anil et al., 2023).",
+              "page": 3,
+              "position": 66
+            },
+            {
+              "text": "BLEURT(model-based) Sellametal.(2020) takea(candidate,reference)answerpairasin- put and aim to model semantic similarity between thetwotexts.Inallresultsbelow,weusethe BLEURT20model(Puetal.,2021).Inscenarios with multiple reference answers, we take the maxi- mum BLEURT20 score across all reference answers.",
+              "page": 3,
+              "position": 67
+            },
+            {
+              "text": "ROUGE(n-gram-based) Lin(2004)alsotake (candidate, reference) pairs as input and measure",
+              "page": 3,
+              "position": 68
+            },
+            {
+              "text": "n-gramoverlaptoprovideanumericalestimate ofhowwellthecandidateresemblestherefer- ence.We report the geometric mean of ROUGE1, ROUGE2, and ROUGELsum and refer to this method asROUGEavg.SimilartoBLEURT,inascenario with multiple reference answers, we report the max- imum ROUGEavg score for a given candidate.",
+              "page": 3,
+              "position": 69
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.2 Reference-free baseline methods",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Weinvestigatepopularheuristics(e.g.lengthof",
+              "page": 3,
+              "position": 70
+            },
+            {
+              "text": "the generated response) and several LM-based ap- proaches, varying the amount of data used.Fine- tuningamodelonasubsetofthecollecteddata would also yield a viable evaluation method,but we leave that for future exploration.",
+              "page": 3,
+              "position": 71
+            },
+            {
+              "text": "Length-based heuristics The simplest reference- free method we use is based on length heuristics. The length of the model output is a common source of bias in human ratings when evaluating the qual- ity of summaries, where longer answers are often preferred over shorter ones, since the former usu- ally contains more information.Therefore, it is a natural baseline for assessing the degree to which the collected ratings suffer from this type of bias. Wesimplycountthewordsandsentencesusing",
+              "page": 3,
+              "position": 72
+            },
+            {
+              "text": "NLTK (Bird et al., 2009) and meta-evaluate how they would behave if they were used as a proxy for generated answer quality.",
+              "page": 3,
+              "position": 73
+            },
+            {
+              "text": "Model-basedmethods Webenchmarkthefol- lowing state-of-the-art model-based methods ontheriSumdataset: (i)BARTSCOREand BARTSCORECNN(Yuanetal.,2021),and(ii) T5ANLI (Honovich et al., 2022).Both are encoder- decoderTransformermodelsandhavearound 400M and 11B parameters respectively.",
+              "page": 3,
+              "position": 74
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.3 LLM-based reference-free methods",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "The following methods depend on an underlying LLM for evaluation.Though we use PaLM 2 mod- elsinourexperiments,thesemethodsaremodel agnostic, and any LLM can be used in their place. For the following methods, we leverage either the base PaLM 2-S/L models, or the instruction-tuned F-PaLM 2-Sc/Lc.",
+              "page": 4,
+              "position": 75
+            },
+            {
+              "text": "ConstrainedSoftmax Wefeedtheunderlying model two prompts:one for the “Follows instruc- tion?(Y/N)” question, and another for the “How well?(1-5)”question.Thepromptsusedcorre- spond to the task descriptions provided to annota- tors (Prompts presented in Figure 9 of Appendix E).",
+              "page": 4,
+              "position": 76
+            },
+            {
+              "text": "Insteadofsamplingtokenstoobtaintherat- ings,weusethemodeltocomputethenegative log-likelihoodofallthepossibleratingvalues (“Yes”/“No”forthefirstquestion,{1, 2, 3, 4, 5} for the second question) and pick the most likely tokenastherating.Thisapproachhasmultiple advantages over generating tokens directly:",
+              "page": 4,
+              "position": 77
+            },
+            {
+              "text": "1.Correctness:The model can never output a rat- ing that is not from the list of options. 2.Efficiency:Allourratingvaluesareasingle token in the model’s vocabulary, which makes thescoringextremelyefficient.Additionally, repeated sampling is not necessary to obtain a more precise estimate of the model’s rating. 3.Uncertainty:By re-normalizing the likelihoods across all rating values, we obtain a rating dis- tribution,whichletsuspreciselyquantifythe confidence the model assigns to ratings.For an unbiased estimate with respect to the logits, we fix the softmax temperature to 1.",
+              "page": 4,
+              "position": 78
+            },
+            {
+              "text": "Finally,we return the expected value for each of the question’s distributions:",
+              "page": 4,
+              "position": 79
+            },
+            {
+              "text": "E[R] =",
+              "page": 4,
+              "position": 80
+            },
+            {
+              "text": "|r| X",
+              "page": 4,
+              "position": 81
+            },
+            {
+              "text": "j=1",
+              "page": 4,
+              "position": 82
+            },
+            {
+              "text": "rj· softmax(r|d, i, a)j,",
+              "page": 4,
+              "position": 83
+            },
+            {
+              "text": "whereRistherandomvariablerepresentingthe rating,rrepresentstheratingvalues:{0, 1}for Question 1, {1, 2, 3, 4, 5} for Question 2.(d, i, a) represent the document, instruction, and answer.",
+              "page": 4,
+              "position": 84
+            },
+            {
+              "text": "Additionally,wediscussavariantcalledCon- strained Softmax n-shot, where we contextualize the model with n examples (document-instruction- answer-rating tuples) in each of the prompts.",
+              "page": 4,
+              "position": 85
+            },
+            {
+              "text": "Self-Agreement Inthismethod,wetestifthe modelisconsistentwithitselfacrossratinggen-",
+              "page": 4,
+              "position": 86
+            },
+            {
+              "text": "Task introduction",
+              "page": 4,
+              "position": 87
+            },
+            {
+              "text": "Example (doc., instr.,",
+              "page": 4,
+              "position": 88
+            },
+            {
+              "text": "ans.)",
+              "page": 4,
+              "position": 89
+            },
+            {
+              "text": "\"Agent i, what do you think?\"",
+              "page": 4,
+              "position": 90
+            },
+            {
+              "text": "\"I think (...).",
+              "page": 4,
+              "position": 91
+            },
+            {
+              "text": "Rating: 3\"",
+              "page": 4,
+              "position": 92
+            },
+            {
+              "text": "Repeated for all agents",
+              "page": 4,
+              "position": 93
+            },
+            {
+              "text": "Round",
+              "page": 4,
+              "position": 94
+            },
+            {
+              "text": "r < 3?",
+              "page": 4,
+              "position": 95
+            },
+            {
+              "text": "Consensus?",
+              "page": 4,
+              "position": 96
+            },
+            {
+              "text": "Unanimous No",
+              "page": 4,
+              "position": 97
+            },
+            {
+              "text": "Yes",
+              "page": 4,
+              "position": 98
+            },
+            {
+              "text": "Final rating",
+              "page": 4,
+              "position": 99
+            },
+            {
+              "text": "No",
+              "page": 4,
+              "position": 100
+            },
+            {
+              "text": "Figure 3:Multi-LLM agreement communication flow.",
+              "page": 4,
+              "position": 101
+            },
+            {
+              "text": "erationsbyrepeatedlysamplingtheratingfrom the LLM n=7 times.To diversify the samples, we experiment with various softmax temperatures, only to find that lower temperatures yield better re- sults4.The final rating is the arithmetic mean of the individualsamples.Wecontextualizethemodel with k=3 examples in the prompt (see Figure 7 in Appendix E). We also investigate the following variants:",
+              "page": 4,
+              "position": 102
+            },
+            {
+              "text": "•no intro Omitting the description of the task in the prompt and using only the k examples. •rationale Asking the model to generate Chain of Thought-like “rationales” for the given rating to each few-shot example (Wei et al., 2022b). •random Using the same hand-crafted examples (not occurring in the dataset) vs.picking k ran- dom examples from the remaining documents in the dataset.",
+              "page": 4,
+              "position": 103
+            },
+            {
+              "text": "Multi-LLM Agreement Recent works (Bakker et al., 2022; Park et al., 2023) have used LLMs in conversational settings where all participant LLMs communicatewitheachotherandtrytoachieve acommongoal.Weproposeaconsensus-based metricwherekLLMinstances5debateamongst eachotherandtrytoarriveatacommonassess- ment. Though there are no restrictions on the LLMs to use, we evaluate the simplest case where each instance is the same LLM. The rules of communi- cation are set as follows (Figure 3):",
+              "page": 4,
+              "position": 104
+            },
+            {
+              "text": "1.The models communicate amongst each other in a controlled manner for up to 3 rounds and try to arrive at a consensus.After at most 3 rounds, oneofthreeoutcomesoccurs:(i)unanimous agreement:all 3 models agree.If this happens",
+              "page": 4,
+              "position": 105
+            },
+            {
+              "text": "4 Temperature is set to 0.1 for all reported Self-Agreement and Multi-LLM Agreement experiments.",
+              "page": 4,
+              "position": 106
+            },
+            {
+              "text": "5 k= 3 in all our experiments.",
+              "page": 4,
+              "position": 107
+            },
+            {
+              "text": "in the earlier rounds, the process ends immedi- ately,(ii)majorityagreement:onemodeldis- agrees with the other two, or (iii) disagreement: all 3 models disagree with each other.",
+              "page": 5,
+              "position": 108
+            },
+            {
+              "text": "2.In each round, all models provide a rating and abriefrationale.Themodelsdonothaveac- cess to the other model outputs till the end of around6.Beforethestartofroundstwoand three, they receive the ratings and rationales of all models from the previous rounds.",
+              "page": 5,
+              "position": 109
+            },
+            {
+              "text": "The prompt for the models is presented in Figure 8 of Appendix E. This method is referred to as Multi- LLM Agreement henceforth.We repeat the process n = 3 times for added stability.",
+              "page": 5,
+              "position": 110
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4 Evaluating Agreement with Annotators",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "As discussed in Section 2, we asked annotators to provide a binary Yes/No rating answering whether a model output follows the instruction and a qual- itativeratingfrom1to5,representinghowwell it follows the instruction.Using meta-evaluation methods described below, we then study agreement between annotators and our evaluation methods.",
+          "page": 5,
+          "position": 111
+        }
+      ],
+      "subsections": [
+        {
+          "title": "4.1 “Follows Instruction?”",
+          "level": 4,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Forthebinaryrating,wecomputeamacro- averagedAreaUnderROCCurve(AUCROC) statistic for each evaluation method.Using AUC ROC, we analyze the effectiveness of each method if they were used as binary classifiers for “Does the output follow the instruction?”, thereby assessing the degree to which they can replace human ratings. Sinceourclassesareimbalancedtowards“Yes” (Table 3a) we opt for the macro-averaged version of ROC AUC so that we can better detect which methods can accurately predict the “No” class.",
+              "page": 5,
+              "position": 112
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.2 “How well?”",
+          "level": 4,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Rank-based evaluation To analyze the ability of evaluationmetricstorankmodeloutputsinrela- tion to each other, we compute Kendall’s Tbrank distancedTbamongthemodeloutputsforeach document-instruction pair.When the ranking pro- duced by a metric is independent from human rank- ing, the value of dTbwill be equal to 0.5 in expecta- tion.Values below 0.5 represent rankings that are similar to the human ranking, values above 0.5 rep- resent orderings that are similar to the inverse of the",
+              "page": 5,
+              "position": 113
+            },
+            {
+              "text": "6 Empirically, models tend to agree more easily with each other when shown other models’ ratings before the round ends.",
+              "page": 5,
+              "position": 114
+            },
+            {
+              "text": "human ranking.As opposed to the Tb rank correla- tion coefficient, dTbhas values in the range of [0, 1] and can be interpreted as a distance function (lower is better):dTb= (1 −Tb) / 2. Compared to other forms of T , Tb adjusts for ties:situations, where a metric or annotators give the same rating to two or more model outputs for one document-instruction pair.",
+              "page": 5,
+              "position": 115
+            },
+            {
+              "text": "For our human ratings, Tb is not defined for 9 out of 300 document-instruction pairs:the mean of the 3 annotators’ ratings is constant for all 3 models, making it impossible to rank the models.We report the mean and standard error of the rank distance dTbacross all non-constant pairs.",
+              "page": 5,
+              "position": 116
+            },
+            {
+              "text": "Linearvaluecorrelation Additionally, we would like evaluation method outputs to align with annotators’ notions of “good” or “bad”.To study this,wecomputePearson’sdistanceacrossall document-instruction-answer tuples: d|r|= 1−|r|, whererisPearson’scorrelationcoefficientbe- tween an evaluation method’s values and the mean annotator rating.Values of d|r| range from 0 to 1; the lower the value, the higher the linear correlation with human ratings.",
+              "page": 5,
+              "position": 117
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "5 Results and Analysis",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "We compare the effectiveness of evaluation meth-",
+          "page": 5,
+          "position": 118
+        },
+        {
+          "text": "ods on the three rating dimensions,based on the reportednumbersforthebinaryrating“Follows Instruction?”and for the qualitative rating “How well?”in Table 4.For both rating tasks, the two length-basedheuristicsperformtheworstoutof all methods,which suggests that the instructions are of good quality, as annotators are not strongly influenced by the length of model outputs.",
+          "page": 5,
+          "position": 119
+        }
+      ],
+      "subsections": [
+        {
+          "title": "5.1 Predicting “Follows Instruction?”",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "First, we focus on how good of a binary classifier themethodsare.WereporttheAUCROCand its standard error (Section 4.1) with respect to the human majority vote labels.",
+              "page": 5,
+              "position": 120
+            },
+            {
+              "text": "Reference-based methods Having access to sev- eral reference answers that follow the instruction continues to be a good indicator when combined withROUGEorBLEURT.However,theresults show that, when we have access to a capable LLM like F-PaLM 2-Lc, it is better to use it directly as a reference-free evaluator, than sampling reference summaries from it and using reference-based met- rics like ROUGEavg and BLEURT20.",
+              "page": 5,
+              "position": 121
+            },
+            {
+              "text": "Evaluation Method",
+              "page": 6,
+              "position": 122
+            },
+            {
+              "text": "Follows Instruction? How Well?",
+              "page": 6,
+              "position": 123
+            },
+            {
+              "text": "AUC ROC %↑ dTb%↓ d|r|%↓",
+              "page": 6,
+              "position": 124
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Reference-based baseline methods (Section 3.1)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "BLEURT20[references:GPT-4] 78.5 ± 1.9 41.1 ± 1.9 50.9 ± 2.9 BLEURT20[references:F-PaLM 2-Lc] 71.8 ± 2.3 48.8 ± 1.9 54.4 ± 2.8 ROUGEavg[references:GPT-4] 79.5 ± 1.9 35.4 ± 1.9 52.6 ± 2.8 ROUGEavg[references:F-PaLM 2-Lc] 71.1 ± 2.3 46.7 ± 1.9 60.8 ± 2.7",
+                  "page": 6,
+                  "position": 125
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Reference-free baseline methods (Section 3.2)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "Sentence Count 39.5 ± 3.1 54.8 ± 1.8 72.7 ± 2.3 Word Count 42.2 ± 3.1 51.4 ± 2.0 71.0 ± 2.4 BARTSCORE (Yuan et al., 2021) 68.4 ± 2.5 45.0 ± 1.9 74.7 ± 2.2 BARTSCORECNN(Yuan et al., 2021) 69.7 ± 2.4 43.7 ± 1.9 70.3 ± 2.4 T5ANLI(Honovich et al., 2022) 71.9 ± 2.3 38.8 ± 1.9 64.7 ± 2.5",
+                  "page": 6,
+                  "position": 126
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "LLM-based reference-free methods (Section 3.3)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "PaLM 2-S Constrained Softmax 74.0 ± 2.2 43.6 ± 1.9 80.0 ± 2.0 PaLM 2-L Constrained Softmax 77.8 ± 2.0 39.9 ± 1.9 46.4 ± 3.0 F-PaLM 2-Sc Self-Agreement 67.2 ± 2.5 42.8 ± 1.7 56.7 ± 2.7 F-PaLM 2-Lc Self-Agreement 81.7 ± 1.7 37.1 ± 1.7 39.5 ± 3.1 F-PaLM 2-Lc Self-Agreement (+ no intro) 79.7 ± 1.9 38.4 ± 1.8 45.7 ± 3.0 F-PaLM 2-Lc Self-Agreement (+ rationale) 75.0 ± 2.1 43.2 ± 1.3 50.5 ± 2.9 F-PaLM 2-Sc Self-Agreement (random) 69.0 ± 2.4 42.7 ± 1.7 58.3 ± 2.7 F-PaLM 2-Lc Self-Agreement (random) 80.4 ± 1.8 37.0 ± 1.8 42.2 ± 3.0 F-PaLM 2-Lc Self-Agreement (random + no intro) 78.2 ± 1.9 39.5 ± 1.8 50.2 ± 2.9 F-PaLM 2-Sc Multi-LLM Agreement 66.4 ± 2.5 45.7 ± 1.2 61.8 ± 2.6 F-PaLM 2-Lc Multi-LLM Agreement 67.1 ± 2.5 46.0 ± 1.2 58.7 ± 2.7",
+                  "page": 6,
+                  "position": 127
+                },
+                {
+                  "text": "Table 4: AUC ROC Curve measures how well methods predict Yes/No annotator responses on “Follows Instruction?” (n = 900).For “How Well?”(1–5 rating), we report Kendall’s rank distance dTbcomparing evaluation methods’ ranking of answers to that of annotators’ (n=291) and Pearson’s distance from mean annotator responses d|r| (n = 900).All values are in %, ± signifies standard error, ↑signifies higher is better (↓lower is better).Methods highlighted in bold have overlapping confidence intervals with the best method per column.Non-deterministic methods (Self-Agreement, Multi-LLM Agreement) have been re-run 5× and the mean is reported.",
+                  "page": 6,
+                  "position": 128
+                },
+                {
+                  "text": "Reference-freemethods Asexpected,perfor- mance of each evaluation method improves with model size.We observe that standard error is usu- allyhigher(>2.0)whenusingPaLM 2-Scom- pared to PaLM 2-L (< 2.0), across different meth- ods.Combined with generally lower performance, methods using PaLM 2-S as the underlying model are more noisy and produce less meaningful evalu- ations compared to methods using PaLM 2-L.",
+                  "page": 6,
+                  "position": 129
+                },
+                {
+                  "text": "WealsonotethatMulti-LLMAgreementap- proaches,while interesting,are outperformed by both Self-Agreement and Constrained Softmax ap- proaches, irrespective of the model size.",
+                  "page": 6,
+                  "position": 130
+                },
+                {
+                  "text": "For scoring-based approaches (Constrained Soft- max),non-instruction-tunedLLMsoutperform theirinstruction-tunedcounterparts.Whengen- eration is involved, instruction-tuned models out- performtheirbaseversions.Thisappliestorat- ing generation, but also for generating answers di- rectly. We only report numbers of instruction-tuned LLMsforgeneration-basedmethodsandcorre-",
+                  "page": 6,
+                  "position": 131
+                },
+                {
+                  "text": "spondingly, only report numbers of non-instruction- tuned LLMs for scoring-based approaches.",
+                  "page": 6,
+                  "position": 132
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "5.2 Predicting “How Well?”",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "In the case of qualitative ratings, obtaining a rank- ing of answers that matches the annotators’ ranking provestobedifficult.Wenotesensitivityinthe analysis with respect to how ratings are aggregated per answer (majority vote or mean).To minimize tiesandmaximizetheuseofannotatorinforma- tion,weusemeanaggregationforthefollowing analysis.",
+              "page": 6,
+              "position": 133
+            },
+            {
+              "text": "Observing dTbranking performance, ROUGEavg usingGPT-4model-generatedanswersseemsto perform on-par with F-PaLM 2-Lc Self-Agreement basedmethods,aswellasthe11Bparameter T5ANLI model from Honovich et al. (2022).",
+              "page": 6,
+              "position": 134
+            },
+            {
+              "text": "Reference-based methods In our experiments, BLEURT performs worse than ROUGE at relative ranking of model outputs.Since ROUGE is based on surface form, there is reason to believe that sam-",
+              "page": 6,
+              "position": 135
+            },
+            {
+              "text": "Evaluation PerfectDisagree-Prefers own Method agreement ment LM family",
+              "page": 7,
+              "position": 136
+            },
+            {
+              "text": "Constr.Softmax PaLM 2-L 35.7% 40.3% 56.2%",
+              "page": 7,
+              "position": 137
+            },
+            {
+              "text": "ROUGEF-PaLM 2-Lc 27.0% 48.0% 93.1% Constr.Softmax F-PaLM 2-Lc 23.0% 54.3% 71.8% Self-Agr. F-PaLM 2-Lc 25.7% 23.0% 72.5%",
+              "page": 7,
+              "position": 138
+            },
+            {
+              "text": "Table 5:Agreement analysis with respect to mean quali- tative ranking (“How well?”).",
+              "page": 7,
+              "position": 139
+            },
+            {
+              "text": "ples from different models in a single LM-family are closer in surface form than samples from dif- ferent LM-families.In Table 5, we analyze the ef- fectiveness of methods at picking the best answers out of the 3 model outputs.Perfect agreement hap- pens when the sets of annotator and metric “winner” modelsisequal.Disagreementoccurswhenthe intersection between annotator and metric winners isempty.Withindisagreement,prefersownLM family means the metric winners contained at least one model output from the LM family the metric is based on.",
+              "page": 7,
+              "position": 140
+            },
+            {
+              "text": "We observe that when the evaluation model is sufficientlydifferentfromtheratedmodels,the likelihoodofevaluationmodelspreferringtheir own LM family goes down.However, when using a similar model, reference-based methods are more biased towards preferring their own LM family.If human-written reference answers are unavailable, using a reference-free metric is preferable.",
+              "page": 7,
+              "position": 141
+            },
+            {
+              "text": "Reference-free methods Similarly to the binary rating, we observe that methods with larger under- lying models perform better.Likewise, reference- freemethodsbasedonF-PaLM 2-Lcoutperform their reference-based counterparts when using the sameunderlyingmodel. ThebasePaLM 2-L modelwithConstrainedSoftmaxperformsbet- terandatlowercostthanusingtheinstruction- tunedF-PaLM 2-Lctogeneratereferencesum- maries.Withmoreavailablecompute,onecan further improve performance by leveraging multi- sampling Self-Agreement methods.",
+              "page": 7,
+              "position": 142
+            },
+            {
+              "text": "Interestingly,usingrandomexamplesinSelf- Agreement decreases performance as opposed to hand-crafting a small (k= 4) set of held-out exam- ples. Contrary to intuition, using Chain-of-Thought approaches(rationale)seemstodegradeperfor- mance, but when removing the task description (no intro) we do not observe a big drop.",
+              "page": 7,
+              "position": 143
+            },
+            {
+              "text": "When linear correlation d|r| with human ratings is required, methods that model the qualitative rat-",
+              "page": 7,
+              "position": 144
+            },
+            {
+              "text": "ing directly outperform more generic methods.",
+              "page": 7,
+              "position": 145
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "6 Related Work",
+      "level": 1,
+      "page_start": 7,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "MeasuringinstructionfollowingwithLLMs Liu et al. (2023a) use GPT-4 as a backbone model andstudythecorrelationwithhumanratingson non-query-based summarization, finding a bias to- wards LLM-generated text. We do not study this as- pect, as our rating task focuses on model-generated text.Fu et al. (2023) propose a zero-shot approach for multi-faceted evaluation of text generation.",
+          "page": 7,
+          "position": 146
+        },
+        {
+          "text": "An increase in interest for improving instruction- followingcapabilitiesofLLMshasresultedin thecreationofmultipledatasets. FLAN(Wei etal.,2022a)andNaturalInstructions(Mishra et al., 2022) were two of the earlier datasets which turned standard NLP tasks (e.g. sentiment classi- fication, question-answering) into instruction fol- lowing tasks.Other works like Self-Instruct (Wang etal.,2023b),Super-NaturalInstructions(Wang et al., 2022), and the H4 instruction dataset (Hug- ging Face, 2023) curate human-written instruction and answer pairs.Guo et al. (2023) and Qingyi Si (2023) collect instruction-answer pairs from LLM generations.All of them use standard NLP metrics or human annotation to evaluate the model outputs.",
+          "page": 7,
+          "position": 147
+        },
+        {
+          "text": "Model-based metrics A large body of prior work focuses on model-based approaches fine-tuned on human ratings.Usually,encoder models such as BERTSCORE (Zhang et al., 2020) or BLEURT (Sel- lametal.,2020)areused,butencoder-decoder methods exist as well (BARTSCORE, Yuan et al., 2021).Wefocusonlow-resourcezero/few-shot methods using larger, decoder-containing models from PaLM and GPT families.",
+          "page": 7,
+          "position": 148
+        },
+        {
+          "text": "Humanevaluation Kry´sci´nskietal.(2018); Huang et al. (2020); Shen et al. (2022b) and sev- eral others have resorted to human evaluation for analyzing the quality of reference summaries and model outputs.They adopt a Likert-type scale for rating individual aspects of generated text. Fan et al. (2018); Fabbri et al. (2019); Shen et al. (2022a) and others perform side-by-side comparisons of two or more model-generated summaries and use Elo, or other rating systems to build rankings of models.",
+          "page": 7,
+          "position": 149
+        },
+        {
+          "text": "LLM evaluation Many recent works use LLMs asevaluatorsforsummarizationtasks.Wuetal. (2023) use LLMs with “different persona” to evalu- ate summaries from various perspectives.Luo et al.",
+          "page": 7,
+          "position": 150
+        },
+        {
+          "text": "(2023) examine if LLMs can be used to detect fac- tual inconsistencies.Concurrent to our work, Liu etal.(2023b)curateahuman-evaluationdataset consistingof22,000summary-levelannotations and perform a study of various automatic and LLM- based metrics for summarization and call for more rigorous evaluation of LLM performance.",
+          "page": 8,
+          "position": 151
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "7 Conclusion",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "Inthiswork,weinvestigatetheeffectivenessof multiple evaluation methods in quantifying the de- greetowhichLLM-generatedtextfollowsuser- given instructions.We release riSum, a new short- formdatasetof300document-instructionpairs with3 answers each.All of the900 answers are rated by at least 3 human annotators.When analyz- ingagreementbetweenevaluationmethodsand humanjudgment,wefindthatestablishedmet- rics,suchasROUGEandBLEURTarenoteffec- tiveatquantifyingLLMs’instruction-following ability.LLM-basedevaluationmethodstendto have stronger correlation with annotator judgment, without requiring high-quality reference answers. Wehopethattheintroducedevaluationframe- work is adopted by the community for evaluating instruction-following abilities of LLMs, possibly expanding into more tasks, domains, and examples.",
+          "page": 8,
+          "position": 152
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Acknowledgements",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "The authors would like to thank Lucas Werner for building the human annotation tool which dramati- cally simplified the creation of the riSum dataset, as well as all the 14 annotators and their managers for their tireless and accurate work.Thank you also to Hassan Mansoor and Misha Khalman, who have helped with exploratory work on evaluation meth- odsandearlydatacollection.Wealsothankthe anonymous reviewers for their constructive feed- back.Lastly, we would like to thank Matt Sharifi, Jindong Chen and and Blaise Agüera y Arcas for their feedback on the paper draft.",
+          "page": 8,
+          "position": 153
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Rohan Anil, Andrew M. Dai, Orhan Firat, Melvin John-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "son,DmitryLepikhin,AlexandrePassos,Siamak Shakeri,EmanuelTaropa,PaigeBailey,Zhifeng Chen,EricChu,JonathanH.Clark,LaurentEl Shafey, Yanping Huang, Kathy Meier-Hellstern, Gau- rav Mishra, Erica Moreira, Mark Omernick, Kevin Robinson,SebastianRuder,YiTay,KefanXiao, Yuanzhong Xu, Yujing Zhang, Gustavo Hernandez Abrego, Junwhan Ahn, Jacob Austin, Paul Barham,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "JanBotha,JamesBradbury,SiddharthaBrahma, Kevin Brooks, Michele Catasta, Yong Cheng, Colin Cherry, Christopher A. Choquette-Choo, Aakanksha Chowdhery, Clément Crepy, Shachi Dave, Mostafa Dehghani,SunipaDev,JacobDevlin,MarkDíaz, NanDu,EthanDyer,VladFeinberg,Fangxiaoyu Feng,VladFienber,MarkusFreitag,XavierGar- cia, Sebastian Gehrmann, Lucas Gonzalez, Guy Gur- Ari,StevenHand,HadiHashemi,LeHou,Joshua Howland,AndreaHu,JeffreyHui,JeremyHur- witz, Michael Isard, Abe Ittycheriah, Matthew Jagiel- ski, Wenhao Jia, Kathleen Kenealy, Maxim Krikun, Sneha Kudugunta, Chang Lan, Katherine Lee, Ben- jamin Lee, Eric Li, Music Li, Wei Li, YaGuang Li, Jian Li, Hyeontaek Lim, Hanzhao Lin, Zhongtao Liu, Frederick Liu, Marcello Maggioni, Aroma Mahendru, Joshua Maynez, Vedant Misra, Maysam Moussalem, ZacharyNado,JohnNham,EricNi,AndrewNys- trom,AliciaParrish,MariePellat,Martin Polacek, Alex Polozov, Reiner Pope, Siyuan Qiao, Emily Reif, BryanRichter,ParkerRiley,AlexCastroRos,Au- rko Roy, Brennan Saeta, Rajkumar Samuel, Renee Shelby,AmbroseSlone,DanielSmilkov,DavidR. So,DanielSohn,SimonTokumine,DashaValter, VijayVasudevan,KiranVodrahalli,XuezhiWang, PidongWang,ZiruiWang,TaoWang,JohnWiet- ing,YuhuaiWu,KelvinXu,YunhanXu,Linting Xue, Pengcheng Yin, Jiahui Yu, Qiao Zhang, Steven Zheng, Ce Zheng, Weikang Zhou, Denny Zhou, Slav Petrov, and Yonghui Wu. 2023.PaLM 2 Technical Report.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "MichielA.Bakker,MartinJChadwick,Hannah",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "Sheahan,MichaelHenryTessler,LucyCampbell- Gillingham,JanBalaguer,NatMcAleese,Amelia Glaese,JohnAslanides,MatthewBotvinick,and ChristopherSummerfield.2022. Fine-tuninglan- guage models to find agreement among humans with diverse preferences.In Advances in Neural Informa- tion Processing Systems.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 6,
+      "raw_text": "Steven Bird, Ewan Klein, and Edward Loper. 2009.Nat-",
+      "authors": [],
+      "title": null,
+      "year": 2009,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "ural Language Processing with Python:Analyzing textwiththeNaturalLanguageToolkit.O’Reilly Media, Inc.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "TomBrown,BenjaminMann,NickRyder,Melanie",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 9,
+      "raw_text": "Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,SandhiniAgarwal,ArielHerbert-Voss, GretchenKrueger,TomHenighan,RewonChild, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter,ChrisHesse,MarkChen,EricSigler,Ma- teuszLitwin,ScottGray,BenjaminChess,Jack Clark,Christopher Berner,Sam McCandlish,Alec Radford,IlyaSutskever,andDarioAmodei.2020. LanguageModelsareFew-ShotLearners.InAd- vancesinNeuralInformationProcessingSystems, volume33,pages1877–1901.CurranAssociates, Inc.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "Cheng-Han Chiang and Hung-yi Lee. 2023.Can Large",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 11,
+      "raw_text": "Language Models Be an Alternative to Human Eval- uations?In Proceedings of ACL.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 12,
+      "raw_text": "Hyung Won Chung, Le Hou, Shayne Longpre, Barret",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 13,
+      "raw_text": "Zoph, Yi Tay, William Fedus, Yunxuan Li, Xuezhi Wang,MostafaDehghani,SiddharthaBrahma,Al- bertWebson,ShixiangShaneGu,ZhuyunDai, Mirac Suzgun, Xinyun Chen, Aakanksha Chowdh- ery, Alex Castro-Ros, Marie Pellat, Kevin Robinson, Dasha Valter, Sharan Narang, Gaurav Mishra, Adams Yu,VincentZhao,YanpingHuang,AndrewDai,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 14,
+      "raw_text": "Hongkun Yu, Slav Petrov, Ed H. Chi, Jeff Dean, Ja- cob Devlin, Adam Roberts, Denny Zhou, Quoc V. Le, and Jason Wei. 2022.Scaling Instruction-Finetuned Language Models.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 15,
+      "raw_text": "ColinB.Clement,MatthewBierbaum,KevinP.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 16,
+      "raw_text": "O’Keeffe,andAlexanderA.Alemi.2019.Onthe use of arxiv as a dataset.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 17,
+      "raw_text": "Alexander Fabbri, Irene Li, Tianwei She, Suyi Li, and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 18,
+      "raw_text": "Dragomir Radev. 2019.Multi-news:A large-scale multi-document summarization dataset and abstrac- tive hierarchical model.In Proceedings of ACL.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 19,
+      "raw_text": "Alexander R. Fabbri, Wojciech Kry´sci´nski, Bryan Mc-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 20,
+      "raw_text": "Cann, Caiming Xiong, Richard Socher, and Dragomir Radev. 2021.SummEval:Re-evaluating Summariza- tion Evaluation.Transactions of the Association for Computational Linguistics, 9:391–409.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 21,
+      "raw_text": "Angela Fan, Mike Lewis, and Yann Dauphin. 2018.Hi-",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 22,
+      "raw_text": "erarchical Neural Story Generation.In Proceedings ofthe56thAnnualMeetingoftheAssociationfor Computational Linguistics (Volume 1:Long Papers), pages 889–898, Melbourne, Australia. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 23,
+      "raw_text": "Jinlan Fu, See-Kiong Ng, Zhengbao Jiang, and Pengfei",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 24,
+      "raw_text": "Liu. 2023.GPTScore:Evaluate as You Desire.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 25,
+      "raw_text": "Sebastian Gehrmann, Elizabeth Clark, and Thibault Sel-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 26,
+      "raw_text": "lam.2023.RepairingtheCrackedFoundation:A Survey of Obstacles in Evaluation Practices for Gen- eratedText.JournalofArtificialIntelligenceRe- search, 77:103–166.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 27,
+      "raw_text": "Dan Gillick and Yang Liu. 2010.Non-Expert Evalua-",
+      "authors": [],
+      "title": null,
+      "year": 2010,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 28,
+      "raw_text": "tion of Summarization Systems is Risky.In Proceed- ings of the NAACL HLT 2010 Workshop on Creating Speech and Language Data with Amazon’s Mechani- cal Turk, pages 148–151, Los Angeles. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2010,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 29,
+      "raw_text": "Bogdan Gliwa, Iwona Mochol, Maciej Biesek, and Alek-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 30,
+      "raw_text": "sander Wawer. 2019.SAMSum corpus:A human- annotateddialoguedatasetforabstractivesumma- rization.InProceedingsofthe2ndWorkshopon New Frontiers in Summarization, pages 70–79, Hong Kong, China. Association for Computational Linguis- tics.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 31,
+      "raw_text": "Tanya Goyal,Junyi Jessy Li,and Greg Durrett. 2022.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 32,
+      "raw_text": "FALTE: A Toolkit for Fine-grained Annotation for Long Text Evaluation.In Proceedings of the 2022 ConferenceonEmpiricalMethodsinNaturalLan- guageProcessing:SystemDemonstrations,pages 351–358, Abu Dhabi, UAE. Association for Compu- tational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 33,
+      "raw_text": "BiyangGuo,XinZhang,ZiyuanWang,MinqiJiang,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 34,
+      "raw_text": "Jinran Nie, Yuxuan Ding, Jianwei Yue, and Yupeng Wu.2023.HowCloseisChatGPTtoHumanEx- perts?Comparison Corpus, Evaluation, and Detec- tion.arXiv preprint arxiv:2301.07597.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 35,
+      "raw_text": "Karl Moritz Hermann, Tomás Kociský, Edward Grefen-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 36,
+      "raw_text": "stette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. 2015.Teaching machines to read and comprehend.In NIPS, pages 1693–1701.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 37,
+      "raw_text": "JackHessel,AriHoltzman,MaxwellForbes,Ronan",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 38,
+      "raw_text": "LeBras,andYejinChoi.2021. CLIPScore:A reference-free evaluation metric for image captioning. InProceedingsofthe2021ConferenceonEmpiri- cal Methods in Natural Language Processing, pages 7514–7528, Online and Punta Cana, Dominican Re- public. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 39,
+      "raw_text": "Or Honovich,Roee Aharoni, Jonathan Herzig,Hagai",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 40,
+      "raw_text": "Taitelbaum, Doron Kukliansy, Vered Cohen, Thomas Scialom,IdanSzpektor,AvinatanHassidim,and YossiMatias.2022.TRUE:Re-evaluatingfactual",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 41,
+      "raw_text": "consistency evaluation.In Proceedings of the 2022 ConferenceoftheNorthAmericanChapterofthe Association for Computational Linguistics:Human Language Technologies, pages 3905–3920, Seattle, UnitedStates.AssociationforComputationalLin- guistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 42,
+      "raw_text": "DandanHuang,LeyangCui,SenYang,Guangsheng",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 43,
+      "raw_text": "Bao,KunWang,JunXie,andYueZhang.2020. What have we achieved on text summarization?In Proceedingsofthe2020ConferenceonEmpirical Methods in Natural Language Processing (EMNLP), pages446–469,Online.AssociationforComputa- tional Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 44,
+      "raw_text": "HuggingFace.2023. HuggingFaceH4/instruction- dataset.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 45,
+      "raw_text": "Youxuan Jiang, Catherine Finegan-Dollak, Jonathan K.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 46,
+      "raw_text": "Kummerfeld,andWalterLasecki.2018.Effective CrowdsourcingforaNewTypeofSummarization Task.In Proceedings of the 2018 Conference of the North American Chapter of the Association for Com- putational Linguistics:Human Language Technolo- gies, Volume 2 (Short Papers), pages 628–633, New Orleans, Louisiana. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 47,
+      "raw_text": "Pei Ke, Hao Zhou, Yankai Lin, Peng Li, Jie Zhou, Xi-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 48,
+      "raw_text": "aoyanZhu,andMinlieHuang.2022.CTRLEval: Anunsupervisedreference-freemetricforevaluat- ing controlled text generation.In Proceedings of the 60th Annual Meeting of the Association for Compu- tational Linguistics (Volume 1:Long Papers), pages 2306–2319, Dublin, Ireland. Association for Compu- tational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 49,
+      "raw_text": "MishaKhalman,YaoZhao,andMohammadSaleh.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 50,
+      "raw_text": "2021.ForumSum:Amulti-speakerconversation summarization dataset.In Findings of the Associa- tion for Computational Linguistics:EMNLP 2021, pages 4592–4599, Punta Cana, Dominican Republic. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 51,
+      "raw_text": "KlausKrippendorff.2019.ContentAnalysis:AnIn-",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 52,
+      "raw_text": "troduction to Its Methodology.SAGE Publications, Inc.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 53,
+      "raw_text": "Wojciech Kry´sci´nski, Romain Paulus, Caiming Xiong,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 54,
+      "raw_text": "and Richard Socher. 2018.Improving abstraction in text summarization.In Proceedings of the 2018 Con- ference on Empirical Methods in Natural Language Processing,pages1808–1817,Brussels,Belgium. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 55,
+      "raw_text": "Harrison Lee, Raghav Gupta, Abhinav Rastogi, Yuan",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 56,
+      "raw_text": "Cao,BinZhang,andYonghuiWu.2022.SGD-X: A Benchmark for Robust Generalization in Schema- Guided Dialogue Systems.Proceedings of the AAAI Conference on Artificial Intelligence, 36(10):10938– 10946.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 57,
+      "raw_text": "Chin-YewLin.2004.ROUGE:Apackageforauto-",
+      "authors": [],
+      "title": null,
+      "year": 2004,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 58,
+      "raw_text": "matic evaluation of summaries.In Text Summariza- tion Branches Out, pages 74–81, Barcelona, Spain. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 59,
+      "raw_text": "YangLiu,DanIter,YichongXu,ShuohangWang,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 60,
+      "raw_text": "Ruochen Xu, and Chenguang Zhu. 2023a.G-Eval: NLGEvaluationusingGPT-4withBetterHuman Alignment.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 61,
+      "raw_text": "YixinLiu,AlexanderR.Fabbri,PengfeiLiu,Yilun",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 62,
+      "raw_text": "Zhao,LinyongNan,RuilinHan,SimengHan, Shafiq Joty, Chien-Sheng Wu, Caiming Xiong, and DragomirRadev.2023b.Revisitingthegoldstan- dard:Grounding summarization evaluation with ro- bust human evaluation.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 63,
+      "raw_text": "Yizhu Liu, Qi Jia, and Kenny Zhu. 2022.Reference-free",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 64,
+      "raw_text": "summarizationevaluationviasemanticcorrelation and compression ratio.In Proceedings of the 2022 ConferenceoftheNorthAmericanChapterofthe Association for Computational Linguistics:Human Language Technologies, pages 2109–2115, Seattle, UnitedStates.AssociationforComputationalLin- guistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 65,
+      "raw_text": "ZhehengLuo,QianqianXie,andSophiaAnaniadou.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 66,
+      "raw_text": "2023.ChatGPT as a Factual Inconsistency Evaluator for Text Summarization.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 67,
+      "raw_text": "SwaroopMishra,DanielKhashabi,ChittaBaral,and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 68,
+      "raw_text": "Hannaneh Hajishirzi. 2022.Cross-Task Generaliza- tionviaNaturalLanguageCrowdsourcingInstruc- tions.In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Vol- ume1:LongPapers),pages3470–3487,Dublin, Ireland. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 69,
+      "raw_text": "ShashiNarayan,ShayB.Cohen,andMirellaLapata.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 70,
+      "raw_text": "Don’tGiveMetheDetails,JusttheSum- mary!Topic-Aware Convolutional Neural Networks for Extreme Summarization.In Proceedings of the 2018 Conference on Empirical Methods in Natural LanguageProcessing,pages1797–1807,Brussels, Belgium. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 71,
+      "raw_text": "OpenAI. 2023.GPT-4 Technical Report.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 72,
+      "raw_text": "Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 73,
+      "raw_text": "Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Gray, John Schulman, Jacob Hilton, Fraser Kelton, Luke Miller, MaddieSimens,AmandaAskell,PeterWelinder, PaulChristiano,JanLeike,andRyanLowe.2022. Training language models to follow instructions with human feedback.In Advances in Neural Information Processing Systems.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 74,
+      "raw_text": "JoonSungPark,JosephC.O’Brien,CarrieJ.Cai,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 75,
+      "raw_text": "Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. 2023.Generative agents:Interactive sim- ulacra of human behavior.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 76,
+      "raw_text": "Amy Pu, Hyung Won Chung, Ankur Parikh, Sebastian",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 77,
+      "raw_text": "Gehrmann,andThibaultSellam.2021.Learning CompactMetricsforMT.InProceedingsofthe 2021 Conference on Empirical Methods in Natural LanguageProcessing,pages751–762,Onlineand PuntaCana,DominicanRepublic.Associationfor Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 78,
+      "raw_text": "Zheng Lin Qingyi Si. 2023.Alpaca-CoT: An Instruction",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 79,
+      "raw_text": "Fine-Tuning Platform with Instruction Data Collec- tion and Unified Large Language Models Interface. https://github.com/PhoebusSi/alpaca-CoT.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 80,
+      "raw_text": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 81,
+      "raw_text": "Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. 2019.Exploring the limits of transfer learning with a unified text-to-text trans- former.arXiv e-prints.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 82,
+      "raw_text": "Thibault Sellam, Dipanjan Das, and Ankur Parikh. 2020.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 83,
+      "raw_text": "BLEURT: Learning robust metrics for text genera- tion.In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 7881–7892, Online. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 84,
+      "raw_text": "Chenhui Shen, Liying Cheng, Lidong Bing, Yang You,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 85,
+      "raw_text": "andLuoSi.2022a.SentBS:Sentence-levelBeam Search for Controllable Summarization.In Proceed- ings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 10256–10265, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 86,
+      "raw_text": "Chenhui Shen,Liying Cheng,Yang You,and Lidong",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 87,
+      "raw_text": "Bing. 2023.Are Large Language Models Good Eval- uators for Abstractive Summarization?",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 88,
+      "raw_text": "Chenhui Shen, Liying Cheng, Ran Zhou, Lidong Bing,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 89,
+      "raw_text": "YangYou,andLuoSi.2022b. MReD:AMeta- Review Dataset for Structure-Controllable Text Gen- eration.In Findings of the Association for Compu- tational Linguistics:ACL 2022,pages 2521–2535, Dublin, Ireland. Association for Computational Lin- guistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 90,
+      "raw_text": "NisanStiennon,LongOuyang,JeffWu,DanielM.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 91,
+      "raw_text": "Ziegler,RyanLowe,ChelseaVoss,AlecRadford, Dario Amodei, and Paul Christiano. 2020.Learning",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 92,
+      "raw_text": "to Summarize from Human Feedback.In Proceed- ingsofthe34thInternationalConferenceonNeu- ral Information Processing Systems, NIPS’20, Red Hook, NY, USA. Curran Associates Inc.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 93,
+      "raw_text": "RohanTaori,IshaanGulrajani,TianyiZhang,Yann",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 94,
+      "raw_text": "Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. 2023.Stanford Alpaca: AnInstruction-followingLLaMAmodel. https: //github.com/tatsu-lab/stanford_alpaca.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 95,
+      "raw_text": "MichaelVölske,MartinPotthast,ShahbazSyed,and",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 96,
+      "raw_text": "Benno Stein. 2017.TL;DR: Mining Reddit to learn automaticsummarization. InProceedingsofthe Workshop on New Frontiers in Summarization, pages",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 97,
+      "raw_text": "59–63, Copenhagen, Denmark. Association for Com- putational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 98,
+      "raw_text": "Peiyi Wang, Lei Li, Liang Chen, Dawei Zhu, Binghuai",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 99,
+      "raw_text": "Lin,YunboCao,QiLiu,TianyuLiu,andZhifang Sui.2023a.LargeLanguageModelsarenotFair Evaluators.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 100,
+      "raw_text": "Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 101,
+      "raw_text": "Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh Hajishirzi. 2023b.Self-Instruct:Aligning Language Models with Self-Generated Instructions.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 102,
+      "raw_text": "YizhongWang,SwaroopMishra,PegahAlipoormo-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 103,
+      "raw_text": "labashi, Yeganeh Kordi, Amirreza Mirzaei, Atharva Naik,ArjunAshok,ArutSelvanDhanasekaran, AnjanaArunkumar,DavidStap,EshaanPathak, GiannisKaramanolakis,HaizhiLai,IshanPuro- hit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, KrimaDoshi,KuntalKumarPal,MaitreyaPatel, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Savan Doshi, ShailajaKeyurSampat,SiddharthaMishra,Sujan Reddy A, Sumanta Patro, Tanay Dixit, and Xudong Shen. 2022.Super-NaturalInstructions:Generaliza- tion via declarative instructions on 1600+ NLP tasks. InProceedingsofthe2022ConferenceonEmpiri- cal Methods in Natural Language Processing, pages 5085–5109, Abu Dhabi, United Arab Emirates. As- sociation for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 104,
+      "raw_text": "Jason Wei, Maarten Paul Bosma, Vincent Zhao, Kelvin",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 105,
+      "raw_text": "Guu,AdamsWeiYu,BrianLester,NanDu,An- drew Mingbo Dai, and Quoc V. Le. 2022a.Finetuned Language Models are Zero-Shot Learners.In Inter- national Conference on Learning Representations.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 106,
+      "raw_text": "Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 107,
+      "raw_text": "Bosma, Brian Ichter, Fei Xia, Ed H. Chi, Quoc V Le, and Denny Zhou. 2022b.Chain of Thought Prompt- ing Elicits Reasoning in Large Language Models.In Advances in Neural Information Processing Systems.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 108,
+      "raw_text": "NingWu,MingGong,LinjunShou,ShiningLiang,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 109,
+      "raw_text": "and Daxin Jiang. 2023.Large Language Models are Diverse Role-Players for Summarization Evaluation.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 110,
+      "raw_text": "ShunyuYao,DianYu,JeffreyZhao,IzhakShafran,",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 111,
+      "raw_text": "ThomasL.Griffiths, YuanCao, andKarthik",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 112,
+      "raw_text": "Narasimhan.2023.TreeofThoughts:Deliberate Problem Solving with Large Language Models.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 113,
+      "raw_text": "Weizhe Yuan, Graham Neubig, and Pengfei Liu. 2021.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 114,
+      "raw_text": "BARTScore:Evaluating generated text as text gener- ation.In Advances in Neural Information Processing Systems, volume 34, pages 27263–27277. Curran As- sociates, Inc.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 115,
+      "raw_text": "Rui Zhang and Joel Tetreault. 2019.This Email Could",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 116,
+      "raw_text": "Save Your Life:Introducing the Task of Email Sub- ject Line Generation.In Proceedings of the 57th An- nual Meeting of the Association for Computational Linguistics, pages 446–456, Florence, Italy. Associa- tion for Computational Linguistics.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 117,
+      "raw_text": "Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Wein-",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 118,
+      "raw_text": "berger,and Yoav Artzi. 2020.BERTScore:Evalu- atingtextgenerationwithBERT.InInternational Conference on Learning Representations.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 119,
+      "raw_text": "XiangZhang,JunboZhao,andYannLeCun.2015.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 120,
+      "raw_text": "Character-LevelConvolutionalNetworksforText Classification.InProceedingsofthe28thInterna- tional Conference on Neural Information Processing Systems - Volume 1, NIPS’15, page 649–657, Cam- bridge, MA, USA. MIT Press.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 121,
+      "raw_text": "Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer, Jiao",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 122,
+      "raw_text": "Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping Yu, LiliYu,SusanZhang,GargiGhosh,MikeLewis, LukeZettlemoyer,andOmerLevy.2023.LIMA: Less is more for alignment.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 17,
+  "warnings": []
+}
