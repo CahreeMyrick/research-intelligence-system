@@ -67,5 +67,5 @@ and if those processes run on different cpu cores, they may execute literally at
 **question**: how to discern whether you need conurrency or parallelism, and how do you choose the appraoch to obtaining it?
 
 
-
+**does the document processing system work as expected:**
 

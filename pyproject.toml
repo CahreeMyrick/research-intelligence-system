@@ -10,6 +10,8 @@ dependencies = [
     "torch>=2.0",
     "requests>=2.34.2",
     "pyyaml>=6.0.3",
+    "deepeval>=4.2.2",
+    "ollama>=0.6.2",
 ]
 
 [project.optional-dependencies]
@@ -38,4 +40,9 @@ packages = ["ingest", "indexer", "indexer.schemas", "indexer.chunking", "indexer
 
 [tool.setuptools.package-data]
 "indexer.database" = ["migrations/*.sql"]
+
+[tool.uv.workspace]
+members = [
+    "theory-of-computation",
+]
 

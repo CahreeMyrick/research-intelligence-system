@@ -1,0 +1,43 @@
+{
+  "name": "Software dependencies starter",
+  "version": "0.1",
+  "reviewed": false,
+  "questions": [
+    {
+      "id": "dependencies-purpose",
+      "question": "What is the purpose of the article Surviving Software Dependencies?",
+      "expected_answer": "To raise awareness of the risks of software dependencies and encourage investigation of solutions.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0001",
+          "quote": "Software dependencies carry with them serious risks that are too often overlooked. The shift to easy, fine-grained software reuse has happened so quickly that we do not yet understand the best practices for choosing and using dependencies effectively, or even for deciding when they are appropriate and when not. The purpose of this article is to raise awareness of the risks and encourage more investigation of solutions."
+        }
+      ]
+    },
+    {
+      "id": "dependencies-manager",
+      "question": "According to Surviving Software Dependencies, what does a dependency manager automate?",
+      "expected_answer": "It automates downloading and installing dependency packages.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0002",
+          "quote": "A dependency manager (a.k.a. pack- age manager) automates the download- ing and installation of dependency packages. As dependency managers make individual packages easier to download and install, the lower fixed costs make smaller packages economi- cal to publish and reuse. For example, the Node.js dependency manager NPM provides access to more than 750,000 packages. One of them, escape-string- regexp, consists of a single function that escapes regular expression opera- tors in its input. The entire implemen- tation is:"
+        }
+      ]
+    },
+    {
+      "id": "dependencies-reuse",
+      "question": "According to Surviving Software Dependencies, why does adding a dependency avoid repeating work?",
+      "expected_answer": "It reuses code instead of repeating the design, testing, debugging and maintenance of that unit of code.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0002",
+          "quote": "is additional code a programmer wants to call. Adding a dependency avoids repeating work: designing, testing, de- bugging, and maintaining a specific unit of code. In this article, that unit of code is referred to as a package; some systems use the terms library and mod- ule instead."
+        }
+      ]
+    }
+  ]
+}

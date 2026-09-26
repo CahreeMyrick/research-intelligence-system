@@ -1,0 +1,1 @@
+{"USE_LOCAL_MODEL": "YES", "OLLAMA_MODEL_NAME": "qwen3:4b-docmind", "LOCAL_MODEL_BASE_URL": "http://localhost:11434/"}

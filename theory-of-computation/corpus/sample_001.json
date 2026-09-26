@@ -1,0 +1,208 @@
+{
+  "document_id": "sample_001",
+  "metadata": {
+    "title": "(anonymous)",
+    "authors": [
+      "(anonymous)"
+    ],
+    "year": null,
+    "doi": null,
+    "arxiv_id": null
+  },
+  "text": {
+    "pages": [
+      {
+        "number": 1,
+        "text": "   ViTGAN: Generative Adversarial Networks with\n                Vision Transformers\n\n                       Jane Doe, John Smith, and Alice Wu\n\nAbstract\n\nWe introduce ViTGAN, a purely transformer-based generative adversarial network for high-fidelity\nimage synthesis. Our model removes convolutional inductive biases and demonstrates competitive\nresults on standard benchmarks such as CIFAR-10 and CelebA. arXiv:2107.04589\n\n1 Introduction\n\nGenerative adversarial networks (GANs) have become a dominant paradigm for image synthesis since\ntheir introduction. Recently, vision transformers have shown strong performance on discriminative\ntasks, motivating their use in generative settings as well.\n\n2 Related Work\n\n2.1 Generative Adversarial Networks\n\nGANs consist of a generator and a discriminator trained in a minimax game. Numerous architectural\nimprovements have been proposed to stabilize training and improve sample quality.\n\n2.2 Vision Transformers\n\nVision Transformers (ViT) apply the standard transformer architecture directly to sequences of image\npatches, achieving strong results on image classification.\n\n3 ViTGAN\n\n3.1 Discriminator\n\nThe discriminator treats an image as a sequence of patches and processes them with a standard\ntransformer encoder, followed by a classification head.\n\n3.2 Generator\n\nThe generator maps a latent vector to a sequence of patch embeddings which are decoded into image\npatches and assembled into the final output image.\n\n4 Experiments\n\nWe evaluate ViTGAN on CIFAR-10 and CelebA, reporting FID scores compared to convolutional\nbaselines. Our model achieves competitive performance without any convolutional layers."
+      },
+      {
+        "number": 2,
+        "text": "5 Conclusion\n\nWe presented ViTGAN, demonstrating that pure transformer architectures are viable for high-fidelity\nimage generation, opening avenues for future convolution-free generative models.\n\nReferences\n\n[1] A. Vaswani, N. Shazeer, N. Parmar, et al. Attention is all you need. NeurIPS, 2017.\n[2] A. Dosovitskiy, L. Beyer, A. Kolesnikov, et al. An image is worth 16x16 words: Transformers for\nimage recognition at scale. ICLR, 2021.\n[3] I. Goodfellow, J. Pouget-Abadie, M. Mirza, et al. Generative adversarial networks. NeurIPS, 2014.\ndoi:10.1145/3422622"
+      }
+    ]
+  },
+  "body": {
+    "sections": [
+      {
+        "heading": "ViTGAN: Generative Adversarial Networks with",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [],
+        "subsections": []
+      },
+      {
+        "heading": "Vision Transformers",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [
+          {
+            "text": "Jane Doe, John Smith, and Alice Wu",
+            "page_start": 1,
+            "page_end": 1
+          }
+        ],
+        "subsections": []
+      },
+      {
+        "heading": "Abstract",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [
+          {
+            "text": "We introduce ViTGAN, a purely transformer-based generative adversarial network for high-fidelity image synthesis. Our model removes convolutional inductive biases and demonstrates competitive results on standard benchmarks such as CIFAR-10 and CelebA. arXiv:2107.04589",
+            "page_start": 1,
+            "page_end": 1
+          }
+        ],
+        "subsections": []
+      },
+      {
+        "heading": "1 Introduction",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [
+          {
+            "text": "Generative adversarial networks (GANs) have become a dominant paradigm for image synthesis since their introduction. Recently, vision transformers have shown strong performance on discriminative tasks, motivating their use in generative settings as well.",
+            "page_start": 1,
+            "page_end": 1
+          }
+        ],
+        "subsections": []
+      },
+      {
+        "heading": "2 Related Work",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "2.1 Generative Adversarial Networks",
+            "level": 2,
+            "page_start": 1,
+            "page_end": 1,
+            "paragraphs": [
+              {
+                "text": "GANs consist of a generator and a discriminator trained in a minimax game. Numerous architectural improvements have been proposed to stabilize training and improve sample quality.",
+                "page_start": 1,
+                "page_end": 1
+              }
+            ],
+            "subsections": []
+          },
+          {
+            "heading": "2.2 Vision Transformers",
+            "level": 2,
+            "page_start": 1,
+            "page_end": 1,
+            "paragraphs": [
+              {
+                "text": "Vision Transformers (ViT) apply the standard transformer architecture directly to sequences of image patches, achieving strong results on image classification.",
+                "page_start": 1,
+                "page_end": 1
+              }
+            ],
+            "subsections": []
+          }
+        ]
+      },
+      {
+        "heading": "3 ViTGAN",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "3.1 Discriminator",
+            "level": 2,
+            "page_start": 1,
+            "page_end": 1,
+            "paragraphs": [
+              {
+                "text": "The discriminator treats an image as a sequence of patches and processes them with a standard transformer encoder, followed by a classification head.",
+                "page_start": 1,
+                "page_end": 1
+              }
+            ],
+            "subsections": []
+          },
+          {
+            "heading": "3.2 Generator",
+            "level": 2,
+            "page_start": 1,
+            "page_end": 1,
+            "paragraphs": [
+              {
+                "text": "The generator maps a latent vector to a sequence of patch embeddings which are decoded into image patches and assembled into the final output image.",
+                "page_start": 1,
+                "page_end": 1
+              }
+            ],
+            "subsections": []
+          }
+        ]
+      },
+      {
+        "heading": "4 Experiments",
+        "level": 1,
+        "page_start": 1,
+        "page_end": 1,
+        "paragraphs": [
+          {
+            "text": "We evaluate ViTGAN on CIFAR-10 and CelebA, reporting FID scores compared to convolutional baselines. Our model achieves competitive performance without any convolutional layers.",
+            "page_start": 1,
+            "page_end": 1
+          }
+        ],
+        "subsections": []
+      },
+      {
+        "heading": "5 Conclusion",
+        "level": 1,
+        "page_start": 2,
+        "page_end": 2,
+        "paragraphs": [
+          {
+            "text": "We presented ViTGAN, demonstrating that pure transformer architectures are viable for high-fidelity image generation, opening avenues for future convolution-free generative models.",
+            "page_start": 2,
+            "page_end": 2
+          }
+        ],
+        "subsections": []
+      },
+      {
+        "heading": "References",
+        "level": 1,
+        "page_start": 2,
+        "page_end": 2,
+        "paragraphs": [
+          {
+            "text": "[1] A. Vaswani, N. Shazeer, N. Parmar, et al. Attention is all you need. NeurIPS, 2017.",
+            "page_start": 2,
+            "page_end": 2
+          },
+          {
+            "text": "[2] A. Dosovitskiy, L. Beyer, A. Kolesnikov, et al. An image is worth 16x16 words: Transformers for image recognition at scale. ICLR, 2021.",
+            "page_start": 2,
+            "page_end": 2
+          },
+          {
+            "text": "[3] I. Goodfellow, J. Pouget-Abadie, M. Mirza, et al. Generative adversarial networks. NeurIPS, 2014. doi:10.1145/3422622",
+            "page_start": 2,
+            "page_end": 2
+          }
+        ],
+        "subsections": []
+      }
+    ]
+  },
+  "source_path": "/Users/cahree/dev/research-intelligence-system/ingestion/papers/sample_001.pdf",
+  "page_count": 2,
+  "parser_name": "pymupdf",
+  "parser_version": "1.28.2"
+}

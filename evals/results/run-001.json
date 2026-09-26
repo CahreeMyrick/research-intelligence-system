@@ -1,0 +1,542 @@
+{
+  "benchmark": "Software dependencies starter",
+  "version": "0.1",
+  "reviewed": false,
+  "settings": {
+    "top_k": 10,
+    "candidate_k": 50,
+    "target": 0.9,
+    "relevancy_threshold": 0.8
+  },
+  "summary": {
+    "kr2": {
+      "passed": 0,
+      "total": 3,
+      "rate": 0.0,
+      "status": "not met"
+    },
+    "kr3": {
+      "passed": 0,
+      "total": 3,
+      "rate": 0.0,
+      "status": "not met"
+    }
+  },
+  "questions": [
+    {
+      "id": "dependencies-purpose",
+      "question": "What is the purpose of the article Surviving Software Dependencies?",
+      "expected_answer": "To raise awareness of the risks of software dependencies and encourage investigation of solutions.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0001",
+          "quote": "Software dependencies carry with them serious risks that are too often overlooked. The shift to easy, fine-grained software reuse has happened so quickly that we do not yet understand the best practices for choosing and using dependencies effectively, or even for deciding when they are appropriate and when not. The purpose of this article is to raise awareness of the risks and encourage more investigation of solutions."
+        }
+      ],
+      "kr2_pass": false,
+      "kr3_pass": false,
+      "metrics": {
+        "faithfulness": {
+          "score": 1.0,
+          "threshold": 1,
+          "passed": true,
+          "reason": "The faithfulness score is 1.00 because there are no contradictions between the actual output and the retrieval context."
+        },
+        "answer_relevancy": {
+          "score": 1.0,
+          "threshold": 0.8,
+          "passed": true,
+          "reason": "The score is 1.00 because there are no irrelevant statements in the output, and the response directly and accurately addresses the purpose of the article 'Surviving Software Dependencies' without deviation or extraneous information."
+        },
+        "citation_support": {
+          "score": 0,
+          "threshold": 1,
+          "passed": false,
+          "reason": "The actual output claims that the purpose of the article is to highlight problems with software dependencies and advocate for critical examination, best practices, and better dependency technologies, citing real-world incidents like Copay and Equifax. It references [Evidence 2] and [Evidence 3] to support these claims. However, the expected output states only that the purpose is to raise awareness of risks and encourage investigation of solutions. The actual output goes beyond the expected output in scope and detail, making specific claims about best practices and future technologies that are not present in the expected output. While the core idea of raising awareness and encouraging investigation is present, the actual output introduces unsupported, expansive claims without direct evidence in the retrieval context that aligns with those specific claims. Therefore, it fails to meet the criteria of strictly answering the input with only supported, essential claims as required by the evaluation steps."
+        }
+      },
+      "errors": [],
+      "response": {
+        "question": "What is the purpose of the article Surviving Software Dependencies?",
+        "answer": "The purpose of the article \"Surviving Software Dependencies\" is to highlight the problems associated with software dependencies and to advocate for a critical examination of their use. It emphasizes that while software reuse offers significant benefits, the risks\u2014such as security vulnerabilities and project abandonment\u2014are becoming more pronounced. The article calls for greater attention to dependency management, recommends establishing best practices for evaluating and tracking risks, and suggests developing better dependency technologies to reduce the cost of evaluation and maintenance. It also references real-world incidents like the Copay and Equifax attacks as warnings of the dangers in current dependency practices [Evidence 2].",
+        "citations": [
+          {
+            "evidence_id": "evidence_2",
+            "document_id": "doc_0f0d2c208894485b",
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0020",
+            "quote": "Python, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google\u2019s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that\u2019s changing. It\u2019s also important to periodically revisit any dependen- cy that isn\u2019t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it\u2019s time to start planning to replace that dependency.\n\nIt\u2019s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It\u2019s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, \u201cLet\u2019s see what happens.\u201d Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it."
+          }
+        ],
+        "confidence": null
+      },
+      "evidence": {
+        "query": "What is the purpose of the article Surviving Software Dependencies?",
+        "items": [
+          {
+            "evidence_id": "evidence_1",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "Surviving Software Dependencies",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0003",
+            "source_text": "Surviving Software Dependencies",
+            "page_start": 0,
+            "page_end": 7,
+            "relevance_score": 0.7
+          },
+          {
+            "evidence_id": "evidence_2",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "practice",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0020",
+            "source_text": "Python, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google\u2019s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that\u2019s changing. It\u2019s also important to periodically revisit any dependen- cy that isn\u2019t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it\u2019s time to start planning to replace that dependency.\n\nIt\u2019s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It\u2019s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, \u201cLet\u2019s see what happens.\u201d Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.",
+            "page_start": 7,
+            "page_end": 7,
+            "relevance_score": 0.4684390834839347
+          },
+          {
+            "evidence_id": "evidence_3",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "practice",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0021",
+            "source_text": "1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.\n\n2.\t Establish best practices for today. Best practices are needed for manag- ing dependencies using what is avail- able today. This means working out processes that evaluate, reduce, and track risk, from the original adoption decision through production use. In fact, just as some engineers specialize in testing, others may need to special- ize in managing dependencies.\n\n3.\tDevelop better dependency tech- nology for tomorrow. Dependency managers have essentially eliminated the cost of downloading and install- ing a dependency. Future develop- ment efforts should focus on reducing the cost of the kind of evaluation and maintenance necessary to use a de- pendency. For example, package-dis- covery sites might work to find more ways to allow developers to share their findings. Build tools should, at the least, make it easy to run a pack- age\u2019s own tests. More aggressively, build tools and package-management systems could also work together to allow package authors to test new changes against all public clients of their APIs. Languages should also provide easy ways to isolate a suspect package.\n\nThere is a lot of good software out there. Let\u2019s work together to find out how to reuse it safely.\n\nRelated articles on queue.acm.org\n\nThe Calculus of Service Availability Ben Treynor, Mike Dahlin, Vivek Rau, and Betsy Beyer https://queue.acm.org/detail.cfm?id=3096459\n\nTracking and Controlling Microservice Dependencies Silvia Esparrachiari, Tanya Reilly, and Ashleigh Rentz https://queue.acm.org/detail.cfm?id=3277541\n\nThou Shalt Not Depend on Me Tobias Lauinger, Abdelberi Chaabane, and Christo B. Wilson https://queue.acm.org/detail.cfm?id=3205288\n\nReferences 1.\n\nBaldwin, A.\n\nDetails about the event-stream incident.\n\nThe npm Blog (Nov.\n\n2018); https://bit.ly/2DRjySJ 2.\n\nCox, R.\n\nGo & Versioning, 2018; https://research.swtch.\n\ncom/vgo.\n\n3.\n\nCox, R.",
+            "page_start": 7,
+            "page_end": 7,
+            "relevance_score": 0.45787906423381236
+          },
+          {
+            "evidence_id": "evidence_4",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Customizing Software-Intensive Systems",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0018",
+            "source_text": "Customizing Software-Intensive Systems",
+            "page_start": 11,
+            "page_end": 12,
+            "relevance_score": 0.12158966148459953
+          },
+          {
+            "evidence_id": "evidence_5",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Further Work",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0044",
+            "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+            "page_start": 27,
+            "page_end": 27,
+            "relevance_score": 0.11755791826786671
+          },
+          {
+            "evidence_id": "evidence_6",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Customization Delivery Scenarios",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0039",
+            "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+            "page_start": 24,
+            "page_end": 24,
+            "relevance_score": 0.09169196234617187
+          },
+          {
+            "evidence_id": "evidence_7",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "4 Evaluating Agreement with Annotators",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0020",
+            "source_text": "As discussed in Section 2, we asked annotators to provide a binary Yes/No rating answering whether a model output follows the instruction and a qual- itativeratingfrom1to5,representinghowwell it follows the instruction.Using meta-evaluation methods described below, we then study agreement between annotators and our evaluation methods.",
+            "page_start": 5,
+            "page_end": 5,
+            "relevance_score": 0.07139027667793237
+          },
+          {
+            "evidence_id": "evidence_8",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "arXiv:2310.08394v2  [cs.CL]  20 Oct 2023",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0006",
+            "source_text": "Document: Lee, You should be receiving a package shortly containing the following:(...) 3.Assignment and assumption agreement to move the equipment from TurboPark to the CAED I. There will be one for CAED II as well.This document is being reviewed by the bank, so I\u2019m not convinced it is in final form.You will note that there is an acknowledgement section for GE. I cut and pasted from the consent to assignment from the TurboPark documents, but shortened the whole thing considerably.Here\u2019s that document: 4.Signature pages (signed by Enron) from the ESA deal, both the facility agreement and the override letter.Obviously, we need your signature.I will forward the final CA facility agreements to you once again, along with the blacklines against what you initialled. Instructions:\n\n\u2022Briefly describe the purpose of the assignment and assumption agreement mentioned in the paragraph. \u2022Explain the changes made to the GE acknowledgement section in the context of the TurboPark documents. \u2022Summarize the final steps regarding the CA facility agreements and signature pages. Answers (for instruction #1): F-PaLM 2-S The assignment and assumption agreement is to move the equipment from TurboPark to the CAED I. F-PaLM 2-ScThe purpose of the assignment and assumption agreement is to move the equipment from TurboPark\n\nto the CAED I. GPT-3.5 (...)The purpose of the assignment and assumption agreement is not specified.\n\nFigure 1:Randomly sampled example from riSum (data source:AESLC). Highlighted how GPT-4 transforms parts of the input document into grounded instructions.\n\nbeen no prior work on reference-free evaluations for instruction-following.\n\nInthiswork,wetakethefirststepstowards buildingsuchaframework.Tomakethisprob- lem tractable, we choose to limit our scope to the task of query-based summarization.We consider this to be an appropriate initial task since (i) numer- ous domains to source documents from exist, (ii) the space of appropriate instructions is broad, while still (iii) maintaining groundedness of both instruc- tionsandanswersintofactspresentinthedocu- ments.Weleavetheexpansionofthedatasetin size and domain/instruction scope to future work.",
+            "page_start": 1,
+            "page_end": 1,
+            "relevance_score": 0.0487347349950405
+          },
+          {
+            "evidence_id": "evidence_9",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "7 Conclusion",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0033",
+            "source_text": "Inthiswork,weinvestigatetheeffectivenessof multiple evaluation methods in quantifying the de- greetowhichLLM-generatedtextfollowsuser- given instructions.We release riSum, a new short- formdatasetof300document-instructionpairs with3 answers each.All of the900 answers are rated by at least 3 human annotators.When analyz- ingagreementbetweenevaluationmethodsand humanjudgment,wefindthatestablishedmet- rics,suchasROUGEandBLEURTarenoteffec- tiveatquantifyingLLMs\u2019instruction-following ability.LLM-basedevaluationmethodstendto have stronger correlation with annotator judgment, without requiring high-quality reference answers. Wehopethattheintroducedevaluationframe- work is adopted by the community for evaluating instruction-following abilities of LLMs, possibly expanding into more tasks, domains, and examples.",
+            "page_start": 8,
+            "page_end": 8,
+            "relevance_score": 0.04549686651817517
+          }
+        ]
+      },
+      "retrieval_hits": []
+    },
+    {
+      "id": "dependencies-manager",
+      "question": "According to Surviving Software Dependencies, what does a dependency manager automate?",
+      "expected_answer": "It automates downloading and installing dependency packages.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0002",
+          "quote": "A dependency manager (a.k.a. pack- age manager) automates the download- ing and installation of dependency packages. As dependency managers make individual packages easier to download and install, the lower fixed costs make smaller packages economi- cal to publish and reuse. For example, the Node.js dependency manager NPM provides access to more than 750,000 packages. One of them, escape-string- regexp, consists of a single function that escapes regular expression opera- tors in its input. The entire implemen- tation is:"
+        }
+      ],
+      "kr2_pass": false,
+      "kr3_pass": false,
+      "metrics": {
+        "faithfulness": {
+          "score": 0,
+          "threshold": 1,
+          "passed": false,
+          "reason": "The faithfulness score is 0.00 because the actual output incorrectly classifies a claim about dependency managers as being contradicted by the retrieval context, when in fact the context neither supports nor contradicts the claim about what dependency managers automate. The retrieval context explicitly lacks detail on automation, and thus the claim that 'the retrieved evidence does not specify what a dependency manager automates' is actually supported by the context, not contradicted. The output misrepresents this lack of information as a contradiction, which is a factual error and renders the output entirely incoherent with the retrieval context."
+        },
+        "answer_relevancy": {
+          "score": 0.5,
+          "threshold": 0.8,
+          "passed": false,
+          "reason": "The score is 0.50 because the statement 'The answer is insufficient' fails to address the input question about what a dependency manager automates, and instead introduces an irrelevant evaluation without providing any specific, relevant information about the automation process. This lack of direct, accurate content prevents a higher score, as the response does not clearly or correctly answer the query."
+        },
+        "citation_support": {
+          "score": 0,
+          "threshold": 1,
+          "passed": false,
+          "reason": "The actual output states that 'the retrieved evidence does not specify what a dependency manager automates', but Evidence 4 in the retrieval context explicitly states 'Automates Deployment of an Application'. This factual claim is unsupported by the input question, which asks about what a dependency manager automates in the context of Surviving Software Dependencies. The expected output correctly states 'It automates downloading and installing dependency packages', which is not present in the actual output. The actual output fails to answer the input with a substantive factual claim supported by evidence. Therefore, it does not meet the criteria in the evaluation steps."
+        }
+      },
+      "errors": [
+        "No inline evidence citations"
+      ],
+      "response": {
+        "question": "According to Surviving Software Dependencies, what does a dependency manager automate?",
+        "answer": "The retrieved evidence does not specify what a dependency manager automates. Therefore, based on the available information, the answer is insufficient.",
+        "citations": [],
+        "confidence": null
+      },
+      "evidence": {
+        "query": "According to Surviving Software Dependencies, what does a dependency manager automate?",
+        "items": [
+          {
+            "evidence_id": "evidence_1",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "Surviving Software Dependencies",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0003",
+            "source_text": "Surviving Software Dependencies",
+            "page_start": 0,
+            "page_end": 7,
+            "relevance_score": 0.7
+          },
+          {
+            "evidence_id": "evidence_2",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "BY RUSS COX",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0005",
+            "source_text": "SEPTEMBER 2019  |  VOL. 62  |  NO. 9  |COMMUNICATIONS OF THE ACM37\n\nIMAGE BY T. EMIL\n\nBefore dependency managers, publishing an eight-line code library would have been unthinkable: too much overhead for too little benefit. NPM, however, has driven the over- head approximately to zero, with the result that nearly trivial functionality can be packaged and reused. In late April 2019, the escape-string-regexp package was explicitly depended upon by almost a thousand other NPM packages, not to mention all the packages developers write for their own use and don\u2019t share.\n\nDependency managers now exist for essentially every programming lan- guage: Maven Central (Java), NuGet (.NET), Packagist (PHP), PyPI (Python),\n\nand RubyGems (Ruby) each host more than 100,000 packages. The arrival of this kind of fine-grained, widespread software reuse is one of the most con- sequential shifts in software develop- ment over the past two decades. And if we are not more careful, it will lead to serious problems.\n\nWhat Could Go Wrong? A package, for this discussion, is code downloaded from the Internet. Adding a package as a dependency outsources the work of developing that code\u2014de- signing, writing, testing, debugging, and maintaining\u2014to someone else on the Internet, often unknown to the pro- grammer. Using that code exposes the program to all the failures and flaws in the dependency. The program\u2019s ex- ecution now literally depends on code downloaded from this stranger on the Internet. Presented this way, it sounds incredibly unsafe. Why would anyone do this?\n\nBecause it\u2019s easy, it seems to work, everyone else is doing it, and, most importantly, it seems like a natural continuation of age-old established\n\npractice. But there are important dif- ferences that are being ignored.\n\nDecades ago, most developers trust- ed others to write the software they depended on, such as operating sys- tems and compilers. That software was purchased from known sources, often with some kind of support agreement. There was still a potential for bugs or outright mischief,20 but at least the de- velopers knew who they were dealing with and usually had commercial or legal recourses available.",
+            "page_start": 1,
+            "page_end": 1,
+            "relevance_score": 0.5000002741767653
+          },
+          {
+            "evidence_id": "evidence_3",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "practice",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0020",
+            "source_text": "Python, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google\u2019s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that\u2019s changing. It\u2019s also important to periodically revisit any dependen- cy that isn\u2019t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it\u2019s time to start planning to replace that dependency.\n\nIt\u2019s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It\u2019s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, \u201cLet\u2019s see what happens.\u201d Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.",
+            "page_start": 7,
+            "page_end": 7,
+            "relevance_score": 0.4911444561537312
+          },
+          {
+            "evidence_id": "evidence_4",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Consumed by an Orchestration Engine",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0027",
+            "source_text": "\u25cf Automates Deployment of an Application\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+            "page_start": 18,
+            "page_end": 18,
+            "relevance_score": 0.15426703945290926
+          },
+          {
+            "evidence_id": "evidence_5",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Arch. Knowledge (E2) every ISV once once",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0041",
+            "source_text": "Implementation (E3) for each application for each application automated\n\nVerification (E4) for each application for each application automated\n\nTotal E1+E2*n(ISV)+(E3+E4)*n(Apps) E2+(E3+E4)*n(Apps) E2(Refactoring)\n\nKey Takeaway: automated model refactoring approach scales best.",
+            "page_start": 25,
+            "page_end": 25,
+            "relevance_score": 0.12300111638361179
+          },
+          {
+            "evidence_id": "evidence_6",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "\u25cf Epsilon Object Language (EOL)",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0031",
+            "source_text": "In particular:\n\n\u25cf Epsilon Wizard Language (EWL)",
+            "page_start": 20,
+            "page_end": 20,
+            "relevance_score": 0.09878030424526581
+          },
+          {
+            "evidence_id": "evidence_7",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "arXiv:2310.08394v2  [cs.CL]  20 Oct 2023",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0006",
+            "source_text": "Document: Lee, You should be receiving a package shortly containing the following:(...) 3.Assignment and assumption agreement to move the equipment from TurboPark to the CAED I. There will be one for CAED II as well.This document is being reviewed by the bank, so I\u2019m not convinced it is in final form.You will note that there is an acknowledgement section for GE. I cut and pasted from the consent to assignment from the TurboPark documents, but shortened the whole thing considerably.Here\u2019s that document: 4.Signature pages (signed by Enron) from the ESA deal, both the facility agreement and the override letter.Obviously, we need your signature.I will forward the final CA facility agreements to you once again, along with the blacklines against what you initialled. Instructions:\n\n\u2022Briefly describe the purpose of the assignment and assumption agreement mentioned in the paragraph. \u2022Explain the changes made to the GE acknowledgement section in the context of the TurboPark documents. \u2022Summarize the final steps regarding the CA facility agreements and signature pages. Answers (for instruction #1): F-PaLM 2-S The assignment and assumption agreement is to move the equipment from TurboPark to the CAED I. F-PaLM 2-ScThe purpose of the assignment and assumption agreement is to move the equipment from TurboPark\n\nto the CAED I. GPT-3.5 (...)The purpose of the assignment and assumption agreement is not specified.\n\nFigure 1:Randomly sampled example from riSum (data source:AESLC). Highlighted how GPT-4 transforms parts of the input document into grounded instructions.\n\nbeen no prior work on reference-free evaluations for instruction-following.\n\nInthiswork,wetakethefirststepstowards buildingsuchaframework.Tomakethisprob- lem tractable, we choose to limit our scope to the task of query-based summarization.We consider this to be an appropriate initial task since (i) numer- ous domains to source documents from exist, (ii) the space of appropriate instructions is broad, while still (iii) maintaining groundedness of both instruc- tionsandanswersintofactspresentinthedocu- ments.Weleavetheexpansionofthedatasetin size and domain/instruction scope to future work.",
+            "page_start": 1,
+            "page_end": 1,
+            "relevance_score": 0.04430199111911963
+          },
+          {
+            "evidence_id": "evidence_8",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "4 Evaluating Agreement with Annotators",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0020",
+            "source_text": "As discussed in Section 2, we asked annotators to provide a binary Yes/No rating answering whether a model output follows the instruction and a qual- itativeratingfrom1to5,representinghowwell it follows the instruction.Using meta-evaluation methods described below, we then study agreement between annotators and our evaluation methods.",
+            "page_start": 5,
+            "page_end": 5,
+            "relevance_score": 0.03278593171838274
+          },
+          {
+            "evidence_id": "evidence_9",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "Acknowledgements",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0034",
+            "source_text": "The authors would like to thank Lucas Werner for building the human annotation tool which dramati- cally simplified the creation of the riSum dataset, as well as all the 14 annotators and their managers for their tireless and accurate work.Thank you also to Hassan Mansoor and Misha Khalman, who have helped with exploratory work on evaluation meth- odsandearlydatacollection.Wealsothankthe anonymous reviewers for their constructive feed- back.Lastly, we would like to thank Matt Sharifi, Jindong Chen and and Blaise Ag\u00fcera y Arcas for their feedback on the paper draft.",
+            "page_start": 8,
+            "page_end": 8,
+            "relevance_score": 0.023986251783340184
+          }
+        ]
+      },
+      "retrieval_hits": []
+    },
+    {
+      "id": "dependencies-reuse",
+      "question": "According to Surviving Software Dependencies, why does adding a dependency avoid repeating work?",
+      "expected_answer": "It reuses code instead of repeating the design, testing, debugging and maintenance of that unit of code.",
+      "supporting_passages": [
+        {
+          "document_id": "doc_0f0d2c208894485b",
+          "chunk_id": "chunk_doc_0f0d2c208894485b_0002",
+          "quote": "is additional code a programmer wants to call. Adding a dependency avoids repeating work: designing, testing, de- bugging, and maintaining a specific unit of code. In this article, that unit of code is referred to as a package; some systems use the terms library and mod- ule instead."
+        }
+      ],
+      "kr2_pass": false,
+      "kr3_pass": false,
+      "metrics": {
+        "faithfulness": {
+          "score": null,
+          "threshold": 1,
+          "passed": false,
+          "reason": null,
+          "error": "RetryError: RetryError[<Future at 0x148612e60 state=finished raised TimeoutError>]"
+        },
+        "answer_relevancy": {
+          "score": 0.0,
+          "threshold": 0.8,
+          "passed": false,
+          "reason": "The score is 0.00 because the actual output completely fails to address the input question about why adding a dependency avoids repeating work; instead, it introduces irrelevant statements that question evidence support and indicate inapplicability without providing any explanation of the mechanism or reasoning behind avoiding repetition. These statements do not contribute to answering the query and thus the response is entirely off-topic."
+        },
+        "citation_support": {
+          "score": 0,
+          "threshold": 1,
+          "passed": false,
+          "reason": "The actual output states that 'the available evidence does not support the claim', and cites [Evidence N] as not applicable, but no substantive factual claim about adding a dependency avoiding repeating work is made. The expected output states that adding a dependency avoids repeating work by reusing code. The retrieval context does not contain any passage that supports the claim that adding a dependency avoids repeating work by reusing code. Therefore, the actual output fails to answer the input with a supported factual claim, and no evidence in the context supports the essential answer in the expected output."
+        }
+      },
+      "errors": [
+        "No inline evidence citations",
+        "Judge faithfulness: RetryError: RetryError[<Future at 0x148612e60 state=finished raised TimeoutError>]"
+      ],
+      "response": {
+        "question": "According to Surviving Software Dependencies, why does adding a dependency avoid repeating work?",
+        "answer": "The available evidence does not support the claim that adding a dependency avoids repeating work. Therefore, based on the retrieved evidence, it is insufficient to conclude that adding a dependency avoids repeating work. [Evidence N] is not applicable.",
+        "citations": [],
+        "confidence": null
+      },
+      "evidence": {
+        "query": "According to Surviving Software Dependencies, why does adding a dependency avoid repeating work?",
+        "items": [
+          {
+            "evidence_id": "evidence_1",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "practice",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0020",
+            "source_text": "Python, and JavaScript interpreters. Each time, the culprit turned out to be unused dependencies declared by some library Sawzall did depend on, combined with the fact that Google\u2019s build system eliminated any manual effort needed to start us- ing a new dependency. This kind of error is the reason the Go language makes importing an unused package a compile-time error.\n\nUpgrading is a natural time to re- visit the decision to use a dependency that\u2019s changing. It\u2019s also important to periodically revisit any dependen- cy that isn\u2019t changing. Does it seem plausible that there are no security problems or other bugs to fix? Has the project been abandoned? Maybe it\u2019s time to start planning to replace that dependency.\n\nIt\u2019s also important to recheck the security history of each dependency. For example, Apache Struts disclosed different major remote code execution vulnerabilities in 2016, 2017, and 2018. Even if you have a list of all the servers that run it and update them promptly, that track record might make you re- think using it at all.\n\nConclusion Software reuse is finally here, and its benefits should not be understated. It has brought an enormously positive transformation for software develop- ers. Even so, we have accepted this transformation without completely thinking through the potential conse- quences. The old reasons for trusting dependencies are becoming less valid at exactly the same time there are more dependencies than ever.\n\nThe kind of critical examination of specific dependencies outlined in this article is a significant amount of work and remains the exception rather than the rule. It\u2019s unlikely that any develop- ers actually make the effort to do this for every possible new dependency. I\n\nhave done only a subset of them for a subset of my own dependencies. Most of the time the entirety of the decision is, \u201cLet\u2019s see what happens.\u201d Too often, anything more than that seems like too much effort.\n\nThe Copay and Equifax attacks are clear warnings of real problems in the way software dependencies are con- sumed today. We should not ignore the warnings. Here are three broad recommendations:\n\n1.\tRecognize the problem. If noth- ing else, this article hopefully con- vinced you that there is a problem here worth addressing. We need many people to focus significant ef- fort on solving it.",
+            "page_start": 7,
+            "page_end": 7,
+            "relevance_score": 0.7
+          },
+          {
+            "evidence_id": "evidence_2",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "Surviving Software Dependencies",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0003",
+            "source_text": "Surviving Software Dependencies",
+            "page_start": 0,
+            "page_end": 7,
+            "relevance_score": 0.6699511018867201
+          },
+          {
+            "evidence_id": "evidence_3",
+            "document_id": "doc_0f0d2c208894485b",
+            "document_title": "practice",
+            "publication_year": 2019,
+            "section_title": "practice",
+            "section_path": [],
+            "chunk_id": "chunk_doc_0f0d2c208894485b_0018",
+            "source_text": "CSO had all resigned, and a Congres- sional investigation was underway.\n\nEquifax\u2019s experience drives home the point that although dependency managers know the versions they are using at build time, other arrange- ments must be made to track that information through the produc- tion deployment process. For the Go language, we are experimenting with automatically including a ver- sion manifest in every binary, so that deployment processes can scan bi- naries for dependencies that need upgrading. Go also makes that in- formation available at runtime, so that servers can consult databases of known bugs and self-report to moni- toring software when they are in need of upgrades.\n\nUpgrading promptly is important, but it means adding new code to your project, which should mean updating your evaluation of the risks of using the dependency based on the new ver- sion. At minimum, you would want to skim the diffs showing the changes being made from the current version to the upgraded versions, or at least read the release notes, to identify the most likely areas of concern in the up- graded code. If a lot of code is chang- ing, so that the diffs are difficult to di- gest, you can incorporate that fact into your risk-assessment update.\n\nYou will also want to rerun the tests you have written that are specific to your project, to ensure the upgraded package is at least as suitable for the project as the earlier version. Rerun- ning the package\u2019s own tests also makes sense. If the package has its own dependencies, it is entirely pos- sible that your project\u2019s configuration uses versions of those dependencies (either older or newer ones) different from those used by the package\u2019s au- thors. Running the package\u2019s own tests can quickly identify problems specific to your configuration.\n\nAgain, upgrades should not be completely automatic. You must ver- ify the upgraded versions are appro- priate for your environment before deploying them.3\n\nIf your upgrade process includes re- running the integration and qualifica- tion tests you have already written for the dependency, so that you are likely to identify new problems before they\n\nIf a dependency seems too risky and you can\u2019t find a way to isolate it, the best answer may be to avoid it entirely, or at least to avoid the parts you have identified as most problematic.",
+            "page_start": 6,
+            "page_end": 6,
+            "relevance_score": 0.5853506702212298
+          },
+          {
+            "evidence_id": "evidence_4",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Arch. Knowledge (E2) every ISV once once",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0041",
+            "source_text": "Implementation (E3) for each application for each application automated\n\nVerification (E4) for each application for each application automated\n\nTotal E1+E2*n(ISV)+(E3+E4)*n(Apps) E2+(E3+E4)*n(Apps) E2(Refactoring)\n\nKey Takeaway: automated model refactoring approach scales best.",
+            "page_start": 25,
+            "page_end": 25,
+            "relevance_score": 0.1834227652349773
+          },
+          {
+            "evidence_id": "evidence_5",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Further Work",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0044",
+            "source_text": "Source: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+            "page_start": 27,
+            "page_end": 27,
+            "relevance_score": 0.1777751417998193
+          },
+          {
+            "evidence_id": "evidence_6",
+            "document_id": "doc_706e9db13da269f0",
+            "document_title": "ACM/IEEE MODELS 2018, K\u00f8benhavn, Denmark",
+            "publication_year": 2018,
+            "section_title": "Establishing High Service Availability (EVL)",
+            "section_path": [],
+            "chunk_id": "chunk_doc_706e9db13da269f0_0034",
+            "source_text": "context High_Availability {\n\nguard : self.isKindOf(Model!ao::ConnectionPoint) constraint C2_derived_from_R2 {\n\ncheck : self.ha message : \"R2 is not met by \" + self.name fix {\n\ntitle : \"new server instance with keepalived\" do {\n\nvar service : new Service(\"keepalived\"); \u2026 } } } }\n\nSource: Holmes, T.; Zdun, U.: Refactoring Architecture Models for Compliance with Custom Requirements, ACM/IEEE MODELS, 2018, 267-277, ACM",
+            "page_start": 22,
+            "page_end": 22,
+            "relevance_score": 0.1470001871684174
+          },
+          {
+            "evidence_id": "evidence_7",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "arXiv:2310.08394v2  [cs.CL]  20 Oct 2023",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0006",
+            "source_text": "Document: Lee, You should be receiving a package shortly containing the following:(...) 3.Assignment and assumption agreement to move the equipment from TurboPark to the CAED I. There will be one for CAED II as well.This document is being reviewed by the bank, so I\u2019m not convinced it is in final form.You will note that there is an acknowledgement section for GE. I cut and pasted from the consent to assignment from the TurboPark documents, but shortened the whole thing considerably.Here\u2019s that document: 4.Signature pages (signed by Enron) from the ESA deal, both the facility agreement and the override letter.Obviously, we need your signature.I will forward the final CA facility agreements to you once again, along with the blacklines against what you initialled. Instructions:\n\n\u2022Briefly describe the purpose of the assignment and assumption agreement mentioned in the paragraph. \u2022Explain the changes made to the GE acknowledgement section in the context of the TurboPark documents. \u2022Summarize the final steps regarding the CA facility agreements and signature pages. Answers (for instruction #1): F-PaLM 2-S The assignment and assumption agreement is to move the equipment from TurboPark to the CAED I. F-PaLM 2-ScThe purpose of the assignment and assumption agreement is to move the equipment from TurboPark\n\nto the CAED I. GPT-3.5 (...)The purpose of the assignment and assumption agreement is not specified.\n\nFigure 1:Randomly sampled example from riSum (data source:AESLC). Highlighted how GPT-4 transforms parts of the input document into grounded instructions.\n\nbeen no prior work on reference-free evaluations for instruction-following.\n\nInthiswork,wetakethefirststepstowards buildingsuchaframework.Tomakethisprob- lem tractable, we choose to limit our scope to the task of query-based summarization.We consider this to be an appropriate initial task since (i) numer- ous domains to source documents from exist, (ii) the space of appropriate instructions is broad, while still (iii) maintaining groundedness of both instruc- tionsandanswersintofactspresentinthedocu- ments.Weleavetheexpansionofthedatasetin size and domain/instruction scope to future work.",
+            "page_start": 1,
+            "page_end": 1,
+            "relevance_score": 0.12073728431484908
+          },
+          {
+            "evidence_id": "evidence_8",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "3.3 LLM-based reference-free methods",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0019",
+            "source_text": "Multi-LLM Agreement Recent works (Bakker et al., 2022; Park et al., 2023) have used LLMs in conversational settings where all participant LLMs communicatewitheachotherandtrytoachieve acommongoal.Weproposeaconsensus-based metricwherekLLMinstances5debateamongst eachotherandtrytoarriveatacommonassess- ment. Though there are no restrictions on the LLMs to use, we evaluate the simplest case where each instance is the same LLM. The rules of communi- cation are set as follows (Figure 3):\n\n1.The models communicate amongst each other in a controlled manner for up to 3 rounds and try to arrive at a consensus.After at most 3 rounds, oneofthreeoutcomesoccurs:(i)unanimous agreement:all 3 models agree.If this happens\n\n4 Temperature is set to 0.1 for all reported Self-Agreement and Multi-LLM Agreement experiments.\n\n5 k= 3 in all our experiments.\n\nin the earlier rounds, the process ends immedi- ately,(ii)majorityagreement:onemodeldis- agrees with the other two, or (iii) disagreement: all 3 models disagree with each other.\n\n2.In each round, all models provide a rating and abriefrationale.Themodelsdonothaveac- cess to the other model outputs till the end of around6.Beforethestartofroundstwoand three, they receive the ratings and rationales of all models from the previous rounds.\n\nThe prompt for the models is presented in Figure 8 of Appendix E. This method is referred to as Multi- LLM Agreement henceforth.We repeat the process n = 3 times for added stability.",
+            "page_start": 4,
+            "page_end": 5,
+            "relevance_score": 0.08293396091254059
+          },
+          {
+            "evidence_id": "evidence_9",
+            "document_id": "doc_aaa06543abe44cc9",
+            "document_title": "Towards Better Evaluation of Instruction-Following: A Case-Study in Summarization",
+            "publication_year": 2023,
+            "section_title": "4 Evaluating Agreement with Annotators",
+            "section_path": [],
+            "chunk_id": "chunk_doc_aaa06543abe44cc9_0020",
+            "source_text": "As discussed in Section 2, we asked annotators to provide a binary Yes/No rating answering whether a model output follows the instruction and a qual- itativeratingfrom1to5,representinghowwell it follows the instruction.Using meta-evaluation methods described below, we then study agreement between annotators and our evaluation methods.",
+            "page_start": 5,
+            "page_end": 5,
+            "relevance_score": 0.07709585149521411
+          }
+        ]
+      },
+      "retrieval_hits": []
+    }
+  ],
+  "provenance": {
+    "timestamp": "2026-09-10T18:40:39.223841+00:00",
+    "dataset_sha256": "db715095baa3707f2e12ec30a52d8494cb8fe622d25ee678a75e11ab99af6004",
+    "corpus_sha256": "84564e47c1f2a43e6b783a32a9a9e58002764ad55ad0b2b82d58c51c8fff1d20",
+    "answer_model": "qwen3:4b-docmind",
+    "judge_model": "qwen3:4b-docmind",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "embedding_model_version": "1.0",
+    "deepeval_version": "4.2.2"
+  }
+}
