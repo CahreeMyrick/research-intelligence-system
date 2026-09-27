@@ -36,7 +36,7 @@ ingest = "ingestion/ingest"
 indexer = "indexer"
 
 [tool.setuptools]
-packages = ["ingest", "indexer", "indexer.schemas", "indexer.chunking", "indexer.embeddings", "indexer.citations", "indexer.database", "indexer.pipeline", "indexer.cli"]
+packages = ["ingest", "indexer", "indexer.schemas", "indexer.chunking", "indexer.embeddings", "indexer.citations", "indexer.database", "indexer.pipeline", "indexer.cli", "indexer.retrieval", "indexer.qa", "indexer.knowledge-infusion"]
 
 [tool.setuptools.package-data]
 "indexer.database" = ["migrations/*.sql"]

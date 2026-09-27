@@ -17,10 +17,12 @@ class OllamaQwenProvider:
         model: str = "qwen3:4b-docmind",
         base_url: str = "http://localhost:11434",
         timeout_seconds: float = 120.0,
+        max_tokens: int | None = None,
     ):
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.timeout_seconds = timeout_seconds
+        self.max_tokens = max_tokens
 
     @property
     def name(self) -> str:
@@ -36,6 +38,8 @@ class OllamaQwenProvider:
             "prompt": prompt,
             "stream": False,
         }
+        if self.max_tokens is not None:
+            payload["options"] = {"num_predict": self.max_tokens, "temperature": 0}
 
         request = Request(
             f"{self.base_url}/api/generate",

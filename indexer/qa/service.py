@@ -68,12 +68,20 @@ class QuestionAnsweringService:
             arxiv_id=arxiv_id,
         )
 
+        return self.answer_from_evidence(question, evidence)
+
+    def answer_from_evidence(self, question: str, evidence: EvidenceContext) -> AnswerResponse:
+        """Generate from the same context returned to the UI, without retrieving twice."""
+        if evidence.empty:
+            return AnswerResponse(question=question, answer="The indexed corpus contains insufficient evidence to answer this question.")
         prompt = build_answer_prompt(
             question=question,
             evidence=evidence,
         )
 
         answer_text = self.llm_provider.generate(prompt).strip()
+        if not answer_text:
+            raise RuntimeError("The answer model returned an empty response")
 
         citations = self._extract_citations(
             answer_text,

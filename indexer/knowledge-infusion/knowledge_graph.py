@@ -1,5 +1,4 @@
 import networkx as nx
-import matplotlib.pyplot as plt
 
 
 # ============================================================
@@ -44,59 +43,108 @@ add_entity(
     "RightPleuralSpace",
     "Anatomy",
     name="Right Pleural Space",
+    aliases=["right pleural space"],
 )
 
 add_entity(
     "Heart",
     "Anatomy",
     name="Heart",
+    aliases=["heart", "cardiac"],
 )
 
 add_entity(
     "RightLung",
     "Anatomy",
     name="Right Lung",
+    aliases=["right lung"],
 )
 
 add_entity(
     "LeftLung",
     "Anatomy",
     name="Left Lung",
+    aliases=["left lung"],
 )
 
 
 # ============================================================
-# Canonical Radiographic Findings
+# Canonical Radiographic Findings & Symptoms
 # ============================================================
 
 add_entity(
     "PleuralEffusion",
     "RadiographicFinding",
     name="Pleural Effusion",
+    aliases=["pleural effusion", "pleural fluid"],
 )
 
 add_entity(
     "Cardiomegaly",
     "RadiographicFinding",
     name="Cardiomegaly",
+    aliases=["cardiomegaly", "enlarged heart"],
 )
 
 add_entity(
     "PulmonaryEdema",
     "RadiographicFinding",
     name="Pulmonary Edema",
+    aliases=["pulmonary edema", "fluid in lungs"],
 )
 
 add_entity(
     "Atelectasis",
     "RadiographicFinding",
     name="Atelectasis",
+    aliases=["atelectasis", "partial lung collapse"],
 )
 
 add_entity(
     "Pneumothorax",
     "RadiographicFinding",
     name="Pneumothorax",
+    aliases=["pneumothorax", "collapsed lung"],
+)
+
+add_entity(
+    "ChestPain",
+    "Symptom",
+    name="Chest Pain",
+    aliases=["chest pains", "chest pain", "anginal pain", "precordial pain"],
+)
+
+add_entity(
+    "Dyspnea",
+    "Symptom",
+    name="Shortness of Breath",
+    aliases=["dyspnea", "shortness of breath", "breathlessness"],
+)
+
+
+# ============================================================
+# Activities and Triggers
+# ============================================================
+
+add_entity(
+    "Running",
+    "Activity",
+    name="Running",
+    aliases=["running", "jogging"],
+)
+
+add_entity(
+    "Exercise",
+    "Activity",
+    name="Exercise",
+    aliases=["exercise", "physical exercise"],
+)
+
+add_entity(
+    "PhysicalExertion",
+    "Activity",
+    name="Physical Exertion",
+    aliases=["physical exertion", "exertion", "strenuous activity", "physical activity"],
 )
 
 
@@ -108,18 +156,42 @@ add_entity(
     "HeartFailure",
     "Disease",
     name="Heart Failure",
+    aliases=["heart failure", "congestive heart failure", "chf"],
 )
 
 add_entity(
     "Pneumonia",
     "Disease",
     name="Pneumonia",
+    aliases=["pneumonia", "lung infection"],
 )
 
 add_entity(
     "LungCollapse",
     "Disease",
     name="Lung Collapse",
+    aliases=["lung collapse"],
+)
+
+add_entity(
+    "Angina",
+    "Condition",
+    name="Angina Pectoris",
+    aliases=["angina", "angina pectoris", "stable angina"],
+)
+
+add_entity(
+    "CoronaryArteryDisease",
+    "Disease",
+    name="Coronary Artery Disease",
+    aliases=["coronary artery disease", "cad", "coronary heart disease"],
+)
+
+add_entity(
+    "MyocardialIschemia",
+    "Disease",
+    name="Myocardial Ischemia",
+    aliases=["myocardial ischemia", "cardiac ischemia"],
 )
 
 
@@ -153,9 +225,28 @@ add_entity(
 
 
 # ============================================================
-# General Medical Knowledge
+# General Medical Knowledge & Associations
 # ============================================================
 
+# Ontological relationships
+add_relation("Running", "IS_A", "Exercise")
+add_relation("Exercise", "IS_A", "PhysicalExertion")
+
+# Cardiovascular & Exertion knowledge
+add_relation("Angina", "HAS_SYMPTOM", "ChestPain")
+add_relation("Angina", "TRIGGERED_BY", "PhysicalExertion")
+add_relation("Angina", "ASSOCIATED_WITH", "CoronaryArteryDisease")
+add_relation("CoronaryArteryDisease", "MAY_CAUSE", "Angina")
+add_relation("CoronaryArteryDisease", "HAS_SYMPTOM", "ChestPain")
+add_relation("CoronaryArteryDisease", "TRIGGERED_BY", "PhysicalExertion")
+add_relation("MyocardialIschemia", "HAS_SYMPTOM", "ChestPain")
+add_relation("MyocardialIschemia", "TRIGGERED_BY", "PhysicalExertion")
+add_relation("HeartFailure", "HAS_SYMPTOM", "Dyspnea")
+add_relation("HeartFailure", "TRIGGERED_BY", "PhysicalExertion")
+add_relation("Heart", "ASSOCIATED_WITH", "Angina")
+add_relation("Heart", "ASSOCIATED_WITH", "CoronaryArteryDisease")
+
+# Radiographic finding associations
 add_relation(
     "PleuralEffusion",
     "ASSOCIATED_WITH",
@@ -445,6 +536,7 @@ def find_shared_conditions(image_id):
 # ============================================================
 
 def visualize_graph():
+    import matplotlib.pyplot as plt
 
     pos = nx.spring_layout(
         G,

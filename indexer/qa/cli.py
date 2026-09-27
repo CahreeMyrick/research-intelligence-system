@@ -75,6 +75,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="Restrict retrieval to a specific document.",
     )
 
+    parser.add_argument(
+        "--knowledge-graph", type=Path, default=None,
+        help="Enable knowledge-infused retrieval using a supplied graph JSON file.",
+    )
     return parser
 
 
@@ -106,6 +110,15 @@ def main() -> int:
     llm_provider = OllamaQwenProvider(
         model=args.model if args.model is not None else config.llm_model,
     )
+
+    if args.knowledge_graph is not None:
+        from importlib import import_module
+        knowledge = import_module("indexer.knowledge-infusion")
+        retrieval_service = knowledge.KnowledgeInfusedRetrievalService(
+            retrieval_service=retrieval_service,
+            parser=knowledge.LLMQueryParser(llm_provider),
+            graph=knowledge.load_graph(args.knowledge_graph),
+        )
 
     qa_service = QuestionAnsweringService(
         retrieval_service=retrieval_service,

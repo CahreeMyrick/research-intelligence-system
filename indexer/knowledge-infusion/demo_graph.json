@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "name": "Chest X-ray demonstration graph",
+    "status": "demo_unverified",
+    "origin": "indexer/knowledge-infusion/knowledge_graph.py",
+    "description": "Hand-authored illustrative associations and synthetic image observations; not a curated clinical knowledge base."
+  },
+  "nodes": [
+    {
+      "id": "RightPleuralSpace",
+      "entity_type": "Anatomy",
+      "name": "Right Pleural Space",
+      "aliases": [
+        "right pleural space"
+      ]
+    },
+    {
+      "id": "Heart",
+      "entity_type": "Anatomy",
+      "name": "Heart",
+      "aliases": [
+        "heart",
+        "cardiac"
+      ]
+    },
+    {
+      "id": "RightLung",
+      "entity_type": "Anatomy",
+      "name": "Right Lung",
+      "aliases": [
+        "right lung"
+      ]
+    },
+    {
+      "id": "LeftLung",
+      "entity_type": "Anatomy",
+      "name": "Left Lung",
+      "aliases": [
+        "left lung"
+      ]
+    },
+    {
+      "id": "PleuralEffusion",
+      "entity_type": "RadiographicFinding",
+      "name": "Pleural Effusion",
+      "aliases": [
+        "pleural effusion",
+        "pleural fluid"
+      ]
+    },
+    {
+      "id": "Cardiomegaly",
+      "entity_type": "RadiographicFinding",
+      "name": "Cardiomegaly",
+      "aliases": [
+        "cardiomegaly",
+        "enlarged heart"
+      ]
+    },
+    {
+      "id": "PulmonaryEdema",
+      "entity_type": "RadiographicFinding",
+      "name": "Pulmonary Edema",
+      "aliases": [
+        "pulmonary edema",
+        "fluid in lungs"
+      ]
+    },
+    {
+      "id": "Atelectasis",
+      "entity_type": "RadiographicFinding",
+      "name": "Atelectasis",
+      "aliases": [
+        "atelectasis",
+        "partial lung collapse"
+      ]
+    },
+    {
+      "id": "Pneumothorax",
+      "entity_type": "RadiographicFinding",
+      "name": "Pneumothorax",
+      "aliases": [
+        "pneumothorax",
+        "collapsed lung"
+      ]
+    },
+    {
+      "id": "ChestPain",
+      "entity_type": "Symptom",
+      "name": "Chest Pain",
+      "aliases": [
+        "chest pains",
+        "chest pain",
+        "anginal pain",
+        "precordial pain"
+      ]
+    },
+    {
+      "id": "Dyspnea",
+      "entity_type": "Symptom",
+      "name": "Shortness of Breath",
+      "aliases": [
+        "dyspnea",
+        "shortness of breath",
+        "breathlessness"
+      ]
+    },
+    {
+      "id": "Running",
+      "entity_type": "Activity",
+      "name": "Running",
+      "aliases": [
+        "running",
+        "jogging"
+      ]
+    },
+    {
+      "id": "Exercise",
+      "entity_type": "Activity",
+      "name": "Exercise",
+      "aliases": [
+        "exercise",
+        "physical exercise"
+      ]
+    },
+    {
+      "id": "PhysicalExertion",
+      "entity_type": "Activity",
+      "name": "Physical Exertion",
+      "aliases": [
+        "physical exertion",
+        "exertion",
+        "strenuous activity",
+        "physical activity"
+      ]
+    },
+    {
+      "id": "HeartFailure",
+      "entity_type": "Disease",
+      "name": "Heart Failure",
+      "aliases": [
+        "heart failure",
+        "congestive heart failure",
+        "chf"
+      ]
+    },
+    {
+      "id": "Pneumonia",
+      "entity_type": "Disease",
+      "name": "Pneumonia",
+      "aliases": [
+        "pneumonia",
+        "lung infection"
+      ]
+    },
+    {
+      "id": "LungCollapse",
+      "entity_type": "Disease",
+      "name": "Lung Collapse",
+      "aliases": [
+        "lung collapse"
+      ]
+    },
+    {
+      "id": "Angina",
+      "entity_type": "Condition",
+      "name": "Angina Pectoris",
+      "aliases": [
+        "angina",
+        "angina pectoris",
+        "stable angina"
+      ]
+    },
+    {
+      "id": "CoronaryArteryDisease",
+      "entity_type": "Disease",
+      "name": "Coronary Artery Disease",
+      "aliases": [
+        "coronary artery disease",
+        "cad",
+        "coronary heart disease"
+      ]
+    },
+    {
+      "id": "MyocardialIschemia",
+      "entity_type": "Disease",
+      "name": "Myocardial Ischemia",
+      "aliases": [
+        "myocardial ischemia",
+        "cardiac ischemia"
+      ]
+    },
+    {
+      "id": "Moderate",
+      "entity_type": "Severity",
+      "name": "Moderate"
+    },
+    {
+      "id": "Mild",
+      "entity_type": "Severity",
+      "name": "Mild"
+    },
+    {
+      "id": "Right",
+      "entity_type": "Laterality",
+      "name": "Right"
+    },
+    {
+      "id": "Left",
+      "entity_type": "Laterality",
+      "name": "Left"
+    },
+    {
+      "id": "Image_123",
+      "entity_type": "ChestXRay",
+      "filename": "xray_123.png"
+    },
+    {
+      "id": "Finding_001",
+      "entity_type": "FindingObservation",
+      "concept": "PleuralEffusion",
+      "semantic_score": 0.41,
+      "localization_score": 0.88,
+      "bbox": [
+        340,
+        410,
+        600,
+        720
+      ],
+      "source_model": "BioMedCLIP+ChEX"
+    },
+    {
+      "id": "Finding_002",
+      "entity_type": "FindingObservation",
+      "concept": "Cardiomegaly",
+      "semantic_score": 0.37,
+      "localization_score": 0.81,
+      "bbox": [
+        210,
+        260,
+        660,
+        650
+      ],
+      "source_model": "BioMedCLIP+ChEX"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Heart",
+      "target": "Angina",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Heart",
+      "target": "CoronaryArteryDisease",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "PleuralEffusion",
+      "target": "HeartFailure",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "PleuralEffusion",
+      "target": "Pneumonia",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Cardiomegaly",
+      "target": "HeartFailure",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "PulmonaryEdema",
+      "target": "HeartFailure",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Atelectasis",
+      "target": "Pneumonia",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Pneumothorax",
+      "target": "LungCollapse",
+      "quality": 0
+    },
+    {
+      "relation": "IS_A",
+      "source": "Running",
+      "target": "Exercise",
+      "quality": 0
+    },
+    {
+      "relation": "IS_A",
+      "source": "Exercise",
+      "target": "PhysicalExertion",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SYMPTOM",
+      "source": "HeartFailure",
+      "target": "Dyspnea",
+      "quality": 0
+    },
+    {
+      "relation": "TRIGGERED_BY",
+      "source": "HeartFailure",
+      "target": "PhysicalExertion",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SYMPTOM",
+      "source": "Angina",
+      "target": "ChestPain",
+      "quality": 0
+    },
+    {
+      "relation": "TRIGGERED_BY",
+      "source": "Angina",
+      "target": "PhysicalExertion",
+      "quality": 0
+    },
+    {
+      "relation": "ASSOCIATED_WITH",
+      "source": "Angina",
+      "target": "CoronaryArteryDisease",
+      "quality": 0
+    },
+    {
+      "relation": "MAY_CAUSE",
+      "source": "CoronaryArteryDisease",
+      "target": "Angina",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SYMPTOM",
+      "source": "CoronaryArteryDisease",
+      "target": "ChestPain",
+      "quality": 0
+    },
+    {
+      "relation": "TRIGGERED_BY",
+      "source": "CoronaryArteryDisease",
+      "target": "PhysicalExertion",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SYMPTOM",
+      "source": "MyocardialIschemia",
+      "target": "ChestPain",
+      "quality": 0
+    },
+    {
+      "relation": "TRIGGERED_BY",
+      "source": "MyocardialIschemia",
+      "target": "PhysicalExertion",
+      "quality": 0
+    },
+    {
+      "relation": "SHOWS_FINDING",
+      "source": "Image_123",
+      "target": "Finding_001",
+      "quality": 0
+    },
+    {
+      "relation": "SHOWS_FINDING",
+      "source": "Image_123",
+      "target": "Finding_002",
+      "quality": 0
+    },
+    {
+      "relation": "INSTANCE_OF",
+      "source": "Finding_001",
+      "target": "PleuralEffusion",
+      "quality": 0
+    },
+    {
+      "relation": "LOCATED_IN",
+      "source": "Finding_001",
+      "target": "RightPleuralSpace",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SEVERITY",
+      "source": "Finding_001",
+      "target": "Moderate",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_LATERALITY",
+      "source": "Finding_001",
+      "target": "Right",
+      "quality": 0
+    },
+    {
+      "relation": "INSTANCE_OF",
+      "source": "Finding_002",
+      "target": "Cardiomegaly",
+      "quality": 0
+    },
+    {
+      "relation": "LOCATED_IN",
+      "source": "Finding_002",
+      "target": "Heart",
+      "quality": 0
+    },
+    {
+      "relation": "HAS_SEVERITY",
+      "source": "Finding_002",
+      "target": "Mild",
+      "quality": 0
+    }
+  ]
+}
