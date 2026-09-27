@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "id": "doc_bd42ed610d6e9590",
+    "source": {
+      "filename": "PMC13584496.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13584496.1/PMC13584496.1.pdf",
+      "content_hash": "bd42ed610d6e9590d4eaccb653ebdc788ddfd94972c2752a2e294eb805c558b5"
+    }
+  },
+  "metadata": {
+    "title": "Conservative management of prolonged air leak following tension pneumothorax in cavitary pulmonary tuberculosis: a case report",
+    "authors": [
+      "Aows Ahmad",
+      "Mohamed Alkhartalak",
+      "Lama Alsaoub",
+      "Mohammad Berro",
+      "Mohammad Abd-Alrahman Saif",
+      "Mohammad Shbat",
+      "Bassam Darwish"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1186/s12890-026-04462-1",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "CASE REPORT Open Access",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "BMC Pulmonary Medicine Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413 https://doi.org/10.1186/s12890-026-04462-1",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Conservative management of prolonged air leak following tension pneumothorax in cavitary pulmonary tuberculosis: a case report",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Aows Ahmad1* , Mohamed Alkhartalak1, Lama Alsaoub1 , Mohammad Berro1 , Mohammad Abd-Alrahman Saif2, Mohammad Shbat2 and Bassam Darwish2",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "​*​C​o​r​r​e​s​p​o​n​d​e​n​c​e​:​ Aows Ahmad aowsahmad.rs@gmail.com",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Full list of author information is available at the end of the article",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "© The Author(s) 2026. Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​ v​e​c​o​m​m​o​n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Abstract Background  Secondary spontaneous pneumothorax is a recognized complication of pulmonary tuberculosis; however, presentation with tension physiology followed by prolonged air leak may create diagnostic and management challenges, particularly when tuberculosis is not known at presentation. Case presentation  We report a 20-year-old male with a 3 pack-year smoking history and no known prior lung disease who presented with dyspnea, left-sided pleuritic chest pain, productive cough, and constitutional symptoms. During the initial emergency assessment, unilateral chest findings raised concern for a left-sided pneumothorax. Urgent chest radiography obtained during this process showed a large left-sided pneumothorax with mediastinal shift, and emergency needle decompression was performed as a temporizing maneuver, followed directly by placement of a 28-Fr left chest tube. Persistent incomplete lung re-expansion and continuous air bubbling prompted further evaluation. Chest computed tomography revealed multiple left-sided cavitary lesions with surrounding parenchymal infiltrates, and sputum Ziehl–Neelsen staining was positive for acid-fast bacilli in three samples, supporting active cavitary pulmonary tuberculosis in the clinical and radiographic context. Standard anti-tuberculosis therapy was initiated. Despite early symptomatic improvement and substantial lung re-expansion, air leakage persisted. Because the patient maintained adequate oxygenation, controlled drainage, and no evidence of pleural sepsis or respiratory deterioration, conservative management was continued under thoracic surgical supervision with ambulatory drainage and close follow-up. The air leak resolved 61 days after hospital discharge, and the chest tube was removed without subsequent clinical recurrence. Conclusions  This case highlights that emergency decompression should not preclude continued etiologic evaluation when pneumothorax is accompanied by constitutional symptoms, incomplete lung re-expansion, persistent air leakage, or parenchymal abnormalities. It also illustrates that, in carefully selected clinically stable",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Page 2 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 1,
+          "position": 7
+        },
+        {
+          "text": "​Background Tension pneumothorax is a life-threatening presenta­ tion of pneumothorax that requires prompt recognition and urgent decompression [1]. In young patients without known lung disease, an apparently spontaneous pneumo­ thorax may initially be presumed to represent a primary event, particularly when underlying parenchymal disease is not clinically evident at presentation [1]. However, the distinction between primary and secondary spontane­ ous pneumothorax is based on the absence or presence of clinically apparent lung disease, and patients classified as having primary spontaneous pneumothorax may still harbor unrecognized underlying lung abnormalities [2]. Pulmonary tuberculosis can underlie secondary spon­ taneous pneumothorax and, in some cases, progress to tension pneumothorax [3]. This distinction is clinically important because primary and secondary spontaneous pneumothoraces differ in morbidity, mortality, rates of hypoxia at presentation, and recommended management [2].",
+          "page": 1,
+          "position": 8
+        },
+        {
+          "text": "Pneumothorax and persistent pleural air leak are rec­ ognized complications in the setting of pulmonary tuberculosis [4, 5]. However, the published literature has more often described these complications in separate or broader clinical contexts than as a single integrated pre­ sentation [3, 4]. Although persistent air leak is gener­ ally defined and managed within time-based escalation frameworks, available guidance also acknowledges lim­ ited evidence regarding the optimal timing of interven­ tion and the need for individualized decision-making [1, 5]. We report a case of tension pneumothorax as the initial presentation of active cavitary pulmonary tuber­ culosis, complicated by prolonged persistent pleural air leak despite early clinical and radiographic improvement under conservative management.",
+          "page": 1,
+          "position": 9
+        },
+        {
+          "text": "Case presentation A 20-year-old male active smoker (3 pack-years), with no known prior lung disease, presented with a two-day his­ tory of progressive dyspnea and left-sided pleuritic chest pain associated with productive cough. He also reported recent fever, weight loss, and night sweats, without a his­ tory of chronic cough or known tuberculosis contact. On admission, he was tachycardic (130 bpm), tachypneic (35 breaths/min), and hypotensive (90/50 mmHg), with an oxygen saturation of 93% on room air. Physical examina­ tion revealed marked respiratory distress with intercos­ tal retractions. Breath sounds were markedly diminished",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "over the left hemithorax, with absent tactile fremitus and hyperresonance to percussion, while the right lung exam­ ination was unremarkable. No jugular venous distension was observed.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "During the first emergency assessment, the combi­ nation of dyspnea and unilateral chest findings raised concern for a left-sided pneumothorax, although the diagnosis was not clinically definitive at that point. The thoracic surgery team was called immediately, and an urgent chest radiograph was obtained during this pro­ cess. The radiograph demonstrated a large left-sided pneumothorax with mediastinal shift (Fig. 1), consistent with tension pneumothorax. Emergency needle decom­ pression was then performed as a temporizing maneuver to relieve tension physiology while tube thoracostomy was being prepared, followed directly by placement of a 28-Fr left chest tube connected to an underwater seal drainage system. Laboratory investigations obtained following initial stabilization demonstrated leukocyto­ sis (12,800/mm³) with neutrophilia (89%) and elevated C-reactive protein (138 mg/L), while hemoglobin, renal function, liver enzymes, and electrolytes were within reference ranges. Despite initial intervention, post-pro­ cedural imaging demonstrated incomplete lung re-expan­ sion with residual pneumothorax, left-sided interstitial infiltrates, and subcutaneous emphysema (Fig.  2), and continuous air bubbling persisted in the drainage system.",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "On the day after chest tube placement, and in view of the incomplete re-expansion, associated constitu­ tional symptoms, and radiographic parenchymal abnor­ malities, chest computed tomography was performed, revealing a cavitary lesion at the apex of the left upper lobe and multiple cavitary lesions in the left lower lobe, with surrounding parenchymal infiltrates and mild left pleural effusion (Fig.  3), while the right lung remained unremarkable. Sputum samples were obtained for micro­ biological analysis. Empirical intravenous ceftriaxone and levofloxacin were initiated for presumed severe bacte­ rial pleuropulmonary infection while microbiological testing, including acid-fast bacilli staining, was pend­ ing. Approximately three days after CT imaging, micro­ biological evaluation of sputum samples demonstrated acid-fast bacilli on three Ziehl–Neelsen stains, support­ ing the diagnosis of active pulmonary tuberculosis in the clinical and radiographic context. GeneXpert MTB/RIF testing, mycobacterial culture, and drug-susceptibility testing were not performed. Standard anti-tuberculosis therapy was initiated, consisting of isoniazid, rifampicin,",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "patients with adequate drainage and close supervision, prolonged air leak in active cavitary tuberculosis may be interpreted within the broader clinical trajectory rather than by duration alone. Keywords  Pulmonary tuberculosis, Cavitary tuberculosis, Tension pneumothorax, Secondary spontaneous pneumothorax, Persistent air leak, Prolonged air leak, Chest tube drainage, Case report",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "Page 3 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 2,
+          "position": 15
+        },
+        {
+          "text": "pyrazinamide, and ethambutol for two months, followed by isoniazid and rifampicin to complete the standard treatment course.",
+          "page": 2,
+          "position": 16
+        },
+        {
+          "text": "Within one week of chest tube placement, follow-up radiography demonstrated substantial re-expansion of the left lung (Fig.  4), accompanied by marked clinical improvement, resolution of dyspnea, and improvement in oxygenation. Despite this early improvement, air leak­ age persisted, with continuous bubbling observed in the chest drainage system during hospitalization. Air-leak assessment was clinical, without digital quantification or standardized grading.",
+          "page": 2,
+          "position": 17
+        },
+        {
+          "text": "Because the patient remained clinically stable after the initial improvement, conservative management was continued under thoracic surgical supervision. Further surgical or bronchoscopic escalation was considered as a potential option if the clinical course became unfavor­ able; however, it was deferred because the patient main­ tained adequate oxygenation on room air, had substantial radiographic re-expansion, and showed controlled drain­ age without pleural sepsis, recurrent respiratory",
+          "page": 2,
+          "position": 18
+        },
+        {
+          "text": "compromise, or other urgent indications for interven­ tion. Given this favorable early trajectory and the ability to maintain controlled drainage outside the hospital, he was discharged with ambulatory chest drainage using a portable one-way drainage bag system.",
+          "page": 2,
+          "position": 19
+        },
+        {
+          "text": "During the outpatient drainage period, clinical follow- up was maintained approximately two to three times weekly to assess clinical status, drainage function, and air-leak persistence. During follow-up, the air leak grad­ ually decreased, became intermittent, and eventually ceased. At 61 days after hospital discharge, bubbling had been absent for 24 h, the air leak was considered clini­ cally resolved, and the chest tube was removed.",
+          "page": 2,
+          "position": 20
+        },
+        {
+          "text": "After chest tube removal, clinical follow-up was main­ tained twice during the first week and then weekly for approximately three weeks. The patient remained clini­ cally well without subsequent clinical recurrence and continued anti-tuberculosis therapy to complete the standard treatment course.",
+          "page": 2,
+          "position": 21
+        },
+        {
+          "text": "The key diagnostic and management events are sum­ marized in Table 1.",
+          "page": 2,
+          "position": 22
+        },
+        {
+          "text": "Fig. 1  Initial chest radiograph showing a large left-sided pneumothorax with contralateral mediastinal shift, consistent with tension pneumothorax. The red arrow indicates the collapsed left lung margin",
+          "page": 2,
+          "position": 23
+        },
+        {
+          "text": "Page 4 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 3,
+          "position": 24
+        },
+        {
+          "text": "known tuberculosis initially presented with tension pneumothorax, and the subsequent persistence of air leakage, together with incomplete lung re-expansion and parenchymal abnormalities, prompted continued etio­ logic evaluation, which supported the diagnosis of active cavitary pulmonary tuberculosis in the appropriate clini­ cal and radiographic context.",
+          "page": 3,
+          "position": 25
+        },
+        {
+          "text": "In a young patient without known prior lung disease, the initial presentation could have been interpreted as an apparently spontaneous pneumothorax before the subsequent course clarified the underlying disease pro­ cess [4]. Pleural decompression addressed the immediate",
+          "page": 3,
+          "position": 26
+        },
+        {
+          "text": "Discussion Although pulmonary tuberculosis is a recognized cause of secondary spontaneous pneumothorax, this remains an uncommon complication of active disease [4, 6]. Presentation as tension pneumothorax has also been described, although it appears to be reported less fre­ quently [3]. Persistent air leak related to pleural or bron­ chopleural communication has likewise been reported in tuberculous pleuropulmonary disease [7]. The clini­ cal significance of the present case lies less in any iso­ lated component than in the diagnostic and management challenge created by their sequence. A patient without",
+          "page": 3,
+          "position": 27
+        },
+        {
+          "text": "Fig. 2  Post-procedural chest radiograph showing an in-situ left chest tube, residual left-sided pneumothorax with incomplete lung re-expansion, persis­ tent left-sided parenchymal opacities, and subcutaneous emphysema. Red arrows indicate the residual pleural air space and the chest tube",
+          "page": 3,
+          "position": 28
+        },
+        {
+          "text": "Page 5 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 4,
+          "position": 29
+        },
+        {
+          "text": "threat, but it did not fully explain the broader clinical picture. Constitutional symptoms, incomplete lung re- expansion, persistent air leakage, and associated paren­ chymal abnormalities argued against viewing the episode as an isolated pleural event. Chest computed tomog­ raphy therefore played a central role in redirecting the",
+          "page": 4,
+          "position": 30
+        },
+        {
+          "text": "diagnostic evaluation toward active cavitary pulmonary tuberculosis. The microbiological findings supported this diagnosis in the clinical and radiographic context. Accordingly, pleural decompression should not terminate etiologic evaluation when the subsequent course suggests an underlying parenchymal disease process [4, 8].",
+          "page": 4,
+          "position": 31
+        },
+        {
+          "text": "Fig. 3  Chest computed tomography showing left-sided cavitary lesions with surrounding parenchymal infiltrates, mild pleural effusion, subcutaneous emphysema, and an in-situ left chest tube. Red arrows indicate representative cavitary lesions and subcutaneous emphysema. Panels A–G show axial sections at different thoracic levels",
+          "page": 4,
+          "position": 32
+        },
+        {
+          "text": "Page 6 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 5,
+          "position": 33
+        },
+        {
+          "text": "Persistent air leak is generally defined as continued bubbling after 3–5 days of chest drainage and remains a recognized challenge in spontaneous pneumotho­ rax [9]. However, such time-based definitions do not by themselves determine how persistent air leak should be interpreted or managed, particularly in complex disease- specific settings where evidence remains limited [9, 10]. In active cavitary tuberculosis, ongoing parenchymal necrosis, communication with the airways, and pleural extension may all contribute to delayed closure of the air leak [11]. In the present case, the possibility of broncho­ pleural or alveolopleural communication was considered clinically because of persistent bubbling and cavitary disease. However, no direct fistulous tract was demon­ strated on CT, and bronchoscopy was not performed; therefore, the finding was described as persistent air leak rather than confirmed bronchopleural fistula. Accord­ ingly, ongoing bubbling in this setting should not be interpreted in isolation as evidence of treatment failure [6].",
+          "page": 5,
+          "position": 34
+        },
+        {
+          "text": "Contemporary management frameworks generally sup­ port early escalation of persistent air leak, particularly when the patient is fit for definitive intervention [9]. Yet this approach cannot be applied mechanically when pro­ longed air leakage occurs alongside otherwise favorable clinical recovery [9, 12]. In our patient, continued conser­ vative management was supported by rapid symptomatic improvement, adequate oxygenation on room air, sub­ stantial radiographic re-expansion of the affected lung, and controlled ongoing drainage. There was no recurrent",
+          "page": 5,
+          "position": 35
+        },
+        {
+          "text": "respiratory compromise, superimposed pleural infection, or other urgent indication for definitive intervention. This decision was made under thoracic surgical supervi­ sion, with surgical or bronchoscopic escalation reserved for an unfavorable clinical course. At the treating institu­ tion, thoracic surgical assessment and supervised chest- drainage follow-up were available, whereas advanced bronchoscopic air-leak interventions were not routinely available. The presence of active cavitary tuberculosis, with inflamed and potentially friable parenchyma, was also considered when weighing the risks and benefits of non-urgent intervention. The ability to continue super­ vised outpatient management further supported ongoing drainage and observation over immediate invasive man­ agement. In this context, leak duration alone was insuf­ ficient to define management failure or justify immediate definitive intervention [9, 13]. This should not be inter­ preted as a general recommendation to delay interven­ tion, but as an example of individualized management in a clinically improving patient.",
+          "page": 5,
+          "position": 36
+        },
+        {
+          "text": "Previously reported series of tuberculosis-associ­ ated pneumothorax provide useful context for the",
+          "page": 5,
+          "position": 37
+        },
+        {
+          "text": "Table 1  Timeline of key clinical events Time point Event Day 0 Presentation to the emergency department with dyspnea and unilateral chest findings. Urgent chest radiography showed a large left-sided pneumothorax with mediastinal shift. Emergency needle decom­ pression was performed, followed by placement of a 28-Fr left chest tube connected to an underwater seal drainage system. Day 1 Chest CT was performed after chest tube placement and showed left-sided cavitary lesions with surround­ ing parenchymal infiltrates, mild pleural effusion, subcutaneous emphysema, and an in-situ chest tube. Day 4 Sputum Ziehl–Neelsen staining was positive for acid- fast bacilli, and standard anti-tuberculosis therapy was initiated. Within the first week",
+          "page": 5,
+          "position": 38
+        },
+        {
+          "text": "Clinical improvement and substantial radiographic re-expansion of the left lung were observed, al­ though air leakage persisted. At hospital discharge",
+          "page": 5,
+          "position": 39
+        },
+        {
+          "text": "The patient remained clinically stable with adequate oxygenation and controlled drainage. He was discharged with ambulatory chest drainage using a portable one-way drainage bag system. During outpa­ tient drainage",
+          "page": 5,
+          "position": 40
+        },
+        {
+          "text": "Clinical follow-up was maintained approximately two to three times weekly to assess clinical status, drain­ age function, and air-leak persistence. The air leak gradually decreased and became intermittent. 61 days after hospital discharge",
+          "page": 5,
+          "position": 41
+        },
+        {
+          "text": "Bubbling had been absent for 24 h, the air leak was considered clinically resolved, and the chest tube was removed. After chest tube removal",
+          "page": 5,
+          "position": 42
+        },
+        {
+          "text": "Clinical follow-up was maintained twice during the first week and then weekly for approximately three weeks. The patient remained clinically well without subsequent clinical recurrence.",
+          "page": 5,
+          "position": 43
+        },
+        {
+          "text": "Abbreviation: CT computed tomography",
+          "page": 5,
+          "position": 44
+        },
+        {
+          "text": "Fig. 4  Follow-up chest radiograph showing substantial re-expansion of the left lung with an in-situ chest tube, persistent left-sided parenchymal opacities, and residual subcutaneous emphysema",
+          "page": 5,
+          "position": 45
+        },
+        {
+          "text": "Page 7 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+          "page": 6,
+          "position": 46
+        },
+        {
+          "text": "present case, although they do not fully mirror its clinical sequence. In the 53-patient series by Shamaei et al., chest- tube drainage alone relieved most surgically managed patients, with a median drainage duration of 13 days, whereas some patients required open drainage or more invasive procedures because of empyema, lung destruc­ tion, or bronchopleural fistula [7]. Freixinet et al. simi­ larly reported a mean pleural drainage duration of 12.9 days, with surgical resection required in 28% of patients, mainly for persistent air leakage or recurrence [4]. In another series, Singh and Tiwari found that underwater- seal intercostal drainage was successful in most patients, with a mean drainage duration of 17.14 days, while 7.7% were referred for thoracic surgical management because of non-resolution of pneumothorax and persistent bron­ chopleural fistula [14]. Against this background, the pres­ ent case is notable for the initial presentation as tension pneumothorax in previously undiagnosed cavitary tuber­ culosis, the substantially prolonged drainage course, and eventual resolution without surgical or bronchoscopic escalation. This variability, together with the absence of a clearly defined escalation threshold for persistent air leak in disease-specific settings [9, 10, 13], supports the educational value of reporting carefully monitored con­ servative courses when decisions are guided by clinical trajectory rather than duration alone.",
+          "page": 6,
+          "position": 47
+        },
+        {
+          "text": "Limitations Tuberculosis was diagnosed on the basis of three posi­ tive sputum Ziehl–Neelsen smears in the appropriate clinical and radiographic context, without GeneXpert MTB/RIF testing, mycobacterial culture, or drug-sus­ ceptibility testing; therefore, molecular confirmation and drug-resistance assessment were not available. This limi­ tation should be considered when interpreting diagnos­ tic certainty and may reduce the generalizability of the case to settings where molecular confirmation, culture, and drug-susceptibility testing are routinely available. Air-leak assessment was qualitative and based on clini­ cal observation of bubbling in the drainage system rather than digital quantification or standardized grading. Although persistent bubbling and cavitary disease raised concern for bronchopleural or alveolopleural communi­ cation, no direct fistulous tract was demonstrated on CT and bronchoscopy was not performed. Follow-up after chest tube removal was clinical, without a follow-up chest radiograph. As a single case, these limitations preclude defining a general threshold for escalation or a standard duration for conservative management. The case should therefore be interpreted as an example of individualized management in a clinically stable patient rather than evi­ dence that prolonged air leak duration alone can be safely disregarded.",
+          "page": 6,
+          "position": 48
+        },
+        {
+          "text": "Conclusion This case highlights that previously undiagnosed active cavitary pulmonary tuberculosis may initially present as tension pneumothorax and may be complicated by prolonged persistent air leak. Pleural decompression addresses the immediate emergency, but persistent air leakage, incomplete lung re-expansion, constitutional symptoms, or parenchymal abnormalities should prompt continued etiologic evaluation. In carefully selected patients who remain clinically stable with adequate oxy­ genation, controlled drainage, lung re-expansion, and no evidence of pleural sepsis or respiratory deterioration, prolonged air leak may be interpreted within the broader clinical course rather than by duration alone. This case supports individualized, closely supervised decision- making rather than a general recommendation to delay surgical or bronchoscopic intervention.",
+          "page": 6,
+          "position": 49
+        },
+        {
+          "text": "Abbreviations CT \u0007Computed tomography TB \u0007Tuberculosis",
+          "page": 6,
+          "position": 50
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Acknowledgements Not applicable.",
+          "level": 3,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Key Clinical Message Tension pneumothorax may be the initial presentation of previously undiagnosed cavitary pulmonary tuberculosis; therefore, emergency decompression should not preclude continued etiologic evaluation when the subsequent course is atypical. In carefully selected clinically stable patients, persistent air leak after decompression should be interpreted within the broader clinical trajectory, including lung re-expansion, drainage control, absence of pleural sepsis, and respiratory stability, rather than by duration alone.",
+              "page": 6,
+              "position": 51
+            },
+            {
+              "text": "Authors' contributions AA conceived the case report, collected and interpreted the clinical data, performed the literature review, drafted the manuscript, and led the final revision. MAl assisted in data collection and manuscript drafting, coordinated communication with the supervisor, and revised the manuscript. LAl contributed to clinical data interpretation and reviewed the manuscript for clinical accuracy. MB supported data organization and critically revised the manuscript. MAS contributed to case follow-up and manuscript review. MSh contributed to data acquisition and interpretation and participated in manuscript drafting and critical revision. BD provided overall supervision, critical intellectual input, and approved the final version of the manuscript. All authors read and approved the final manuscript and agree to be accountable for all aspects of the work.",
+              "page": 6,
+              "position": 52
+            },
+            {
+              "text": "Funding The authors received no financial support for the research, authorship, and/or publication of this article.",
+              "page": 6,
+              "position": 53
+            },
+            {
+              "text": "Data availability The data supporting the findings of this case report are available from the corresponding author upon reasonable request.",
+              "page": 6,
+              "position": 54
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Declarations",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Ethics approval and consent to participate Not applicable.",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Page 8 of 8 Ahmad et al. BMC Pulmonary Medicine          (2026) 26:413",
+                  "page": 7,
+                  "position": 55
+                },
+                {
+                  "text": "Consent for publication Written informed consent was obtained from the patient for publication of this case report and any accompanying images. A copy of the written consent is available for review by the Editor-in-Chief of this journal on request.",
+                  "page": 7,
+                  "position": 56
+                },
+                {
+                  "text": "Competing interests The authors declare no competing interests.",
+                  "page": 7,
+                  "position": 57
+                },
+                {
+                  "text": "Author details 1Faculty of Medicine, Damascus University, Damascus, Syrian Arab Republic 2Division of Thoracic Surgery, Almwassat Hospital, Damascus, Syrian Arab Republic",
+                  "page": 7,
+                  "position": 58
+                },
+                {
+                  "text": "Received: 29 April 2026 / Accepted: 25 June 2026",
+                  "page": 7,
+                  "position": 59
+                },
+                {
+                  "text": "References 1. Roberts ME, Rahman NM, Maskell NA, Bibby AC, Blyth KG, Corcoran JP, et al. British Thoracic Society Guideline for Pleural Disease. Thorax. 2023;78(Suppl 3):s1–42. https:/​/doi.or​g/10.11​36/t​horax-2022-219784. 2. Bintcliffe O, Maskell N. Spontaneous pneumothorax. BMJ. 2014;348(may08 1):g2928–2928. https:/​/doi.or​g/10.11​36/b​mj.g2928. 3. Pradana AD. Spontaneous Tuberculosis-Associated Tension Pneumothorax: A Case Report and Literature Review. Case Rep Acute Med. 2020;3(2):35–9. https:/​/doi.or​g/10.11​59/0​00508530. 4. Freixinet JL, Caminero JA, Marchena J, Rodríguez PM, Casimiro JA, Hussein M. Spontaneous pneumothorax and tuberculosis: long-term follow-up. Eur Respir J. 2011;38(1):126–31. https:/​/doi.or​g/10.11​83/0​9031936.00128910. 5. Ruenwilai P. Bronchoscopic management in persistent air leak: a narrative review. J Thorac Dis. 2024;16(6):4030–42. https:/​/doi.or​g/10.21​037/​jtd-24-46. 6. Jain R, Kandula V, Torigian DA, Donuru A. Spontaneous Pneumothorax: A Review of Underlying Etiologies and Diagnostic Imaging Modalities. Tomog­ raphy. 2025;11(11):125. https:/​/doi.or​g/10.33​90/t​omography11110125.",
+                  "page": 7,
+                  "position": 60
+                },
+                {
+                  "text": "7. Shamaei M, Tabarsi P, Pojhan S, Ghorbani L, Baghaei P, Marjani M, et al. Tuberculosis-Associated Secondary Pneumothorax: A Retrospective Study of 53 Patients. Respir Care. 2011;56(3):298–302. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​4​1​8​7​/​r​e​s​p​c​a​r​e​ .​0​0​6​9​5​.​ 8. Iqbal B, Hallifax R, Rahman NM. Pneumothorax: An update on clinical spec­ trum, diagnosis and management. Clin Med. 2025;25(3):100327. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​ g​/​1​0​.​1​0​1​6​/​j​.​c​l​i​n​m​e​.​2​0​2​5​.​1​0​0​3​2​7​.​ 9. Walker S, Hallifax R, Ricciardi S, Fitzgerald D, Keijzers M, Lauk O, et al. Joint ERS/EACTS/ESTS clinical practice guidelines on adults with spontaneous pneumothorax. Eur J Cardiothorac Surg. 2024;65(5):ezae189. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​ 0​.​1​0​9​3​/​e​j​c​t​s​/​e​z​a​e​1​8​9​.​ 10.\tDuchman B, Cheng GZ. Management of pneumothorax and persistent air leak—a narrative review. AME Med J. 2024;9:23–23. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​2​1​0​3​7​/​ a​m​j​-​2​3​-​1​6​8​.​ 11.\tKim HY, Song KS, Goo JM, Lee JS, Lee KS, Lim TH. Thoracic Sequelae and Complications of Tuberculosis. Radiographics. 2001;21(4):839–58. ​h​t​t​p​s​:​/​/​d​o​i​.​ o​r​g​/​1​0​.​1​1​4​8​/​r​a​d​i​o​g​r​a​p​h​i​c​s​.​2​1​.​4​.​g​0​1​j​l​0​6​8​3​9​.​ 12.\tHarnedy F, Foley E, Fitzgerald DB. New strategies in the management of pneumothorax. Breathe. 2025;21(3):240250. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​8​3​/​2​0​7​3​4​7​3​ 5​.​0​2​5​0​-​2​0​2​4​.​ 13.\tShorthose M, Barton E, Walker S. The contemporary management of sponta­ neous pneumothorax in adults. Breathe. 2023;19(4):230135. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​ 0​.​1​1​8​3​/​2​0​7​3​4​7​3​5​.​0​1​3​5​-​2​0​2​3​.​ 14.\tSingh SK, Tiwari KK. Analysis of clinical and radiological features of tuberculo­ sis associated pneumothorax. Indian J Tuberculosis. 2019;66(1):34–8. ​h​t​t​p​s​:​/​/​d​ o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​i​j​t​b​.​2​0​1​7​.​0​1​.​0​0​9​.​",
+                  "page": 7,
+                  "position": 61
+                },
+                {
+                  "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+                  "page": 7,
+                  "position": 62
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "page_count": 8,
+  "warnings": [
+    "no references detected"
+  ]
+}

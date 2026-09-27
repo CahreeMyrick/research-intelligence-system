@@ -1,0 +1,729 @@
+{
+  "document_id": "doc_e4a0aa76bcd5d8ee",
+  "chunk_count": 27,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0000",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Scientific Reports |        (2026) 16:28794 1 | https://doi.org/10.1038/s41598-026-58814-2\n\nDetection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\n\nJakub Kufel 1, Łukasz Piórecki2, Piotr Dudek 3, Michał Bielówka 3, Łukasz Czogalik 3, Mikołaj Magiera 3, Magdalena Stencel 3, Marcin Rojek 3, Iga Paszkiewicz 4, Adam Mitręga 3, Katarzyna Gruszczyńska1 & Joanna Polańska2\n\nAccurate placement of the endotracheal tube (ETT) is critical for ensuring optimal care for patients requiring mechanical ventilation and preventing potential complications. ETT positioning can be assessed using several methods, with chest X-ray (CXR) being the most precise. Radiologists evaluate whether the ETT requires adjustment by measuring the distance between the distal tip of the ETT and the tracheal carina. This study presents the development of a machine learning model to detect and measure ETT position on adult CXRs and evaluates its performance. Six physicians annotated ETT and trachea locations on a dataset of 3856 CXRs. The U-Net-based model was then trained to generate trachea and ETT segmentations. After post-processing steps, an estimate of the distance between the distal tip of the ETT and the tracheal carina was found. It was demonstrated that the trained model is capable of estimating the position of the ETT and calculating the distance from the tube tip to the tracheal carina. The Dice index for the segmentations on the external validation subset for the trachea and ETT was 89.2% ± 9.0% and 87.8% ± 16.9%, respectively. The estimated absolute error on the external validation subset was 4.72 mm. This model represents a promising tool to support clinicians, particularly in Intensive Care Units, where correct intubation and effective ventilation are critical. It may also be integrated into clinical workflows to facilitate patient management and enhance patient safety.\n\nKeywords Endotracheal tube, Artificial intelligence, Deep learning, Chest X-ray, Trachea, Intubation",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nScientific Reports |        (2026) 16:28794 1 | https://doi.org/10.1038/s41598-026-58814-2\n\nDetection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\n\nJakub Kufel 1, Łukasz Piórecki2, Piotr Dudek 3, Michał Bielówka 3, Łukasz Czogalik 3, Mikołaj Magiera 3, Magdalena Stencel 3, Marcin Rojek 3, Iga Paszkiewicz 4, Adam Mitręga 3, Katarzyna Gruszczyńska1 & Joanna Polańska2\n\nAccurate placement of the endotracheal tube (ETT) is critical for ensuring optimal care for patients requiring mechanical ventilation and preventing potential complications. ETT positioning can be assessed using several methods, with chest X-ray (CXR) being the most precise. Radiologists evaluate whether the ETT requires adjustment by measuring the distance between the distal tip of the ETT and the tracheal carina. This study presents the development of a machine learning model to detect and measure ETT position on adult CXRs and evaluates its performance. Six physicians annotated ETT and trachea locations on a dataset of 3856 CXRs. The U-Net-based model was then trained to generate trachea and ETT segmentations. After post-processing steps, an estimate of the distance between the distal tip of the ETT and the tracheal carina was found. It was demonstrated that the trained model is capable of estimating the position of the ETT and calculating the distance from the tube tip to the tracheal carina. The Dice index for the segmentations on the external validation subset for the trachea and ETT was 89.2% ± 9.0% and 87.8% ± 16.9%, respectively. The estimated absolute error on the external validation subset was 4.72 mm. This model represents a promising tool to support clinicians, particularly in Intensive Care Units, where correct intubation and effective ventilation are critical. It may also be integrated into clinical workflows to facilitate patient management and enhance patient safety.\n\nKeywords Endotracheal tube, Artificial intelligence, Deep learning, Chest X-ray, Trachea, Intubation",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "token_count": 509,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0001",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Keywords Endotracheal tube, Artificial intelligence, Deep learning, Chest X-ray, Trachea, Intubation\n\nEndotracheal intubation (ETI) is a demanding procedure commonly performed in emergency medicine, anesthesiology, and intensive care. It is a life-saving advanced airway management technique used in critically ill patients1. Proper endotracheal tube (ETT) placement is essential for optimal patient outcomes.\n\nComplications associated with incorrect ETT positioning depend on the insertion depth. Excessive advancement into a mainstem bronchus may lead to ineffective mechanical ventilation, hemodynamic instability, pneumothorax, or even pneumonia2. In contrast, a tube positioned too proximally increases the risk of accidental extubation, gas leakage, and laryngeal injury, including vocal fold edema, subglottic stenosis, vocal cord paresis or paralysis, and, in severe cases, permanent aphonia1,3.\n\nThe gold standard for confirming tracheal intubation is end-tidal CO₂ measurement. However, accurate assessment of ETT depth requires chest X-ray (CXR), as auscultation alone is insufficient to reliably exclude bronchial intubation. Brunel et al. reported that up to 60% of mainstem bronchial intubations in intensive care unit patients occurred despite apparently symmetrical breath sounds4.\n\nThe development and ongoing advances in artificial intelligence (AI) and neural networks have created opportunities to automate radiological assessment and improve workflow efficiency. With the use of AI,\n\n1Department of Radiology and Nuclear Medicine, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 40-752 Katowice, Poland. 2Department of Data Science and Engineering, Silesian University of Technology, Gliwice, Poland. 3Students’ Scientific Association of Computer Analysis and Artificial Intelligence at the Department of Radiology and Nuclear Medicine of the Medical University of Silesia in Katowice, Katowice, Poland. 4Department of Anesthesiology and Intensive Therapy, Provincial Hospital in Bielsko-Biała, A Branch of Silesian Medical University, Katowice, Poland. email: jakubkufel92@gmail.com; lukasz.piorecki@polsl.pl\n\nwww.nature.com/scientificreports",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nKeywords Endotracheal tube, Artificial intelligence, Deep learning, Chest X-ray, Trachea, Intubation\n\nEndotracheal intubation (ETI) is a demanding procedure commonly performed in emergency medicine, anesthesiology, and intensive care. It is a life-saving advanced airway management technique used in critically ill patients1. Proper endotracheal tube (ETT) placement is essential for optimal patient outcomes.\n\nComplications associated with incorrect ETT positioning depend on the insertion depth. Excessive advancement into a mainstem bronchus may lead to ineffective mechanical ventilation, hemodynamic instability, pneumothorax, or even pneumonia2. In contrast, a tube positioned too proximally increases the risk of accidental extubation, gas leakage, and laryngeal injury, including vocal fold edema, subglottic stenosis, vocal cord paresis or paralysis, and, in severe cases, permanent aphonia1,3.\n\nThe gold standard for confirming tracheal intubation is end-tidal CO₂ measurement. However, accurate assessment of ETT depth requires chest X-ray (CXR), as auscultation alone is insufficient to reliably exclude bronchial intubation. Brunel et al. reported that up to 60% of mainstem bronchial intubations in intensive care unit patients occurred despite apparently symmetrical breath sounds4.\n\nThe development and ongoing advances in artificial intelligence (AI) and neural networks have created opportunities to automate radiological assessment and improve workflow efficiency. With the use of AI,\n\n1Department of Radiology and Nuclear Medicine, Faculty of Medical Sciences in Katowice, Medical University of Silesia, 40-752 Katowice, Poland. 2Department of Data Science and Engineering, Silesian University of Technology, Gliwice, Poland. 3Students’ Scientific Association of Computer Analysis and Artificial Intelligence at the Department of Radiology and Nuclear Medicine of the Medical University of Silesia in Katowice, Katowice, Poland. 4Department of Anesthesiology and Intensive Therapy, Provincial Hospital in Bielsko-Biała, A Branch of Silesian Medical University, Katowice, Poland. email: jakubkufel92@gmail.com; lukasz.piorecki@polsl.pl\n\nwww.nature.com/scientificreports",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "token_count": 498,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0002",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "www.nature.com/scientificreports\n\nScientific Reports |        (2026) 16:28794 2 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nthe assessment of ETT positioning could be performed more rapidly and without the direct involvement of anesthesiologists or radiologists, reducing the clinical workload and potentially supporting safer patient care.\n\nThe aim of this study was to evaluate whether the neural network can accurately determine correct ETT placement based on the distance between the ETT tip and the carina.\n\nRelated work In recent years, numerous original solutions employing deep learning algorithms have been proposed in the literature. To date, no model has been registered for autonomous medical use or as an auxiliary tool. However, the results of some studies are highly promising. Various strategies for addressing the problem can be observed. The works included in the literature review can be divided into two groups. The first group comprises methods aimed at classifying the correctness of intubation. The second group includes methods that estimate the distance between the ends of the analyzed objects, whose operating mechanisms and result presentation are similar to those adopted in this study.\n\nClassification-based quality assessment Researchers from National Taiwan University, Chih-Hung et al.5, used data collected from their own clinical facilities and applied the DeepLabv3 and ResNet50 architectures. The obtained Dice coefficients were also high. For the NTUH-20 dataset, the results were as follows: 85.4% (82.4% to 88.1%) for the endotracheal tube and 78.5% (77.8% to 79.2%) for the trachea. For another dataset, NTUH-Yulin Branch, the corresponding results were 83.9% (82.0% to 85.7%) and 76.8% (75.9% to 77.6%), respectively.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nwww.nature.com/scientificreports\n\nScientific Reports |        (2026) 16:28794 2 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nthe assessment of ETT positioning could be performed more rapidly and without the direct involvement of anesthesiologists or radiologists, reducing the clinical workload and potentially supporting safer patient care.\n\nThe aim of this study was to evaluate whether the neural network can accurately determine correct ETT placement based on the distance between the ETT tip and the carina.\n\nRelated work In recent years, numerous original solutions employing deep learning algorithms have been proposed in the literature. To date, no model has been registered for autonomous medical use or as an auxiliary tool. However, the results of some studies are highly promising. Various strategies for addressing the problem can be observed. The works included in the literature review can be divided into two groups. The first group comprises methods aimed at classifying the correctness of intubation. The second group includes methods that estimate the distance between the ends of the analyzed objects, whose operating mechanisms and result presentation are similar to those adopted in this study.\n\nClassification-based quality assessment Researchers from National Taiwan University, Chih-Hung et al.5, used data collected from their own clinical facilities and applied the DeepLabv3 and ResNet50 architectures. The obtained Dice coefficients were also high. For the NTUH-20 dataset, the results were as follows: 85.4% (82.4% to 88.1%) for the endotracheal tube and 78.5% (77.8% to 79.2%) for the trachea. For another dataset, NTUH-Yulin Branch, the corresponding results were 83.9% (82.0% to 85.7%) and 76.8% (75.9% to 77.6%), respectively.",
+      "page_start": 0,
+      "page_end": 1,
+      "paragraph_positions": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "token_count": 412,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0003",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Brown et al.6 proposed a model to verify endotracheal tube positioning by determining the spatial relationships among segmented anatomical structures. The endotracheal tube, trachea, and carina were subjected to segmentation. The safety zone was defined as the area within the trachea where the ETT tip is located between 3 and 7 cm above the carina. If the ETT is located outside this region, the model issues a warning indicating incorrect positioning. The model achieved 95% accuracy in detecting the tube, and the precise location of the tube tip was provided in 86% of cases.\n\nSimilarly, in the study conducted by Jung et al.7, the distance between the ETT tip and the carina was assessed, and chest X-rays were divided into four groups: no ETT, shallow placement greater than 7 cm, correct placement between 3 and 7 cm, and deep placement less than 3 cm. Segmentation of the ETT and trachea was performed using binary masks. Both labeled structures were divided into smaller segments. The dataset consisted of 1985 chest X-rays, of which only 1094 contained an endotracheal tube. In fivefold cross-validation, the Dice index for the trachea averaged 84.1% (SD 6.3%), and for the endotracheal tube, it averaged 89.3% (SD 7.8%). The classification model achieved an F1 score of 88.9% for automatically categorizing the studies into four groups.\n\nAnother interesting approach was presented in the study by Yuan et al.8. During segmentation, regions of interest were extracted, including four points: the right and left clavicle heads, the carina, and the ETT tip. A total of 12 models were trained, with the best one (VGG16) achieving an AUC of 92%.\n\nTsai et al.1 in their study also used the positions of the right and left clavicle heads to assess whether the head position during X-ray imaging was neutral. This ensures repeatability of results, as head position and neck rotation influence the placement of the ETT. Other reference points used included the jaw and the C7 vertebra. Their model achieved an AUC value of 93.8%.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nBrown et al.6 proposed a model to verify endotracheal tube positioning by determining the spatial relationships among segmented anatomical structures. The endotracheal tube, trachea, and carina were subjected to segmentation. The safety zone was defined as the area within the trachea where the ETT tip is located between 3 and 7 cm above the carina. If the ETT is located outside this region, the model issues a warning indicating incorrect positioning. The model achieved 95% accuracy in detecting the tube, and the precise location of the tube tip was provided in 86% of cases.\n\nSimilarly, in the study conducted by Jung et al.7, the distance between the ETT tip and the carina was assessed, and chest X-rays were divided into four groups: no ETT, shallow placement greater than 7 cm, correct placement between 3 and 7 cm, and deep placement less than 3 cm. Segmentation of the ETT and trachea was performed using binary masks. Both labeled structures were divided into smaller segments. The dataset consisted of 1985 chest X-rays, of which only 1094 contained an endotracheal tube. In fivefold cross-validation, the Dice index for the trachea averaged 84.1% (SD 6.3%), and for the endotracheal tube, it averaged 89.3% (SD 7.8%). The classification model achieved an F1 score of 88.9% for automatically categorizing the studies into four groups.\n\nAnother interesting approach was presented in the study by Yuan et al.8. During segmentation, regions of interest were extracted, including four points: the right and left clavicle heads, the carina, and the ETT tip. A total of 12 models were trained, with the best one (VGG16) achieving an AUC of 92%.\n\nTsai et al.1 in their study also used the positions of the right and left clavicle heads to assess whether the head position during X-ray imaging was neutral. This ensures repeatability of results, as head position and neck rotation influence the placement of the ETT. Other reference points used included the jaw and the C7 vertebra. Their model achieved an AUC value of 93.8%.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "token_count": 474,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0004",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Distance estimation methods In the study by Kara et al.9, the correctness of intubation was assessed by measuring the distance between the ETT tip and the carina, and a two-stage approach was proposed. First, regions of interest were identified, and then specific points representing the tube’s end and the tracheal bifurcation were localized. The study was conducted on 17,050 images from the MIMIC-CXR v2 database and the Beth Israel Deaconess Medical Center in Boston. Validation results showed that the mean error in predicting the location of the tracheal bifurcation was 6.4 mm with a median of 4.6 mm, and for the ETT tip it was 8.2 mm with a median of 6.0 mm.\n\nIn the study by Harris et al.10, 2862 images with an endotracheal tube and 755 without were used. The data were split into 90% for training and 10% for validation. A modified YOLO-v3 architecture was applied, using rectangular bounding boxes instead of segmentation. The center of the rectangle indicated the carina, and the bottom edge marked the ETT tip. The mean and median differences relative to reference measurements were 7 mm and 5.3 mm, respectively, with a maximum value reaching 57.7 mm. The data did not follow a normal distribution.\n\nThe team of Lakhani et al.2 in the Department of Radiology at Thomas Jefferson University Hospital developed a method based on the Inception V3 network to classify the position of the ETT relative to the tracheal bifurcation. A total of 22,960 images from 11,153 patients were used, with a mean age of 60.2 years. The images were divided into training (80%), validation (10%), and test (10%) sets. The model assigned each image to one of 12 classes: 2 represented extreme positions, and the remaining 10 corresponded to distances from 1 to 10 cm. The mean difference between the model and radiologists was 6.9 mm for the internal dataset and 6.3 mm for the external one.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nDistance estimation methods In the study by Kara et al.9, the correctness of intubation was assessed by measuring the distance between the ETT tip and the carina, and a two-stage approach was proposed. First, regions of interest were identified, and then specific points representing the tube’s end and the tracheal bifurcation were localized. The study was conducted on 17,050 images from the MIMIC-CXR v2 database and the Beth Israel Deaconess Medical Center in Boston. Validation results showed that the mean error in predicting the location of the tracheal bifurcation was 6.4 mm with a median of 4.6 mm, and for the ETT tip it was 8.2 mm with a median of 6.0 mm.\n\nIn the study by Harris et al.10, 2862 images with an endotracheal tube and 755 without were used. The data were split into 90% for training and 10% for validation. A modified YOLO-v3 architecture was applied, using rectangular bounding boxes instead of segmentation. The center of the rectangle indicated the carina, and the bottom edge marked the ETT tip. The mean and median differences relative to reference measurements were 7 mm and 5.3 mm, respectively, with a maximum value reaching 57.7 mm. The data did not follow a normal distribution.\n\nThe team of Lakhani et al.2 in the Department of Radiology at Thomas Jefferson University Hospital developed a method based on the Inception V3 network to classify the position of the ETT relative to the tracheal bifurcation. A total of 22,960 images from 11,153 patients were used, with a mean age of 60.2 years. The images were divided into training (80%), validation (10%), and test (10%) sets. The model assigned each image to one of 12 classes: 2 represented extreme positions, and the remaining 10 corresponded to distances from 1 to 10 cm. The mean difference between the model and radiologists was 6.9 mm for the internal dataset and 6.3 mm for the external one.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        21,
+        22,
+        23
+      ],
+      "token_count": 439,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0005",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "The strategy of estimating the distance between the tips of the ETT and the trachea was also applied by Huang et al.11. The ETT was marked by a quadrilateral with vertices P1 to P4, and the trachea was marked by a polygon with vertices P5 to P13. The data were collected at Cheng Kung Hospital. The dataset included 1842 images of patients lying on their backs. Fourfold cross-validation was used along with a model based on Mask R-CNN. Characteristic points were determined based on the segmentation, and the distance error between the tube and the bifurcation was 3.9 mm in the range of 1.8 to 7.1 mm for the training set and 4.2 mm in the range of 1.7 to 7.8 mm for the validation set. The study emphasized that the accuracy of the algorithm was comparable to clinician assessments.\n\nScientific Reports |        (2026) 16:28794 3 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nOliver et al.12 performed segmentation of X-ray images to detect and evaluate the ETT by edge detection and pixel clustering. Annotators then classified the images based on criteria including quality assessment, pixel coordinates of the ETT tip, pixel coordinates of the carina, and classification of the ETT tip position relative to the carina. A threshold value of 2 cm was used to indicate too low a position of the ETT. This model achieved an interrater agreement for the ETT-carina distance worth 6 mm, and the mean absolute error of the model was 8.9 mm for predicting the ETT-carina distance.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nThe strategy of estimating the distance between the tips of the ETT and the trachea was also applied by Huang et al.11. The ETT was marked by a quadrilateral with vertices P1 to P4, and the trachea was marked by a polygon with vertices P5 to P13. The data were collected at Cheng Kung Hospital. The dataset included 1842 images of patients lying on their backs. Fourfold cross-validation was used along with a model based on Mask R-CNN. Characteristic points were determined based on the segmentation, and the distance error between the tube and the bifurcation was 3.9 mm in the range of 1.8 to 7.1 mm for the training set and 4.2 mm in the range of 1.7 to 7.8 mm for the validation set. The study emphasized that the accuracy of the algorithm was comparable to clinician assessments.\n\nScientific Reports |        (2026) 16:28794 3 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nOliver et al.12 performed segmentation of X-ray images to detect and evaluate the ETT by edge detection and pixel clustering. Annotators then classified the images based on criteria including quality assessment, pixel coordinates of the ETT tip, pixel coordinates of the carina, and classification of the ETT tip position relative to the carina. A threshold value of 2 cm was used to indicate too low a position of the ETT. This model achieved an interrater agreement for the ETT-carina distance worth 6 mm, and the mean absolute error of the model was 8.9 mm for predicting the ETT-carina distance.",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "token_count": 370,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0006",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Materials and methods Quality assesment With the aim of improving the reporting of studies involving AI, the study was evaluated according to the MI-CLAIM13. The items were grouped into six categories: study design (category 1), data and optimization (categories 2 and 3), model performance (category 4), evaluation of the model in clinical practice (category 5), and reproducibility (category 6). In each category, several elements were assessed, for which points were awarded or not. An item was scored as 0 if it was not described in the text, 0.5 if it was partially addressed in the article, and 1 if it was fully addressed. The total score was 15, indicating high quality of the conducted study. To assess Prediction Model Development and Validation, the TRIPOD Checklist14 was used.\n\nDataset Participants, source of data and eligibility criteria The original dataset consists of anonymized chest X-rays (CXR) of adult patients of both sexes, with no upper age limit, performed in the anteroposterior (AP) projection in the supine position, who were intubated and treated in the Intensive Care Unit (ICU). The images originated from two hospitals located in southern Poland. Data were collected between 2016 and 2021. The dataset comprised a total of 5684 CXRs. The images originate from two institutions: the University Clinical Center named after Professor K. Gibinski of the Medical University of Silesia in Katowice (UCK) and the Multispecialty District Hospital S.A. named after Dr. B. Hager in Tarnowskie Gory (TG).\n\nThe method for automatic distance estimation was developed after the data collection process had been completed. Therefore, the experts who performed the segmentation and determined the characteristic points used to create and evaluate the method did not have access to it.\n\nSegmentations Segmentations were performed on all available CXR images: 5684 of the trachea and 1647 of the ETT. The segmentations were created by six individuals with medical degrees at varying levels of medical education. All were associated with radiology. Annotations were made using the tool 3D Slicer V515 equipped with a custom plugin. Independent verification of the annotations was carried out by a radiology specialist with 10 years of professional experience.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nMaterials and methods Quality assesment With the aim of improving the reporting of studies involving AI, the study was evaluated according to the MI-CLAIM13. The items were grouped into six categories: study design (category 1), data and optimization (categories 2 and 3), model performance (category 4), evaluation of the model in clinical practice (category 5), and reproducibility (category 6). In each category, several elements were assessed, for which points were awarded or not. An item was scored as 0 if it was not described in the text, 0.5 if it was partially addressed in the article, and 1 if it was fully addressed. The total score was 15, indicating high quality of the conducted study. To assess Prediction Model Development and Validation, the TRIPOD Checklist14 was used.\n\nDataset Participants, source of data and eligibility criteria The original dataset consists of anonymized chest X-rays (CXR) of adult patients of both sexes, with no upper age limit, performed in the anteroposterior (AP) projection in the supine position, who were intubated and treated in the Intensive Care Unit (ICU). The images originated from two hospitals located in southern Poland. Data were collected between 2016 and 2021. The dataset comprised a total of 5684 CXRs. The images originate from two institutions: the University Clinical Center named after Professor K. Gibinski of the Medical University of Silesia in Katowice (UCK) and the Multispecialty District Hospital S.A. named after Dr. B. Hager in Tarnowskie Gory (TG).\n\nThe method for automatic distance estimation was developed after the data collection process had been completed. Therefore, the experts who performed the segmentation and determined the characteristic points used to create and evaluate the method did not have access to it.\n\nSegmentations Segmentations were performed on all available CXR images: 5684 of the trachea and 1647 of the ETT. The segmentations were created by six individuals with medical degrees at varying levels of medical education. All were associated with radiology. Annotations were made using the tool 3D Slicer V515 equipped with a custom plugin. Independent verification of the annotations was carried out by a radiology specialist with 10 years of professional experience.",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "token_count": 485,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0007",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Image segmentation involved manually annotating the trachea and ETT on separate layers. The dataset then underwent three independent validation rounds, during which identified errors and omissions were corrected after each review to ensure annotation quality.\n\nExamples of segmentations applied to radiographs from the dataset are presented in Fig. 1. The X-ray images from UCK were divided into three subsets: training, validation, and hold-out. The data from TG were kept as an independent external hold-out set. The sizes of the created datasets are presented in Table 1.\n\nGold standard To establish the gold standard for the location of the endotracheal tube in the trachea, six researchers independently marked the point at the tip of the ETT and the tracheal carina on 1261 CXR images with a visible tube. These independent markings were retained directly for analysis without further consensus derivation. A total of 347 annotations were made on CXR images from UCK and 914 from TG. The segmentation was performed using the Slicer 3D V5 program15. The established gold standard was used to compare the distances calculated by the neural network with the measurements made by physicians. Both proper and improper ETT placement cases were included in the gold standard to better assess the proposed method’s performance. Several random samples of physicians’ segmentations and measurement points, overlaid on the corresponding CXR, are shown in Fig. 2.\n\nData cleaning The first stage of data cleaning involved standardizing tracheal segmentations. Some annotations included fragments of the main bronchi below the bifurcation, creating multiple regions for the same object and unnecessarily increasing task complexity. Therefore, the main bronchi were removed from the segmentations (Figs. 3 and 4).\n\nIn the second stage, examples of pairs of characteristic points that were inconsistent with their corresponding expert segmentations were removed (Figs. 5 and 6). For this purpose, the method described in the subsection Characteristic point detection was applied to the expert segmentations. The distances between the manually marked characteristic point and the one detected based on the segmentation were presented using a histogram portrayed in Fig. 7. Based on the observed decrease at 10 mm, pairs with distances exceeding this threshold were excluded. As a result, the number of manually annotated characteristic point pairs was reduced to 202 from UCK and 530 from TG.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nImage segmentation involved manually annotating the trachea and ETT on separate layers. The dataset then underwent three independent validation rounds, during which identified errors and omissions were corrected after each review to ensure annotation quality.\n\nExamples of segmentations applied to radiographs from the dataset are presented in Fig. 1. The X-ray images from UCK were divided into three subsets: training, validation, and hold-out. The data from TG were kept as an independent external hold-out set. The sizes of the created datasets are presented in Table 1.\n\nGold standard To establish the gold standard for the location of the endotracheal tube in the trachea, six researchers independently marked the point at the tip of the ETT and the tracheal carina on 1261 CXR images with a visible tube. These independent markings were retained directly for analysis without further consensus derivation. A total of 347 annotations were made on CXR images from UCK and 914 from TG. The segmentation was performed using the Slicer 3D V5 program15. The established gold standard was used to compare the distances calculated by the neural network with the measurements made by physicians. Both proper and improper ETT placement cases were included in the gold standard to better assess the proposed method’s performance. Several random samples of physicians’ segmentations and measurement points, overlaid on the corresponding CXR, are shown in Fig. 2.\n\nData cleaning The first stage of data cleaning involved standardizing tracheal segmentations. Some annotations included fragments of the main bronchi below the bifurcation, creating multiple regions for the same object and unnecessarily increasing task complexity. Therefore, the main bronchi were removed from the segmentations (Figs. 3 and 4).\n\nIn the second stage, examples of pairs of characteristic points that were inconsistent with their corresponding expert segmentations were removed (Figs. 5 and 6). For this purpose, the method described in the subsection Characteristic point detection was applied to the expert segmentations. The distances between the manually marked characteristic point and the one detected based on the segmentation were presented using a histogram portrayed in Fig. 7. Based on the observed decrease at 10 mm, pairs with distances exceeding this threshold were excluded. As a result, the number of manually annotated characteristic point pairs was reduced to 202 from UCK and 530 from TG.",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "token_count": 507,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0008",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0000",
+      "section_title": "OPEN",
+      "section_path": [
+        "OPEN"
+      ],
+      "source_text": "Scientific Reports |        (2026) 16:28794 4 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nPreprocessing The CXR images underwent preprocessing: outlier values were removed (based on the 0.0025 and 0.9975 percentiles), and pixel intensities were rescaled to the range [0, 1], thereby enabling image standardization and eliminating white annotations. Next, using a previously trained CNN model, the lung region was determined and used to crop the image to the region of interest. Finally, the images were rescaled to 512 × 512 px. The pipeline was adapted from the CIRCA team’s implementation16. An example of an image undergoing the preprocessing steps is shown in Fig. 4.\n\nThe final step of preprocessing involved cropping the expert segmentations to the lung region corresponding to their radiograph and rescaling them to 512 × 512 px using nearest-neighbor interpolation.\n\nCreation of segmentation models The segmentation models were built using the UNet architecture. This architecture is widely used for medical segmentation problems due to its efficiency and the quality of models it produces. The input size was set to 512 × 512 px. By using appropriate padding in the convolutional layers, the network’s output size was made equal to the input size.\n\nTwo models were trained independently. The first specialized in trachea segmentation, the second in endotracheal tube (ETT) segmentation. As the loss function, an adaptation of the Dice index17, hereinafter referred to as the Similarity Index (SI), was used. It is adjusted for continuous values of both the ground-truth and predicted segmentations. The SI is defined by Formula 1.\n\ndis\n\npl\n\nay-eq - Equ1\n\n\b (1)\n\nThe Adam optimizer (adaptive moment estimation) was used. The initial learning rate was inline-eq-IEq1. The batch size consisted of 3 preprocessed CXRs. The training history of the model’s quality metrics is shown in Fig. 8.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\n\nScientific Reports |        (2026) 16:28794 4 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nPreprocessing The CXR images underwent preprocessing: outlier values were removed (based on the 0.0025 and 0.9975 percentiles), and pixel intensities were rescaled to the range [0, 1], thereby enabling image standardization and eliminating white annotations. Next, using a previously trained CNN model, the lung region was determined and used to crop the image to the region of interest. Finally, the images were rescaled to 512 × 512 px. The pipeline was adapted from the CIRCA team’s implementation16. An example of an image undergoing the preprocessing steps is shown in Fig. 4.\n\nThe final step of preprocessing involved cropping the expert segmentations to the lung region corresponding to their radiograph and rescaling them to 512 × 512 px using nearest-neighbor interpolation.\n\nCreation of segmentation models The segmentation models were built using the UNet architecture. This architecture is widely used for medical segmentation problems due to its efficiency and the quality of models it produces. The input size was set to 512 × 512 px. By using appropriate padding in the convolutional layers, the network’s output size was made equal to the input size.\n\nTwo models were trained independently. The first specialized in trachea segmentation, the second in endotracheal tube (ETT) segmentation. As the loss function, an adaptation of the Dice index17, hereinafter referred to as the Similarity Index (SI), was used. It is adjusted for continuous values of both the ground-truth and predicted segmentations. The SI is defined by Formula 1.\n\ndis\n\npl\n\nay-eq - Equ1\n\n\b (1)\n\nThe Adam optimizer (adaptive moment estimation) was used. The initial learning rate was inline-eq-IEq1. The batch size consisted of 3 preprocessed CXRs. The training history of the model’s quality metrics is shown in Fig. 8.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "token_count": 472,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0009",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0001",
+      "section_title": "Object",
+      "section_path": [
+        "OPEN",
+        "Object"
+      ],
+      "source_text": "Object",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Object\n\nObject",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0010",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0002",
+      "section_title": "UCK TG",
+      "section_path": [
+        "OPEN",
+        "UCK TG"
+      ],
+      "source_text": "UCK TG",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: UCK TG\n\nUCK TG",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0011",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "Trachea 3150 1350 374 810\n\nETT 520 224 100 803\n\nTable 1.  Subset counts for trachea and endotracheal tube.\n\nFig. 1.  Selected examples from the original dataset with overlaid segmentation.\n\nScientific Reports |        (2026) 16:28794 5 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nIn many CXRs in the dataset, the patient is slightly rotated. To make the model more robust to such cases, for each example in the training set, four augmented versions were added, each rotated by an angle from the set {− 10°, − 5°, 5°, 10°} with respect to the image center. Model quality was assessed using the Dice index, comparing the binarized prediction with the corresponding segmentation from the dataset.\n\nPostprocessing To be able to determine characteristic points from the model’s predictions, it was necessary to transform them. Continuous values and disjoint areas are not conducive to precisely locating the tip of the endotracheal tube (ETT) and the tracheal carina.\n\nThe first step of the final processing was binarization of the prediction results. For this purpose, an analysis was conducted to determine the optimal discretization threshold. Within the training and validation sets, different threshold values in the range < 0; 1 > were tested with a step of 0.001. For each value, the predictions\n\nFig. 3.  Example of trachea segmentation standardization.\n\nFig. 2.  Characteristic points and segmentations annotated by clinicians overlaid on corresponding CXR from the gold standard.\n\nScientific Reports |        (2026) 16:28794 6 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nwere binarized, after which the Similarity Index was calculated; its mean and standard deviation were determined for individual examples. The final threshold was chosen to maximize the mean value of the Similarity Index.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nTrachea 3150 1350 374 810\n\nETT 520 224 100 803\n\nTable 1.  Subset counts for trachea and endotracheal tube.\n\nFig. 1.  Selected examples from the original dataset with overlaid segmentation.\n\nScientific Reports |        (2026) 16:28794 5 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nIn many CXRs in the dataset, the patient is slightly rotated. To make the model more robust to such cases, for each example in the training set, four augmented versions were added, each rotated by an angle from the set {− 10°, − 5°, 5°, 10°} with respect to the image center. Model quality was assessed using the Dice index, comparing the binarized prediction with the corresponding segmentation from the dataset.\n\nPostprocessing To be able to determine characteristic points from the model’s predictions, it was necessary to transform them. Continuous values and disjoint areas are not conducive to precisely locating the tip of the endotracheal tube (ETT) and the tracheal carina.\n\nThe first step of the final processing was binarization of the prediction results. For this purpose, an analysis was conducted to determine the optimal discretization threshold. Within the training and validation sets, different threshold values in the range < 0; 1 > were tested with a step of 0.001. For each value, the predictions\n\nFig. 3.  Example of trachea segmentation standardization.\n\nFig. 2.  Characteristic points and segmentations annotated by clinicians overlaid on corresponding CXR from the gold standard.\n\nScientific Reports |        (2026) 16:28794 6 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nwere binarized, after which the Similarity Index was calculated; its mean and standard deviation were determined for individual examples. The final threshold was chosen to maximize the mean value of the Similarity Index.",
+      "page_start": 3,
+      "page_end": 5,
+      "paragraph_positions": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "token_count": 455,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0012",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "www.nature.com/scientificreports\n\nwere binarized, after which the Similarity Index was calculated; its mean and standard deviation were determined for individual examples. The final threshold was chosen to maximize the mean value of the Similarity Index.\n\nAfter binarization of the predictions, fragmented segmentations were handled. First, using the eight- connectivity rule, separate regions in the resulting segmentation were identified. Then their surface areas were calculated, and only the largest region was retained. The processing steps described are shown in Fig. 5.\n\nThe processed network segmentations enabled the calculation of the Dice coefficient. Its values were aggregated for all datasets. The results were presented by performing descriptive statistics of the distribution of these values. The segmentation quality results were collated in Table 2.\n\nCharacteristic points detection and distance estimation The procedure for determining characteristic points was based on the centerline of the processed prediction. This line was obtained using a morphological operation—skeletonization.\n\nIn the first step, the lowest image row containing a skeleton pixel is identified. The x-coordinate of the characteristic point is determined from the active pixel in this row or, if multiple pixels are present, from\n\nFig. 6.  Diagram illustrating the geometric interpretation of the characteristic point detection method.\n\nFig. 5.  Example of post-processing workflow for trachea segmentation.\n\nFig. 4.  Pipeline of pre-processing of original images.\n\nScientific Reports |        (2026) 16:28794 7 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nObject Dataset Count mean (%) sigma (%) q1 (%) median (%) q3 (%) Lower limit (%) Upper limit (%) skew kurt\n\nTrachea\n\nTraining 3150 92.5 6.1 91.2 94.0 95.6 92.3 92.7 − 6.04 64.2\n\nValidation 1350 92.6 5.5 91.5 94.0 95.7 92.3 92.9 − 3.49 17.8\n\nHold-out 374 91.0 8.9 90.1 93.0 95.4 90.1 91.9 − 4.86 33.3\n\nExternal hold-out 810 89.2 9.0 86.7 92.0 94.7 88.6 89.8 − 3.26 16.1\n\nETT",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nwww.nature.com/scientificreports\n\nwere binarized, after which the Similarity Index was calculated; its mean and standard deviation were determined for individual examples. The final threshold was chosen to maximize the mean value of the Similarity Index.\n\nAfter binarization of the predictions, fragmented segmentations were handled. First, using the eight- connectivity rule, separate regions in the resulting segmentation were identified. Then their surface areas were calculated, and only the largest region was retained. The processing steps described are shown in Fig. 5.\n\nThe processed network segmentations enabled the calculation of the Dice coefficient. Its values were aggregated for all datasets. The results were presented by performing descriptive statistics of the distribution of these values. The segmentation quality results were collated in Table 2.\n\nCharacteristic points detection and distance estimation The procedure for determining characteristic points was based on the centerline of the processed prediction. This line was obtained using a morphological operation—skeletonization.\n\nIn the first step, the lowest image row containing a skeleton pixel is identified. The x-coordinate of the characteristic point is determined from the active pixel in this row or, if multiple pixels are present, from\n\nFig. 6.  Diagram illustrating the geometric interpretation of the characteristic point detection method.\n\nFig. 5.  Example of post-processing workflow for trachea segmentation.\n\nFig. 4.  Pipeline of pre-processing of original images.\n\nScientific Reports |        (2026) 16:28794 7 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nObject Dataset Count mean (%) sigma (%) q1 (%) median (%) q3 (%) Lower limit (%) Upper limit (%) skew kurt\n\nTrachea\n\nTraining 3150 92.5 6.1 91.2 94.0 95.6 92.3 92.7 − 6.04 64.2\n\nValidation 1350 92.6 5.5 91.5 94.0 95.7 92.3 92.9 − 3.49 17.8\n\nHold-out 374 91.0 8.9 90.1 93.0 95.4 90.1 91.9 − 4.86 33.3\n\nExternal hold-out 810 89.2 9.0 86.7 92.0 94.7 88.6 89.8 − 3.26 16.1\n\nETT",
+      "page_start": 5,
+      "page_end": 6,
+      "paragraph_positions": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "token_count": 504,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0013",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "External hold-out 810 89.2 9.0 86.7 92.0 94.7 88.6 89.8 − 3.26 16.1\n\nETT\n\nTraining 520 91.7 8.8 90.1 94.0 96.1 90.9 92.4 − 5.73 48.7\n\nValidation 224 91.3 10.6 91.5 94.0 96.0 89.9 92.7 − 4.88 31.4\n\nHold-out 100 89.2 12.2 87.7 93.0 95.4 86.8 91.6 − 4.67 29.7\n\nExternal hold-out 803 87.8 16.9 88.3 93.0 95.7 86.7 89.0 − 3.69 14.6\n\nTable 2.  Numerical values of Dice coefficient statistical analysis.\n\nFig. 8.  History of the loss function values and additional quality metrics during training.\n\nFig. 7.  Histograms of distances between points obtained from segmentation and characteristic points defined by experts.\n\nScientific Reports |        (2026) 16:28794 8 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nthe average position of the extreme pixels. The y-coordinate is then established by extending a vertical line downward from this centerline point to the lower boundary of the prediction area. The intersection defines the final characteristic point. This procedure was applied to both endotracheal tube and tracheal predictions. Figure 6 illustrates the subsequent stages of characteristic point detection performed by the algorithm.\n\nThe points identified in this way in the image were represented in millimeters using information from the DICOM standard on the physical pixel size. The result of the estimation is the Euclidean distance between these points (Figs. 9 and 10).\n\nThe analysis of characteristic point detection was carried out by comparing the detected points with manually marked reference points defined by researchers. One of the stages of the analysis was calculating the Fréchet distance between the segments determined by the automatic method and the expert. For this measure, descriptive statistics were performed, and the distribution was presented as a histogram in Fig. 11.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nExternal hold-out 810 89.2 9.0 86.7 92.0 94.7 88.6 89.8 − 3.26 16.1\n\nETT\n\nTraining 520 91.7 8.8 90.1 94.0 96.1 90.9 92.4 − 5.73 48.7\n\nValidation 224 91.3 10.6 91.5 94.0 96.0 89.9 92.7 − 4.88 31.4\n\nHold-out 100 89.2 12.2 87.7 93.0 95.4 86.8 91.6 − 4.67 29.7\n\nExternal hold-out 803 87.8 16.9 88.3 93.0 95.7 86.7 89.0 − 3.69 14.6\n\nTable 2.  Numerical values of Dice coefficient statistical analysis.\n\nFig. 8.  History of the loss function values and additional quality metrics during training.\n\nFig. 7.  Histograms of distances between points obtained from segmentation and characteristic points defined by experts.\n\nScientific Reports |        (2026) 16:28794 8 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nthe average position of the extreme pixels. The y-coordinate is then established by extending a vertical line downward from this centerline point to the lower boundary of the prediction area. The intersection defines the final characteristic point. This procedure was applied to both endotracheal tube and tracheal predictions. Figure 6 illustrates the subsequent stages of characteristic point detection performed by the algorithm.\n\nThe points identified in this way in the image were represented in millimeters using information from the DICOM standard on the physical pixel size. The result of the estimation is the Euclidean distance between these points (Figs. 9 and 10).\n\nThe analysis of characteristic point detection was carried out by comparing the detected points with manually marked reference points defined by researchers. One of the stages of the analysis was calculating the Fréchet distance between the segments determined by the automatic method and the expert. For this measure, descriptive statistics were performed, and the distribution was presented as a histogram in Fig. 11.",
+      "page_start": 6,
+      "page_end": 7,
+      "paragraph_positions": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "token_count": 460,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0014",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "The relative positions of the points, determined automatically and by physicians, were also analyzed. A statistical analysis of the distances between these pairs of points was conducted. Additionally, the data were visualized in scatter plots, divided into very good (Fig. 12) and lower-quality (Fig. 13) segmentations. Each dot on the plot represents the result of subtracting the vector describing the expert’s point from the predicted point. To improve the interpretability of dense clusters, contour plots were included. Outliers in the Dice index were removed from the plots mentioned.\n\nTo assess distance estimation accuracy, the absolute errors of the estimated distances between the endotracheal tube and the trachea were calculated, comparing the automatic method with the physician’s evaluations. The study was carried out on the external validation set.\n\nFig. 10.  Graphs showing the selection of pixel intensity threshold for trachea and ETT predictions.\n\nFig. 9.  Example images with expert segmentation overlaid on the model prediction.\n\nScientific Reports |        (2026) 16:28794 9 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nResults Data cleaning Histograms of distances between the characteristic point from the gold standard and the point determined using the method described in the chapter “Characteristic points detection and distance estimation” showed a pronounced drop in the number of examples at 10 mm. Those histograms are portrayed in Fig. 7.\n\nFig. 12.  Scatter and contour plots of relative positions of points compared to expert annotations for examples with a Dice coefficient > 90%.\n\nFig. 11.  Histogram and density curve for Frechet distances.\n\nScientific Reports |        (2026) 16:28794 10 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nSegmentation During training, the best trachea segmentation model was obtained in the 7th epoch, whereas the best endotracheal tube segmentation model was obtained in the 15th epoch. The training progress for both models is presented in Fig. 8, with separate plots for trachea and endotracheal tube metrics. Accuracy and Intersection over Union (IoU) values collected during training are also included.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nThe relative positions of the points, determined automatically and by physicians, were also analyzed. A statistical analysis of the distances between these pairs of points was conducted. Additionally, the data were visualized in scatter plots, divided into very good (Fig. 12) and lower-quality (Fig. 13) segmentations. Each dot on the plot represents the result of subtracting the vector describing the expert’s point from the predicted point. To improve the interpretability of dense clusters, contour plots were included. Outliers in the Dice index were removed from the plots mentioned.\n\nTo assess distance estimation accuracy, the absolute errors of the estimated distances between the endotracheal tube and the trachea were calculated, comparing the automatic method with the physician’s evaluations. The study was carried out on the external validation set.\n\nFig. 10.  Graphs showing the selection of pixel intensity threshold for trachea and ETT predictions.\n\nFig. 9.  Example images with expert segmentation overlaid on the model prediction.\n\nScientific Reports |        (2026) 16:28794 9 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nResults Data cleaning Histograms of distances between the characteristic point from the gold standard and the point determined using the method described in the chapter “Characteristic points detection and distance estimation” showed a pronounced drop in the number of examples at 10 mm. Those histograms are portrayed in Fig. 7.\n\nFig. 12.  Scatter and contour plots of relative positions of points compared to expert annotations for examples with a Dice coefficient > 90%.\n\nFig. 11.  Histogram and density curve for Frechet distances.\n\nScientific Reports |        (2026) 16:28794 10 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nSegmentation During training, the best trachea segmentation model was obtained in the 7th epoch, whereas the best endotracheal tube segmentation model was obtained in the 15th epoch. The training progress for both models is presented in Fig. 8, with separate plots for trachea and endotracheal tube metrics. Accuracy and Intersection over Union (IoU) values collected during training are also included.",
+      "page_start": 7,
+      "page_end": 9,
+      "paragraph_positions": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "token_count": 500,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0015",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "For both models, the loss function quickly reached low values. Visually, the segmentation results were correct. When overlaid on the original radiographs, the predictions matched the expert segmentations in most cases. The overlaid model’s and expert’s segmentation were portrayed in Fig. 9\n\nThe optimal binarization thresholds for the predictions were identical for both the endotracheal tube and the trachea, at 0.479. Plots in Fig. 10 show the relationship between the mean similarity index and the pixel intensity threshold for each object.\n\nFor trachea segmentation, the maximum mean similarity index (SI) for the selected threshold was 0.898; for the endotracheal tube, it was 0.884. Aggregated Dice coefficient values across the dataset subsets indicated high similarity between expert annotations and the model predictions. These results are presented in Table 2, broken down by object type and dataset split.\n\nThe distributions of the collected similarity index values are strongly negatively skewed for both the trachea and the endotracheal tube across all dataset subsets. The drop in quality observed in the external validation sets is negligible.\n\nCharacteristic point detection and distance estimation The distribution of Fréchet distances is positively skewed, indicating a predominance of high similarity between the segments determined by the experts and those produced by the proposed method. The histogram with density curve and descriptive statistics is portrayed in Fig. 11.\n\nDescriptive statistics of the distances between points identified by experts and those obtained using the developed method showed strong agreement between the two approaches. The results are summarized in Table 3. In the external hold-out dataset, the mean difference between the automatically detected and expert-annotated carina points was 5.71 ± 7.27 mm, and for the endotracheal tube tip, it was 7.06 ± 8.94 mm. The distributions of these values are highly skewed and concentrated around low distances.\n\nThe scatter plot of the relative positions of measurement points obtained by the automatic method and the expert (Fig. 12) shows no significant systematic error. The points determined by the method do not differ substantially from the expert annotations. For high-quality segmentations, the relative positions are concentrated within a 10 mm radius. For lower Dice coefficient values, a greater number of discrepant measurement-point locations can be observed (Fig. 12).",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nFor both models, the loss function quickly reached low values. Visually, the segmentation results were correct. When overlaid on the original radiographs, the predictions matched the expert segmentations in most cases. The overlaid model’s and expert’s segmentation were portrayed in Fig. 9\n\nThe optimal binarization thresholds for the predictions were identical for both the endotracheal tube and the trachea, at 0.479. Plots in Fig. 10 show the relationship between the mean similarity index and the pixel intensity threshold for each object.\n\nFor trachea segmentation, the maximum mean similarity index (SI) for the selected threshold was 0.898; for the endotracheal tube, it was 0.884. Aggregated Dice coefficient values across the dataset subsets indicated high similarity between expert annotations and the model predictions. These results are presented in Table 2, broken down by object type and dataset split.\n\nThe distributions of the collected similarity index values are strongly negatively skewed for both the trachea and the endotracheal tube across all dataset subsets. The drop in quality observed in the external validation sets is negligible.\n\nCharacteristic point detection and distance estimation The distribution of Fréchet distances is positively skewed, indicating a predominance of high similarity between the segments determined by the experts and those produced by the proposed method. The histogram with density curve and descriptive statistics is portrayed in Fig. 11.\n\nDescriptive statistics of the distances between points identified by experts and those obtained using the developed method showed strong agreement between the two approaches. The results are summarized in Table 3. In the external hold-out dataset, the mean difference between the automatically detected and expert-annotated carina points was 5.71 ± 7.27 mm, and for the endotracheal tube tip, it was 7.06 ± 8.94 mm. The distributions of these values are highly skewed and concentrated around low distances.\n\nThe scatter plot of the relative positions of measurement points obtained by the automatic method and the expert (Fig. 12) shows no significant systematic error. The points determined by the method do not differ substantially from the expert annotations. For high-quality segmentations, the relative positions are concentrated within a 10 mm radius. For lower Dice coefficient values, a greater number of discrepant measurement-point locations can be observed (Fig. 12).",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "token_count": 505,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0016",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "The mean absolute measurement error between the distance determined by the automatic method and the expert points is 7.40 ± 8.75 mm. The median of these values is 4.72 mm. Those statistics were obtained on the external validation set.\n\nFig. 13.  Scatter and contour plots of relative positions of points compared to expert annotations for examples with a Dice coefficient < 90%.\n\nScientific Reports |        (2026) 16:28794 11 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nDiscussion Principal findings The lower number of endotracheal tube segmentations compared to tracheal segmentations likely contributed to the reduced Dice coefficient of the endotracheal tube segmentation model. Although data augmentation increased the number of training examples, it could not fully replace the diversity of real input data. Future inclusion of additional endotracheal tube segmentations may improve the model’s generalization performance.\n\nThe distributions of the collected similarity index values are strongly negatively skewed for both the trachea and the endotracheal tube across all subsets, indicating that segmentation quality is high in most cases. The small decrease in the Dice coefficient observed for the external hold-out set comprising images from a different institution confirms the models’ high robustness to input variability and good generalization properties. Segmentation remains stable despite differences in equipment and image characteristics, suggesting potential applicability of the models in clinical conditions distinct from those represented in the training dataset. Nevertheless, performance may drop for low-quality images or those that differ substantially from the training data.\n\nThe method for determining characteristic points based on object skeletonization proved effective but not without limitations. The lack of a standardized approach among radiologists hindered comparison between automatic and expert assessments. Additionally, sharp segmentation edges occasionally shifted the detected characteristic point toward the corner. This case is illustrated in Fig. 14. Incorporating additional heuristics or algorithms that account for the object’s geometry could help mitigate such issues.\n\nThe accuracy of characteristic point localization and distance estimation is highly dependent on the quality of segmentation, as demonstrated by the scatter and contour plots in Fig. 14.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nThe mean absolute measurement error between the distance determined by the automatic method and the expert points is 7.40 ± 8.75 mm. The median of these values is 4.72 mm. Those statistics were obtained on the external validation set.\n\nFig. 13.  Scatter and contour plots of relative positions of points compared to expert annotations for examples with a Dice coefficient < 90%.\n\nScientific Reports |        (2026) 16:28794 11 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nDiscussion Principal findings The lower number of endotracheal tube segmentations compared to tracheal segmentations likely contributed to the reduced Dice coefficient of the endotracheal tube segmentation model. Although data augmentation increased the number of training examples, it could not fully replace the diversity of real input data. Future inclusion of additional endotracheal tube segmentations may improve the model’s generalization performance.\n\nThe distributions of the collected similarity index values are strongly negatively skewed for both the trachea and the endotracheal tube across all subsets, indicating that segmentation quality is high in most cases. The small decrease in the Dice coefficient observed for the external hold-out set comprising images from a different institution confirms the models’ high robustness to input variability and good generalization properties. Segmentation remains stable despite differences in equipment and image characteristics, suggesting potential applicability of the models in clinical conditions distinct from those represented in the training dataset. Nevertheless, performance may drop for low-quality images or those that differ substantially from the training data.\n\nThe method for determining characteristic points based on object skeletonization proved effective but not without limitations. The lack of a standardized approach among radiologists hindered comparison between automatic and expert assessments. Additionally, sharp segmentation edges occasionally shifted the detected characteristic point toward the corner. This case is illustrated in Fig. 14. Incorporating additional heuristics or algorithms that account for the object’s geometry could help mitigate such issues.\n\nThe accuracy of characteristic point localization and distance estimation is highly dependent on the quality of segmentation, as demonstrated by the scatter and contour plots in Fig. 14.",
+      "page_start": 9,
+      "page_end": 10,
+      "paragraph_positions": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "token_count": 468,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0017",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "The accuracy of characteristic point localization and distance estimation is highly dependent on the quality of segmentation, as demonstrated by the scatter and contour plots in Fig. 14.\n\nThe absolute error of distance estimation obtained on the external hold-out subset was comparatively low. As the subset consisted of unseen data from an independent clinical source, these findings indicate that the model’s accuracy is likely to be maintained in practical, real-world settings.\n\nUnlike alternative methodologies that rely on rigid bounding boxes or discrete multi-class safety zones, the proposed method delivers continuous, millimeter-level tracking by combining a dual U-Net segmentation architecture with a geometric skeletonization pipeline. The core strength of this approach lies in its balanced performance, achieving highly competitive results in both anatomical segmentation precision and landmark localization error simultaneously. By maintaining this performance profile on an independent external validation dataset, this framework demonstrates a credible and generalizable workflow for objective airway assessment.\n\nComparison with existing studies Among all the works reviewed in the literature, only one provides source code, enabling verification of results on independent datasets12. For benchmark datasets such as MIMIC-CXR, preliminary filtering using Natural Language Processing (NLP) methods is required to extract images of intubated patients. An attempt to evaluate the proposed method on such data would significantly increase the workload and could lead to difficulties in result comparison due to inconsistencies in the selected examples. Thus, an accurate comparison with the methods in the literature review remains unattainable.\n\nThe segmentation quality achieved with the proposed model was superior to that reported in some of the works reviewed in the literature. The model developed in this study achieved a Dice coefficient of 92.6% (5.5%) for the trachea and 91.3% (10.6%) for the endotracheal tube on the validation set. For comparison, in7, during five-fold cross-validation, the corresponding values were 84.1% (6.3%) and 89.3% (7.8%). In5, segmentation accuracy was reported as 85.4% for the trachea and 78.5% for the tube. Although this comparison is general due to differences in validation methods and datasets, the high metric values on both the training and validation sets confirm the effectiveness of the proposed approach. These results indicate that the UNet-based model developed in this work performs well in accomplishing the defined task.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nThe accuracy of characteristic point localization and distance estimation is highly dependent on the quality of segmentation, as demonstrated by the scatter and contour plots in Fig. 14.\n\nThe absolute error of distance estimation obtained on the external hold-out subset was comparatively low. As the subset consisted of unseen data from an independent clinical source, these findings indicate that the model’s accuracy is likely to be maintained in practical, real-world settings.\n\nUnlike alternative methodologies that rely on rigid bounding boxes or discrete multi-class safety zones, the proposed method delivers continuous, millimeter-level tracking by combining a dual U-Net segmentation architecture with a geometric skeletonization pipeline. The core strength of this approach lies in its balanced performance, achieving highly competitive results in both anatomical segmentation precision and landmark localization error simultaneously. By maintaining this performance profile on an independent external validation dataset, this framework demonstrates a credible and generalizable workflow for objective airway assessment.\n\nComparison with existing studies Among all the works reviewed in the literature, only one provides source code, enabling verification of results on independent datasets12. For benchmark datasets such as MIMIC-CXR, preliminary filtering using Natural Language Processing (NLP) methods is required to extract images of intubated patients. An attempt to evaluate the proposed method on such data would significantly increase the workload and could lead to difficulties in result comparison due to inconsistencies in the selected examples. Thus, an accurate comparison with the methods in the literature review remains unattainable.\n\nThe segmentation quality achieved with the proposed model was superior to that reported in some of the works reviewed in the literature. The model developed in this study achieved a Dice coefficient of 92.6% (5.5%) for the trachea and 91.3% (10.6%) for the endotracheal tube on the validation set. For comparison, in7, during five-fold cross-validation, the corresponding values were 84.1% (6.3%) and 89.3% (7.8%). In5, segmentation accuracy was reported as 85.4% for the trachea and 78.5% for the tube. Although this comparison is general due to differences in validation methods and datasets, the high metric values on both the training and validation sets confirm the effectiveness of the proposed approach. These results indicate that the UNet-based model developed in this work performs well in accomplishing the defined task.",
+      "page_start": 10,
+      "page_end": 10,
+      "paragraph_positions": [
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "token_count": 512,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0018",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "The mean difference between automated and expert measurements was small. In the external validation set, the values were 5.71 ± 7.27 mm for the carina and 7.06 ± 8.94 mm for the endotracheal tube. In9, these values were reported as 6.4 mm for the tracheal carina and 8.2 mm for the tube tip.\n\nObject Dataset Count mean (mm) sigma (mm) q1 (mm) median (mm) q3 (mm) max (mm) skew kurt\n\nCarina\n\nTraining 137 4.69 4.73 2.44 3.52 5.54 44.39 4.86 36.34\n\nValidation 50 3.46 2.48 1.86 3.04 4.28 13.36 2.38 7.42\n\nHold-out 15 6.81 7.32 2.39 4.44 7.82 25.07 1.8 2.55\n\nExternal hold-out 530 5.71 7.27 2.54 4.02 6.05 83.82 5.54 42.89\n\nETT tip\n\nTraining 132 4.58 2.93 2.5 4.17 5.7 20.78 2.25 8.96\n\nValidation 48 4.45 3.42 2.67 3.48 5.77 21.44 3.03 12.91\n\nHold-out 22 4.18 2.91 2.4 3.06 4.85 11.79 1.82 2.64\n\nExternal hold-out 530 7.06 8.94 2.87 4.42 7.54 89.02 4.61 29.9\n\nTable 3.  Aggregated values of distances between points expressed in millimeters.\n\nScientific Reports |        (2026) 16:28794 12 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nLimitations The method was designed for use with frontal chest radiographs of adult patients in the supine position in the ICU setting. Its performance in other patient populations, positioning, or clinical environments remains to be determined.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nThe mean difference between automated and expert measurements was small. In the external validation set, the values were 5.71 ± 7.27 mm for the carina and 7.06 ± 8.94 mm for the endotracheal tube. In9, these values were reported as 6.4 mm for the tracheal carina and 8.2 mm for the tube tip.\n\nObject Dataset Count mean (mm) sigma (mm) q1 (mm) median (mm) q3 (mm) max (mm) skew kurt\n\nCarina\n\nTraining 137 4.69 4.73 2.44 3.52 5.54 44.39 4.86 36.34\n\nValidation 50 3.46 2.48 1.86 3.04 4.28 13.36 2.38 7.42\n\nHold-out 15 6.81 7.32 2.39 4.44 7.82 25.07 1.8 2.55\n\nExternal hold-out 530 5.71 7.27 2.54 4.02 6.05 83.82 5.54 42.89\n\nETT tip\n\nTraining 132 4.58 2.93 2.5 4.17 5.7 20.78 2.25 8.96\n\nValidation 48 4.45 3.42 2.67 3.48 5.77 21.44 3.03 12.91\n\nHold-out 22 4.18 2.91 2.4 3.06 4.85 11.79 1.82 2.64\n\nExternal hold-out 530 7.06 8.94 2.87 4.42 7.54 89.02 4.61 29.9\n\nTable 3.  Aggregated values of distances between points expressed in millimeters.\n\nScientific Reports |        (2026) 16:28794 12 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nLimitations The method was designed for use with frontal chest radiographs of adult patients in the supine position in the ICU setting. Its performance in other patient populations, positioning, or clinical environments remains to be determined.",
+      "page_start": 10,
+      "page_end": 11,
+      "paragraph_positions": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "token_count": 442,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0019",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "www.nature.com/scientificreports\n\nLimitations The method was designed for use with frontal chest radiographs of adult patients in the supine position in the ICU setting. Its performance in other patient populations, positioning, or clinical environments remains to be determined.\n\nThe preprocessing stage, adapted from the Circa team’s implementation, was effective in most cases and enabled analysis focused on the lung region. However, in some cases, the algorithm failed to correctly identify the region of interest, resulting in the processing of the entire image. This occasionally reduced the accuracy of segmentation and landmark detection due to noise from irrelevant areas. Future improvements could include additional preprocessing error-detection mechanisms or more advanced region-of-interest identification methods.\n\nThe postprocessing procedure, which involved identifying the largest connected component in the segmentation mask, also exhibited certain limitations. In rare cases where the segmented object was partially obscured by a foreign body or the neural network incorrectly identified part of the object, the postprocessing algorithm could lead to inaccurate landmark determination, resulting in erroneous distance estimates.\n\nConclusions The proposed model provides a reliable estimation of the distance between the distal tip of the ETT and the tracheal carina in millimeters, supporting more accurate assessment of ETT placement.\n\nThe developed model demonstrates high quality on the training data, with only a slight decrease in accuracy on the validation sets, confirming its generalization capability. The method is largely robust to photometric variations and differences between X-ray devices, thanks to appropriate preprocessing, pixel intensity standardization, and the diverse examples included in the training dataset.\n\nAlthough the method has limitations, including dependence on segmentation quality and occasional difficulties in atypical anatomical cases, it produced correct results in most cases. Evaluation metrics demonstrated high agreement between model predictions and expert annotations.\n\nGiven its robust performance and generalizability, the method shows strong potential for clinical application. Rapid and objective distance estimation may support radiologists and other clinicians in improving the safety and efficiency of airway management. Further refinement of segmentation algorithms and standardization of measurement procedures may enhance the reliability and clinical utility of the system.\n\nData availability The clinical chest X-ray dataset analysed in this study is not publicly available due to institutional data-protec­ tion policies and restrictions related to medical confidentiality. The anonymized data may be made available from the corresponding author upon reasonable request and with permission from the participating institutions.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nwww.nature.com/scientificreports\n\nLimitations The method was designed for use with frontal chest radiographs of adult patients in the supine position in the ICU setting. Its performance in other patient populations, positioning, or clinical environments remains to be determined.\n\nThe preprocessing stage, adapted from the Circa team’s implementation, was effective in most cases and enabled analysis focused on the lung region. However, in some cases, the algorithm failed to correctly identify the region of interest, resulting in the processing of the entire image. This occasionally reduced the accuracy of segmentation and landmark detection due to noise from irrelevant areas. Future improvements could include additional preprocessing error-detection mechanisms or more advanced region-of-interest identification methods.\n\nThe postprocessing procedure, which involved identifying the largest connected component in the segmentation mask, also exhibited certain limitations. In rare cases where the segmented object was partially obscured by a foreign body or the neural network incorrectly identified part of the object, the postprocessing algorithm could lead to inaccurate landmark determination, resulting in erroneous distance estimates.\n\nConclusions The proposed model provides a reliable estimation of the distance between the distal tip of the ETT and the tracheal carina in millimeters, supporting more accurate assessment of ETT placement.\n\nThe developed model demonstrates high quality on the training data, with only a slight decrease in accuracy on the validation sets, confirming its generalization capability. The method is largely robust to photometric variations and differences between X-ray devices, thanks to appropriate preprocessing, pixel intensity standardization, and the diverse examples included in the training dataset.\n\nAlthough the method has limitations, including dependence on segmentation quality and occasional difficulties in atypical anatomical cases, it produced correct results in most cases. Evaluation metrics demonstrated high agreement between model predictions and expert annotations.\n\nGiven its robust performance and generalizability, the method shows strong potential for clinical application. Rapid and objective distance estimation may support radiologists and other clinicians in improving the safety and efficiency of airway management. Further refinement of segmentation algorithms and standardization of measurement procedures may enhance the reliability and clinical utility of the system.\n\nData availability The clinical chest X-ray dataset analysed in this study is not publicly available due to institutional data-protec­ tion policies and restrictions related to medical confidentiality. The anonymized data may be made available from the corresponding author upon reasonable request and with permission from the participating institutions.",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "token_count": 504,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0020",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "Data availability The clinical chest X-ray dataset analysed in this study is not publicly available due to institutional data-protec­ tion policies and restrictions related to medical confidentiality. The anonymized data may be made available from the corresponding author upon reasonable request and with permission from the participating institutions.\n\nFig. 14.  Example of incorrect distance estimation due to a sharp edge in the segmentation.\n\nScientific Reports |        (2026) 16:28794 13 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nThe generated data is available from the authors and can be provided to readers upon request after prior contact. [www.eliott.aei.polsl.pl].\n\nReceived: 2 December 2025; Accepted: 15 June 2026\n\nReferences 1.\t Tsai, L.-W., Yuan, K.-C. & Hou, S.-K. Determining carina and clavicular distance-dependent positioning of endotracheal tube in\n\ncritically ill patients: An artificial intelligence-based approach. Biology11, 490. https://doi.org/10.3390/biology11040490 (2022). 2.\t Lakhani, P., Flanders, A. & Gorniak, R. Endotracheal tube position assessment on chest radiographs using deep learning. Radiol.\n\nArtif. Intell.3(1), e200026. https://doi.org/10.1148/ryai.2020200026 (2021). 3.\t Saeg, A. A. A. & Alnori, H. Laryngeal injury and dysphonia after endotracheal intubation. J. Med. Life.14(3), 355–360. ​h​t​t​p​s​:​/​/​d​o​i​\n\n.​o​r​g​/​1​0​.​2​5​1​2​2​/​j​m​l​-​2​0​2​0​-​0​1​4​8​ (2021). 4.\t Brunel, W., Coleman, D. L., Schwartz, D. E., Peper, E. & Cohen, N. H. Assessment of routine chest roentgenograms and the",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nData availability The clinical chest X-ray dataset analysed in this study is not publicly available due to institutional data-protec­ tion policies and restrictions related to medical confidentiality. The anonymized data may be made available from the corresponding author upon reasonable request and with permission from the participating institutions.\n\nFig. 14.  Example of incorrect distance estimation due to a sharp edge in the segmentation.\n\nScientific Reports |        (2026) 16:28794 13 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nThe generated data is available from the authors and can be provided to readers upon request after prior contact. [www.eliott.aei.polsl.pl].\n\nReceived: 2 December 2025; Accepted: 15 June 2026\n\nReferences 1.\t Tsai, L.-W., Yuan, K.-C. & Hou, S.-K. Determining carina and clavicular distance-dependent positioning of endotracheal tube in\n\ncritically ill patients: An artificial intelligence-based approach. Biology11, 490. https://doi.org/10.3390/biology11040490 (2022). 2.\t Lakhani, P., Flanders, A. & Gorniak, R. Endotracheal tube position assessment on chest radiographs using deep learning. Radiol.\n\nArtif. Intell.3(1), e200026. https://doi.org/10.1148/ryai.2020200026 (2021). 3.\t Saeg, A. A. A. & Alnori, H. Laryngeal injury and dysphonia after endotracheal intubation. J. Med. Life.14(3), 355–360. ​h​t​t​p​s​:​/​/​d​o​i​\n\n.​o​r​g​/​1​0​.​2​5​1​2​2​/​j​m​l​-​2​0​2​0​-​0​1​4​8​ (2021). 4.\t Brunel, W., Coleman, D. L., Schwartz, D. E., Peper, E. & Cohen, N. H. Assessment of routine chest roentgenograms and the",
+      "page_start": 11,
+      "page_end": 12,
+      "paragraph_positions": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "token_count": 470,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0021",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "physical examination to confirm endotracheal tube position. Chest96(5), 1043–1045. https://doi.org/10.1378/chest.96.5.1043 (1989). 5.\t Wang, C.-H., Hwang, T. & Huang, Y.-S. Deep learning-based localization and detection of malpositioned endotracheal tube on\n\nportable supine chest radiographs in intensive and emergency medicine: A multicenter retrospective study. Crit. Care Med.52(2), 237–247. https://doi.org/10.1097/CCM.0000000000006046 (2024). 6.\t Brown, M. S., Wong, K.-P. & Shrestha, L. Automated endotracheal tube placement check using semantically embedded deep neural\n\nnetworks. Acad. Radiol.30(3), 412–420. https://doi.org/10.1016/j.acra.2022.04.022 (2023). 7.\t Jung, H., Kim, C. & Oh, J. Position classification of the endotracheal tube with automatic segmentation of the trachea and the tube\n\non plain chest radiography using deep convolutional neural network. J. Personal. Med.12(9), 1363. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​3​3​9​0​/​j​p​m​1​2​ 0​9​1​3​6​3​ (2022). 8.\t Yuan, K.-C. et al. Using transfer learning method to develop an artificial intelligence assisted triaging for endotracheal tube\n\nposition on chest X-ray. Diagnostics11(10), 1844. https://doi.org/10.3390/diagnostics11101844 (2021). 9.\t Kara, S., Akers, J. Y. & Chang, P. D. Identification and localization of endotracheal tube on chest radiographs using a cascaded",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nphysical examination to confirm endotracheal tube position. Chest96(5), 1043–1045. https://doi.org/10.1378/chest.96.5.1043 (1989). 5.\t Wang, C.-H., Hwang, T. & Huang, Y.-S. Deep learning-based localization and detection of malpositioned endotracheal tube on\n\nportable supine chest radiographs in intensive and emergency medicine: A multicenter retrospective study. Crit. Care Med.52(2), 237–247. https://doi.org/10.1097/CCM.0000000000006046 (2024). 6.\t Brown, M. S., Wong, K.-P. & Shrestha, L. Automated endotracheal tube placement check using semantically embedded deep neural\n\nnetworks. Acad. Radiol.30(3), 412–420. https://doi.org/10.1016/j.acra.2022.04.022 (2023). 7.\t Jung, H., Kim, C. & Oh, J. Position classification of the endotracheal tube with automatic segmentation of the trachea and the tube\n\non plain chest radiography using deep convolutional neural network. J. Personal. Med.12(9), 1363. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​3​3​9​0​/​j​p​m​1​2​ 0​9​1​3​6​3​ (2022). 8.\t Yuan, K.-C. et al. Using transfer learning method to develop an artificial intelligence assisted triaging for endotracheal tube\n\nposition on chest X-ray. Diagnostics11(10), 1844. https://doi.org/10.3390/diagnostics11101844 (2021). 9.\t Kara, S., Akers, J. Y. & Chang, P. D. Identification and localization of endotracheal tube on chest radiographs using a cascaded",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "token_count": 441,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0022",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "convolutional neural network approach. J. Digit. Imaging34(4), 898–904. https://doi.org/10.1007/s10278-021-00463-0 (2021). 10.\t Harris, R. J., Baginski, S. G. & Bronstein, Y. Measurement of endotracheal tube positioning on chest X-ray using object detection.\n\nJ. Digit. Imaging34, 846–852. https://doi.org/10.1007/s10278-021-00495-6 (2021). 11.\t Huang, M.-H., Chen, C.-Y. & Horng, M.-H. Validation of a deep learning–based automatic detection algorithm for measurement\n\nof endotracheal tube–to–carina distance on chest radiographs. Anesthesiology137(6), 704–715. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​9​7​/​A​L​N​.​0​0​0​0​ 0​0​0​0​0​0​0​0​4​3​7​8​ (2022). 12.\t Oliver, M. et al. Image augmentation and automated measurement of endotracheal-tube-to-carina distance on chest radiographs\n\nin intensive care unit using a deep learning model with external validation. Crit. Care27(1), 40. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​8​6​/​s​1​3​0​5​4​-​0​ 2​3​-​0​4​3​2​0​-​0​ (2023). 13.\t Norgeot, B., Quer, G. & Beaulieu-Jones, B. K. Minimum information about clinical artificial intelligence modeling: The MI-\n\nCLAIM checklist. Nat. Med.26, 1320–1324. https://doi.org/10.1038/s41591-020-1041-y (2020). 14.\t Moons, K. G. M., Altman, D. G. & Reitsma, J. B. Transparent reporting of a multivariable prediction model for individual prognosis",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nconvolutional neural network approach. J. Digit. Imaging34(4), 898–904. https://doi.org/10.1007/s10278-021-00463-0 (2021). 10.\t Harris, R. J., Baginski, S. G. & Bronstein, Y. Measurement of endotracheal tube positioning on chest X-ray using object detection.\n\nJ. Digit. Imaging34, 846–852. https://doi.org/10.1007/s10278-021-00495-6 (2021). 11.\t Huang, M.-H., Chen, C.-Y. & Horng, M.-H. Validation of a deep learning–based automatic detection algorithm for measurement\n\nof endotracheal tube–to–carina distance on chest radiographs. Anesthesiology137(6), 704–715. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​9​7​/​A​L​N​.​0​0​0​0​ 0​0​0​0​0​0​0​0​4​3​7​8​ (2022). 12.\t Oliver, M. et al. Image augmentation and automated measurement of endotracheal-tube-to-carina distance on chest radiographs\n\nin intensive care unit using a deep learning model with external validation. Crit. Care27(1), 40. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​8​6​/​s​1​3​0​5​4​-​0​ 2​3​-​0​4​3​2​0​-​0​ (2023). 13.\t Norgeot, B., Quer, G. & Beaulieu-Jones, B. K. Minimum information about clinical artificial intelligence modeling: The MI-\n\nCLAIM checklist. Nat. Med.26, 1320–1324. https://doi.org/10.1038/s41591-020-1041-y (2020). 14.\t Moons, K. G. M., Altman, D. G. & Reitsma, J. B. Transparent reporting of a multivariable prediction model for individual prognosis",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "token_count": 451,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0023",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "or diagnosis (TRIPOD): Explanation and elaboration. Ann. Intern. Med.162, W1–W73. https://doi.org/10.7326/M14-0698 (2015). 15.\t 3D Slicer Team. 3D Slicer: Software for image segmentation and visualization, version 5. Available at: https://www.slicer.org/ 16.\t Prazuch, W., Suwalska, A., Socha, M., Tobiasz, J., Foszner, P., Jaroszewicz, J., Gruszczynska, K., Sliwinska, M., Walecki, J., Popiela,\n\nT., Przybylski, G, Cieszanowski, A., Nowak, M., Pawlowska, M., Flisiak, R., Simon, K., Zapolska, G., Gizycka, B., Szurowska, E., POLCOVID Study Group, Marczyk, M. & Polanska, J. CIRCA: Comprehensible online system in support of chest X-rays-based COVID-19 diagnosis. arXiv:2210.05440. 17.\t Seghier, M. L. Image segmentation evaluation with the Dice index: Methodological issues. Int. J. Imaging Syst. Technol.34, e23203.\n\nhttps://doi.org/10.1002/ima.23203 (2024).\n\nAcknowledgements We would like to express our gratitude to the Circa research group for developing and sharing their CXR pre­ processing pipeline, which greatly facilitated the preparation and standardization of the imaging data used in this study. Their work provided a robust foundation that significantly contributed to the success of our methodology.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nor diagnosis (TRIPOD): Explanation and elaboration. Ann. Intern. Med.162, W1–W73. https://doi.org/10.7326/M14-0698 (2015). 15.\t 3D Slicer Team. 3D Slicer: Software for image segmentation and visualization, version 5. Available at: https://www.slicer.org/ 16.\t Prazuch, W., Suwalska, A., Socha, M., Tobiasz, J., Foszner, P., Jaroszewicz, J., Gruszczynska, K., Sliwinska, M., Walecki, J., Popiela,\n\nT., Przybylski, G, Cieszanowski, A., Nowak, M., Pawlowska, M., Flisiak, R., Simon, K., Zapolska, G., Gizycka, B., Szurowska, E., POLCOVID Study Group, Marczyk, M. & Polanska, J. CIRCA: Comprehensible online system in support of chest X-rays-based COVID-19 diagnosis. arXiv:2210.05440. 17.\t Seghier, M. L. Image segmentation evaluation with the Dice index: Methodological issues. Int. J. Imaging Syst. Technol.34, e23203.\n\nhttps://doi.org/10.1002/ima.23203 (2024).\n\nAcknowledgements We would like to express our gratitude to the Circa research group for developing and sharing their CXR pre­ processing pipeline, which greatly facilitated the preparation and standardization of the imaging data used in this study. Their work provided a robust foundation that significantly contributed to the success of our methodology.",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        163,
+        164,
+        165,
+        166
+      ],
+      "token_count": 403,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0024",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0003",
+      "section_title": "Training Validation Hold-out External hold-out",
+      "section_path": [
+        "OPEN",
+        "Training Validation Hold-out External hold-out"
+      ],
+      "source_text": "Acknowledgements We would like to express our gratitude to the Circa research group for developing and sharing their CXR pre­ processing pipeline, which greatly facilitated the preparation and standardization of the imaging data used in this study. Their work provided a robust foundation that significantly contributed to the success of our methodology.\n\nAuthor contributions Conceptualization, J.K.; Data curation, P.D, Ł.C., M.R., M.S., A.M., M.M., Ł.P. and I.P.; Formal analysis, I.P., J.P. and K.G.; Funding acquisition, K.G. J.K. and J.P.; Investigation, P.D., Ł.C., M.M., M.B.,  and P.D.; Methodology, J.K. and Ł.P.; Software, Ł.P. and J.P.; Supervision, K.G. and J.P.; Validation, I.P.; Visualization, Ł.C.; Writing— original draft, I.P., P.D., Ł.C., M.M., J.K., A.M., M.B., and Ł.P.; Writing—review and editing, J.K., M.B., A.M., All authors have read and agreed to the published version of the manuscript.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Training Validation Hold-out External hold-out\n\nAcknowledgements We would like to express our gratitude to the Circa research group for developing and sharing their CXR pre­ processing pipeline, which greatly facilitated the preparation and standardization of the imaging data used in this study. Their work provided a robust foundation that significantly contributed to the success of our methodology.\n\nAuthor contributions Conceptualization, J.K.; Data curation, P.D, Ł.C., M.R., M.S., A.M., M.M., Ł.P. and I.P.; Formal analysis, I.P., J.P. and K.G.; Funding acquisition, K.G. J.K. and J.P.; Investigation, P.D., Ł.C., M.M., M.B.,  and P.D.; Methodology, J.K. and Ł.P.; Software, Ł.P. and J.P.; Supervision, K.G. and J.P.; Validation, I.P.; Visualization, Ł.C.; Writing— original draft, I.P., P.D., Ł.C., M.M., J.K., A.M., M.B., and Ł.P.; Writing—review and editing, J.K., M.B., A.M., All authors have read and agreed to the published version of the manuscript.",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        166,
+        167
+      ],
+      "token_count": 306,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0025",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0004",
+      "section_title": "Declarations",
+      "section_path": [
+        "OPEN",
+        "Declarations"
+      ],
+      "source_text": "Competing interests The authors declare no competing interests.\n\nEthics approval All methods were carried out in accordance with relevant guidelines and regulations, including the Declaration of Helsinki and national legislation governing the use of medical data in research. The study was based exclusively on retrospective, fully anonymized chest X-ray images obtained from routine clinical care. According to the opinion of the Bioethics Committee of the Medical University of Silesia in Katowice (Komisja Bioetyczna SUM) (letter No. PCN/0022/KB/195/20, dated 27 January 2021), retrospective analysis of anonymized radiological data does not constitute a medical experiment under Polish law and therefore does not require formal ethical approval. In Poland, all radiological examinations, including X-ray imaging, require prior informed consent from patients as part of standard medical practice. Because the dataset used in this\n\nScientific Reports |        (2026) 16:28794 14 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nstudy was anonymized and retrospective, the requirement for additional study-specific informed consent did not apply, in accordance with the guidance of the Bioethics Committee.\n\nAdditional information Correspondence and requests for materials should be addressed to J.K. or Ł.P.\n\nReprints and permissions information is available at www.nature.com/reprints.\n\nPublisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Declarations\n\nCompeting interests The authors declare no competing interests.\n\nEthics approval All methods were carried out in accordance with relevant guidelines and regulations, including the Declaration of Helsinki and national legislation governing the use of medical data in research. The study was based exclusively on retrospective, fully anonymized chest X-ray images obtained from routine clinical care. According to the opinion of the Bioethics Committee of the Medical University of Silesia in Katowice (Komisja Bioetyczna SUM) (letter No. PCN/0022/KB/195/20, dated 27 January 2021), retrospective analysis of anonymized radiological data does not constitute a medical experiment under Polish law and therefore does not require formal ethical approval. In Poland, all radiological examinations, including X-ray imaging, require prior informed consent from patients as part of standard medical practice. Because the dataset used in this\n\nScientific Reports |        (2026) 16:28794 14 | https://doi.org/10.1038/s41598-026-58814-2\n\nwww.nature.com/scientificreports\n\nstudy was anonymized and retrospective, the requirement for additional study-specific informed consent did not apply, in accordance with the guidance of the Bioethics Committee.\n\nAdditional information Correspondence and requests for materials should be addressed to J.K. or Ł.P.\n\nReprints and permissions information is available at www.nature.com/reprints.\n\nPublisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+      "page_start": 12,
+      "page_end": 13,
+      "paragraph_positions": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "token_count": 321,
+      "chunk_index": 25,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_e4a0aa76bcd5d8ee_0026",
+      "document_id": "doc_e4a0aa76bcd5d8ee",
+      "section_id": "sec_doc_e4a0aa76bcd5d8ee_0004",
+      "section_title": "Declarations",
+      "section_path": [
+        "OPEN",
+        "Declarations"
+      ],
+      "source_text": "Additional information Correspondence and requests for materials should be addressed to J.K. or Ł.P.\n\nReprints and permissions information is available at www.nature.com/reprints.\n\nPublisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\nOpen Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​ n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​\n\n© The Author(s) 2026",
+      "embedding_text": "Document: Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model\nSection: OPEN\nSubsection: Declarations\n\nAdditional information Correspondence and requests for materials should be addressed to J.K. or Ł.P.\n\nReprints and permissions information is available at www.nature.com/reprints.\n\nPublisher’s note  Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\nOpen Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​ n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​\n\n© The Author(s) 2026",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        173,
+        174,
+        175,
+        176,
+        177
+      ],
+      "token_count": 280,
+      "chunk_index": 26,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

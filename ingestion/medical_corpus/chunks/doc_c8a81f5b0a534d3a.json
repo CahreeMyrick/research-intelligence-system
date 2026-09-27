@@ -1,0 +1,1743 @@
+{
+  "document_id": "doc_c8a81f5b0a534d3a",
+  "chunk_count": 75,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0000",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0000",
+      "section_title": "1875-6603/26 Send Orders for Reprints to reprints@benthamscience.net",
+      "section_path": [
+        "1875-6603/26 Send Orders for Reprints to reprints@benthamscience.net"
+      ],
+      "source_text": "1875-6603/26 Send Orders for Reprints to reprints@benthamscience.net",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 1875-6603/26 Send Orders for Reprints to reprints@benthamscience.net\n\n1875-6603/26 Send Orders for Reprints to reprints@benthamscience.net",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [],
+      "token_count": 21,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0001",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0001",
+      "section_title": "1",
+      "section_path": [
+        "1"
+      ],
+      "source_text": "DOI: 10.2174/0115734056396626251105115902, 2026, 22, e15734056396626",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 1\n\nDOI: 10.2174/0115734056396626251105115902, 2026, 22, e15734056396626",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0
+      ],
+      "token_count": 38,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0002",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0002",
+      "section_title": "Current Medical Imaging",
+      "section_path": [
+        "Current Medical Imaging"
+      ],
+      "source_text": "Content list available at: https://benthamscience.com/journals/cmir\n\nRESEARCH ARTICLE Spatial Attention-guided Hybrid Deep Learning with Sharpened Cosine Similarity for Accurate Chest X-ray Interpretation\n\nO Saraniya\n\n1, B Elakkiya 2,* and Naga Sai Akhila Gurre 3\n\n1Department of Electronics and Communication Engineering, Government College of Technology, Coimbatore, Tamil Nadu, India\n\n2Department of Electronics and Communication Engineering, Sri Venkateswara College of Engineering, Chennai, Tamil Nadu, India\n\n3California State University, Dominguez Hills, Carson, United States of America",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Current Medical Imaging\n\nContent list available at: https://benthamscience.com/journals/cmir\n\nRESEARCH ARTICLE Spatial Attention-guided Hybrid Deep Learning with Sharpened Cosine Similarity for Accurate Chest X-ray Interpretation\n\nO Saraniya\n\n1, B Elakkiya 2,* and Naga Sai Akhila Gurre 3\n\n1Department of Electronics and Communication Engineering, Government College of Technology, Coimbatore, Tamil Nadu, India\n\n2Department of Electronics and Communication Engineering, Sri Venkateswara College of Engineering, Chennai, Tamil Nadu, India\n\n3California State University, Dominguez Hills, Carson, United States of America",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "token_count": 132,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0003",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0003",
+      "section_title": "1 INTRODUCTION",
+      "section_path": [
+        "1 INTRODUCTION"
+      ],
+      "source_text": "COVID-19 is a contagious illness caused by the virus known as Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) [1]. First  detected  in  Wuhan  in  late  2019,\n\n* Address correspondence to this author at the Department of Electronics and Communication Engineering, Sri Venkateswara College of Engineering, Chennai, Tamil Nadu, India; E-mail: elakz05@gmail.com\n\nCOVID-19 was declared a global health crisis by the WHO in 2020 [2]. As of December 2023, the disease has resulted in over 772 million confirmed cases and nearly 7 million deaths worldwide. According to the World Health Organization (WHO), reverse transcription polymerase chain reaction (RT- PCR) remains the benchmark for diagnosing and screening COVID-19. Despite its widespread use, RT-PCR has limitations, including extended processing times that can take",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 1 INTRODUCTION\n\nCOVID-19 is a contagious illness caused by the virus known as Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) [1]. First  detected  in  Wuhan  in  late  2019,\n\n* Address correspondence to this author at the Department of Electronics and Communication Engineering, Sri Venkateswara College of Engineering, Chennai, Tamil Nadu, India; E-mail: elakz05@gmail.com\n\nCOVID-19 was declared a global health crisis by the WHO in 2020 [2]. As of December 2023, the disease has resulted in over 772 million confirmed cases and nearly 7 million deaths worldwide. According to the World Health Organization (WHO), reverse transcription polymerase chain reaction (RT- PCR) remains the benchmark for diagnosing and screening COVID-19. Despite its widespread use, RT-PCR has limitations, including extended processing times that can take",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        8,
+        9,
+        10
+      ],
+      "token_count": 189,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0004",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0004",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "Abstract",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Abstract\n\nAbstract",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0005",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0005",
+      "section_title": "Introduction",
+      "section_path": [
+        "Introduction"
+      ],
+      "source_text": "Life-threatening respiratory conditions such as COVID-19 and pneumonia demand rapid and accurate diagnosis. Chest X-rays (CXR) are widely used due to their accessibility and cost-effectiveness, but interpreting them remains clinically challenging, especially with overlapping radiological features.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Introduction\n\nLife-threatening respiratory conditions such as COVID-19 and pneumonia demand rapid and accurate diagnosis. Chest X-rays (CXR) are widely used due to their accessibility and cost-effectiveness, but interpreting them remains clinically challenging, especially with overlapping radiological features.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        11
+      ],
+      "token_count": 55,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0006",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0006",
+      "section_title": "Methods",
+      "section_path": [
+        "Methods"
+      ],
+      "source_text": "The proposed VSAG-HDL Net, a novel hybrid deep learning framework designed to enhance the accuracy and interpretability of CXR-based diagnosis. The architecture integrates a Variational Spatial Attention Fusion U-Net (VSA-FU-Net) for lesion segmentation and a Sharpened Cosine Similarity (SCS) Network for disease classification. A dataset of 21,165 CXR images from the Radiography Database was used. Segmentation performance was evaluated using Dice Similarity Coefficient (DSC) and Intersection over Union (IoU), while classification performance was assessed via accuracy metrics.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Methods\n\nThe proposed VSAG-HDL Net, a novel hybrid deep learning framework designed to enhance the accuracy and interpretability of CXR-based diagnosis. The architecture integrates a Variational Spatial Attention Fusion U-Net (VSA-FU-Net) for lesion segmentation and a Sharpened Cosine Similarity (SCS) Network for disease classification. A dataset of 21,165 CXR images from the Radiography Database was used. Segmentation performance was evaluated using Dice Similarity Coefficient (DSC) and Intersection over Union (IoU), while classification performance was assessed via accuracy metrics.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        12
+      ],
+      "token_count": 124,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0007",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0007",
+      "section_title": "Results",
+      "section_path": [
+        "Results"
+      ],
+      "source_text": "The VSA-FU-Net achieved a DSC of 90% and an IoU of 95%, indicating high precision in localizing lesions of varying shapes and sizes. The classification module reached an overall accuracy of 95.5%, outperforming traditional CNN-based methods such as CoroDet (+4.3%), CovXNet (+5.3%), and ShuffleNet (+3.9%). Although slightly less accurate than DenseNet+VIT (–2.0%) and DenseNet+VIT+GAP (–2.3%), the proposed framework offers competitive accuracy with significantly reduced model complexity.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Results\n\nThe VSA-FU-Net achieved a DSC of 90% and an IoU of 95%, indicating high precision in localizing lesions of varying shapes and sizes. The classification module reached an overall accuracy of 95.5%, outperforming traditional CNN-based methods such as CoroDet (+4.3%), CovXNet (+5.3%), and ShuffleNet (+3.9%). Although slightly less accurate than DenseNet+VIT (–2.0%) and DenseNet+VIT+GAP (–2.3%), the proposed framework offers competitive accuracy with significantly reduced model complexity.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        13
+      ],
+      "token_count": 138,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0008",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0008",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "The elimination of redundant feature extraction and the integration of spatial attention enhance both the diagnostic performance and computational efficiency, making the framework suitable for real-world clinical settings.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Discussion\n\nThe elimination of redundant feature extraction and the integration of spatial attention enhance both the diagnostic performance and computational efficiency, making the framework suitable for real-world clinical settings.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        14
+      ],
+      "token_count": 32,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0009",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "VSAG-HDL Net provides a robust, interpretable, and resource-efficient solution for chest disease detection in CXR. Its clinical integration can support early and accurate diagnostic decision-making, particularly in resource-limited environments.\n\nKeywords: Variational spatial attention, Lesion segmentation, Sharpened cosine similarity, Chest X-ray, COVID-19, SARS-CoV-2.\n\nArticle History Received: March 30, 2025 Revised: June 07, 2025 Accepted: June 16, 2025\n\n2   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nup to 48 hours, limited sensitivity (approximately 60–70%), and a considerable likelihood of false negatives [3]. Due to the urgent need for fast and accurate detection to curb the spread of the virus and facilitate effective treatment, medical imaging techniques such as chest X-rays (CXR) and computed tomography (CT) scans have been explored as alternative diagnostic methods. Both CT and CXR imaging can reveal visual indicators linked to COVID-19 infection. However, CT scans come with several limitations: they are non-portable, increasing the risk of virus transmission in centralized imaging areas; they expose patients to higher radiation doses; they are more expensive and require specialized operators; and their availability is limited, especially in rural and low-resource settings [4].\n\n• In contrast, CXR imaging has gained recognition as a valuable diagnostic tool for COVID-19 and other chest-related conditions, including pneumonia and lung opacity. Its advantages include being more accessible, cost-efficient, quicker to administer, and better suited for large-scale screening. Given these benefits, CXR plays a crucial role in identifying respiratory diseases that significantly contribute to global morbidity and mortality [5]. Although CXR imaging offers numerous advantages in detecting respiratory diseases, interpreting these images remains a complex task. One of the main challenges is the superimposition of anatomical and tissue structures along the projection path, which can obscure critical findings. Accurate interpretation demands a high level of expertise, focus, and clinical experience. With the growing reliance on CXR imaging and the substantial volume of scans generated daily, radiologists face increased workloads, which can contribute to diagnostic errors. It is estimated that real-time interpretation errors occur in approximately 3–5% of cases during routine clinical practice.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nVSAG-HDL Net provides a robust, interpretable, and resource-efficient solution for chest disease detection in CXR. Its clinical integration can support early and accurate diagnostic decision-making, particularly in resource-limited environments.\n\nKeywords: Variational spatial attention, Lesion segmentation, Sharpened cosine similarity, Chest X-ray, COVID-19, SARS-CoV-2.\n\nArticle History Received: March 30, 2025 Revised: June 07, 2025 Accepted: June 16, 2025\n\n2   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nup to 48 hours, limited sensitivity (approximately 60–70%), and a considerable likelihood of false negatives [3]. Due to the urgent need for fast and accurate detection to curb the spread of the virus and facilitate effective treatment, medical imaging techniques such as chest X-rays (CXR) and computed tomography (CT) scans have been explored as alternative diagnostic methods. Both CT and CXR imaging can reveal visual indicators linked to COVID-19 infection. However, CT scans come with several limitations: they are non-portable, increasing the risk of virus transmission in centralized imaging areas; they expose patients to higher radiation doses; they are more expensive and require specialized operators; and their availability is limited, especially in rural and low-resource settings [4].\n\n• In contrast, CXR imaging has gained recognition as a valuable diagnostic tool for COVID-19 and other chest-related conditions, including pneumonia and lung opacity. Its advantages include being more accessible, cost-efficient, quicker to administer, and better suited for large-scale screening. Given these benefits, CXR plays a crucial role in identifying respiratory diseases that significantly contribute to global morbidity and mortality [5]. Although CXR imaging offers numerous advantages in detecting respiratory diseases, interpreting these images remains a complex task. One of the main challenges is the superimposition of anatomical and tissue structures along the projection path, which can obscure critical findings. Accurate interpretation demands a high level of expertise, focus, and clinical experience. With the growing reliance on CXR imaging and the substantial volume of scans generated daily, radiologists face increased workloads, which can contribute to diagnostic errors. It is estimated that real-time interpretation errors occur in approximately 3–5% of cases during routine clinical practice.",
+      "page_start": 0,
+      "page_end": 1,
+      "paragraph_positions": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "token_count": 489,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0010",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "• Lesion Boundary Ambiguity - Lung conditions often exhibit overlapping radiological features, making it challenging to delineate the boundaries of infected regions accurately. In clinical practice, the ambiguity in identifying lesion boundaries is a critical challenge that can lead to both under-segmentation and over-segmentation, compromising the reliability of subsequent analyses [6, 7].\n\n• Classification Uncertainty - Diseases such as viral pneumonia, lung opacity, and COVID-19 share common visual characteristics (e.g., ground-glass opacities and consolidations), leading to high inter-class similarity. This complicates classification, increasing the risk of misclass- ification and emphasizing the need for a precise and robust model [8, 9].\n\n• Imaging Artifacts and Variability - CXRs are susceptible to various imaging artifacts, including noise, poor contrast, and anatomical overlaps, which often compromise segmentation and classification accuracy. In clinical settings, these artifacts can vary significantly between machines and patients, further complicating the task of segmenting lesions and accurately identifying disease regions [10, 11].\n\nThese limitations underscore the crucial need for automated and intelligent systems to support radiologists in enhancing accuracy, consistency, and diagnostic efficiency. In",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\n• Lesion Boundary Ambiguity - Lung conditions often exhibit overlapping radiological features, making it challenging to delineate the boundaries of infected regions accurately. In clinical practice, the ambiguity in identifying lesion boundaries is a critical challenge that can lead to both under-segmentation and over-segmentation, compromising the reliability of subsequent analyses [6, 7].\n\n• Classification Uncertainty - Diseases such as viral pneumonia, lung opacity, and COVID-19 share common visual characteristics (e.g., ground-glass opacities and consolidations), leading to high inter-class similarity. This complicates classification, increasing the risk of misclass- ification and emphasizing the need for a precise and robust model [8, 9].\n\n• Imaging Artifacts and Variability - CXRs are susceptible to various imaging artifacts, including noise, poor contrast, and anatomical overlaps, which often compromise segmentation and classification accuracy. In clinical settings, these artifacts can vary significantly between machines and patients, further complicating the task of segmenting lesions and accurately identifying disease regions [10, 11].\n\nThese limitations underscore the crucial need for automated and intelligent systems to support radiologists in enhancing accuracy, consistency, and diagnostic efficiency. In",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "token_count": 253,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0011",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "These limitations underscore the crucial need for automated and intelligent systems to support radiologists in enhancing accuracy, consistency, and diagnostic efficiency. In\n\nrecent years, the scientific community has focused on developing cost-effective, automated methods, particularly for COVID-19 diagnosis and assessment, that utilize CXR images to support radiologists in delivering fast and accurate evaluations. Biomedical image processing has made significant strides in recent years, with deep learning emerging as the dominant approach for medical image segmentation tasks. Within this domain, lung segmentation has attracted considerable attention, as researchers strive to address challenges such as anatomical variability, lesion heterogeneity, and the need for computational efficiency. One influential method is the U-Net architecture, introduced by Islam et al. [12], which effectively balances local and global feature extraction through its encoder-decoder design. Building upon advances in segmentation, machine learning and deep learning have become central to detecting chest diseases from CXR images. Brima et al. [13] proposed a fast and computationally efficient deep transfer learning framework for accurate early diagnosis of COVID-19 and other pneumonia types from chest X-ray images, achieving 94.0% test accuracy. Bashar et al. [14] developed a framework combining image enhancement, data augmentation, and transfer learning for automatic COVID-19 pneumonia diagnosis from chest X-rays, achieving 95.63% accuracy and outperforming existing methods. However, many of these algorithms have been developed and evaluated on relatively small datasets, often limiting their generalizability and clinical applicability. To address this challenge, the COVID-19 Radiography Database was released in 2021, offering a large-scale collection of 3,616 COVID-19 images, 10,192 normal cases, 6,012 lung opacity (non-COVID) cases, and 1,345 viral pneumonia cases. This extensive dataset has enabled researchers to train and evaluate models on a broader range of classes, improving diagnostic capabilities and model reliability [15].",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nThese limitations underscore the crucial need for automated and intelligent systems to support radiologists in enhancing accuracy, consistency, and diagnostic efficiency. In\n\nrecent years, the scientific community has focused on developing cost-effective, automated methods, particularly for COVID-19 diagnosis and assessment, that utilize CXR images to support radiologists in delivering fast and accurate evaluations. Biomedical image processing has made significant strides in recent years, with deep learning emerging as the dominant approach for medical image segmentation tasks. Within this domain, lung segmentation has attracted considerable attention, as researchers strive to address challenges such as anatomical variability, lesion heterogeneity, and the need for computational efficiency. One influential method is the U-Net architecture, introduced by Islam et al. [12], which effectively balances local and global feature extraction through its encoder-decoder design. Building upon advances in segmentation, machine learning and deep learning have become central to detecting chest diseases from CXR images. Brima et al. [13] proposed a fast and computationally efficient deep transfer learning framework for accurate early diagnosis of COVID-19 and other pneumonia types from chest X-ray images, achieving 94.0% test accuracy. Bashar et al. [14] developed a framework combining image enhancement, data augmentation, and transfer learning for automatic COVID-19 pneumonia diagnosis from chest X-rays, achieving 95.63% accuracy and outperforming existing methods. However, many of these algorithms have been developed and evaluated on relatively small datasets, often limiting their generalizability and clinical applicability. To address this challenge, the COVID-19 Radiography Database was released in 2021, offering a large-scale collection of 3,616 COVID-19 images, 10,192 normal cases, 6,012 lung opacity (non-COVID) cases, and 1,345 viral pneumonia cases. This extensive dataset has enabled researchers to train and evaluate models on a broader range of classes, improving diagnostic capabilities and model reliability [15].",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        24,
+        25
+      ],
+      "token_count": 423,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0012",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "In 2020, Chen et al. [16] proposed a Two-Stream Collaborative Network (TSCN) for multi-label chest X-ray classification, combining global image and lung field features using U-Net lung segmentation. The method improved overall AUC to 0.816, outperforming other models in detecting nodules, pneumothorax, and emphysema. However, its performance on infiltration was limited due to the complexity of the textures. In 2021, Vidal et al. [17] proposed a two-stage transfer learning approach that adapted a pre-trained brain MRI segmentation model to identify lung regions in portable chest X-rays, achieving high accuracy in classifying COVID-19 (0.9761), normal (0.9801), and related pulmonary conditions (0.9769), even with limited and low-quality data. In 2022, Maity et al. [18] proposed a DCNN-based method with residual links and advanced preprocessing (Top-Hat/Bottom- Hat, CLAHE) to improve lung segmentation in chest X-rays for CAD systems. Tested on different datasets, it achieved a Dice score of 0.982 and a Jaccard score of 0.967, outperforming existing methods while maintaining a lightweight architecture suitable for standard GPUs. In 2018, Dai et al. [19] proposed SCAN, a dual-network framework comprising a Fully Convolutional Network (FCN) and a critic network. SCAN refines segmentation masks through adversarial training, ensuring alignment with the ground truth.\n\nIn 2022, Ukwuoma et al. [20] developed the Inceptionv3\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   3",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nIn 2020, Chen et al. [16] proposed a Two-Stream Collaborative Network (TSCN) for multi-label chest X-ray classification, combining global image and lung field features using U-Net lung segmentation. The method improved overall AUC to 0.816, outperforming other models in detecting nodules, pneumothorax, and emphysema. However, its performance on infiltration was limited due to the complexity of the textures. In 2021, Vidal et al. [17] proposed a two-stage transfer learning approach that adapted a pre-trained brain MRI segmentation model to identify lung regions in portable chest X-rays, achieving high accuracy in classifying COVID-19 (0.9761), normal (0.9801), and related pulmonary conditions (0.9769), even with limited and low-quality data. In 2022, Maity et al. [18] proposed a DCNN-based method with residual links and advanced preprocessing (Top-Hat/Bottom- Hat, CLAHE) to improve lung segmentation in chest X-rays for CAD systems. Tested on different datasets, it achieved a Dice score of 0.982 and a Jaccard score of 0.967, outperforming existing methods while maintaining a lightweight architecture suitable for standard GPUs. In 2018, Dai et al. [19] proposed SCAN, a dual-network framework comprising a Fully Convolutional Network (FCN) and a critic network. SCAN refines segmentation masks through adversarial training, ensuring alignment with the ground truth.\n\nIn 2022, Ukwuoma et al. [20] developed the Inceptionv3\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   3",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        26,
+        27,
+        28
+      ],
+      "token_count": 379,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0013",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "In 2022, Ukwuoma et al. [20] developed the Inceptionv3\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   3\n\nmodel by incorporating light-chroma separation using global second-order pooling instead of average pooling, achieving 98.2% accuracy with efficient computation. Khan et al. [21] introduced a multi-class classification method that combined multiple pre-trained models with a custom classification head. Using data augmentation to balance the dataset, their EfficientNetB1 model reached a top accuracy of 96.13%. Meanwhile, Pan et al. [22] proposed a deep neural network (DNN) with multiple channels that utilizes feature fusion, achieving an average classification accuracy of 93.19% across four categories. Liu et al. [23] improved the U-Net model by incorporating residual links and a tailored leaky activation function to enhance lung segmentation in chest X-rays. It performed well on poor-quality images and abnormal cases, such as pleural effusion; however, the added residual blocks increased processing time, affecting real-time application. Ahila et al. [24] proposed the E-GCS network, a multi-modal framework designed to differentiate normal and abnormal COVID-19 cases using ultrasound, X-ray, and CT scan images. The model integrates an Attention Bottleneck Residual Network (AB-ResNet) to prioritise diagnostically relevant features across modalities, improving cross-domain generalization.\n\nPal et al. [25] introduced a segmentation architecture for detecting small lesions in medical images. The model combines dense convolutional layers in an encoder-decoder structure (UW-Net) with skip connections enhanced by attention mechanisms. These skip connections refine feature propagation, enabling precise localization of subtle lesions often missed by conventional U-Net variants. Tang et al. [26] proposed an X-ray lung segmentation framework that enhances data augmentation with synthetic pathological images and improves boundary delineation using a Crisscross Attention module. Singh et al. [27] developed a computationally efficient lung segmentation model leveraging the DeepLabv3+ architecture. The model strikes a balance between accuracy and efficiency, leveraging MobileNetV2’s parameter-efficient design for real-time segmentation while maintaining competitive performance on benchmark datasets.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nIn 2022, Ukwuoma et al. [20] developed the Inceptionv3\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   3\n\nmodel by incorporating light-chroma separation using global second-order pooling instead of average pooling, achieving 98.2% accuracy with efficient computation. Khan et al. [21] introduced a multi-class classification method that combined multiple pre-trained models with a custom classification head. Using data augmentation to balance the dataset, their EfficientNetB1 model reached a top accuracy of 96.13%. Meanwhile, Pan et al. [22] proposed a deep neural network (DNN) with multiple channels that utilizes feature fusion, achieving an average classification accuracy of 93.19% across four categories. Liu et al. [23] improved the U-Net model by incorporating residual links and a tailored leaky activation function to enhance lung segmentation in chest X-rays. It performed well on poor-quality images and abnormal cases, such as pleural effusion; however, the added residual blocks increased processing time, affecting real-time application. Ahila et al. [24] proposed the E-GCS network, a multi-modal framework designed to differentiate normal and abnormal COVID-19 cases using ultrasound, X-ray, and CT scan images. The model integrates an Attention Bottleneck Residual Network (AB-ResNet) to prioritise diagnostically relevant features across modalities, improving cross-domain generalization.\n\nPal et al. [25] introduced a segmentation architecture for detecting small lesions in medical images. The model combines dense convolutional layers in an encoder-decoder structure (UW-Net) with skip connections enhanced by attention mechanisms. These skip connections refine feature propagation, enabling precise localization of subtle lesions often missed by conventional U-Net variants. Tang et al. [26] proposed an X-ray lung segmentation framework that enhances data augmentation with synthetic pathological images and improves boundary delineation using a Crisscross Attention module. Singh et al. [27] developed a computationally efficient lung segmentation model leveraging the DeepLabv3+ architecture. The model strikes a balance between accuracy and efficiency, leveraging MobileNetV2’s parameter-efficient design for real-time segmentation while maintaining competitive performance on benchmark datasets.",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "token_count": 498,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0014",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "Gupta et al. [28] proposed a hybrid framework that combines Attention U-Net for lung segmentation and Vision Transformers (ViTs) for the classification of chest X-rays. The study aimed to enhance performance and explainability in the diagnosis of lung diseases. The model achieved a DSC of 98.54%, while MobileViT reached 98.52% accuracy, outperforming CNNs by 9.26%. The use of Grad-CAM++ and Layer-wise Relevance Propagation provided transparency into the model's decision-making process, promoting clinical trust. Geng et al. [29] introduced STCNet, a hybrid segmentation network that integrates Swin Transformers and CNNs to accurately segment regions of scattered lung infections in COVID-19 CT images. The model incorporates a ReSwin transformer block for richer feature extraction and a skip connection cross-attention module to preserve boundary information. Additionally, a scale-aware pyramid fusion module enhances the integration of multi-scale context. STCNet achieved Dice scores of 79.92% and 82.78% on two benchmark COVID-19 datasets, outperforming existing methods in infection segmentation. Ağralı et al. [30] proposed\n\nU-TranSvision, a transformer-based model for segmenting lesions in chest CT images. To enhance the detection of small lesions, the model integrates salient feature learning and utilizes Pix2Pix GAN for data augmentation. Noise removal preprocessing was applied, and a new dataset of 11,717 annotated CT slices was introduced. U-TranSvision achieved a Dice Similarity Coefficient of 85.57% and an IoU of 74.82%, demonstrating superior performance and robustness on multiple public datasets (COVID-19-CT-Seg, MosMedData, and MedSeg) while maintaining low computational complexity.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nGupta et al. [28] proposed a hybrid framework that combines Attention U-Net for lung segmentation and Vision Transformers (ViTs) for the classification of chest X-rays. The study aimed to enhance performance and explainability in the diagnosis of lung diseases. The model achieved a DSC of 98.54%, while MobileViT reached 98.52% accuracy, outperforming CNNs by 9.26%. The use of Grad-CAM++ and Layer-wise Relevance Propagation provided transparency into the model's decision-making process, promoting clinical trust. Geng et al. [29] introduced STCNet, a hybrid segmentation network that integrates Swin Transformers and CNNs to accurately segment regions of scattered lung infections in COVID-19 CT images. The model incorporates a ReSwin transformer block for richer feature extraction and a skip connection cross-attention module to preserve boundary information. Additionally, a scale-aware pyramid fusion module enhances the integration of multi-scale context. STCNet achieved Dice scores of 79.92% and 82.78% on two benchmark COVID-19 datasets, outperforming existing methods in infection segmentation. Ağralı et al. [30] proposed\n\nU-TranSvision, a transformer-based model for segmenting lesions in chest CT images. To enhance the detection of small lesions, the model integrates salient feature learning and utilizes Pix2Pix GAN for data augmentation. Noise removal preprocessing was applied, and a new dataset of 11,717 annotated CT slices was introduced. U-TranSvision achieved a Dice Similarity Coefficient of 85.57% and an IoU of 74.82%, demonstrating superior performance and robustness on multiple public datasets (COVID-19-CT-Seg, MosMedData, and MedSeg) while maintaining low computational complexity.",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        31,
+        32
+      ],
+      "token_count": 396,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0015",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0009",
+      "section_title": "Conclusion",
+      "section_path": [
+        "Conclusion"
+      ],
+      "source_text": "Despite notable advances in deep learning (DL) for chest X-ray (CXR) analysis, many existing studies are constrained by simplified classification tasks, often involving binary or three-class problems focusing on COVID-19, pneumonia, and normal cases. These models are frequently trained on relatively small or artificially augmented datasets, which can limit generalizability and introduce biases that are not representative of real-world clinical data. Furthermore, inconsistencies in data partitioning and limited transparency in experimental protocols have raised concerns about reproducibility and robustness in reported findings [31].\n\nTo overcome these challenges, we propose VSAG-HDL Net, a Variational Spatial Attention-Guided Hybrid Deep Learning framework that combines segmentation and classification in a unified architecture. This approach addresses the need for both anatomical precision and contextual understanding by integrating spatial attention mechanisms and sharpened cosine similarity for improved feature discrimination [32 - 34]. By coupling segmentation with classification, VSAG-HDL Net leverages structural cues from lung regions to enhance class-specific pattern recognition. This design supports more accurate differentiation between COVID-19, viral pneumonia, lung opacity, and healthy cases on large, publicly available CXR datasets, providing a comprehensive and interpretable solution for real-world clinical applications.\n\nSpecifically, VSAG-HDL Net enhances CXR analysis through:\n\n• VSAFU-Net, which integrates spatial and channel attention mechanisms to achieve enhanced segmentation accuracy. This design enables precise refinement of lesion boundaries and improves the localization of infected lung regions on chest X-rays.\n\n• SCS, which improves classification performance by enhancing feature discrimination and minimizing inter-class similarities. This contributes to more reliable differentiation between similar diseases.\n\n• The proposed approach outperforms traditional methods in lesion segmentation and disease classification on diverse CXR data, while providing interpretable and reliable outputs through attention-based visualization and explainability techniques, enhancing clinical workflows with accurate and transparent multi-disease diagnosis.\n\n4   Current Medical Imaging, 2026, Volume 22 Saraniya et al.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: Conclusion\n\nDespite notable advances in deep learning (DL) for chest X-ray (CXR) analysis, many existing studies are constrained by simplified classification tasks, often involving binary or three-class problems focusing on COVID-19, pneumonia, and normal cases. These models are frequently trained on relatively small or artificially augmented datasets, which can limit generalizability and introduce biases that are not representative of real-world clinical data. Furthermore, inconsistencies in data partitioning and limited transparency in experimental protocols have raised concerns about reproducibility and robustness in reported findings [31].\n\nTo overcome these challenges, we propose VSAG-HDL Net, a Variational Spatial Attention-Guided Hybrid Deep Learning framework that combines segmentation and classification in a unified architecture. This approach addresses the need for both anatomical precision and contextual understanding by integrating spatial attention mechanisms and sharpened cosine similarity for improved feature discrimination [32 - 34]. By coupling segmentation with classification, VSAG-HDL Net leverages structural cues from lung regions to enhance class-specific pattern recognition. This design supports more accurate differentiation between COVID-19, viral pneumonia, lung opacity, and healthy cases on large, publicly available CXR datasets, providing a comprehensive and interpretable solution for real-world clinical applications.\n\nSpecifically, VSAG-HDL Net enhances CXR analysis through:\n\n• VSAFU-Net, which integrates spatial and channel attention mechanisms to achieve enhanced segmentation accuracy. This design enables precise refinement of lesion boundaries and improves the localization of infected lung regions on chest X-rays.\n\n• SCS, which improves classification performance by enhancing feature discrimination and minimizing inter-class similarities. This contributes to more reliable differentiation between similar diseases.\n\n• The proposed approach outperforms traditional methods in lesion segmentation and disease classification on diverse CXR data, while providing interpretable and reliable outputs through attention-based visualization and explainability techniques, enhancing clinical workflows with accurate and transparent multi-disease diagnosis.\n\n4   Current Medical Imaging, 2026, Volume 22 Saraniya et al.",
+      "page_start": 2,
+      "page_end": 3,
+      "paragraph_positions": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "token_count": 437,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0016",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0010",
+      "section_title": "2 MATERIALS AND METHODOLOGY",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY"
+      ],
+      "source_text": "2 MATERIALS AND METHODOLOGY",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\n\n2 MATERIALS AND METHODOLOGY",
+      "page_start": 3,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0017",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0011",
+      "section_title": "2.1 Radiography Dataset",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset"
+      ],
+      "source_text": "The Radiography Dataset is a publicly available collection of 21,165 chest X-ray images, curated to support research on lung disease classification and segmentation [35]. As outlined in Table 1, the dataset is divided into four classes: COVID-19 (3,616 images, 17.08%), Viral Pneumonia (1,345 images, 6.36%), Lung Opacity (6,012 images, 28.40%), and Normal (10,192 images, 48.16%). Each image is accompanied by a corresponding segmentation mask, enabling both classification and segmentation tasks. Figure 1 shows sample imagesfrom the dataset.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\n\nThe Radiography Dataset is a publicly available collection of 21,165 chest X-ray images, curated to support research on lung disease classification and segmentation [35]. As outlined in Table 1, the dataset is divided into four classes: COVID-19 (3,616 images, 17.08%), Viral Pneumonia (1,345 images, 6.36%), Lung Opacity (6,012 images, 28.40%), and Normal (10,192 images, 48.16%). Each image is accompanied by a corresponding segmentation mask, enabling both classification and segmentation tasks. Figure 1 shows sample imagesfrom the dataset.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        40
+      ],
+      "token_count": 142,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0018",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0012",
+      "section_title": "Table 1. Dataset composition.",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset",
+        "Table 1. Dataset composition."
+      ],
+      "source_text": "Table 1. Dataset composition.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\nSubsection: Table 1. Dataset composition.\n\nTable 1. Dataset composition.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [],
+      "token_count": 7,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0019",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0013",
+      "section_title": "Disease Type Total Images",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset",
+        "Disease Type Total Images"
+      ],
+      "source_text": "COVID-19 3,616\n\nViral pneumonia 1,345\n\nLung opacity 6,012\n\nNormal 10,192",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\nSubsection: Disease Type Total Images\n\nCOVID-19 3,616\n\nViral pneumonia 1,345\n\nLung opacity 6,012\n\nNormal 10,192",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "token_count": 25,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0020",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0014",
+      "section_title": "Total 21,165",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset",
+        "Total 21,165"
+      ],
+      "source_text": "As detailed in Table 2, the dataset is divided into training, validation, and testing subsets for balanced model training and evaluation.\n\nTable 2. Dataset split for training, validation, and testing.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\nSubsection: Total 21,165\n\nAs detailed in Table 2, the dataset is divided into training, validation, and testing subsets for balanced model training and evaluation.\n\nTable 2. Dataset split for training, validation, and testing.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        45,
+        46
+      ],
+      "token_count": 41,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0021",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0015",
+      "section_title": "Subset Sample images Percentage (%)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset",
+        "Subset Sample images Percentage (%)"
+      ],
+      "source_text": "Training 16,932 80%\n\nTesting 2,116 10%\n\nValidation 2,117 10%",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\nSubsection: Subset Sample images Percentage (%)\n\nTraining 16,932 80%\n\nTesting 2,116 10%\n\nValidation 2,117 10%",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        47,
+        48,
+        49
+      ],
+      "token_count": 19,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0022",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0016",
+      "section_title": "Total 21,165 100%",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.1 Radiography Dataset",
+        "Total 21,165 100%"
+      ],
+      "source_text": "Before training the deep learning models, all images undergo standardized preprocessing steps to ensure data consistency and improve model performance. The following preprocessing techniques are applied:\n\n• Image Resizing: All chest X-ray (CXR) images are resized to 256 × 256 pixels to standardize input dimensions across the model. This resizing ensures compatibility with common deep learning architectures while preserving essential anatomical features, particularly in the lung regions.\n\n• Normalization: Pixel values are scaled to a range of 0–1 using min-max normalization. This step improves model stability during training by preventing numerical issues and facilitates faster and more consistent convergence [36].\n\n• Data Augmentation: Data augmentation strategies were used to reduce class imbalance and strengthen the model's ability to generalize. Techniques such as rotation (±10°), horizontal flipping, and contrast enhancement [37]. These specific augmentations are chosen because they simulate natural variations in clinical imaging, such as different patient positions, orientations, and imaging conditions, without altering the fundamental diagnostic features. Introducing such variability makes the model more robust to real-world data inconsistencies and less likely to overfit the training set. Figure 2 shows the sample augmented images.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.1 Radiography Dataset\nSubsection: Total 21,165 100%\n\nBefore training the deep learning models, all images undergo standardized preprocessing steps to ensure data consistency and improve model performance. The following preprocessing techniques are applied:\n\n• Image Resizing: All chest X-ray (CXR) images are resized to 256 × 256 pixels to standardize input dimensions across the model. This resizing ensures compatibility with common deep learning architectures while preserving essential anatomical features, particularly in the lung regions.\n\n• Normalization: Pixel values are scaled to a range of 0–1 using min-max normalization. This step improves model stability during training by preventing numerical issues and facilitates faster and more consistent convergence [36].\n\n• Data Augmentation: Data augmentation strategies were used to reduce class imbalance and strengthen the model's ability to generalize. Techniques such as rotation (±10°), horizontal flipping, and contrast enhancement [37]. These specific augmentations are chosen because they simulate natural variations in clinical imaging, such as different patient positions, orientations, and imaging conditions, without altering the fundamental diagnostic features. Introducing such variability makes the model more robust to real-world data inconsistencies and less likely to overfit the training set. Figure 2 shows the sample augmented images.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "token_count": 256,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0023",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0017",
+      "section_title": "2.2 Methodology",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology"
+      ],
+      "source_text": "2.2 Methodology",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\n\n2.2 Methodology",
+      "page_start": 3,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0024",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0018",
+      "section_title": "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation"
+      ],
+      "source_text": "The Variational Spatial Attention Fusion U-Net (VSAFU- Net) is a novel encoder-decoder architecture tailored to segmenting complex thoracic pathologies from chest radiographs. Built upon the foundational U-Net framework, VSAFU-Net enhances segmentation performance by integrating a Variational Spatial Attention Gate (VSAG), which enables dynamic feature refinement by modeling spatial uncertainty in lesion representation. Figure (3) illustrates the complete architecture of the proposed network.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\n\nThe Variational Spatial Attention Fusion U-Net (VSAFU- Net) is a novel encoder-decoder architecture tailored to segmenting complex thoracic pathologies from chest radiographs. Built upon the foundational U-Net framework, VSAFU-Net enhances segmentation performance by integrating a Variational Spatial Attention Gate (VSAG), which enables dynamic feature refinement by modeling spatial uncertainty in lesion representation. Figure (3) illustrates the complete architecture of the proposed network.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        54
+      ],
+      "token_count": 103,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0025",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0019",
+      "section_title": "2.2.1.1 Architecture Overview",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "2.2.1.1 Architecture Overview"
+      ],
+      "source_text": "VSAFU-Net consists of four primary components: a pretrained Inception feature extractor, a hierarchical encoder, variational spatial attention gates bridging the encoder and decoder pathways, and a multi-stage decoder for segmentation map reconstruction.\n\nThe encoder path comprises four convolutional stages, each consisting of two convolutional layers followed by a ReLU activation and max pooling. The final encoder block includes a dropout layer to mitigate overfitting due to high feature complexity at deeper levels.\n\nInception modules, pretrained on large-scale datasets, are embedded before the encoder to extract high-level semantic features. This facilitates the network’s capacity to handle diverse and subtle manifestations of pulmonary abnormalities, such as COVID-19-related opacities, viral pneumonia, and diffuse lung pathologies.\n\nThe decoder path mirrors the encoder in structure and employs upsampling operations to reconstruct the spatial resolution of the segmentation map progressively. Each decoder block receives concatenated input from its corresponding encoder stage via a VSAG module.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: 2.2.1.1 Architecture Overview\n\nVSAFU-Net consists of four primary components: a pretrained Inception feature extractor, a hierarchical encoder, variational spatial attention gates bridging the encoder and decoder pathways, and a multi-stage decoder for segmentation map reconstruction.\n\nThe encoder path comprises four convolutional stages, each consisting of two convolutional layers followed by a ReLU activation and max pooling. The final encoder block includes a dropout layer to mitigate overfitting due to high feature complexity at deeper levels.\n\nInception modules, pretrained on large-scale datasets, are embedded before the encoder to extract high-level semantic features. This facilitates the network’s capacity to handle diverse and subtle manifestations of pulmonary abnormalities, such as COVID-19-related opacities, viral pneumonia, and diffuse lung pathologies.\n\nThe decoder path mirrors the encoder in structure and employs upsampling operations to reconstruct the spatial resolution of the segmentation map progressively. Each decoder block receives concatenated input from its corresponding encoder stage via a VSAG module.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "token_count": 238,
+      "chunk_index": 25,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0026",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0020",
+      "section_title": "2.2.1.2 Variational Spatial Attention Gate (VSAG)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "2.2.1.2 Variational Spatial Attention Gate (VSAG)"
+      ],
+      "source_text": "A core innovation of VSAFU-Net is the Variational Spatial Attention Gate (VSAG), positioned between each encoder and decoder block. Unlike traditional skip connections that pass features indiscriminately, the VSAG mechanism filters encoder outputs by estimating spatial attention maps through variational inference. Each Variational Spatial Attention Gate (VSAG) models the spatial attention map A(x) as a stochastic process, formulated in Eq. (1), where attention is sampled from a learned distribution to reflect spatial uncertainty:",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: 2.2.1.2 Variational Spatial Attention Gate (VSAG)\n\nA core innovation of VSAFU-Net is the Variational Spatial Attention Gate (VSAG), positioned between each encoder and decoder block. Unlike traditional skip connections that pass features indiscriminately, the VSAG mechanism filters encoder outputs by estimating spatial attention maps through variational inference. Each Variational Spatial Attention Gate (VSAG) models the spatial attention map A(x) as a stochastic process, formulated in Eq. (1), where attention is sampled from a learned distribution to reflect spatial uncertainty:",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        59
+      ],
+      "token_count": 114,
+      "chunk_index": 26,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0027",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0021",
+      "section_title": "(1)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "(1)"
+      ],
+      "source_text": "Where µ(x) and σ(x) are the mean and standard deviation maps, predicted by parallel convolutional branches.\n\nThe resulting attention maps A(x), derived via variational inference, are then employed to modulate the encoder feature maps F(x) through element-wise multiplication, as described in Eq (2):",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: (1)\n\nWhere µ(x) and σ(x) are the mean and standard deviation maps, predicted by parallel convolutional branches.\n\nThe resulting attention maps A(x), derived via variational inference, are then employed to modulate the encoder feature maps F(x) through element-wise multiplication, as described in Eq (2):",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        60,
+        61
+      ],
+      "token_count": 74,
+      "chunk_index": 27,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0028",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0022",
+      "section_title": "(2)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "(2)"
+      ],
+      "source_text": "𝐴(𝑥) = 𝜇 (𝑥) + 𝜎(𝑥) ∙ 𝜖, 𝜖~ 𝒩 (0,1)\n\n𝐹`(𝑥) = 𝐴 (𝑥) ⨀ 𝐹(𝑥)   \n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   5\n\nFig. (1). Sample chest X-ray images for different disease categories.\n\nFig. (2). Augmented chest X-ray images with different transformations.\n\nFig. (3). Variational spatial attention gate fusion U-Net architecture for segmentation.\n\n6   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nIn this equation, F’(x) represents the refined feature maps, and denotes the Hadamard (element-wise) product. This\n\nmodulation mechanism enhances the network’s focus on spatially relevant regions, allowing it to prioritize diagnostically significant features while suppressing background noise.\n\nDuring training, VSAFU-Net minimizes a hybrid loss function designed to simultaneously improve segmentation accuracy and promote meaningful spatial attention through uncertainty regularization. The total loss  is composed of two terms: the primary segmentation loss seg and the Kullback- Leibler (KL) divergence term KL​, which regularizes the variational spatial attention mechanism. This is expressed using Eq (3):",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: (2)\n\n𝐴(𝑥) = 𝜇 (𝑥) + 𝜎(𝑥) ∙ 𝜖, 𝜖~ 𝒩 (0,1)\n\n𝐹`(𝑥) = 𝐴 (𝑥) ⨀ 𝐹(𝑥)   \n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   5\n\nFig. (1). Sample chest X-ray images for different disease categories.\n\nFig. (2). Augmented chest X-ray images with different transformations.\n\nFig. (3). Variational spatial attention gate fusion U-Net architecture for segmentation.\n\n6   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nIn this equation, F’(x) represents the refined feature maps, and denotes the Hadamard (element-wise) product. This\n\nmodulation mechanism enhances the network’s focus on spatially relevant regions, allowing it to prioritize diagnostically significant features while suppressing background noise.\n\nDuring training, VSAFU-Net minimizes a hybrid loss function designed to simultaneously improve segmentation accuracy and promote meaningful spatial attention through uncertainty regularization. The total loss  is composed of two terms: the primary segmentation loss seg and the Kullback- Leibler (KL) divergence term KL​, which regularizes the variational spatial attention mechanism. This is expressed using Eq (3):",
+      "page_start": 3,
+      "page_end": 5,
+      "paragraph_positions": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "token_count": 271,
+      "chunk_index": 28,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0029",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0023",
+      "section_title": "(3)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "(3)"
+      ],
+      "source_text": "Here, λ is a weighting hyperparameter that balances the contribution of the KL divergence relative to the segmentation loss.\n\nThe KL divergence term penalizes deviation from the standard normal distribution, encouraging the learned attention weights to remain interpretable and well-behaved. It is defined using Eq. (4):",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: (3)\n\nHere, λ is a weighting hyperparameter that balances the contribution of the KL divergence relative to the segmentation loss.\n\nThe KL divergence term penalizes deviation from the standard normal distribution, encouraging the learned attention weights to remain interpretable and well-behaved. It is defined using Eq. (4):",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        72,
+        73
+      ],
+      "token_count": 68,
+      "chunk_index": 29,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0030",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0024",
+      "section_title": "(4)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation",
+        "(4)"
+      ],
+      "source_text": "This formulation ensures that the attention distributions are regularized while enhancing segmentation fidelity. In addition to spatial attention gates, the architecture incorporates a scale- aware fusion module in the decoder to aggregate multi-scale features. This module balances low-level texture details with high-level semantic content, enabling the model to handle both fine-grained edges and coarse infection patterns. Such fusion is particularly beneficial in chest X-rays, where infection regions can be diffuse and overlapping. This architecture improves robustness to overlapping pathologies and low-contrast regions, achieving superior performance in tasks such as COVID-19 lesion segmentation. By integrating probabilistic attention and uncertainty quantification, VSAFU-Net enhances segmentation precision and provides interpretable outputs to support clinical decision-making.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.1 Variation Spatial Attention Fusion U-Net for Lesion Segmentation\nSubsection: (4)\n\nThis formulation ensures that the attention distributions are regularized while enhancing segmentation fidelity. In addition to spatial attention gates, the architecture incorporates a scale- aware fusion module in the decoder to aggregate multi-scale features. This module balances low-level texture details with high-level semantic content, enabling the model to handle both fine-grained edges and coarse infection patterns. Such fusion is particularly beneficial in chest X-rays, where infection regions can be diffuse and overlapping. This architecture improves robustness to overlapping pathologies and low-contrast regions, achieving superior performance in tasks such as COVID-19 lesion segmentation. By integrating probabilistic attention and uncertainty quantification, VSAFU-Net enhances segmentation precision and provides interpretable outputs to support clinical decision-making.",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        74
+      ],
+      "token_count": 161,
+      "chunk_index": 30,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0031",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0025",
+      "section_title": "2.2.2 Theoretical and Empirical Advantages of SCS-Net over Conventional CNNs",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.2 Theoretical and Empirical Advantages of SCS-Net over Conventional CNNs"
+      ],
+      "source_text": "Traditional CNNs rely on learned filters applied via dot product operations to extract spatial hierarchies of features. While effective, these filters are sensitive to scale, orientation, and translation, often requiring extensive data augmentation and complex network depth to generalize well. Moreover, the dot product can yield strong activations for patterns with large magnitudes, even when their orientations do not align with the learned filters, potentially weakening feature selectivity. To address these limitations, the proposed SCS-Net replaces convolutional layers with SCS layers, which compute feature similarity using a normalized dot product between input\n\npatches and template kernels. The SCS operation evaluates the cosine of the angle between two vectors, image patch X and kernel Y, as, shown in Eq (5):",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.2 Theoretical and Empirical Advantages of SCS-Net over Conventional CNNs\n\nTraditional CNNs rely on learned filters applied via dot product operations to extract spatial hierarchies of features. While effective, these filters are sensitive to scale, orientation, and translation, often requiring extensive data augmentation and complex network depth to generalize well. Moreover, the dot product can yield strong activations for patterns with large magnitudes, even when their orientations do not align with the learned filters, potentially weakening feature selectivity. To address these limitations, the proposed SCS-Net replaces convolutional layers with SCS layers, which compute feature similarity using a normalized dot product between input\n\npatches and template kernels. The SCS operation evaluates the cosine of the angle between two vectors, image patch X and kernel Y, as, shown in Eq (5):",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        75,
+        76
+      ],
+      "token_count": 164,
+      "chunk_index": 31,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0032",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0026",
+      "section_title": "(5)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.2 Theoretical and Empirical Advantages of SCS-Net over Conventional CNNs",
+        "(5)"
+      ],
+      "source_text": "Here, Q is a small constant for numerical stability, and P is a learnable exponent that sharpens the response by amplifying differences in angular alignment.\n\nUnlike standard convolutions, this method discards the absolute magnitude. It emphasizes directional similarity, thereby offering robust discrimination even in cases of subtle inter-class variations, such as those seen in CXR images, which differentiate COVID-19 from other pneumonias. The sharpening exponent P serves to heighten sensitivity to alignment discrepancies. Minor angular deviations corresponding to visually similar but pathologically distinct patterns are significantly magnified, improving the network’s ability to isolate key disease characteristics. Furthermore, replacing traditional max-pooling with absolute max-pooling allows the network to retain the most intense activations, regardless of sign, preserving clinically meaningful signals that may otherwise be lost. Figure 4depicts theSCS-Net architecture with layers combined. From a computational standpoint, SCS-Net is parameter-efficient, reducing the number of trainable weights by 10x to 100x compared to standard CNNs, as shown in Fig. (5). This simplifies training, minimizes the risk of overfitting on small datasets, and enhances the ability to deploy in real-time in resource- constrained clinical settings. Empirical results confirm that SCS-Net outperforms conventional CNN-based models across several metrics (accuracy, precision, recall, F1-score, and Sensitivity) in multiclass classification tasks.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.2 Theoretical and Empirical Advantages of SCS-Net over Conventional CNNs\nSubsection: (5)\n\nHere, Q is a small constant for numerical stability, and P is a learnable exponent that sharpens the response by amplifying differences in angular alignment.\n\nUnlike standard convolutions, this method discards the absolute magnitude. It emphasizes directional similarity, thereby offering robust discrimination even in cases of subtle inter-class variations, such as those seen in CXR images, which differentiate COVID-19 from other pneumonias. The sharpening exponent P serves to heighten sensitivity to alignment discrepancies. Minor angular deviations corresponding to visually similar but pathologically distinct patterns are significantly magnified, improving the network’s ability to isolate key disease characteristics. Furthermore, replacing traditional max-pooling with absolute max-pooling allows the network to retain the most intense activations, regardless of sign, preserving clinically meaningful signals that may otherwise be lost. Figure 4depicts theSCS-Net architecture with layers combined. From a computational standpoint, SCS-Net is parameter-efficient, reducing the number of trainable weights by 10x to 100x compared to standard CNNs, as shown in Fig. (5). This simplifies training, minimizes the risk of overfitting on small datasets, and enhances the ability to deploy in real-time in resource- constrained clinical settings. Empirical results confirm that SCS-Net outperforms conventional CNN-based models across several metrics (accuracy, precision, recall, F1-score, and Sensitivity) in multiclass classification tasks.",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        77,
+        78
+      ],
+      "token_count": 313,
+      "chunk_index": 32,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0033",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0027",
+      "section_title": "2.2.3 VSAG-HDL Net Model Workflow",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.3 VSAG-HDL Net Model Workflow"
+      ],
+      "source_text": "The proposed VSAG-HDL Net framework, shown in Fig. (6), introduces a comprehensive and systematic three-stage deep learning pipeline tailored for precise and reliable chest X- ray image analysis. In Stage 1, rigorous preprocessing is performed to ensure consistency and robustness across the input data. Raw chest X-ray radiographs are first resized to a standardized resolution, allowing the model to process images with uniform spatial dimensions. Intensity normalization is subsequently applied to rescale pixel values into a consistent range, mitigating the effects of variability introduced by differing X-ray machines or acquisition settings. To further enhance the model’s generalizability and address the prevalent issue of class imbalance, extensive data augmentation techniques, including random rotations, horizontal and vertical flipping, and contrast modulation, are explicitly applied to the training set. This augmentation strategy not only enriches the diversity of training samples but also ensures that the model is exposed to a wide range of anatomical and pathological variations. The dataset is then partitioned into training (80%), Validation (10%), and testing (10%) subsets to facilitate practical model training and evaluation.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.3 VSAG-HDL Net Model Workflow\n\nThe proposed VSAG-HDL Net framework, shown in Fig. (6), introduces a comprehensive and systematic three-stage deep learning pipeline tailored for precise and reliable chest X- ray image analysis. In Stage 1, rigorous preprocessing is performed to ensure consistency and robustness across the input data. Raw chest X-ray radiographs are first resized to a standardized resolution, allowing the model to process images with uniform spatial dimensions. Intensity normalization is subsequently applied to rescale pixel values into a consistent range, mitigating the effects of variability introduced by differing X-ray machines or acquisition settings. To further enhance the model’s generalizability and address the prevalent issue of class imbalance, extensive data augmentation techniques, including random rotations, horizontal and vertical flipping, and contrast modulation, are explicitly applied to the training set. This augmentation strategy not only enriches the diversity of training samples but also ensures that the model is exposed to a wide range of anatomical and pathological variations. The dataset is then partitioned into training (80%), Validation (10%), and testing (10%) subsets to facilitate practical model training and evaluation.",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        79
+      ],
+      "token_count": 244,
+      "chunk_index": 33,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0034",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0028",
+      "section_title": "ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.3 VSAG-HDL Net Model Workflow",
+        "ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿"
+      ],
+      "source_text": "ℒ𝐾𝐿= 𝐾𝐿 [𝒩 (𝜇 (𝑥), 𝜎2(𝑥))||𝒩 (0,1)] 𝑆𝐶𝑆 (𝑋, 𝑌) = (\n\n𝑋 ∙𝑌 (‖𝑋‖+𝑄) (‖𝑌‖+𝑄))\n\n𝑝\n\nℒ ℒ ℒ\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   7\n\nFig. (4). Sharpened Cosine Similarity (SCS) architecture.\n\nFig. (5). SCS-Net architecture parameters.\n\n8   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (6). VSAG-HDL Net: A hybrid deep learning framework for chest X-ray analysis.\n\nIn Stage 2, the preprocessed images are input into the Variational Spatial Attention Fusion U-Net (VSAFU-Net), which performs precise lesion segmentation. This module is built on an encoder-decoder U-Net architecture enhanced with variational spatial attention (VSA) mechanisms embedded in the skip connections. The encoder extracts hierarchical, multi- scale features through successive convolutional and max- pooling layers, capturing both local textures and global structural information. The decoder, on the other hand, uses transposed convolutional layers to upsample and reconstruct high-resolution segmentation maps. The VSA modules play a critical role by learning to probabilistically emphasize spatial regions with high diagnostic relevance while suppressing irrelevant or noisy background features. These modules incorporate variational inference to model spatial uncertainty and dynamically adjust attention weights during training, resulting in more reliable and interpretable segmentation. The model is trained using a hybrid loss function that combines Dice loss, which ensures the accurate delineation of segmented\n\nareas, and KL divergence, which promotes effective regularization and minimization of uncertainty.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.3 VSAG-HDL Net Model Workflow\nSubsection: ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿\n\nℒ𝐾𝐿= 𝐾𝐿 [𝒩 (𝜇 (𝑥), 𝜎2(𝑥))||𝒩 (0,1)] 𝑆𝐶𝑆 (𝑋, 𝑌) = (\n\n𝑋 ∙𝑌 (‖𝑋‖+𝑄) (‖𝑌‖+𝑄))\n\n𝑝\n\nℒ ℒ ℒ\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   7\n\nFig. (4). Sharpened Cosine Similarity (SCS) architecture.\n\nFig. (5). SCS-Net architecture parameters.\n\n8   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (6). VSAG-HDL Net: A hybrid deep learning framework for chest X-ray analysis.\n\nIn Stage 2, the preprocessed images are input into the Variational Spatial Attention Fusion U-Net (VSAFU-Net), which performs precise lesion segmentation. This module is built on an encoder-decoder U-Net architecture enhanced with variational spatial attention (VSA) mechanisms embedded in the skip connections. The encoder extracts hierarchical, multi- scale features through successive convolutional and max- pooling layers, capturing both local textures and global structural information. The decoder, on the other hand, uses transposed convolutional layers to upsample and reconstruct high-resolution segmentation maps. The VSA modules play a critical role by learning to probabilistically emphasize spatial regions with high diagnostic relevance while suppressing irrelevant or noisy background features. These modules incorporate variational inference to model spatial uncertainty and dynamically adjust attention weights during training, resulting in more reliable and interpretable segmentation. The model is trained using a hybrid loss function that combines Dice loss, which ensures the accurate delineation of segmented\n\nareas, and KL divergence, which promotes effective regularization and minimization of uncertainty.",
+      "page_start": 5,
+      "page_end": 7,
+      "paragraph_positions": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "token_count": 384,
+      "chunk_index": 34,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0035",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0028",
+      "section_title": "ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.3 VSAG-HDL Net Model Workflow",
+        "ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿"
+      ],
+      "source_text": "areas, and KL divergence, which promotes effective regularization and minimization of uncertainty.\n\nStage 3 focuses on disease classification using the SCS Net, which diverges from CNNs by utilizing a unique similarity-based approach. In SCS Net, conventional convolutional layers are replaced by SCS layers, which compute normalized dot products between feature vectors and then apply a sharpening exponent to enhance the discriminative capacity. This design significantly reduces the number of trainable parameters while improving sensitivity to subtle inter- class variations, which is particularly beneficial when distinguishing visually similar conditions, such as COVID-19, pneumonia, and lung opacities. During training, the SCS Net is fine-tuned using a combination of cross-entropy loss and SCS- specific regularization, which collectively mitigate overfitting and encourage robust feature learning. The model operates directly on the segmentation masks generated in Stage 2, eliminating the need for manual feature engineering. Evaluation is conducted through standard performance metrics,\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   9\n\nensuring a comprehensive assessment of the model’s predictive capabilities. Furthermore, iterative model refinement is employed based on evaluation results, allowing for adaptive tuning of hyperparameters and architectural components to enhance performance across diverse clinical environments.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.3 VSAG-HDL Net Model Workflow\nSubsection: ℒ= ℒ𝑠𝑒𝑔+ 𝜆 ∙ℒ𝐾𝐿\n\nareas, and KL divergence, which promotes effective regularization and minimization of uncertainty.\n\nStage 3 focuses on disease classification using the SCS Net, which diverges from CNNs by utilizing a unique similarity-based approach. In SCS Net, conventional convolutional layers are replaced by SCS layers, which compute normalized dot products between feature vectors and then apply a sharpening exponent to enhance the discriminative capacity. This design significantly reduces the number of trainable parameters while improving sensitivity to subtle inter- class variations, which is particularly beneficial when distinguishing visually similar conditions, such as COVID-19, pneumonia, and lung opacities. During training, the SCS Net is fine-tuned using a combination of cross-entropy loss and SCS- specific regularization, which collectively mitigate overfitting and encourage robust feature learning. The model operates directly on the segmentation masks generated in Stage 2, eliminating the need for manual feature engineering. Evaluation is conducted through standard performance metrics,\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   9\n\nensuring a comprehensive assessment of the model’s predictive capabilities. Furthermore, iterative model refinement is employed based on evaluation results, allowing for adaptive tuning of hyperparameters and architectural components to enhance performance across diverse clinical environments.",
+      "page_start": 7,
+      "page_end": 8,
+      "paragraph_positions": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "token_count": 273,
+      "chunk_index": 35,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0036",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0029",
+      "section_title": "2.2.4 Evaluation Metrics",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics"
+      ],
+      "source_text": "The model’s performance was assessed using standard evaluation metrics derived from the confusion matrix, which used the dataset’s class labels as a reference. An example demonstrating the model’s classification results for the lung opacity class is shown in Fig. (7). The corresponding evaluation metrics, including accuracy, precision, recall, specificity, and F1-score, were computed using the formulas provided in Eqs. (6-10).",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\n\nThe model’s performance was assessed using standard evaluation metrics derived from the confusion matrix, which used the dataset’s class labels as a reference. An example demonstrating the model’s classification results for the lung opacity class is shown in Fig. (7). The corresponding evaluation metrics, including accuracy, precision, recall, specificity, and F1-score, were computed using the formulas provided in Eqs. (6-10).",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        94
+      ],
+      "token_count": 94,
+      "chunk_index": 36,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0037",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0030",
+      "section_title": "(6)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics",
+        "(6)"
+      ],
+      "source_text": "(6)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\nSubsection: (6)\n\n(6)",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 37,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0038",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0031",
+      "section_title": "(7)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics",
+        "(7)"
+      ],
+      "source_text": "(7)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\nSubsection: (7)\n\n(7)",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 38,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0039",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0032",
+      "section_title": "(8)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics",
+        "(8)"
+      ],
+      "source_text": "(8)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\nSubsection: (8)\n\n(8)",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 39,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0040",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0033",
+      "section_title": "(9)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics",
+        "(9)"
+      ],
+      "source_text": "(9)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\nSubsection: (9)\n\n(9)",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 40,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0041",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0034",
+      "section_title": "(10)",
+      "section_path": [
+        "2 MATERIALS AND METHODOLOGY",
+        "2.2 Methodology",
+        "2.2.4 Evaluation Metrics",
+        "(10)"
+      ],
+      "source_text": "(10)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 2 MATERIALS AND METHODOLOGY\nSubsection: 2.2 Methodology\nSubsection: 2.2.4 Evaluation Metrics\nSubsection: (10)\n\n(10)",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 41,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0042",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0035",
+      "section_title": "3 EXPERIMENTAL SETUP AND EVALUATION",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION"
+      ],
+      "source_text": "The proposed VSAG-HDL Net model was implemented and trained using the Kaggle GPU environment, which provides access to NVIDIA Tesla P100 GPUs. This platform was chosen for its availability of free computational resources, ease of use, and reproducibility. Although we did not benchmark it against other platforms, it enabled efficient training and experimentation within our resource constraints.\n\nGrid search-based hyperparameter tuning was employed to optimize model performance by systematically exploring combinations of learning rate, batch size, optimizer type, and loss functions. The batch size was tested at 16, 32, and 64. A batch size of 32 was selected as it provided a good trade-off between stable gradient updates and GPU memory efficiency. A batch size of 64 caused memory overflow issues, while 16 resulted in slower convergence without notable performance gains. Learning rates of 0.1, 0.01, 0.001, and 0.0005 were evaluated. A value of 0.001 was found to be optimal, offering a balance between fast convergence and stable training. Higher learning rates caused oscillations in training loss, whereas lower rates significantly delayed convergence. Among the evaluated optimizers, SGD, RMSprop, and Adam, Adam proved to be the most effective, yielding faster convergence and lower validation loss due to its adaptive learning rate mechanism.\n\nDice loss, Binary Cross-Entropy (BCE), and a hybrid were examined for the segmentation task. The combined Dice + BCE loss function demonstrated superior performance by enhancing boundary accuracy and handling class imbalance more effectively. Categorical Cross-Entropy was selected for the classification task over Focal Loss, as data augmentation sufficiently addressed class imbalance. The learning rate was dynamically adjusted using the ReduceLROnPlateau scheduler, which demonstrated superior performance compared to StepLR and fixed-rate schedules. By monitoring validation loss, it effectively adjusted the learning rate to match the training dynamics and mitigated the risk of premature convergence. All hyperparameter combinations were evaluated using an 80% training and 10% validation split of the dataset. The final model performance was assessed on the remaining 10% test set, which was strictly held out and not utilized during either the training or validation phases. The model was trained for 50 epochs with early stopping to ensure convergence without overfitting. This comprehensive grid search strategy ensured the final configuration delivered high performance in segmentation and classification tasks while maintaining computational efficiency and training stability.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\n\nThe proposed VSAG-HDL Net model was implemented and trained using the Kaggle GPU environment, which provides access to NVIDIA Tesla P100 GPUs. This platform was chosen for its availability of free computational resources, ease of use, and reproducibility. Although we did not benchmark it against other platforms, it enabled efficient training and experimentation within our resource constraints.\n\nGrid search-based hyperparameter tuning was employed to optimize model performance by systematically exploring combinations of learning rate, batch size, optimizer type, and loss functions. The batch size was tested at 16, 32, and 64. A batch size of 32 was selected as it provided a good trade-off between stable gradient updates and GPU memory efficiency. A batch size of 64 caused memory overflow issues, while 16 resulted in slower convergence without notable performance gains. Learning rates of 0.1, 0.01, 0.001, and 0.0005 were evaluated. A value of 0.001 was found to be optimal, offering a balance between fast convergence and stable training. Higher learning rates caused oscillations in training loss, whereas lower rates significantly delayed convergence. Among the evaluated optimizers, SGD, RMSprop, and Adam, Adam proved to be the most effective, yielding faster convergence and lower validation loss due to its adaptive learning rate mechanism.\n\nDice loss, Binary Cross-Entropy (BCE), and a hybrid were examined for the segmentation task. The combined Dice + BCE loss function demonstrated superior performance by enhancing boundary accuracy and handling class imbalance more effectively. Categorical Cross-Entropy was selected for the classification task over Focal Loss, as data augmentation sufficiently addressed class imbalance. The learning rate was dynamically adjusted using the ReduceLROnPlateau scheduler, which demonstrated superior performance compared to StepLR and fixed-rate schedules. By monitoring validation loss, it effectively adjusted the learning rate to match the training dynamics and mitigated the risk of premature convergence. All hyperparameter combinations were evaluated using an 80% training and 10% validation split of the dataset. The final model performance was assessed on the remaining 10% test set, which was strictly held out and not utilized during either the training or validation phases. The model was trained for 50 epochs with early stopping to ensure convergence without overfitting. This comprehensive grid search strategy ensured the final configuration delivered high performance in segmentation and classification tasks while maintaining computational efficiency and training stability.",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        95,
+        96,
+        97
+      ],
+      "token_count": 502,
+      "chunk_index": 42,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0043",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0035",
+      "section_title": "3 EXPERIMENTAL SETUP AND EVALUATION",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION"
+      ],
+      "source_text": "Fig. (7). Confusion matrix for lung opacity performance evaluation.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\n\nFig. (7). Confusion matrix for lung opacity performance evaluation.",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        98
+      ],
+      "token_count": 16,
+      "chunk_index": 43,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0044",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0036",
+      "section_title": "𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦 (𝐴𝐶𝐶) =",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦 (𝐴𝐶𝐶) ="
+      ],
+      "source_text": "𝑇𝑃+𝑇𝑁\n\n𝑇𝑃+𝐹𝑁+𝑇𝑁+𝐹𝑃",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: 𝐴𝑐𝑐𝑢𝑟𝑎𝑐𝑦 (𝐴𝐶𝐶) =\n\n𝑇𝑃+𝑇𝑁\n\n𝑇𝑃+𝐹𝑁+𝑇𝑁+𝐹𝑃",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        99,
+        100
+      ],
+      "token_count": 10,
+      "chunk_index": 44,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0045",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0037",
+      "section_title": "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 (𝑃𝑅𝐸) =",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 (𝑃𝑅𝐸) ="
+      ],
+      "source_text": "𝑇𝑃\n\n𝑇𝑃+𝐹𝑃",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: 𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 (𝑃𝑅𝐸) =\n\n𝑇𝑃\n\n𝑇𝑃+𝐹𝑃",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        101,
+        102
+      ],
+      "token_count": 4,
+      "chunk_index": 45,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0046",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0038",
+      "section_title": "𝑅𝑒𝑐𝑎𝑙𝑙 (𝑅𝐸𝐶) =",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "𝑅𝑒𝑐𝑎𝑙𝑙 (𝑅𝐸𝐶) ="
+      ],
+      "source_text": "𝑇𝑃\n\n𝑇𝑃+𝐹𝑁",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: 𝑅𝑒𝑐𝑎𝑙𝑙 (𝑅𝐸𝐶) =\n\n𝑇𝑃\n\n𝑇𝑃+𝐹𝑁",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        103,
+        104
+      ],
+      "token_count": 4,
+      "chunk_index": 46,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0047",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0039",
+      "section_title": "𝑆𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑖𝑡𝑦 (𝑆𝑃𝐸) =",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "𝑆𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑖𝑡𝑦 (𝑆𝑃𝐸) ="
+      ],
+      "source_text": "𝑇𝑁\n\n𝑇𝑁+𝐹𝑃",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: 𝑆𝑝𝑒𝑐𝑖𝑓𝑖𝑐𝑖𝑡𝑦 (𝑆𝑃𝐸) =\n\n𝑇𝑁\n\n𝑇𝑁+𝐹𝑃",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        105,
+        106
+      ],
+      "token_count": 4,
+      "chunk_index": 47,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0048",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0040",
+      "section_title": "𝐹1 −𝑆𝑐𝑜𝑟𝑒=  2 𝑥",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "𝐹1 −𝑆𝑐𝑜𝑟𝑒=  2 𝑥"
+      ],
+      "source_text": "𝑃𝑅𝐸∗𝑅𝐸𝐶\n\n𝑃𝑅𝐸+ 𝑅𝐸𝐶\n\nLung Opacity COVID-19 Normal Viral Pneumonia Lung Opacity TP",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: 𝐹1 −𝑆𝑐𝑜𝑟𝑒=  2 𝑥\n\n𝑃𝑅𝐸∗𝑅𝐸𝐶\n\n𝑃𝑅𝐸+ 𝑅𝐸𝐶\n\nLung Opacity COVID-19 Normal Viral Pneumonia Lung Opacity TP",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        107,
+        108,
+        109
+      ],
+      "token_count": 21,
+      "chunk_index": 48,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0049",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0041",
+      "section_title": "COVID-19 Normal Viral Pneumonia FN FP TN",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "COVID-19 Normal Viral Pneumonia FN FP TN"
+      ],
+      "source_text": "10   Current Medical Imaging, 2026, Volume 22 Saraniya et al.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: COVID-19 Normal Viral Pneumonia FN FP TN\n\n10   Current Medical Imaging, 2026, Volume 22 Saraniya et al.",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        110
+      ],
+      "token_count": 16,
+      "chunk_index": 49,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0050",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0042",
+      "section_title": "Table 3. Segmentation performance of VSAFU-Net.",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "COVID-19 Normal Viral Pneumonia FN FP TN",
+        "Table 3. Segmentation performance of VSAFU-Net."
+      ],
+      "source_text": "Table 3. Segmentation performance of VSAFU-Net.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: COVID-19 Normal Viral Pneumonia FN FP TN\nSubsection: Table 3. Segmentation performance of VSAFU-Net.\n\nTable 3. Segmentation performance of VSAFU-Net.",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [],
+      "token_count": 13,
+      "chunk_index": 50,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0051",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0043",
+      "section_title": "Model DSC (%) IoU (%) Sensitivity (%) HD",
+      "section_path": [
+        "3 EXPERIMENTAL SETUP AND EVALUATION",
+        "COVID-19 Normal Viral Pneumonia FN FP TN",
+        "Model DSC (%) IoU (%) Sensitivity (%) HD"
+      ],
+      "source_text": "CENet 83.5 72.9 93.6 4.77\n\nSACU-Net 84.9 74.6 85.7 4.31\n\nUNet++ 80.1 68.0 94.3 5.03\n\nAttention UNet 82.3 70.7 94.0 4.88\n\nUNet 78.7 66.2 95.3 5.22\n\nFCN8s 74.1 60.5 99.4 5.86\n\nVSAFU-Net 90.5 95.0 97.0 4.10",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 3 EXPERIMENTAL SETUP AND EVALUATION\nSubsection: COVID-19 Normal Viral Pneumonia FN FP TN\nSubsection: Model DSC (%) IoU (%) Sensitivity (%) HD\n\nCENet 83.5 72.9 93.6 4.77\n\nSACU-Net 84.9 74.6 85.7 4.31\n\nUNet++ 80.1 68.0 94.3 5.03\n\nAttention UNet 82.3 70.7 94.0 4.88\n\nUNet 78.7 66.2 95.3 5.22\n\nFCN8s 74.1 60.5 99.4 5.86\n\nVSAFU-Net 90.5 95.0 97.0 4.10",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "token_count": 108,
+      "chunk_index": 51,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0052",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0044",
+      "section_title": "4 RESULTS AND DISCUSSION",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION"
+      ],
+      "source_text": "4 RESULTS AND DISCUSSION",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\n\n4 RESULTS AND DISCUSSION",
+      "page_start": 9,
+      "page_end": 14,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 52,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0053",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0045",
+      "section_title": "4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net"
+      ],
+      "source_text": "The proposed Variational Spatial Attention Fusion U-Net (VSAFU-Net) significantly outperforms existing segmentation models in accurately delineating lesion regions in chest X-ray images, as shown in Table 3. Quantitative results demonstrate that VSAFU-Net achieves a DSC of 90.5%, an IoU of 95.0%, a sensitivity of 97.0%, and the lowest HD of 4.10 among all compared models. These results reflect the model’s superior capability in capturing both global and local contextual information, as well as precisely outlining complex lesion boundaries. In comparison, conventional architectures such as U-Net and FCN8s exhibit lower performance, with Dice scores of 78.7% and 74.1%, respectively, and higher HD values, indicating less accurate boundary predictions. The integration of variational spatial attention gates within the encoder-decoder structure allows VSAFU-Net to effectively model spatial uncertainty, enabling it to focus on diagnostically relevant regions and suppress irrelevant background features. Additionally, the hybrid loss function, which incorporates both segmentation loss and KL divergence, contributes to robust and stable training. These enhancements collectively enable VSAFU-Net to provide more accurate, interpretable, and clinically reliable segmentation results, making it a promising tool for automated multi-disease diagnosis in chest radiography.\n\nThe performance of the VSA mechanism demonstrated varying effectiveness across different chest diseases due to the unique characteristics of lesions associated with each condition. In diseases such as viral pneumonia, where lesions are well-defined and consolidated, the VSA mechanism effectively highlights regions of interest, leading to improved segmentation and classification accuracy. However, in the case of COVID-19, which often presents with subtle, heterogeneous ground-glass opacities, the attention mechanism faced challenges in distinguishing these low-contrast areas from normal lung tissue, requiring more refined training to capture these nuances. Additionally, lung turbidity (opacity) conditions, characterized by diffuse and interstitial changes, posed difficulties for the VSA mechanism due to the lack of distinct lesion boundaries. These findings suggest that while the VSA mechanism is highly effective for diseases with clear lesion boundaries, it may require further adaptation or fine-\n\ntuning for diseases with subtle or diffuse lesion characteristics. Future work will focus on refining the VSA mechanism for these challenging conditions to improve its robustness and generalization across diverse chest disease types.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net\n\nThe proposed Variational Spatial Attention Fusion U-Net (VSAFU-Net) significantly outperforms existing segmentation models in accurately delineating lesion regions in chest X-ray images, as shown in Table 3. Quantitative results demonstrate that VSAFU-Net achieves a DSC of 90.5%, an IoU of 95.0%, a sensitivity of 97.0%, and the lowest HD of 4.10 among all compared models. These results reflect the model’s superior capability in capturing both global and local contextual information, as well as precisely outlining complex lesion boundaries. In comparison, conventional architectures such as U-Net and FCN8s exhibit lower performance, with Dice scores of 78.7% and 74.1%, respectively, and higher HD values, indicating less accurate boundary predictions. The integration of variational spatial attention gates within the encoder-decoder structure allows VSAFU-Net to effectively model spatial uncertainty, enabling it to focus on diagnostically relevant regions and suppress irrelevant background features. Additionally, the hybrid loss function, which incorporates both segmentation loss and KL divergence, contributes to robust and stable training. These enhancements collectively enable VSAFU-Net to provide more accurate, interpretable, and clinically reliable segmentation results, making it a promising tool for automated multi-disease diagnosis in chest radiography.\n\nThe performance of the VSA mechanism demonstrated varying effectiveness across different chest diseases due to the unique characteristics of lesions associated with each condition. In diseases such as viral pneumonia, where lesions are well-defined and consolidated, the VSA mechanism effectively highlights regions of interest, leading to improved segmentation and classification accuracy. However, in the case of COVID-19, which often presents with subtle, heterogeneous ground-glass opacities, the attention mechanism faced challenges in distinguishing these low-contrast areas from normal lung tissue, requiring more refined training to capture these nuances. Additionally, lung turbidity (opacity) conditions, characterized by diffuse and interstitial changes, posed difficulties for the VSA mechanism due to the lack of distinct lesion boundaries. These findings suggest that while the VSA mechanism is highly effective for diseases with clear lesion boundaries, it may require further adaptation or fine-\n\ntuning for diseases with subtle or diffuse lesion characteristics. Future work will focus on refining the VSA mechanism for these challenging conditions to improve its robustness and generalization across diverse chest disease types.",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        118,
+        119,
+        120
+      ],
+      "token_count": 508,
+      "chunk_index": 53,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0054",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0045",
+      "section_title": "4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net"
+      ],
+      "source_text": "tuning for diseases with subtle or diffuse lesion characteristics. Future work will focus on refining the VSA mechanism for these challenging conditions to improve its robustness and generalization across diverse chest disease types.\n\nThese weights are optimized through variational inference, enabling the model to handle ambiguous or overlapping features with high precision. Combining Dice loss and KL divergence, the hybrid loss function ensures accurate segmentation while minimizing uncertainty in attention maps. This approach significantly reduces the HD to 4.10, indicating precise boundary delineation of infected regions shown in Figs. (8 and 9). The model’s ability to adaptively refine attention weights during training enhances its robustness to lesion shape, size, and location variations, making it particularly effective for complex medical tasks.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.1 Segmentation Performance of Variational Spatial Attention Fusion U-Net\n\ntuning for diseases with subtle or diffuse lesion characteristics. Future work will focus on refining the VSA mechanism for these challenging conditions to improve its robustness and generalization across diverse chest disease types.\n\nThese weights are optimized through variational inference, enabling the model to handle ambiguous or overlapping features with high precision. Combining Dice loss and KL divergence, the hybrid loss function ensures accurate segmentation while minimizing uncertainty in attention maps. This approach significantly reduces the HD to 4.10, indicating precise boundary delineation of infected regions shown in Figs. (8 and 9). The model’s ability to adaptively refine attention weights during training enhances its robustness to lesion shape, size, and location variations, making it particularly effective for complex medical tasks.",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        120,
+        121
+      ],
+      "token_count": 159,
+      "chunk_index": 54,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0055",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0046",
+      "section_title": "4.2 Classification Performance of SCS-Net",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net"
+      ],
+      "source_text": "The classification performance of SCS-Net was rigorously evaluated using a multi-class dataset comprising four categories: COVID, Lung Opacity, Normal, and Viral Pneumonia. The model’s training dynamics, diagnostic accuracy, and per-class evaluation metrics are analyzed below. During training, SCS-Net demonstrated robust convergence behavior. The left panel of Fig. (10) shows a steady decrease in both training and validation loss, stabilizing after approximately 14 epochs, indicating effective optimization without overfitting. The right panel highlights a corresponding rise in training and validation accuracy, reaching plateaus near 97.5% and 95.5%, respectively. This alignment between training and validation metrics confirms the model’s generalization capability.\n\nFigure 11 presents the confusion matrix of the proposed model, offering detailed insights into its performance across individual classes. SCS-Net achieved high accuracy across all categories, with 98.07% accuracy for COVID, 92.36% for Lung Opacity, 96.76% for Normal, and 94.03% for Viral Pneumonia. Notably, the model exhibited minimal false positives for Viral Pneumonia (0 misclassifications) and Normal cases (0 misclassifications). However, minor inter- class confusion occurred, particularly between COVID and Lung Opacity (4 misclassified instances) and Normal and Lung Opacity (42 misclassified cases). These overlaps reflect challenges in distinguishing subtle radiographic patterns, a common issue in medical imaging tasks.\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   11\n\nFig. (8). Viral pneumonia segmented image using VSAFU-Net.\n\nFig. (9). Normal lungs segmented image using VSAFU-Net.\n\nFig. (10). SCS model training and validation performance analysis.\n\n12   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (11). SCS net confusion matrix for test data.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\n\nThe classification performance of SCS-Net was rigorously evaluated using a multi-class dataset comprising four categories: COVID, Lung Opacity, Normal, and Viral Pneumonia. The model’s training dynamics, diagnostic accuracy, and per-class evaluation metrics are analyzed below. During training, SCS-Net demonstrated robust convergence behavior. The left panel of Fig. (10) shows a steady decrease in both training and validation loss, stabilizing after approximately 14 epochs, indicating effective optimization without overfitting. The right panel highlights a corresponding rise in training and validation accuracy, reaching plateaus near 97.5% and 95.5%, respectively. This alignment between training and validation metrics confirms the model’s generalization capability.\n\nFigure 11 presents the confusion matrix of the proposed model, offering detailed insights into its performance across individual classes. SCS-Net achieved high accuracy across all categories, with 98.07% accuracy for COVID, 92.36% for Lung Opacity, 96.76% for Normal, and 94.03% for Viral Pneumonia. Notably, the model exhibited minimal false positives for Viral Pneumonia (0 misclassifications) and Normal cases (0 misclassifications). However, minor inter- class confusion occurred, particularly between COVID and Lung Opacity (4 misclassified instances) and Normal and Lung Opacity (42 misclassified cases). These overlaps reflect challenges in distinguishing subtle radiographic patterns, a common issue in medical imaging tasks.\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   11\n\nFig. (8). Viral pneumonia segmented image using VSAFU-Net.\n\nFig. (9). Normal lungs segmented image using VSAFU-Net.\n\nFig. (10). SCS model training and validation performance analysis.\n\n12   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (11). SCS net confusion matrix for test data.",
+      "page_start": 9,
+      "page_end": 11,
+      "paragraph_positions": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "token_count": 410,
+      "chunk_index": 55,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0056",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0046",
+      "section_title": "4.2 Classification Performance of SCS-Net",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net"
+      ],
+      "source_text": "Fig. (9). Normal lungs segmented image using VSAFU-Net.\n\nFig. (10). SCS model training and validation performance analysis.\n\n12   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (11). SCS net confusion matrix for test data.\n\nThe quantitative evaluation shown in Fig. (12) demon- strates SCS-Net's exceptional diagnostic reliability, with consistently high-performance metrics across all classes. For COVID cases, the model achieved near-perfect precision (98.07%) and recall (96.99%), yielding an outstanding F1- score of 97.53%. Similar robustness was observed for Lung Opacity (F1=93.45%), Normal cases (F1=95.91%), and Viral Pneumonia, where the model demonstrated perfect recall (100%) combined with high precision (94.03%) for an excellent F1-score of 96.92%. With an overall accuracy of 95.56% and a remarkably low misclassification rate of just 4.44%, SCS-Net proves highly effective in clinical decision- making. The strong macro-F1 (0.9595) and weighted-F1 (0.9557) scores further highlight the model's ability to maintain balanced performance across imbalanced class distributions, making it particularly valuable for real-world medical applications where diverse pathologies must be accurately identified. These results confirm SCS-Net as a reliable, well- rounded diagnostic tool capable of handling complex clinical scenarios with high precision and sensitivity.\n\nThe experimental results demonstrate that SCS Net (VSAG-HDL Net) achieves performance metrics comparable to state-of-the-art models while maintaining architectural simplicity, as shown in Table 4. With an accuracy of 95.5%, our approach significantly outperforms conventional deep neural networks (87.1%) and ensemble machine learning",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\n\nFig. (9). Normal lungs segmented image using VSAFU-Net.\n\nFig. (10). SCS model training and validation performance analysis.\n\n12   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (11). SCS net confusion matrix for test data.\n\nThe quantitative evaluation shown in Fig. (12) demon- strates SCS-Net's exceptional diagnostic reliability, with consistently high-performance metrics across all classes. For COVID cases, the model achieved near-perfect precision (98.07%) and recall (96.99%), yielding an outstanding F1- score of 97.53%. Similar robustness was observed for Lung Opacity (F1=93.45%), Normal cases (F1=95.91%), and Viral Pneumonia, where the model demonstrated perfect recall (100%) combined with high precision (94.03%) for an excellent F1-score of 96.92%. With an overall accuracy of 95.56% and a remarkably low misclassification rate of just 4.44%, SCS-Net proves highly effective in clinical decision- making. The strong macro-F1 (0.9595) and weighted-F1 (0.9557) scores further highlight the model's ability to maintain balanced performance across imbalanced class distributions, making it particularly valuable for real-world medical applications where diverse pathologies must be accurately identified. These results confirm SCS-Net as a reliable, well- rounded diagnostic tool capable of handling complex clinical scenarios with high precision and sensitivity.\n\nThe experimental results demonstrate that SCS Net (VSAG-HDL Net) achieves performance metrics comparable to state-of-the-art models while maintaining architectural simplicity, as shown in Table 4. With an accuracy of 95.5%, our approach significantly outperforms conventional deep neural networks (87.1%) and ensemble machine learning",
+      "page_start": 10,
+      "page_end": 11,
+      "paragraph_positions": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "token_count": 400,
+      "chunk_index": 56,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0057",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0046",
+      "section_title": "4.2 Classification Performance of SCS-Net",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net"
+      ],
+      "source_text": "methods (87.7%), showing improvements of 4.0–8.4% across lightweight CNN architectures such as SqueezeNet (89.4%) and ShuffleNet (91.6%). Although hybrid systems combining CNNs and transformers (e.g., DenseNet + ViT + GAP) achieve a marginally higher accuracy (97.8%), this 2.3% gain comes at the expense of substantially greater computational demands. SCS Net’s clinical utility is further evidenced by its balanced diagnostic capabilities: it achieves 92.4% precision and 94.9% recall, surpassing specialized models like Corodet (precision: -0.4%, recall: -3.0%) and CovXNet (precision: -1.6%, recall: -5.0%). The model’s F1-score of 93.6% places it among the top performers, narrowly trailing only the aforementioned CNN- transformer hybrids (e.g., DenseNet + ViT+GAP: 96.2%). Notably, SCS Net demonstrates exceptional specificity (98.3%), matching the false-positive reduction capabilities of dedicated medical imaging systems, such as COVIDetection- Net (98.1%) and DenseNet + ViT+GAP (98.1%). These findings suggest that SCS Net represents a compelling compromise between diagnostic accuracy and operational efficiency. While advanced hybrid architectures achieve marginally better metrics (≤2.3% in accuracy, ≤2.6% in F1- score), their complex multi-model frameworks introduce significant implementation challenges. In contrast, SCS Net’s streamlined architecture makes it particularly well-suited for deployment in resource-constrained clinical environments where computational efficiency and rapid inference are critical.\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   13\n\nFig. (12). Classification performance metrics by class (Precision, Recall, F1, Accuracy).\n\nTable 4. SCS Net vs. State-of-the-art methods: Four-class classification.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\n\nmethods (87.7%), showing improvements of 4.0–8.4% across lightweight CNN architectures such as SqueezeNet (89.4%) and ShuffleNet (91.6%). Although hybrid systems combining CNNs and transformers (e.g., DenseNet + ViT + GAP) achieve a marginally higher accuracy (97.8%), this 2.3% gain comes at the expense of substantially greater computational demands. SCS Net’s clinical utility is further evidenced by its balanced diagnostic capabilities: it achieves 92.4% precision and 94.9% recall, surpassing specialized models like Corodet (precision: -0.4%, recall: -3.0%) and CovXNet (precision: -1.6%, recall: -5.0%). The model’s F1-score of 93.6% places it among the top performers, narrowly trailing only the aforementioned CNN- transformer hybrids (e.g., DenseNet + ViT+GAP: 96.2%). Notably, SCS Net demonstrates exceptional specificity (98.3%), matching the false-positive reduction capabilities of dedicated medical imaging systems, such as COVIDetection- Net (98.1%) and DenseNet + ViT+GAP (98.1%). These findings suggest that SCS Net represents a compelling compromise between diagnostic accuracy and operational efficiency. While advanced hybrid architectures achieve marginally better metrics (≤2.3% in accuracy, ≤2.6% in F1- score), their complex multi-model frameworks introduce significant implementation challenges. In contrast, SCS Net’s streamlined architecture makes it particularly well-suited for deployment in resource-constrained clinical environments where computational efficiency and rapid inference are critical.\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   13\n\nFig. (12). Classification performance metrics by class (Precision, Recall, F1, Accuracy).\n\nTable 4. SCS Net vs. State-of-the-art methods: Four-class classification.",
+      "page_start": 11,
+      "page_end": 12,
+      "paragraph_positions": [
+        132,
+        133,
+        134,
+        135
+      ],
+      "token_count": 435,
+      "chunk_index": 57,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0058",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0047",
+      "section_title": "Reference Method ACC (%) PRE (%)",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "Reference Method ACC (%) PRE (%)"
+      ],
+      "source_text": "Reference Method ACC (%) PRE (%)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: Reference Method ACC (%) PRE (%)\n\nReference Method ACC (%) PRE (%)",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [],
+      "token_count": 10,
+      "chunk_index": 58,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0059",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0048",
+      "section_title": "REC (%)",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "REC (%)"
+      ],
+      "source_text": "REC (%)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: REC (%)\n\nREC (%)",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 59,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0060",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0049",
+      "section_title": "F1-Score",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "F1-Score"
+      ],
+      "source_text": "F1-Score",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: F1-Score\n\nF1-Score",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 60,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0061",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0050",
+      "section_title": "(%)",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "(%)"
+      ],
+      "source_text": "(%)",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: (%)\n\n(%)",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 61,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0062",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0051",
+      "section_title": "SPE (%)",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "SPE (%)"
+      ],
+      "source_text": "VSAG-HDL Net SCS Net 95.5 92.4 94.9 93.6 98.3\n\nDeep Neural Networks [38] DNN 87.1 89.3 88.0 88.5 87.4\n\nEnsemble ML Models [39] ML 87.7 94.0 87.5 91.2 95.8\n\nCorodet [40] CNN 91.2 92.0 91.9 90.0 93.5\n\nCovXNet [41] CNN 90.20 90.8 89.9 90.4 89.1\n\nSqueezeNet [42] CNN 89.4 89.9 89.4 89.9 96.5\n\nShuffleNet [42] CNN 91.6 91.4 91.6 91.4 97.3\n\nCOVIDetection-Net [42] CNN 94.4 94.4 94.4 94.4 98.1\n\nVIT [43] Transformer 94.2 89.7 88.1 88.8 95.2\n\nDenseNet [43] CNN 97.5 96.2 94.8 95.4 97.9\n\nDenseNet + VIT [43] CNN + Transformer 97.5 96.25 94.9 95.5 97.9\n\nDenseNet + VIT+GAP [43] CNN + Transformer 97.8 96.9 95.6 96.2 98.1\n\nFigure 13 presents the visual classification outcomes generated by the proposed SCS-Net on representative samples from the test data. Each sample comprises the original CXR, the ground truth mask, the predicted mask, and both the actual and predicted disease labels. The results indicate that SCS-Net not only performs accurate multi-class classification but also produces segmentation masks that align closely with the ground truth across diverse pathological cases. The model correctly identified each condition with high confidence, including subtle differences in lesion patterns. Notably, in\n\ncomplex cases such as viral pneumonia and lung opacity, where visual features often overlap, SCS-Net effectively leveraged its sharpened cosine similarity mechanism to enhance feature discrimination and reduce inter-class ambiguity. These findings underscore the ability of the integrated hybrid framework comprising VSAFU-Net for spatially attentive segmentation and SCS-Net for robust classification to deliver interpretable and clinically meaningful predictions. The consistency between the predicted and actual disease classes highlights the framework's potential for aiding real-time diagnostic workflows.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: SPE (%)\n\nVSAG-HDL Net SCS Net 95.5 92.4 94.9 93.6 98.3\n\nDeep Neural Networks [38] DNN 87.1 89.3 88.0 88.5 87.4\n\nEnsemble ML Models [39] ML 87.7 94.0 87.5 91.2 95.8\n\nCorodet [40] CNN 91.2 92.0 91.9 90.0 93.5\n\nCovXNet [41] CNN 90.20 90.8 89.9 90.4 89.1\n\nSqueezeNet [42] CNN 89.4 89.9 89.4 89.9 96.5\n\nShuffleNet [42] CNN 91.6 91.4 91.6 91.4 97.3\n\nCOVIDetection-Net [42] CNN 94.4 94.4 94.4 94.4 98.1\n\nVIT [43] Transformer 94.2 89.7 88.1 88.8 95.2\n\nDenseNet [43] CNN 97.5 96.2 94.8 95.4 97.9\n\nDenseNet + VIT [43] CNN + Transformer 97.5 96.25 94.9 95.5 97.9\n\nDenseNet + VIT+GAP [43] CNN + Transformer 97.8 96.9 95.6 96.2 98.1\n\nFigure 13 presents the visual classification outcomes generated by the proposed SCS-Net on representative samples from the test data. Each sample comprises the original CXR, the ground truth mask, the predicted mask, and both the actual and predicted disease labels. The results indicate that SCS-Net not only performs accurate multi-class classification but also produces segmentation masks that align closely with the ground truth across diverse pathological cases. The model correctly identified each condition with high confidence, including subtle differences in lesion patterns. Notably, in\n\ncomplex cases such as viral pneumonia and lung opacity, where visual features often overlap, SCS-Net effectively leveraged its sharpened cosine similarity mechanism to enhance feature discrimination and reduce inter-class ambiguity. These findings underscore the ability of the integrated hybrid framework comprising VSAFU-Net for spatially attentive segmentation and SCS-Net for robust classification to deliver interpretable and clinically meaningful predictions. The consistency between the predicted and actual disease classes highlights the framework's potential for aiding real-time diagnostic workflows.",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ],
+      "token_count": 498,
+      "chunk_index": 62,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0063",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0051",
+      "section_title": "SPE (%)",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "SPE (%)"
+      ],
+      "source_text": "14   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (13). SCS Net performance on test data.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: SPE (%)\n\n14   Current Medical Imaging, 2026, Volume 22 Saraniya et al.\n\nFig. (13). SCS Net performance on test data.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        150,
+        151
+      ],
+      "token_count": 30,
+      "chunk_index": 63,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0064",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0052",
+      "section_title": "CONCLUSION AND FUTURE SCOPE",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "CONCLUSION AND FUTURE SCOPE"
+      ],
+      "source_text": "This study introduced VSAG-HDL Net, a hybrid deep learning framework designed to improve lesion segmentation and multi-class classification in chest X-ray (CXR) analysis. By integrating the strengths of VSAFU-Net and SCS-Net, the model addresses key diagnostic challenges, including fuzzy lesion boundaries, inter-class similarity, and imaging noise. In the segmentation stage, VSAFU-Net leverages a probabilistic spatial attention mechanism to effectively capture both global context and fine-grained features, outperforming established models such as U-Net and FCN8s. It achieved a Dice Similarity Coefficient (DSC) of 90.5%, IoU of 95.0%, and sensitivity of 97.0%, highlighting its ability to accurately localize infected lung regions, even in challenging cases with subtle manifestations. In terms of classification, SCS-Net applies sharpened cosine similarity for angular feature alignment, enhancing class separation and reducing misclassification between visually similar categories. The model achieved an overall accuracy of 95.5%, with precision of 92.4%, recall of 94.9%, F1-score of 93.6%, and specificity of 98.3%, validating its robustness and efficiency. Unlike CNN-transformer hybrids, VSAG-HDL Net maintains a lightweight architecture, enabling faster inference and lower computational cost without compromising performance. Overall, VSAG-HDL Net represents a clinically viable and computationally efficient solution for CXR-based screening. Its accurate, interpretable, and portable design supports real-time application in both high-resource hospitals and low-resource environments. Future work may explore extending the model to multimodal inputs such as CT scans and clinical metadata, refining attention mechanisms for better detection of early- stage or subtle findings, and optimizing the architecture through techniques like model pruning, quantization, and knowledge distillation to enable effective deployment on edge or mobile devices.\n\nWhile the proposed model demonstrates promising performance, certain limitations remain. Misclassification can occur in cases with diffuse or early-stage abnormalities due to limited visual distinction. Additionally, the model’s",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: CONCLUSION AND FUTURE SCOPE\n\nThis study introduced VSAG-HDL Net, a hybrid deep learning framework designed to improve lesion segmentation and multi-class classification in chest X-ray (CXR) analysis. By integrating the strengths of VSAFU-Net and SCS-Net, the model addresses key diagnostic challenges, including fuzzy lesion boundaries, inter-class similarity, and imaging noise. In the segmentation stage, VSAFU-Net leverages a probabilistic spatial attention mechanism to effectively capture both global context and fine-grained features, outperforming established models such as U-Net and FCN8s. It achieved a Dice Similarity Coefficient (DSC) of 90.5%, IoU of 95.0%, and sensitivity of 97.0%, highlighting its ability to accurately localize infected lung regions, even in challenging cases with subtle manifestations. In terms of classification, SCS-Net applies sharpened cosine similarity for angular feature alignment, enhancing class separation and reducing misclassification between visually similar categories. The model achieved an overall accuracy of 95.5%, with precision of 92.4%, recall of 94.9%, F1-score of 93.6%, and specificity of 98.3%, validating its robustness and efficiency. Unlike CNN-transformer hybrids, VSAG-HDL Net maintains a lightweight architecture, enabling faster inference and lower computational cost without compromising performance. Overall, VSAG-HDL Net represents a clinically viable and computationally efficient solution for CXR-based screening. Its accurate, interpretable, and portable design supports real-time application in both high-resource hospitals and low-resource environments. Future work may explore extending the model to multimodal inputs such as CT scans and clinical metadata, refining attention mechanisms for better detection of early- stage or subtle findings, and optimizing the architecture through techniques like model pruning, quantization, and knowledge distillation to enable effective deployment on edge or mobile devices.\n\nWhile the proposed model demonstrates promising performance, certain limitations remain. Misclassification can occur in cases with diffuse or early-stage abnormalities due to limited visual distinction. Additionally, the model’s",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        152,
+        153
+      ],
+      "token_count": 453,
+      "chunk_index": 64,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0065",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0052",
+      "section_title": "CONCLUSION AND FUTURE SCOPE",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "CONCLUSION AND FUTURE SCOPE"
+      ],
+      "source_text": "While the proposed model demonstrates promising performance, certain limitations remain. Misclassification can occur in cases with diffuse or early-stage abnormalities due to limited visual distinction. Additionally, the model’s\n\nadaptability across different clinical environments and imaging protocols needs further validation. Future work will focus on improving the attention mechanism via adaptive kernels, expanding datasets with underrepresented cases, incorporating multimodal inputs such as clinical metadata and CT scans, and applying compression techniques like pruning and knowledge distillation. These efforts will facilitate the deployment of VSAG-HDL Net in diverse real-world settings, particularly in low-resource clinical environments where speed, accuracy, and efficiency are critical.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: CONCLUSION AND FUTURE SCOPE\n\nWhile the proposed model demonstrates promising performance, certain limitations remain. Misclassification can occur in cases with diffuse or early-stage abnormalities due to limited visual distinction. Additionally, the model’s\n\nadaptability across different clinical environments and imaging protocols needs further validation. Future work will focus on improving the attention mechanism via adaptive kernels, expanding datasets with underrepresented cases, incorporating multimodal inputs such as clinical metadata and CT scans, and applying compression techniques like pruning and knowledge distillation. These efforts will facilitate the deployment of VSAG-HDL Net in diverse real-world settings, particularly in low-resource clinical environments where speed, accuracy, and efficiency are critical.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        153,
+        154
+      ],
+      "token_count": 140,
+      "chunk_index": 65,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0066",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0053",
+      "section_title": "AUTHORS' CONTRIBUTIONS",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "AUTHORS' CONTRIBUTIONS"
+      ],
+      "source_text": "It is hereby acknowledged that all authors have accepted responsibility for the manuscript's content and consented to its submission. They have meticulously reviewed all results and unanimously approved the final version of the manuscript.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: AUTHORS' CONTRIBUTIONS\n\nIt is hereby acknowledged that all authors have accepted responsibility for the manuscript's content and consented to its submission. They have meticulously reviewed all results and unanimously approved the final version of the manuscript.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        155
+      ],
+      "token_count": 42,
+      "chunk_index": 66,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0067",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0054",
+      "section_title": "LIST OF ABBREVIATIONS",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "LIST OF ABBREVIATIONS"
+      ],
+      "source_text": "ACC =Accuracy\n\nAI =Artificial Intelligence\n\nAUC =Area Under the Curve\n\nBCE =Binary Cross-Entropy\n\nCAD =Computer-Aided Diagnosis\n\nCNN =Convolutional Neural Network\n\nCLAHE =Contrast Limited Adaptive Histogram Equalization\n\nCOVID-19 =Coronavirus Disease 2019\n\nCT =Computed Tomography\n\nCXR =Chest X-ray\n\nDL =Deep Learning\n\nDSC =Dice Similarity Coefficient\n\nDNN =Deep Neural Network\n\nDCNN =Deep Convolutional Neural Network\n\nF1 =F1 Score\n\nFN =False Negative\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   15\n\nFP =False Positive\n\nGRAD-CAM =Gradient-weighted Class Activation Mapping\n\nGAP =Global Average Pooling\n\nGPU =Graphical Processing Unit\n\nHD =Hausdorff Distance\n\nIoU =Intersection over Union\n\nKL =Kullback-Leibler Divergence\n\nML =Machine Learning\n\nPACS =Picture Archiving and Communication System\n\nPRE =Precision\n\nREC =Recall\n\nRT-PCR =Reverse Transcription Polymerase Chain\n\nReaction\n\nReLU =Rectified Linear Unit\n\nSCAN =Structure Correcting Adversarial Network\n\nSCS =Sharpened Cosine Similarity\n\nSGD =Stochastic Gradient Descent\n\nSPE =Specificity\n\nTN =True Negative\n\nTP =True Positive\n\nTSCN =Two-Stream Collaborative Network\n\nVSA =Variational Spatial Attention\n\nVSAFU-Net =Variational Spatial Attention Fusion U-Net\n\nVSAG =Variational Spatial Attention-Guided\n\nVSAG-HDL Net=Variational Spatial Attention-Guided Hybrid\n\nDeep Learning Network\n\nViT =Vision Transformer",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: LIST OF ABBREVIATIONS\n\nACC =Accuracy\n\nAI =Artificial Intelligence\n\nAUC =Area Under the Curve\n\nBCE =Binary Cross-Entropy\n\nCAD =Computer-Aided Diagnosis\n\nCNN =Convolutional Neural Network\n\nCLAHE =Contrast Limited Adaptive Histogram Equalization\n\nCOVID-19 =Coronavirus Disease 2019\n\nCT =Computed Tomography\n\nCXR =Chest X-ray\n\nDL =Deep Learning\n\nDSC =Dice Similarity Coefficient\n\nDNN =Deep Neural Network\n\nDCNN =Deep Convolutional Neural Network\n\nF1 =F1 Score\n\nFN =False Negative\n\nSpatial Attention-Guided Hybrid Deep Learning Current Medical Imaging, 2026, Volume 22   15\n\nFP =False Positive\n\nGRAD-CAM =Gradient-weighted Class Activation Mapping\n\nGAP =Global Average Pooling\n\nGPU =Graphical Processing Unit\n\nHD =Hausdorff Distance\n\nIoU =Intersection over Union\n\nKL =Kullback-Leibler Divergence\n\nML =Machine Learning\n\nPACS =Picture Archiving and Communication System\n\nPRE =Precision\n\nREC =Recall\n\nRT-PCR =Reverse Transcription Polymerase Chain\n\nReaction\n\nReLU =Rectified Linear Unit\n\nSCAN =Structure Correcting Adversarial Network\n\nSCS =Sharpened Cosine Similarity\n\nSGD =Stochastic Gradient Descent\n\nSPE =Specificity\n\nTN =True Negative\n\nTP =True Positive\n\nTSCN =Two-Stream Collaborative Network\n\nVSA =Variational Spatial Attention\n\nVSAFU-Net =Variational Spatial Attention Fusion U-Net\n\nVSAG =Variational Spatial Attention-Guided\n\nVSAG-HDL Net=Variational Spatial Attention-Guided Hybrid\n\nDeep Learning Network\n\nViT =Vision Transformer",
+      "page_start": 13,
+      "page_end": 14,
+      "paragraph_positions": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "token_count": 313,
+      "chunk_index": 67,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0068",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0055",
+      "section_title": "ETHICS APPROVAL AND CONSENT TO PARTICIPATE",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "ETHICS APPROVAL AND CONSENT TO PARTICIPATE"
+      ],
+      "source_text": "Not applicable.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: ETHICS APPROVAL AND CONSENT TO PARTICIPATE\n\nNot applicable.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        200
+      ],
+      "token_count": 3,
+      "chunk_index": 68,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0069",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0056",
+      "section_title": "HUMAN AND ANIMAL RIGHTS",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "HUMAN AND ANIMAL RIGHTS"
+      ],
+      "source_text": "Not applicable.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: HUMAN AND ANIMAL RIGHTS\n\nNot applicable.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        201
+      ],
+      "token_count": 3,
+      "chunk_index": 69,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0070",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0057",
+      "section_title": "CONSENT FOR PUBLICATION",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "CONSENT FOR PUBLICATION"
+      ],
+      "source_text": "Not applicable.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: CONSENT FOR PUBLICATION\n\nNot applicable.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        202
+      ],
+      "token_count": 3,
+      "chunk_index": 70,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0071",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0058",
+      "section_title": "AVAILABILITY OF DATA AND MATERIALS",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "AVAILABILITY OF DATA AND MATERIALS"
+      ],
+      "source_text": "The data of current study are available from corresponding author, [B.E], on a reasonable request.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: AVAILABILITY OF DATA AND MATERIALS\n\nThe data of current study are available from corresponding author, [B.E], on a reasonable request.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        203
+      ],
+      "token_count": 22,
+      "chunk_index": 71,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0072",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0059",
+      "section_title": "FUNDING",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "FUNDING"
+      ],
+      "source_text": "None.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: FUNDING\n\nNone.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        204
+      ],
+      "token_count": 2,
+      "chunk_index": 72,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0073",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0060",
+      "section_title": "CONFLICT OF INTEREST",
+      "section_path": [
+        "4 RESULTS AND DISCUSSION",
+        "4.2 Classification Performance of SCS-Net",
+        "CONFLICT OF INTEREST"
+      ],
+      "source_text": "The authors declare no conflict of interest, financial or otherwise.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: 4 RESULTS AND DISCUSSION\nSubsection: 4.2 Classification Performance of SCS-Net\nSubsection: CONFLICT OF INTEREST\n\nThe authors declare no conflict of interest, financial or otherwise.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        205
+      ],
+      "token_count": 12,
+      "chunk_index": 73,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c8a81f5b0a534d3a_0074",
+      "document_id": "doc_c8a81f5b0a534d3a",
+      "section_id": "sec_doc_c8a81f5b0a534d3a_0061",
+      "section_title": "ACKNOWLEDGEMENTS",
+      "section_path": [
+        "ACKNOWLEDGEMENTS"
+      ],
+      "source_text": "Declared none.",
+      "embedding_text": "Document: Current Medical Imaging\nSection: ACKNOWLEDGEMENTS\n\nDeclared none.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        206
+      ],
+      "token_count": 3,
+      "chunk_index": 74,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

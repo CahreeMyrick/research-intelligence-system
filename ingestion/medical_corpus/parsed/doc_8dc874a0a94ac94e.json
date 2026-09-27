@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "id": "doc_8dc874a0a94ac94e",
+    "source": {
+      "filename": "PMC13574373.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13574373.1/PMC13574373.1.pdf",
+      "content_hash": "8dc874a0a94ac94e48e3c77738e36c985c19dee4d95bff5d3ccac0b1914b7c64"
+    }
+  },
+  "metadata": {
+    "title": "Medicine",
+    "authors": [
+      "®"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1097/MD.0000000000050713",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Clinical Case Report",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "1",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Medicine",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "®",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Delayed innominate vein perforation and massive hemothorax following left-sided PICC placement A case report",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Yong-Hwan Cho, MDa, Jin-Heon Jeong, MDb,*",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Abstract Rationale: Peripherally inserted central catheters are common venous access devices; however, they can cause rare and life-threatening mechanical complications. Delayed vascular perforations often present with nonspecific findings, making early diagnosis challenging. Herein, we report a case of delayed innominate vein perforation, highlighting the importance of careful interpretation of serial chest radiographs.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Patient concerns: An 82-year-old woman with acute ischemic stroke underwent bedside left-arm placement of a peripherally inserted central catheter. The initial postprocedural chest radiograph showed a catheter tip at the fifth thoracic vertebra with subtle proximal tortuosity; the tip appeared obliquely oriented relative to the expected central venous axis. The next day, the catheter tip had moved caudally, and the tortuosity resolved, which was misinterpreted as an improved position. Five days after the procedure, chest radiography revealed a massive right-sided pleural effusion.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Diagnoses: Computed tomography confirmed that the delayed perforation of the innominate vein allowed the catheter to migrate into the mediastinum, resulting in a massive hemothorax.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "Interventions: The patient underwent urgent chest tube insertion followed by successful surgical repair of the perforated vein.",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "Outcomes: The patient recovered without further complications and was discharged in a stable condition.",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Lessons: This case highlights a critical diagnostic paradox: the resolution of catheter tortuosity on follow-up chest radiography is normally a positive sign, indicating that the catheter tip had exited the vessel and released mechanical tension. Clinicians must interpret radiographic changes in catheter position with great caution and verify findings with functional assessments.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Abbreviations: PICC = peripherally inserted central catheter.",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Keywords: Case report, Central venous catheterization, Chest radiography, Hemothorax, Peripherally inserted central catheter, Vein perforation",
+          "page": 0,
+          "position": 12
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Peripherally inserted central catheters (PICCs) are widely used for medium-to-long-term venous access. They are cost-effective, can be placed at the bedside, and have a lower risk of insertion-related mechanical complications compared to conventional central venous catheters.[1] Although generally safe, PICCs are associated with risks, including catheter-related venous thrombosis, occlusion, and bloodstream infections.[2–4] In addition, rare but life-threatening events, including delayed venous perforation and hemothorax due to catheter migration, have been reported.[5]",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "We present a case of delayed innominate vein perforation with massive hemothorax after left-sided PICC placement in an",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "elderly patient. This case emphasizes the importance of cautious interpretation of postprocedural chest radiographs.",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2 Case report",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "An 82-year-old woman with a history of diabetes mellitus, hypertension, and prior myocardial infarction presented with sudden onset of left-sided weakness and dysarthria. On arrival, motor power was Medical Research Council grade 4 in both the left upper and lower limbs, and her National Institutes of Health Stroke Scale score was 3. Brain magnetic resonance imaging revealed an acute infarction in the right basal ganglia. She was treated with dual antiplatelet therapy (aspirin and clopidogrel).",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "The authors have no funding and conflicts of interest to declare.",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "Data sharing not applicable to this article as no datasets were generated or analyzed during the current study.",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "The requirement for written informed consent was waived by the institutional review board due to the retrospective nature of the case and the use of de-identified data.",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "a Department of Neurosurgery, Dong-A University Hospital, Busan, South Korea,",
+          "page": 0,
+          "position": 20
+        },
+        {
+          "text": "b Department of Intensive Care Medicine and Neurology, Dong-A University Hospital, Busan, South Korea.",
+          "page": 0,
+          "position": 21
+        },
+        {
+          "text": "*Correspondence: Jin-Heon Jeong, Department of Intensive Care Medicine and Neurology, Dong-A University Hospital, Dong-A University College of Medicine,",
+          "page": 0,
+          "position": 22
+        },
+        {
+          "text": "26 Daesingongwon-ro, Seo-gu, Busan 49201, South Korea (e-mail: jhjeong@dau. ac.kr).",
+          "page": 0,
+          "position": 23
+        },
+        {
+          "text": "Copyright © 2026 the Author(s). Published by Wolters Kluwer Health, LLC. This is an open access article distributed under the Creative Commons Attribution License 4.0 (CCBY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+          "page": 0,
+          "position": 24
+        },
+        {
+          "text": "How to cite this article: Cho Y-H, Jeong J-H. Delayed innominate vein perforation and massive hemothorax following left-sided PICC placement: A case report. Medicine 2026;105:37(e50713).",
+          "page": 0,
+          "position": 25
+        },
+        {
+          "text": "Received: 14 December 2025 / Received in ﬁnal form: 30 July 2026 / Accepted: 31 August 2026",
+          "page": 0,
+          "position": 26
+        },
+        {
+          "text": "http://dx.doi.org/10.1097/MD.0000000000050713",
+          "page": 0,
+          "position": 27
+        },
+        {
+          "text": "2",
+          "page": 1,
+          "position": 28
+        },
+        {
+          "text": "Cho and Jeong  •  Medicine (2026) 105:37\b Medicine",
+          "page": 1,
+          "position": 29
+        },
+        {
+          "text": "She was admitted to the intensive care unit for management of acute ischemic stroke.",
+          "page": 1,
+          "position": 30
+        },
+        {
+          "text": "The following day, her neurological status deteriorated: motor power decreased to Medical Research Council grade 2 in the left upper limb and grade 3 in the left lower limb, and her National Institutes of Health Stroke Scale increased to 6. Induced hypertension therapy using intravenous phen­ ylephrine was initiated, and a PICC was inserted via the left upper arm under ultrasound guidance at the bedside. The catheter was inserted smoothly without resistance during the procedure, and blood regurgitation confirmed intravascular placement. A postprocedural chest radiograph showed the catheter tip was located at the midlevel of the fifth thoracic vertebra, with subtle proximal tortuosity that was not con­ sidered abnormal at the time (Fig. 1A). During phenyleph­ rine infusion, systolic blood pressure increased from 150 mm Hg to 180 mm Hg; however, neurological deficits did not improve.",
+          "page": 1,
+          "position": 31
+        },
+        {
+          "text": "On post-procedure day 1, chest radiography showed caudal migration of the catheter tip to the level of the sixth thoracic vertebra, with resolution of the previously noted tortuosity. This was interpreted as improved positioning in the superior vena cava rather than a sign of complication (Fig. 1B).",
+          "page": 1,
+          "position": 32
+        },
+        {
+          "text": "On post-procedure day 5, routine chest radiography revealed near-total opacification of the right lung field caused by massive pleural effusion, though the patient had no respiratory symptoms (Fig. 1C). Chest computed tomography demonstrated catheter migration into the mediastinum through a venous perforation (Fig. 1D). A chest tube was inserted, draining about 1700 mL of dark, hemorrhagic fluid. Broad-spectrum intravenous antibi­ otics (piperacillin-tazobactam) were initiated. Elective surgical repair via upper sternotomy was then performed, and the per­ forated innominate vein was successfully repaired. The patient recovered without further complications and was discharged in stable condition.",
+          "page": 1,
+          "position": 33
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3 Discussion",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "PICCs are frequently used in critically ill patients due to their safety and ease of placement.[1] However, rare but seri­ ous delayed complications, such as catheter migration and venous perforation, can occur.[5] This case highlights the importance of careful interpretation of postprocedural chest radiographs. In our patient, catheter tip migration and res­ olution of tortuosity were misinterpreted as favorable signs, although they masked the development of a venous perfora­ tion (Fig. 1A–1C). This misinterpretation occurred because",
+          "page": 1,
+          "position": 34
+        },
+        {
+          "text": "a 2-dimensional chest radiograph can obscure early signs of complications. Therefore, radiographic changes in the cath­ eter position should be verified with functional assessments, such as checking for blood regurgitation, to avoid overlook­ ing such complications.",
+          "page": 1,
+          "position": 35
+        },
+        {
+          "text": "The initial chest radiograph showed subtle proximal cathe­ ter tortuosity. Tortuosity on a single chest radiograph is a non­ specific finding and is not necessarily abnormal. In this patient, however, retrospective comparison of the serial radiographs showed that the tortuosity resolved in association with caudal migration of the catheter tip. The simultaneous straightening of the catheter and caudal migration of its tip suggested that mechanical tension within the catheter may have been released. Therefore, the initial tortuosity was retrospectively regarded as a potential sign of mechanical tension rather than an inciden­ tal finding. Even after uneventful insertion and confirmation of blood return, minor catheter advancement may occur during guidewire withdrawal owing to recoil or friction, potentially generating mechanical tension within the catheter.[6] Subsequent arm movement can transmit force to the catheter and poten­ tially cause gradual erosion of the vein wall.[7] Thus, an apparent improvement in catheter configuration (straightening of prior tortuosity with tip migration) may paradoxically reflect release of mechanical tension and should prompt further evaluation rather than reassurance.",
+          "page": 1,
+          "position": 36
+        },
+        {
+          "text": "In our patient, the catheter inserted from the left arm did not appear to be aligned parallel to the expected axis of the superior vena cava on the initial chest radiograph. Left-sided PICC placement may carry an anatomical predisposition to central venous perforation because the catheter approaches the superior vena cava at a sharper angle, potentially increasing the likelihood of catheter tip impingement on the vessel wall.[8] Persistent mechanical stress due to suboptimal orientation can lead to delayed perforation. Furthermore, the position of the catheter tip is dynamic; it can move approximately 2 cm with upper extremity movement, respiration, or changes in body position.[7,8] This dynamic movement further increases the risk of vascular injury when the tip is already in contact with the vessel wall. In addition, the concurrent use of dual antiplatelet therapy may have aggravated the severity of the hemothorax once perforation occurred.",
+          "page": 1,
+          "position": 37
+        },
+        {
+          "text": "In this case, a 5 French double-lumen polyurethane PICC (Arrow, Teleflex Inc.) was used. Polyurethane provides the ini­ tial stiffness for insertion and then softens at body tempera­ ture, thereby improving intravascular tolerance.[9] Notably, this catheter has a tip design with 1 end hole (black arrow) and 1 side hole (white arrow) (Fig. 2). The manufacturing process",
+          "page": 1,
+          "position": 38
+        },
+        {
+          "text": "Figure 1.  Serial chest radiographs and coronal CT image showing PICC progression and complications. (A) Chest radiograph taken immediately after periph­ eral central catheter insertion. The black arrow indicates the catheter tip at the midlevel of the fifth thoracic vertebra. White arrowheads mark the proximal portion of the catheter, which shows subtle tortuosity. The subtle tortuosity, considered together with the oblique orientation of the catheter tip relative to the expected central venous axis, was retrospectively interpreted as a potential sign of mechanical tension. (B) Chest radiograph obtained on postprocedural day 1. The cath­ eter tip (black arrow) migrated caudally to the sixth thoracic vertebra. The previously observed tortuosity of the proximal catheter (white arrowheads) resolved, suggesting that this tension was released as the tip migrated caudally. (C) Chest radiograph on postprocedural day 5 demonstrating nearly total opacification of the right hemithorax, consistent with massive pleural effusion. (D) Coronal contrast-enhanced chest CT demonstrating extravascular migration of the catheter (black arrow) from the left innominate vein into the mediastinum. CT = computed tomography, PICC = peripherally inserted central catheter.",
+          "page": 1,
+          "position": 39
+        },
+        {
+          "text": "3",
+          "page": 2,
+          "position": 40
+        },
+        {
+          "text": "Cho and Jeong  •  Medicine (2026) 105:37\b www.md-journal.com",
+          "page": 2,
+          "position": 41
+        },
+        {
+          "text": "of the end hole makes the catheter tip relatively stiff. We hypothesized that this increased localized rigidity at the dis­ tal tip, combined with the suboptimal angle forcing it against the vessel wall, contributed to gradual endothelial injury and delayed perforation.",
+          "page": 2,
+          "position": 42
+        },
+        {
+          "text": "According to Pittiruti et al, late cardiac tamponade is vir­ tually nonexistent with modern soft polyurethane catheters, and there is no evidence that positioning the catheter tip in the upper right atrium increases the risk of complications.[10] We propose that this rigid tip, when chronically pressed against the innominate vein wall from a suboptimal angle, can cause a delayed perforation. This distinction is important, as the same group suggested that the “safe area” for tip placement includes the lower superior vena cava, cavoatrial junction, and upper right atrium. However, they also noted that left- sided catheters inserted too shallowly (leading to tip-to-wall contact) risk venous perforation, as seen in our case.[10] Thus, to minimize the mechanical stress, the catheter tip should ide­ ally be oriented parallel to the venous wall within a safe area. In addition, intracardiac electrocardiography can help verify the correct tip position by detecting the point of maximal P-wave positivity, which indicates the optimal location near the cavoatrial junction.[11]",
+          "page": 2,
+          "position": 43
+        },
+        {
+          "text": "Postprocedural radiographs should be evaluated not only for the catheter tip position, but also for subtle signs of mechan­ ical stress, such as tortuosity and suboptimal tip orientation. If tension is suspected, withdrawing the catheter by 2 to 3 cm may relieve stress. However, if perforation is suspected to have already occurred, withdrawal can cause severe hemorrhage. In uncertain cases, functional assessment (e.g., blood regurgita­ tion) and cross-sectional imaging are essential for safe clinical decision-making.",
+          "page": 2,
+          "position": 44
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "4 Conclusion",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "This case illustrates a rare but serious complication of left-sided PICC placement in which unrecognized catheter migration led to delayed innominate vein perforation and massive hemotho­ rax. Serial follow-up chest radiographs should be carefully com­ pared to prevent life-threatening outcomes, particularly when tortuosity is present.",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "Author contributions",
+          "page": 2,
+          "position": 46
+        },
+        {
+          "text": "Conceptualization: Jin-Heon Jeong. Data curation: Yong-Hwan Cho. Formal analysis: Yong-Hwan Cho. Investigation: Yong-Hwan Cho. Methodology: Jin-Heon Jeong. Supervision: Jin-Heon Jeong. Visualization: Yong-Hwan Cho. Writing – original draft: Yong-Hwan Cho. Writing – review & editing: Jin-Heon Jeong.",
+          "page": 2,
+          "position": 47
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Evans RS, Sharp JH, Linford LH, et al. Reduction of peripherally\ninserted central catheter-associated dvt. Chest. 2013;143:627–33.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "Chopra V, Anand S, Hickner A, et al. Risk of venous thromboembolism\nassociated with peripherally inserted central catheters: a systematic review and meta-analysis. Lancet. 2013;382:311–25.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "Martinez O, Puller J. Mediastinitis secondary to peripherally inserted\ncentral catheter migration and perforation after minor trauma: a case report. Clin Pract Cases Emerg Med. 2021;5:70–4.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "Seckold T, Walker S, Dwyer T. A comparison of silicone and polyure­\nthane picc lines and postinsertion complication rates: a systematic review. J Vasc Access. 2015;16:167–77.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "Ho TV, Schumann TL, Schmieler EJ. Rare case of svc perforation sec­\nondary to picc line. JEM Rep. 2023;2:100047.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 6,
+      "raw_text": "Ge BH, Copelan A, Scola D, Watts MM. Iatrogenic percutaneous vas­\ncular injuries: clinical presentation, imaging, and management. Semin Intervent Radiol. 2015;32:108–22.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "Forauer AR, Alonzo M. Change in peripherally inserted central cathe­\nter tip position with abduction and adduction of the upper extremity. J Vasc Interv Radiol. 2000;11:1315–8.",
+      "authors": [],
+      "title": null,
+      "year": 2000,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Gibson F, Bodenham A. Misplaced central venous catheters: applied\nanatomy and practical management. Br J Anaesth. 2013;110:333–46.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 9,
+      "raw_text": "Fernando R, Lee YJ, Khan N, Kazmi F. Delayed migration of a periph­\nerally inserted central venous catheter to the azygos vein with subse­ quent perforation. BJR Case Rep. 2016;2:20150315.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "Pittiruti M, Lamperti M. Late cardiac tamponade in adults sec­\nondary to tip position in the right atrium: an urban legend? A systematic review of the literature. J Cardiothorac Vasc Anesth. 2015;29:491–5.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 11,
+      "raw_text": "Pittiruti M, Pelagatti F, Pinelli F. Intracavitary electrocardiography for\ntip location during central venous catheterization: a narrative review of 70 years of clinical studies. J Vasc Access. 2021;22:778–85.\nFigure 2.  The PICC used in this case. The 5 French double-lumen polyurethane catheter (Arrow, Teleflex Inc.) features a distal tip with 1 end hole (black arrow) and one side hole (white arrow). The manufacturing process of the end hole resulted in a relatively stiff distal tip. PICC = peripherally inserted central catheter.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 3,
+  "warnings": []
+}

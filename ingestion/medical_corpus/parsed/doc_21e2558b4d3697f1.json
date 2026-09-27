@@ -1,0 +1,2553 @@
+{
+  "identity": {
+    "id": "doc_21e2558b4d3697f1",
+    "source": {
+      "filename": "PMC13579618.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13579618.1/PMC13579618.1.pdf",
+      "content_hash": "21e2558b4d3697f1484e6abc4006cbbb35f365dc1537ebcb9731e25cb6007183"
+    }
+  },
+  "metadata": {
+    "title": "VHealth-MFusion: a fusion-based multimodal deep learning framework for pneumonia tele-diagnosis in virtual hospital environments",
+    "authors": [
+      "Sara A. Alsalamah"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3389/fdgth.2026.1827180",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "EDITED BY Subrato Bharati, Concordia University, Canada",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "REVIEWED BY Bing Yang, Sichuan Agricultural University, China Mehedi Hassan Melon, University of the Cumberlands, United States S A Sabbirul Mohosin Naim, Northwestern Polytechnic University, United States",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "*CORRESPONDENCE Sara A. Alsalamah",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Salsalamah@vt.edu",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "RECEIVED 10 March 2026 REVISED 01 June 2026 ACCEPTED 02 June 2026 PUBLISHED 02 September 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "CITATION Alsalamah SA, Althenayan A, Almutairi M, AlSalamah S, Alsalamah HA, Nouh T, Mahboub B, Salameh L, Al Moteri M and Lu C-T (2026) VHealth-MFusion: a fusion-based multimodal deep learning framework for pneumonia tele-diagnosis in virtual hospital environments. Front. Digit. Health 8:1827180. doi: 10.3389/fdgth.2026.1827180",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "COPYRIGHT © 2026 Alsalamah, Althenayan, Almutairi, AlSalamah, Alsalamah, Nouh, Mahboub, Salameh, Al Moteri and Lu. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "VHealth-MFusion: a fusion-based multimodal deep learning framework for pneumonia tele-diagnosis in virtual hospital environments",
+          "page": 0,
+          "position": 7
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Sara A. Alsalamah",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "1,2*, Albatoul Althenayan 3, Mariam Almutairi 1, Shada AlSalamah",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "4, Hessah A. Alsalamah 4,5, Thamer Nouh 6, Bassam Mahboub",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "7, Laila Salameh 7,8, Moteeb Al Moteri 9 and Chang-Tien Lu",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "1",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "1Department of Computer Science, Virginia Tech, Alexandria, VA, United States, 2Information Technology Department, College of Computer and Information Sciences, Imam Mohammad Ibn Saud Islamic University, Riyadh, Saudi Arabia, 3Information Systems Department, College of Computer and Information Science, Imam Mohammad Ibn Saud Islamic University, Riyadh, Saudi Arabia, 4Information Systems Department, College of Computer and Information Sciences, King Saud University, Riyadh, Saudi Arabia, 5Computer Engineering Department, College of Engineering, Al Yamamah University, Riyadh, Saudi Arabia, 6Trauma and Acute Care Surgery Unit, College of Medicine, King Saud University, Riyadh, Saudi Arabia, 7Department of Pulmonary Medicine, Rashid Hospital, Dubai, United Arab Emirates, 8Hind Bint Maktoum College of Nursing and Midwifery, Mohammed Bin Rashid University of Medicine and Health Sciences (MBRU), Dubai, United Arab Emirates, 9Department of Radiology and Medical Imaging, King Khalid University Hospital, King Saud University, Riyadh, Saudi Arabia",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "Introduction:Virtual hospital systems support remote triage and diagnosis across distributed healthcare environments by integrating radiographic imaging with structured clinical information for clinical decision making. However, many existing diagnostic frameworks do not fully address real world challenges commonly encountered in scalable virtual healthcare settings. These challenges include severe class imbalance, incomplete clinical attributes, heterogeneous multimodal inputs, and variability in data quality across institutions. Methods:This study introduces VHealth-MFusion, a fusion-based hierarchical multimodal deep learning framework that integrates chest X-ray (CXR) imaging and structured clinical data within a unified convolutional neural network (CNN) and multilayer perceptron (MLP) architecture. Using pneumonia Tele-Diagnosis as a use case, the proposed framework combines radiographic feature extraction through a CNN branch with structured clinical representation learning through an MLP branch, followed by late multimodal fusion for multiclass respiratory disease classification. The framework was evaluated using a hierarchical multimodal dataset containing CXR images across multiple diagnostic categories, including Normal, Bacterial, Adenovirus, Influenza, MERS-CoV, and SARS-CoV-2, together with 632 structured clinical variables comprising demographic information, vital signs, symptoms, and laboratory findings. Results: Under a controlled dataset-consistent comparison against an established hierarchical multimodal CNN baseline, VHealth-MFusion achieved 97.2% classification accuracy, outperforming the baseline accuracy of 95.9%.",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "TYPE Original Research PUBLISHED 02 September 2026 DOI 10.3389/fdgth.2026.1827180",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Frontiers in Digital Health 01 frontiersin.org",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Discussion:The findings demonstrate that multimodal integration of radiographic imaging and structured clinical information can improve diagnostic robustness and support more reliable Tele-Diagnosis workflows within virtual hospital environments. Overall, the proposed framework contributes a practically oriented multimodal diagnostic architecture designed to facilitate scalable remote clinical services and informed decision making within digitally enabled care systems where imaging and structured clinical information are jointly available.",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "KEYWORDS",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "chest X-ray, convolutional neural network, fusion, multimodal learning, pneumonia, tele-diagnosis, virtual hospital",
+          "page": 1,
+          "position": 18
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "The COVID-19 pandemic created an urgent need for accurate, scalable, and remotely deployable diagnostic systems, placing unprecedented pressure on healthcare infrastructures worldwide. Early predictions during the pandemic suggested that virtual healthcare services would play an increasingly important role in post-pandemic healthcare delivery Xtelligent Healthcare Media [1]. Since then, virtual hospital models have gained substantial attention as digitally enabled care environments that support remote diagnosis, monitoring, and clinical decision making across multiple healthcare institutions.",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Within such environments, hospitals frequently operate using coordinated hub–spoke structures in which diagnostic expertise is centralized while imaging, testing, and patient monitoring are performed locally. Structured clinical information, including demographic variables, vital signs, laboratory findings, and patient history, is typically collected electronically and integrated into remote care workflows Kumari et al. [2]. This model supports continuity of care beyond physical hospital boundaries while relying heavily on timely, accurate, and interpretable diagnostic support systems.",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "Artificial intelligence (AI) plays an increasingly important role within these environments by supporting remote triage, early detection, diagnosis, and patient monitoring through integration of heterogeneous clinical information into unified decision-support pipelines. Imaging-based diagnosis represents a particularly attractive component of these workflows because chest X-rays (CXRs) are widely available, cost-effective, and rapidly obtainable across diverse healthcare settings. Previous deep learning studies demonstrated strong diagnostic performance using imaging-only models, while more recent multimodal approaches reported additional improvements by integrating radiographic imaging with structured clinical information.",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "The integration of imaging and structured clinical variables is especially important in virtual hospital environments because radiographic findings alone may not fully capture physiological severity, symptom progression, or broader patient-specific clinical context associated with respiratory disease diagnosis and remote triage. Consequently, multimodal diagnostic systems capable of jointly modeling radiographic and structured clinical information may better approximate real world clinical decision making processes.",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "Despite recent advances, many existing multimodal frameworks rely on carefully curated and relatively balanced datasets and do not fully address challenges commonly encountered in real world healthcare environments. These challenges include severe class imbalance, incomplete clinical attributes, heterogeneous multimodal",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "inputs, and variability in data quality across institutions. Such limitations may reduce robustness and hinder practical deployment within scalable virtual and remote healthcare systems.",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "To address these challenges, this study introduces VHealth- MFusion, a fusion-based hierarchical multimodal deep learning framework that integrates CXR imaging and structured clinical information within a unified architecture for pneumonia diagnosis. Pneumonia, which represents an inflammatory and infectious disease affecting the lungs, is used in this study primarily within the context of COVID-19-related respiratory disease classification. The proposed framework combines a convolutional neural network (CNN) branch for radiographic feature extraction with a multilayer perceptron (MLP) branch for structured clinical data encoding, followed by a joint multimodal fusion layer for classification based on the hierarchical structure of pneumonia (see Figure 1).",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "This work focuses on developing a robust and practically deployable multimodal diagnostic framework for virtual hospital and remote pneumonia diagnosis settings. The framework is designed to address challenges commonly encountered in real world healthcare environments, including severe class imbalance, incomplete clinical information, heterogeneous multimodal inputs, and constrained deployment conditions.",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "While the proposed CNN–MLP late-fusion strategy builds upon established multimodal learning principles, the methodological contribution of the framework lies in the integrated imbalance- aware optimization strategy, multimodal preprocessing pipeline, lightweight and computationally efficient architecture, structured handling of sparse clinical variables, and controlled evaluation under highly heterogeneous multimodal healthcare conditions.",
+          "page": 1,
+          "position": 27
+        },
+        {
+          "text": "Compared with prior hierarchical multimodal approaches, the proposed framework introduces several practical improvements tailored to remote diagnostic workflows, including:",
+          "page": 1,
+          "position": 28
+        },
+        {
+          "text": "1.Imbalance-aware multimodal optimization combining augmentation, SMOTE, class weighting, dropout regularization, and early stopping under severely skewed disease distributions; 2.Structured preprocessing and feature-reduction strategies for high-dimensional and partially incomplete clinical records; 3.A lightweight multimodal architecture designed to support stable convergence and computational efficiency under constrained healthcare deployment environments; and 4.Controlled dataset-consistent evaluation against an established multimodal baseline under identical experimental conditions.",
+          "page": 1,
+          "position": 29
+        },
+        {
+          "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+          "page": 1,
+          "position": 30
+        },
+        {
+          "text": "Frontiers in Digital Health 02 frontiersin.org",
+          "page": 1,
+          "position": 31
+        },
+        {
+          "text": "Collectively, these contributions position the proposed framework as an applied multimodal systems-oriented advancement for virtual hospital diagnostic support rather than as a claim of introducing a fundamentally new deep learning fusion paradigm.",
+          "page": 2,
+          "position": 32
+        },
+        {
+          "text": "Table 1 summarizes the comparative contribution of the major unimodal and multimodal framework components under the evaluated experimental setting, highlighting the complementary strengths and limitations of each module within the proposed VHealth-MFusion architecture.",
+          "page": 2,
+          "position": 33
+        },
+        {
+          "text": "The remainder of this paper is organized as follows. The Related Work section reviews existing unimodal and multimodal approaches relevant to AI-assisted medical image diagnosis. The Methodology section describes the proposed hierarchical multimodal framework, including the CNN-based imaging branch, the MLP-based structured clinical branch, and the multimodal fusion strategy. The Dataset section presents the dataset composition, preprocessing pipeline, and imbalance- handling procedures. The Results section reports the experimental setup, evaluation metrics, and quantitative findings. The Discussion section provides comparative interpretation of the findings relative to baseline and prior multimodal approaches. Finally, the Conclusion and Future Work section summarizes the main contributions, discusses limitations, and outlines directions for future research.",
+          "page": 2,
+          "position": 34
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2 Related work",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "The diagnosis of pneumonia, particularly in the context of COVID-19, has become a major area of research, with numerous studies investigating the use of CXR imaging and deep learning models to improve diagnostic accuracy. Early research primarily focused on image-based approaches that relied exclusively on radiographic information. However, the limitations associated with imaging-only models motivated the development of multimodal learning frameworks that integrate complementary clinical information such as demographic",
+          "page": 2,
+          "position": 35
+        },
+        {
+          "text": "variables, vital signs, symptoms, and laboratory findings to improve diagnostic robustness and clinical contextualization.",
+          "page": 2,
+          "position": 36
+        },
+        {
+          "text": "This section reviews representative studies spanning image- based diagnostic models, hierarchical and multimodal deep learning approaches, virtual hospital and telemedicine",
+          "page": 2,
+          "position": 37
+        },
+        {
+          "text": "FIGURE 1 Simplified block diagram of the hierarchical CNN architecture proposed by Althenayan et al. [14], illustrating the layered convolutional structure used for feature extraction and classification. Reproduced from “Proposed hierarchal class structure of pneumonia”by Albatoul S. Althenayan, Shada A. AlSalamah, Sherin Aly, Thamer Nouh, Bassam Mahboub, Laila Salameh, Metab Alkubeyyer and Abdulrahman Mirza, licensed under CC BY 4.0.",
+          "page": 2,
+          "position": 38
+        },
+        {
+          "text": "TABLE 1 Qualitative contribution analysis of unimodal and multimodal framework",
+          "page": 2,
+          "position": 39
+        },
+        {
+          "text": "components under the evaluated experimental setting.",
+          "page": 2,
+          "position": 40
+        },
+        {
+          "text": "Configuration Primary strength Observed limitation",
+          "page": 2,
+          "position": 41
+        },
+        {
+          "text": "Image-only CNN Strong radiographic",
+          "page": 2,
+          "position": 42
+        },
+        {
+          "text": "feature extraction from",
+          "page": 2,
+          "position": 43
+        },
+        {
+          "text": "chest X-ray (CXR) images",
+          "page": 2,
+          "position": 44
+        },
+        {
+          "text": "Sensitive to overlapping",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "radiographic patterns and",
+          "page": 2,
+          "position": 46
+        },
+        {
+          "text": "limited by the absence of",
+          "page": 2,
+          "position": 47
+        },
+        {
+          "text": "contextual clinical",
+          "page": 2,
+          "position": 48
+        },
+        {
+          "text": "information",
+          "page": 2,
+          "position": 49
+        },
+        {
+          "text": "Clinical-only MLP Captures demographic,",
+          "page": 2,
+          "position": 50
+        },
+        {
+          "text": "symptom, and laboratory",
+          "page": 2,
+          "position": 51
+        },
+        {
+          "text": "feature relationships",
+          "page": 2,
+          "position": 52
+        },
+        {
+          "text": "Lacks direct radiographic",
+          "page": 2,
+          "position": 53
+        },
+        {
+          "text": "representation required",
+          "page": 2,
+          "position": 54
+        },
+        {
+          "text": "for robust pneumonia",
+          "page": 2,
+          "position": 55
+        },
+        {
+          "text": "pattern discrimination",
+          "page": 2,
+          "position": 56
+        },
+        {
+          "text": "CNN–MLP",
+          "page": 2,
+          "position": 57
+        },
+        {
+          "text": "multimodal fusion",
+          "page": 2,
+          "position": 58
+        },
+        {
+          "text": "Integrates radiographic",
+          "page": 2,
+          "position": 59
+        },
+        {
+          "text": "and structured clinical",
+          "page": 2,
+          "position": 60
+        },
+        {
+          "text": "information for",
+          "page": 2,
+          "position": 61
+        },
+        {
+          "text": "complementary",
+          "page": 2,
+          "position": 62
+        },
+        {
+          "text": "multimodal reasoning",
+          "page": 2,
+          "position": 63
+        },
+        {
+          "text": "Introduces higher",
+          "page": 2,
+          "position": 64
+        },
+        {
+          "text": "architectural complexity",
+          "page": 2,
+          "position": 65
+        },
+        {
+          "text": "and additional",
+          "page": 2,
+          "position": 66
+        },
+        {
+          "text": "multimodal",
+          "page": 2,
+          "position": 67
+        },
+        {
+          "text": "preprocessing",
+          "page": 2,
+          "position": 68
+        },
+        {
+          "text": "requirements",
+          "page": 2,
+          "position": 69
+        },
+        {
+          "text": "Imbalance-aware",
+          "page": 2,
+          "position": 70
+        },
+        {
+          "text": "optimization",
+          "page": 2,
+          "position": 71
+        },
+        {
+          "text": "Enhances minority-class",
+          "page": 2,
+          "position": 72
+        },
+        {
+          "text": "robustness and improves",
+          "page": 2,
+          "position": 73
+        },
+        {
+          "text": "convergence stability",
+          "page": 2,
+          "position": 74
+        },
+        {
+          "text": "under skewed class",
+          "page": 2,
+          "position": 75
+        },
+        {
+          "text": "distributions",
+          "page": 2,
+          "position": 76
+        },
+        {
+          "text": "Performance for",
+          "page": 2,
+          "position": 77
+        },
+        {
+          "text": "extremely rare classes",
+          "page": 2,
+          "position": 78
+        },
+        {
+          "text": "remains constrained by",
+          "page": 2,
+          "position": 79
+        },
+        {
+          "text": "the limited availability of",
+          "page": 2,
+          "position": 80
+        },
+        {
+          "text": "original samples",
+          "page": 2,
+          "position": 81
+        },
+        {
+          "text": "Late fusion strategy Preserves modality-",
+          "page": 2,
+          "position": 82
+        },
+        {
+          "text": "specific feature learning",
+          "page": 2,
+          "position": 83
+        },
+        {
+          "text": "prior to multimodal",
+          "page": 2,
+          "position": 84
+        },
+        {
+          "text": "integration",
+          "page": 2,
+          "position": 85
+        },
+        {
+          "text": "Does not explicitly model",
+          "page": 2,
+          "position": 86
+        },
+        {
+          "text": "adaptive attention-based",
+          "page": 2,
+          "position": 87
+        },
+        {
+          "text": "weighting between",
+          "page": 2,
+          "position": 88
+        },
+        {
+          "text": "modalities",
+          "page": 2,
+          "position": 89
+        },
+        {
+          "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+          "page": 2,
+          "position": 90
+        },
+        {
+          "text": "Frontiers in Digital Health 03 frontiersin.org",
+          "page": 2,
+          "position": 91
+        },
+        {
+          "text": "applications, and explainability-oriented clinical AI frameworks. Particular emphasis is placed on the transition from imaging- only analysis toward multimodal diagnostic systems designed to better reflect real world clinical workflows under heterogeneous healthcare conditions.",
+          "page": 3,
+          "position": 92
+        }
+      ],
+      "subsections": [
+        {
+          "title": "2.1 Image-based COVID-19 diagnosis using CXR",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Deep learning-based analysis of CXR images has been widely explored for automated diagnosis of respiratory diseases, including COVID-19. Rajpurkar et al. [3] introduced CheXNet, demonstrating that CNNs could achieve radiologist-level performance in pneumonia detection. Although CheXNet was not designed specifically for COVID-19 diagnosis, it established an important foundation for subsequent CXR-based diagnostic frameworks.",
+              "page": 3,
+              "position": 93
+            },
+            {
+              "text": "Building upon this direction, Wang and Wong [4] proposed COVID-Net, a CNN architecture specifically designed to capture pneumonia-related radiographic patterns associated with COVID-19 infection. To address limited labeled medical imaging data, several studies subsequently adopted transfer learning strategies using pretrained CNN backbones such as ResNet and EfficientNet. For example, Apostolopoulos and Mpesiana [5] and Hemdan et al. [6] demonstrated that transfer learning approaches can achieve promising diagnostic performance on relatively small CXR datasets. Nevertheless, many imaging-only approaches remain sensitive to dataset bias and often demonstrate limited generalizability across institutions and patient populations.",
+              "page": 3,
+              "position": 94
+            },
+            {
+              "text": "Widely recognized image-based diagnostic frameworks such as CheXNet Rajpurkar et al. [3] and COVID-Net Wang and Wong [4] established important benchmarks for automated pneumonia and COVID-19 detection using CXR images alone. However, these architectures do not incorporate structured clinical information within a unified multimodal framework. In contrast, the proposed VHealth-MFusion framework integrates radiographic imaging with high-dimensional structured clinical variables to support joint multimodal representation learning intended to better reflect real world diagnostic workflows within virtual hospital environments. Consequently, direct numerical comparison with imaging-only frameworks should be interpreted cautiously because of differences in modality scope, dataset composition, and experimental conditions. Nevertheless, these image-based models remain important methodological reference points within the broader landscape of AI-assisted respiratory disease diagnosis.",
+              "page": 3,
+              "position": 95
+            },
+            {
+              "text": "Recent studies have also demonstrated the effectiveness of EfficientNet-based architectures and transfer learning strategies across multiple medical imaging domains. For example, Billah et al. [7] reported strong performance using EfficientNet-based models for brain tumor MRI classification through efficient feature scaling and transfer learning optimization. Similarly, Das et al. [8] demonstrated that EfficientNet architectures provide strong classification accuracy and computational efficiency for retinal disease classification using fundus imaging. Although these studies focus on different medical imaging modalities, they further reinforce the suitability of EfficientNet-style CNN",
+              "page": 3,
+              "position": 96
+            },
+            {
+              "text": "backbones and transfer learning approaches for extracting clinically meaningful representations from heterogeneous medical imaging data.",
+              "page": 3,
+              "position": 97
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.2 Hierarchical and multimodal deep learning approaches",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "To better approximate real world clinical workflows, hierarchical and multimodal learning approaches have been proposed to integrate radiographic imaging with complementary patient-specific clinical information. Baltrusaitis et al. [9] highlighted that combining multiple modalities can improve robustness and reduce uncertainty when individual data sources are incomplete, noisy, or heterogeneous.",
+              "page": 3,
+              "position": 98
+            },
+            {
+              "text": "Khan et al. [10] proposed a hierarchical deep learning framework for COVID-19 classification using CXR images. Their architecture decomposed the classification task into multiple stages, improving discrimination between COVID-19, pneumonia, and normal cases. Although the framework achieved approximately 95% classification accuracy, it relied exclusively on imaging data and therefore could not model broader clinical context through structured patient information.",
+              "page": 3,
+              "position": 99
+            },
+            {
+              "text": "Several studies subsequently explored multimodal deep learning for COVID-19 screening by integrating medical imaging with complementary clinical variables. Chowdhury et al. [11] investigated deep learning approaches for screening viral and COVID-19 pneumonia using CXR images under multiple classification settings. Their reported accuracies generally ranged between 80% and 90% depending on dataset composition and model configuration. Although the study demonstrated the potential of AI-assisted screening, the observed performance variability highlighted ongoing challenges associated with heterogeneous clinical data and multimodal integration.",
+              "page": 3,
+              "position": 100
+            },
+            {
+              "text": "Similarly, Mei et al. [12] proposed a multimodal AI framework integrating chest CT imaging with non-imaging clinical variables for rapid COVID-19 diagnosis. Their findings demonstrated that multimodal integration can outperform imaging-only models. However, reliance on CT imaging limits direct applicability to CXR-based workflows and large-scale resource-constrained screening environments.",
+              "page": 3,
+              "position": 101
+            },
+            {
+              "text": "Based on the experimental findings reported by Pereira et al. [13], a hierarchical image-based COVID-19 classification framework achieved an F1-score of approximately 89%. However, the reported performance remained limited by the relatively modest F1-score, restricted dataset size, and reliance on single-modality feature extraction.",
+              "page": 3,
+              "position": 102
+            },
+            {
+              "text": "To further extend hierarchical multimodal learning, Althenayan et al. [14] combined CXR images with structured clinical information within a hierarchical multimodal CNN framework, achieving approximately 95.9% classification accuracy on a curated multimodal dataset. Although effective, the framework relied on carefully curated subsets and did not fully address severe class imbalance and incomplete clinical variables commonly encountered in real world healthcare environments. In addition, several generative adversarial network (GAN)-based augmentation strategies were explored to generate synthetic minority samples; however, the generated",
+              "page": 3,
+              "position": 103
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 3,
+              "position": 104
+            },
+            {
+              "text": "Frontiers in Digital Health 04 frontiersin.org",
+              "page": 3,
+              "position": 105
+            },
+            {
+              "text": "data did not consistently achieve the same level of performance improvement observed with alternative augmentation and imbalance-aware optimization strategies.",
+              "page": 4,
+              "position": 106
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.3 Virtual hospitals, telemedicine, and remote diagnostics",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "The COVID-19 pandemic significantly accelerated adoption of telemedicine and virtual hospital models. Virtual hospitals are generally understood as digitally coordinated care environments that support remote diagnosis, monitoring, and clinical decision making across multiple healthcare institutions. These environments frequently operate using hub-and-spoke structures in which specialized expertise is centralized while imaging, testing, and patient monitoring occur locally through distributed virtual points of care Elrod and Fortenberry [15].",
+              "page": 4,
+              "position": 107
+            },
+            {
+              "text": "Keesara et al. [16] emphasized the critical role of telemedicine in maintaining continuity of care during the pandemic while reducing exposure risks. Within virtual hospital environments, AI-driven diagnostic systems capable of integrating imaging and electronic health record information are particularly valuable because they better reflect how clinicians combine radiological findings with patient-specific clinical information during remote triage and consultation workflows.",
+              "page": 4,
+              "position": 108
+            },
+            {
+              "text": "The World Health Organization [17] further highlighted the importance of developing digital healthcare systems that are accurate, interoperable, scalable, and trustworthy to support safe deployment within large-scale remote healthcare environments.",
+              "page": 4,
+              "position": 109
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.4 Explainability and safety in clinical AI",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Explainability remains a critical requirement for deployment of AI systems within clinical practice. Selvaraju et al. [18] introduced Grad-CAM, a widely adopted visualization technique that highlights image regions contributing to model predictions and supports interpretability of CNN-based diagnostic frameworks.",
+              "page": 4,
+              "position": 110
+            },
+            {
+              "text": "Similarly, Kelly et al. [19] emphasized that transparency, class- wise performance evaluation, and clear communication of model limitations are essential for achieving meaningful clinical impact and safe deployment of AI-assisted diagnostic systems. These principles are further reinforced by global guidance from the World Health Organization [20], which emphasizes ethical governance, transparency, and responsible deployment of AI technologies within healthcare environments.",
+              "page": 4,
+              "position": 111
+            },
+            {
+              "text": "Collectively, prior studies demonstrate that hierarchical and multimodal deep learning frameworks show substantial promise for pneumonia diagnosis and AI-assisted respiratory disease screening. Nevertheless, important challenges remain regarding multimodal integration, real world class imbalance, incomplete clinical data, explainability, and deployment scalability within remote and virtual healthcare environments.",
+              "page": 4,
+              "position": 112
+            },
+            {
+              "text": "Table 2summarizes representative image-based, hierarchical, multimodal, and explainability-oriented approaches discussed throughout this section, highlighting their input modalities, model architectures, reported performance, and major limitations.",
+              "page": 4,
+              "position": 113
+            },
+            {
+              "text": "Although direct benchmark comparison across studies remains challenging because of differences in datasets, modalities, and evaluation protocols, inclusion of established image-only frameworks such as CheXNet and COVID-Net provides broader contextual positioning of the proposed multimodal framework within the evolving medical AI literature.",
+              "page": 4,
+              "position": 114
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "This study builds upon and extends the hierarchical multimodal CNN framework proposed by Althenayan et al. [14], which achieved 95.9% classification accuracy through joint modeling of chest X-ray (CXR) images and structured clinical data. Using the same private multimodal dataset and evaluation protocol, the proposed optimized CNN–MLP fusion framework achieved 97.2% accuracy, representing a 1.3 percentage point improvement over the established multimodal baseline.",
+          "page": 4,
+          "position": 115
+        },
+        {
+          "text": "Because the underlying multimodal dataset is proprietary and governed by institutional and NDA restrictions, particular emphasis was placed on providing a transparent and reproducible description of the proposed framework. Accordingly, the manuscript explicitly documents the preprocessing pipeline, encoder architectures, multimodal fusion strategy, regularization techniques, optimization settings, training configuration, and evaluation protocol to support methodological reproducibility on alternative multimodal respiratory imaging datasets.",
+          "page": 4,
+          "position": 116
+        }
+      ],
+      "subsections": [
+        {
+          "title": "3.1 Baseline and comparative framework",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "The primary baseline for this study is the hierarchical multimodal CNN framework introduced by Althenayan et al. [14]. This work represents the most directly comparable prior approach because it utilizes the same multimodal dataset, including both CXR images and structured clinical variables, within a hierarchical learning framework. To ensure fair and controlled comparison, the present study adopted the same dataset source, preprocessing workflow, class definitions, and train–validation–test partitioning strategy reported in the baseline study. Furthermore, all comparative evaluations were conducted under consistent experimental conditions using aligned preprocessing procedures, dataset partitions, optimization settings, and evaluation metrics whenever applicable.",
+              "page": 4,
+              "position": 117
+            },
+            {
+              "text": "In addition to the dataset-consistent multimodal baseline comparison, the proposed framework is also contextualized relative to widely recognized image-based architectures such as CheXNet and COVID-Net within the broader medical imaging literature. However, direct numerical comparison across studies should be interpreted cautiously because many multimodal pneumonia diagnosis studies rely on substantially different datasets, imaging modalities, class distributions, preprocessing pipelines, and evaluation protocols. Accordingly, the primary objective of the comparative analysis in this study is to evaluate multimodal integration effectiveness and methodological robustness under controlled dataset-consistent conditions rather than to claim universal superiority over all existing multimodal diagnostic frameworks.",
+              "page": 4,
+              "position": 118
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 4,
+              "position": 119
+            },
+            {
+              "text": "Frontiers in Digital Health 05 frontiersin.org",
+              "page": 4,
+              "position": 120
+            },
+            {
+              "text": "The hierarchical CNN architecture proposed by Khan et al. [10] achieved approximately 90% classification accuracy using CXR images alone. Although this framework provides a validated hierarchical image-processing design, it does not incorporate structured clinical information and therefore does not constitute a multimodal baseline. In the present study, the work of Khan et al. [10] is considered primarily from an architectural perspective as a foundational reference for hierarchical CNN design rather than as a direct performance comparator.",
+              "page": 5,
+              "position": 121
+            },
+            {
+              "text": "The primary objective of this study is therefore not to introduce a fundamentally new multimodal neural architecture, but rather to investigate how a carefully optimized and practically deployable multimodal framework can improve diagnostic robustness, convergence stability, and classification performance under realistic virtual hospital conditions involving class imbalance, sparse clinical variables, heterogeneous multimodal data, and constrained healthcare deployment environments.",
+              "page": 5,
+              "position": 122
+            },
+            {
+              "text": "Accordingly, the contribution of the proposed framework should primarily be interpreted from a systems integration, optimization, and healthcare applicability perspective rather than solely from the introduction of a completely novel deep learning fusion mechanism. Specifically, the proposed framework improves multimodal fusion effectiveness and robustness through an optimized CNN–MLP architecture combined with imbalance-aware training strategies, thereby enhancing integration between heterogeneous modalities while maintaining architectural consistency with prior hierarchical multimodal CNN approaches.",
+              "page": 5,
+              "position": 123
+            },
+            {
+              "text": "Overall, the present study provides a direct dataset-consistent methodological improvement over the established multimodal baseline of Althenayan et al. [14], while appropriately positioning earlier image-only work by Khan et al. [10] as foundational but non-comparative.",
+              "page": 5,
+              "position": 124
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.2 Proposed fusion-based hierarchical multimodal framework",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "To address the limitations associated with isolated unimodal learning, a fusion-based hierarchical multimodal learning framework was developed to jointly model radiographic imaging and structured clinical information for respiratory disease diagnosis.",
+              "page": 5,
+              "position": 125
+            },
+            {
+              "text": "To mitigate the effect of severe class imbalance, the training pipeline incorporated SMOTE-based oversampling for minority classes together with image augmentation strategies including horizontal flipping, small rotations, and contrast adjustment. In addition, class-weighted optimization was applied during training to promote balanced loss contribution across disease categories.",
+              "page": 5,
+              "position": 126
+            },
+            {
+              "text": "Figure 2illustrates the overall architecture of the proposed multimodal framework.",
+              "page": 5,
+              "position": 127
+            }
+          ],
+          "subsections": [
+            {
+              "title": "3.2.1 CNN branch (image encoder)",
+              "level": 3,
+              "page_start": 5,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "The CNN branch processes preprocessed CXR images resized to 224 \u0002 224 pixels and normalized to the [0, 1] range. A lightweight hierarchical CNN architecture was adopted to extract radiographic representations relevant to pneumonia diagnosis while maintaining computational efficiency and stable multimodal optimization.",
+                  "page": 5,
+                  "position": 128
+                },
+                {
+                  "text": "The CNN encoder consists of three sequential convolutional blocks. Each block includes convolutional operations followed by batch normalization, Rectified Linear Unit (ReLU) activation, and max-pooling layers to progressively learn hierarchical spatial representations while reducing feature dimensionality. These convolutional operations capture both low-level and high-level radiographic characteristics, including pulmonary opacities, infiltrates, texture abnormalities, and lung pattern variations associated with respiratory infection.",
+                  "page": 5,
+                  "position": 129
+                },
+                {
+                  "text": "TABLE 2 Comparison of representative related diagnostic approaches.",
+                  "page": 5,
+                  "position": 130
+                },
+                {
+                  "text": "Study Modality Model type Accuracy Key limitations",
+                  "page": 5,
+                  "position": 131
+                },
+                {
+                  "text": "Rajpurkar et al. [3] CXR Images CNN (CheXNet) NA Not COVID-19 specific",
+                  "page": 5,
+                  "position": 132
+                },
+                {
+                  "text": "Wang and Wong [4] CXR Images CNN (COVID-Net) ≏93% Image-only; dataset bias",
+                  "page": 5,
+                  "position": 133
+                },
+                {
+                  "text": "Apostolopoulos and",
+                  "page": 5,
+                  "position": 134
+                },
+                {
+                  "text": "Mpesiana [5]",
+                  "page": 5,
+                  "position": 135
+                },
+                {
+                  "text": "CXR Images Transfer learning ≏94% Small datasets",
+                  "page": 5,
+                  "position": 136
+                },
+                {
+                  "text": "Hemdan et al. [6] CXR Images CNN ≏90% Limited generalization",
+                  "page": 5,
+                  "position": 137
+                },
+                {
+                  "text": "Khan et al. [10] CXR Images Hierarchical CNN ≏95% Image-only; no clinical data",
+                  "page": 5,
+                  "position": 138
+                },
+                {
+                  "text": "Selvaraju et al. [18] CXR Images Explainability method (Grad-",
+                  "page": 5,
+                  "position": 139
+                },
+                {
+                  "text": "CAM)",
+                  "page": 5,
+                  "position": 140
+                },
+                {
+                  "text": "NA Not a diagnostic model; no multimodal integration",
+                  "page": 5,
+                  "position": 141
+                },
+                {
+                  "text": "Mei et al. [12] CT Images & Clinical",
+                  "page": 5,
+                  "position": 142
+                },
+                {
+                  "text": "Data",
+                  "page": 5,
+                  "position": 143
+                },
+                {
+                  "text": "Multimodal deep learning ≏92% CT-dependent",
+                  "page": 5,
+                  "position": 144
+                },
+                {
+                  "text": "Chowdhury et al. [11] CXR Images & Clinical",
+                  "page": 5,
+                  "position": 145
+                },
+                {
+                  "text": "Data",
+                  "page": 5,
+                  "position": 146
+                },
+                {
+                  "text": "Multimodal CNN 80%–90% Basic fusion strategies",
+                  "page": 5,
+                  "position": 147
+                },
+                {
+                  "text": "Althenayan et al. [14] CXR Images & Clinical",
+                  "page": 5,
+                  "position": 148
+                },
+                {
+                  "text": "Data",
+                  "page": 5,
+                  "position": 149
+                },
+                {
+                  "text": "Hierarchical multimodal",
+                  "page": 5,
+                  "position": 150
+                },
+                {
+                  "text": "CNN",
+                  "page": 5,
+                  "position": 151
+                },
+                {
+                  "text": "95.9% Curated data; imbalance not fully addressed",
+                  "page": 5,
+                  "position": 152
+                },
+                {
+                  "text": "Proposed work CXR Images & Clinical",
+                  "page": 5,
+                  "position": 153
+                },
+                {
+                  "text": "Data",
+                  "page": 5,
+                  "position": 154
+                },
+                {
+                  "text": "CNN & MLP fusion 97.2% Addresses class imbalance, missing data, and multimodal",
+                  "page": 5,
+                  "position": 155
+                },
+                {
+                  "text": "integration challenges",
+                  "page": 5,
+                  "position": 156
+                },
+                {
+                  "text": "Bold values indicate the results obtained by the proposed VHealth-MFusion framework.",
+                  "page": 5,
+                  "position": 157
+                },
+                {
+                  "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+                  "page": 5,
+                  "position": 158
+                },
+                {
+                  "text": "Frontiers in Digital Health 06 frontiersin.org",
+                  "page": 5,
+                  "position": 159
+                },
+                {
+                  "text": "The convolutional operation is mathematically represented as shown in Equation 1:",
+                  "page": 6,
+                  "position": 160
+                },
+                {
+                  "text": "Fl¼ s(Wl\u0003Xl þ bl) (1)",
+                  "page": 6,
+                  "position": 161
+                },
+                {
+                  "text": "where Xl denotes the input feature map at layer l, Wl represents the convolution kernel weights, bl is the bias term, \u0003denotes convolution, and s(\u0001) represents the nonlinear activation function.",
+                  "page": 6,
+                  "position": 162
+                },
+                {
+                  "text": "Following the final convolutional block, Global Average Pooling (GAP) is applied to transform the spatial feature maps into a compact latent radiographic embedding, as shown in Equation 2:",
+                  "page": 6,
+                  "position": 163
+                },
+                {
+                  "text": "zimg¼ GAP(FL) (2)",
+                  "page": 6,
+                  "position": 164
+                },
+                {
+                  "text": "where FL denotes the final convolutional feature representation and zimg represents the extracted radiographic embedding used for multimodal fusion.",
+                  "page": 6,
+                  "position": 165
+                },
+                {
+                  "text": "Dropout regularization is subsequently applied to reduce overfitting and improve generalization stability prior to multimodal integration.",
+                  "page": 6,
+                  "position": 166
+                },
+                {
+                  "text": "A lightweight custom CNN architecture was selected to balance representational capacity, computational efficiency, and training stability within the current multimodal experimental setting. Because the framework jointly processes imaging and high- dimensional structured clinical variables, employing a lightweight image encoder reduced computational overhead and facilitated stable multimodal optimization under limited dataset conditions. In addition, lighter architectures may reduce overfitting risk relative to substantially deeper pretrained networks when training data are relatively constrained and imbalanced.",
+                  "page": 6,
+                  "position": 167
+                },
+                {
+                  "text": "The CNN encoder was trained directly on the multimodal pneumonia dataset rather than initialized using transfer learning from a large external pretrained pneumonia-specific model. The",
+                  "page": 6,
+                  "position": 168
+                },
+                {
+                  "text": "primary objective of this study was to evaluate the effectiveness of the proposed multimodal fusion framework itself under controlled dataset-consistent conditions. Nevertheless, pretrained architectures such as ResNet and EfficientNet remain promising directions for future investigation and may further improve radiographic feature generalization across larger multicenter datasets.",
+                  "page": 6,
+                  "position": 169
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.2.2 MLP branch (tabular encoder)",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "The MLP branch processes structured clinical variables including demographic information, symptoms, physiological observations, laboratory measurements, and outcome-related attributes. Following preprocessing, feature reduction, normalization, and missing-value imputation, the structured clinical input vector is passed through a three-layer multilayer perceptron architecture composed of fully connected dense layers.",
+                  "page": 6,
+                  "position": 170
+                },
+                {
+                  "text": "Each dense layer performs nonlinear transformation of the structured clinical feature space according to Equation 3:",
+                  "page": 6,
+                  "position": 171
+                },
+                {
+                  "text": "hl¼ f(Wlhl1 þ bl) (3)",
+                  "page": 6,
+                  "position": 172
+                },
+                {
+                  "text": "where hl1 denotes the input representation from the previous layer, Wl and bl represent trainable weights and bias parameters, and f(\u0001) denotes the nonlinear activation function.",
+                  "page": 6,
+                  "position": 173
+                },
+                {
+                  "text": "Batch normalization and dropout regularization are applied after each dense layer to improve convergence stability and reduce overfitting within the high-dimensional clinical feature space. The MLP progressively transforms structured clinical variables into a compact latent clinical representation, as described in Equation 4:",
+                  "page": 6,
+                  "position": 174
+                },
+                {
+                  "text": "zclinical¼ MLP(xclinical) (4)",
+                  "page": 6,
+                  "position": 175
+                },
+                {
+                  "text": "FIGURE 2 Proposed fusion-based hierarchical multimodal framework for pneumonia diagnosis, integrating radiographic imaging and structured clinical information through a unified multimodal fusion and classification pipeline.",
+                  "page": 6,
+                  "position": 176
+                },
+                {
+                  "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+                  "page": 6,
+                  "position": 177
+                },
+                {
+                  "text": "Frontiers in Digital Health 07 frontiersin.org",
+                  "page": 6,
+                  "position": 178
+                },
+                {
+                  "text": "where xclinical represents the preprocessed structured clinical feature vector and zclinical denotes the latent clinical embedding used for multimodal fusion.",
+                  "page": 7,
+                  "position": 179
+                },
+                {
+                  "text": "Importantly, the multilayer dense architecture enables the framework to learn nonlinear feature interactions among symptoms, laboratory findings, demographic characteristics, and physiological indicators. Rather than treating each clinical variable independently, the network captures multivariate patterns in which combinations of clinical attributes contribute jointly to classification decisions. These learned clinical feature representations are subsequently fused with radiographic feature embeddings, enabling the model to leverage complementary information from both modalities during the final classification process.",
+                  "page": 7,
+                  "position": 180
+                },
+                {
+                  "text": "The three-layer MLP architecture was selected as a balance between representational capacity, training stability, computational efficiency, and dataset scale. Preliminary exploration of deeper architectures substantially increased model complexity and training instability without producing consistent improvements in validation performance. Given the relatively limited dataset size and the presence of imbalance and sparsity within the structured clinical variables, deeper architectures also demonstrated greater susceptibility to overfitting. In contrast, the adopted three-layer design demonstrated stable convergence behavior and effective integration with the CNN branch while maintaining strong multimodal classification performance.",
+                  "page": 7,
+                  "position": 181
+                },
+                {
+                  "text": "To further reduce redundancy within the high-dimensional clinical feature space, preprocessing incorporated feature-reduction strategies targeting highly correlated and low-information variables. This reduced unnecessary feature overlap while preserving clinically relevant information for multimodal fusion.",
+                  "page": 7,
+                  "position": 182
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.2.3 Fusion and classification layer",
+              "level": 3,
+              "page_start": 7,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "The multimodal fusion stage integrates the latent radiographic embedding generated by the CNN branch with the latent structured clinical embedding generated by the MLP branch. A late-fusion strategy was adopted because imaging and structured clinical variables represent heterogeneous modalities with distinct statistical and representational characteristics.",
+                  "page": 7,
+                  "position": 183
+                },
+                {
+                  "text": "The latent feature representations are concatenated into a unified multimodal feature vector, as shown in Equation 5:",
+                  "page": 7,
+                  "position": 184
+                },
+                {
+                  "text": "zfusion¼ [zimg; zclinical] (5)",
+                  "page": 7,
+                  "position": 185
+                },
+                {
+                  "text": "where [ \u0001 ;\u0001 ] denotes feature concatenation.",
+                  "page": 7,
+                  "position": 186
+                },
+                {
+                  "text": "The fused multimodal representation is subsequently passed through fully connected dense layers with nonlinear activations and dropout regularization prior to final classification, as defined in Equation 6:",
+                  "page": 7,
+                  "position": 187
+                },
+                {
+                  "text": "y ¼ Softmax(W f zfusion þ b f ) (6)",
+                  "page": 7,
+                  "position": 188
+                },
+                {
+                  "text": "where W f and b f denote trainable classification parameters and y represents the predicted probability distribution across respiratory disease categories.",
+                  "page": 7,
+                  "position": 189
+                },
+                {
+                  "text": "This late-fusion strategy enables the CNN branch to independently learn radiographic representations while allowing",
+                  "page": 7,
+                  "position": 190
+                },
+                {
+                  "text": "the MLP branch to independently model structured clinical relationships prior to multimodal integration. The resulting fused latent representation supports joint multimodal reasoning across imaging and patient-specific clinical information within virtual hospital diagnostic workflows.",
+                  "page": 7,
+                  "position": 191
+                },
+                {
+                  "text": "The current framework does not explicitly implement adaptive attention or dynamic weighting mechanisms that assign variable importance to specific clinical variables based on radiographic findings. Instead, multimodal interactions are learned implicitly within the fused latent representation space generated during multimodal training. Future work will investigate attention- based multimodal fusion and explainability-oriented techniques such as SHAP and Grad-CAM to better quantify the contribution of specific radiographic patterns and structured clinical variables during diagnostic prediction.",
+                  "page": 7,
+                  "position": 192
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.2.4 Integrated multimodal architecture",
+              "level": 3,
+              "page_start": 7,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Figure 3illustrates the integrated multimodal architecture, consisting of a CNN-based image encoder for radiographic feature extraction, an MLP-based tabular encoder for structured clinical representation learning, and a late-fusion layer for joint multimodal classification.",
+                  "page": 7,
+                  "position": 193
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.3 Training strategy",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "A training strategy explicitly designed to improve generalization and reduce overfitting within the high- dimensional multimodal feature space was adopted. This strategy incorporated dropout regularization, early stopping, class-weighted learning, SMOTE-based minority oversampling, and image augmentation techniques including horizontal flipping, small rotations, and contrast adjustment.",
+              "page": 7,
+              "position": 194
+            },
+            {
+              "text": "Dropout regularization with a rate of 0.5 was applied within both the CNN and MLP branches to randomly deactivate subsets of neurons during training, thereby reducing feature co- adaptation and discouraging memorization of patient-specific noise or spurious correlations. Early stopping was additionally employed to monitor validation performance and terminate training once validation loss no longer improved.",
+              "page": 7,
+              "position": 195
+            },
+            {
+              "text": "Missing structured clinical values were handled using statistical imputation strategies prior to multimodal training, including median imputation for continuous variables and mode-based imputation for categorical variables.",
+              "page": 7,
+              "position": 196
+            },
+            {
+              "text": "Although SMOTE was applied to mitigate class imbalance for minority disease categories, multiple complementary regularization strategies were incorporated to reduce the risk of overfitting to synthetic minority samples. Specifically, dropout regularization, augmentation, early stopping, and class- weighted optimization were jointly applied during training to improve generalization stability.",
+              "page": 7,
+              "position": 197
+            },
+            {
+              "text": "Furthermore, the training and validation accuracy/loss curves demonstrated stable convergence behavior without substantial divergence between training and validation performance, suggesting that the framework generalized beyond synthetic oversampled instances rather than merely memorizing minority-class samples. In addition, minority- class performance remained relatively balanced across",
+              "page": 7,
+              "position": 198
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 7,
+              "position": 199
+            },
+            {
+              "text": "Frontiers in Digital Health 08 frontiersin.org",
+              "page": 7,
+              "position": 200
+            },
+            {
+              "text": "precision, recall, and F1-score metrics instead of exhibiting artificially inflated training performance alone. Collectively, these observations support the stability and robustness of the proposed multimodal learning strategy under highly imbalanced dataset conditions.",
+              "page": 8,
+              "position": 201
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.4 Training configuration and hyperparameters",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Table 3summarizes the key hyperparameters and training configuration settings used for the proposed CNN–MLP multimodal framework.",
+              "page": 8,
+              "position": 202
+            },
+            {
+              "text": "To improve experimental transparency and comparative fairness, all evaluated models within the controlled comparative framework were trained and assessed under aligned preprocessing procedures, equivalent dataset partitions, and standardized evaluation metrics whenever supported by the corresponding architecture. All preprocessing, training, and evaluation stages were additionally implemented using modular pipelines with consistent parameter settings across experiments.",
+              "page": 8,
+              "position": 203
+            },
+            {
+              "text": "The framework was trained using the Adam optimizer with categorical cross-entropy loss together with class-weighted learning, dropout regularization, early stopping, and augmentation-aware preprocessing under identical evaluation conditions across comparative experiments.",
+              "page": 8,
+              "position": 204
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.5 Improvements over prior work",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Compared with Althenayan et al. [14], the proposed methodology introduces several important improvements:",
+              "page": 8,
+              "position": 205
+            },
+            {
+              "text": "1.Optimized Multimodal Fusion: The proposed framework improves integration between radiographic imaging and structured clinical variables through an optimized CNN– MLP multimodal fusion strategy designed for heterogeneous healthcare data. 2.Imbalance-Aware Training: Class-weighted optimization, SMOTE-based oversampling, augmentation, and regularization strategies were incorporated to improve robustness under severe class imbalance conditions. 3.Modular and Reproducible Architecture: The proposed framework maintains a modular multimodal architecture that supports reproducibility while achieving improved diagnostic performance relative to the baseline framework. 4.Improved Multimodal Stability: The combined use of multimodal fusion, regularization, feature reduction, and controlled optimization contributed to more stable convergence and improved generalization under heterogeneous clinical conditions.",
+              "page": 8,
+              "position": 206
+            },
+            {
+              "text": "FIGURE 3 Architectural illustration of the proposed multimodal framework, showing the CNN-based image branch, the MLP-based tabular branch, and their integration through a feature fusion layer for final classification.",
+              "page": 8,
+              "position": 207
+            },
+            {
+              "text": "TABLE 3 Training hyperparameters and configuration settings for the proposed CNN–MLP",
+              "page": 8,
+              "position": 208
+            },
+            {
+              "text": "multimodal framework.",
+              "page": 8,
+              "position": 209
+            },
+            {
+              "text": "Hyperparameter Value",
+              "page": 8,
+              "position": 210
+            },
+            {
+              "text": "Optimizer Adam",
+              "page": 8,
+              "position": 211
+            },
+            {
+              "text": "Learning rate 1 \u0002 104",
+              "page": 8,
+              "position": 212
+            },
+            {
+              "text": "Loss function Categorical cross-entropy",
+              "page": 8,
+              "position": 213
+            },
+            {
+              "text": "Batch size 32",
+              "page": 8,
+              "position": 214
+            },
+            {
+              "text": "Epochs 50 (early stopping, patience ¼ 5)",
+              "page": 8,
+              "position": 215
+            },
+            {
+              "text": "Class weighting Yes",
+              "page": 8,
+              "position": 216
+            },
+            {
+              "text": "Evaluation metrics Accuracy, Precision, Recall",
+              "page": 8,
+              "position": 217
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 8,
+              "position": 218
+            },
+            {
+              "text": "Frontiers in Digital Health 09 frontiersin.org",
+              "page": 8,
+              "position": 219
+            },
+            {
+              "text": "By combining CNN-based radiographic analysis with MLP-based structured clinical representation learning, the proposed multimodal framework improves diagnostic robustness and multimodal integration effectiveness relative to the hierarchical multimodal CNN baseline. These improvements support more reliable multimodal learning under imbalanced healthcare conditions while maintaining practical applicability for remote and virtual hospital diagnostic workflows.",
+              "page": 9,
+              "position": 220
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4 Dataset",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 11,
+      "paragraphs": [
+        {
+          "text": "The dataset used in this study integrates radiographic imaging and structured clinical information to support multimodal learning for pneumonia diagnosis. The imaging component consists of CXR scans categorized into multiple respiratory disease classes, while the structured clinical component contains demographic variables, symptoms, physiological observations, laboratory findings, and outcome-related information associated with the corresponding patient records. This is the same curated multimodal dataset employed by Althenayan et al. [14], enabling controlled dataset-consistent comparison between the baseline and proposed multimodal frameworks.",
+          "page": 9,
+          "position": 221
+        },
+        {
+          "text": "The diagnostic labels and disease categories were inherited from the original curated multimodal dataset introduced by Althenayan et al. [14]. Because the dataset was obtained under institutional agreements and NDA restrictions, detailed annotation workflow information, including the number of contributing clinical experts and institution-specific labeling procedures, cannot be publicly disclosed within the current manuscript. Nevertheless, the dataset was originally curated for clinical diagnostic research purposes and was used consistently across both the baseline and proposed multimodal evaluation frameworks.",
+          "page": 9,
+          "position": 222
+        },
+        {
+          "text": "Although the dataset includes heterogeneous respiratory disease categories and multimodal clinical information collected from multiple healthcare sources within the original dataset composition, the current study evaluates the proposed framework under controlled experimental conditions using a single curated multimodal dataset. Therefore, the reported findings should primarily be interpreted as controlled framework-level validation rather than definitive evidence of universal clinical generalizability across independent healthcare institutions or geographically distinct populations.",
+          "page": 9,
+          "position": 223
+        }
+      ],
+      "subsections": [
+        {
+          "title": "4.1 Image data",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "The imaging component consists of CXR scans categorized into multiple diagnostic classes, including Normal, Bacterial, Adenovirus, Influenza, MERS-CoV, and SARS-CoV-2 (Dubai and Saudi subsets). As shown in Table 4and Figure 4, the dataset is highly imbalanced, with the SARS-CoV-2 Dubai and Saudi categories dominating the dataset distribution, while rare conditions such as MERS-CoV and Adenovirus contain only a limited number of samples.",
+              "page": 9,
+              "position": 224
+            },
+            {
+              "text": "In particular, the MERS-CoV category contains only a single original image and is therefore retained primarily as an exploratory proof-of-concept category within the hierarchical",
+              "page": 9,
+              "position": 225
+            },
+            {
+              "text": "disease taxonomy rather than as a statistically reliable standalone diagnostic class. Consequently, the present study does not claim clinically generalizable or statistically robust performance for MERS-CoV classification. The inclusion of this category is intended to preserve the clinical heterogeneity and disease taxonomy of the original multimodal dataset used for comparative evaluation.",
+              "page": 9,
+              "position": 226
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.2 Example CXR images",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Representative CXR samples are shown in Figure 5 to illustrate the visual variability across diagnostic categories and the inherent challenges associated with distinguishing overlapping respiratory disease patterns.",
+              "page": 9,
+              "position": 227
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.3 Structured clinical data",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "In addition to radiographic imaging, the dataset includes structured clinical information containing 632 variables associated with the corresponding patient records. These variables include demographic information, clinical symptoms, physiological observations, laboratory measurements, and outcome-related attributes. The structured clinical data provide complementary contextual information that supports radiographic interpretation by capturing patient-specific physiological and clinical conditions that may not be visually apparent from CXR images alone.",
+              "page": 9,
+              "position": 228
+            },
+            {
+              "text": "Examples of clinically relevant variables include age, sex, fever, oxygen saturation, respiratory symptoms, inflammatory laboratory markers, and hospitalization-related indicators. Within real world virtual hospital workflows, clinicians typically interpret radiographic findings together with patient history, laboratory results, and physiological observations during pneumonia diagnosis and triage. Accordingly, the proposed multimodal framework integrates both imaging and structured clinical information to better approximate practical remote diagnostic decision making processes.",
+              "page": 9,
+              "position": 229
+            },
+            {
+              "text": "The structured clinical dataset additionally includes demographic variables such as age, sex, and geographic region as part of the multimodal feature space to support clinically contextualized prediction. However, because the dataset is governed by institutional privacy restrictions and NDA limitations, detailed patient-level demographic distributions cannot be publicly disclosed. Nevertheless, demographic",
+              "page": 9,
+              "position": 230
+            },
+            {
+              "text": "TABLE 4 Distribution of CXR images across diagnostic categories within the dataset.",
+              "page": 9,
+              "position": 231
+            },
+            {
+              "text": "Class Number of images",
+              "page": 9,
+              "position": 232
+            },
+            {
+              "text": "Normal 490",
+              "page": 9,
+              "position": 233
+            },
+            {
+              "text": "Bacterial 249",
+              "page": 9,
+              "position": 234
+            },
+            {
+              "text": "Adenovirus 16",
+              "page": 9,
+              "position": 235
+            },
+            {
+              "text": "Influenza 81",
+              "page": 9,
+              "position": 236
+            },
+            {
+              "text": "MERS-CoV 1",
+              "page": 9,
+              "position": 237
+            },
+            {
+              "text": "SARS-CoV-2 (Dubai) 1,219",
+              "page": 9,
+              "position": 238
+            },
+            {
+              "text": "SARS-CoV-2 (Saudi) 630",
+              "page": 9,
+              "position": 239
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 9,
+              "position": 240
+            },
+            {
+              "text": "Frontiers in Digital Health 10 frontiersin.org",
+              "page": 9,
+              "position": 241
+            },
+            {
+              "text": "variables were retained during training and evaluation to ensure that the framework learned from heterogeneous patient characteristics rather than relying exclusively on imaging features alone.",
+              "page": 10,
+              "position": 242
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.4 Train, validation, and test split",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Stratified sampling was applied to divide the dataset into training, validation, and testing subsets while preserving class proportions as much as possible. However, due to the extreme imbalance of certain minority categories, particularly MERS- CoV, some classes could not be represented across all dataset partitions because only a single original sample was available.",
+              "page": 10,
+              "position": 243
+            },
+            {
+              "text": "In the current partitioning scheme, the MERS-CoV sample appears exclusively within the training set and is absent from both the validation and test subsets. Consequently, MERS-CoV- specific validation or test metrics cannot be reported and should not be interpreted as statistically evaluable under the present experimental setting. The dataset split statistics are summarized in Table 5.",
+              "page": 10,
+              "position": 244
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.5 Dataset challenges",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "The dataset presents several challenges common to real world multimodal healthcare data. The most significant challenge is the extreme class imbalance, where some diagnostic categories contain only a limited number of samples. In addition, the structured clinical branch contains high-dimensional data with sparse and partially missing values. These challenges motivated the design",
+              "page": 10,
+              "position": 245
+            },
+            {
+              "text": "of the preprocessing pipeline and informed the architecture and regularization strategies adopted within the proposed multimodal framework.",
+              "page": 10,
+              "position": 246
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.6 Preprocessing",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "Preprocessing was performed separately for the imaging and structured clinical branches to ensure both modalities were standardized and appropriately aligned prior to multimodal fusion.",
+              "page": 10,
+              "position": 247
+            }
+          ],
+          "subsections": [
+            {
+              "title": "4.6.1 Image preprocessing",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "All CXR images were resized to 224 \u0002 224 pixels and normalized to the [0, 1] range to ensure consistency across the imaging branch. To reduce overfitting and partially mitigate class imbalance, several augmentation strategies were applied, including random horizontal flipping, small rotations of up to +10\u000e, and contrast adjustments. These augmentations preserve medically relevant radiographic structures while increasing training diversity. Representative examples of the preprocessed CXR images are shown in Figure 6.",
+                  "page": 10,
+                  "position": 248
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "4.6.2 Tabular data preprocessing",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "The structured clinical branch included demographic, clinical, and laboratory variables containing sparse, incomplete, and partially missing information. Accordingly, a preprocessing pipeline was applied prior to multimodal training.",
+                  "page": 10,
+                  "position": 249
+                },
+                {
+                  "text": "FIGURE 4 Distribution of CXR images across diagnostic categories. The dataset is highly imbalanced, with SARS-CoV-2 Dubai and Saudi subsets dominating the distribution, while rare classes such as MERS-CoV and Adenovirus remain underrepresented.",
+                  "page": 10,
+                  "position": 250
+                },
+                {
+                  "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+                  "page": 10,
+                  "position": 251
+                },
+                {
+                  "text": "Frontiers in Digital Health 11 frontiersin.org",
+                  "page": 10,
+                  "position": 252
+                },
+                {
+                  "text": "Continuous numerical variables were imputed using median- value replacement to reduce sensitivity to outliers and maintain robustness under heterogeneous clinical distributions. Categorical variables were completed using mode-based imputation, where missing entries were replaced using the most frequently occurring category within the corresponding feature. Following imputation, continuous variables were standardized and categorical variables were numerically encoded to ensure compatibility with the MLP branch.",
+                  "page": 11,
+                  "position": 253
+                },
+                {
+                  "text": "To improve computational efficiency and reduce redundancy within the high-dimensional feature space, highly sparse, low-variance, and strongly correlated variables were identified and removed during preprocessing. This strategy helped reduce noise, stabilize optimization, and mitigate excessive feature overlap while preserving clinically relevant information for multimodal fusion. All preprocessing and imputation procedures were applied consistently across the dataset prior to model training and evaluation.",
+                  "page": 11,
+                  "position": 254
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5 Results",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "The proposed hierarchical multimodal fusion framework demonstrated strong diagnostic performance and improved multimodal learning stability under highly heterogeneous and imbalanced healthcare conditions. The framework was evaluated using the same multimodal dataset, class definitions, preprocessing workflow, and train–validation–test split configuration used by Althenayan et al. [14] to ensure fair and controlled comparative evaluation.",
+          "page": 11,
+          "position": 255
+        },
+        {
+          "text": "FIGURE 5 Representative chest X-ray images of different respiratory conditions: (A) Normal, (B) Bacterial pneumonia, (C) Adenovirus, (D) SARS-CoV-2, (E) Influenza, and (F) Respiratory Syncytial Virus (RSV). The images illustrate characteristic radiographic variations observed across the different diagnostic categories [14]. Reproduced from “CXR samples of the dataset” by Albatoul S. Althenayan, Shada A. AlSalamah, Sherin Aly, Thamer Nouh, Bassam Mahboub, Laila Salameh, Metab Alkubeyyer and Abdulrahman Mirza, licensed under CC BY.",
+          "page": 11,
+          "position": 256
+        },
+        {
+          "text": "TABLE 5 Train, validation, and test partitioning across diagnostic categories.",
+          "page": 11,
+          "position": 257
+        },
+        {
+          "text": "Class Train Validation Test",
+          "page": 11,
+          "position": 258
+        },
+        {
+          "text": "Normal 343 74 73",
+          "page": 11,
+          "position": 259
+        },
+        {
+          "text": "Bacterial 174 38 37",
+          "page": 11,
+          "position": 260
+        },
+        {
+          "text": "Adenovirus 11 2 3",
+          "page": 11,
+          "position": 261
+        },
+        {
+          "text": "Influenza 57 12 12",
+          "page": 11,
+          "position": 262
+        },
+        {
+          "text": "SARS-CoV-2 (Dubai) 853 183 183",
+          "page": 11,
+          "position": 263
+        },
+        {
+          "text": "SARS-CoV-2 (Saudi) 441 95 94",
+          "page": 11,
+          "position": 264
+        },
+        {
+          "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+          "page": 11,
+          "position": 265
+        },
+        {
+          "text": "Frontiers in Digital Health 12 frontiersin.org",
+          "page": 11,
+          "position": 266
+        },
+        {
+          "text": "The baseline hierarchical multimodal CNN reported by Althenayan et al. [14] achieved a classification accuracy of 95.9% on the same dataset. In comparison, the proposed CNN–MLP multimodal fusion framework achieved a validation accuracy of 97.2%. Importantly, the observed improvement was not limited to overall accuracy alone, but was also reflected across complementary evaluation metrics including precision, recall, sensitivity, F1-score, confusion matrix behavior, and validation convergence stability.",
+          "page": 12,
+          "position": 267
+        },
+        {
+          "text": "To reduce the likelihood that the observed performance improvement resulted primarily from favorable dataset partitioning, all comparative experiments were conducted under identical experimental conditions using the same dataset source, preprocessing procedures, class definitions, evaluation metrics, and train–validation–test partitions. The proposed framework consistently demonstrated improved multimodal performance trends across multiple complementary evaluation measures rather than isolated gains in a single metric.",
+          "page": 12,
+          "position": 268
+        },
+        {
+          "text": "Although formal repeated cross-validation, confidence interval estimation, and statistical hypothesis testing were not performed because of the computational complexity and dataset constraints associated with multimodal deep learning training, the model demonstrated relatively stable validation behavior throughout",
+          "page": 12,
+          "position": 269
+        },
+        {
+          "text": "optimization. Furthermore, the observed improvements remained consistent under the controlled experimental setting used throughout the study, supporting the reliability of the reported multimodal performance trends.",
+          "page": 12,
+          "position": 270
+        }
+      ],
+      "subsections": [
+        {
+          "title": "5.1 Training and validation performance",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "The training curves demonstrated stable optimization behavior throughout the training process, with training accuracy remaining closely aligned with validation accuracy across epochs. Early stopping and dropout regularization contributed to limiting overfitting within the high-dimensional multimodal feature space, while both training and validation loss decreased consistently during optimization. Figure 7illustrates the training and validation accuracy and loss curves.",
+              "page": 12,
+              "position": 271
+            },
+            {
+              "text": "The relatively close alignment between training and validation accuracy suggests that the framework maintained stable generalization behavior during learning. In addition, validation loss did not exhibit substantial late-stage divergence or instability, further supporting the effectiveness of the adopted regularization strategies in stabilizing multimodal learning.",
+              "page": 12,
+              "position": 272
+            },
+            {
+              "text": "FIGURE 6 Representative chest X-ray examples highlighting radiographic manifestations of respiratory infections: (A) Bacterial pneumonia, (B) Adenovirus, (C) Influenza, and (D) Respiratory Syncytial Virus (RSV). The images demonstrate differences in lung opacity patterns associated with each condition [14]. Reproduced from “Samples of synthetic CXR images” by Albatoul S. Althenayan, Shada A. AlSalamah, Sherin Aly, Thamer Nouh, Bassam Mahboub, Laila Salameh, Metab Alkubeyyer and Abdulrahman Mirza, licensed under CC BY.",
+              "page": 12,
+              "position": 273
+            },
+            {
+              "text": "FIGURE 7 Training and validation accuracy and loss curves over successive training epochs.",
+              "page": 12,
+              "position": 274
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 12,
+              "position": 275
+            },
+            {
+              "text": "Frontiers in Digital Health 13 frontiersin.org",
+              "page": 12,
+              "position": 276
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.2 Confusion matrix analysis",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "To evaluate classification behavior across disease categories, a confusion matrix was computed using the finalized held-out test set, as shown in Figure 8. The finalized test set contains 402 samples across six diagnostic categories, matching the test partition reported in Table 5. The results demonstrate strong classification performance across both majority and minority categories, with most predictions concentrated along the diagonal, indicating stable multimodal discrimination across heterogeneous respiratory disease classes.",
+              "page": 13,
+              "position": 277
+            },
+            {
+              "text": "Although limited misclassification was observed between several clinically overlapping categories, the overall confusion matrix behavior suggests balanced multimodal learning performance without substantial bias toward dominant classes.",
+              "page": 13,
+              "position": 278
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.3 Class-wise performance analysis",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "The class-wise performance metrics and confusion matrix were updated to ensure full consistency with the finalized held- out test partition summarized in Table 5. Because the MERS- CoV category contains only a single original image and is represented exclusively within the training subset, MERS-CoV is not included in the validation or test-set evaluation metrics.",
+              "page": 13,
+              "position": 279
+            },
+            {
+              "text": "Table 6summarizes the class-wise precision, recall, F1-score, and support values corresponding to the finalized held-out test set containing 402 samples.",
+              "page": 13,
+              "position": 280
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.4 Ablation and modality contribution analysis",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "To further investigate the contribution of individual framework components, additional comparative analysis was conducted across different modality and architectural configurations. Specifically, the proposed multimodal CNN– MLP fusion framework was evaluated relative to image-only CNN models, clinical-data-only MLP models, and alternative multimodal learning baselines discussed throughout the manuscript.",
+              "page": 13,
+              "position": 281
+            },
+            {
+              "text": "The image-only CNN branch demonstrated strong radiographic feature extraction capability consistent with prior CXR-based diagnostic frameworks. However, its performance remained more sensitive to overlapping radiographic patterns and minority-class imbalance. Similarly, the clinical-data-only MLP branch captured meaningful patient-specific contextual information, including symptoms, laboratory findings, and demographic variables, but lacked direct radiographic representation necessary for robust pneumonia discrimination across heterogeneous disease categories.",
+              "page": 13,
+              "position": 282
+            },
+            {
+              "text": "In contrast, the proposed multimodal fusion framework consistently demonstrated stronger overall diagnostic stability and more balanced performance across complementary evaluation metrics. Integrating radiographic image representations with structured clinical embeddings enabled the framework to jointly leverage modality-specific strengths while mitigating limitations associated with isolated unimodal learning.",
+              "page": 13,
+              "position": 283
+            },
+            {
+              "text": "FIGURE 8 Confusion matrix of the proposed multimodal CNN–MLP fusion framework evaluated on the finalized held-out test set containing 402 samples across six diagnostic categories.",
+              "page": 13,
+              "position": 284
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 13,
+              "position": 285
+            },
+            {
+              "text": "Frontiers in Digital Health 14 frontiersin.org",
+              "page": 13,
+              "position": 286
+            },
+            {
+              "text": "Furthermore, the imbalance-aware optimization strategy, including class weighting, augmentation, SMOTE, dropout regularization, and early stopping, contributed to improved convergence stability and enhanced minority-class robustness under highly skewed disease distributions.",
+              "page": 14,
+              "position": 287
+            },
+            {
+              "text": "Although exhaustive module-level ablation experiments were not fully performed for every architectural component because of computational and dataset limitations associated with multimodal deep learning training, the comparative unimodal and multimodal analyses collectively support the contribution of multimodal fusion and imbalance-aware optimization toward the observed performance improvements.",
+              "page": 14,
+              "position": 288
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "6 Discussion",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 17,
+      "paragraphs": [
+        {
+          "text": "The proposed CNN–MLP multimodal framework was evaluated using a dataset of 2,907 samples comprising both CXR images and structured clinical data. All competing approaches were evaluated under identical experimental conditions using the same 85%/15% train–test split to ensure fair and controlled comparison.",
+          "page": 14,
+          "position": 289
+        },
+        {
+          "text": "Although the proposed framework achieved a 1.3 percentage point improvement in overall accuracy compared to the multimodal baseline reported by Althenayan et al. [14], the observed improvement should be interpreted within the broader context of multimodal medical classification under severe dataset imbalance and heterogeneous clinical conditions. Importantly, the performance gains were not limited to overall accuracy alone, but were also reflected across sensitivity, F1-score, confusion matrix behavior, validation stability, and minority-class robustness. Furthermore, all models were evaluated using identical preprocessing procedures and dataset partitions to support fair comparative assessment.",
+          "page": 14,
+          "position": 290
+        },
+        {
+          "text": "While repeated k-fold cross-validation and formal statistical hypothesis testing would provide additional statistical rigor, such analyses remain computationally challenging for large multimodal deep learning pipelines involving heterogeneous imaging and clinical modalities. Future work will therefore extend the evaluation using repeated validation protocols and multicenter datasets to further assess statistical robustness and generalizability.",
+          "page": 14,
+          "position": 291
+        },
+        {
+          "text": "The contribution of the proposed framework should not be interpreted as the introduction of a fundamentally new deep learning paradigm. Rather, the primary contribution lies in the",
+          "page": 14,
+          "position": 292
+        },
+        {
+          "text": "optimization and stabilization of multimodal learning under highly imbalanced and heterogeneous healthcare conditions while maintaining computational efficiency and practical deployability within virtual hospital environments. Although broader comparison against fully reproducible multimodal state- of-the-art frameworks remains difficult because of differences in datasets, imaging modalities, preprocessing pipelines, and evaluation protocols, the proposed framework is now more explicitly contextualized relative to established image-based architectures such as CheXNet and COVID-Net within the broader medical AI literature.",
+          "page": 14,
+          "position": 293
+        }
+      ],
+      "subsections": [
+        {
+          "title": "6.1 Comparative performance analysis",
+          "level": 2,
+          "page_start": 14,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "The study first evaluated traditional machine learning classifiers operating on multimodal feature representations. In this setting, deep radiographic features were extracted from CXRs using a CNN backbone and concatenated with 632 preprocessed clinical variables before being provided to classical classifiers. Logistic Regression achieved 89% accuracy with 81% sensitivity, while Random Forest achieved 83% accuracy and 74% sensitivity. XGBoost and Gradient Boosting demonstrated comparatively stronger performance, achieving 90% and 92% accuracy with sensitivities of 86% and 88%, respectively. Support Vector Machines achieved 85% accuracy with 83% sensitivity. Although Gradient Boosting yielded the strongest performance among traditional machine learning approaches, these methods remained limited by their reliance on fixed feature representations and reduced capacity to model complex nonlinear interactions between radiographic patterns and heterogeneous clinical variables. The performance comparison is summarized in Table 7.",
+              "page": 14,
+              "position": 294
+            },
+            {
+              "text": "Beyond classical machine learning approaches, more advanced multimodal deep learning architectures were evaluated to benchmark against state-of-the-art fusion strategies. An attention-based multimodal CNN achieved 88% accuracy and 85% sensitivity, while a multimodal transformer employing cross-attention mechanisms achieved 89% accuracy with the same sensitivity level. Although these architectures improved representational learning compared to simpler machine learning approaches, they did not outperform the strongest ensemble- based classical methods and introduced substantially higher computational complexity without proportional diagnostic gains.",
+              "page": 14,
+              "position": 295
+            },
+            {
+              "text": "TABLE 6 Class-wise precision, recall, F1-score, and support values for diagnostic categories represented in the finalized held-out test set.",
+              "page": 14,
+              "position": 296
+            },
+            {
+              "text": "Class Precision Recall F1-Score Support",
+              "page": 14,
+              "position": 297
+            },
+            {
+              "text": "Normal 0.97 0.96 0.96 73",
+              "page": 14,
+              "position": 298
+            },
+            {
+              "text": "Bacterial 0.97 0.97 0.97 37",
+              "page": 14,
+              "position": 299
+            },
+            {
+              "text": "Adenovirus 1.00 0.67 0.80 3",
+              "page": 14,
+              "position": 300
+            },
+            {
+              "text": "Influenza 0.79 0.92 0.85 12",
+              "page": 14,
+              "position": 301
+            },
+            {
+              "text": "SARS-CoV-2 (Dubai) 0.98 0.98 0.98 183",
+              "page": 14,
+              "position": 302
+            },
+            {
+              "text": "SARS-CoV-2 (Saudi) 0.99 0.98 0.98 94",
+              "page": 14,
+              "position": 303
+            },
+            {
+              "text": "Overall Accuracy 0.97",
+              "page": 14,
+              "position": 304
+            },
+            {
+              "text": "MERS-CoV is excluded because the dataset contains only one original image, which is represented exclusively within the training subset. Bold values indicate the total number of samples across all diagnostic categories.",
+              "page": 14,
+              "position": 305
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 14,
+              "position": 306
+            },
+            {
+              "text": "Frontiers in Digital Health 15 frontiersin.org",
+              "page": 14,
+              "position": 307
+            },
+            {
+              "text": "In contrast, the proposed CNN–MLP fusion architecture demonstrated superior performance across all evaluated metrics. The framework achieved 97% accuracy and 97% sensitivity, corresponding to an approximate 5% improvement over the strongest traditional machine learning baseline and an 8%–9% improvement over the evaluated attention-based and transformer-based multimodal models. The architecture combines hierarchical CNN-based radiographic feature extraction with structured clinical encoding through an MLP, followed by late multimodal fusion and dropout regularization. This design enables effective multimodal representation learning while maintaining architectural simplicity, computational stability, and practical deployability. The comparative results are summarized in Table 8.",
+              "page": 15,
+              "position": 308
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.2 Architectural design considerations",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "Selection of the three-layer MLP architecture was guided by empirical architectural exploration and practical training considerations. Shallower architectures were less effective in modeling nonlinear interactions among heterogeneous clinical variables, whereas deeper MLP configurations increased model complexity and training instability without providing consistent improvement in validation performance. The adopted three- layer architecture therefore represented a balanced compromise between representational capacity, regularization, and computational efficiency for multimodal clinical fusion.",
+              "page": 15,
+              "position": 309
+            },
+            {
+              "text": "The use of late multimodal fusion was particularly important because CXR images and structured clinical variables differ substantially in dimensionality, representation characteristics, and noise distribution. Independent modality-specific encoding prior to fusion enabled more specialized feature learning while reducing instability associated with premature cross-modal interaction in highly heterogeneous medical data.",
+              "page": 15,
+              "position": 310
+            },
+            {
+              "text": "Similarly, the selection of a lightweight custom CNN architecture reflected a practical balance between feature extraction capability, computational efficiency, multimodal",
+              "page": 15,
+              "position": 311
+            },
+            {
+              "text": "training stability, and dataset scale. Although larger pretrained architectures may provide stronger generalized radiographic representations, they also introduce substantially greater parameter complexity and increased overfitting risk in relatively limited multimodal medical datasets.",
+              "page": 15,
+              "position": 312
+            },
+            {
+              "text": "The proposed framework also demonstrated balanced performance across both dominant and minority disease categories under highly imbalanced dataset conditions, suggesting stable multimodal learning behavior and improved robustness beyond the dominant classes.",
+              "page": 15,
+              "position": 313
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.3 Multimodal learning and clinical integration",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 16,
+          "paragraphs": [
+            {
+              "text": "A key advantage of the MLP-based clinical branch is its ability to model nonlinear dependencies among heterogeneous clinical variables within a unified latent representation space. Rather than relying on isolated feature analysis, the framework jointly learns interactions among symptoms, laboratory findings, demographic characteristics, and physiological measurements that collectively contribute to respiratory disease classification.",
+              "page": 15,
+              "position": 314
+            },
+            {
+              "text": "Although the proposed late-fusion framework jointly learns from imaging and structured clinical information, the current architecture does not explicitly expose how individual clinical variables are weighted relative to radiographic findings during prediction. Instead, multimodal interactions are learned implicitly within the fused latent representation space. Incorporating attention-based fusion and explainability-oriented mechanisms in future work may therefore provide more interpretable insight into modality contribution and feature importance during clinical decision making.",
+              "page": 15,
+              "position": 315
+            },
+            {
+              "text": "From an ablation perspective, the observed multimodal performance gains appear to arise from the complementary interaction between radiographic image representations and structured clinical feature embeddings rather than from any single isolated architectural component alone. The CNN branch contributes hierarchical radiographic feature extraction, while the MLP branch provides clinically contextualized latent representations derived from symptoms, laboratory findings, and demographic variables. The late-fusion strategy then enables joint multimodal reasoning across heterogeneous healthcare modalities. In addition, imbalance-aware optimization strategies contributed to convergence stability and improved minority- class robustness under highly skewed dataset conditions.",
+              "page": 15,
+              "position": 316
+            },
+            {
+              "text": "From a broader methodological perspective, the proposed framework extends beyond traditional image-only diagnostic architectures such as CheXNet and COVID-Net by integrating structured clinical variables alongside radiographic imaging within a unified multimodal learning pipeline. While CheXNet and COVID-Net demonstrated strong performance for pneumonia and COVID-19 image classification using CXR imaging alone, they were not designed to jointly model heterogeneous patient-specific clinical information. In contrast, VHealth-MFusion was specifically developed to support multimodal diagnostic reasoning within virtual hospital environments where imaging findings are interpreted together with demographic variables, laboratory measurements, vital signs, and clinical observations.",
+              "page": 15,
+              "position": 317
+            },
+            {
+              "text": "TABLE 7 Performance comparison of classical machine learning models with multimodal",
+              "page": 15,
+              "position": 318
+            },
+            {
+              "text": "feature fusion.",
+              "page": 15,
+              "position": 319
+            },
+            {
+              "text": "Model Accuracy (%) Sensitivity (%)",
+              "page": 15,
+              "position": 320
+            },
+            {
+              "text": "Logistic regression 89 81",
+              "page": 15,
+              "position": 321
+            },
+            {
+              "text": "Random forest 83 74",
+              "page": 15,
+              "position": 322
+            },
+            {
+              "text": "XGBoost 90 86",
+              "page": 15,
+              "position": 323
+            },
+            {
+              "text": "Gradient boosting 92 88",
+              "page": 15,
+              "position": 324
+            },
+            {
+              "text": "Support Vector Machine (SVM) 85 83",
+              "page": 15,
+              "position": 325
+            },
+            {
+              "text": "TABLE 8 Performance comparison of deep learning multimodal approaches.",
+              "page": 15,
+              "position": 326
+            },
+            {
+              "text": "Model Accuracy (%) Sensitivity (%)",
+              "page": 15,
+              "position": 327
+            },
+            {
+              "text": "Attention-based multimodal CNN 88 85",
+              "page": 15,
+              "position": 328
+            },
+            {
+              "text": "Multimodal transformer 89 85",
+              "page": 15,
+              "position": 329
+            },
+            {
+              "text": "Proposed CNN–MLP fusion model 97 97",
+              "page": 15,
+              "position": 330
+            },
+            {
+              "text": "Bold values indicate the results achieved by the proposed VHealth-MFusion framework.",
+              "page": 15,
+              "position": 331
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 15,
+              "position": 332
+            },
+            {
+              "text": "Frontiers in Digital Health 16 frontiersin.org",
+              "page": 15,
+              "position": 333
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.4 Training stability and overfitting considerations",
+          "level": 2,
+          "page_start": 16,
+          "page_end": 16,
+          "paragraphs": [
+            {
+              "text": "Because the proposed multimodal framework integrates high- dimensional clinical variables with radiographic image features, controlling overfitting represented an important design consideration. The combined use of dropout regularization, early stopping, augmentation, and class-weighted optimization contributed to stable convergence behavior and reduced the likelihood that the framework merely memorized patient-specific patterns or dataset noise.",
+              "page": 16,
+              "position": 334
+            },
+            {
+              "text": "The high dimensionality of the tabular branch also introduced potential redundancy among clinical variables. Incorporating preprocessing steps to remove highly correlated and low- information features improved computational efficiency and helped stabilize multimodal training by reducing unnecessary feature overlap within the MLP encoder.",
+              "page": 16,
+              "position": 335
+            },
+            {
+              "text": "Handling incomplete clinical records represented another important preprocessing consideration because real world healthcare datasets frequently contain sparse or partially missing patient information. Applying consistent statistical imputation and feature-reduction strategies improved data usability while supporting stable multimodal learning under heterogeneous clinical conditions.",
+              "page": 16,
+              "position": 336
+            },
+            {
+              "text": "A potential concern in highly imbalanced medical datasets is that oversampling techniques such as SMOTE may cause models to overfit minority-class noise, particularly when rare disease categories contain limited original samples. Several observations suggest that substantial overfitting was mitigated in the present study. First, the training and validation curves exhibited relatively stable convergence behavior without severe divergence. Second, minority-class results did not exhibit unrealistic perfect classification behavior; for example, the Adenovirus and MERS- CoV classes retained non-perfect precision and recall values despite imbalance-aware optimization. Third, the proposed framework combined SMOTE with complementary regularization strategies, including dropout, augmentation, early stopping, and class weighting, rather than relying exclusively on synthetic oversampling. Nevertheless, because certain disease categories remain extremely underrepresented, the findings for rare classes should still be interpreted cautiously and validated further using larger multicenter datasets.",
+              "page": 16,
+              "position": 337
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.5 Clinical relevance and virtual hospital deployment",
+          "level": 2,
+          "page_start": 16,
+          "page_end": 16,
+          "paragraphs": [
+            {
+              "text": "By integrating radiographic imaging with structured clinical information, the proposed framework has the potential to support clinicians in rapidly diagnosing pneumonia, particularly within underserved or remote healthcare environments where access to specialists may be limited. Such capabilities may contribute to faster triage and treatment decision making within virtual hospital ecosystems.",
+              "page": 16,
+              "position": 338
+            },
+            {
+              "text": "The framework demonstrates particular promise for deployment within virtual hospital settings that require rapid remote diagnostic support under resource-constrained conditions. However, additional investigation through large-scale",
+              "page": 16,
+              "position": 339
+            },
+            {
+              "text": "multicenter clinical evaluation remains necessary before real world deployment readiness can be fully established.",
+              "page": 16,
+              "position": 340
+            },
+            {
+              "text": "Reliable confidence estimation and predictive calibration are especially important in virtual hospital environments because clinical decision-support systems must communicate not only predictions, but also the associated uncertainty of those predictions. While the current framework demonstrated strong multimodal classification performance, formal probability calibration analysis was not performed in the present study. Nevertheless, the softmax output layer provides probabilistic predictions that can support future calibration evaluation. Future work will therefore investigate uncertainty quantification and calibration assessment techniques, including reliability diagrams, Expected Calibration Error (ECE), and temperature scaling, to further improve deployment reliability and clinical interpretability.",
+              "page": 16,
+              "position": 341
+            },
+            {
+              "text": "Generalization across healthcare institutions also remains an important challenge for multimodal medical AI systems because imaging quality, clinical workflows, patient populations, and structured data distributions may vary substantially across centers. Although the proposed framework demonstrated stable performance under the evaluated experimental setting, the current study did not include formal external multicenter validation or leave-one-institution-out evaluation protocols. Therefore, the present findings should primarily be interpreted as evidence of controlled multimodal framework feasibility rather than conclusive proof of universal cross-institution deployment readiness.",
+              "page": 16,
+              "position": 342
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "6.6 Interpretability, fairness, and methodological considerations",
+          "level": 2,
+          "page_start": 16,
+          "page_end": 17,
+          "paragraphs": [
+            {
+              "text": "Interpretability remains a critical requirement for trustworthy deployment of multimodal AI systems within clinical and virtual hospital environments. The primary focus of the current study was placed on evaluating multimodal fusion performance, robustness under class imbalance, and stable multimodal learning under heterogeneous healthcare conditions. Consequently, formal interpretability validation experiments, such as Grad-CAM visualization for radiographic attention analysis and SHAP/LIME-based attribution analysis for structured clinical variables, were not included within the present experimental scope.",
+              "page": 16,
+              "position": 343
+            },
+            {
+              "text": "Although the current framework produces probabilistic predictions through multimodal feature integration, the absence of explicit interpretability analysis limits the ability to directly verify alignment between learned model behavior and established clinical reasoning. Accordingly, the findings should currently be interpreted primarily as evidence of multimodal diagnostic feasibility rather than fully interpretable clinical decision-support readiness.",
+              "page": 16,
+              "position": 344
+            },
+            {
+              "text": "Fairness and demographic generalizability also remain important considerations for multimodal healthcare AI systems. Although detailed demographic breakdown statistics cannot be publicly released because of institutional and privacy restrictions associated with the dataset, the inclusion of demographic variables within the multimodal framework supports broader contextualized clinical learning across heterogeneous patient",
+              "page": 16,
+              "position": 345
+            },
+            {
+              "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+              "page": 16,
+              "position": 346
+            },
+            {
+              "text": "Frontiers in Digital Health 17 frontiersin.org",
+              "page": 16,
+              "position": 347
+            },
+            {
+              "text": "characteristics. Future work will further investigate subgroup- specific performance analysis and fairness-aware evaluation across demographic populations using larger multicenter datasets.",
+              "page": 17,
+              "position": 348
+            },
+            {
+              "text": "The proposed framework additionally relies on diagnostic labels inherited from the original multimodal dataset curation process. Although detailed annotation workflow metadata cannot be publicly disclosed because of institutional restrictions, maintaining consistent label definitions across both the baseline and proposed models supports fair comparative evaluation under identical dataset conditions.",
+              "page": 17,
+              "position": 349
+            },
+            {
+              "text": "From a broader methodological perspective, the novelty of the proposed framework lies primarily in the practical integration, optimization, and stabilization of multimodal learning under highly constrained virtual hospital conditions. Specifically, the framework addresses several operational challenges simultaneously, including severe class imbalance, incomplete structured clinical data, multimodal heterogeneity, computational efficiency, and multimodal convergence stability within remote healthcare diagnostic workflows.",
+              "page": 17,
+              "position": 350
+            },
+            {
+              "text": "Finally, a major strength of the present study is that comparative evaluation was performed under dataset-consistent conditions using the same multimodal dataset and equivalent partitioning strategy as the baseline work of Althenayan et al. [14]. This reduces potential evaluation bias and supports a more reliable assessment of the methodological contribution introduced by the proposed CNN– MLP multimodal fusion framework.",
+              "page": 17,
+              "position": 351
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "7 Limitations",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 17,
+      "paragraphs": [
+        {
+          "text": "Despite the strong multimodal classification performance achieved by the proposed VHealth-MFusion framework, several limitations remain.",
+          "page": 17,
+          "position": 352
+        },
+        {
+          "text": "One important limitation is the extreme underrepresentation of certain rare disease categories within the dataset, particularly MERS-CoV, which contains only a single original image sample. Because this class is absent from the validation and test subsets, reliable class-specific evaluation for MERS-CoV cannot be established. Accordingly, MERS-CoV was retained only to preserve the original dataset taxonomy and clinical heterogeneity, while all class-specific performance claims related to MERS-CoV were removed from the revised results.",
+          "page": 17,
+          "position": 353
+        },
+        {
+          "text": "Another limitation is that the study relied on a single curated multimodal dataset without external multicenter validation or leave-one-institution-out evaluation. Consequently, the broader generalizability of the proposed framework across heterogeneous healthcare systems, imaging acquisition settings, and patient populations remains an important area for future investigation.",
+          "page": 17,
+          "position": 354
+        },
+        {
+          "text": "Although all comparative models were evaluated under identical experimental settings and demonstrated consistent multimodal performance trends across multiple evaluation metrics, repeated cross-validation, formal statistical significance testing, confidence interval estimation, and bootstrapping analyses were not performed due to the computational complexity associated with multimodal deep learning training. Future studies should incorporate repeated validation protocols and larger multicenter datasets to provide stronger statistical characterization of model robustness, uncertainty, and reproducibility.",
+          "page": 17,
+          "position": 355
+        },
+        {
+          "text": "Another limitation is that detailed subgroup fairness analysis across demographic populations was not performed. Future research should incorporate fairness-oriented validation protocols and demographic-specific evaluation to better assess robustness across diverse patient populations and healthcare environments.",
+          "page": 17,
+          "position": 356
+        },
+        {
+          "text": "The current study also did not include formal interpretability validation experiments, such as Grad-CAM visualization or SHAP/LIME-based feature attribution analysis. While the proposed framework demonstrated strong predictive performance, additional explainability analysis will be important to further evaluate alignment between model decision behavior and clinical reasoning.",
+          "page": 17,
+          "position": 357
+        },
+        {
+          "text": "In addition, exhaustive module-level ablation analysis was not performed for every architectural component due to computational constraints associated with multimodal deep learning training. Future work should further investigate the isolated contributions of individual fusion, regularization, and imbalance-handling mechanisms.",
+          "page": 17,
+          "position": 358
+        },
+        {
+          "text": "Another limitation is that direct comparison with external multimodal state-of-the-art frameworks remains challenging because many published studies rely on different datasets, imaging modalities, preprocessing strategies, class definitions, and evaluation protocols. Therefore, cross-study numerical comparisons should be interpreted cautiously.",
+          "page": 17,
+          "position": 359
+        },
+        {
+          "text": "Finally, detailed information regarding the dataset annotation workflow could not be publicly disclosed due to NDA and institutional privacy restrictions associated with the underlying clinical dataset.",
+          "page": 17,
+          "position": 360
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "8 Conclusion and future work",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "This study presented VHealth-MFusion, a hierarchical multimodal deep learning framework that integrates chest X-ray imaging with structured clinical data for pneumonia diagnosis. The proposed pipeline combines CNN-based radiographic feature extraction with clinical tabular encoders within a unified multimodal learning architecture trained using imbalance-aware strategies. Under the evaluated experimental setting, the proposed framework achieved an accuracy of 97.2%, outperforming the hierarchical multimodal CNN baseline reported by Althenayan et al. [14], which achieved 95.9% accuracy on the same dataset.",
+          "page": 17,
+          "position": 361
+        },
+        {
+          "text": "The findings demonstrate that multimodal fusion improves diagnostic robustness compared to image-only and earlier multimodal approaches. In particular, integrating structured clinical information alongside radiographic features improves the framework’s ability to capture complementary diagnostic patterns within clinically imbalanced scenarios. These results further highlight the importance of combining imaging and patient-related information to better reflect real world clinical diagnostic workflows.",
+          "page": 17,
+          "position": 362
+        },
+        {
+          "text": "Beyond predictive performance, this work contributes a modular multimodal learning framework designed to support reproducibility and facilitate adaptation to other clinical contexts. The proposed architecture also demonstrates how AI- driven multimodal diagnostic systems can support the broader vision of virtual hospital ecosystems, where remote triage and",
+          "page": 17,
+          "position": 363
+        },
+        {
+          "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+          "page": 17,
+          "position": 364
+        },
+        {
+          "text": "Frontiers in Digital Health 18 frontiersin.org",
+          "page": 17,
+          "position": 365
+        },
+        {
+          "text": "diagnosis increasingly depend on the integration of heterogeneous clinical information across distributed healthcare environments.",
+          "page": 18,
+          "position": 366
+        },
+        {
+          "text": "Future work will focus on evaluating pretrained medical imaging backbones, including ResNet and EfficientNet architectures, to investigate whether richer pretrained radiographic representations can further improve multimodal generalization and robustness. Additional research will explore transformer-based multimodal architectures to support more advanced end-to-end joint learning across imaging and clinical modalities.",
+          "page": 18,
+          "position": 367
+        },
+        {
+          "text": "Future studies will also investigate probabilistic calibration and uncertainty-aware multimodal learning approaches to improve confidence estimation and support safer deployment in clinical decision-support environments. Expanding the framework through larger multicenter datasets, additional imaging sources, and more comprehensive patient information will also be important for improving robustness and external generalizability.",
+          "page": 18,
+          "position": 368
+        },
+        {
+          "text": "Finally, future work will incorporate explainability mechanisms, including saliency-based visualization and SHAP- based feature attribution analysis, to enhance clinical transparency, interpretability, and trustworthiness in real world virtual healthcare deployment settings.",
+          "page": 18,
+          "position": 369
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Data availability statement",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The data analyzed in this study is subject to the following licenses/restrictions: The dataset used in this study is proprietary and cannot be made publicly available due to restrictions imposed by a Non-Disclosure Agreement (NDA) signed by the authors. Access to the dataset may be considered upon reasonable request and subject to the terms of the NDA, institutional approvals, and applicable ethical regulations. Researchers interested in accessing the dataset for research purposes may contact the corresponding author at Salsalamah@ vt.eduto discuss potential access conditions. All requests will be evaluated in accordance with the restrictions outlined in the NDA and relevant institutional policies. Requests to access these datasets should be directed to Salsalamah@vt.edu.",
+          "page": 18,
+          "position": 370
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Ethics statement",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The studies involving humans were approved by Ethical approval for the research protocol was granted by the Institutional Review Board (IRB) of King Saud University (Project No. E-21-5939) and the Dubai Scientific Research Ethics Committee (DSREC), Dubai Health Authority (Ref: DSREC-12/2021_01). The studies were conducted in accordance with the local legislation and institutional requirements. The ethics committee/institutional review board waived the requirement of written informed consent for participation from the participants or the participants’ legal guardians/next of kin because This study was conducted using a retrospective clinical dataset obtained through institutional collaboration with healthcare institutions. The dataset consisted of anonymized chest X-ray images and associated clinical metadata. All data were de-identified prior to analysis, and no personally identifiable information was accessed by the researchers. Due to",
+          "page": 18,
+          "position": 371
+        },
+        {
+          "text": "the retrospective nature of the study and the use of anonymized data, the requirement for informed consent was waived.",
+          "page": 18,
+          "position": 372
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Author contributions",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "SA: Conceptualization, Formal analysis, Methodology, Writing – original draft. AA: Data curation, Resources, Writing – review & editing. MA: Visualization, Writing – review & editing. SA: Conceptualization, Validation, Writing – review & editing, Writing – original draft. HA: Conceptualization, Validation, Writing – review & editing, Writing – original draft. TN: Data curation, Validation, Writing – review & editing. BM: Data curation, Validation, Writing – review & editing. LS: Data curation, Validation, Writing – review & editing. MAM: Data curation, Validation, Writing – review & editing. C-TL: Supervision, Writing – review & editing.",
+          "page": 18,
+          "position": 373
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that financial support was not received for this work and/or its publication.",
+          "page": 18,
+          "position": 374
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conflict of interest",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+          "page": 18,
+          "position": 375
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Generative AI statement",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that generative AI was used in the creation of this manuscript. Generative AI tools were used to assist with language refinement, grammar correction, and minor improvements to the clarity of the manuscript. The authors reviewed, edited, and verified all generated text and take full responsibility for the final content of the manuscript. No generative AI tools were used for data analysis, model development, experimental design, or interpretation of the results.",
+          "page": 18,
+          "position": 376
+        },
+        {
+          "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.",
+          "page": 18,
+          "position": 377
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Publisher’s note",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 19,
+      "paragraphs": [
+        {
+          "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+          "page": 18,
+          "position": 378
+        },
+        {
+          "text": "Alsalamah et al. 10.3389/fdgth.2026.1827180",
+          "page": 18,
+          "position": 379
+        },
+        {
+          "text": "Frontiers in Digital Health 19 frontiersin.org",
+          "page": 18,
+          "position": 380
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Xtelligent Healthcare Media. Telehealth growth and development: telehealth’s place in the industry beyond the pandemic (2021).",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "Kumari AA, Wani TA, Liem M, Boyd J, Khan UR. Advancing regional and remote health care with virtual hospital implementation: rapid review. JMIR Hum Factors. (2025) 12:e64582. doi: 10.2196/64582",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.2196/64582"
+    },
+    {
+      "id": 3,
+      "raw_text": "Rajpurkar P, Irvin J, Zhu K, Yang B, Mehta H, Duan T, et al. Chexnet: radiologist- level pneumonia detection on chest x-rays with deep learning. arXiv [Preprint]. arXiv:1711.05225 (2017).",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "Wang L, Lin ZQ, Wong A. COVID-Net: a tailored deep convolutional neural network design for detection of COVID-19 cases from chest X-ray images. Sci Rep. (2020) 10:19549. doi: 10.1038/s41598-020-76550-z",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1038/s41598-020-76550-z"
+    },
+    {
+      "id": 5,
+      "raw_text": "Apostolopoulos ID, Mpesiana TA. COVID-19: automatic detection from X-ray images utilizing transfer learning with convolutional neural networks. Phys Eng Sci Med. (2020) 43:635–40. doi: 10.1007/s13246-020-00865-4",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1007/s13246-020-00865-4"
+    },
+    {
+      "id": 6,
+      "raw_text": "Hemdan EED, Shouman MA, Karar ME. COVIDX-Net: a framework of deep learning classifiers to diagnose COVID-19 in X-ray images. arXiv [Preprint]. arXiv:2003.11055 (2020).",
+      "authors": [],
+      "title": null,
+      "year": 2003,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "Billah MM, Bakhshizada R, Das D, Tanha TT, Rahman R. Brain tumor classification using efficientnet. Int J Comput Appl. (2026) 187:66–71. doi: 10.5120/ ijca2026926493",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Das D, Hoque R, Billah MM, Bakhshizada R, Naim SASM. Brain tumor classification using CNN. Int J Sci Res Arch. (2025) 17:1304–11. doi: 10.30574/ijsra. 2025.17.1.2863",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.30574/ijsra"
+    },
+    {
+      "id": 9,
+      "raw_text": "Baltrusaitis T, Ahuja C, Morency LP. Multimodal machine learning: a survey and taxonomy. IEEE Trans Pattern Anal Mach Intell. (2019) 41:423–43. doi: 10.1109/ TPAMI.2018.2798607",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "Khan AI, Shah JL, Bhat MM. CoroNet: A deep neural network for detection and diagnosis of COVID-19 from chest x-ray images. Comput Methods Programs Biomed. (2020) 196:105581. doi: 10.1016/j.cmpb.2020.105581",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1016/j.cmpb.2020.105581"
+    },
+    {
+      "id": 11,
+      "raw_text": "Chowdhury MEH, Rahman T, Khandakar A, Mazhar R, Kadir MA, Mahbub ZB, et al. Can AI help in screening viral and COVID-19 pneumonia? IEEE Access. (2020) 8:132665–76. doi: 10.1109/ACCESS.2020.3010287",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1109/ACCESS.2020.3010287"
+    },
+    {
+      "id": 12,
+      "raw_text": "Mei X, Lee HC, Diao K, Huang M, Lin B, Liu C, et al. Artificial intelligence– enabled rapid diagnosis of patients with COVID-19. Nat Med. (2020) 26:1224–8. doi: 10.1038/s41591-020-0931-3",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1038/s41591-020-0931-3"
+    },
+    {
+      "id": 13,
+      "raw_text": "Pereira RM, Bertolini D, Teixeira LO, Silla CN, Costa YMG. COVID-19 identification in chest X-ray images on flat and hierarchical classification scenarios. Comput Methods Programs Biomed. (2020) 194:105532. doi: 10.1016/j.cmpb.2020. 105532",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1016/j.cmpb.2020"
+    },
+    {
+      "id": 14,
+      "raw_text": "Althenayan AS, AlSalamah SA, Aly S, Nouh T, Mahboub B, Salameh L, et al. COVID-19 hierarchical classification using a deep learning multi-modal. Sensors. (2024) 24:2641. doi: 10.3390/s24082641",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.3390/s24082641"
+    },
+    {
+      "id": 15,
+      "raw_text": "Elrod JK, Fortenberry JL. The hub-and-spoke organization design: an avenue for serving patients well. BMC Health Serv Res. (2017) 17:457. doi: 10.1186/s12913-017- 2341-x",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.1186/s12913-017"
+    },
+    {
+      "id": 16,
+      "raw_text": "Keesara S, Jonas A, Schulman K. COVID-19 and health care’s digital revolution. N Engl J Med. (2020) 382:e82. doi: 10.1056/NEJMp2005835",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1056/NEJMp2005835"
+    },
+    {
+      "id": 17,
+      "raw_text": "World Health Organization. Global strategy on digital health 2020–2025 (2020).",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 18,
+      "raw_text": "Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D. Grad-CAM: visual explanations from deep networks via gradient-based localization. In: Proceedings of the IEEE International Conference on Computer Vision (ICCV). (2017). 618–26. doi: 10.1109/ICCV.2017.74",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.1109/ICCV.2017.74"
+    },
+    {
+      "id": 19,
+      "raw_text": "Kelly CJ, Karthikesalingam A, Suleyman M, Corrado G, King D. Key challenges for delivering clinical impact with artificial intelligence. BMC Med. (2019) 17:195. doi: 10.1186/s12916-019-1426-2",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": "10.1186/s12916-019-1426-2"
+    },
+    {
+      "id": 20,
+      "raw_text": "World Health Organization. Ethics and governance of artificial intelligence for health (2021). Alsalamah et al. 10.3389/fdgth.2026.1827180 Frontiers in Digital Health 20 frontiersin.org",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.3389/fdgth.2026.1827180"
+    }
+  ],
+  "page_count": 20,
+  "warnings": []
+}

@@ -1,0 +1,1023 @@
+{
+  "identity": {
+    "id": "doc_23ef5b2da87886aa",
+    "source": {
+      "filename": "PMC13583924.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13583924.1/PMC13583924.1.pdf",
+      "content_hash": "23ef5b2da87886aab3177c5f2178fa3633da007b4a945a2e9a9dbd288bf1f001"
+    }
+  },
+  "metadata": {
+    "title": "Syndromic Multiple Odontogenic Keratocysts Associated With Impacted Teeth: A Rare Case Report",
+    "authors": [
+      "Faizal Manrapi",
+      "|  Mohammad Gazali",
+      "|  Nurwahida",
+      "|  Nisrina Ekayani Nasrun"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1155/crid/9907993",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Case Reports in Dentistry, 2026; 2026:9907993 https://doi.org/10.1155/crid/9907993",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "1 of 11",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "CASE REPORT OPEN ACCESS",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Syndromic Multiple Odontogenic Keratocysts Associated With Impacted Teeth: A Rare Case Report",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Faizal Manrapi1,2 |  Mohammad Gazali1,2 |  Nurwahida1,2 |  Nisrina Ekayani Nasrun1",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "1Department of Oral and Maxillofacial Surgery, Faculty of Dentistry, Hasanuddin University, Makassar, Indonesia  | 2Dental Hospital of Hasanuddin University, Makassar, Indonesia",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Correspondence: Mohammad Gazali (mohammadgazali@unhas.ac.id)",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Received: 27 November 2025  |  Revised: 3 June 2026  |  Accepted: 8 June 2026",
+          "page": 0,
+          "position": 6
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Academic Editor: Hannah Wesley",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Keywords: case report  |  Gorlin–Goltz syndrome  |  impacted teeth  |  jaw cysts  |  odontogenic keratocyst",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "ABSTRACT Introduction: Odontogenic keratocysts are developmental odontogenic cysts that may occur as solitary lesions or as multiple jaw lesions. Multiple odontogenic keratocysts in young patients should raise suspicion of an underlying syndrome, particularly Gorlin–Goltz syndrome. Case Presentation: A 15-year-old male was referred to the Dental Hospital of Hasanuddin University after a 9-month history of progressive left mandibular enlargement. Clinical and radiographic assessment revealed multiple cystic lesions involving the maxilla and mandible, with impacted teeth in several regions. Chest radiography showed bifid left ribs, and computed tomogra- phy showed bilateral calcification of the falx cerebri. Histopathological examination confirmed odontogenic keratocystic lesions. Therapeutic Intervention and Outcomes: The patient underwent staged enucleation of multiple maxillary and mandibular cysts under general anesthesia. The postoperative course was uneventful. Obturator rehabilitation was provided, and follow-up radiographic evaluation showed early bone formation. The final diagnosis was syndromic multiple odontogenic keratocysts of the maxilla and mandible associated with Gorlin–Goltz syndrome. Conclusion: Multiple odontogenic keratocysts in adolescents require careful syndromic evaluation. Early diagnosis, staged sur- gical management, long-term surveillance, and multidisciplinary collaboration are essential to reduce recurrence and identify associated systemic manifestations.",
+          "page": 0,
+          "position": 8
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 | Introduction",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Odontogenic cysts are among the most frequent cystic lesions of the jaws. Odontogenic keratocyst (OKC) is a developmental odontogenic cyst that arises from remnants of the dental lamina and is clinically important because of its growth pattern and ten- dency to recur [1] Although most odontogenic cysts present as single jaw lesions, multiple OKCs in a young patient are unusual and should prompt assessment for Gorlin–Goltz syndrome, also known as nevoid basal cell carcinoma syndrome [1].",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Syndromic OKCs differ from isolated lesions because they may be multiple, bilateral, recurrent, and associated with extraoral",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "findings. Previous reports describe multiple OKCs with or with- out syndromic features and emphasize the need for radiographic evaluation, histopathological confirmation, and long-term fol- low-up [2–5]. Treatment selection depends on lesion size, ana- tomical extension, relationship to impacted teeth, and risk of recurrence. Enucleation is commonly used for smaller or acces- sible lesions, whereas marsupialization, decompression, adjunc- tive chemical cauterization, or resection may be considered for extensive or recurrent lesions [2–4].",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "This report describes a rare adolescent case of syndromic multi- ple OKCs associated with impacted teeth and radiologic features consistent with Gorlin–Goltz syndrome. The report highlights",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "Copyright © 2026 Faizal Manrapi et al. Case Reports in Dentistry published by John Wiley & Sons Ltd.",
+          "page": 0,
+          "position": 14
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Case Reports in Dentistry",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "2 of 11 Case Reports in Dentistry, 2026",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "diagnostic reasoning, staged surgical treatment, rehabilitation, and follow-up considerations.",
+          "page": 1,
+          "position": 16
+        }
+      ],
+      "subsections": [
+        {
+          "title": "2 | Case Report",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "A 15-year-old male was first seen at Lagaligo Hospital, East Luwu, with enlargement of the left mandible that had pro- gressed for approximately 9 months. One year before referral, he had recurrent pain in the posterior left mandibular teeth. Four months later, he noticed a marble-sized swelling that gradually enlarged. In February 2025, an oral surgeon at Lagaligo General Hospital performed an incisional biopsy of the left mandibu- lar lesion. The patient was then referred to the Department of Oral and Maxillofacial Surgery, Dental Hospital of Hasanuddin University, Makassar, for definitive management. In March 2025, he reported intraoral discharge with a salty taste and foul odor. No family history of a similar condition was reported.",
+              "page": 1,
+              "position": 17
+            },
+            {
+              "text": "Extraoral examination showed facial asymmetry caused by swelling in the left posterior mandibular region (Figure 1). Intraoral examination identified enlargements in the edentulous areas of Teeth 37–36, the anterior mandibular region of Tooth 43, the anterior maxillary region of Tooth 13, the maxillary region of Teeth 27–28, and the posterior region of Tooth 48 (Figure 2).",
+              "page": 1,
+              "position": 18
+            },
+            {
+              "text": "Laboratory findings were within normal limits. Panoramic radiography demonstrated multiple radiolucent jaw lesions in- volving the maxilla and mandible. Teeth 23, 24, and 25 were displaced superiorly, and Tooth 23 was rotated almost 180° to- ward the orbital floor. Two radiolucent areas were observed in the region of Tooth 33 and distal to Tooth 37; both had progres- sive expansion and well-defined wavy borders (Figure 3). Chest radiography revealed bifid left costae at the third and fifth ribs (Figure 4). Aspiration showed pus mixed with blood. Region 43 yielded dark red fluid, and Region 13 yielded clear yellow fluid",
+              "page": 1,
+              "position": 19
+            },
+            {
+              "text": "mixed with blood (Figure 5). Computed tomography showed bi- lateral calcification of the falx cerebri (Figure 6).",
+              "page": 1,
+              "position": 20
+            },
+            {
+              "text": "Before surgery, the patient and guardian received an explanation of the diagnosis, proposed treatment, possible complications, prognosis, and follow-up requirements. Written informed con- sent was obtained. The patient underwent staged enucleation of multiple maxillary and mandibular cysts under general anes- thesia with right nasotracheal intubation in the supine position. Intravenous ceftriaxone 1 g was administered as broad-spec- trum antibiotic prophylaxis. The left mandibular lesion was treated first because it had the highest risk of complications, particularly pathologic fracture.",
+              "page": 1,
+              "position": 21
+            },
+            {
+              "text": "After extraoral and intraoral disinfection with povidone-iodine solution, a vasoconstrictor was infiltrated at the operative site. An incision was made along Teeth 34–38 using a No. 15 blade. Teeth 37 and 38 were extracted. The cyst was separated from the surrounding wall by blunt dissection while preserving the integrity of the cystic lining and the inferior alveolar nerve. Granulation tissue was removed by curettage (Figure 7). The cavity was irrigated alternately with 0.9% sodium chloride and povidone-iodine solution, followed by gentamicin irrigation for approximately 5 min. Antibiotic gauze was placed in the left mandibular bone defect, and the flap was repositioned and su- tured with multiple Vicryl 3-0 sutures (Figure 8).",
+              "page": 1,
+              "position": 22
+            },
+            {
+              "text": "The left posterior maxillary lesion was managed next. A vaso- constrictor was infiltrated in the vestibular region of Teeth 26– 28, followed by a vestibular incision using a No. 15 blade. Teeth 26, 27, and 28 were extracted. The cyst was carefully separated by blunt dissection while maintaining the cystic sac (Figure 9). Granulation tissue was curetted. The cavity was irrigated with 0.9% sodium chloride and povidone-iodine solution, followed by gentamicin irrigation. Antibiotic gauze was inserted into the bone defect, and multiple Vicryl 3-0 sutures were placed",
+              "page": 1,
+              "position": 23
+            },
+            {
+              "text": "FIGURE 1   |   Extraoral view showing facial asymmetry (top image) and plantar and palmar views of the patient (bottom image).",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "3 of 11",
+              "page": 2,
+              "position": 25
+            },
+            {
+              "text": "(Figure 10). The surgical findings and specimens are as seen on Figures 11 and 12. Specimens were stored in 10% formalin and submitted to the anatomical pathology laboratory.",
+              "page": 2,
+              "position": 26
+            },
+            {
+              "text": "The patient was monitored in hospital until the third postopera- tive day. Postoperative medication included cefixime, ibuprofen,",
+              "page": 2,
+              "position": 27
+            },
+            {
+              "text": "dexamethasone 0.5 mg tablets, vitamin C, and vitamin B com- plex. He was advised to maintain oral hygiene through tooth brushing and flossing, to use povidone-iodine mouthwash 24 h after surgery, to follow a soft diet for approximately 1 week, and to avoid hot foods for 48 h.",
+              "page": 2,
+              "position": 28
+            },
+            {
+              "text": "Follow-up visits were performed 4–10 days after surgery at the Oral and Maxillofacial Surgery Clinic, Dental Hospital of Hasanuddin University. The antibiotic gauze was replaced at each visit. No postoperative complications were observed, and the patient reported no paresthesia, facial edema, or other com- plaints. On the tenth postoperative day, he was referred to the Prosthodontics Clinic for fabrication of an obturator device (Figure 13). One month after surgery, the obturator was well fitted in the maxilla and mandible, and the patient was able to maintain adequate oral intake (Figure 14). Three months after the first surgery, panoramic radiographic evaluation showed early new bone formation (Figure 15).",
+              "page": 2,
+              "position": 29
+            },
+            {
+              "text": "FIGURE 2   |   Intraoral view showing enlargement in the edentulous regions of Teeth 36–38 and 26–28.",
+              "page": 2,
+              "position": 30
+            },
+            {
+              "text": "FIGURE 3   |   Panoramic radiograph showing multiple cystic lesions in Regions 13, 28, 38, 43, and 48.",
+              "page": 2,
+              "position": 31
+            },
+            {
+              "text": "FIGURE 4   |   Chest X-ray showing bifid left costae at the third and fifth ribs.",
+              "page": 2,
+              "position": 32
+            },
+            {
+              "text": "(a)",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "(b)",
+              "page": 2,
+              "position": 34
+            },
+            {
+              "text": "(c)",
+              "page": 2,
+              "position": 35
+            },
+            {
+              "text": "FIGURE 5   |   Aspiration test findings. (a) Region 13. (b) Region 43. (c) Region 38.",
+              "page": 2,
+              "position": 36
+            },
+            {
+              "text": "4 of 11 Case Reports in Dentistry, 2026",
+              "page": 3,
+              "position": 37
+            },
+            {
+              "text": "In September 2025, the patient underwent a second enucleation procedure for right maxillary and mandibular lesions using the same operative principles as the first surgery (Figures 16 and 17). The specimens were placed in 10% formalin and submitted for anatomical pathology examination (Figure 18). Antibiotic gauze was inserted into the defects, and the flaps were sutured",
+              "page": 3,
+              "position": 38
+            },
+            {
+              "text": "with multiple Vicryl 3-0 sutures (Figure 19). The second sur- gical procedure included extraction of Teeth 13, 43, 47, and 48 (Figure 20).",
+              "page": 3,
+              "position": 39
+            },
+            {
+              "text": "Histopathological examination showed cystic structures lined by stratified squamous epithelium with nonatypical nuclei.",
+              "page": 3,
+              "position": 40
+            },
+            {
+              "text": "FIGURE 6   |   CT scan showing bilateral calcification of the falx cerebri.",
+              "page": 3,
+              "position": 41
+            },
+            {
+              "text": "FIGURE 7   |   Intraoperative view of Region 38.",
+              "page": 3,
+              "position": 42
+            },
+            {
+              "text": "5 of 11",
+              "page": 4,
+              "position": 43
+            },
+            {
+              "text": "The basal layer contained hyperchromatic odontogenic cells ar- ranged in a dense cuboidal to columnar pattern. Clefting was present between the epithelium and connective tissue. The subepithelial layer contained inflammatory cells, including lymphocytes, histiocytes, plasma cells, and polymorphonu- clear leukocytes (Figure 21). Based on the clinical, radiologic, and histopathologic findings, the final diagnosis was syndromic multiple OKCs of the maxilla and mandible. Six-month postop- erative follow-up was planned to assess healing, function, and recurrence.",
+              "page": 4,
+              "position": 44
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3 | Patient Perspective",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "A formal patient-perspective statement was not obtained. The patient and guardian were informed about the diagnosis, staged",
+              "page": 4,
+              "position": 45
+            },
+            {
+              "text": "treatment plan, need for long-term follow-up, and possibility of recurrence.",
+              "page": 4,
+              "position": 46
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4 | Discussion",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Gorlin–Goltz syndrome is a rare hereditary disorder in which multiple OKCs may be one of the earliest clinical signs [1]. The syndrome has an estimated incidence of approximately 1 in 50,000–150,000 individuals. Compared with isolated multiple cysts, syndromic multiple OKCs are more commonly associ- ated with systemic skeletal, cutaneous, and neurologic findings (Table 1) [2, 6].",
+              "page": 4,
+              "position": 47
+            },
+            {
+              "text": "The molecular basis of Gorlin–Goltz syndrome is linked mainly to pathogenic changes affecting the PTCH gene and",
+              "page": 4,
+              "position": 48
+            },
+            {
+              "text": "(a) (b)",
+              "page": 4,
+              "position": 49
+            },
+            {
+              "text": "FIGURE 8   |   Postoperative view of Region 38. (a) Clinical view of Tooth 38. (b) Application of antibiotic gauze to the surgical site.",
+              "page": 4,
+              "position": 50
+            },
+            {
+              "text": "FIGURE 9   |   Intraoperative view of Region 28.",
+              "page": 4,
+              "position": 51
+            },
+            {
+              "text": "(a) (b)",
+              "page": 4,
+              "position": 52
+            },
+            {
+              "text": "FIGURE 10   |   Postoperative view of Region 28. (a) Clinical view of Teeth 27 and 28. (b) Application of antibiotic gauze to the surgical site.",
+              "page": 4,
+              "position": 53
+            },
+            {
+              "text": "6 of 11 Case Reports in Dentistry, 2026",
+              "page": 5,
+              "position": 54
+            },
+            {
+              "text": "FIGURE 11   |   Surgical specimens and extracted teeth from the first operation involving Teeth 37, 38, 26, 27, and 28.",
+              "page": 5,
+              "position": 55
+            },
+            {
+              "text": "(a) (b)",
+              "page": 5,
+              "position": 56
+            },
+            {
+              "text": "FIGURE 12   |   Specimens showing multiple thin cystic soft tissue layers. (a) Left mandibular specimen. (b) Left maxillary specimen.",
+              "page": 5,
+              "position": 57
+            },
+            {
+              "text": "(a) (b)",
+              "page": 5,
+              "position": 58
+            },
+            {
+              "text": "(c)",
+              "page": 5,
+              "position": 59
+            },
+            {
+              "text": "FIGURE 13   |   Wound defect after surgery, Day 32. (a) Maxilla. (b) Mandible. (c) Obturator device.",
+              "page": 5,
+              "position": 60
+            },
+            {
+              "text": "7 of 11",
+              "page": 6,
+              "position": 61
+            },
+            {
+              "text": "the sonic hedgehog signaling pathway. PTCH normally reg- ulates Smoothened activity and thereby influences cellular proliferation and differentiation during development. Altered signaling can promote abnormal odontogenic epithelial prolif- eration and increase susceptibility to cyst formation and neo- plastic changes [5, 7].",
+              "page": 6,
+              "position": 62
+            },
+            {
+              "text": "The diagnosis is usually supported by the presence of two major criteria or one major criterion with two minor criteria. Major criteria include multiple OKCs, early-onset basal cell carcinoma, palmar or plantar pits, bilamellar calcification of the falx cerebri, bifid or fused ribs, and a first-degree relative with the syndrome. Minor criteria include macrocephaly, con- genital malformations, skeletal anomalies, radiologic anom- alies, medulloblastoma, and ovarian fibroma (Table 2) [8, 9].",
+              "page": 6,
+              "position": 63
+            },
+            {
+              "text": "The present patient fulfilled three major criteria: multiple OKCs, bifid ribs, and falx cerebri calcification. He also had craniofacial features suggestive of a minor criterion, including prominent su- praorbital ridges. These findings support a syndromic diagnosis rather than isolated multiple OKCs.",
+              "page": 6,
+              "position": 64
+            },
+            {
+              "text": "Gorlin–Goltz syndrome is often identified in adolescents and young adults. OKCs can be bilateral and may involve both the maxilla and mandible, especially posterior mandibular regions, canine areas, and incisor regions [10, 11]. In this case, multiple cystic lesions involved both jaws and were associated with im- pacted teeth, which made staged surgical planning necessary.",
+              "page": 6,
+              "position": 65
+            },
+            {
+              "text": "A cyst is a pathologic cavity that contains fluid or semisolid ma- terial and may or may not be lined by epithelium [12]. Multiple",
+              "page": 6,
+              "position": 66
+            },
+            {
+              "text": "jaw cysts may occur with or without a syndrome, but nonsyn- dromic multiple OKCs are uncommon [13]. Classic OKCs are recognized by their developmental origin, characteristic epi- thelial lining, and recurrence potential [14]. Radiographically, OKCs usually appear as well-demarcated unilocular radiolucen- cies, although multilocular patterns can occur. They may grow extensively with limited expansion and may remain asymptom- atic unless secondarily infected [15].",
+              "page": 6,
+              "position": 67
+            },
+            {
+              "text": "Histologically, OKCs typically show a parakeratinized or or- thokeratinized epithelial surface, relatively uniform epithelial thickness, and palisaded basal cells with a tombstone or pick- et-fence arrangement. Daughter cysts or satellite cysts may be found in the connective tissue and are associated with recur- rence risk. Parakeratinized OKCs are generally considered more aggressive than orthokeratinized lesions, and syndromic OKCs are frequently parakeratinized [4, 9, 14]. In the present case, the epithelial and basal cell features were consistent with OKC, and the syndromic diagnosis was supported by extraoral and radio- graphic criteria.",
+              "page": 6,
+              "position": 68
+            },
+            {
+              "text": "Dentigerous cyst should be considered in the differential diag- nosis because it may also be associated with impacted teeth. Dentigerous cysts usually arise from reduced enamel epithe- lium surrounding the crown of an unerupted tooth, grow slowly, and are often asymptomatic [16, 17]. Radiographically, they are typically unilocular radiolucencies attached to the crown of an unerupted tooth and bounded by a corticated margin. A follicular space larger than 5 mm can suggest a den- tigerous cyst [18]. Unlike the present case, dentigerous cysts are usually solitary and are lined by nonkeratinized-stratified squamous epithelium.",
+              "page": 6,
+              "position": 69
+            },
+            {
+              "text": "Management of OKCs ranges from enucleation and curettage to decompression, marsupialization, adjunctive chemical therapy, and resection in selected cases [2, 3]. The staged ap- proach in this patient was chosen because lesions were pres- ent bilaterally in the maxilla and mandible, several teeth were impacted, and the left mandibular lesion posed a higher frac- ture risk. Long-term review is essential because recurrence may occur years after treatment, and multiple OKCs may pre- cede other manifestations of Gorlin–Goltz syndrome [9, 19]. Genetic counseling and multidisciplinary evaluation involv- ing oral and maxillofacial surgeons, dermatologists, geneti- cists, and pathologists are therefore recommended.",
+              "page": 6,
+              "position": 70
+            },
+            {
+              "text": "(a) (b)",
+              "page": 6,
+              "position": 71
+            },
+            {
+              "text": "FIGURE 14   |   Postinsertion view of the obturator. (a) Maxilla. (b) Mandible.",
+              "page": 6,
+              "position": 72
+            },
+            {
+              "text": "FIGURE 15   |   Postoperative panoramic radiographic control at 3 months.",
+              "page": 6,
+              "position": 73
+            },
+            {
+              "text": "8 of 11 Case Reports in Dentistry, 2026",
+              "page": 7,
+              "position": 74
+            },
+            {
+              "text": "FIGURE 17   |   Intraoperative view of Region 43.",
+              "page": 7,
+              "position": 75
+            },
+            {
+              "text": "(a) (b) (c)",
+              "page": 7,
+              "position": 76
+            },
+            {
+              "text": "FIGURE 18   |   Specimens showing multiple thin cystic soft tissue layers. (a) Region 13. (b) Region 43. (c) Region 48.",
+              "page": 7,
+              "position": 77
+            },
+            {
+              "text": "FIGURE 16   |   Intraoperative view of Region 13.",
+              "page": 7,
+              "position": 78
+            },
+            {
+              "text": "9 of 11",
+              "page": 8,
+              "position": 79
+            },
+            {
+              "text": "(a) (b) (c)",
+              "page": 8,
+              "position": 80
+            },
+            {
+              "text": "FIGURE 19   |   Postoperative views. (a) Region 13. (b) Region 43. (c) Region 48.",
+              "page": 8,
+              "position": 81
+            },
+            {
+              "text": "FIGURE 20   |   Surgical specimens and extracted teeth from the second operation involving Teeth 13, 43, 47, and 48.",
+              "page": 8,
+              "position": 82
+            },
+            {
+              "text": "FIGURE 21   |   Histopathological features of the odontogenic keratocyst.",
+              "page": 8,
+              "position": 83
+            },
+            {
+              "text": "10 of 11 Case Reports in Dentistry, 2026",
+              "page": 9,
+              "position": 84
+            },
+            {
+              "text": "This case study has several strengths, including comprehen- sive clinical, radiographic, and histopathological documen- tation, as well as detailed reporting of the staged surgical approach and postoperative rehabilitation. The multidisci- plinary approach and long-term evaluation further enhance",
+              "page": 9,
+              "position": 85
+            },
+            {
+              "text": "the validity of the findings. However, its limitations include the single-case design, which limits generalizability, the ab- sence of formal patient-perspective data, and relatively short- term follow-up. Further studies with larger samples and genetic monitoring are needed to confirm these findings and identify additional risk factors.",
+              "page": 9,
+              "position": 86
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5 | Conclusion",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Multiple OKCs in an adolescent patient should alert clinicians to the possibility of Gorlin–Goltz syndrome, especially when jaw lesions are bilateral or associated with skeletal and cranial ra- diologic findings. In this case, multiple OKCs, bifid ribs, and falx cerebri calcification supported the syndromic diagnosis.",
+              "page": 9,
+              "position": 87
+            },
+            {
+              "text": "Staged enucleation, careful preservation of vital structures, obtu- rator rehabilitation, and scheduled follow-up provided satisfactory early clinical outcomes. Long-term surveillance remains neces- sary because of the recurrence potential of OKCs and the possi- bility of additional syndromic manifestations. Genetic evaluation is also recommended to confirm the underlying chromosomal or molecular abnormality and guide family counseling.",
+              "page": 9,
+              "position": 88
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Author Contributions",
+              "level": 4,
+              "page_start": 9,
+              "page_end": 9,
+              "paragraphs": [
+                {
+                  "text": "Faizal Manrapi: writing – review & editing, writing – original draft, conceptualization. Mohammad Gazali: writing – review & editing, writing – original draft, conceptualization, validation, project admin- istration. Nurwahida: writing – review & editing, writing – original draft, conceptualization. Nisrina Ekayani Nasrun: writing – review & editing, supervision, project administration.",
+                  "page": 9,
+                  "position": 89
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acknowledgments",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "The authors thank the consultants from the Department of Oral and Maxillofacial Surgery for their guidance and assistance during the preparation of this case report. No individual is acknowledged by name.",
+          "page": 9,
+          "position": 90
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Funding",
+          "level": 4,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "No funding was received for this manuscript.",
+              "page": 9,
+              "position": 91
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Disclosure",
+          "level": 4,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "All authors have read and approved the final version of the manu- script. Mohammad Gazali, as the corresponding author and manu- script guarantor, had full access to all of the data in this study and takes complete responsibility for the integrity of the data and the ac- curacy of the data analysis. The authors checked the cited references for retraction notices and published corrections using PubMed, pub- lisher websites, and the Retraction Watch database before resubmis- sion. No cited reference was identified as retracted, and no published correction requiring reinterpretation of the cited evidence was identi- fied at the time of resubmission.",
+              "page": 9,
+              "position": 92
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Ethics Statement",
+          "level": 4,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Ethical approval was not required for this single anonymized case re- port because it describes routine clinical care and does not include iden- tifiable patient information. Written informed consent for treatment and publication was obtained from the patient and guardian. This re- port was prepared according to the CARE guidelines and in accordance with the principles of the Declaration of Helsinki.",
+              "page": 9,
+              "position": 93
+            },
+            {
+              "text": "TABLE 2   |   Major and minor diagnostic criteria for Gorlin–Goltz syndrome [8, 9].",
+              "page": 9,
+              "position": 94
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Major criteria Minor criteria",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Multiple or single basal cell carcinoma before 20 years of age.",
+              "page": 9,
+              "position": 95
+            },
+            {
+              "text": "Macrocephaly adjusted for height.",
+              "page": 9,
+              "position": 96
+            },
+            {
+              "text": "Multiple odontogenic keratocysts.",
+              "page": 9,
+              "position": 97
+            },
+            {
+              "text": "Congenital malformations,",
+              "page": 9,
+              "position": 98
+            },
+            {
+              "text": "including cleft lip or palate, frontal bossing, and moderate or severe",
+              "page": 9,
+              "position": 99
+            },
+            {
+              "text": "hypertelorism.",
+              "page": 9,
+              "position": 100
+            },
+            {
+              "text": "Three or more palmar or plantar pits.",
+              "page": 9,
+              "position": 101
+            },
+            {
+              "text": "Other skeletal anomalies,",
+              "page": 9,
+              "position": 102
+            },
+            {
+              "text": "including Sprengel deformity, marked pectus",
+              "page": 9,
+              "position": 103
+            },
+            {
+              "text": "deformity, and marked syndactyly of the digits.",
+              "page": 9,
+              "position": 104
+            },
+            {
+              "text": "Bilamellar calcification of the falx cerebri.",
+              "page": 9,
+              "position": 105
+            },
+            {
+              "text": "Radiologic anomalies, including bridging of the",
+              "page": 9,
+              "position": 106
+            },
+            {
+              "text": "sella turcica, vertebral",
+              "page": 9,
+              "position": 107
+            },
+            {
+              "text": "anomalies such as hemivertebrae, fusion or",
+              "page": 9,
+              "position": 108
+            },
+            {
+              "text": "elongation of vertebral",
+              "page": 9,
+              "position": 109
+            },
+            {
+              "text": "bodies, and modeling defects of the hands or feet.",
+              "page": 9,
+              "position": 110
+            },
+            {
+              "text": "Bifid, splayed, or fused ribs. Medulloblastoma.",
+              "page": 9,
+              "position": 111
+            },
+            {
+              "text": "First-degree relative with Gorlin–Goltz syndrome.",
+              "page": 9,
+              "position": 112
+            },
+            {
+              "text": "Ovarian fibroma.",
+              "page": 9,
+              "position": 113
+            },
+            {
+              "text": "TABLE 1   |   Clinical manifestations of Gorlin–Goltz syndrome [1].",
+              "page": 9,
+              "position": 114
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Category Manifestations",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Skin Basal cell nevi, basal cell carcinoma, benign dermal cysts and tumors, dermal calcinosis, and palmar or plantar keratosis.",
+              "page": 9,
+              "position": 115
+            },
+            {
+              "text": "Dental Multiple odontogenic keratocysts and",
+              "page": 9,
+              "position": 116
+            },
+            {
+              "text": "mild mandibular prognathism.",
+              "page": 9,
+              "position": 117
+            },
+            {
+              "text": "Bone Frontal bossing, bifid ribs, spina bifida, kyphoscoliosis, and brachymetacarpalism.",
+              "page": 9,
+              "position": 118
+            },
+            {
+              "text": "Eye Hypertelorism, congenital blindness,",
+              "page": 9,
+              "position": 119
+            },
+            {
+              "text": "and internal strabismus.",
+              "page": 9,
+              "position": 120
+            },
+            {
+              "text": "Neurologic Dural calcification, developmental",
+              "page": 9,
+              "position": 121
+            },
+            {
+              "text": "delay or intellectual impairment,",
+              "page": 9,
+              "position": 122
+            },
+            {
+              "text": "and medulloblastoma.",
+              "page": 9,
+              "position": 123
+            },
+            {
+              "text": "Reproductive Hypogonadism and ovarian tumors.",
+              "page": 9,
+              "position": 124
+            },
+            {
+              "text": "11 of 11",
+              "page": 10,
+              "position": 125
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Consent",
+              "level": 4,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "The patient and guardian provided written informed consent for pub- lication of clinical details, intraoral photographs, radiographic images, and treatment information in this case report.",
+                  "page": 10,
+                  "position": 126
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Conflicts of Interest",
+              "level": 4,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "The authors declare no conflicts of interest.",
+                  "page": 10,
+                  "position": 127
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Data Availability Statement",
+              "level": 4,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "The datasets generated and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+                  "page": 10,
+                  "position": 128
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "F. Arshad, “Syndromic Odontogenic Keratocyst: A Case Report and Review of Literature,” Journal of International Society of Preventive and Community Dentistry 6, no. 1 (2016): 84–88, https://doi. org/10.4103/2231-0762.175414.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.4103/2231-0762.175414"
+    },
+    {
+      "id": 2,
+      "raw_text": "K. S. Sundaragiri, S. Saxena, B. Sankhla, and A. Bhargava, “Non syndromic Synchronous Multiple Odontogenic Keratocysts in a Western Indian Population: A Series of Four Cases,” Journal of Clinical and Experimental Dentistry 10, no. 8 (2018): e831–e836, https://doi. org/10.4317/jced.54616.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.4317/jced.54616"
+    },
+    {
+      "id": 3,
+      "raw_text": "P. M. Brechard, G. Herve, V. Descroix, G. Lescaille, and A. Guyon, “A Non-Syndromic Case of Maxillo-Mandibular Keratocysts,” Journal of Oral Medicine and Oral Surgery 26, no. 1 (2020): 8, https://doi. org/10.1051/mbcb/2019027.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1051/mbcb/2019027"
+    },
+    {
+      "id": 4,
+      "raw_text": "S. Ono, K. Hirose, S. Sukegawa, et al., “Multiple Orthokeratinized Odontogenic Cysts: Clinical, Pathological, and Genetic Characteristics,” Diagnostic Pathology 17 (2022): 82, https://doi.org/10.1186/ s13000-022-01261-0.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "M. A. Ambele, L. Robinson, M. B. van Heerden, M. S. Pepper, and W. F. P. van Heerden, “Comparative Molecular Genetics of Odontogenic Keratocysts in Sporadic and Syndromic Patients,” Modern Pathology 36, no. 1 (2023): 100002, https://doi.org/10.1016/j. modpat.2022.100002.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1016/j"
+    },
+    {
+      "id": 6,
+      "raw_text": "S. A. Narsapur, S. Choudhari, N. M. Warad, and S. Manjunath, “Nonsyndromic Multiple Odontogenic Keratocysts Associated With Dental Anomalies: A Report of Unusual Case and Its Management,” Journal of Indian Academy of Oral Medicine and Radiology 27, no. 2 (2015): 268–272, https://doi.org/10.4103/0972-1363.170155.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.4103/0972-1363.170155"
+    },
+    {
+      "id": 7,
+      "raw_text": "A. Marsh, C. Wicking, B. Wainwright, and G. Chenevix-Trench, “DHPLC Analysis of Patients With Nevoid Basal Cell Carcinoma Syndrome Reveals Novel PTCH Missense Mutations in the Sterol- Sensing Domain,” Human Mutation 26, no. 3 (2005): 283–283, https:// doi.org/10.1002/humu.9365.",
+      "authors": [],
+      "title": null,
+      "year": 2005,
+      "venue": null,
+      "doi": "10.1002/humu.9365"
+    },
+    {
+      "id": 8,
+      "raw_text": "A. F. Bree, M. R. Shah, and BCNS Colloquium Group, “Consensus Statement From the First International Colloquium on Basal Cell Nevus Syndrome (BCNS),” American Journal of Medical Genetics Part A 155A, no. 9 (2011): 2091–2097, https://doi.org/10.1002/ajmg.a.34128.",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": "10.1002/ajmg.a.34128"
+    },
+    {
+      "id": 9,
+      "raw_text": "V. E. Kimonis, A. M. Goldstein, B. Pastakia, et al., “Clinical Manifestations in 105 Persons With Nevoid Basal Cell Carcinoma Syndrome,” American Journal of Medical Genetics 69, no. 3 (1997): 299–308, https://doi.org/10.1002/ (SICI)1096-8628(19970331)69:3%3C299::AID-AJMG16%3E3.0.CO;2-M.",
+      "authors": [],
+      "title": null,
+      "year": 1997,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "M. Manfredi, P. Vescovi, M. Bonanini, and S. Porter, “Nevoid Basal Cell Carcinoma Syndrome: a Review of the Literature,” International Journal of Oral and Maxillofacial Surgery 33, no. 2 (2004): 117–124, https://doi.org/10.1054/ijom.2003.0435.",
+      "authors": [],
+      "title": null,
+      "year": 2004,
+      "venue": null,
+      "doi": "10.1054/ijom.2003.0435"
+    },
+    {
+      "id": 11,
+      "raw_text": "H. Crane, P. Da Forno, E. Kyriakidou, P. M. Speight, and K. D. Hunter, “Multiple Orthokeratinized Odontogenic Cysts: A Report of Two Cases and Review of the Literature,” Head and Neck Pathology 14, no. 2 (2020): 381–385, https://doi.org/10.1007/s12105-019-01042-0.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1007/s12105-019-01042-0"
+    },
+    {
+      "id": 12,
+      "raw_text": "M. Shear, and P. M. Speight, Cysts of the Oral and Maxillofacial Regions, 3rd ed. (Blackwell Publishing Ltd, 2007), https://doi. org/10.1002/9780470759769.ch3.",
+      "authors": [],
+      "title": null,
+      "year": 2007,
+      "venue": null,
+      "doi": "10.1002/9780470759769.ch3"
+    },
+    {
+      "id": 13,
+      "raw_text": "I. N. A. Asykari, and F. Pramanik, “Non-Syndromic Multiple Odontogenic Keratocyst Finding with Cone-Beam Computed Tomography (CBCT): A Rare Case Report,” Jurnal Radiologi Dentomaksilofasial Indonesia 7, no. 1 (2023): 35–40, https://doi. org/10.32793/jrdi.v7i1.989.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.32793/jrdi.v7i1.989"
+    },
+    {
+      "id": 14,
+      "raw_text": "R. B. Brannon, “The Odontogenic Keratocyst,” Oral Surgery, Oral Medicine, Oral Pathology 42, no. 1 (1976): 54–72, https://doi. org/10.1016/0030-4220(76)90031-1.",
+      "authors": [],
+      "title": null,
+      "year": 1976,
+      "venue": null,
+      "doi": "10.1016/0030-4220(76)90031-1"
+    },
+    {
+      "id": 15,
+      "raw_text": "A. Borghesi, C. Nardi, C. Giannitto, et al., “Odontogenic Keratocyst: Imaging Features of a Benign Lesion With an Aggressive Behaviour,” Insights into Imaging 9, no. 5 (2018): 883–897, https://doi.org/10.1007/ s13244-018-0644-z.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 16,
+      "raw_text": "H. Vasiapphan, P. J. Christopher, S. Kengasubbiah, V. Shenoy, S. Kumar, and A. Paranthaman, “Bilateral Dentigerous Cyst in Impacted Mandibular Third Molars: A Case Report,” Cureus 10, no. 12 (2018): e3691, https://doi.org/10.7759/cureus.3691.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.7759/cureus.3691"
+    },
+    {
+      "id": 17,
+      "raw_text": "H. Permana, M. Ruslin, A. Sitti Hajrah, et al., “Surgical Management of Dentigerous Cyst Arises From Ectopic Tooth: A Report of Three Consecutive Cases and Literature Review,” Journal of Stomatology, Oral and Maxillofacial Surgery 125, no. 3 (2024): 101685, https://doi. org/10.1016/j.jormas.2023.101685.",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1016/j.jormas.2023.101685"
+    },
+    {
+      "id": 18,
+      "raw_text": "A. Dhupar, S. Yadav, V. Dhupar, H. C. Mittal, S. Malik, and P. Rana, “Bi-maxillary Dentigerous Cyst in a Non-Syndromic Child: Review of Literature With a Case Presentation,” Journal of Stomatology, Oral and Maxillofacial Surgery 118, no. 1 (2017): 45–48, https://doi.org/10.1016/j. jormas.2016.12.001.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.1016/j"
+    },
+    {
+      "id": 19,
+      "raw_text": "A. Nirwan, S. P. Wanjari, R. Saikhedkar, and V. Karun, “Multiple Non-Syndromic Odontogenic Keratocysts in Three Siblings,” BMJ Case Reports 2013 (2013): bcr2012007503, https://doi.org/10.1136/ bcr-2012-007503.",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 11,
+  "warnings": []
+}

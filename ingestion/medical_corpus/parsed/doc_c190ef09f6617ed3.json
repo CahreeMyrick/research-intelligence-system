@@ -1,0 +1,764 @@
+{
+  "identity": {
+    "id": "doc_c190ef09f6617ed3",
+    "source": {
+      "filename": "PMC13602015.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13602015.1/PMC13602015.1.pdf",
+      "content_hash": "c190ef09f6617ed3949efe39d68fcfa219e73a21476f8f173d8e2cfab5d8cf57"
+    }
+  },
+  "metadata": {
+    "title": "Review began 08/10/2026",
+    "authors": [
+      "Review ended //"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.7759/cureus.115134",
+    "arxiv_id": null,
+    "abstract": "Middle lobe syndrome (MLS) is characterized by recurrent or chronic collapse of the right middle lobe of the lung. While non-vascular inflammatory causes dominate, endobronchial rupture of mediastinal tuberculous lymphadenitis causing obstructive MLS is an under-recognized entity that presents significant diagnostic challenges. In this context, we report the case of a 24-year-old male immigrant with no past medical history who presented with cough and right-sided chest pain. Chest radiography revealed right middle lobe alveolar opacity. He received empirical levofloxacin without radiological follow-up. Four months later, he experienced symptom recurrence associated with weight loss, asthenia, and night sweats. Repeat chest radiography revealed persistent middle lobe consolidation with ipsilateral pleural effusion. Sputum smear for acid-fast bacilli and PCR for Mycobacterium tuberculosis were negative. Chest CT confirmed necrotic mediastinal lymph nodes with endobronchial rupture into the middle lobe bronchus and cavitated middle lobe consolidation. Flexible bronchoscopy demonstrated mucosal infiltration and pearly-white stenosis of the middle lobar bronchus. Endobronchial biopsies revealed necrotizing epithelioid and giant-cell granulomatous inflammation. The diagnosis of obstructive MLS secondary to endobronchial tuberculosis following lymph node rupture was established, and antituberculosis therapy was initiated. In conclusion, tuberculous lymphadenitis with broncho-nodular fistulization should be considered in the etiology of obstructive MLS. Initial empirical fluoroquinolone treatment can mask bacteriological detection, highlighting the essential diagnostic role of endobronchial biopsies. Categories: Radiology, Pulmonology Keywords: bronchodular fistula, endobronchial tuberculosis, mediastinal lymphadenitis, middle lobe syndrome, tuberculosis",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Review began 08/10/2026",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Review ended 08/17/2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Published 08/25/2026",
+          "page": 0,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "© Copyright 2026",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Snene et al. This is an open access article",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "distributed under the terms of the Creative",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Commons Attribution License CC-BY 4.0.,",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "which permits unrestricted use, distribution,",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "and reproduction in any medium, provided",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "the original author and source are credited.",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "DOI: 10.7759/cureus.115134",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "The Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Houda Snene , Monia Attia , Imen Alioua , Nadia Mehiri , Bechir Louzir",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "1. Department of Pulmonology and Allergology, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN 2. Department of Medical Imaging, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "Corresponding author: Houda Snene, houda.snen@gmail.com",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Middle lobe syndrome (MLS) is characterized by recurrent or chronic collapse of the right middle lobe of the lung. While non-vascular inflammatory causes dominate, endobronchial rupture of mediastinal tuberculous lymphadenitis causing obstructive MLS is an under-recognized entity that presents significant diagnostic challenges. In this context, we report the case of a 24-year-old male immigrant with no past medical history who presented with cough and right-sided chest pain. Chest radiography revealed right middle lobe alveolar opacity. He received empirical levofloxacin without radiological follow-up. Four months later, he experienced symptom recurrence associated with weight loss, asthenia, and night sweats. Repeat chest radiography revealed persistent middle lobe consolidation with ipsilateral pleural effusion. Sputum smear for acid-fast bacilli and PCR for Mycobacterium tuberculosis were negative. Chest CT confirmed necrotic mediastinal lymph nodes with endobronchial rupture into the middle lobe bronchus and cavitated middle lobe consolidation. Flexible bronchoscopy demonstrated mucosal infiltration and pearly-white stenosis of the middle lobar bronchus. Endobronchial biopsies revealed necrotizing epithelioid and giant-cell granulomatous inflammation. The diagnosis of obstructive MLS secondary to endobronchial tuberculosis following lymph node rupture was established, and antituberculosis therapy was initiated. In conclusion, tuberculous lymphadenitis with broncho-nodular fistulization should be considered in the etiology of obstructive MLS. Initial empirical fluoroquinolone treatment can mask bacteriological detection, highlighting the essential diagnostic role of endobronchial biopsies.",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Categories: Radiology, Pulmonology Keywords: bronchodular fistula, endobronchial tuberculosis, mediastinal lymphadenitis, middle lobe syndrome, tuberculosis",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Middle lobe syndrome (MLS) refers to a spectrum of conditions that lead to chronic or recurrent atelectasis or consolidation of the right middle lobe [1, 2]. Mechanistically, MLS is categorized into obstructive and non-obstructive types [1]. The unique anatomical features of the middle lobe bronchus, which are its small diameter, acute take-off angle, and surrounding collar of lymphatic channels, render it particularly vulnerable to extrinsic compression and secondary endobronchial involvement [1, 2].",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Although inflammatory conditions (47%) and malignant tumors (22%) represent the primary etiologies of MLS, tuberculous origin accounts for approximately 9% of cases [1, 3]. Mediastinal tuberculous lymphadenitis eroding directly into the tracheobronchial tree represents a rare and challenging cause of obstructive MLS [3-5]. Here, we report a case of obstructive MLS resulting from endobronchial rupture of necrotic hilar/mediastinal tuberculous lymph nodes and provide a brief literature review focused on clinical management and diagnostic caveats.",
+          "page": 0,
+          "position": 17
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Case Presentation",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "A 24-year-old male immigrant living in a precarious social situation with no previous medical history presented to a community healthcare physician with a persistent cough and right-sided chest pain. Initial chest radiography revealed alveolar opacity localized in the right middle lobe (Figure 1A). He was treated empirically with a standard course of levofloxacin without subsequent post-treatment radiological evaluation. Four months after the completion of the initial antibiotic course, the patient experienced a clinical relapse, characterized by recurrent cough, right chest pain, profuse night sweats, and significant constitutional symptoms, including asthenia, anorexia, and weight loss. Physical examination revealed a hemodynamically stable patient without respiratory distress. Laboratory investigations are detailed in Table 1. The analyses revealed a normal white blood cell count without lymphopenia, normocytic normochromic anemia (hemoglobin: 11.2 g/dL), significantly elevated C-reactive protein (153.33 mg/L), and overall preserved renal and liver functions.",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "1 2 1 1 1",
+          "page": 0,
+          "position": 19
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Open Access Case Report",
+          "level": 4,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "How to cite this article Snene H, Attia M, Alioua I, et al. (August 25, 2026) The Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis. Cureus 18(8): e115134. DOI 10.7759/cureus.115134",
+              "page": 0,
+              "position": 20
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Laboratory parameter Patient's result Reference range Units",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Hematology (Complete blood count)",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "White blood cells 6.65 4.00 – 10.00 x 109/L",
+              "page": 1,
+              "position": 21
+            },
+            {
+              "text": "Neutrophils (Absolute) 3.98 1.70 – 7.10 x 109/L",
+              "page": 1,
+              "position": 22
+            },
+            {
+              "text": "Lymphocytes (Absolute) 2.16 1.50 – 4.10 x 109/L",
+              "page": 1,
+              "position": 23
+            },
+            {
+              "text": "Hemoglobin 11.2 12.0 – 18.0 g/dL",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "Mean corpuscular volume 74.9 80.0 – 100.0 fL",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "Mean corpuscular hemoglobin 24.4 26.0 – 34.0 pg",
+              "page": 1,
+              "position": 26
+            },
+            {
+              "text": "Mean corpuscular hemoglobin concentration 32.6 32.0 – 36.0 g/dL",
+              "page": 1,
+              "position": 27
+            },
+            {
+              "text": "Platelets 402 150 – 450 x 109/L",
+              "page": 1,
+              "position": 28
+            },
+            {
+              "text": "Inflammatory marker",
+              "page": 1,
+              "position": 29
+            },
+            {
+              "text": "C-Reactive Protein 153.33 < 7 mg/L",
+              "page": 1,
+              "position": 30
+            },
+            {
+              "text": "Renal function and electrolytes",
+              "page": 1,
+              "position": 31
+            },
+            {
+              "text": "Urea 1.66 2.50 – 7.50 mmol/L",
+              "page": 1,
+              "position": 32
+            },
+            {
+              "text": "Creatinine 70.54 53.00 – 115.00 µmol/L",
+              "page": 1,
+              "position": 33
+            },
+            {
+              "text": "Sodium 134 136 – 145 mmol/L",
+              "page": 1,
+              "position": 34
+            },
+            {
+              "text": "Potassium 4.36 3.50 – 4.90 mmol/L",
+              "page": 1,
+              "position": 35
+            },
+            {
+              "text": "Chloride 99 98 – 107 mmol/L",
+              "page": 1,
+              "position": 36
+            },
+            {
+              "text": "Uric Acid 264.46 200.00 – 420.00 µmol/L",
+              "page": 1,
+              "position": 37
+            },
+            {
+              "text": "Hepatic function and enzymes",
+              "page": 1,
+              "position": 38
+            },
+            {
+              "text": "Total bilirubin 5.1 5 – 17 µmol/L",
+              "page": 1,
+              "position": 39
+            },
+            {
+              "text": "Direct bilirubin 1.0 < 5 µmol/L",
+              "page": 1,
+              "position": 40
+            },
+            {
+              "text": "Aspartate aminotransferase 37 5 – 40 IU/L",
+              "page": 1,
+              "position": 41
+            },
+            {
+              "text": "Alanine aminotransferase 28 5 – 40 IU/L",
+              "page": 1,
+              "position": 42
+            },
+            {
+              "text": "Alkaline phosphatase 106 40 – 129 IU/L",
+              "page": 1,
+              "position": 43
+            },
+            {
+              "text": "Gamma-glutamyl transferase 83 5 – 30 IU/L",
+              "page": 1,
+              "position": 44
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "TABLE 1: Initial laboratory investigations on admission",
+          "level": 3,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "A second chest X-ray revealed persistent consolidation in the right middle lobe, associated with a small ipsilateral pleural effusion (Figure 1B, 1C).",
+              "page": 1,
+              "position": 45
+            },
+            {
+              "text": "2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 2 of 6",
+              "page": 1,
+              "position": 46
+            },
+            {
+              "text": "FIGURE 1: (A) Initial chest radiography showing alveolar opacity in the",
+              "page": 2,
+              "position": 47
+            },
+            {
+              "text": "right middle lobe (red arrow). (B and C) Repeat chest radiography (B:",
+              "page": 2,
+              "position": 48
+            },
+            {
+              "text": "frontal view; C: lateral view) four months later demonstrating persistent right middle lobe consolidation (red arrow) with ipsilateral pleural",
+              "page": 2,
+              "position": 49
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "effusion (yellow arrow).",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Sputum smear for acid-fast bacilli (AFB) and PCR for Mycobacterium tuberculosis were negative. Pleural fluid aspiration could not be performed due to minimal fluid volume on chest ultrasound, and the tuberculin skin test (TST) was non-reactive. Contrast-enhanced chest computed tomography (CT) in the mediastinal window revealed necrotic hilar and subcarinal lymph nodes with direct endobronchial rupture into the lumen of the middle lobar bronchus (Figure 2A, 2B). Parenchymal window settings showed dense consolidation of the right middle lobe, containing internal cavitations (Figure 2C, 2D).",
+              "page": 2,
+              "position": 50
+            },
+            {
+              "text": "FIGURE 2: Mediastinal window (A: coronal view; B: axial view) showing necrotic hilar/subcarinal lymph nodes (yellow arrows) with endobronchial rupture into the middle lobe bronchus (red arrow).",
+              "page": 2,
+              "position": 51
+            },
+            {
+              "text": "Parenchymal window (C: coronal view; D: axial view) showing cavitated",
+              "page": 2,
+              "position": 52
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "consolidation in the right middle lobe (red arrow).",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Flexible bronchoscopy demonstrated marked narrowing of the right middle lobar bronchus due to transmucosal infiltration with focal pearly-white mucosal changes (Figure 3A). The remaining bronchial tree",
+              "page": 2,
+              "position": 53
+            },
+            {
+              "text": "2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 3 of 6",
+              "page": 2,
+              "position": 54
+            },
+            {
+              "text": "exhibited normal mucosa. Endobronchial biopsies were performed at the site of stenosis. AFB testing on bronchial aspirate fluid returned negative. However, histopathological examination of the endobronchial biopsies demonstrated ulcerated mucosa with dense inflammatory infiltrates and multiple epithelioid giant- cell granulomas exhibiting focal caseous necrosis, with no evidence of malignancy (Figure 3B, 3C).",
+              "page": 3,
+              "position": 55
+            },
+            {
+              "text": "FIGURE 3: (A) Flexible bronchoscopy showing narrowing and pearly",
+              "page": 3,
+              "position": 56
+            },
+            {
+              "text": "white mucosal infiltration of the middle lobar bronchus (red arrows). (B)",
+              "page": 3,
+              "position": 57
+            },
+            {
+              "text": "Microscopic examination: Three biopsy samples, two concerned altered bronchial mucosa (red arrow). The middle one includes cartilage (red",
+              "page": 3,
+              "position": 58
+            },
+            {
+              "text": "star) and contains granulomas (blue star) and eosinophilic necrosis on",
+              "page": 3,
+              "position": 59
+            },
+            {
+              "text": "its lower end (blue arrow) (Hematoxylin-eosin X100). (C) Microscopic",
+              "page": 3,
+              "position": 60
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "examination: Necrotizing granulomatous inflammation featuring",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "epithelioid histiocytes, Langhans-type giant cells (red arrows), and a",
+              "page": 3,
+              "position": 61
+            },
+            {
+              "text": "surrounding lymphocytic infiltrate, adjacent to a zone of eosinophilic",
+              "page": 3,
+              "position": 62
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "caseous necrosis (blue arrow) (Hematoxylin-eosin X250).",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "A final diagnosis of obstructive middle lobe syndrome secondary to endobronchial tuberculosis following mediastinal lymph node rupture was established. Standard antituberculosis therapy (rifampicin, isoniazid, pyrazinamide, and ethambutol) was initiated, leading to progressive clinical improvement.",
+              "page": 3,
+              "position": 63
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "While MLS is a well-described clinical entity (accounting for 2-5% of all adult pulmonary referrals) [1], endobronchial erosion of mediastinal tuberculous lymphadenitis remains a distinctly rare mechanism in adults compared to pediatric populations [2, 3]. In pediatric series, enlarged caseous lymph nodes easily erode the compliant pediatric bronchial wall. Conversely, adult tracheobronchial erosion requires chronic transmural inflammatory destruction of mature cartilaginous rings, ultimately leading to luminal compromise and bronchial stenosis [2, 4, 5]. Recent cohort studies evaluating predictors of endobronchial tuberculosis emphasize that acute mucosal involvement can rapidly progress to irreversible endobronchial scarring if the diagnosis is delayed [3]. The anatomical susceptibility of the right middle lobe bronchus is attributed to three interconnected anatomical factors [1, 6]. Firstly, the bronchus is characterized by a relatively long caliber and a narrow lumen, measuring only 1.5 to 2 cm, which makes it inherently susceptible to rapid extrinsic compression and luminal occlusion [1]. Secondly, its acute take-off angle from the bronchus intermedius significantly limits effective collateral ventilation from adjacent pulmonary segments [6]. Lastly, the airway is surrounded by a dense peribronchial lymphatic chain that receives drainage from both the middle and right lower lobes, thereby subjecting it to direct extrinsic inflammatory pressure during regional lymphadenopathy [1]. In tuberculous lymphadenitis, nodal expansion causes initial extrinsic mechanical compression (stage 1). As central liquefactive caseous necrosis progresses, periadenitis induces transmural erosion into the contiguous bronchial wall, forming a broncho-nodular fistula (Stage 2) [2, 4, 7]. Contrast-enhanced chest CT plays a crucial diagnostic role by depicting central airway involvement, tree-in-bud opacities, and characteristic peripheral rim enhancement of necrotic mediastinal lymph nodes [8, 9]. In a landmark imaging series of central airway tuberculosis, Moon et al. [8] emphasized the key CT features of bronchial wall thickening, luminal narrowing, and adjacent mediastinal adenopathy. Furthermore, in a dedicated radiological series of adult patients with tuberculous bronchonodal fistulas, Park et al. [9] demonstrated that contrast-enhanced CT is crucial for detecting nodal necrosis and fistulous tract formation between mediastinal lymph nodes and adjacent bronchial lumens, which frequently causes secondary endobronchial involvement and airway occlusion. The discharge of necrotic caseum into the lumen creates secondary endobronchial tuberculosis and intrinsic airway occlusion [3, 5, 7]. To put our patient's presentation into perspective, Table 2 provides a comparative summary alongside both an individual case report in a young adult [10] and a retrospective series of 22 adult patients with middle lobe syndrome secondary to endobronchial tuberculosis [11]. While Kim et al. demonstrated that edematous-type mucosal involvement in elderly patients accounts for the majority of adult presentations, our case, together with Garg et al., highlights the distinct clinical scenario of transmural broncho-nodular erosion in young males. Crucially, across all cohorts, non-invasive AFB smear sensitivity remains notoriously low, reaffirming the indispensable diagnostic yield of bronchoscopic tissue sampling [3, 7, 10, 11].",
+          "page": 3,
+          "position": 64
+        },
+        {
+          "text": "2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 4 of 6",
+          "page": 3,
+          "position": 65
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Clinical / Diagnostic parameter",
+          "level": 4,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Current case (2026) Garg et al. (2015) [10] Kim et al. series (2008) [11]",
+              "page": 4,
+              "position": 66
+            },
+            {
+              "text": "Study type /",
+              "page": 4,
+              "position": 67
+            },
+            {
+              "text": "Population Case report (n=1) / 24-year-old male Case report (n=1) / 19-year-old",
+              "page": 4,
+              "position": 68
+            },
+            {
+              "text": "male",
+              "page": 4,
+              "position": 69
+            },
+            {
+              "text": "Retrospective cohort (n=22) / Female predominance (18 F / 4 M), mean age: 70 years",
+              "page": 4,
+              "position": 70
+            },
+            {
+              "text": "Initial symptoms",
+              "page": 4,
+              "position": 71
+            },
+            {
+              "text": "Cough, pleuritic chest pain, deterioration of general condition; prior fluoroquinolone exposure",
+              "page": 4,
+              "position": 72
+            },
+            {
+              "text": "Cough, fever, right-sided chest pain, weight loss",
+              "page": 4,
+              "position": 73
+            },
+            {
+              "text": "Cough and sputum (most common); dyspnea; 2 patients were asymptomatic",
+              "page": 4,
+              "position": 74
+            },
+            {
+              "text": "CT imaging findings",
+              "page": 4,
+              "position": 75
+            },
+            {
+              "text": "Cavitated RML consolidation, necrotic subcarinal lymph nodes",
+              "page": 4,
+              "position": 76
+            },
+            {
+              "text": "RML collapse/consolidation, necrotic mediastinal lymphadenopathy",
+              "page": 4,
+              "position": 77
+            },
+            {
+              "text": "RML consolidation / atelectasis / patchy opacities",
+              "page": 4,
+              "position": 78
+            },
+            {
+              "text": "Bronchoscopic appearance",
+              "page": 4,
+              "position": 79
+            },
+            {
+              "text": "Pearly mucosal infiltration, luminal occlusion of the RML bronchus",
+              "page": 4,
+              "position": 80
+            },
+            {
+              "text": "Narrowed RML bronchus,",
+              "page": 4,
+              "position": 81
+            },
+            {
+              "text": "swollen hyperemic mucosa, cheesy secretions",
+              "page": 4,
+              "position": 82
+            },
+            {
+              "text": "Edematous-hyperemic type (15/22),",
+              "page": 4,
+              "position": 83
+            },
+            {
+              "text": "active caseous type (6/22), tumorous type (1/22)",
+              "page": 4,
+              "position": 84
+            },
+            {
+              "text": "Microbiological yield (AFB) Sputum and bronchial fluid: Negative Sputum smear: Negative; GeneXpert PCR: Positive",
+              "page": 4,
+              "position": 85
+            },
+            {
+              "text": "Negative in 77% of cases (positive in only 1/15 in the edematous subtype)",
+              "page": 4,
+              "position": 86
+            },
+            {
+              "text": "Histopathological",
+              "page": 4,
+              "position": 87
+            },
+            {
+              "text": "findings",
+              "page": 4,
+              "position": 88
+            },
+            {
+              "text": "Endobronchial biopsy: Caseating",
+              "page": 4,
+              "position": 89
+            },
+            {
+              "text": "granulomatous inflammation",
+              "page": 4,
+              "position": 90
+            },
+            {
+              "text": "Endobronchial biopsy: Caseating",
+              "page": 4,
+              "position": 91
+            },
+            {
+              "text": "granulomatous inflammation",
+              "page": 4,
+              "position": 92
+            },
+            {
+              "text": "Bronchial biopsy: Epithelioid / caseating granuloma (diagnostic in 16/22)",
+              "page": 4,
+              "position": 93
+            },
+            {
+              "text": "Treatment and outcome",
+              "page": 4,
+              "position": 94
+            },
+            {
+              "text": "2HRZE / 4HR regimen; complete clinical and radiological resolution",
+              "page": 4,
+              "position": 95
+            },
+            {
+              "text": "Standard anti-TB regimen; full clinical and radiological resolution",
+              "page": 4,
+              "position": 96
+            },
+            {
+              "text": "Complete or partial radiological improvement in the majority of patients",
+              "page": 4,
+              "position": 97
+            },
+            {
+              "text": "TABLE 2: Comparative summary of tuberculous middle lobe syndrome: Current case vs. isolated report in a young adult (Garg et al.) and a retrospective adult cohort (Kim et al.)",
+              "page": 4,
+              "position": 98
+            },
+            {
+              "text": "As highlighted in Table 2, a critical diagnostic finding illustrated by our case and mirrored in the literature is the diagnostic delay frequently observed in endobronchial tuberculosis due to its atypical presentation [12], which is often further compounded by empiric fluoroquinolone monotherapy [13]. Fluoroquinolones (such as levofloxacin or moxifloxacin) possess potent activity against M. tuberculosis [13]. Empirical administration for suspected community-acquired pneumonia transiently reduces the bacterial burden in respiratory secretions, leading to false-negative AFB smears and PCRs [12, 13]. However, partial therapy is insufficient to eradicate deep-seated nodal tissue infection, promoting clinical relapse weeks to months later [13]. In such scenarios, histopathological identification of necrotizing epithelioid granulomas via endobronchial biopsy remains the definitive diagnostic gold standard [3, 7, 12].",
+              "page": 4,
+              "position": 99
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "This clinical observation and literature review emphasize that broncho-nodular fistulisation of necrotic mediastinal tuberculous lymphadenitis must remain a key differential diagnosis in patients presenting with obstructive middle lobe syndrome, especially in young adults from endemic regions. Fluoroquinolones should be used with extreme caution in patients with unconfirmed respiratory infections. When microbiological assays are negative, flexible bronchoscopy remains essential in this setting to rule out an underlying tumor, establish the diagnosis, and prevent unnecessary surgical intervention.",
+          "page": 4,
+          "position": 100
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Additional Information",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 5,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Author Contributions",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.",
+              "page": 4,
+              "position": 101
+            },
+            {
+              "text": "Concept and design:  Houda Snene, Monia Attia, Nadia Mehiri, Bechir Louzir",
+              "page": 4,
+              "position": 102
+            },
+            {
+              "text": "Acquisition, analysis, or interpretation of data:  Houda Snene, Monia Attia, Imen Alioua",
+              "page": 4,
+              "position": 103
+            },
+            {
+              "text": "Drafting of the manuscript:  Houda Snene, Monia Attia, Imen Alioua",
+              "page": 4,
+              "position": 104
+            },
+            {
+              "text": "2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 5 of 6",
+              "page": 4,
+              "position": 105
+            },
+            {
+              "text": "Critical review of the manuscript for important intellectual content:  Houda Snene, Monia Attia, Imen Alioua, Nadia Mehiri, Bechir Louzir",
+              "page": 5,
+              "position": 106
+            },
+            {
+              "text": "Supervision:  Nadia Mehiri, Bechir Louzir",
+              "page": 5,
+              "position": 107
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Disclosures",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+              "page": 5,
+              "position": 108
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Gudbjartsson T, Gudmundsson G: Middle lobe syndrome: a review of clinicopathological features, diagnosis and treatment. Respiration. 2012, 84:80-86. 10.1159/000336238 2. Lee JH, Park SS, Lee DH, Shin DH, Yang SC, Yoo BM: Endobronchial tuberculosis. Clinical and bronchoscopic features in 121 cases. Chest. 1992, 102:990-994. 10.1378/chest.102.4.990 3. Jung SS, Park HS, Kim JO, Kim SY: Incidence and clinical predictors of endobronchial tuberculosis in patients with pulmonary tuberculosis. Respirology. 2015, 20:488-495. 10.1111/resp.12474 4. Kim YH, Kim HT, Lee KS, Uh ST, Cung YT, Park CS: Serial fiberoptic bronchoscopic observations of endobronchial tuberculosis before and early after antituberculosis chemotherapy. Chest. 1993, 103:673-677. 10.1378/chest.103.3.673 5. Rikimaru T: Endobronchial tuberculosis. Expert Rev Anti Infect Ther. 2004, 2:245-251. 10.1586/14787210.2.2.245 6. Wagner RB, Johnston MR: Middle lobe syndrome. Ann Thorac Surg. 1983, 35:679-686. 10.1016/s0003- 4975(10)61085-5 7. Chung HS, Lee JH: Bronchoscopic assessment of the evolution of endobronchial tuberculosis. Chest. 2000, 117:385-392. 10.1378/chest.117.2.385 8. Moon WK, Im JG, Yeon KM, Han MC: Tuberculosis of the central airways: CT findings of active and fibrotic disease. AJR Am J Roentgenol. 1997, 169:649-653. 10.2214/ajr.169.3.9275870 9. Park SH, Jeon KN, Park MJ, et al.: Tuberculous bronchonodal fistula in adult patients: CT findings . Jpn J Radiol. 2015, 33:360-365. 10.1007/s11604-015-0431-4 10. Garg T, Gera K, Shah A: Middle lobe syndrome: an extraordinary presentation of endobronchial tuberculosis. Pneumonol Alergol Pol. 2015, 83:387-391. 10.5603/PiAP.2015.0062 11. Kim HC, Kim HS, Lee SJ, Jeong YY, Jeon KN, Lee JD, Hwang YS: Endobronchial tuberculosis presenting as right middle lobe syndrome: clinical characteristics and bronchoscopic findings in 22 cases. Yonsei Med J. 2008, 49:615-619. 10.3349/ymj.2008.49.4.615 12. Arliny Y, Mursalin DS: Endobronchial tuberculosis: diagnosis and treatment approach. Respir Sci. 2021, 2:45-54. 10.36497/respirsci.v2i1.24 13. Dooley KE, Golub J, Goes FS, Merz WG, Sterling TR: Empiric treatment of community-acquired pneumonia with fluoroquinolones, and delays in the treatment of tuberculosis. Clin Infect Dis. 2002, 34:1607-1612. 10.1086/340618",
+      "authors": [],
+      "title": null,
+      "year": 2012,
+      "venue": null,
+      "doi": "10.1159/000336238"
+    },
+    {
+      "id": 2,
+      "raw_text": "2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 6 of 6",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.7759/cureus.115134"
+    }
+  ],
+  "page_count": 6,
+  "warnings": []
+}

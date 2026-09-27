@@ -1,0 +1,15 @@
+# Local Clinivue database. Supply its password through PGPASSWORD or ~/.pgpass.
+database_url: postgresql://clinivue@localhost:5433/clinivue
+embedding_model: BAAI/bge-base-en-v1.5
+embedding_dimensions: 768
+embedding_model_version: '1.0'
+chunk_target_tokens: 512
+chunk_overlap_tokens: 64
+chunk_max_tokens: 512
+chunker_version: '1.0'
+parser_version: '1.0'
+embedding_batch_size: 32
+max_retries: 3
+llm_model: qwen3:4b-docmind
+top_k: 10
+candidate_k: 50

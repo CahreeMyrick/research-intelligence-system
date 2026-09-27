@@ -1,0 +1,571 @@
+{
+  "identity": {
+    "id": "doc_5cde147945f4c488",
+    "source": {
+      "filename": "PMC13599798.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13599798.1/PMC13599798.1.pdf",
+      "content_hash": "5cde147945f4c488225fb8cd749a97dd3938df3621591fc432254d6d1d2f25fd"
+    }
+  },
+  "metadata": {
+    "title": "C A S E R E P O RT Non-Radiographic Axial Spondyloarthritis Presenting with Anterior Chest Wall Pain without Inflammatory Back Pain in an HLA-B27–Negative Young Man: A Case Report Highlighting Diagnostic Challenges",
+    "authors": [
+      "Roddy Gergeus",
+      "Ahmad Bishr Nasra",
+      "Rawia Barghouth",
+      "Dalaa Sheikh Ali"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.2147/IMCRJ.S639166",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "C A S E R E P O RT Non-Radiographic Axial Spondyloarthritis Presenting with Anterior Chest Wall Pain without Inflammatory Back Pain in an HLA-B27–Negative Young Man: A Case Report Highlighting Diagnostic Challenges",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Roddy Gergeus 1, Ahmad Bishr Nasra 2, Rawia Barghouth 2, Dalaa Sheikh Ali 3",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "1Faculty of Medicine, Homs University, Homs, Syrian Arab Republic; 2Faculty of Medicine, Damascus University, Damascus, Syrian Arab Republic; 3Faculty of Medicine, Latakia University, Latakia, Syrian Arab Republic",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Correspondence: Ahmad Bishr Nasra, Faculty of Medicine, Damascus University, Al Mazzeh, Damascus, Syrian Arab Republic, Tel +963930560990, Email ahmadbishrnasra@gmail.com",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Background: Non-radiographic axial spondyloarthritis (nr-axSpA) may present with heterogeneous and misleading clinical features, particularly when inflammatory back pain is absent and HLA-B27 is negative. Such presentations can delay recognition and make classification frameworks difficult to apply in routine diagnosis. Case Presentation: We report a 22-year-old Syrian HLA-B27–negative male who initially presented with mild anterior chest wall pain that was clinically interpreted as mechanical and resolved with nonsteroidal anti-inflammatory drugs. Eight months later, he developed a generalized inflammatory flare characterized by severe right hip pain, limping, recurrent anterior chest wall pain, and sacroiliac tenderness, without inflammatory back pain, morning stiffness, or axial rigidity at any stage of follow-up. Inflammatory markers were elevated, while autoimmune and infectious workup was negative. Baseline chest radiography showed no evident cardiopulmonary abnormality or rib osseous lesion, and pelvic radiography showed no definite radiographic sacroiliitis. Magnetic resonance imaging of the sacroiliac joints demonstrated unilateral active sacroiliitis without erosive or destructive change, supporting a diagnosis of nr-axSpA. Serial radiography and computed tomography over 12 months showed no structural progression. The anterior chest wall and hip symptoms were clinically important but not independently image-proven inflammatory lesions. Initial treatment with nonsteroidal anti-inflammatory drugs, low-dose corticosteroids, and conventional synthetic disease-modifying antirheumatic drugs resulted in partial improvement. Anti–tumor necrosis factor therapy was delayed due to access limitations; after subcutaneous golimumab initiation, the patient achieved rapid clinical improvement and sustained remission. Conclusion: This case illustrates the diagnostic value of MRI in an atypical nr-axSpA presentation characterized by HLA-B27 negativity and persistent absence of inflammatory back pain. When conventional imaging is non-diagnostic, MRI can provide important objective evidence, while clinically suspected anterior chest wall and hip manifestations should be distinguished from independently image-confirmed inflammatory lesions. Keywords: non-radiographic axial spondyloarthritis, anterior chest wall pain, sacroiliitis, MRI, HLA-B27 negative",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Introduction Axial spondyloarthritis (axSpA) is a chronic inflammatory rheumatic disease with a strong genetic component,1,2 predominantly affecting the sacroiliac joints and spine2–4 and frequently associated with human leukocyte antigen B27 (HLA-B27).1,5 It usually begins in the second or third decade of life, with reported prevalence estimates of 0.3% to 1.9%.5 AxSpA includes radiographic and non-radiographic forms; non-radiographic axial spondyloarthritis (nr-axSpA) represents disease without definite radiographic sacroiliitis despite compatible clinical and/or magnetic resonance imaging (MRI) findings.1,4 Classical manifestations include",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "International Medical Case Reports Journal 2026:19 639166 1 © 2026 Gergeus et al. This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms. php and incorporate the Creative Commons Attribution – Non Commercial (unported, v4.0) License (http://creativecommons.org/licenses/by-nc/4.0/). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).",
+          "page": 0,
+          "position": 6
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "International Medical Case Reports Journal",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "Open Access Full Text Article",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "https://doi.org/10.2147/IMCRJ.S639166 Received: 9 July 2026 Accepted: 9 September 2026 Published: 19 September 2026",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "inflammatory back pain, stiffness, and reduced spinal mobility,1–3 while MRI can detect active inflammatory lesions before structural radiographic changes become apparent.1,2,4 Inflammatory back pain typically worsens with rest and at night and improves with exercise.3,5 The clinical spectrum is heterogeneous, and recognition may be delayed when presentation falls outside classic patterns.3,6 Anterior chest wall (ACW) involvement, particularly at the manubriosternal, sternoclavicular, and costosternal joints, is recognized in spondyloarthritis. Clinical ACW involvement has been reported in approximately 26% to 45% of patients, while MRI may demonstrate bone marrow edema, erosions, fat deposition, or ankylosis, most often at the manubriosternal joint.7",
+          "page": 1,
+          "position": 9
+        },
+        {
+          "text": "However, chest wall pain is nonspecific, clinical and imaging findings may not correspond, and mechanical or other muscu­ loskeletal causes can mimic inflammatory disease.7,8 This becomes particularly challenging when ACW pain occurs without the usual axial symptoms. The Assessment of SpondyloArthritis International Society (ASAS) criteria are classification rather than diagnostic criteria and require chronic back pain for more than 3 months with onset before age 45 years as an entry criterion.9 Our patient did not meet that entry framework because chronic or inflammatory back pain was persistently absent. We therefore report an uncommon presentation of MRI-confirmed unilateral sacroiliitis in an HLA-B27-negative young man whose initial manifesta­ tion was anterior chest wall pain followed months later by severe hip-dominant symptoms, illustrating the diagnostic value of integrating MRI with the overall clinical context rather than relying on a single classical feature or classification checklist.",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "Case Presentation A 22-year-old Syrian male with no known previous medical conditions initially presented to a cardiology clinic with chest pain. The pain was mild, mechanical in nature, and localized to the anterior chest wall. On clinical assessment, it was considered pain of musculoskeletal origin, possibly related to posture or chest wall strain. An electrocardiogram (ECG) was normal, and laboratory investigations were not obtained at that time given the mild presentation. The patient was treated with ibuprofen 400 mg twice daily, resulting in complete resolution of symptoms within one week.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "Approximately eight months later, the patient re-presented with a generalized inflammatory flare-up, characterized by severe right hip pain associated with limping and functional deterioration, along with recurrence of chest wall pain similar in location to the initial episode. He was afebrile and denied systemic symptoms.",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "On physical examination, the patient had a body mass index (BMI) of 22 kg/m2, and vital signs were within normal ranges (temperature 36.5 °C, heart rate 80 beats/min, respiratory rate 16 breaths/min, and normal blood pressure). Inspection revealed no cutaneous abnormalities. Palpation revealed tenderness over the sternum and costosternal joints. Pelvic examination demonstrated tenderness over the sacroiliac joints. Hip pain was reproduced during hip flexion with internal rotation, and the hip roll test (internal and external rotation) was positive, supporting a hip-origin source of pain. No peripheral arthritis was detected. The patient denied chronic low back pain, morning stiffness, inflammatory back pain features, or axial stiffness.",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "No gastrointestinal, genitourinary, or ocular manifestations were identified. No personal or family history of psoriasis, psoriatic arthritis, inflammatory bowel disease, or uveitis was reported, and no nail changes were observed.",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "Laboratory investigations obtained during this inflammatory flare demonstrated elevated inflammatory markers, including C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR), with subsequent serial monitoring showing eventual normalization over follow-up (Table 1). Hematologic parameters remained stable, and renal and hepatic function tests were consistently within normal limits. Immunologic and infectious workup was negative, including rheumatoid",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "Table 1 Serial Laboratory Findings During Follow-up",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "Parameter Unit Baseline 6 FU 8 FU 10 FU 15 FU Reference Range",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "Leukocytes /µL 7000 5600 5300 4900 5100 4000–11000",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "Neutrophils % 79.1 63.9 63.0 57.9 64.6 40–75",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Hemoglobin g/dL 14.5 14.3 13.9 14.9 15.9 13–17",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "ESR mm/h 53 16 42 9 5 <15",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "CRP mg/L 76.23 — 41 4 4 <5",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "Notes: HLA-B27, RF, anti-CCP, ANA (HEp-2 IF), and ASLO were negative.",
+          "page": 1,
+          "position": 23
+        }
+      ],
+      "subsections": [
+        {
+          "title": "https://doi.org/10.2147/IMCRJ.S639166 International Medical Case Reports Journal 2026:19 2",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Gergeus et al",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "Powered by TCPDF (www.tcpdf.org)",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "factor (RF), antinuclear antibodies (ANA; HEp-2 indirect immunofluorescence), anti–cyclic citrullinated peptide (anti- CCP) antibodies, antistreptolysin O (ASLO) titers, and human leukocyte antigen B27 (HLA-B27).",
+              "page": 2,
+              "position": 26
+            },
+            {
+              "text": "Magnetic resonance imaging (MRI) of the sacroiliac joints obtained at baseline, at the time of the first major flare, revealed unilateral inflammatory changes involving the left sacroiliac joint, without erosive or destructive features, consistent with active sacroiliitis (Figures 1–2). A chest radiograph obtained during the earlier chest pain evaluation showed no evident cardiopulmonary abnormality and no obvious rib fracture or osseous lesion (Figure 3A). A baseline anteroposterior pelvic radiograph showed no fracture or focal osseous lesion, and the sacroiliac joints were reported within normal limits without definite radiographic sacroiliitis (Figure 3B). Dedicated imaging of the sternum, sternocla­ vicular joints, or costoclavicular joints was not performed.",
+              "page": 2,
+              "position": 27
+            },
+            {
+              "text": "Based on the clinical presentation, elevated inflammatory markers, recurrent anterior chest wall tenderness, hip- dominant functional impairment, and MRI evidence of sacroiliac joint inflammation in the absence of significant radiographic structural changes, a diagnosis of non-radiographic axial spondyloarthritis (nr-axSpA) was established.",
+              "page": 2,
+              "position": 28
+            },
+            {
+              "text": "Follow-up imaging was obtained to assess for structural progression. An anteroposterior pelvic radiograph obtained at the 6-month follow-up demonstrated preserved hip and sacroiliac joint spaces without radiographic evidence of sacroiliitis or ankylosis (Figure 4). Computed tomography (CT) of the pelvis and hips at the 6-month follow-up demonstrated preserved hip joint morphology without fractures, erosions, or joint effusion, and only mild symmetric sclerosis of the sacroiliac joints without erosions or ankylosis (Figures 5A and B). Further imaging at 12 months remained stable, with CT again showing preserved sacroiliac joint spaces and cortical margins without new structural change (Figures 6A and B), and an anteroposterior pelvic radiograph showing preserved hip and sacroiliac joint spaces without radiographic evidence of sacroiliitis or ankylosis (Figure 7).",
+              "page": 2,
+              "position": 29
+            },
+            {
+              "text": "Therapeutically, the patient was initially managed with nonsteroidal anti-inflammatory drugs (NSAIDs), low-dose systemic corticosteroids, and sulfasalazine. During the first three months following the initial major flare, clinical improvement was partial. Pain severity decreased, and the limp improved from moderate to mild; however, chest wall and sacroiliac tenderness persisted. During the first ten months after the flare, the patient consistently reported that pain improved with rest and sleep and worsened with physical activity, with the right hip remaining the dominant site of pain.",
+              "page": 2,
+              "position": 30
+            },
+            {
+              "text": "Figure 1 Baseline axial MRI of the sacroiliac joints at the first major inflammatory flare, demonstrating unilateral active sacroiliitis involving the left sacroiliac joint, with increased subchondral bone marrow signal consistent with inflammatory edema. No erosive changes are observed.",
+              "page": 2,
+              "position": 31
+            },
+            {
+              "text": "International Medical Case Reports Journal 2026:19 https://doi.org/10.2147/IMCRJ.S639166 3",
+              "page": 2,
+              "position": 32
+            },
+            {
+              "text": "Gergeus et al",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "Powered by TCPDF (www.tcpdf.org)",
+              "page": 2,
+              "position": 34
+            },
+            {
+              "text": "Sulfasalazine, a conventional synthetic disease-modifying antirheumatic drug (csDMARD), failed to achieve satis­ factory clinical response. Indomethacin was discontinued because of gastrointestinal intolerance and replaced with the selective cyclooxygenase-2 (COX-2) inhibitor celecoxib. Methotrexate was subsequently initiated and later escalated because of persistent symptoms despite normalization of laboratory markers (Table 2). During the pre-biologic period, several attempts to withdraw prednisolone were followed within approximately two days by marked worsening of symptoms, while restarting prednisolone produced relative symptomatic improvement. Because biologic therapy was not available, prednisolone was continued while csDMARD therapy was tried.",
+              "page": 3,
+              "position": 35
+            },
+            {
+              "text": "Initiation of anti–tumor necrosis factor (anti-TNF) therapy was delayed due to medication unavailability. At approximately 12 months after the major flare, subcutaneous golimumab 50 mg was initiated because of persistent",
+              "page": 3,
+              "position": 36
+            },
+            {
+              "text": "Figure 2 Baseline axial MRI of the sacroiliac joints at an adjacent level, again demonstrating unilateral inflammatory changes involving the left sacroiliac joint without structural damage.",
+              "page": 3,
+              "position": 37
+            },
+            {
+              "text": "Figure 3 (A and B) Baseline radiographs obtained during the early diagnostic course. (A) Posteroanterior chest radiograph obtained during evaluation of anterior chest wall pain, showing no evident cardiopulmonary abnormality and no obvious rib fracture or osseous lesion. Dedicated imaging of the sternum, sternoclavicular joints, and costoclavicular joints was not performed. (B) Baseline anteroposterior pelvic radiograph showing preserved hip joint spaces and no fracture, focal osseous lesion, or definite radiographic sacroiliitis.",
+              "page": 3,
+              "position": 38
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "https://doi.org/10.2147/IMCRJ.S639166 International Medical Case Reports Journal 2026:19 4",
+          "level": 4,
+          "page_start": 3,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Gergeus et al",
+              "page": 3,
+              "position": 39
+            },
+            {
+              "text": "Powered by TCPDF (www.tcpdf.org)",
+              "page": 3,
+              "position": 40
+            },
+            {
+              "text": "symptoms despite the available therapies. Two doses were administered one month apart. The patient demonstrated marked clinical improvement within the first week of biologic therapy, with substantial symptom relief and functional recovery. Corticosteroid and methotrexate doses were gradually tapered.",
+              "page": 4,
+              "position": 41
+            },
+            {
+              "text": "The patient achieved complete clinical remission for six months. A mild disease flare occurred following an episode of acute bronchitis, without evidence of structural progression on follow-up imaging. Over an 18-month follow-up period, the patient maintained overall sustained clinical improvement without development of inflammatory back pain, additional spondyloarthritis manifestations, or laboratory abnormalities.",
+              "page": 4,
+              "position": 42
+            },
+            {
+              "text": "Figure 4 Anteroposterior pelvic radiograph at the 6-month follow-up showing preserved hip and sacroiliac joint spaces, without radiographic evidence of sacroiliitis or ankylosis.",
+              "page": 4,
+              "position": 43
+            },
+            {
+              "text": "Figure 5 (A and B) Axial CT images of the pelvis at the 6-month follow-up, shown at two adjacent levels, demonstrating preserved sacroiliac joint spaces and cortical margins without erosions, ankylosis, or joint space narrowing. Mild symmetric sacroiliac sclerosis is present, with no destructive changes identified.",
+              "page": 4,
+              "position": 44
+            },
+            {
+              "text": "Figure 6 (A and B) Axial CT images of the pelvis at the 12-month follow-up, shown at two adjacent levels, demonstrating preserved sacroiliac joint spaces and cortical margins without erosions, ankylosis, or new structural change. Mild symmetric sacroiliac sclerosis is again noted, with overall stable appearance compared with prior follow- up imaging.",
+              "page": 4,
+              "position": 45
+            },
+            {
+              "text": "International Medical Case Reports Journal 2026:19 https://doi.org/10.2147/IMCRJ.S639166 5",
+              "page": 4,
+              "position": 46
+            },
+            {
+              "text": "Gergeus et al",
+              "page": 4,
+              "position": 47
+            },
+            {
+              "text": "Powered by TCPDF (www.tcpdf.org)",
+              "page": 4,
+              "position": 48
+            },
+            {
+              "text": "Discussion Axial spondyloarthritis has a heterogeneous clinical spectrum, particularly in non-radiographic disease. In this patient, anterior chest wall pain preceded the major inflammatory flare by approximately eight months and recurred with reproducible sternal and costosternal tenderness, yet chronic low back pain, inflammatory back pain, morning stiffness, and axial rigidity remained absent. This combination is clinically unusual even though each feature has been described individually, and the absence of classic axial symptoms can complicate recognition.10,11 Importantly, ACW involvement in this case was supported clinically rather than radiologically. No dedicated imaging of the sternum, sternoclavicular,",
+              "page": 5,
+              "position": 49
+            },
+            {
+              "text": "Figure 7 Anteroposterior pelvic radiograph at the 12-month follow-up showing preserved hip and sacroiliac joint spaces with no radiographic evidence of sacroiliitis or ankylosis.",
+              "page": 5,
+              "position": 50
+            },
+            {
+              "text": "Table 2 Treatment Course and Medication Dosing",
+              "page": 5,
+              "position": 51
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Period Medication Dosage",
+          "level": 3,
+          "page_start": 5,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "0–3 months Sulfasalazine 500 mg (3 tablets/day for 2 weeks), then 4 tablets/day",
+              "page": 5,
+              "position": 52
+            },
+            {
+              "text": "Prednisolone 10 mg/day",
+              "page": 5,
+              "position": 53
+            },
+            {
+              "text": "Indomethacin 100 mg/day",
+              "page": 5,
+              "position": 54
+            },
+            {
+              "text": "Vitamin D + Calcium Daily",
+              "page": 5,
+              "position": 55
+            },
+            {
+              "text": "3–9 months Methotrexate 10 mg once weekly",
+              "page": 5,
+              "position": 56
+            },
+            {
+              "text": "Prednisolone 10 mg/day",
+              "page": 5,
+              "position": 57
+            },
+            {
+              "text": "Celecoxib 200 mg twice daily",
+              "page": 5,
+              "position": 58
+            },
+            {
+              "text": "Folic acid 5 mg twice weekly",
+              "page": 5,
+              "position": 59
+            },
+            {
+              "text": "9–12 months Methotrexate 15 mg once weekly",
+              "page": 5,
+              "position": 60
+            },
+            {
+              "text": "Prednisolone 10 mg/day",
+              "page": 5,
+              "position": 61
+            },
+            {
+              "text": "Celecoxib 200 mg twice daily",
+              "page": 5,
+              "position": 62
+            },
+            {
+              "text": "12–18 months Methotrexate Tapered from 15 mg to 10 mg",
+              "page": 5,
+              "position": 63
+            },
+            {
+              "text": "Prednisolone Tapered from 10 mg → 7.5 mg → 5 mg",
+              "page": 5,
+              "position": 64
+            },
+            {
+              "text": "Celecoxib 200 mg twice daily",
+              "page": 5,
+              "position": 65
+            },
+            {
+              "text": "Golimumab 50 mg subcutaneous; two doses one month apart",
+              "page": 5,
+              "position": 66
+            }
+          ],
+          "subsections": [
+            {
+              "title": "https://doi.org/10.2147/IMCRJ.S639166 International Medical Case Reports Journal 2026:19 6",
+              "level": 4,
+              "page_start": 5,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Gergeus et al",
+                  "page": 5,
+                  "position": 67
+                },
+                {
+                  "text": "Powered by TCPDF (www.tcpdf.org)",
+                  "page": 5,
+                  "position": 68
+                },
+                {
+                  "text": "costosternal, or costoclavicular joints was obtained, and the chest radiograph was non-diagnostic. Likewise, severe right hip pain and functional limitation were clinically prominent, but radiography and CT did not demonstrate destructive hip disease, erosions, or joint effusion. These manifestations should therefore be interpreted as clinically important symptoms occurring alongside MRI-confirmed sacroiliitis, not as independently image-proven inflammatory lesions.",
+                  "page": 6,
+                  "position": 69
+                },
+                {
+                  "text": "HLA-B27 negativity further complicated assessment, as HLA-B27-negative axSpA may have a less typical clinical and imaging profile and a longer diagnostic pathway.11 Diagnostic refinement toward nr-axSpA occurred after objective imaging evidence became available.12 The ASAS framework is useful for classification but is not intended to replace clinical diagnosis; its chronic back pain entry criterion was not met in this patient.13 The diagnosis was therefore based on the integrated clinical picture, elevated inflammatory markers, exclusion of alternative systemic features, and MRI evidence of active sacroiliitis rather than fulfillment of a single classification checklist. The patient’s pain behavior, improvement with rest and sleep and worsening with activity, also resembled mechanical pain and illustrates why symptom pattern alone was insufficient. Current management recommendations emphasize structured clinical assessment and objective evidence of inflammation, and TNF inhibition has demonstrated efficacy in active nr-axSpA.14,15",
+                  "page": 6,
+                  "position": 70
+                },
+                {
+                  "text": "Imaging played a decisive role in establishing the diagnosis. Conventional radiographs and CT remained non- diagnostic, showing at most mild symmetric sacroiliac sclerosis without erosions or ankylosis, whereas MRI demon­ strated unilateral active sacroiliitis. MRI can detect active sacroiliac inflammation before radiographic structural damage develops,16 but bone marrow edema is not specific to axSpA and must be interpreted according to lesion distribution and clinical context.17 In unilateral sacroiliitis, mechanical stress and infection are important alternative considerations; the absence of destructive changes or reported systemic infectious features, together with longitudinal imaging stability, supported an inflammatory rather than destructive process in this case.17 In the DESIR cohort, HLA-B27 status was associated with differences in clinical presentation and imaging, including earlier onset and shorter diagnostic delay among HLA-B27-positive patients.18 Historically, radiograph-dependent frameworks such as the modified New York criteria required definite radiographic sacroiliitis and could therefore miss non-radiographic disease.19 In this patient, serial radiographs and CT remained structurally stable during follow-up, while the baseline MRI supplied the key objective inflammatory finding.",
+                  "page": 6,
+                  "position": 71
+                },
+                {
+                  "text": "Management initially included NSAIDs, prednisolone, sulfasalazine, and later methotrexate. NSAIDs remain first-line therapy in active axSpA, whereas prolonged systemic glucocorticoid therapy is not recommended for axial disease and csDMARDs have limited efficacy for predominantly axial manifestations.14,20 In this patient, repeated attempts to withdraw prednisolone were followed within approximately two days by marked symptomatic worsening, while resumption produced relative symptomatic improvement. Prednisolone was therefore continued during the pre-biologic period and tapered gradually after clinical improvement with golimumab. Sulfasalazine and methotrexate were also used while biologic therapy was unavailable; this treatment sequence reflected access constraints rather than preferred long- term management of axial disease. Limited availability of TNF inhibitors can influence treatment timing and sequencing in real-world practice.21,22 Golimumab 50 mg was subsequently administered subcutaneously in two doses one month apart, with marked improvement within the first week and approximately six months of clinical remission, consistent with evidence supporting TNF inhibition in active nr-axSpA.15,23 A mild flare followed acute bronchitis; flares are recognized in axSpA and may affect symptoms and function.24",
+                  "page": 6,
+                  "position": 72
+                },
+                {
+                  "text": "Recent data from a 2025 Turkish ankylosing spondylitis cohort further illustrate regional variability in HLA-B27 frequency and reported associations with imaging severity, with HLA-B27 positivity associated with more severe sacroiliitis on radiography and MRI.25 These findings provide additional context for interpreting HLA-B27 status as one component of the overall clinical and imaging assessment rather than in isolation.",
+                  "page": 6,
+                  "position": 73
+                },
+                {
+                  "text": "This case has several strengths, including longitudinal clinical follow-up, serial laboratory monitoring, and multi­ modal imaging demonstrating active inflammation without structural progression. Important limitations are the inherent constraints of a single case, the absence of dedicated anterior chest wall or hip MRI, and the lack of prospectively recorded standardized disease activity and functional indices. BASDAI, ASDAS, and BASFI were not recorded during follow-up and cannot be reliably reconstructed retrospectively. Treatment sequencing was also influenced by limited access to biologic therapy, and the prolonged corticosteroid and csDMARD course should not be interpreted as guideline-",
+                  "page": 6,
+                  "position": 74
+                },
+                {
+                  "text": "International Medical Case Reports Journal 2026:19 https://doi.org/10.2147/IMCRJ.S639166 7",
+                  "page": 6,
+                  "position": 75
+                },
+                {
+                  "text": "Gergeus et al",
+                  "page": 6,
+                  "position": 76
+                },
+                {
+                  "text": "Powered by TCPDF (www.tcpdf.org)",
+                  "page": 6,
+                  "position": 77
+                },
+                {
+                  "text": "preferred long-term management of axial disease. These limitations restrict generalizability but clarify the educational value of the case.",
+                  "page": 7,
+                  "position": 78
+                },
+                {
+                  "text": "Overall, the principal lesson is the diagnostic value of MRI in an atypical nr-axSpA presentation with HLA-B27 negativity and persistent absence of inflammatory back pain. Anterior chest wall and hip symptoms were clinically prominent but were not independently confirmed as inflammatory lesions by dedicated imaging. The case therefore emphasizes integrating MRI with longitudinal clinical assessment and distinguishing classification criteria from clinical diagnosis when a presentation falls outside classic patterns.",
+                  "page": 7,
+                  "position": 79
+                },
+                {
+                  "text": "Abbreviations ACW, anterior chest wall; ANA, antinuclear antibodies; anti-CCP, anti–cyclic citrullinated peptide; anti-TNF, anti–tumor necrosis factor; ASLO, antistreptolysin O; axSpA, axial spondyloarthritis; BMI, body mass index; COX-2, cycloox­ ygenase-2; CRP, C-reactive protein; csDMARD, conventional synthetic disease-modifying antirheumatic drug; CT, computed tomography; ECG, electrocardiogram; ESR, erythrocyte sedimentation rate; HLA-B27, human leukocyte antigen B27; MRI, magnetic resonance imaging; nr-axSpA, non-radiographic axial spondyloarthritis; NSAID, nonster­ oidal anti-inflammatory drug; RF, rheumatoid factor.",
+                  "page": 7,
+                  "position": 80
+                },
+                {
+                  "text": "Data Sharing Statement The data supporting the findings of this case report are available from the corresponding author upon reasonable request.",
+                  "page": 7,
+                  "position": 81
+                },
+                {
+                  "text": "Ethics Approval Statement Institutional Review Board (IRB) approval is not required for de-identified single case reports or case histories, in accordance with institutional policies.",
+                  "page": 7,
+                  "position": 82
+                },
+                {
+                  "text": "Patient Consent Statement Written informed consent was obtained from the patient for publication and any accompanying images.",
+                  "page": 7,
+                  "position": 83
+                },
+                {
+                  "text": "Author Contributions All authors made a significant contribution to the work reported, whether in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising, or critically reviewing the article; gave final approval of the version to be published; agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.",
+                  "page": 7,
+                  "position": 84
+                },
+                {
+                  "text": "Disclosure The authors declared no potential conflicts of interest concerning the research, authorship, and/or publication of this article.",
+                  "page": 7,
+                  "position": 85
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Publish your work in this journal",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "The International Medical Case Reports Journal is an international, peer-reviewed open-access journal publishing original case reports from all medical specialties. Previously unpublished medical posters are also accepted relating to any area of clinical or preclinical science. Submissions should not normally exceed 2,000 words or 4 published pages including figures, diagrams and references. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials. php to read real quotes from published authors.",
+          "page": 8,
+          "position": 90
+        },
+        {
+          "text": "Submit your manuscript here: https://www.dovepress.com/international-medical-case-reports-journal-journal",
+          "page": 8,
+          "position": 91
+        },
+        {
+          "text": "International Medical Case Reports Journal 2026:19",
+          "page": 8,
+          "position": 92
+        }
+      ],
+      "subsections": [
+        {
+          "title": "9",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Gergeus et al",
+              "page": 8,
+              "position": 93
+            },
+            {
+              "text": "Powered by TCPDF (www.tcpdf.org)",
+              "page": 8,
+              "position": 94
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Bose S, Mohanasundaram K, Rajalakshmi KV, et al. An unusual mimic of axial spondyloarthritis: a case report. Cureus. 2024;16:e61441. doi:10.7759/cureus.61441. 2. Vladimirova N, Hadsbjerg AE, Krabbe S, et al. Sacroiliac joint involvement in psoriatic arthritis - MRI, radiographic and clinical findings in 581 European routine care patients. Arthritis Res Ther. 2025;27: 185 doi:10.1186/s13075-025-03652-2. 3. Lorenzo JPP. Five cases of non-radiographic spondyloarthritis (nr-SpA) of patients from a tertiary care center in the philippines: a case series. Acta Med Philipp. 2024;58(21):106–110. doi:10.47895/amp.vi0.8251. 4. Lu C-C, Huang G-S, Lee TS-H, et al. MRI contributes to accurate and early diagnosis of non-radiographic HLA-B27 negative axial spondyloarthritis. J Transl Med. 2021;19(1):298. doi:10.1186/s12967-021-02959-3 5. Edara M, Bhatt V, Zanwar A, et al. A study of clinical, radiological features and HLA-B27 serology of axial spondyloarthropathy with comparison of radiographic and non-radiographic disease. J Family Med Prim Care. 2022;11(8):4417–4423. doi:10.4103/jfmpc.jfmpc_62_22 6. Maksymowych WP, Carmona R, Weber U, et al. Features of axial spondyloarthritis in two multicenter cohorts of patients with psoriasis, uveitis, and colitis presenting with undiagnosed back pain. Arthritis Rheumatol. 2025;77(1):47–58. doi:10.1002/art.42967 7. Lee T-H, Lee C-M, Kim T-H, et al. Anterior chest wall involvement in spondyloarthritis patients as detected by magnetic resonance imaging: a case series and literature review. J Rheum Dis. 2021;28(3):159–164. doi:10.4078/jrd.2021.28.3.159",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.7759/cureus.61441"
+    }
+  ],
+  "page_count": 9,
+  "warnings": []
+}

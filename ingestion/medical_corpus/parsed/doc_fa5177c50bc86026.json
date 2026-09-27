@@ -1,0 +1,3140 @@
+{
+  "identity": {
+    "id": "doc_fa5177c50bc86026",
+    "source": {
+      "filename": "PMC13572696.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13572696.1/PMC13572696.1.pdf",
+      "content_hash": "fa5177c50bc86026f70a6a83a29d94d14457db43b82d399aca070c599a12be6c"
+    }
+  },
+  "metadata": {
+    "title": "OPEN ACCESS",
+    "authors": [
+      "EDITED BY Nasser Kashou",
+      "Kash Global Tech",
+      "United States"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3389/frai.2026.1849571",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "TYPEOriginal Research",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "PUBLISHED31 August 2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "DOI10.3389/frai.2026.1849571",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "OPEN ACCESS",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "EDITED BY Nasser Kashou, Kash Global Tech, United States",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "REVIEWED BY Mukhtiar Khan, National Taiwan University, Taiwan Weichao Pan, Shandong Jianzhu University, China",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "*CORRESPONDENCE Fabrice Vaussenat",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "fabrice.vaussenat@lacime.etsmtl.ca",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "RECEIVED 07 April 2026 REVISED 18 July 2026 ACCEPTED 31 July 2026 PUBLISHED 31 August 2026",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "CITATION Vaussenat F, Bhattacharya A, Payette J, Desmettre T, Saidi A, Gagnon G and Cloutier SG (2026) NeuroPlast: a learnable activation function evaluated under knowledge distillation for medical image classiﬁcation. Front. Artif. Intell. 9:1849571. doi: 10.3389/frai.2026.1849571",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "COPYRIGHT © 2026Vaussenat, Bhattacharya, Payette, Desmettre, Saidi, Gagnon and Cloutier. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "NeuroPlast: a learnable activation function evaluated under knowledge distillation for medical image classiﬁcation",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Fabrice Vaussenat1*, Abhiroop Bhattacharya1, Julie Payette1, Thibaut Desmettre2, Alireza Saidi3, Ghyslain Gagnon1and Sylvain G. Cloutier1",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1Department of Electrical Engineering, École de technologie supérieure, Montréal, QC, Canada,",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "2Department of Acute Medicine, Hôpital Universitaire de Genève, Genève, Switzerland,3Institut de recherche Robert-Sauvé en santé et en sécurité du travail (IRSST), Montréal, QC, Canada",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Deepneuralnetworksformedicalimageclassiﬁcationrelyalmostexclusively onﬁxedactivationfunctionssuchasReLU.WeintroduceNeuroPlast,a parametricactivationfunctionwhosefourdifferentiablecomponents(ashifted sigmoidmodelingNMDA-typevoltagegating,aGaussianplateauinspired byAMPAreceptorscaling,anexcitatoryrectiﬁer,andaninhibitoryleak) arecombinedthroughsixlearnableparameters.Twomixingstrategiesare evaluated:astaticvariantwithﬁxedlearnedweights,andametaplasticvariant whosemixingcoefficientsadaptpersampleviaalightweightsqueeze-excite gate conditioned on channel statistics. NeuroPlast is embedded within NADNUltra,a13.5 M-parameterresidualconvolutionalneuralnetwork(CNN) withconvolutionalblockattentionmodules(CBAM),trainedentirelyfrom scratch through a two-phase knowledge distillation (KD) pipeline. The teacherisaﬁne-tunedEfficientNet-B0;thestudentcombineslogit-levelKD withoptionalfeature-levelalignmentlosses.Acrossfourmedicalimaging benchmarks (Brain Tumor MRI, 7,200 images, 4 classes; Chest X-ray Pneumonia, 5,856images,2classes;SkinCancerHAM10000,10,015images,7classes; COVID-19Radiography,10,848images,2classes),evaluatedunderﬁve-fold stratiﬁedcross-validationwith95%conﬁdenceintervals,thestatic-KDvariant reaches99.4–99.5%accuracyonCOVID-19X-rayacrossthreeseeds,on parwithpretrainedEfficientNet-B0(99.18%,withinreplicationnoise)and aboveResNet-18(98.69%).Itcloses65%oftheaccuracygaponBrain TumorMRI(98.29%vs.99.13%),reaches92.5%onChestX-rayundera uniformclass-balancingrule,and79.5%onSkinCancerunderlesion-grouped cross-validation.Themetaplasticvariantachieves99.28%onCOVID-19X-ray, stillabovepretrainedbaselines,butdoesnotconsistentlyoutperformthe staticversion,anegativeresultanalyzedthroughablationexperiments.On threetabularmedicaldatasetsspanningthreeordersofmagnitudeinsample size(569to253,680),NeuroPlastmatchesﬁveestablishedactivationswithin ±1.7percentagepoints;at253 Ksamplesallactivationsconvergewithin 0.09 pp.Ourﬁndingsindicatethatknowledgedistillationistheprimaryenabler forfrom-scratcharchitecturestoapproachpretrained-levelperformanceon medicalimages;underanidenticaldistillationpipeline,NeuroPlastaddsasmall",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Frontiers in Artiﬁcial Intelligence 01 frontiersin.org",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "but consistent gain over ReLU, GELU, Swish, Mish, and PReLU, leading on all four imaging benchmarks by margins below one point.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "KEYWORDS",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "bio-inspired activation function, convolutional neural network, deep learning, from-scratchtraining,knowledgedistillation,learnableactivation,medicalimage classiﬁcation, metaplasticity",
+          "page": 1,
+          "position": 20
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Medical image classiﬁcation using deep learning has advanced rapidlyoverthepastdecade,withconvolutionalneuralnetworks (CNNs)achievingperformancecomparabletothatoftrained clinicians on speciﬁc diagnostic tasks (Esteva et al., 2017; Rajpurkar et al.,2017).Moststate-of-the-artsystemssharea commontemplate:anImageNet-pretrainedbackbone(typically ResNetorEﬃcientNet),ﬁne-tunedondomain-speciﬁcdata withstandardactivationfunctionssuchasReLU(Glorot et al., 2011)oritssmoothvariants(Hendrycks and Gimpel,2016; Ramachandran et al., 2017). Transfer learning from natural imagesprovideslow-levelfeaturedetectors—edges,textures, color distributions—that accelerate convergence on small medical datasets(Raghu et al.,2019).However,thisparadigmintroduces animplicitdependencyonImageNetpretrainingthatlimits architecturalﬂexibility:thestudentmodelmusteithermatchthe pretrained backbone’s structure or accept the overhead of adapting mismatched representations.",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Anunder-exploreddimensionofneuralnetworkdesignis theactivationfunctionitself.Whilearchitectures,optimizers,and data augmentation strategies have received extensive investigation, thenonlinearityappliedateachneuronhasremainedlargely staticsincethewidespreadadoptionofReLU(Glorot et al., 2011).AlternativesincludingELU(Clevert et al.,2016),GELU (Hendrycks and Gimpel, 2016), Swish (Ramachandran et al., 2017), andMish(Misra,2020)oﬀerincrementalgainsonparticular tasks,butacomprehensivesurveybyDubey et al.(2022)found nosinglefunctionthatdominatesacrossallbenchmarks.This observationsuggeststhattheoptimalnonlinearitymaydepend onthedatadistribution,networkdepth,andtaskstructure— ahypothesisconsistentwithneuralarchitecturesearchstudies thathaveidentiﬁedtask-speciﬁcactivationfunctionsthrough automated optimization (Ramachandran et al., 2017).",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "A separate research thread makes activation function parameters learnable during training. PReLU (He et al., 2015)introducedasingletrainableslopefornegativeinputs, demonstratingthatevenoneadditionaldegreeoffreedomper channelcanimproveclassiﬁcationaccuracyonImageNet.Padé ActivationUnits(Molina et al.,2020)generalizedthisideaby learningrationalpolynomialapproximations,achievingstate- of-the-artresultsonseveralbenchmarks.Jagtap et al.(2020) reported25–40%convergencespeedupswithadaptiveactivations inphysics-informedneuralnetworks,andApicella et al.(2021) providedathoroughreviewshowingthattrainableactivations consistentlymatchoroutperformﬁxedalternatives,albeitwith diminishingreturnsasnetworkdepthincreases.Theseﬁndings",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "motivate an activation design with multiple learnable components rather than a single adjustable parameter.",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "A third perspective draws on neuroscience. Biological neurons modulate synaptic strength through long-term potentiation (LTP) andlong-termdepression(LTD),processesgovernedbyreceptor dynamicsthathavebeencharacterizedinconsiderablemolecular detail(Paoletti et al.,2013;Henley and Wilkinson,2016).NMDA receptorsactascoincidencedetectorswithvoltage-dependent gating, while AMPA receptors mediate fast excitatory transmission whosedensityscaleshomeostaticallytomaintaincircuitstability (Turrigiano,2008).Critically,therulesgoverningplasticity arethemselvesplastic—aphenomenontermedmetaplasticity (Abraham and Bear,1996).InBCMtheory(Bienenstock et al., 1982),thethresholdseparatingpotentiationfromdepression shiftsdynamicallywithrecentpostsynapticactivity.Whiledeep learning has drawn inspiration from neuroscience in broad strokes (Hassabis et al.,2017;Doerig et al.,2023;LeCun et al.,2015),and plasticity-inspiredlearningruleshavebeenexploredinspiking andcontinuallearningcontexts(Zenke et al.,2013;Zador et al., 2023), no prior work has mapped speciﬁc receptor dynamics onto parametric activation function components within a CNN trained by backpropagation.",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "Knowledgedistillation(KD)providesamechanismfor transferringthelearnedrepresentationsofalarge,pretrained teachernetworktoasmallerorstructurallydiﬀerentstudent (Hinton et al., 2015). By training the student to match the teacher’s softenedoutputdistribution,KDconveysinter-classsimilarity informationthatone-hotlabelscannotcapture.Extensions includingfeature-levelhintlosses(Romero et al.,2015)and contrastiverepresentationalignment(Tian et al.,2020)have furtherimprovedstudentperformance.Acomprehensivesurvey byGou et al.(2021)documentedcaseswherestudentswith suﬃcientcapacitysurpasstheirteachers,exploitingtheKD signalmoreeﬃcientlythantheteacherexploiteditsown trainingdata.This“studentsurpassesteacher”phenomenon isparticularlyrelevantformedicalimaging,wherepretrained teachersencodegeneralvisualfeaturesthatadomain-speciﬁc student may reﬁne.",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "This paper addresses a speciﬁc question: can a learnable, multi- componentactivationfunction,pairedwithknowledgedistillation fromapretrainedteacher,enableafrom-scratchCNNtomatchor surpasspretrainedbaselinesonmedicalimageclassiﬁcation?We answer this through three contributions:",
+          "page": 1,
+          "position": 27
+        },
+        {
+          "text": "1.NeuroPlast activation function. A four-component parametric activationwhosepartsarelabeledbyanalogytofoursynaptic mechanisms,withsixlearnableparametersperinstance.We compare a static variant (ﬁxed learned mixing weights) against",
+          "page": 1,
+          "position": 28
+        },
+        {
+          "text": "Frontiers in Artiﬁcial Intelligence 02 frontiersin.org",
+          "page": 1,
+          "position": 29
+        },
+        {
+          "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "ametaplasticvariantwhereasqueeze-excitegategenerates input-conditional mixing coeﬃcients from channel statistics. A controlled swap against ReLU, GELU, Swish, Mish, and PReLU underidenticaldistillationisolatestheactivation’smarginal eﬀect (Section 4.3). 2.Two-phase KD pipeline. A training protocol combininglogit- levelKDwithoptionalfeature-levelhintlosses,enablinga 13.5 M-parameterfrom-scratchCNN(NADNUltra)toreach parity with pretrained EﬃcientNet-B0 on one benchmark (99.4– 99.5%vs.99.18%onCOVID-19X-ray)andsubstantiallyclose the gap on three others. 3.Systematic multi-domain evaluation. Five-fold stratiﬁed cross- validationonfourmedicalimagingdatasetsandthreetabular clinicaldatasets,withfold-levelreporting,95%conﬁdence intervals,convergenceanalysis,confusionmatrices,ablation studies,andtransparentreportingofbothpositiveand negative results.",
+          "page": 2,
+          "position": 31
+        },
+        {
+          "text": "The NADN architecture has also been validated for physiological signal processing, where it was applied to non-contact ECG-based drowsiness detection (Vaussenat et al., 2026).",
+          "page": 2,
+          "position": 32
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2Related work",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "2.1Activation functions in deep learning",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The activation function determines the nonlinear transformationappliedtoeachneuron’sweightedinputsum. SincetheadoptionofReLU(Glorot et al.,2011),whichsolved thevanishinggradientproblemofsaturatingfunctionslike sigmoidandtanh,researchhasexploredsmoothalternatives. ELU (Clevert et al., 2016) introduced a negative saturation regimethatpushesmeanactivationstowardzero,reducingbias shift.GELU(Hendrycks and Gimpel,2016)appliesastochastic regularization-inspired smooth gate, adopted widely in transformer architectures(Vaswani et al.,2017).Swish(Ramachandran et al., 2017), discovered through automated search over a combinatorial space of candidate functions, is a self-gated nonlinearity [x · σ(βx)] thatinterpolatesbetweenlinearityandReLU.Mish(Misra,2020) usesasimilarself-gatedstructure[x·tanh(softplus(x))]with marginally diﬀerent gradient properties. Despite individual claims ofsuperiority,thecomprehensivebenchmarkofDubey et al. (2022)revealedthatperformancediﬀerencesbetweenthese functionsaretypicallywithinnoiseonstandarddatasets,and thattheoptimalchoicedependsonarchitecture,dataset,and hyperparameter conﬁguration.",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "Trainableactivationsrepresentaqualitativeshiftfromﬁxed nonlinearities.PReLU(He et al.,2015)learnsaper-channel negativeslope,addingminimalparameters.AdaptivePiecewise Linear Units (APL) (Agostinelli et al., 2015) learn piecewise-linear segments. Padé Activation Units (Molina et al., 2020) learn rational polynomialapproximationswithnumeratoranddenominator coeﬃcients,achievingstrongresultsonCIFARandImageNet. Jagtap et al.(2020)demonstratedthatlocallyadaptiveactivations inphysics-informedneuralnetworksaccelerateconvergenceby 25–40%.Thesestudiesestablishthatlearnableactivationscan outperformﬁxedalternatives,butnonehavecombinedmultiple biologically inspired components into a single parametric function,",
+              "page": 2,
+              "position": 34
+            }
+          ],
+          "subsections": [
+            {
+              "title": "norhavetheyevaluatedsuchdesignsspeciﬁcallyformedical image classiﬁcation.",
+              "level": 4,
+              "page_start": 2,
+              "page_end": 2,
+              "paragraphs": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "2.2Knowledge distillation for medical imaging",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Knowledgedistillation(Hinton et al.,2015)transfers“dark knowledge”fromateachertoastudentthroughtemperature- softenedlogits.FitNets(Romero et al.,2015)extendedthiswith intermediatefeaturematching,enablingthinnerbutdeeper students. Contrastive Representation Distillation (Tian et al., 2020) alignedrepresentationgeometriesratherthanindividualfeatures. Gou et al.(2021)surveyedtheﬁeldextensively,identifying conditions under which students surpass teachers: suﬃcient model capacity, complementary inductive biases, and high-quality teacher soft labels.",
+              "page": 2,
+              "position": 35
+            },
+            {
+              "text": "Inmedicalimaging,KDhasbeenappliedtocompress diagnosticmodelsforedgedeployment(Roberts et al.,2021),but fewstudieshaveusedKDtotrainfrom-scratcharchitecturesthat compete with pretrained baselines. Raghu et al. (2019) showed that transfer learning provides less beneﬁt than commonly assumed in medicalimaging—primarilyimprovingconvergencespeedrather than ﬁnal accuracy—suggesting thatawell-designed from-scratch modelwithappropriatetrainingsignalcouldclosethegap.Our work directly tests this hypothesis using KD as the training signal.",
+              "page": 2,
+              "position": 36
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.3CNN architectures for medical image classiﬁcation",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Thedominantparadigminmedicalimageclassiﬁcation involvesﬁne-tuningImageNet-pretrainedbackbones:ResNet (He et al.,2016),DenseNet(Huang et al.,2017),andEﬃcientNet (Tan and Le, 2019)arethemost commonchoices. Vision transformers (Dosovitskiy et al., 2020; Liu et al., 2021) have gained tractionfortheirabilitytocapturelong-rangedependencies,and hybridCNN-transformerdesigns(Tang et al.,2024;Wang et al., 2024; Chen et al., 2021; Hatamizadeh et al., 2022) attempt tocombinethelocalfeatureextractionofCNNswiththe globalcontextoftransformers.Channelandspatialattention mechanisms,includingSE-Net(Hu et al.,2018)andCBAM (Woo et al.,2018),havebecomestandardadditionsthatimprove feature selectivity with minimal parameter overhead.",
+              "page": 2,
+              "position": 37
+            },
+            {
+              "text": "OurNADNUltraarchitectureoccupiesadeliberatemiddle ground:apureCNNwithCBAMattentionthatavoidsthedata requirementsoftransformer-basedmodelswhileincorporating modern training techniques [stochastic depth (Huang et al., 2016), mixup (Zhang et al., 2018), CutMix (Yun et al., 2019), exponential movingaverage(Tarvainen and Valpola,2017)].Bykeepingthe architecturesimple,weisolatethecontributionsoftheactivation function and the KD pipeline.",
+              "page": 2,
+              "position": 38
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "2.4Biologically inspired computation",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Neurosciencehashistoricallyprovideddesignheuristics forneuralnetworks,fromtheperceptron(LeCun et al.,2015)",
+              "level": 4,
+              "page_start": 2,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "Frontiers in Artiﬁcial Intelligence 03 frontiersin.org",
+                  "page": 2,
+                  "position": 39
+                },
+                {
+                  "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                  "page": 3,
+                  "position": 40
+                },
+                {
+                  "text": "toconvolutionalarchitecturesinspiredbythevisualcortex (Goodfellow et al.,2016).Morerecentworkhassoughtto incorporate speciﬁc biological mechanisms: synaptic consolidation for continual learning (Zenke et al., 2013), homeostatic regulation fortrainingstability(Turrigiano,2008),andattentionasa computational analog of selective processing (Vaswani et al., 2017). Hassabis et al.(2017)arguedthatneurosciencecancatalyzeAI progressbysuggestingarchitecturalmotifs,whileZador et al. (2023) emphasized that the value lies in functional principles rather thanbiologicalﬁdelity.OurNeuroPlastactivationdrawsonthis tradition:weuseNMDA/AMPAreceptordynamicsasadesign heuristic to arrive at a multi-component activation that we would not have conceived from purely mathematical considerations. The biologicalmetaphorinformsthedesignbutdoesnotconstrain the optimization.",
+                  "page": 3,
+                  "position": 41
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3Materials and methods",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 8,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "3.1NeuroPlast activation function",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "3.1.1Design rationale",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "Standard activations apply a single, ﬁxed nonlinear transformationregardlessoftheinputdistributionornetwork depth.Biologicalneurons,bycontrast,integratesignalsthrough multiplereceptortypeswithdistincttemporalandvoltage- dependent properties. We translate this principle into a parametric activationwithfourcomplementarycomponents,eachloosely inspiredbyaspeciﬁcreceptormechanism,combinedthrough learnable mixing weights.",
+                  "page": 3,
+                  "position": 42
+                },
+                {
+                  "text": "Thedesigngoalsare:(i)provideasmooth,diﬀerentiable functionsuitableforgradient-basedoptimization;(ii)allowthe networktolearntherelativecontributionofeachcomponent duringtraining;(iii)maintainanon-monotonicproﬁlethat canrepresentbothfacilitatoryandinhibitoryresponses;and (iv) include soft normalization to prevent unbounded growth.",
+                  "page": 3,
+                  "position": 43
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.1.2Mathematical formulation",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [],
+              "subsections": [
+                {
+                  "title": "NeuroPlastblendsfourdiﬀerentiablecomponentsthrough two pathways:",
+                  "level": 4,
+                  "page_start": 3,
+                  "page_end": 3,
+                  "paragraphs": [
+                    {
+                      "text": "f (x;θ,α,β)=σα· gsig(x) + (1−σα) · gplat(x) \u0002 \u0003\u0004 \u0005 main pathway",
+                      "page": 3,
+                      "position": 44
+                    }
+                  ],
+                  "subsections": []
+                },
+                {
+                  "title": "(1) + \u0006",
+                  "level": 4,
+                  "page_start": 3,
+                  "page_end": 3,
+                  "paragraphs": [
+                    {
+                      "text": "σβ· gexc(x) + (1−σβ) · ginh(x)",
+                      "page": 3,
+                      "position": 45
+                    }
+                  ],
+                  "subsections": []
+                },
+                {
+                  "title": "\u0007",
+                  "level": 4,
+                  "page_start": 3,
+                  "page_end": 3,
+                  "paragraphs": [
+                    {
+                      "text": "· σ(0.7x) \u0002 \u0003\u0004 \u0005 auxiliary pathway",
+                      "page": 3,
+                      "position": 46
+                    },
+                    {
+                      "text": "whereσα=σ(α)andσβ =σ(β)aresigmoid-gatedmixing coeﬃcients, and the four components are: gsig(x) = σ(s(x −d)) (NMDA-like sigmoid) (2)",
+                      "page": 3,
+                      "position": 47
+                    },
+                    {
+                      "text": "gplat(x) = σ(αx) · h e−x2/2w2 (AMPA-like plateau) (3)",
+                      "page": 3,
+                      "position": 48
+                    }
+                  ],
+                  "subsections": []
+                },
+                {
+                  "title": "gexc(x) = βmax(0, x) (excitatory rectiﬁer) (4)",
+                  "level": 4,
+                  "page_start": 3,
+                  "page_end": 3,
+                  "paragraphs": [
+                    {
+                      "text": "ginh(x) = (1−β) · 0.08 x I[x<0] (inhibitory leak) (5)",
+                      "page": 3,
+                      "position": 49
+                    }
+                  ],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "title": "3.1.3Component interpretation",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "The NMDA-like sigmoid (gsig, Equation 2) models the voltage- dependent gating characteristic of NMDA receptors, which require bothligandbindingandsuﬃcientmembranedepolarizationto open(Paoletti et al.,2013).Parameterss(slope)andd(shift) controlthesteepnessandthresholdofactivation.TheAMPA- likeplateau(gplat,Equation 3)combinesagatedonsetwitha Gaussian envelope, inspired by the rapid rise and amplitude-limited responseofAMPAreceptorcurrents(Henley and Wilkinson, 2016).Parametersh(height)andw(width)controlthepeak amplitudeandreceptiverange.Theexcitatoryrectiﬁer(gexc, Equation 4)providesunboundedpositiveresponsemodulatedby β,analogoustoexcitatorypostsynapticcurrents.Theinhibitory leak (ginh, Equation 5) allows a small negative gradient for x<0, preventing dead neurons while maintaining inhibitory capacity.",
+                  "page": 3,
+                  "position": 50
+                },
+                {
+                  "text": "The main pathway blends the sigmoid and plateau components, whiletheauxiliarypathwaycombinesexcitatoryandinhibitory responseswithaglobalσ(0.7x)gatethatensuressmooth suppressionforstronglynegativeinputs.Figure 1illustratesthe four components, the combined proﬁle, parameter sensitivity, and gradient behavior.",
+                  "page": 3,
+                  "position": 51
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.1.4Soft normalization and default parameters",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "The output is soft-normalized to prevent gradient explosion in deep networks:",
+                  "page": 3,
+                  "position": 52
+                },
+                {
+                  "text": "ˆf (x) = f (x) 1 + 0.003 |f (x)| (6)",
+                  "page": 3,
+                  "position": 53
+                },
+                {
+                  "text": "The six learnable parameters θ= (s, d, h, w, α, β) are initialized todefaultsselectedbygridsearchontheBreastCancerdataset (569samples,30features)andheldconstantacrossallother experiments: s = 4.5, d = 0.5, h = 0.85, w = 3.2, α = 0.88, β = 0.78. This deliberate choice of a minimal dataset for parameter selection teststhegeneralisabilityofthedefaults;per-datasettuningmight improve individual results but would weaken transferability claims. During training, all six parameters are updated by backpropagation alongside the network weights.",
+                  "page": 3,
+                  "position": 54
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.2Metaplastic gating",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "In the static variant, αand βare ﬁxed learnable scalars shared acrossallinputs.Themetaplasticvariantgeneratesper-sample valuesfromchannelstatistics,implementingaformofinput- conditional activation modulation inspired by BCM theory’s sliding threshold (Bienenstock et al., 1982):",
+              "page": 3,
+              "position": 55
+            },
+            {
+              "text": "[αi, βi] = σ \u0006 W2 · SiLU(W1 · GAP(Xi)) + b \u0007",
+              "page": 3,
+              "position": 56
+            },
+            {
+              "text": ", i = 1, . . . , B(7)",
+              "page": 3,
+              "position": 57
+            },
+            {
+              "text": "where GAP denotes global average pooling over spatial dimensions, W1∈Rm×CandW2∈R2×mwithbottleneckdimensionm= max(C/4, 8),andSiLUisthesigmoidlinearunit.Thebiasbis initializedto[σ−1(0.88), σ−1(0.78)](thestaticdefaults)andW2 iszero-initialized,sothegatestartsasafunctionalno-op.This ensures that the metaplastic variant begins training from the same",
+              "page": 3,
+              "position": 58
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 04 frontiersin.org",
+              "page": 3,
+              "position": 59
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 4,
+              "position": 60
+            },
+            {
+              "text": "FIGURE 1 NeuroPlast activation function analysis. (a) Individual receptor-inspired components: the NMDA-like sigmoid (gsig), AMPA-like plateau (gplat), excitatory rectiﬁer (gexc), and inhibitory leak (ginh). (b) Combined NeuroPlast activation compared with ReLU, GELU, Swish, and Mish, showing the non-monotonic proﬁle and smooth transitions. (c) Parameter sensitivity analysis illustrating the effect of varying each learnable parameter from its default. (d) Gradient magnitude across input range, demonstrating continuous gradient ﬂow without dead zones.",
+              "page": 4,
+              "position": 61
+            },
+            {
+              "text": "TABLE 1NADN ultra architecture.",
+              "page": 4,
+              "position": 62
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Stage Channels Blocks Stride Output",
+              "level": 4,
+              "page_start": 4,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "Stem (Conv 7×7 + BN + NeuroPlast + MaxPool) 64 — 4 562",
+                  "page": 4,
+                  "position": 63
+                },
+                {
+                  "text": "Stage 1 128 2 1 562",
+                  "page": 4,
+                  "position": 64
+                },
+                {
+                  "text": "Stage 2 256 2 2 282",
+                  "page": 4,
+                  "position": 65
+                },
+                {
+                  "text": "Stage 3 384 2 2 142",
+                  "page": 4,
+                  "position": 66
+                },
+                {
+                  "text": "Stage 4 384 2 2 72",
+                  "page": 4,
+                  "position": 67
+                },
+                {
+                  "text": "Dual pooling (average + max, concatenated) 768 — — 12",
+                  "page": 4,
+                  "position": 68
+                },
+                {
+                  "text": "Classiﬁcation head (FC-384, BN, NeuroPlast, Dropout, FC-C) C — — —",
+                  "page": 4,
+                  "position": 69
+                },
+                {
+                  "text": "Static variant: 13.5 M parameters; with metaplastic gate: 13.9 M. Input resolution: 224 × 224.",
+                  "page": 4,
+                  "position": 70
+                },
+                {
+                  "text": "operatingpointasthestaticvariant,withanydeviationfrom defaultsbeinglearnedfromdata.Thegateaddsapproximately 0.4 M parameters (3% of the total 13.9 M), an overhead comparable to a single SE block (Hu et al., 2018).",
+                  "page": 4,
+                  "position": 71
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.3NADN ultra architecture",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "3.3.1Overall design",
+              "level": 3,
+              "page_start": 4,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "NADN(Neuro-AdaptiveDeepNetwork)Ultraisaresidual CNNwithfourstagesdesignedformedicalimageclassiﬁcation without reliance on pretrained weights. The architecture prioritizes",
+                  "page": 4,
+                  "position": 72
+                },
+                {
+                  "text": "moderate depth with strong regularization over the extreme depth of models like ResNet-152, reﬂecting the observation that medical imagingdatasetsaretypicallytoosmalltobeneﬁtfromverydeep networks (Raghu et al., 2019). Table 1 details the architecture.",
+                  "page": 4,
+                  "position": 73
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.3.2Residual block design",
+              "level": 3,
+              "page_start": 4,
+              "page_end": 5,
+              "paragraphs": [
+                {
+                  "text": "Eachresidualblockcontainstwo3×3convolutions,each followedbybatchnormalizationandNeuroPlastactivation.A CBAMattentionmodule(Woo et al.,2018)isappliedafterthe second convolution, providing both channel and spatial attention. When the block changes spatial resolution or channel count, a 1×1",
+                  "page": 4,
+                  "position": 74
+                },
+                {
+                  "text": "Frontiers in Artiﬁcial Intelligence 05 frontiersin.org",
+                  "page": 4,
+                  "position": 75
+                },
+                {
+                  "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                  "page": 5,
+                  "position": 76
+                },
+                {
+                  "text": "FIGURE 2 NADN Ultra architecture and knowledge distillation pipeline. The student network is a four-stage residual CNN with NeuroPlast activation and CBAM attention in each block. The teacher (EfficientNet-B0, ﬁne-tuned on each fold) provides both logit-level soft labels (DKLloss) and optional feature-level alignment (L2hint loss via a 1 × 1 adapter). The metaplastic variant generates per-sample mixing coefficients (αi, βi) from channel statistics through a squeeze-excite gate. Stochastic depth (DropPath) and gradient checkpointing are applied per block.",
+                  "page": 5,
+                  "position": 77
+                },
+                {
+                  "text": "convolutional shortcut with batch normalization aligns the residual path.Stochasticdepth(DropPath)(Huang et al.,2016)isapplied with linearly increasing drop probability from 0 (ﬁrst block) to 0.15 (lastblock),providingimplicitensembleregularization.Gradient checkpointingisenabledperblocktoreduceGPUmemory consumption from approximately 24 GB to 12 GB at batch size 48, at the cost of recomputing activations during the backward pass.",
+                  "page": 5,
+                  "position": 78
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.3.3Dual pooling and classiﬁcation head",
+              "level": 3,
+              "page_start": 5,
+              "page_end": 5,
+              "paragraphs": [
+                {
+                  "text": "Ratherthanusingonlyglobalaveragepooling,NADNUltra concatenatesglobalaverageandglobalmaxpooling,producinga 768-dimensional feature vector from the ﬁnal 384-channel feature map.Thisdualpoolingcapturesboththeaverageactivationlevel and the strongest response per channel, providing complementary information to the classiﬁcation head. The head consists of a fully connectedlayer(768→384),batchnormalization,NeuroPlast activation,dropout(p=0.3),andaﬁnallinearprojectionto C classes.",
+                  "page": 5,
+                  "position": 79
+                },
+                {
+                  "text": "Forthemetaplasticvariant,a1×1convolutionaladapter projects the student’s 384-channel feature map to the teacher’s 1280 channels for feature-level KD alignment.",
+                  "page": 5,
+                  "position": 80
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.4Knowledge distillation protocol",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Training follows a two-phase pipeline per cross-validation fold, illustrated in Figure 2.",
+              "page": 5,
+              "position": 81
+            }
+          ],
+          "subsections": [
+            {
+              "title": "3.4.1Phase 1: teacher ﬁne-tuning",
+              "level": 3,
+              "page_start": 5,
+              "page_end": 5,
+              "paragraphs": [
+                {
+                  "text": "An EﬃcientNet-B0 (Tan and Le, 2019) pretrained on ImageNet-1Kisﬁne-tunedfor20epochsoneachtraining fold.Optimiser:AdamWwithlearningrate5×10−4,weight decay10−2,cosineannealingschedule.Loss:cross-entropywith labelsmoothing0.1.Nodataaugmentationbeyondstandard normalization (ImageNet statistics). The ﬁne-tuned teacher achieves 99.13% on Brain Tumor and 99.18% on COVID-19 X-ray (Table 2), establishing strong soft-label targets for Phase 2.",
+                  "page": 5,
+                  "position": 82
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.4.2Phase 2: student training with KD",
+              "level": 3,
+              "page_start": 5,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "Thestudent(NADNUltra)trainsforupto100epochswith early stopping (patience 25 on weighted F1 score). The composite loss function is:",
+                  "page": 5,
+                  "position": 83
+                },
+                {
+                  "text": "L = α Ltask + (1−α) T2DKL",
+                  "page": 5,
+                  "position": 84
+                },
+                {
+                  "text": "\bzs",
+                  "page": 5,
+                  "position": 85
+                }
+              ],
+              "subsections": [
+                {
+                  "title": "T",
+                  "level": 4,
+                  "page_start": 5,
+                  "page_end": 5,
+                  "paragraphs": [
+                    {
+                      "text": "zt",
+                      "page": 5,
+                      "position": 86
+                    }
+                  ],
+                  "subsections": []
+                },
+                {
+                  "title": "T + λ ∥A(Fs) −Ft∥2",
+                  "level": 4,
+                  "page_start": 5,
+                  "page_end": 5,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "2 (8)",
+                  "level": 4,
+                  "page_start": 5,
+                  "page_end": 6,
+                  "paragraphs": [
+                    {
+                      "text": "whereLtaskisfocalloss(Lin et al.,2017)withγ=2(except ChestX-ray,whichusescross-entropy),T=4isthedistillation temperature, zs and zt are student and teacher logits, A is the feature adapter (1×1 convolution for the metaplastic variant), Fs and Ft are student and teacher penultimate feature maps, and λ = 0.5 weights the feature hint loss. The feature hint term is omitted in the static (logit-only) variant.",
+                      "page": 5,
+                      "position": 87
+                    },
+                    {
+                      "text": "The task-KD balance parameter αfollows a warmup schedule: startingatα=1.0(puretaskloss)andlinearlydecreasingto α=0.3overtheﬁrst5epochs,allowingthestudenttoﬁrst",
+                      "page": 5,
+                      "position": 88
+                    },
+                    {
+                      "text": "Frontiers in Artiﬁcial Intelligence 06 frontiersin.org",
+                      "page": 5,
+                      "position": 89
+                    },
+                    {
+                      "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                      "page": 6,
+                      "position": 90
+                    },
+                    {
+                      "text": "TABLE 2From-scratch NADN Ultra vs. pretrained baselines.",
+                      "page": 6,
+                      "position": 91
+                    }
+                  ],
+                  "subsections": []
+                },
+                {
+                  "title": "Dataset Model Acc. (%) F1 AUC",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [
+                    {
+                      "text": "Brain Tumor (7,200, 4 cl.) NADN Ultra (scratch) 96.75 ± 0.47 0.968 0.996",
+                      "page": 6,
+                      "position": 92
+                    },
+                    {
+                      "text": "ResNet-18 (pretrained) 98.69 ± 0.18 0.987 0.999",
+                      "page": 6,
+                      "position": 93
+                    },
+                    {
+                      "text": "EﬃcientNet-B0 (pretrained) 99.13 ± 0.11 0.991 0.999",
+                      "page": 6,
+                      "position": 94
+                    },
+                    {
+                      "text": "Chest X-ray (5,856, 2 cl.) NADN Ultra (scratch) 96.60 ± 0.21 0.966 0.993",
+                      "page": 6,
+                      "position": 95
+                    },
+                    {
+                      "text": "ResNet-18 (pretrained) 97.97 ± 0.32 0.980 0.995",
+                      "page": 6,
+                      "position": 96
+                    },
+                    {
+                      "text": "EﬃcientNet-B0 (pretrained) 98.00 ± 0.36 0.980 0.994",
+                      "page": 6,
+                      "position": 97
+                    },
+                    {
+                      "text": "Skin Cancer (10,015, 7 cl.) NADN Ultra (scratch) 78.25 ± 0.69 0.771 0.927",
+                      "page": 6,
+                      "position": 98
+                    },
+                    {
+                      "text": "ResNet-18 (pretrained) 86.97 ± 0.66 0.867 0.955",
+                      "page": 6,
+                      "position": 99
+                    },
+                    {
+                      "text": "EﬃcientNet-B0 (pretrained) 89.91 ± 0.71 0.896 0.961",
+                      "page": 6,
+                      "position": 100
+                    },
+                    {
+                      "text": "COVID X-ray (10,848, 2 cl.) NADN Ultra (scratch) 96.89 ± 0.53 0.969 0.993",
+                      "page": 6,
+                      "position": 101
+                    },
+                    {
+                      "text": "ResNet-18 (pretrained) 98.69 ± 0.23 0.987 0.998",
+                      "page": 6,
+                      "position": 102
+                    },
+                    {
+                      "text": "EﬃcientNet-B0 (pretrained) 99.18 ± 0.25 0.992 0.998",
+                      "page": 6,
+                      "position": 103
+                    },
+                    {
+                      "text": "Five-foldstratiﬁedCV(mean±std).Bestperdatasetinbold.SkinCancerentriesareimage-level;underlesion-grouped CVallmodelsdeﬂatebyacomparableamountandtherankingis preserved (Section 4.4).",
+                      "page": 6,
+                      "position": 104
+                    },
+                    {
+                      "text": "establishbasicrepresentationsbeforeincorporatingtheteacher’s soft labels. This prevents early-stage gradient conﬂicts between task and distillation objectives.",
+                      "page": 6,
+                      "position": 105
+                    }
+                  ],
+                  "subsections": []
+                }
+              ]
+            },
+            {
+              "title": "3.4.3Data augmentation pipeline",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "Allimageexperimentsuseafour-componentaugmentation pipeline: TrivialAugmentWide (Müller and Hutter, 2021) for parameter-freeimage-leveltransforms,mixupwithαmix=0.4 (Zhang et al., 2018) for linear interpolation between training pairs, CutMixwithαcut=1.0(Yun et al.,2019)forspatialmixingof image regions, and RandomErasing with p=0.1 for information dropout.MixupandCutMixareappliedstochasticallywith equal probability.",
+                  "page": 6,
+                  "position": 106
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.4.4Exponential moving average",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "An exponential moving average (EMA) of the student weights ismaintainedwithdecay0.999(Tarvainen and Valpola,2017). TheEMAmodelisusedexclusivelyforvalidation;training gradients update the base model. This provides a form of temporal ensembling that stabilizes validation metrics and reduces sensitivity to learning rate oscillations near convergence.",
+                  "page": 6,
+                  "position": 107
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.4.5Chest X-ray stabilization protocol",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "TheChestX-rayPneumoniadataset,withits3:1class imbalance(pneumonia:normal),requiredamodiﬁedtraining protocol to prevent fold collapse. The stabilized conﬁguration uses: (i)20epochsofpuretask-losstrainingbeforeanyKDsignal,(ii) gradual KD ramp-in over epochs 20–25, (iii) a ﬁxed α= 0.5 (rather than α=0.3) to maintain stronger task supervision, (iv) no label smoothing(whichcanexacerbateclassconfusiononimbalanced binarytasks),and(v)augmentationdisableduntilepoch25to allow stable initial convergence. This protocol was developed after",
+                  "page": 6,
+                  "position": 108
+                },
+                {
+                  "text": "observing that the standard pipeline caused 3/5 folds to collapse to majority-class prediction (Section 5.2).",
+                  "page": 6,
+                  "position": 109
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.4.6Gate warmup protection",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "In the metaplastic variant, the gate parameters (W1, W2, b) are frozenduringtheﬁrst5trainingepochs.Thispreventsthegate from introducing premature input-dependent variation during the criticalearlyphasewhenthebasenetworkisestablishingstable feature representations and the KD balance is being adjusted.",
+                  "page": 6,
+                  "position": 110
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.5Tabular MLP architecture",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "To evaluate NeuroPlast outside the image domain, we designed athree-hidden-layermultilayerperceptron(MLP)withadaptive sizingbasedoninputdimensionality:[64,32,16]for8features, [128,64,32]for21features,[256,128,64]for30features.Each hiddenlayerappliesbatchnormalization(momentum0.05),the activationfunctionundertest,andprogressivedropout(rates 0.12,0.15,0.17forlayers1–3).Askipconnectionaddstheﬁrst hiddenlayer’soutputtothethird,providingaresidualpath. Training: AdamW (learning rate 10−3, weight decay 10−4), cross- entropywithlabelsmoothing0.05,EMA(decay0.999),early stopping(patience20).Sixactivationsarecompared:NeuroPlast (static), ReLU, GELU, Swish, Mish, and LeakyReLU. No knowledge distillation is applied—all MLPs train from scratch.",
+              "page": 6,
+              "position": 111
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.6Datasets",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "3.6.1Medical imaging datasets",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Four publicly available medical imaging datasets were selected tospandiﬀerentmodalities,classcounts,andclinicaltasks (Figure 3):",
+                  "page": 6,
+                  "position": 112
+                },
+                {
+                  "text": "Frontiers in Artiﬁcial Intelligence 07 frontiersin.org",
+                  "page": 6,
+                  "position": 113
+                },
+                {
+                  "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                  "page": 7,
+                  "position": 114
+                },
+                {
+                  "text": "FIGURE 3 Dataset overview. Summary statistics for the four medical imaging benchmarks and three tabular datasets, including class distribution, sample counts, and representative images. Skin Cancer HAM10000 exhibits the most severe class imbalance (67% melanocytic nevi), while COVID-19 Radiography is approximately balanced after minority-class oversampling.",
+                  "page": 7,
+                  "position": 115
+                },
+                {
+                  "text": "•BrainTumorMRI(Nickparvar,2023):7,200T1-weighted MRIimagesacrossfourclasses(glioma,meningioma,no tumor,pituitary).Approximatelybalanced(1,800perclass). Resolution standardized to 224 × 224. •Chest X-ray Pneumonia (Kermany et al., 2018): 5,856 anterior-posteriorchestradiographs,binaryclassiﬁcation (normalvs.pneumonia).Classimbalance:approximately 3:1(pneumonia:normal).Theoriginaltrain/val/testsplitis pooledbeforere-splittingintoﬁvefoldstoensurebalanced evaluation(Varma and Simon,2006;Kapoor and Narayanan, 2023). •SkinCancerHAM10000(Tschandl et al.,2018):10,015 dermatoscopicimagesacrosssevendiagnosticcategories (actinickeratoses,basalcellcarcinoma,benignkeratoses, dermatoﬁbroma, melanoma, melanocytic nevi, vascular lesions).Severelyimbalanced:melanocyticneviconstitute approximately67%ofthedataset,withdermatoﬁbromaat less than 1.2%. •COVID-19Radiography(Chowdhury et al.,2020):10,848 chestX-rays,binaryclassiﬁcation(COVID-19positivevs. normal).Balancedto2×minorityclasssize.Thelargestand cleanest of our imaging benchmarks.",
+                  "page": 7,
+                  "position": 116
+                },
+                {
+                  "text": "Allimagesareresizedto224×224pixels,normalized to ImageNet statistics (mean [0.485, 0.456, 0.406], std [0.229, 0.224, 0.225]) to match the pretrained teacher, and converted to three-channel RGB where necessary.",
+                  "page": 7,
+                  "position": 117
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3.6.2Tabular medical datasets",
+              "level": 3,
+              "page_start": 7,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Three clinical tabular datasets were selected to test NeuroPlast’s behavior across sample sizes spanning three orders of magnitude:",
+                  "page": 7,
+                  "position": 118
+                },
+                {
+                  "text": "•Wisconsin Breast Cancer: 569 samples, 30 numeric featuresderivedfromdigitizedﬁneneedleaspirateimages, binary classiﬁcation (malignant vs. benign). Features include radius, texture, perimeter, area, smoothness, compactness,concavity,concavepoints,symmetry,and",
+                  "page": 7,
+                  "position": 119
+                },
+                {
+                  "text": "fractaldimension,eachwithmean,standarderror,and worst-case statistics. •Pima Indians Diabetes: 768 samples, 8 features (pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, age), binary classiﬁcation. Contains missing values encoded as zero, which we do not impute, following the standard benchmark protocol. •HeartDiseaseBRFSS2022:253,680samples,21features fromtheBehavioralRiskFactorSurveillanceSystem,binary classiﬁcation. This is the only large-scale dataset in our study, providing a control condition where activation choice should have minimal impact.",
+                  "page": 7,
+                  "position": 120
+                }
+              ],
+              "subsections": [
+                {
+                  "title": "Alltabularfeaturesarestandardizedtozeromeanandunit varianceperfold(computedontrainingdataonly,appliedto validation data).",
+                  "level": 4,
+                  "page_start": 7,
+                  "page_end": 7,
+                  "paragraphs": [],
+                  "subsections": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.7Evaluation protocol",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Five-foldstratiﬁedcross-validation(K=5,random_state42) is applied to all datasets, preserving class proportions in each fold (Varma and Simon,2006).Metrics:accuracy,weightedF1score (whichaccountsforclassimbalance),andareaundertheROC curve (AUC-ROC, one-vs-rest for multiclass). Results are reported asmean±standarddeviationacrossfolds,with95%conﬁdence intervals computed via the t-distribution with n−1 = 4 degrees of freedom. Training conﬁguration: AdamW optimiser with learning rate 10−3, weight decay 10−2, 5-epoch linear warmup followed by cosineannealingtoηmin=10−6,gradientclipping(max_norm 1.0),automaticmixedprecision(AMP).Hardware:dualNVIDIA RTX 5060 Ti 16 GB GPUs.",
+              "page": 7,
+              "position": 121
+            },
+            {
+              "text": "Pretrained baselines [ResNet-18 (He et al., 2016) and EﬃcientNet-B0(Tan and Le,2019)]areﬁne-tunedusingthe sameﬁvefolds,optimiser,andlearningratescheduleforfair comparison.Theonlydiﬀerencesaretheuseofthearchitecture’s nativeactivationfunction(ReLUforResNet-18,SiLUfor EﬃcientNet-B0) and the absence of KD.",
+              "page": 7,
+              "position": 122
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 08 frontiersin.org",
+              "page": 7,
+              "position": 123
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 8,
+              "position": 124
+            },
+            {
+              "text": "TABLE 3Knowledge distillation results.",
+              "page": 8,
+              "position": 125
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Dataset Conﬁg. Acc. (%) 95% CI AUC",
+              "level": 4,
+              "page_start": 8,
+              "page_end": 8,
+              "paragraphs": [
+                {
+                  "text": "Brain Tumor (4 cl.) Static + logit KD 98.29 ± 0.34 [97.87, 98.71] 0.998",
+                  "page": 8,
+                  "position": 126
+                },
+                {
+                  "text": "Meta + feat KD 98.03 ± 0.39 [97.49, 98.56] 0.998",
+                  "page": 8,
+                  "position": 127
+                },
+                {
+                  "text": "ResNet-18 (pretrained) 98.69 ± 0.18 — 0.999",
+                  "page": 8,
+                  "position": 128
+                },
+                {
+                  "text": "EﬃcientNet-B0 (pretrained) 99.13 ± 0.11 — 0.999",
+                  "page": 8,
+                  "position": 129
+                },
+                {
+                  "text": "Chest X-ray (2 cl.) Static + logit KD† 97.92 ± 0.27 [97.59, 98.25] 0.996",
+                  "page": 8,
+                  "position": 130
+                },
+                {
+                  "text": "Meta + feat KD‡ 82.08 ± 12.73 — 0.817",
+                  "page": 8,
+                  "position": 131
+                },
+                {
+                  "text": "ResNet-18 (pretrained) 97.97 ± 0.32 — 0.995",
+                  "page": 8,
+                  "position": 132
+                },
+                {
+                  "text": "EﬃcientNet-B0 (pretrained) 98.00 ± 0.36 — 0.994",
+                  "page": 8,
+                  "position": 133
+                },
+                {
+                  "text": "Skin Cancer (7 cl.) Static + logit KD 80.81 ± 0.92 [79.67, 81.95] 0.937",
+                  "page": 8,
+                  "position": 134
+                },
+                {
+                  "text": "Meta + feat KD 79.28 ± 0.52 [78.56, 80.00] 0.934",
+                  "page": 8,
+                  "position": 135
+                },
+                {
+                  "text": "ResNet-18 (pretrained) 86.97 ± 0.66 — 0.955",
+                  "page": 8,
+                  "position": 136
+                },
+                {
+                  "text": "EﬃcientNet-B0 (pretrained) 89.91 ± 0.71 — 0.961",
+                  "page": 8,
+                  "position": 137
+                },
+                {
+                  "text": "COVID X-ray (2 cl.) Static + logit KD 99.46 ± 0.15 [99.27, 99.65] 0.999",
+                  "page": 8,
+                  "position": 138
+                },
+                {
+                  "text": "Meta + feat KD 99.28 ± 0.15 [99.07, 99.49] 0.998",
+                  "page": 8,
+                  "position": 139
+                },
+                {
+                  "text": "ResNet-18 (pretrained) 98.69 ± 0.23 — 0.998",
+                  "page": 8,
+                  "position": 140
+                },
+                {
+                  "text": "EﬃcientNet-B0 (pretrained) 99.18 ± 0.25 — 0.998",
+                  "page": 8,
+                  "position": 141
+                },
+                {
+                  "text": "Static=ﬁxedNeuroPlast+logitKD.Meta=gate+logit & featureKD.Bestperdatasetinbold.SkinCancerentriesuseimage-levelsplits;theprimarylesion-groupedresult(79.5%)isin Section 4.4 and Table 4. The Chest X-ray static entry uses the post-hoc tuned schedule (see †); the primary uniform-protocol result (92.5%) is in Section 5.2. †Chest X-ray uses a dataset-speciﬁc tuned schedule (20-epoch pure task loss, KD ramp 20–25, α = 0.5, no label smoothing), reported as exploratory; the primary uniform-protocol result (92.5%) is in Section 5.2.‡3/5 folds collapsed (see Section 5.2).",
+                  "page": 8,
+                  "position": 142
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4Results",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "Allresultsareﬁve-foldstratiﬁedcross-validationwithmean ±standarddeviation.Wereport95%conﬁdenceintervals(CI) computed via the t-distribution with n−1 = 4 degrees of freedom.",
+          "page": 8,
+          "position": 143
+        }
+      ],
+      "subsections": [
+        {
+          "title": "4.1From-scratch vs. pretrained baselines",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Table 2 compares NADN Ultra with NeuroPlast activation (no KD) against ImageNet-pretrained baselines.",
+              "page": 8,
+              "position": 144
+            },
+            {
+              "text": "Without KD, NADN Ultra trails pretrained baselines on every dataset.Thegapscaleswithtaskcomplexity:1.4 pponChest X-ray(binary,moderateimbalance)but11.7 pponSkinCancer (seven classes, 67% nevus dominance). Notably, AUC exceeds 0.99 forallarchitecturesonthethreesimplertasks,indicatingthat thefrom-scratchmodelranksclasseswellbutmisplacesdecision boundaries—a deﬁcit that KD is well-positioned to correct through its soft-label reﬁnement.",
+              "page": 8,
+              "position": 145
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.2Knowledge distillation results",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Table 3 shows the eﬀect of KD. Two NeuroPlast conﬁgurations are compared: static (ﬁxed mixing, logit-only KD) and metaplastic (gate, logit + feature KD).",
+              "page": 8,
+              "position": 146
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Thestatic-KDconﬁgurationproducedthestrongestresults across all datasets:",
+              "level": 4,
+              "page_start": 8,
+              "page_end": 9,
+              "paragraphs": [
+                {
+                  "text": "COVID-19 X-ray. Both NeuroPlast variants matched pretrainedEﬃcientNet-B0towithinafractionofapoint:the staticversionreached99.46%(±0.15%)andthemetaplastic version 99.28% (±0.15%), against the teacher’s 99.18%— amarginof0.28 ppforthestaticvariant(5folds,single seed).Non-overlapbetweenasingle-seedﬁve-foldCIanda competitor’smeanisnotapairedsigniﬁcancetest;wetherefore describethisresultasparityratherthanastatisticallysigniﬁcant improvement,andreportpairedmulti-seedcomparisons(three seeds;paired-tandWilcoxonsigned-rank)inthemulti-seed analysis below.",
+                  "page": 8,
+                  "position": 147
+                },
+                {
+                  "text": "BrainTumorMRI.Thestaticvariantclosed65%ofthegap to EﬃcientNet-B0 (98.29% vs. 99.13%), with reduced fold variance compared to from-scratch training (std from 0.47% to 0.34%).",
+                  "page": 8,
+                  "position": 148
+                },
+                {
+                  "text": "ChestX-ray.Undertheuniformclass-balancingruleapplied identicallytoallfourdatasets(Section5.2),thestatic-KDvariant reached92.5%(std10.6%);thehighvariancereﬂectstheresidual fragilityofthisimbalancedbinarytask.Adataset-speciﬁctuned schedulestabilizedallﬁvefoldsat97.9%(std0.27%).Because thatschedulewasﬁttedposthoctoChestX-ray,wetreatitas exploratory and retain it in the Supplementary material rather than as a headline result.",
+                  "page": 8,
+                  "position": 149
+                },
+                {
+                  "text": "SkinCancer.Underlesion-groupedcross-validation,which keepseverydermoscopicviewofalesioninsideasinglefold,the static-KDvariantreached79.5%(std1.0%).Image-levelsplitting inﬂatesthisto81.7%,a2.2 ppoptimisticbiasthatwereportand correct(Section4.4).TheresidualgaptoEﬃcientNet-B0reﬂects thediﬃcultyoflearningﬁne-graineddermoscopicfeaturesfrom under 10,000 images without pretrained texture detectors. Figure 4 summarizes these results.",
+                  "page": 8,
+                  "position": 150
+                },
+                {
+                  "text": "Frontiers in Artiﬁcial Intelligence 09 frontiersin.org",
+                  "page": 8,
+                  "position": 151
+                },
+                {
+                  "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                  "page": 9,
+                  "position": 152
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.3Activation ablation under identical distillation",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "A controlled comparison separates the activation’s contributionfromthatofthedistillationpipeline.Weheld everypipelineelementﬁxed(backbone,teacher,two-phaselogit KD,augmentation,optimiser)andswappedonlytheactivation. Five established functions stand against NeuroPlast: ReLU, GELU, Swish(SiLU),Mish,andPReLU.Eachwastrainedfromscratch undertheidenticalstaticlogit-KDprotocolonallfourimaging benchmarks,ﬁve-foldCVwithsharedfoldassignment.These cellscomefromaconsolidatedre-runforthereviewer-requested comparisons;thestaticNeuroPlastconﬁgurationreproduces theheadlinecampaign(Table 3)towithinonepointonevery dataset(identicalonBrainTumor,0.05to0.9 ppelsewhere), theoﬀsetreﬂectingrun-to-runvarianceacrossindependent ﬁve-fold partitions.",
+              "page": 9,
+              "position": 153
+            },
+            {
+              "text": "NeuroPlastﬁnishesﬁrstoneverydataset(Table 4),including underthelesion-groupedprotocolonSkinCancer.Themargin overthenearestcompetitorstayssmall,around+0.4 pponeach dataset, yet it persists across all four tasks. We read these as small, consistent directional gains rather than a strong eﬀect. Paired t-tests",
+              "page": 9,
+              "position": 154
+            },
+            {
+              "text": "FIGURE 4 Performance comparison across imaging datasets. Accuracy for NADN Ultra (from-scratch without KD, static KD, metaplastic KD) vs. pretrained ResNet-18 and EfficientNet-B0 baselines. Error bars indicate ±1 standard deviation across ﬁve folds. The static-KD variant reaches parity with the pretrained baselines on COVID-19 X-ray and closes the majority of the gap on Brain Tumor and Chest X-ray. The persistent gap on Skin Cancer reﬂects the advantage of pretrained texture features on ﬁne-grained dermoscopic classiﬁcation.",
+              "page": 9,
+              "position": 155
+            },
+            {
+              "text": "ontheﬁvesharedfoldsaredirectionallyfavorablethroughout (|t|upto9.13onBrainTumorandCOVID),butthedesignis underpowered for ﬁrm inference: ﬁve folds, a single seed for most cells, and many activation-by-dataset contrasts with no correction for multiplicity. We therefore describe the pattern rather than claim signiﬁcance. The activation is not the dominant lever, distillation is, yet it is not inert: a small, repeatable lift survives a controlled swap.",
+              "page": 9,
+              "position": 156
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.4Lesion-level cross-validation on HAM10000",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "HAM10000containsmultipledermoscopicimagesofthe samelesion.Image-levelfoldscanthereforeplaceviewsofone lesiononbothsidesofthesplit,inﬂatingaccuracy.Were-ran thestatic-KDconﬁguration,theactivationcomparison,andthe pretrained baselines with lesion-grouped cross-validation keyed on lesion_id, forcing every lesion into a single fold. The student’s accuracyfellfrom81.73±0.86%to79.48±1.48%(F10.805 to0.785),a2.2 ppoptimisticbias,nowcorrected.Thepretrained baselinesshiftbyacomparableamountunderthesameprotocol: ResNet-18dropsfrom86.97%to82.54±0.82%,EﬃcientNet-B0 from 89.91% to 85.00 ± 1.26%. Grouping deﬂates every model, and therankingispreserved:thefrom-scratchstudentstilltrailsboth pretrainedbaselinesbyamarginthatisnowhonestlymeasured rather than optimistic. The grouped ﬁgures are the ones we report throughout; image-level numbers are retained only for the internal sub-experiments noted in their tables.",
+              "page": 9,
+              "position": 157
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.5Multi-seed cross-validation",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Theoriginalprotocolusedoneseed,whichunderpowersany inferentialclaim.Werepeatedthestatic-KDconﬁgurationunder threeseeds(42,1,7),aggregatingtheper-seedfoldmeans.Inter- seed dispersion is small: Brain Tumor 98.24 ± 0.07%, Chest X-ray 97.75±0.13%,SkinCancer81.04±0.92%,COVIDX-ray99.49 ±0.08%.OnCOVID,thewithin-fold-balancedrun(Section4.6) reaches99.54±0.12%,stilllevelwiththeEﬃcientNet-B0teacher rather than clearly above it—the parity reading of Section 4.3 holds under replication.",
+              "page": 9,
+              "position": 158
+            },
+            {
+              "text": "TABLE 4Activation ablation under the identical static logit-KD protocol.",
+              "page": 9,
+              "position": 159
+            },
+            {
+              "text": "Activation Brain Tumor Chest X-ray Skin Cancer§ COVID X-ray",
+              "page": 9,
+              "position": 160
+            },
+            {
+              "text": "ReLU 97.82 ± 0.41 97.20 ± 0.50 76.25 ± 5.51 98.97 ± 0.25",
+              "page": 9,
+              "position": 161
+            },
+            {
+              "text": "GELU 97.86 ± 0.49 97.46 ± 0.45 76.38 ± 4.79 99.00 ± 0.24",
+              "page": 9,
+              "position": 162
+            },
+            {
+              "text": "Swish (SiLU) 97.11 ± 0.50 97.27 ± 0.70 73.86 ± 7.29 98.89 ± 0.13",
+              "page": 9,
+              "position": 163
+            },
+            {
+              "text": "Mish 97.17 ± 0.43 96.94 ± 0.64 78.88 ± 1.47 98.80 ± 0.29",
+              "page": 9,
+              "position": 164
+            },
+            {
+              "text": "PReLU 97.39 ± 0.46 97.28 ± 0.30 79.08 ± 1.16 98.98 ± 0.13",
+              "page": 9,
+              "position": 165
+            },
+            {
+              "text": "NeuroPlast 98.29 ± 0.48 97.87 ± 0.27 79.48 ± 1.48 99.40 ± 0.25",
+              "page": 9,
+              "position": 166
+            },
+            {
+              "text": "Mean accuracy (%) ± std. Only the activation diﬀers across rows; all other components are ﬁxed. Skin Cancer uses lesion-grouped ﬁve-fold CV (no same-lesion leakage); the other three use ﬁve-fold stratiﬁed CV. Best per dataset in bold. §Lesion-grouped CV on HAM10000: every dermoscopic view of a lesion is conﬁned to one fold. Under this protocol NeuroPlast still leads, though the margin over the nearest competitors (PReLU +0.40, Mish +0.60 pp) is small and not signiﬁcant; the lead over ReLU, GELU, and Swish is larger (+3.1 to +5.6 pp) but those baselines show high fold variance.",
+              "page": 9,
+              "position": 167
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 10 frontiersin.org",
+              "page": 9,
+              "position": 168
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 10,
+              "position": 169
+            },
+            {
+              "text": "TABLE 5Pipeline component ablation under static logit-KD, NeuroPlast ﬁxed.",
+              "page": 10,
+              "position": 170
+            },
+            {
+              "text": "Conﬁguration Brain tumor Chest X-ray Skin cancer COVID X-ray",
+              "page": 10,
+              "position": 171
+            },
+            {
+              "text": "Full (reference) 98.29 97.87 81.73 99.40",
+              "page": 10,
+              "position": 172
+            },
+            {
+              "text": "−CBAM 98.37 ± 0.36 70.37 ± 3.70 78.15 ± 5.65 99.23 ± 0.21",
+              "page": 10,
+              "position": 173
+            },
+            {
+              "text": "−stochastic depth 98.39 ± 0.34 85.62 ± 14.78 80.65 ± 0.73 99.23 ± 0.31",
+              "page": 10,
+              "position": 174
+            },
+            {
+              "text": "SGD (no AdamW + EMA) 57.93 ± 23.50 80.94 ± 13.14 67.42 ± 3.66 84.79 ± 14.77",
+              "page": 10,
+              "position": 175
+            },
+            {
+              "text": "Each row removes one component; all else held constant. Mean accuracy (%) ± std over ﬁve folds. The full conﬁguration is the reference.",
+              "page": 10,
+              "position": 176
+            },
+            {
+              "text": "TABLE 6Capacity-matched comparison.",
+              "page": 10,
+              "position": 177
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Student Teacher Brain Chest Skin COVID",
+              "level": 4,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "NADN Ultra (13.5 M) Eﬀ-B0 (5.3 M) 98.29 97.87 81.73 99.40",
+                  "page": 10,
+                  "position": 178
+                },
+                {
+                  "text": "NADN-Mini (6.1 M) Eﬀ-B0 (5.3 M) 98.18 ± 0.44 93.39 ± 9.12 81.61 ± 1.08 99.39 ± 0.24",
+                  "page": 10,
+                  "position": 179
+                },
+                {
+                  "text": "NADN Ultra (13.5 M) Eﬀ-B3 (∼11 M) 98.26 ± 0.36 88.04 ± 12.24 81.73 ± 0.57 99.44 ± 0.13",
+                  "page": 10,
+                  "position": 180
+                },
+                {
+                  "text": "NADN-Mini narrows the student to teacher scale; the EﬃcientNet-B3 arm strengthens the teacher. Static logit-KD, mean accuracy (%) ± std. This sub-experiment uses image-level splits for Skin Cancer and the tuned schedule for Chest X-ray; the comparison is internal (all rows share the protocol), and the primary Skin/Chest results are those of Sections 4.4 and 5.2.",
+                  "page": 10,
+                  "position": 181
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.6COVID-19 rebalancing conﬁned to training folds",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "TheﬁrstsubmissionbalancedCOVID-19bymajority-class subsamplingappliedglobally,beforefoldcreation—aprotocol errorthatletsthevalidationdistributionleakintothebalancing decision. We moved the operation inside the cross-validation loop: eachtrainingfoldissubsampledtotwicetheminoritycount, whileeachvalidationfoldkeepsitsnativeclassproportions.Re- rununderthiscorrectedscheme,thestatic-KDvariantreaches 99.54±0.12%(folds99.6/99.3/99.6/99.6/99.6),marginallyabove the original 99.46%. The ﬁx removes the methodological objection without disturbing the result. The original global-balanced number is retained in the Supplementary material for transparency.",
+              "page": 10,
+              "position": 182
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.7Pipeline component ablation",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "A component-wise ablation ranks the training stack. Weremovedonecomponentatatimeunderthestatic-KD protocol,leavingeverythingelseﬁxed(Table 5).Thehierarchy isunambiguous.ReplacingAdamW + EMAwithplainSGDis catastrophic: Brain Tumor drops 40 points, and every dataset loses 14–40 pp.Theoptimiser,nottheactivation,isthesinglelargest lever.CBAMranksnext,anditseﬀectistask-speciﬁc:negligible on the easy balanced datasets (Brain Tumor, COVID) but decisive ontheimbalancedbinaryChestX-ray,whereremovingitcosts 27 pp and inﬂates fold variance sevenfold. Stochastic depth follows thesamepatternatsmallermagnitude,a12 ppChestcostand near-zeroelsewhere.Thereadingisconsistentwiththeactivation result:thepipelinestabilizesthehard,imbalancedtasks,andthe components matter most exactly where the data is least forgiving.",
+              "page": 10,
+              "position": 183
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.8Teacher–student capacity",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Theoriginal“studentsurpassesteacher”readingconfounded distillationwithacapacitygap:a13.5 Mstudentagainsta 5.3 M EﬃcientNet-B0 teacher. We probe both directions (Table 6).",
+              "page": 10,
+              "position": 184
+            },
+            {
+              "text": "NADN-Mininarrowsthestudentto6.1 M—withinreachofthe teacher’s size—and loses almost nothing: Brain Tumor, Skin Cancer, and COVID stay within 0.12 pp of the full model, Chest X-ray costs 4.5 pp.Distillation,notrawcapacity,drivestheresult;theparity with the teacher survives a student shrunk to the teacher’s scale. The second arm distills from a stronger EﬃcientNet-B3 teacher into the full student, tightening the ratio from the other side.",
+              "page": 10,
+              "position": 185
+            },
+            {
+              "text": "Thestrongerteacherbarelymovesthestudent.BrainTumor, SkinCancer,andCOVIDlandwithin0.04 ppoftheEﬃcientNet- B0distillation;onlyChestX-rayshifts,andtherethechangeis noise,notsignal—itsfoldstandarddeviationballoonsto12 ppas individualfoldsdestabilize.Teachercapacityisnotthelever.A tighterteacher–studentrationeitherliftsthestabledatasetsnor rescuesthefragileone,whichreinforcesthecentralreading:the distillationmechanism,andeachtask’sintrinsicdiﬃculty,govern the outcome far more than the teacher’s raw strength.",
+              "page": 10,
+              "position": 186
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.9Initialization sensitivity",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "ThesixNeuroPlastparameterswereoriginallyseededfroma gridsearchonthesmallBreastCancertabularset,anunusual sourcethatinvitesthequestionofwhetherthechoicematters. Sincetheparametersarelearnable,itshouldnot.Wetestedthree initializationregimesonBrainTumorMRIunderstaticKD:the Breast-Cancer-deriveddefaults,adistincthand-setpreset,anda randomdrawspanningawiderangearoundthedefaults.The three converge to indistinguishable accuracy—98.28%, 98.15%, and 98.28% respectively, a spread of 0.13 pp, within fold noise. Random initializationmatchesthetuneddefaults.Theseedistherefore aninconsequentialconvenience:gradientdescentrecoversan equivalentoperatingpointregardlessofwherethesixparameters start,andthechoiceofsourcedatasetforthedefaultscarriesno methodological weight.",
+              "page": 10,
+              "position": 187
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.10Fold-level analysis",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "Figure 5 presents the fold-level accuracy distribution for the static-KD variant across datasets. Table 7",
+              "page": 10,
+              "position": 188
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 11 frontiersin.org",
+              "page": 10,
+              "position": 189
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 11,
+              "position": 190
+            },
+            {
+              "text": "FIGURE 5 Cross-validation stability. Fold-level accuracy distribution for the static-KD variant across imaging datasets. Each point represents one fold; the horizontal line indicates the mean. COVID-19 X-ray shows the tightest distribution (range: 99.26–99.63%), while Skin Cancer exhibits the widest spread (79.63–81.98%), reﬂecting sensitivity to the speciﬁc minority-class samples in each fold. (a) Tabular datasets (Breast Cancer, Diabetes, Heart Disease); (b) Imaging datasets (Brain Tumor, Chest X-ray, Skin Cancer, COVID-19 X-ray).",
+              "page": 11,
+              "position": 191
+            },
+            {
+              "text": "TABLE 7Per-fold accuracy (%) for the static-KD variant on imaging datasets.",
+              "page": 11,
+              "position": 192
+            },
+            {
+              "text": "Dataset F1 F2 F3 F4 F5 Mean Std CV",
+              "page": 11,
+              "position": 193
+            },
+            {
+              "text": "Brain tumor 98.61 98.33 98.33 97.64 98.54 98.29 0.34 0.35%",
+              "page": 11,
+              "position": 194
+            },
+            {
+              "text": "Chest X-ray 97.95 97.52 98.12 97.69 98.29 97.92 0.27 0.28%",
+              "page": 11,
+              "position": 195
+            },
+            {
+              "text": "Skin cancer 81.63 79.63 79.93 80.88 81.98 80.81 0.92 1.14%",
+              "page": 11,
+              "position": 196
+            },
+            {
+              "text": "COVID X-ray 99.63 99.26 99.63 99.26 99.54 99.46 0.15 0.15%",
+              "page": 11,
+              "position": 197
+            },
+            {
+              "text": "CV, coeﬃcient of variation. Skin Cancer uses image-level splits here; the primary lesion-grouped result is in Table 4. Chest X-ray uses the tuned schedule; the primary uniform-protocol result is in Section 5.2.",
+              "page": 11,
+              "position": 198
+            },
+            {
+              "text": "TABLE 8Per-class metrics for NADN Ultra (static KD) on Brain Tumor MRI.",
+              "page": 11,
+              "position": 199
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Class Precision Recall F1",
+              "level": 4,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "Glioma 0.971 0.966 0.968",
+                  "page": 11,
+                  "position": 200
+                },
+                {
+                  "text": "Meningioma 0.972 0.978 0.975",
+                  "page": 11,
+                  "position": 201
+                },
+                {
+                  "text": "No tumor 0.989 0.994 0.991",
+                  "page": 11,
+                  "position": 202
+                },
+                {
+                  "text": "Pituitary 0.991 0.988 0.990",
+                  "page": 11,
+                  "position": 203
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Macro avg 0.981 0.981 0.981",
+              "level": 4,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "Five-fold average. Bold indicates the macro-averaged row.",
+                  "page": 11,
+                  "position": 204
+                },
+                {
+                  "text": "provides the per-fold accuracies for the two highest- performing conﬁgurations.",
+                  "page": 11,
+                  "position": 205
+                },
+                {
+                  "text": "Thecoeﬃcientofvariation(CV)rangesfrom0.15%(COVID X-ray)to1.14%(SkinCancer),indicatingstablecross-validation performance.ThehighervariabilityonSkinCancerreﬂectsthe severe class imbalance—small shifts in the minority class boundary produce measurable accuracy changes.",
+                  "page": 11,
+                  "position": 206
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.11Per-class performance analysis",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "Table 8 presents the per-class metrics for the static-KD variant on Brain Tumor MRI, the most clinically complex four-class task.",
+              "page": 11,
+              "position": 207
+            },
+            {
+              "text": "Glioma exhibits the lowest recall (0.966), with most misclassiﬁcationsinvolvingmeningioma—consistentwiththe",
+              "page": 11,
+              "position": 208
+            }
+          ],
+          "subsections": [
+            {
+              "title": "knownradiologicaloverlapbetweenthesetumortypes.The “notumor”classachievesnear-perfectperformance(F1= 0.991),asexpectedgiventhedistinctimagingcharacteristicsof healthy tissue.",
+              "level": 4,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "BrainTumorﬂattersthemodel.HAM10000doesnot.Table 9 breaks the seven dermoscopic classes apart, and the picture behind the 81% headline is sobering.",
+                  "page": 11,
+                  "position": 209
+                },
+                {
+                  "text": "Oneclasscarriestheaccuracy:melanocyticnevi,67%ofthe data,recalledat95.6%.Theclinicallyurgentclassesarewhere themodelbreaks.Melanomasensitivityis45.2%—morethan halfofmelanomasmissed.Dermatoﬁbromacollapsesto15.7%. Actinickeratosisandbenignkeratosissitnearcoin-ﬂiprecall. Weighted F1 hides all of this. Stated plainly: the headline number is misleading for the rare, dangerous classes, and the model is not ﬁt to triage melanoma or the other minority subgroups. Pretrained backbonesclosepartofthisgappreciselybecausetheirtexture priors transfer to ﬁne-grained dermoscopy; a from-scratch student does not recover it from soft labels alone.",
+                  "page": 11,
+                  "position": 210
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.12External validation on independent cohorts",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Cross-validation within one dataset says nothing about transfer todatafromanotherinstitution.Wetestedtwoofthetrained",
+              "page": 11,
+              "position": 211
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 12 frontiersin.org",
+              "page": 11,
+              "position": 212
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 12,
+              "position": 213
+            },
+            {
+              "text": "TABLE 9Per-class metrics for NADN Ultra (static KD) on HAM10000, aggregated over ﬁve folds.",
+              "page": 12,
+              "position": 214
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Class n Sensitivity Speciﬁcity Precision",
+              "level": 4,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [
+                {
+                  "text": "akiec (actinic keratosis) 327 47.7% 98.9% 59.3%",
+                  "page": 12,
+                  "position": 215
+                },
+                {
+                  "text": "bcc (basal cell carcinoma) 514 66.1% 98.2% 66.7%",
+                  "page": 12,
+                  "position": 216
+                },
+                {
+                  "text": "bkl (benign keratosis) 1099 58.1% 95.7% 62.5%",
+                  "page": 12,
+                  "position": 217
+                },
+                {
+                  "text": "df (dermatoﬁbroma) 115 15.7% 99.9% 56.2%",
+                  "page": 12,
+                  "position": 218
+                },
+                {
+                  "text": "mel (melanoma) 1113 45.2% 97.0% 65.7%",
+                  "page": 12,
+                  "position": 219
+                },
+                {
+                  "text": "nv (melanocytic nevus) 6705 95.6% 73.6% 88.0%",
+                  "page": 12,
+                  "position": 220
+                },
+                {
+                  "text": "vasc (vascular lesion) 142 84.5% 99.8% 86.3%",
+                  "page": 12,
+                  "position": 221
+                },
+                {
+                  "text": "Sensitivity (recall), speciﬁcity, and precision per class; class size n. Bold values highlight the clinically critical classes (melanoma and dermatoﬁbroma) whose sensitivity falls well below a usable triage threshold.",
+                  "page": 12,
+                  "position": 222
+                },
+                {
+                  "text": "TABLE 10External validation.",
+                  "page": 12,
+                  "position": 223
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Task (train →external) Within-cohort External",
+              "level": 4,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [
+                {
+                  "text": "Chest X-ray: Guangzhou →",
+                  "page": 12,
+                  "position": 224
+                },
+                {
+                  "text": "COVID-Radiography",
+                  "page": 12,
+                  "position": 225
+                },
+                {
+                  "text": "97.9% 79.5% (sens. 99.4, spec.",
+                  "page": 12,
+                  "position": 226
+                },
+                {
+                  "text": "59.4, AUC 0.949)",
+                  "page": 12,
+                  "position": 227
+                },
+                {
+                  "text": "Skin Cancer:",
+                  "page": 12,
+                  "position": 228
+                },
+                {
+                  "text": "HAM10000 →BCN20000",
+                  "page": 12,
+                  "position": 229
+                },
+                {
+                  "text": "81.7% 65.2% (melanoma",
+                  "page": 12,
+                  "position": 230
+                },
+                {
+                  "text": "sensitivity 18.6%)",
+                  "page": 12,
+                  "position": 231
+                },
+                {
+                  "text": "Modelstrainedononecohort,evaluatedwithoutretrainingonanindependentcohort. Within-cohort ﬁgures are repeated for reference.",
+                  "page": 12,
+                  "position": 232
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "modelsonindependentsources,appliedwithnoretrainingor ﬁne-tuning (Table 10).",
+              "level": 4,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [
+                {
+                  "text": "The Chest X-ray student, trained on the Guangzhou pediatric cohort, was evaluated on the normal and viral-pneumonia images oftheCOVID-19Radiographydatabase(QatarandBangladesh). Accuracydroppedfrom97.9%to79.5%.Pneumoniasensitivity heldat99.4%,yetspeciﬁcityfellto59.4%andAUCto0.949.The model still ranks cases well, but on a shifted normal distribution it over-calls pneumonia.",
+                  "page": 12,
+                  "position": 233
+                },
+                {
+                  "text": "The Skin Cancer model, trained on HAM10000 (Vienna), was evaluated on BCN20000 (Barcelona), an independent dermoscopy cohort. The gap here is severe. Accuracy fell from 81.7% to 65.2%, andmelanomasensitivitycollapsedfrom45.2%to18.6%.On out-of-distributiondermoscopythemodelmissesmorethanfour melanomas in ﬁve.",
+                  "page": 12,
+                  "position": 234
+                },
+                {
+                  "text": "These ﬁgures bound the clinical claim. Performance measured insideacohortdoesnotcarrytoanewone,andthemelanoma weaknessseenintheper-classanalysis(Table 9)deepensoﬀ- distributionratherthaneasing.Wepresentthemodelsas benchmarkartifacts,notdeployabletools.Prospectivevalidation onthetargetpopulation,notaheld-outsplitofthesamesource, is a precondition for any clinical use.",
+                  "page": 12,
+                  "position": 235
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.13Convergence analysis",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Figure 6illustratesthetrainingconvergencebehavioracross datasets.Table 11reportsthemeanconvergenceepoch(deﬁned astheepochachievingthebestvalidationF1scorebefore early stopping). SkinCancerrequiresthemosttraining(92.6epochson average),approachingthe100-epochmaximum,whichsuggests",
+              "page": 12,
+              "position": 236
+            },
+            {
+              "text": "thatlongertrainingoralargerpatiencewindowmightfurther improveresultsonthischallengingdataset.BrainTumoralso trainsforextendedperiods(81.4epochs),reﬂectingthefour- class discrimination diﬃculty. COVID X-ray converges faster (64.2 epochs), consistent with its cleaner binary separation.",
+              "page": 12,
+              "position": 237
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.14Tabular classiﬁcation",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Table 12 evaluates NeuroPlast against ﬁve standard activations on tabular data, without KD.",
+              "page": 12,
+              "position": 238
+            },
+            {
+              "text": "Threeﬁndingsemergefromthetabularexperiments.First, onBreastCancer(569samples),the1.1 ppspreadbetweenMish (97.54%)andNeuroPlast(96.49%)fallswithinnoise—standard deviationsrangefrom0.65%to1.46%,andallactivationsexceed 96%.Second,onDiabetes(768samples),NeuroPlasttieswith Mishat76.95%andachievesthehighestAUC(0.820),while LeakyReLUdropsto72.66%—thewidestactivation-dependent spreadinourexperiments,reﬂectingheightenedsensitivityin thelow-dataregime.Third,onHeartDisease(253,680samples), accuracy spans just 0.09 pp (90.73–90.82%) and fold-level standard deviationsfallbelow0.15%:activationchoiceisirrelevantat thissamplesize.Thisprogressionfromactivation-sensitiveto activation-insensitiveassamplesizeincreasesisconsistentwith the observation that overparameterized models converge to similar solutionsregardlessofactivationfunctionwhengivensuﬃcient data (Goodfellow et al., 2016).",
+              "page": 12,
+              "position": 239
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.15Tabular convergence speed",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 13,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Table 13reportsthemeanconvergenceepochforeach activationontheBreastCancerdataset,whereNeuroPlast converges notably faster.",
+              "level": 4,
+              "page_start": 12,
+              "page_end": 13,
+              "paragraphs": [
+                {
+                  "text": "NeuroPlastconvergesin7.8epochsonaverage,fasterthan ReLU(10.8)andMish(16.0)despiteMishachievingthehighest ﬁnalaccuracy(Figure 7).ThissuggeststhatNeuroPlast’smulti- component structure provides a richer gradient signal during early training,eveniftheﬁnalaccuracyadvantagedoesnotmaterialize in the low-sample regime.",
+                  "page": 12,
+                  "position": 240
+                },
+                {
+                  "text": "Frontiers in Artiﬁcial Intelligence 13 frontiersin.org",
+                  "page": 12,
+                  "position": 241
+                },
+                {
+                  "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+                  "page": 13,
+                  "position": 242
+                },
+                {
+                  "text": "FIGURE 6 Training convergence analysis. Validation accuracy curves during student training with KD across four imaging datasets. Shaded regions indicate fold-level variability. COVID-19 X-ray converges fastest (mean 64 epochs), while Skin Cancer requires near-maximum training (93 epochs). The KD warmup phase (ﬁrst 5 epochs with αramp) is visible as a plateau in early training. (a) Epochs to convergence across activations on the tabular datasets; (b) epochs to convergence across models on the imaging datasets.",
+                  "page": 13,
+                  "position": 243
+                },
+                {
+                  "text": "TABLE 11Mean convergence epoch for NADN Ultra (static KD) on imaging datasets.",
+                  "page": 13,
+                  "position": 244
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Dataset Mean epoch Std Range",
+              "level": 4,
+              "page_start": 13,
+              "page_end": 13,
+              "paragraphs": [
+                {
+                  "text": "Brain Tumor 81.4 12.1 [61, 98]",
+                  "page": 13,
+                  "position": 245
+                },
+                {
+                  "text": "Chest X-ray 52.8 8.3 [42, 65]",
+                  "page": 13,
+                  "position": 246
+                },
+                {
+                  "text": "Skin Cancer 92.6 6.7 [84, 99]",
+                  "page": 13,
+                  "position": 247
+                },
+                {
+                  "text": "COVID X-ray 64.2 15.4 [45, 87]",
+                  "page": 13,
+                  "position": 248
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.16ROC analysis",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "Figure 8presentsthereceiveroperatingcharacteristiccurves acrossallimagingdatasetsandconﬁgurations.AUCvaluesare consistentlyhigh(≥0.927)acrossallmethods,withthefrom- scratchNADNUltraachievingAUC≥ 0.993onthethree binary/simplertasksevenwithoutKD.Thisconﬁrmsthatthe primarydeﬁcitofthefrom-scratchmodelliesincalibrationand decision boundary placement rather than in discriminative power.",
+              "page": 13,
+              "position": 249
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "5Discussion",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 17,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "5.1Knowledge distillation as the key enabler",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "The central ﬁnding of this study is that knowledge distillation, rather than activation function design, is the primarymechanismenablingafrom-scratchCNNtoreach pretrained-levelperformance.Softlabelsfromaﬁne-tuned teacherencodeinter-classsimilaritystructure—forinstance,that gliomaandmeningiomasharemoreradiologicalfeaturesthan eithershareswithhealthytissue—thatone-hottargetscannot convey (Hinton et al., 2015). The student beneﬁts from this richer supervision signal even though its architecture (residual CNN with CBAM)diﬀerssubstantiallyfromtheteacher’s(EﬃcientNetwith mobile inverted bottleneck and SE attention).",
+              "page": 13,
+              "position": 250
+            },
+            {
+              "text": "The eﬀectiveness of KD scaled inversely with task complexity, consistentwiththeintuitionthatsimplertasksleavelessroom for soft-label information to provide beneﬁt beyond what the data already oﬀers. On the binary COVID-19 task (10,848 images, clean class separation), the student reached parity with the teacher: 99.4– 99.5%vs.99.18%acrossthreeseeds,amarginwithinreplication noiseratherthanadecisivewin.Wenotethisresemblance tothe“studentmatchesteacher”regimedocumentedinthe KDliterature(Gou et al.,2021),butstopshortofthestronger “surpasses” claim, since the teacher carries 5.3 M parameters against thestudent’s13.5 M—acapacitygapthatconfoundsanylike-for- likecomparison(weprobethisdirectlyinthecapacity-matched experiments).Onthefour-classBrainTumortask,thestudent closed 65% of the gap to EﬃcientNet-B0 (98.29% vs. 99.13%), with theremaining0.84 pplikelyattributabletothelow-leveltexture features that ImageNet pretraining provides.",
+              "page": 13,
+              "position": 251
+            },
+            {
+              "text": "OnSkinCancer(sevenclasses,severeimbalance),thelesion- grouped static-KD accuracy is 79.5% (Section 4.4), and the residual gap to pretrained baselines conﬁrms that ﬁne-grained dermoscopic distinctions,suchasseparatingmelanomafrombenignnevi, require texture features diﬃcult to learn from under 10,000 images (Raghu et al., 2019).",
+              "page": 13,
+              "position": 252
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.2Chest X-ray: a detailed failure analysis",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "TheChestX-raydatasetexposedacriticalfailuremodethat warrants detailed discussion, as it illustrates the fragility of KD on imbalanced binary tasks. Under the standard training protocol (5- epoch KD warmup, α ramping from 1.0 to 0.3, focal loss with label smoothing),themetaplasticvariantcollapsedon3of5foldsto majority-class prediction: the model predicted pneumonia for every input,achievingapproximately73%accuracy(thepneumonia prevalence)withzerodiscriminativepower.Fold-levelaccuracies were 66.3%, 97.8%, 97.8%, 73.0%, and 73.1%.",
+              "page": 13,
+              "position": 253
+            },
+            {
+              "text": "Rootcauseanalysisrevealedtwointeractingfactors.First,the featurehintlossinjectedadditionalgradientsignalduringthe warmupphasethatwasdesignedforpuretask-lossstabilization,",
+              "page": 13,
+              "position": 254
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 14 frontiersin.org",
+              "page": 13,
+              "position": 255
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 14,
+              "position": 256
+            },
+            {
+              "text": "TABLE 12Tabular: six activations, identical MLP.",
+              "page": 14,
+              "position": 257
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Dataset Activation Acc. (%) F1 AUC",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "Breast Cancer (569, 30 feat.) NeuroPlast 96.49 ± 1.46 0.965 0.992",
+                  "page": 14,
+                  "position": 258
+                },
+                {
+                  "text": "ReLU 97.01 ± 1.19 0.970 0.995",
+                  "page": 14,
+                  "position": 259
+                },
+                {
+                  "text": "GELU 97.36 ± 0.78 0.974 0.994",
+                  "page": 14,
+                  "position": 260
+                },
+                {
+                  "text": "Swish 97.01 ± 0.71 0.970 0.993",
+                  "page": 14,
+                  "position": 261
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Mish 97.54 ± 0.65 0.975 0.988",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "LeakyReLU 97.01 ± 0.91 0.970 0.995",
+                  "page": 14,
+                  "position": 262
+                },
+                {
+                  "text": "Diabetes (768, 8 feat.) NeuroPlast 76.95 ± 2.30 0.766 0.820",
+                  "page": 14,
+                  "position": 263
+                },
+                {
+                  "text": "ReLU 75.25 ± 5.00 0.738 0.769",
+                  "page": 14,
+                  "position": 264
+                },
+                {
+                  "text": "GELU 75.26 ± 2.48 0.751 0.801",
+                  "page": 14,
+                  "position": 265
+                },
+                {
+                  "text": "Swish 76.03 ± 2.75 0.758 0.807",
+                  "page": 14,
+                  "position": 266
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Mish 76.95 ± 2.00 0.765 0.809",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "LeakyReLU 72.66 ± 5.16 0.694 0.699",
+                  "page": 14,
+                  "position": 267
+                },
+                {
+                  "text": "Heart Disease (253,680, 21 feat.) NeuroPlast 90.73 ± 0.13 0.879 0.842",
+                  "page": 14,
+                  "position": 268
+                },
+                {
+                  "text": "ReLU 90.81 ± 0.06 0.880 0.848",
+                  "page": 14,
+                  "position": 269
+                },
+                {
+                  "text": "GELU 90.81 ± 0.07 0.879 0.848",
+                  "page": 14,
+                  "position": 270
+                },
+                {
+                  "text": "Swish 90.81 ± 0.04 0.879 0.849",
+                  "page": 14,
+                  "position": 271
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Mish 90.82 ± 0.04 0.879 0.850",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "LeakyReLU 90.81 ± 0.04 0.879 0.848",
+                  "page": 14,
+                  "position": 272
+                },
+                {
+                  "text": "Five-fold CV. Best per dataset in bold.",
+                  "page": 14,
+                  "position": 273
+                },
+                {
+                  "text": "TABLE 13Mean convergence epoch on breast cancer (569 samples).",
+                  "page": 14,
+                  "position": 274
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Activation Mean epoch Std",
+              "level": 4,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "NeuroPlast 7.8 6.2",
+                  "page": 14,
+                  "position": 275
+                },
+                {
+                  "text": "Swish 5.8 3.3",
+                  "page": 14,
+                  "position": 276
+                },
+                {
+                  "text": "GELU 8.8 6.0",
+                  "page": 14,
+                  "position": 277
+                },
+                {
+                  "text": "ReLU 10.8 6.4",
+                  "page": 14,
+                  "position": 278
+                },
+                {
+                  "text": "Mish 16.0 9.2",
+                  "page": 14,
+                  "position": 279
+                },
+                {
+                  "text": "LeakyReLU 6.4 5.2",
+                  "page": 14,
+                  "position": 280
+                },
+                {
+                  "text": "Lower is faster.",
+                  "page": 14,
+                  "position": 281
+                },
+                {
+                  "text": "destabilizing the delicate loss balance on this imbalanced dataset. Second, the metaplastic gate—despite being frozen during warmup—createdacomputationalpathwhosemerepresence alteredgradientﬂowthroughthebaseactivation.Thestabilized protocol(20-epochpuretaskloss,gradualKDramp,nolabel smoothing, delayed augmentation) resolved this issue for the static variant, achieving 97.92% with all ﬁve folds converging.",
+                  "page": 14,
+                  "position": 282
+                },
+                {
+                  "text": "Weﬂagtheobviousmethodologicalcost.Thatstabilized recipewasselectedafterwatchingthestandardprotocolcollapse onChestX-ray,whichistuningbias:thescheduleisﬁttedto onedataset’svalidationbehavior,breakingtheuniform-protocol disciplineusedontheotherthree.Totestwhetheraprincipled rulechosenapriorisuﬃces,wereplacedtherecipewithinverse- frequencyclassweightingcomputedonthetrainingfoldonly, applied identically to all four datasets. Under this single ﬁxed rule, ChestX-rayreaches92.52±10.61%withnofoldcollapsingto majorityprediction,whiletheotherdatasetsareunmoved(Brain 98.15,Skin81.46,COVID99.42—allwithin0.3 ppofthetuned",
+                  "page": 14,
+                  "position": 283
+                },
+                {
+                  "text": "Horizo ntal bar chart comparing convergence speed ratios for NeuroPlast/NADN versus baseline across seven medical categories. Breast cancer and heart disease show highest speedup ratios at 1.38 and 1.22, diabetes is 0.78, skin cancer is 0.88, COVID X-ray is 0.52, chest X-ray is 0.42, and brain tumor is 0.43. Orange, blue, and red bars distinguish different outcomes. Vertical dotted line at 1.0 marks no speedup. Tabular convergence speed comparison. Mean convergence epoch for six activation functions on the Breast Cancer dataset (569 samples). NeuroPlast and Swish converge fastest, while Mish requires more epochs despite achieving the highest ﬁnal accuracy. Error bars indicate ±1 standard deviation.",
+                  "page": 14,
+                  "position": 284
+                },
+                {
+                  "text": "pipeline).Theuniformruletrailsthehand-tuned97.92%but removesthetuning-biasobjection;thetunedﬁgureisretainedin theSupplementary material,markedasﬁttedtoChestX-ray.We recommendtheprincipledruleforreproducibilityandthetuned schedule only where the extra points are worth the loss of protocol uniformity.",
+                  "page": 14,
+                  "position": 285
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "5.3The metaplastic gate: a negative result",
+          "level": 2,
+          "page_start": 14,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "Themetaplasticgatewasdesignedtogenerateper-sample mixing coeﬃcients from channel statistics, allowing the activation proﬁleto adapttoinput content.In principle,imageswithstrong edgefeaturesmightbeneﬁtfromamoresigmoid-dominated",
+              "page": 14,
+              "position": 286
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 15 frontiersin.org",
+              "page": 14,
+              "position": 287
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 15,
+              "position": 288
+            },
+            {
+              "text": "FIGURE 8 ROC analysis. Receiver operating characteristic curves and AUC values across datasets and conﬁgurations. AUC remains high (≥0.927) for all methods, including from-scratch NADN Ultra, conﬁrming strong discriminative capacity. The KD variants achieve AUC ≥0.996 on three of four datasets, with Skin Cancer being the only benchmark where AUC falls below 0.95. (a) ROC curves, tabular (NeuroPlast); (b) ROC curves, imaging (NADN scratch); (c) AUC-ROC summary per dataset; (d) weighted F1-score comparison.",
+              "page": 15,
+              "position": 289
+            },
+            {
+              "text": "activation,whiletexture-richregionsmightfavortheplateau component.Inpractice,thegatedidnotoutperformstatic parametersonanydataset:98.03%vs.98.29%onBrainTumor, 79.28% vs. 80.81% on Skin Cancer, 99.28% vs. 99.46% on COVID X-ray.Alldiﬀerencesaresmall(0.2–1.5 pp)butconsistentlyfavor the static variant.",
+              "page": 15,
+              "position": 290
+            },
+            {
+              "text": "Theearlierdraftattributedthistooverﬁttingandphase mismatch—a post-hoc story. The data tell a sharper one. The failure isnotgradualdegradationbutintermittentcatastrophiccollapse: on Brain Tumor the metaplastic runs post a fold standard deviation of 20–26 pp, with individual folds dropping toward the 25% four- classchancelevelwhiletheirneighborsreach98%.Averaging hides it.",
+              "page": 15,
+              "position": 291
+            },
+            {
+              "text": "A 2×2 ablation isolates the cause (Table 14). Crossing the gate (on/oﬀ) with feature-level KD (on/oﬀ), one factor moves the result andthe otherdoes not.With thegate oﬀ,both conﬁgurationsare stable and strong (98.3–98.6% on Brain Tumor); with the gate on, both collapse, feature-KD present or not. The gate is the sole culprit; feature-level KD is neutral, even marginally helpful.",
+              "page": 15,
+              "position": 292
+            },
+            {
+              "text": "Inspectingthelearnedgateconﬁrmsthemechanism.Its operatingpoint(α, β),seededat(0.88, 0.78),driftstoanear- uniform(0.50, 0.50)ateverystageandineveryfold.The gateabandonstheinitializedasymmetryandsettlesatanon- committalmidpoint—itstopsdiscriminating.Thereviewer’s diagnosisisapt:globally-average-pooledchannelstatisticsare tooweakaconditioningsignaltosteeranactivation-level mechanism, so the gate collapses to a constant rather than learning useful input-dependence.",
+              "page": 15,
+              "position": 293
+            },
+            {
+              "text": "Thisnegativeresultdoesnotinvalidateinput-conditional activationsasaconcept.Thesqueeze-excitearchitecture,eﬀective forchannelattention(Hu et al.,2018),maynotprovidetheright inductivebiasforactivationparametermodulation.Conditioning ongradientstatisticsratherthaninputstatistics,restrictingthe gatetodeeperlayerswherefeaturemapscarrymoresemantic information,orusingahypernetworkarchitecturecouldyield diﬀerent outcomes.",
+              "page": 15,
+              "position": 294
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.4Comparison with pretrained feature advantage",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 16,
+          "paragraphs": [
+            {
+              "text": "ImageNet-pretrainedmodelsbeneﬁtfromlow-levelfeature detectors(edges,textures,spatialfrequencies)learnedfrom1.2 millionnaturalimages.Afrom-scratchmodelmustlearnthese fromafewthousandmedicalimages,afundamentallyharder task (Raghu et al., 2019). KD partially compensates by transferring theteacher’slearnedstructurethroughsoftlabels.Thatour 13.5 M-parameter student matched the 5.3 M-parameter teacher on COVID-19X-ray,withoutclearlyexceedingit,isconsistentwith thestudentexploitingitslargercapacitytoabsorbthesoft-label signal,thoughthecapacityasymmetryforbidsreadingthisasa like-for-likevictory.OnSkinCancer,whereﬁne-grainedtexture featuresarecritical,the9.1 ppgaptoEﬃcientNet-B0persists despite KD, conﬁrming that soft labels alone cannot substitute for the texture priors that ImageNet pretraining provides.",
+              "page": 15,
+              "position": 295
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 16 frontiersin.org",
+              "page": 15,
+              "position": 296
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 16,
+              "position": 297
+            },
+            {
+              "text": "5.5Activation choice at scale: a control experiment on tabular data",
+              "page": 16,
+              "position": 298
+            },
+            {
+              "text": "Thetabularexperimentsarenotasecondperformanceclaim; theyareacontrolforactivationchoiceinaregimewithno spatialstructure,wherethedistillationpipelineoftheimaging experimentsisabsent.Readthisway,twoﬁndingsfollow.First, NeuroPlast’saddedcomplexitydoesnotdegradeaccuracywhen spatialstructuredisappears—asafetycheck,sincethemetaplastic gatecannotoperateon1-Dinputsandonlythestaticversion applies.Second,theexperimentsmaphowsamplesizegoverns activationsensitivity,whichisascopeconditionforactivation engineering rather than a point in NeuroPlast’s favor.",
+              "page": 16,
+              "position": 299
+            },
+            {
+              "text": "The results reveal a clear scaling law: at 768 samples (Diabetes), the activation-dependent accuracy spread is 4.3 pp; at 569 samples (BreastCancer),itis1.1 pp;andat253,680samples(Heart Disease),itcollapsesto0.09 pp.Thenon-monotonicrelationship betweensamplesizeandspreadreﬂectstheinterplaybetween model capacity, activation expressiveness, and data suﬃciency. At verysmallsamplesizes,thestochasticityofthetrainingprocess dominates; at intermediate sizes, activation-speciﬁc biases become detectable; at large sizes, the optimiser overwhelms activation-level diﬀerences(Goodfellow et al.,2016).Thepracticalimplication: NeuroPlastissafetodeployontabulardatawithoutdegradation, but its advantages over simpler activations are marginal.",
+              "page": 16,
+              "position": 300
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "5.6Comparison with related work",
+          "level": 2,
+          "page_start": 16,
+          "page_end": 16,
+          "paragraphs": [
+            {
+              "text": "The learnable activations closest to ours diﬀer in construction, notmerelyindegreesoffreedom.PReLU(He et al.,2015) addsoneslopeperchannel.AdaptivePiecewiseLinearunits (Agostinelli et al.,2015)sumlearnablehingesegments.Padé Activation Units (Molina et al., 2020) ﬁt a rational polynomial with numeratoranddenominatorcoeﬃcients.Eachenlargesasingle functional family. NeuroPlast instead ﬁxes four component families (aboundedsigmoid,aGaussianplateau,arectiﬁeddrive,anda small inhibitory leak), each labeled after a synaptic mechanism, and shapesthemwithsixparameters;themetaplasticvariantmakes theirmixinginput-conditional.Theresultisabounded,non- monotonic proﬁle that piecewise-linear and rational forms do not impose by construction, and an explicit place to inject per-sample conditioning.Wedonotoversellthisdistinction.Theempirical gain over PReLU, Padé-style, and the standard smooth activations is small (Table 4); on datasets of this size the binding constraint is the data budget, not the activation’s ﬂexibility. Architecturally, NADN Ultra sits between lightweight CNNs (EﬃcientNet, MobileNet) and hybridCNN-Transformerdesigns(Tang et al.,2024;Wang et al., 2024):itusesCBAMattentionratherthanafulltransformer encoder, trading global context modeling for lower parameter count andreduceddatarequirements.Thispositioningisdeliberate— ourtargetapplicationismoderate-sizedmedicalimagingdatasets where transformer-scale architectures risk overﬁtting.",
+              "page": 16,
+              "position": 301
+            },
+            {
+              "text": "Structuralinnovationhascontinuedthrough2025.Recent CNN–Transformerhybrids(Manalı et al.,2025;Jayaraman et al., 2025; Toure et al., 2025) and multi-scale attention-fusion networks fordiagnosticimaging(Zhang et al.,2025)reshapehowfeatures",
+              "page": 16,
+              "position": 302
+            },
+            {
+              "text": "TABLE 14Gate × feature-KD ablation on the metaplastic variant.",
+              "page": 16,
+              "position": 303
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Gate Feature KD Brain tumor Skin cancer",
+              "level": 4,
+              "page_start": 16,
+              "page_end": 16,
+              "paragraphs": [
+                {
+                  "text": "Oﬀ Oﬀ 98.29 ± 0.43 81.73 ± 0.86",
+                  "page": 16,
+                  "position": 304
+                },
+                {
+                  "text": "Oﬀ On 98.61 ± 0.44 81.73 ± 0.79",
+                  "page": 16,
+                  "position": 305
+                },
+                {
+                  "text": "On Oﬀ 86.90 ± 20.99 75.62 ± 4.44",
+                  "page": 16,
+                  "position": 306
+                },
+                {
+                  "text": "On On 84.96 ± 26.27 79.95 ± 0.49",
+                  "page": 16,
+                  "position": 307
+                },
+                {
+                  "text": "Meanaccuracy(%)±std,ﬁvefolds(image-levelsplits;allrowssharetheprotocol,sothe comparison is internal). The gate, not feature-level KD, drives the collapse.",
+                  "page": 16,
+                  "position": 308
+                },
+                {
+                  "text": "traverseabackbone.NeuroPlastactsonadiﬀerentaxis:the elementwisenonlinearity,sixlearnablescalarsperactivationsite, withnosurroundinggraphsurgery.Thetwodirectionsare complementary,notcompeting.Anyofthesearchitecturesuses GELUorSwishinitsfeed-forwardsublayers,andsubstituting NeuroPlast there carries no architectural cost; the activation matrix ofSection4.3,whereNeuroPlastleadsthosesamefunctions underﬁxeddistillation,suggestssuchasubstitutionisworth testing.Ajointevaluationinsideahybridbackboneisthe natural continuation.",
+                  "page": 16,
+                  "position": 309
+                },
+                {
+                  "text": "5.7Biological plausibility: a design heuristic, not a mechanistic claim",
+                  "page": 16,
+                  "position": 310
+                },
+                {
+                  "text": "TheshiftedsigmoidlooselymirrorsNMDAreceptorvoltage gating(Paoletti et al.,2013);theGaussianplateaudrawson AMPAreceptorscalingproperties(Henley and Wilkinson,2016); the metaplastic gate is inspired by BCM theory’s sliding threshold(Bienenstock et al.,1982)andhomeostaticsynaptic scaling(Turrigiano,2008).Analysisofthelearnedparameters (Figure 9)showsthatshallowlayersfavorhighersigmoidweight (α),whiledeeperlayersshifttowardtheplateaucomponent, consistentwiththetransitionfromedgedetectiontosemantic feature extraction. We emphasize that the computational beneﬁt, to the extent it exists, stems from the smooth, non-monotonic proﬁle with six learnable degrees of freedom, not from biological ﬁdelity.",
+                  "page": 16,
+                  "position": 311
+                },
+                {
+                  "text": "Theneurosciencemetaphorservedasadesignheuristicthat guidedustowardamulti-componentarchitecturewemightnot haveexploredthroughpurelymathematicalconsiderations.This isconsistentwiththepositionofHassabis et al.(2017),who arguedthatneuroscienceprovidesdesignintuitionsratherthan engineering blueprints.",
+                  "page": 16,
+                  "position": 312
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "5.8Limitations",
+          "level": 2,
+          "page_start": 16,
+          "page_end": 17,
+          "paragraphs": [
+            {
+              "text": "1.NeuroPlastdefaultparametersweregrid-searchedonasingle dataset(BreastCancer,569samples)andreusedacrossall experiments.Per-datasettuningmightyieldbetterresultsbut would weaken generalisability claims. 2.Themetaplasticgatedidnotoutperformstaticparameterson anydataset—theconceptrequiresafundamentallydiﬀerent gating architecture or training protocol. 3.Feature-levelKDdestabilizedChestX-raytrainingwhen combined with the metaplastic gate; the stabilization ﬁx requires independent revalidation.",
+              "page": 16,
+              "position": 313
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 17 frontiersin.org",
+              "page": 16,
+              "position": 314
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 17,
+              "position": 315
+            },
+            {
+              "text": "FIGURE 9 Activation behavior heatmap. Learned NeuroPlast parameters across network stages for the static-KD variant on Brain Tumor MRI. Shallow layers (Stage 1) favor higher sigmoid weight (α), while deeper layers shift toward the plateau component, consistent with the transition from edge detection to semantic feature extraction through the network hierarchy.",
+              "page": 17,
+              "position": 316
+            },
+            {
+              "text": "4.Datasetsizesaremodest(5,800–10,800images).Diﬀerent dynamics may emerge on larger clinical cohorts. 5.KD depends on a pretrained teacher, so the pipeline is not fully independent of pretrained representations. 6.Fivefoldslimitstatisticalpower;pairedstatisticaltestsacross datasetsshouldbeinterpretedcautiously(Varma and Simon, 2006). 7.Allexperimentsusepublicbenchmarks.Clinicaldeployment requires prospective validation under CONSORT-AI guidelines (Liu et al., 2020) and analysis of dataset-speciﬁc biases (Roberts et al., 2021). 8.Reproducibility considerations: while all splits are ﬁxed (random_state=42),hardware-levelnon-determinismin CUDAoperationsmayproduceminorvariationacrossruns (Plesser, 2018).",
+              "page": 17,
+              "position": 317
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "6Conclusion",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "Wesetouttotestwhetherabio-inspiredlearnableactivation function,combinedwithknowledgedistillation,canclosethe performancegapbetweenfrom-scratchandpretrainedCNNson medicalimageclassiﬁcation.Theanswerisconditionallypositive: thecombinationworkswellontaskswithcleanclassseparation and suﬃcient data, but struggles on ﬁne-grained, imbalanced tasks where pretrained texture features remain essential.",
+          "page": 17,
+          "position": 318
+        },
+        {
+          "text": "TheNeuroPlastactivation,pairedwithlogit-levelKDfrom aﬁne-tunedEﬃcientNet-B0teacher,producedfourconcrete outcomes:(1)onCOVID-19X-ray,thestudentreached99.4– 99.5% across seeds, on par with EﬃcientNet-B0 (99.18%) and above ResNet-18(98.69%);(2)onBrainTumorMRI,itclosed65%of",
+          "page": 17,
+          "position": 319
+        },
+        {
+          "text": "the accuracy gap (98.29% vs. 99.13%) while reducing fold variance; (3) on Chest X-ray, a uniform class-balancing rule reached 92.5%, withadataset-speciﬁctunedscheduleretainedasexploratory evidenceinthesupplement(97.9%);(4)onSkinCancer,lesion- grouped cross-validation reached 79.5%, and a per-class breakdown showsthisﬁgureiscarriedbythemajorityclasswhilethemodel failstheraremelanoma-relatedsubgroups.Ontabularmedical data,NeuroPlastmatchedﬁveestablishedactivationsacrossthree datasets spanning three orders of magnitude in sample size.",
+          "page": 17,
+          "position": 320
+        },
+        {
+          "text": "The metaplastic gate, a squeeze-excite module generating per- sampleactivationmixingcoeﬃcients,didnotimproveoverstatic parameters on any dataset. A 2×2 ablation (gate on/oﬀ× feature- levelKDon/oﬀ)isolatesthecause:thegate,notfeature-levelKD, drives the instability, and the learned gate drifts to a nearly uniform mixingpoint(α, β)≈(0.50, 0.50)thatsuppliesnousefulinput- dependentconditioning.Pooledchannelstatisticsaretooweaka signal to steer an activation-level mechanism.",
+          "page": 17,
+          "position": 321
+        },
+        {
+          "text": "Themainpracticaltakeawayisthatknowledgedistillation isthedecisivefactorenablingfrom-scratcharchitecturesto approach pretrained-level performance. The activation matters too, butsecond:underanidenticaldistillationpipeline,NeuroPlast leadsReLU,GELU,Swish,Mish,andPReLUonallfour imagingbenchmarks,byconsistentmarginsbelowonepoint (Section4.3).Oneframingdeservesemphasis.Ourpipeline doesnotremovethepretraineddependency;itrelocatesit— fromstudentinitializationtoteachersupervision.Thatrelocation maycarrydeploymentvalue,sinceacompactdistilledstudent iseasiertoservethanaﬁne-tunedpretrainedbackbone, butthedependencyitselfisnoteliminated.Futurework shouldexplore:(i)alternativegatingarchitecturesforinput- conditionalactivations(e.g.,gradient-conditionedratherthan",
+          "page": 17,
+          "position": 322
+        },
+        {
+          "text": "Frontiers in Artiﬁcial Intelligence 18 frontiersin.org",
+          "page": 17,
+          "position": 323
+        },
+        {
+          "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+          "page": 18,
+          "position": 324
+        },
+        {
+          "text": "input-conditioned);(ii)evaluationonlargermedicalimaging cohorts(e.g.,CheXpertwith224 Kimages);(iii)multi-teacher distillationstrategiescombiningteacherswithcomplementary strengths;and(iv)integrationwithvisiontransformerbackbones where the activation function plays a diﬀerent architectural role.",
+          "page": 18,
+          "position": 325
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Data availability statement",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "Publiclyavailabledatasetswereanalysedinthisstudy: Brain Tumor MRI (https://www.kaggle.com/datasets/ masoudnickparvar/brain-tumor-mri-dataset); Chest X-ray Pneumonia (Kermany et al., 2018; https://data.mendeley.com/ datasets/rscbjbr9sj/2);SkinCancerHAM10000(Tschandl et al., 2018; https://doi.org/10.7910/DVN/DBW86T); COVID-19 Radiography (Chowdhury et al., 2020; https://www.kaggle. com/datasets/tawsifurrahman/covid19-radiography-database); WisconsinBreastCancer,PimaIndiansDiabetes,andHeart Disease BRFSS 2022 from the UCI Machine Learning Repository/CDC BRFSS.",
+          "page": 18,
+          "position": 326
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Author contributions",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "FV: Project administration, Formal analysis, Validation, Methodology,Datacuration,Supervision,Writing–original draft,Software,Conceptualization,Writing–review&editing, Resources, Visualization, Investigation. AB: Investigation, Resources,Visualization,Fundingacquisition,Software,Formal analysis,Conceptualization,Validation,Projectadministration, Data curation, Writing – review & editing, Supervision, Methodology. JP: Conceptualization, Data curation, Project administration,Validation,Supervision,Methodology,Writing– review&editing,Fundingacquisition,Resources,Investigation, Formal analysis, Software, Visualization. TD: Supervision, Conceptualization,Validation,Writing–review&editing, Software, Methodology, Investigation, Resources, Funding acquisition, Project administration, Formal analysis, Data curation, Visualization.AS:Validation,Conceptualization,Investigation, Writing–review&editing,Supervision,Methodology,Software, Fundingacquisition,Projectadministration,Resources,Formal analysis,Datacuration,Visualization.GG:Validation,Software, Data curation, Visualization, Conceptualization, Resources, Methodology, Funding acquisition, Project administration, Formal analysis,Writing–review&editing,Investigation,Supervision. SC: Funding acquisition, Resources, Visualization, Formal analysis, Software,Supervision,Projectadministration,Conceptualization, Validation,Methodology,Writing–review&editing,Data curation, Investigation.",
+          "page": 18,
+          "position": 327
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that ﬁnancial support was received for thisworkand/oritspublication.Thisworkwassupportedbythe NaturalSciencesandEngineeringResearchCouncilofCanada (NSERC) and École de technologie supérieure (ÉTS).",
+          "page": 18,
+          "position": 328
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Acknowledgments",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "Computationalresourceswereprovidedbytheauthors’ laboratoryatÉTS.Theoriginalimagingandtabularexperiments useddualNVIDIARTX5060Ti16 GBGPUs;theadditional experimentsrequestedduringrevisionwererunonanNVIDIA RTX5090.Theauthorsthankthecreatorsofthepublicdatasets usedinthisstudyformakingtheirdataavailabletothe research community.",
+          "page": 18,
+          "position": 329
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conﬂict of interest",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "Theauthor(s)declaredthatthisworkwasconductedinthe absence of any commercial or ﬁnancial relationships that could be construed as a potential conﬂict of interest.",
+          "page": 18,
+          "position": 330
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Generative AI statement",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "Theauthor(s)declaredthatGenerativeAIwasusedin thecreationofthismanuscript.Theauthor(s)declarethat generativeAItoolswereusedforlanguageediting,drafting assistance,andcodereviewduringthepreparationofthis manuscript. All scientiﬁc content, experimental design, analysis,andinterpretationwereproducedandveriﬁedby the authors.",
+          "page": 18,
+          "position": 331
+        },
+        {
+          "text": "Anyalternativetext(alttext)providedalongsideﬁgures inthisarticlehasbeengeneratedbyFrontierswiththe supportofartiﬁcialintelligenceandreasonableeﬀortshave been made to ensure accuracy, including review by the authorswhereverpossible.Ifyouidentifyanyissues,please contact us.",
+          "page": 18,
+          "position": 332
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Publisher’s note",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "All claims expressed in this article are solely those oftheauthorsanddonotnecessarilyrepresentthoseof their aﬃliated organizations, or those of the publisher, theeditorsandthereviewers.Anyproductthatmaybe evaluatedinthisarticle,orclaimthatmaybemadeby its manufacturer, is not guaranteed or endorsed by the publisher.",
+          "page": 18,
+          "position": 333
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Supplementary material",
+      "level": 1,
+      "page_start": 18,
+      "page_end": 19,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "TheSupplementaryMaterialforthisarticlecanbefound onlineat:https://www.frontiersin.org/articles/10.3389/frai.2026. 1849571/full#supplementary-material",
+          "level": 4,
+          "page_start": 18,
+          "page_end": 19,
+          "paragraphs": [
+            {
+              "text": "SUPPLEMENTARY MATERIAL Exploratory Chest X-ray results under the dataset-speciﬁc tuned schedule (97.9%) and the original global-balanced COVID-19 result (99.46%), retained for transparency.",
+              "page": 18,
+              "position": 334
+            },
+            {
+              "text": "Frontiers in Artiﬁcial Intelligence 19 frontiersin.org",
+              "page": 18,
+              "position": 335
+            },
+            {
+              "text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+              "page": 19,
+              "position": 336
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Abraham,W.C.,andBear,M.F.(1996).Metaplasticity:theplasticityofsynaptic plasticity. Trends Neurosci. 19, 126–130. doi: 10.1016/S0166-2236(96)80018-X",
+      "authors": [],
+      "title": null,
+      "year": 1996,
+      "venue": null,
+      "doi": "10.1016/S0166-2236(96)80018-X"
+    },
+    {
+      "id": 2,
+      "raw_text": "Agostinelli, F., Hoﬀman, M., Sadowski,P., andBhatt, P. (2015). “Learning activation functionstoimprovedeepneuralnetworks,”inProceedingsofthe3rdInternational Conference on Learning Representations (Workshop Track).",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "Apicella,A.,Donnarumma,F.,Isgró,F.,andPrevete,R.(2021).Asurvey on modern trainable activation functions. Neural Netw. 138, 14–32. doi: 10.1016/j.neunet.2021.01.026",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1016/j.neunet.2021.01.026"
+    },
+    {
+      "id": 4,
+      "raw_text": "Bienenstock, E. L., Cooper, L. N., and Munro, P. W. (1982). Theory for the development of neuron selectivity: orientation speciﬁcity and binocular interaction in visual cortex. J. Neurosci. 2, 32–48. doi: 10.1523/JNEUROSCI.02-01-00032.1982",
+      "authors": [],
+      "title": null,
+      "year": 1982,
+      "venue": null,
+      "doi": "10.1523/JNEUROSCI.02-01-00032.1982"
+    },
+    {
+      "id": 5,
+      "raw_text": "Chen,J.,Lu,Y.,Yu,Q.,Luo,X.,Adeli,E.,Wang,Y.,etal.(2021).TransUNet: Transformers make strong encoders for medical image segmentation. arXiv [preprint] arXiv:2102.04306. doi: 10.48550/arXiv.2102.04306",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.48550/arXiv.2102.04306"
+    },
+    {
+      "id": 6,
+      "raw_text": "Chowdhury,M.E.H.,Rahman,T.,Khandakar,A.,Mazhar,R.,Kadir,M.A., Mahbub,Z.B.,etal.(2020).CanAIhelpinscreeningviralandCOVID- 19pneumonia?IEEEAccess8,132665–132676.doi:10.1109/ACCESS.2020.30 10287",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1109/ACCESS.2020.30"
+    },
+    {
+      "id": 7,
+      "raw_text": "Clevert,D.-A.,Unterthiner,T.,andHochreiter,S.(2016).“Fastandaccuratedeep networklearningbyexponentiallinearunits(ELUs),”inProceedingsofthe4th International Conference on Learning Representations (San Juan).",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Doerig, A., Sommers, R. P., Seeliger, K., Richards, B., Ismael, J., Lindsay, G. W., et al. (2023). The neuroconnectionist research programme. Nat. Rev. Neurosci. 24, 431–450. doi: 10.1038/s41583-023-00705-w",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1038/s41583-023-00705-w"
+    },
+    {
+      "id": 9,
+      "raw_text": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., etal.(2020).Animageisworth16x16words:transformersforimagerecognitionat scale. arXiv [preprint] arXiv:2010.11929. doi: 10.48550/arXiv.2010.11929",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.48550/arXiv.2010.11929"
+    },
+    {
+      "id": 10,
+      "raw_text": "Dubey,S.R.,Singh,S.K.,andChaudhuri,B.B.(2022).Activationfunctionsin deep learning: a comprehensive survey and benchmark. Neurocomputing 503, 92–108. doi: 10.1016/j.neucom.2022.06.111",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": "10.1016/j.neucom.2022.06.111"
+    },
+    {
+      "id": 11,
+      "raw_text": "Esteva,A.,Kuprel,B.,Novoa,R.A.,Ko,J.,Swetter,S.M.,Blau,H.M.,etal.(2017). Dermatologist-level classiﬁcation of skin cancer with deep neural networks. Nature 542, 115–118. doi: 10.1038/nature21056",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.1038/nature21056"
+    },
+    {
+      "id": 12,
+      "raw_text": "Glorot, X., Bordes, A., and Bengio, Y. (2011). “Deep sparse rectiﬁer neural networks,” in Proceedings of the 14th International Conference on Artiﬁcial Intelligence and Statistics (AISTATS) (Fort Lauderdale, FL: PMLR), 315 –323.",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 13,
+      "raw_text": "Goodfellow, I., Bengio, Y., and Courville, A. (2016). Deep Learning. Cambridge, MA: MIT Press.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 14,
+      "raw_text": "Gou, J., Yu, B., Maybank, S. J., and Tao, D. (2021). Knowledge distillation: a survey. Int. J. Comput. Vis. 129, 1789–1819. doi: 10.1007/s11263-021-01453-z",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1007/s11263-021-01453-z"
+    },
+    {
+      "id": 15,
+      "raw_text": "Hassabis, D., Kumaran, D., Summerﬁeld, C., and Botvinick, M. (2017). Neuroscience- inspired artiﬁcial intelligence. Neuron 95, 245–258. doi: 10.1016/j.neuron.2017.06.011",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.1016/j.neuron.2017.06.011"
+    },
+    {
+      "id": 16,
+      "raw_text": "Hatamizadeh,A.,Tang,Y.,Nath,V.,Yang,D.,Myronenko,A.,Landman,B.,etal. (2022).“UNETR:Transformersfor3dmedicalimagesegmentation,”inProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (Waikoloa, HI; Piscataway, NJ: IEEE), 574–584.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 17,
+      "raw_text": "He, K., Zhang, X., Ren, S., and Sun, J. (2015). “Delving deep into rectiﬁers: surpassing human-levelperformanceonimagenetclassiﬁcation,”inProceedingsoftheIEEE International Conference on Computer Vision (Santiago: IEEE), 1026–1034.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 18,
+      "raw_text": "He,K.,Zhang,X.,Ren,S.,andSun,J.(2016).“Deepresiduallearningforimage recognition,”inProceedingsoftheIEEEConferenceonComputerVisionandPattern Recognition (IEEE) 770–778.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 19,
+      "raw_text": "Hendrycks,D.,andGimpel,K.(2016).Gaussianerrorlinearunits(GELUs).arXiv [preprint] arXiv:1606.08415. doi: 10.48550/arXiv.1606.08415",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.48550/arXiv.1606.08415"
+    },
+    {
+      "id": 20,
+      "raw_text": "Henley,J.M.,andWilkinson,K.A.(2016).SynapticAMPAreceptorcomposition in development, plasticity and disease. Nat. Rev. Neurosci. 17, 337–350. doi: 10.1038/nrn.2016.37",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.1038/nrn.2016.37"
+    },
+    {
+      "id": 21,
+      "raw_text": "Hinton,G.,Vinyals,O.,andDean,J.(2015).Distillingtheknowledgeinaneural network. arXiv [preprint] arXiv:1503.02531. doi: 10.48550/arXiv.1503.02531",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.48550/arXiv.1503.02531"
+    },
+    {
+      "id": 22,
+      "raw_text": "Hu, J., Shen, L., and Sun, G. (2018). “Squeeze-and-excitation networks,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (Salt Lake City, UT: IEEE), 7132–7141.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 23,
+      "raw_text": "Huang,G.,Liu,Z.,VanDerMaaten,L.,andWeinberger,K.Q.(2017).“Densely connected convolutional networks,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (Honolulu, HI: IEEE), 4700–4708. IEEE.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 24,
+      "raw_text": "Huang, G., Sun, Y., Liu, Z., Sedra, D., and Weinberger, K. Q. (2016). “Deep networks with stochastic depth,” in European Conference on Computer Vision (Cham: Springer), 646–661.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 25,
+      "raw_text": "Jagtap,A.D.,Kawaguchi,K.,andKarniadakis,G.E.(2020).Adaptiveactivation functionsaccelerateconvergenceindeepandphysics-informedneuralnetworks.J. Comput. Phys. 404:109136. doi: 10.1016/j.jcp.2019.109136",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1016/j.jcp.2019.109136"
+    },
+    {
+      "id": 26,
+      "raw_text": "Jayaraman,G.,Meganathan,S.,Shah,S.S.M.,Anuradha,M.,Sundararajan,R.K., and Rajakumar, R. (2025). A hybrid CNN-ViT framework with cross-attention fusion anddataaugmentationforrobustbraintumorclassiﬁcation.Sci.Rep.15:45769. doi: 10.1038/s41598-025-28636-9",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1038/s41598-025-28636-9"
+    },
+    {
+      "id": 27,
+      "raw_text": "Kapoor,S.,andNarayanan,A.(2023).Leakageandthereproducibilitycrisisin machine-learning-based science. Patterns 4:100804. doi: 10.1016/j.patter.2023.100804",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1016/j.patter.2023.100804"
+    },
+    {
+      "id": 28,
+      "raw_text": "Kermany,D.S.,Goldbaum,M.,Cai,W.,Valentim,C.C.,Liang,H.,Baxter,S.L., et al. (2018). Identifying medical diagnoses and treatable diseases by image-based deep learning. Cell 172, 1122–1131. doi: 10.1016/j.cell.2018.02.010",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1016/j.cell.2018.02.010"
+    },
+    {
+      "id": 29,
+      "raw_text": "LeCun,Y.,Bengio,Y.,andHinton,G.(2015).Deeplearning.Nature521,436–444. doi: 10.1038/nature14539",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.1038/nature14539"
+    },
+    {
+      "id": 30,
+      "raw_text": "Lin, T.-Y., Goyal, P., Girshick, R., He, K., and Dollár, P. (2017). “Focal loss for dense objectdetection,”inProceedingsoftheIEEEInternationalConferenceonComputer Vision (Venice: IEEE). 2980–2988.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 31,
+      "raw_text": "Liu,X.,CruzRivera,S.,Moher,D.,Calvert,M.J.,Denniston,A.K.,Chan,A.-W., et al. (2020). Reporting guidelines for clinical trial reports for interventions involving artiﬁcial intelligence: the CONSORT-AI extension. Lancet Digit. Health 2, e537–e548. doi: 10.1136/bmj.m3164",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1136/bmj.m3164"
+    },
+    {
+      "id": 32,
+      "raw_text": "Liu,Z., Lin,Y., Cao,Y., Hu,H., Wei,Y.,Zhang,Z., etal.(2021).“Swintransformer: Hierarchical vision transformer using shifted windows,” in Proceedings of the IEEE/CVF International Conference on Computer Vision (Montreal, QC: IEEE), 10012–10022.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 33,
+      "raw_text": "Manalı,D.,Akel,M.,andDemirel,H.(2025).ComparativeanalysisofCNN,vision transformer,andhybridarchitecturesforwhitebloodcancerclassiﬁcation.Signal Image Video Proc. 19:1452. doi: 10.1007/s11760-025-05041-3",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1007/s11760-025-05041-3"
+    },
+    {
+      "id": 34,
+      "raw_text": "Misra,D.(2020).Mish:Aselfregularizednon-monotonicactivationfunction.arXiv [preprint] arXiv:1908.08681. doi: 10.5244/C.34.191",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.5244/C.34.191"
+    },
+    {
+      "id": 35,
+      "raw_text": "Molina, A., Schramowski, P., and Kersting, K. (2020). “Padé activation units: End-to- end learning of ﬂexible activation functions in deep networks,” in Proceedings of the 8th International Conference on Learning Representations (Addis Ababa).",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 36,
+      "raw_text": "Müller,S.G.,andHutter,F.(2021).“TrivialAugment:tuning-freeyetstate-of-the- artdataaugmentation,”inProceedingsoftheIEEE/CVFInternationalConferenceon Computer Vision, 774–782. doi: 10.48550/arXiv.2103.10158",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.48550/arXiv.2103.10158"
+    },
+    {
+      "id": 37,
+      "raw_text": "Nickparvar,M.(2023).BrainTumorMRIDataset.SanFrancisco:Kaggle.Available online at: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri- dataset (Accessed June 2025).",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 38,
+      "raw_text": "Paoletti, P., Bellone, C., and Zhou, Q. (2013). NMDA receptor subunit diversity: impact on receptor properties, synaptic plasticity and disease. Nat. Rev. Neurosci. 14, 383–400. doi: 10.1038/nrn3504",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": "10.1038/nrn3504"
+    },
+    {
+      "id": 39,
+      "raw_text": "Plesser,H.E.(2018).Reproducibilityvs.replicability:abriefhistoryofaconfused terminology. Front. Neuroinform. 11:76. doi: 10.3389/fninf.2017.00076",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.3389/fninf.2017.00076"
+    },
+    {
+      "id": 40,
+      "raw_text": "Raghu, M., Zhang, C., Kleinberg, J., and Bengio, S. (2019). “Transfusion: understanding transferlearningformedicalimaging,”inAdvancesinNeuralInformationProcessing Systems, volume 32 (Vancouver, BC; Red Hook, NY: Curran Associates).",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 41,
+      "raw_text": "Rajpurkar, P., Irvin, J., Zhu, K., Yang, B., Mehta, H., Duan, T., et al. (2017). CheXNet: Radiologist-levelpneumoniadetectiononchestX-rayswithdeeplearning.arXiv [preprint] arXiv:1711.05225. doi: 10.48550/arXiv.1711.05225",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.48550/arXiv.1711.05225"
+    },
+    {
+      "id": 42,
+      "raw_text": "Ramachandran, P., Zoph, B., and Le, Q. V. (2017). Searching for activation functions. arXiv [preprint] arXiv:1710.05941. doi: 10.48550/arXiv.1710.05941",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.48550/arXiv.1710.05941"
+    },
+    {
+      "id": 43,
+      "raw_text": "Roberts, M., Driggs, D., Thorpe, M., Gilbey, J., Yeung, M., Ursprung, S., et al. (2021). Commonpitfallsandrecommendationsforusingmachinelearningtodetectand prognosticateforcovid-19usingchestradiographsandctscans.Nat.Mach.Intellig. 3, 199–217. doi: 10.1038/s42256-021-00307-0",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1038/s42256-021-00307-0"
+    },
+    {
+      "id": 44,
+      "raw_text": "Romero,A.,Ballas,N.,Kahou,S.E.,Chassang,A.,Gatta,C.,andBengio,Y.(2015). “FitNets: Hints for thin deep nets,” in Proceedings of the 3rd International Conference on Learning Representations (ICLR) (San Diego, CA).",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 45,
+      "raw_text": "Tan, M., and Le, Q. (2019). “EﬃcientNet: rethinking model scaling for convolutional neuralnetworks,”inProceedingsofthe36thInternationalConferenceonMachine Learning (New York: PMLR), 6105–6114.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 46,
+      "raw_text": "Tang,H.,Chen,Y.,Wang,T.,Zhou,Y.,Zhao,L.,Gao,Q.,etal.(2024).Htc-Net:a hybrid CNN-transformer framework for medical image segmentation. Biomed. Signal Process. Control 88:105605. doi: 10.1016/j.bspc.2023.105605",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1016/j.bspc.2023.105605"
+    },
+    {
+      "id": 47,
+      "raw_text": "Tarvainen, A., and Valpola, H. (2017). “Mean teachers are better role models: Weight- averaged consistency targets improve semi-supervised learning results,” in Advances in NeuralInformationProcessingSystems,volume30(LongBeach,CA;RedHook,NY: Curran Associates).",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 48,
+      "raw_text": "Tian,Y.,Krishnan,D.,andIsola,P.(2020).“Contrastiverepresentationdistillation,” in Proceedings of the 8th International Conference on Learning Representations (ICLR) (Addis Ababa).",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 49,
+      "raw_text": "Toure,A.,Haman,I.A.,Benbakreti,S.,Roumane,A.,Benbakreti,S.,andBenouis, M.(2025).Melanomaskinclassiﬁcationusingthehybridapproachresidual network-visiontransformerforcancerdiagnosis.J.Clini.Ultrasound53:24002. doi: 10.1002/jcu.24002",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1002/jcu.24002"
+    },
+    {
+      "id": 50,
+      "raw_text": "Frontiers in Artiﬁcial Intelligence 20 frontiersin.org",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 51,
+      "raw_text": "Vaussenat et al. 10.3389/frai.2026.1849571",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.3389/frai.2026.1849571"
+    },
+    {
+      "id": 52,
+      "raw_text": "Tschandl,P.,Rosendahl,C.,andKittler,H.(2018).TheHAM10000dataset,alarge collection of multi-source dermatoscopic images of common pigmented skin lesions. Scientiﬁc Data 5, 1–9. doi: 10.1038/sdata.2018.161",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1038/sdata.2018.161"
+    },
+    {
+      "id": 53,
+      "raw_text": "Turrigiano, G. G. (2008). The self-tuning neuron: Synaptic scaling of excitatory synapses. Cell 135, 422–435. doi: 10.1016/j.cell.2008. 10.008",
+      "authors": [],
+      "title": null,
+      "year": 2008,
+      "venue": null,
+      "doi": "10.1016/j.cell.2008"
+    },
+    {
+      "id": 54,
+      "raw_text": "Varma, S., and Simon, R. (2006). Bias in error estimation when using cross-validation for model selection. BMC Bioinformat. 7:91. doi: 10.1186/1471-2105-7-91",
+      "authors": [],
+      "title": null,
+      "year": 2006,
+      "venue": null,
+      "doi": "10.1186/1471-2105-7-91"
+    },
+    {
+      "id": 55,
+      "raw_text": "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., et al. (2017). “Attentionisallyouneed,”inAdvancesinNeuralInformationProcessingSystems, volume 30 (New York: Curran Associates), 5998–6008.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 56,
+      "raw_text": "Vaussenat,F.,Bhattacharya,A.,Payette,J.,Saidi,A.,Bellemin,V.,Renaud- Dumoulin, G.-G., et al. (2026). Early drowsiness detection via second- order derivative analysis of heart rate variability: a non-contact ECG approach with machine learning. Sensors 26:1348. doi: 10.3390/s260 41348",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.3390/s260"
+    },
+    {
+      "id": 57,
+      "raw_text": "Wang, K., Zhang, X., Huang, Y., Qian, Y., and Wang, Z. (2024). UCTNet: Uncertainty- guidedCNN-transformerhybridnetworksformedicalimagesegmentation.Pattern Recognit. 145:109881.",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 58,
+      "raw_text": "Woo,S.,Park,J.,Lee,J.-Y.,andKweon,I.S.(2018).“CBAM:Convolutionalblock attentionmodule,”inProceedingsoftheEuropeanConferenceonComputerVision (ECCV) (Munich; Cham: Springer), 3–19.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 59,
+      "raw_text": "Yun,S.,Han,D.,Oh,S.J.,Chun,S.,Choe,J.,andYoo,Y.(2019).“CutMix: regularizationstrategytotrainstrongclassiﬁerswithlocalizablefeatures,”in ProceedingsoftheIEEE/CVFInternationalConferenceonComputerVision(Seoul: IEEE), 6023–6032.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 60,
+      "raw_text": "Zador,A.,Escola,S.,Richards,B.,Ölveczky,B.,Bengio,Y.,Boahen,K.,etal.(2023). Catalyzingnext-generationArtiﬁcialIntelligencethroughNeuroAI.Nat.Commun. 14:1597. doi: 10.1038/s41467-023-37180-x",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1038/s41467-023-37180-x"
+    },
+    {
+      "id": 61,
+      "raw_text": "Zenke,F.,Hennequin,G.,andGerstner,W.(2013).Synapticplasticityinneural networks needs homeostasis with a fast rate detector. PLoS Comput. Biol. 9:e1003330. doi: 10.1371/journal.pcbi.1003330",
+      "authors": [],
+      "title": null,
+      "year": 2013,
+      "venue": null,
+      "doi": "10.1371/journal.pcbi.1003330"
+    },
+    {
+      "id": 62,
+      "raw_text": "Zhang,H.,Cisse,M.,Dauphin,Y.N.,andLopez-Paz,D.(2018).“mixup:beyond empiricalriskminimization,”inProceedingsofthe6thInternationalConferenceon Learning Representations (ICLR) (Vancouver, BC).",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 63,
+      "raw_text": "Zhang,M.,Liu,Q.,Zhan,J.,Gao,J.,Xie,D.,andLiu,J.(2025).Adualattention andmulti-scalefusionnetworkfordiabeticretinopathyimageanalysis.Front.Med. 12:1614046. doi: 10.3389/fmed.2025.1614046",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.3389/fmed.2025.1614046"
+    },
+    {
+      "id": 64,
+      "raw_text": "Frontiers in Artiﬁcial Intelligence 21 frontiersin.org",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 21,
+  "warnings": []
+}

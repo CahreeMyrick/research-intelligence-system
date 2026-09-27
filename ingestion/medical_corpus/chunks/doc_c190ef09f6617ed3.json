@@ -1,0 +1,529 @@
+{
+  "document_id": "doc_c190ef09f6617ed3",
+  "chunk_count": 21,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0000",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0000",
+      "section_title": "(preamble)",
+      "section_path": [
+        "(preamble)"
+      ],
+      "source_text": "Review began 08/10/2026\n\nReview ended 08/17/2026\n\nPublished 08/25/2026",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: (preamble)\n\nReview began 08/10/2026\n\nReview ended 08/17/2026\n\nPublished 08/25/2026",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0,
+        1,
+        2
+      ],
+      "token_count": 23,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0001",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0001",
+      "section_title": "© Copyright 2026",
+      "section_path": [
+        "© Copyright 2026"
+      ],
+      "source_text": "Snene et al. This is an open access article\n\ndistributed under the terms of the Creative\n\nCommons Attribution License CC-BY 4.0.,\n\nwhich permits unrestricted use, distribution,\n\nand reproduction in any medium, provided\n\nthe original author and source are credited.\n\nDOI: 10.7759/cureus.115134\n\nThe Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis\n\nHouda Snene , Monia Attia , Imen Alioua , Nadia Mehiri , Bechir Louzir\n\n1. Department of Pulmonology and Allergology, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN 2. Department of Medical Imaging, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN\n\nCorresponding author: Houda Snene, houda.snen@gmail.com",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: © Copyright 2026\n\nSnene et al. This is an open access article\n\ndistributed under the terms of the Creative\n\nCommons Attribution License CC-BY 4.0.,\n\nwhich permits unrestricted use, distribution,\n\nand reproduction in any medium, provided\n\nthe original author and source are credited.\n\nDOI: 10.7759/cureus.115134\n\nThe Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis\n\nHouda Snene , Monia Attia , Imen Alioua , Nadia Mehiri , Bechir Louzir\n\n1. Department of Pulmonology and Allergology, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN 2. Department of Medical Imaging, Mongi Slim University Hospital, Tunis El Manar University, La Marsa, Tunis, TUN\n\nCorresponding author: Houda Snene, houda.snen@gmail.com",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "token_count": 206,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0002",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0002",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "Middle lobe syndrome (MLS) is characterized by recurrent or chronic collapse of the right middle lobe of the lung. While non-vascular inflammatory causes dominate, endobronchial rupture of mediastinal tuberculous lymphadenitis causing obstructive MLS is an under-recognized entity that presents significant diagnostic challenges. In this context, we report the case of a 24-year-old male immigrant with no past medical history who presented with cough and right-sided chest pain. Chest radiography revealed right middle lobe alveolar opacity. He received empirical levofloxacin without radiological follow-up. Four months later, he experienced symptom recurrence associated with weight loss, asthenia, and night sweats. Repeat chest radiography revealed persistent middle lobe consolidation with ipsilateral pleural effusion. Sputum smear for acid-fast bacilli and PCR for Mycobacterium tuberculosis were negative. Chest CT confirmed necrotic mediastinal lymph nodes with endobronchial rupture into the middle lobe bronchus and cavitated middle lobe consolidation. Flexible bronchoscopy demonstrated mucosal infiltration and pearly-white stenosis of the middle lobar bronchus. Endobronchial biopsies revealed necrotizing epithelioid and giant-cell granulomatous inflammation. The diagnosis of obstructive MLS secondary to endobronchial tuberculosis following lymph node rupture was established, and antituberculosis therapy was initiated. In conclusion, tuberculous lymphadenitis with broncho-nodular fistulization should be considered in the etiology of obstructive MLS. Initial empirical fluoroquinolone treatment can mask bacteriological detection, highlighting the essential diagnostic role of endobronchial biopsies.\n\nCategories: Radiology, Pulmonology Keywords: bronchodular fistula, endobronchial tuberculosis, mediastinal lymphadenitis, middle lobe syndrome, tuberculosis",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Abstract\n\nMiddle lobe syndrome (MLS) is characterized by recurrent or chronic collapse of the right middle lobe of the lung. While non-vascular inflammatory causes dominate, endobronchial rupture of mediastinal tuberculous lymphadenitis causing obstructive MLS is an under-recognized entity that presents significant diagnostic challenges. In this context, we report the case of a 24-year-old male immigrant with no past medical history who presented with cough and right-sided chest pain. Chest radiography revealed right middle lobe alveolar opacity. He received empirical levofloxacin without radiological follow-up. Four months later, he experienced symptom recurrence associated with weight loss, asthenia, and night sweats. Repeat chest radiography revealed persistent middle lobe consolidation with ipsilateral pleural effusion. Sputum smear for acid-fast bacilli and PCR for Mycobacterium tuberculosis were negative. Chest CT confirmed necrotic mediastinal lymph nodes with endobronchial rupture into the middle lobe bronchus and cavitated middle lobe consolidation. Flexible bronchoscopy demonstrated mucosal infiltration and pearly-white stenosis of the middle lobar bronchus. Endobronchial biopsies revealed necrotizing epithelioid and giant-cell granulomatous inflammation. The diagnosis of obstructive MLS secondary to endobronchial tuberculosis following lymph node rupture was established, and antituberculosis therapy was initiated. In conclusion, tuberculous lymphadenitis with broncho-nodular fistulization should be considered in the etiology of obstructive MLS. Initial empirical fluoroquinolone treatment can mask bacteriological detection, highlighting the essential diagnostic role of endobronchial biopsies.\n\nCategories: Radiology, Pulmonology Keywords: bronchodular fistula, endobronchial tuberculosis, mediastinal lymphadenitis, middle lobe syndrome, tuberculosis",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        14,
+        15
+      ],
+      "token_count": 438,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0003",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0003",
+      "section_title": "Introduction",
+      "section_path": [
+        "Introduction"
+      ],
+      "source_text": "Middle lobe syndrome (MLS) refers to a spectrum of conditions that lead to chronic or recurrent atelectasis or consolidation of the right middle lobe [1, 2]. Mechanistically, MLS is categorized into obstructive and non-obstructive types [1]. The unique anatomical features of the middle lobe bronchus, which are its small diameter, acute take-off angle, and surrounding collar of lymphatic channels, render it particularly vulnerable to extrinsic compression and secondary endobronchial involvement [1, 2].\n\nAlthough inflammatory conditions (47%) and malignant tumors (22%) represent the primary etiologies of MLS, tuberculous origin accounts for approximately 9% of cases [1, 3]. Mediastinal tuberculous lymphadenitis eroding directly into the tracheobronchial tree represents a rare and challenging cause of obstructive MLS [3-5]. Here, we report a case of obstructive MLS resulting from endobronchial rupture of necrotic hilar/mediastinal tuberculous lymph nodes and provide a brief literature review focused on clinical management and diagnostic caveats.",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Introduction\n\nMiddle lobe syndrome (MLS) refers to a spectrum of conditions that lead to chronic or recurrent atelectasis or consolidation of the right middle lobe [1, 2]. Mechanistically, MLS is categorized into obstructive and non-obstructive types [1]. The unique anatomical features of the middle lobe bronchus, which are its small diameter, acute take-off angle, and surrounding collar of lymphatic channels, render it particularly vulnerable to extrinsic compression and secondary endobronchial involvement [1, 2].\n\nAlthough inflammatory conditions (47%) and malignant tumors (22%) represent the primary etiologies of MLS, tuberculous origin accounts for approximately 9% of cases [1, 3]. Mediastinal tuberculous lymphadenitis eroding directly into the tracheobronchial tree represents a rare and challenging cause of obstructive MLS [3-5]. Here, we report a case of obstructive MLS resulting from endobronchial rupture of necrotic hilar/mediastinal tuberculous lymph nodes and provide a brief literature review focused on clinical management and diagnostic caveats.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        16,
+        17
+      ],
+      "token_count": 257,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0004",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0004",
+      "section_title": "Case Presentation",
+      "section_path": [
+        "Case Presentation"
+      ],
+      "source_text": "A 24-year-old male immigrant living in a precarious social situation with no previous medical history presented to a community healthcare physician with a persistent cough and right-sided chest pain. Initial chest radiography revealed alveolar opacity localized in the right middle lobe (Figure 1A). He was treated empirically with a standard course of levofloxacin without subsequent post-treatment radiological evaluation. Four months after the completion of the initial antibiotic course, the patient experienced a clinical relapse, characterized by recurrent cough, right chest pain, profuse night sweats, and significant constitutional symptoms, including asthenia, anorexia, and weight loss. Physical examination revealed a hemodynamically stable patient without respiratory distress. Laboratory investigations are detailed in Table 1. The analyses revealed a normal white blood cell count without lymphopenia, normocytic normochromic anemia (hemoglobin: 11.2 g/dL), significantly elevated C-reactive protein (153.33 mg/L), and overall preserved renal and liver functions.\n\n1 2 1 1 1",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\n\nA 24-year-old male immigrant living in a precarious social situation with no previous medical history presented to a community healthcare physician with a persistent cough and right-sided chest pain. Initial chest radiography revealed alveolar opacity localized in the right middle lobe (Figure 1A). He was treated empirically with a standard course of levofloxacin without subsequent post-treatment radiological evaluation. Four months after the completion of the initial antibiotic course, the patient experienced a clinical relapse, characterized by recurrent cough, right chest pain, profuse night sweats, and significant constitutional symptoms, including asthenia, anorexia, and weight loss. Physical examination revealed a hemodynamically stable patient without respiratory distress. Laboratory investigations are detailed in Table 1. The analyses revealed a normal white blood cell count without lymphopenia, normocytic normochromic anemia (hemoglobin: 11.2 g/dL), significantly elevated C-reactive protein (153.33 mg/L), and overall preserved renal and liver functions.\n\n1 2 1 1 1",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        18,
+        19
+      ],
+      "token_count": 229,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0005",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0005",
+      "section_title": "Open Access Case Report",
+      "section_path": [
+        "Case Presentation",
+        "Open Access Case Report"
+      ],
+      "source_text": "How to cite this article Snene H, Attia M, Alioua I, et al. (August 25, 2026) The Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis. Cureus 18(8): e115134. DOI 10.7759/cureus.115134",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: Open Access Case Report\n\nHow to cite this article Snene H, Attia M, Alioua I, et al. (August 25, 2026) The Silent Sentinel’s Breach: Middle Lobe Syndrome Caused by Endobronchial Rupture of Mediastinal Tuberculous Lymphadenitis. Cureus 18(8): e115134. DOI 10.7759/cureus.115134",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        20
+      ],
+      "token_count": 86,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0006",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0006",
+      "section_title": "Laboratory parameter Patient's result Reference range Units",
+      "section_path": [
+        "Case Presentation",
+        "Laboratory parameter Patient's result Reference range Units"
+      ],
+      "source_text": "Laboratory parameter Patient's result Reference range Units",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: Laboratory parameter Patient's result Reference range Units\n\nLaboratory parameter Patient's result Reference range Units",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [],
+      "token_count": 9,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0007",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0007",
+      "section_title": "Hematology (Complete blood count)",
+      "section_path": [
+        "Case Presentation",
+        "Hematology (Complete blood count)"
+      ],
+      "source_text": "White blood cells 6.65 4.00 – 10.00 x 109/L\n\nNeutrophils (Absolute) 3.98 1.70 – 7.10 x 109/L\n\nLymphocytes (Absolute) 2.16 1.50 – 4.10 x 109/L\n\nHemoglobin 11.2 12.0 – 18.0 g/dL\n\nMean corpuscular volume 74.9 80.0 – 100.0 fL\n\nMean corpuscular hemoglobin 24.4 26.0 – 34.0 pg\n\nMean corpuscular hemoglobin concentration 32.6 32.0 – 36.0 g/dL\n\nPlatelets 402 150 – 450 x 109/L\n\nInflammatory marker\n\nC-Reactive Protein 153.33 < 7 mg/L\n\nRenal function and electrolytes\n\nUrea 1.66 2.50 – 7.50 mmol/L\n\nCreatinine 70.54 53.00 – 115.00 µmol/L\n\nSodium 134 136 – 145 mmol/L\n\nPotassium 4.36 3.50 – 4.90 mmol/L\n\nChloride 99 98 – 107 mmol/L\n\nUric Acid 264.46 200.00 – 420.00 µmol/L\n\nHepatic function and enzymes\n\nTotal bilirubin 5.1 5 – 17 µmol/L\n\nDirect bilirubin 1.0 < 5 µmol/L\n\nAspartate aminotransferase 37 5 – 40 IU/L\n\nAlanine aminotransferase 28 5 – 40 IU/L\n\nAlkaline phosphatase 106 40 – 129 IU/L\n\nGamma-glutamyl transferase 83 5 – 30 IU/L",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: Hematology (Complete blood count)\n\nWhite blood cells 6.65 4.00 – 10.00 x 109/L\n\nNeutrophils (Absolute) 3.98 1.70 – 7.10 x 109/L\n\nLymphocytes (Absolute) 2.16 1.50 – 4.10 x 109/L\n\nHemoglobin 11.2 12.0 – 18.0 g/dL\n\nMean corpuscular volume 74.9 80.0 – 100.0 fL\n\nMean corpuscular hemoglobin 24.4 26.0 – 34.0 pg\n\nMean corpuscular hemoglobin concentration 32.6 32.0 – 36.0 g/dL\n\nPlatelets 402 150 – 450 x 109/L\n\nInflammatory marker\n\nC-Reactive Protein 153.33 < 7 mg/L\n\nRenal function and electrolytes\n\nUrea 1.66 2.50 – 7.50 mmol/L\n\nCreatinine 70.54 53.00 – 115.00 µmol/L\n\nSodium 134 136 – 145 mmol/L\n\nPotassium 4.36 3.50 – 4.90 mmol/L\n\nChloride 99 98 – 107 mmol/L\n\nUric Acid 264.46 200.00 – 420.00 µmol/L\n\nHepatic function and enzymes\n\nTotal bilirubin 5.1 5 – 17 µmol/L\n\nDirect bilirubin 1.0 < 5 µmol/L\n\nAspartate aminotransferase 37 5 – 40 IU/L\n\nAlanine aminotransferase 28 5 – 40 IU/L\n\nAlkaline phosphatase 106 40 – 129 IU/L\n\nGamma-glutamyl transferase 83 5 – 30 IU/L",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "token_count": 346,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0008",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0008",
+      "section_title": "TABLE 1: Initial laboratory investigations on admission",
+      "section_path": [
+        "Case Presentation",
+        "TABLE 1: Initial laboratory investigations on admission"
+      ],
+      "source_text": "A second chest X-ray revealed persistent consolidation in the right middle lobe, associated with a small ipsilateral pleural effusion (Figure 1B, 1C).\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 2 of 6\n\nFIGURE 1: (A) Initial chest radiography showing alveolar opacity in the\n\nright middle lobe (red arrow). (B and C) Repeat chest radiography (B:\n\nfrontal view; C: lateral view) four months later demonstrating persistent right middle lobe consolidation (red arrow) with ipsilateral pleural",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: TABLE 1: Initial laboratory investigations on admission\n\nA second chest X-ray revealed persistent consolidation in the right middle lobe, associated with a small ipsilateral pleural effusion (Figure 1B, 1C).\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 2 of 6\n\nFIGURE 1: (A) Initial chest radiography showing alveolar opacity in the\n\nright middle lobe (red arrow). (B and C) Repeat chest radiography (B:\n\nfrontal view; C: lateral view) four months later demonstrating persistent right middle lobe consolidation (red arrow) with ipsilateral pleural",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "token_count": 140,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0009",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0009",
+      "section_title": "effusion (yellow arrow).",
+      "section_path": [
+        "Case Presentation",
+        "effusion (yellow arrow)."
+      ],
+      "source_text": "Sputum smear for acid-fast bacilli (AFB) and PCR for Mycobacterium tuberculosis were negative. Pleural fluid aspiration could not be performed due to minimal fluid volume on chest ultrasound, and the tuberculin skin test (TST) was non-reactive. Contrast-enhanced chest computed tomography (CT) in the mediastinal window revealed necrotic hilar and subcarinal lymph nodes with direct endobronchial rupture into the lumen of the middle lobar bronchus (Figure 2A, 2B). Parenchymal window settings showed dense consolidation of the right middle lobe, containing internal cavitations (Figure 2C, 2D).\n\nFIGURE 2: Mediastinal window (A: coronal view; B: axial view) showing necrotic hilar/subcarinal lymph nodes (yellow arrows) with endobronchial rupture into the middle lobe bronchus (red arrow).\n\nParenchymal window (C: coronal view; D: axial view) showing cavitated",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: effusion (yellow arrow).\n\nSputum smear for acid-fast bacilli (AFB) and PCR for Mycobacterium tuberculosis were negative. Pleural fluid aspiration could not be performed due to minimal fluid volume on chest ultrasound, and the tuberculin skin test (TST) was non-reactive. Contrast-enhanced chest computed tomography (CT) in the mediastinal window revealed necrotic hilar and subcarinal lymph nodes with direct endobronchial rupture into the lumen of the middle lobar bronchus (Figure 2A, 2B). Parenchymal window settings showed dense consolidation of the right middle lobe, containing internal cavitations (Figure 2C, 2D).\n\nFIGURE 2: Mediastinal window (A: coronal view; B: axial view) showing necrotic hilar/subcarinal lymph nodes (yellow arrows) with endobronchial rupture into the middle lobe bronchus (red arrow).\n\nParenchymal window (C: coronal view; D: axial view) showing cavitated",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        50,
+        51,
+        52
+      ],
+      "token_count": 230,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0010",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0010",
+      "section_title": "consolidation in the right middle lobe (red arrow).",
+      "section_path": [
+        "Case Presentation",
+        "consolidation in the right middle lobe (red arrow)."
+      ],
+      "source_text": "Flexible bronchoscopy demonstrated marked narrowing of the right middle lobar bronchus due to transmucosal infiltration with focal pearly-white mucosal changes (Figure 3A). The remaining bronchial tree\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 3 of 6\n\nexhibited normal mucosa. Endobronchial biopsies were performed at the site of stenosis. AFB testing on bronchial aspirate fluid returned negative. However, histopathological examination of the endobronchial biopsies demonstrated ulcerated mucosa with dense inflammatory infiltrates and multiple epithelioid giant- cell granulomas exhibiting focal caseous necrosis, with no evidence of malignancy (Figure 3B, 3C).\n\nFIGURE 3: (A) Flexible bronchoscopy showing narrowing and pearly\n\nwhite mucosal infiltration of the middle lobar bronchus (red arrows). (B)\n\nMicroscopic examination: Three biopsy samples, two concerned altered bronchial mucosa (red arrow). The middle one includes cartilage (red\n\nstar) and contains granulomas (blue star) and eosinophilic necrosis on\n\nits lower end (blue arrow) (Hematoxylin-eosin X100). (C) Microscopic",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: consolidation in the right middle lobe (red arrow).\n\nFlexible bronchoscopy demonstrated marked narrowing of the right middle lobar bronchus due to transmucosal infiltration with focal pearly-white mucosal changes (Figure 3A). The remaining bronchial tree\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 3 of 6\n\nexhibited normal mucosa. Endobronchial biopsies were performed at the site of stenosis. AFB testing on bronchial aspirate fluid returned negative. However, histopathological examination of the endobronchial biopsies demonstrated ulcerated mucosa with dense inflammatory infiltrates and multiple epithelioid giant- cell granulomas exhibiting focal caseous necrosis, with no evidence of malignancy (Figure 3B, 3C).\n\nFIGURE 3: (A) Flexible bronchoscopy showing narrowing and pearly\n\nwhite mucosal infiltration of the middle lobar bronchus (red arrows). (B)\n\nMicroscopic examination: Three biopsy samples, two concerned altered bronchial mucosa (red arrow). The middle one includes cartilage (red\n\nstar) and contains granulomas (blue star) and eosinophilic necrosis on\n\nits lower end (blue arrow) (Hematoxylin-eosin X100). (C) Microscopic",
+      "page_start": 2,
+      "page_end": 3,
+      "paragraph_positions": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "token_count": 296,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0011",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0011",
+      "section_title": "examination: Necrotizing granulomatous inflammation featuring",
+      "section_path": [
+        "Case Presentation",
+        "examination: Necrotizing granulomatous inflammation featuring"
+      ],
+      "source_text": "epithelioid histiocytes, Langhans-type giant cells (red arrows), and a\n\nsurrounding lymphocytic infiltrate, adjacent to a zone of eosinophilic",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: examination: Necrotizing granulomatous inflammation featuring\n\nepithelioid histiocytes, Langhans-type giant cells (red arrows), and a\n\nsurrounding lymphocytic infiltrate, adjacent to a zone of eosinophilic",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        61,
+        62
+      ],
+      "token_count": 40,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0012",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0012",
+      "section_title": "caseous necrosis (blue arrow) (Hematoxylin-eosin X250).",
+      "section_path": [
+        "Case Presentation",
+        "caseous necrosis (blue arrow) (Hematoxylin-eosin X250)."
+      ],
+      "source_text": "A final diagnosis of obstructive middle lobe syndrome secondary to endobronchial tuberculosis following mediastinal lymph node rupture was established. Standard antituberculosis therapy (rifampicin, isoniazid, pyrazinamide, and ethambutol) was initiated, leading to progressive clinical improvement.",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Case Presentation\nSubsection: caseous necrosis (blue arrow) (Hematoxylin-eosin X250).\n\nA final diagnosis of obstructive middle lobe syndrome secondary to endobronchial tuberculosis following mediastinal lymph node rupture was established. Standard antituberculosis therapy (rifampicin, isoniazid, pyrazinamide, and ethambutol) was initiated, leading to progressive clinical improvement.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        63
+      ],
+      "token_count": 75,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0013",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0013",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "While MLS is a well-described clinical entity (accounting for 2-5% of all adult pulmonary referrals) [1], endobronchial erosion of mediastinal tuberculous lymphadenitis remains a distinctly rare mechanism in adults compared to pediatric populations [2, 3].\n\nIn pediatric series, enlarged caseous lymph nodes easily erode the compliant pediatric bronchial wall.\n\nConversely, adult tracheobronchial erosion requires chronic transmural inflammatory destruction of mature cartilaginous rings, ultimately leading to luminal compromise and bronchial stenosis [2, 4, 5].\n\nRecent cohort studies evaluating predictors of endobronchial tuberculosis emphasize that acute mucosal involvement can rapidly progress to irreversible endobronchial scarring if the diagnosis is delayed [3].\n\nThe anatomical susceptibility of the right middle lobe bronchus is attributed to three interconnected anatomical factors [1, 6].\n\nFirstly, the bronchus is characterized by a relatively long caliber and a narrow lumen, measuring only 1.5 to 2 cm, which makes it inherently susceptible to rapid extrinsic compression and luminal occlusion [1].\n\nSecondly, its acute take-off angle from the bronchus intermedius significantly limits effective collateral ventilation from adjacent pulmonary segments [6].\n\nLastly, the airway is surrounded by a dense peribronchial lymphatic chain that receives drainage from both the middle and right lower lobes, thereby subjecting it to direct extrinsic inflammatory pressure during regional lymphadenopathy [1].\n\nIn tuberculous lymphadenitis, nodal expansion causes initial extrinsic mechanical compression (stage 1).\n\nAs central liquefactive caseous necrosis progresses, periadenitis induces transmural erosion into the contiguous bronchial wall, forming a broncho-nodular fistula (Stage 2) [2, 4, 7].\n\nContrast-enhanced chest CT plays a crucial diagnostic role by depicting central airway involvement, tree-in-bud opacities, and characteristic peripheral rim enhancement of necrotic mediastinal lymph nodes [8, 9].\n\nIn a landmark imaging series of central airway tuberculosis, Moon et al.\n\n[8] emphasized the key CT features of bronchial wall thickening, luminal narrowing, and adjacent mediastinal adenopathy.",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Discussion\n\nWhile MLS is a well-described clinical entity (accounting for 2-5% of all adult pulmonary referrals) [1], endobronchial erosion of mediastinal tuberculous lymphadenitis remains a distinctly rare mechanism in adults compared to pediatric populations [2, 3].\n\nIn pediatric series, enlarged caseous lymph nodes easily erode the compliant pediatric bronchial wall.\n\nConversely, adult tracheobronchial erosion requires chronic transmural inflammatory destruction of mature cartilaginous rings, ultimately leading to luminal compromise and bronchial stenosis [2, 4, 5].\n\nRecent cohort studies evaluating predictors of endobronchial tuberculosis emphasize that acute mucosal involvement can rapidly progress to irreversible endobronchial scarring if the diagnosis is delayed [3].\n\nThe anatomical susceptibility of the right middle lobe bronchus is attributed to three interconnected anatomical factors [1, 6].\n\nFirstly, the bronchus is characterized by a relatively long caliber and a narrow lumen, measuring only 1.5 to 2 cm, which makes it inherently susceptible to rapid extrinsic compression and luminal occlusion [1].\n\nSecondly, its acute take-off angle from the bronchus intermedius significantly limits effective collateral ventilation from adjacent pulmonary segments [6].\n\nLastly, the airway is surrounded by a dense peribronchial lymphatic chain that receives drainage from both the middle and right lower lobes, thereby subjecting it to direct extrinsic inflammatory pressure during regional lymphadenopathy [1].\n\nIn tuberculous lymphadenitis, nodal expansion causes initial extrinsic mechanical compression (stage 1).\n\nAs central liquefactive caseous necrosis progresses, periadenitis induces transmural erosion into the contiguous bronchial wall, forming a broncho-nodular fistula (Stage 2) [2, 4, 7].\n\nContrast-enhanced chest CT plays a crucial diagnostic role by depicting central airway involvement, tree-in-bud opacities, and characteristic peripheral rim enhancement of necrotic mediastinal lymph nodes [8, 9].\n\nIn a landmark imaging series of central airway tuberculosis, Moon et al.\n\n[8] emphasized the key CT features of bronchial wall thickening, luminal narrowing, and adjacent mediastinal adenopathy.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        64
+      ],
+      "token_count": 511,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0014",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0013",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "In a landmark imaging series of central airway tuberculosis, Moon et al.\n\n[8] emphasized the key CT features of bronchial wall thickening, luminal narrowing, and adjacent mediastinal adenopathy.\n\nFurthermore, in a dedicated radiological series of adult patients with tuberculous bronchonodal fistulas, Park et al.\n\n[9] demonstrated that contrast-enhanced CT is crucial for detecting nodal necrosis and fistulous tract formation between mediastinal lymph nodes and adjacent bronchial lumens, which frequently causes secondary endobronchial involvement and airway occlusion.\n\nThe discharge of necrotic caseum into the lumen creates secondary endobronchial tuberculosis and intrinsic airway occlusion [3, 5, 7].\n\nTo put our patient's presentation into perspective, Table 2 provides a comparative summary alongside both an individual case report in a young adult [10] and a retrospective series of 22 adult patients with middle lobe syndrome secondary to endobronchial tuberculosis [11].\n\nWhile Kim et al.\n\ndemonstrated that edematous-type mucosal involvement in elderly patients accounts for the majority of adult presentations, our case, together with Garg et al., highlights the distinct clinical scenario of transmural broncho-nodular erosion in young males.\n\nCrucially, across all cohorts, non-invasive AFB smear sensitivity remains notoriously low, reaffirming the indispensable diagnostic yield of bronchoscopic tissue sampling [3, 7, 10, 11].\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 4 of 6",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Discussion\n\nIn a landmark imaging series of central airway tuberculosis, Moon et al.\n\n[8] emphasized the key CT features of bronchial wall thickening, luminal narrowing, and adjacent mediastinal adenopathy.\n\nFurthermore, in a dedicated radiological series of adult patients with tuberculous bronchonodal fistulas, Park et al.\n\n[9] demonstrated that contrast-enhanced CT is crucial for detecting nodal necrosis and fistulous tract formation between mediastinal lymph nodes and adjacent bronchial lumens, which frequently causes secondary endobronchial involvement and airway occlusion.\n\nThe discharge of necrotic caseum into the lumen creates secondary endobronchial tuberculosis and intrinsic airway occlusion [3, 5, 7].\n\nTo put our patient's presentation into perspective, Table 2 provides a comparative summary alongside both an individual case report in a young adult [10] and a retrospective series of 22 adult patients with middle lobe syndrome secondary to endobronchial tuberculosis [11].\n\nWhile Kim et al.\n\ndemonstrated that edematous-type mucosal involvement in elderly patients accounts for the majority of adult presentations, our case, together with Garg et al., highlights the distinct clinical scenario of transmural broncho-nodular erosion in young males.\n\nCrucially, across all cohorts, non-invasive AFB smear sensitivity remains notoriously low, reaffirming the indispensable diagnostic yield of bronchoscopic tissue sampling [3, 7, 10, 11].\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 4 of 6",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        64,
+        65
+      ],
+      "token_count": 359,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0015",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0014",
+      "section_title": "Clinical / Diagnostic parameter",
+      "section_path": [
+        "Discussion",
+        "Clinical / Diagnostic parameter"
+      ],
+      "source_text": "Current case (2026) Garg et al. (2015) [10] Kim et al. series (2008) [11]\n\nStudy type /\n\nPopulation Case report (n=1) / 24-year-old male Case report (n=1) / 19-year-old\n\nmale\n\nRetrospective cohort (n=22) / Female predominance (18 F / 4 M), mean age: 70 years\n\nInitial symptoms\n\nCough, pleuritic chest pain, deterioration of general condition; prior fluoroquinolone exposure\n\nCough, fever, right-sided chest pain, weight loss\n\nCough and sputum (most common); dyspnea; 2 patients were asymptomatic\n\nCT imaging findings\n\nCavitated RML consolidation, necrotic subcarinal lymph nodes\n\nRML collapse/consolidation, necrotic mediastinal lymphadenopathy\n\nRML consolidation / atelectasis / patchy opacities\n\nBronchoscopic appearance\n\nPearly mucosal infiltration, luminal occlusion of the RML bronchus\n\nNarrowed RML bronchus,\n\nswollen hyperemic mucosa, cheesy secretions\n\nEdematous-hyperemic type (15/22),\n\nactive caseous type (6/22), tumorous type (1/22)\n\nMicrobiological yield (AFB) Sputum and bronchial fluid: Negative Sputum smear: Negative; GeneXpert PCR: Positive\n\nNegative in 77% of cases (positive in only 1/15 in the edematous subtype)\n\nHistopathological\n\nfindings\n\nEndobronchial biopsy: Caseating\n\ngranulomatous inflammation\n\nEndobronchial biopsy: Caseating\n\ngranulomatous inflammation\n\nBronchial biopsy: Epithelioid / caseating granuloma (diagnostic in 16/22)\n\nTreatment and outcome\n\n2HRZE / 4HR regimen; complete clinical and radiological resolution\n\nStandard anti-TB regimen; full clinical and radiological resolution\n\nComplete or partial radiological improvement in the majority of patients\n\nTABLE 2: Comparative summary of tuberculous middle lobe syndrome: Current case vs. isolated report in a young adult (Garg et al.) and a retrospective adult cohort (Kim et al.)",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Discussion\nSubsection: Clinical / Diagnostic parameter\n\nCurrent case (2026) Garg et al. (2015) [10] Kim et al. series (2008) [11]\n\nStudy type /\n\nPopulation Case report (n=1) / 24-year-old male Case report (n=1) / 19-year-old\n\nmale\n\nRetrospective cohort (n=22) / Female predominance (18 F / 4 M), mean age: 70 years\n\nInitial symptoms\n\nCough, pleuritic chest pain, deterioration of general condition; prior fluoroquinolone exposure\n\nCough, fever, right-sided chest pain, weight loss\n\nCough and sputum (most common); dyspnea; 2 patients were asymptomatic\n\nCT imaging findings\n\nCavitated RML consolidation, necrotic subcarinal lymph nodes\n\nRML collapse/consolidation, necrotic mediastinal lymphadenopathy\n\nRML consolidation / atelectasis / patchy opacities\n\nBronchoscopic appearance\n\nPearly mucosal infiltration, luminal occlusion of the RML bronchus\n\nNarrowed RML bronchus,\n\nswollen hyperemic mucosa, cheesy secretions\n\nEdematous-hyperemic type (15/22),\n\nactive caseous type (6/22), tumorous type (1/22)\n\nMicrobiological yield (AFB) Sputum and bronchial fluid: Negative Sputum smear: Negative; GeneXpert PCR: Positive\n\nNegative in 77% of cases (positive in only 1/15 in the edematous subtype)\n\nHistopathological\n\nfindings\n\nEndobronchial biopsy: Caseating\n\ngranulomatous inflammation\n\nEndobronchial biopsy: Caseating\n\ngranulomatous inflammation\n\nBronchial biopsy: Epithelioid / caseating granuloma (diagnostic in 16/22)\n\nTreatment and outcome\n\n2HRZE / 4HR regimen; complete clinical and radiological resolution\n\nStandard anti-TB regimen; full clinical and radiological resolution\n\nComplete or partial radiological improvement in the majority of patients\n\nTABLE 2: Comparative summary of tuberculous middle lobe syndrome: Current case vs. isolated report in a young adult (Garg et al.) and a retrospective adult cohort (Kim et al.)",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "token_count": 472,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0016",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0014",
+      "section_title": "Clinical / Diagnostic parameter",
+      "section_path": [
+        "Discussion",
+        "Clinical / Diagnostic parameter"
+      ],
+      "source_text": "Complete or partial radiological improvement in the majority of patients\n\nTABLE 2: Comparative summary of tuberculous middle lobe syndrome: Current case vs. isolated report in a young adult (Garg et al.) and a retrospective adult cohort (Kim et al.)\n\nAs highlighted in Table 2, a critical diagnostic finding illustrated by our case and mirrored in the literature is the diagnostic delay frequently observed in endobronchial tuberculosis due to its atypical presentation [12], which is often further compounded by empiric fluoroquinolone monotherapy [13]. Fluoroquinolones (such as levofloxacin or moxifloxacin) possess potent activity against M. tuberculosis [13]. Empirical administration for suspected community-acquired pneumonia transiently reduces the bacterial burden in respiratory secretions, leading to false-negative AFB smears and PCRs [12, 13]. However, partial therapy is insufficient to eradicate deep-seated nodal tissue infection, promoting clinical relapse weeks to months later [13]. In such scenarios, histopathological identification of necrotizing epithelioid granulomas via endobronchial biopsy remains the definitive diagnostic gold standard [3, 7, 12].",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Discussion\nSubsection: Clinical / Diagnostic parameter\n\nComplete or partial radiological improvement in the majority of patients\n\nTABLE 2: Comparative summary of tuberculous middle lobe syndrome: Current case vs. isolated report in a young adult (Garg et al.) and a retrospective adult cohort (Kim et al.)\n\nAs highlighted in Table 2, a critical diagnostic finding illustrated by our case and mirrored in the literature is the diagnostic delay frequently observed in endobronchial tuberculosis due to its atypical presentation [12], which is often further compounded by empiric fluoroquinolone monotherapy [13]. Fluoroquinolones (such as levofloxacin or moxifloxacin) possess potent activity against M. tuberculosis [13]. Empirical administration for suspected community-acquired pneumonia transiently reduces the bacterial burden in respiratory secretions, leading to false-negative AFB smears and PCRs [12, 13]. However, partial therapy is insufficient to eradicate deep-seated nodal tissue infection, promoting clinical relapse weeks to months later [13]. In such scenarios, histopathological identification of necrotizing epithelioid granulomas via endobronchial biopsy remains the definitive diagnostic gold standard [3, 7, 12].",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        97,
+        98,
+        99
+      ],
+      "token_count": 257,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0017",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0015",
+      "section_title": "Conclusions",
+      "section_path": [
+        "Conclusions"
+      ],
+      "source_text": "This clinical observation and literature review emphasize that broncho-nodular fistulisation of necrotic mediastinal tuberculous lymphadenitis must remain a key differential diagnosis in patients presenting with obstructive middle lobe syndrome, especially in young adults from endemic regions. Fluoroquinolones should be used with extreme caution in patients with unconfirmed respiratory infections. When microbiological assays are negative, flexible bronchoscopy remains essential in this setting to rule out an underlying tumor, establish the diagnosis, and prevent unnecessary surgical intervention.",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Conclusions\n\nThis clinical observation and literature review emphasize that broncho-nodular fistulisation of necrotic mediastinal tuberculous lymphadenitis must remain a key differential diagnosis in patients presenting with obstructive middle lobe syndrome, especially in young adults from endemic regions. Fluoroquinolones should be used with extreme caution in patients with unconfirmed respiratory infections. When microbiological assays are negative, flexible bronchoscopy remains essential in this setting to rule out an underlying tumor, establish the diagnosis, and prevent unnecessary surgical intervention.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        100
+      ],
+      "token_count": 115,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0018",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0016",
+      "section_title": "Additional Information",
+      "section_path": [
+        "Additional Information"
+      ],
+      "source_text": "Additional Information",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Additional Information\n\nAdditional Information",
+      "page_start": 4,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0019",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0017",
+      "section_title": "Author Contributions",
+      "section_path": [
+        "Additional Information",
+        "Author Contributions"
+      ],
+      "source_text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.\n\nConcept and design:  Houda Snene, Monia Attia, Nadia Mehiri, Bechir Louzir\n\nAcquisition, analysis, or interpretation of data:  Houda Snene, Monia Attia, Imen Alioua\n\nDrafting of the manuscript:  Houda Snene, Monia Attia, Imen Alioua\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 5 of 6\n\nCritical review of the manuscript for important intellectual content:  Houda Snene, Monia Attia, Imen Alioua, Nadia Mehiri, Bechir Louzir\n\nSupervision:  Nadia Mehiri, Bechir Louzir",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Additional Information\nSubsection: Author Contributions\n\nAll authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.\n\nConcept and design:  Houda Snene, Monia Attia, Nadia Mehiri, Bechir Louzir\n\nAcquisition, analysis, or interpretation of data:  Houda Snene, Monia Attia, Imen Alioua\n\nDrafting of the manuscript:  Houda Snene, Monia Attia, Imen Alioua\n\n2026 Snene et al. Cureus 18(8): e115134. DOI 10.7759/cureus.115134 5 of 6\n\nCritical review of the manuscript for important intellectual content:  Houda Snene, Monia Attia, Imen Alioua, Nadia Mehiri, Bechir Louzir\n\nSupervision:  Nadia Mehiri, Bechir Louzir",
+      "page_start": 4,
+      "page_end": 5,
+      "paragraph_positions": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ],
+      "token_count": 180,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_c190ef09f6617ed3_0020",
+      "document_id": "doc_c190ef09f6617ed3",
+      "section_id": "sec_doc_c190ef09f6617ed3_0018",
+      "section_title": "Disclosures",
+      "section_path": [
+        "Additional Information",
+        "Disclosures"
+      ],
+      "source_text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+      "embedding_text": "Document: Review began 08/10/2026\nSection: Additional Information\nSubsection: Disclosures\n\nHuman subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        108
+      ],
+      "token_count": 125,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

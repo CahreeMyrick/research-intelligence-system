@@ -27,8 +27,30 @@ each is there.
 ## Usage
 
 ```bash
-python -m ingest.cli papers/ --out corpus -v
+python -m ingest.cli --papers_dir papers/ --out corpus -v
 ```
+
+For PDFs nested in subdirectories, add `--recursive`:
+
+```bash
+python -m ingest.cli --papers_dir chest_xray_rag --recursive --out medical_corpus -v
+```
+
+The Python API supports the same option with `ingest("chest_xray_rag", output_dir="medical_corpus", recursive=True)`.
+Discovery is non-recursive by default; non-PDF files are ignored.
+
+## Clinivue question answering
+
+With the Clinivue database and Ollama running, ask questions from this directory:
+
+```bash
+../.venv/bin/python -m indexer.qa.cli --config clinivue_config.yaml \
+  "Which approaches to automated chest X-ray report generation are described in this corpus?"
+```
+
+The configuration selects the database, embedding model, answer model, and retrieval
+limits. Use `--model`, `--top-k`, or `--candidate-k` to override those answer and
+retrieval settings for a single question. Answers include retrieved evidence citations.
 
 ```python
 from ingest import ingest

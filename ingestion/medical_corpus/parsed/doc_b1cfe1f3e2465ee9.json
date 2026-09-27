@@ -1,0 +1,1276 @@
+{
+  "identity": {
+    "id": "doc_b1cfe1f3e2465ee9",
+    "source": {
+      "filename": "PMC13585305.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13585305.1/PMC13585305.1.pdf",
+      "content_hash": "b1cfe1f3e2465ee9b3e41279407ba52e31555120df8940ce1995bc807e6f6ff3"
+    }
+  },
+  "metadata": {
+    "title": "Primary Care Doctors’ Perspectives and Experiences With a Chest X-Ray AI Triage Program: Qualitative Study",
+    "authors": [],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.2196/103006",
+    "arxiv_id": null,
+    "abstract": "Background: AI has the potential to support chest X-ray (CXR) triage in primary care, but adoption depends on whether clinicians perceive its outputs as credible, useful, and workable within routine clinical workflows. Evidence on how primary care doctors experience AI-supported CXR triage in real-world practice remains limited. Objective: This study explored primary care doctors’ perspectives on a pilot CXR-AI program and identified barriers and enablers influencing adoption during early implementation. Methods: We conducted a qualitative descriptive study in a Singapore public primary care center where an AI system was embedded into the CXR workflow as a triage tool. Doctors who had used the program in clinical practice were purposively sampled across age, gender, and clinical seniority. Data were collected through semistructured in-depth interviews and focus group discussions, audio-recorded, transcribed verbatim, and analyzed using thematic analysis. Results: Twenty primary care doctors participated in 10 in-depth interviews and 2 focus group discussions. Adoption was variable and shaped by three interconnected themes: (1) AI validity and workflow integration, (2) clinician beliefs and confidence, and (3) organizational culture. Initial engagement appeared to be shaped by whether doctors understood the program’s purpose, perceived a need to change existing practice, and were open to workflow change. Continued use was shaped by the perceived accuracy of the AI tool and its usefulness in clinical practice. Doctors perceived the AI tool as more valuable when they were confident in CXR interpretation. Institutional endorsement, phased implementation, positive peer experiences, and the safety net provided by continued radiologist reporting helped build trust. However, concerns about AI overcalling, lack of clinical context and interaction, and medicolegal responsibility limited clinicians’ willingness to rely on AI alone. Conclusions: Adoption of AI-supported CXR triage in primary care depended not only on the technology itself, but also on how it was introduced, understood, and experienced in practice. These findings support the need for implementation strategies that are responsive to end user perspectives and contextualized within local workflows and clinical settings. Further research should examine later-stage implementation outcomes and objective operational and clinical outcomes of the program.",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Original Paper",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Primary Care Doctors’ Perspectives and Experiences With a Chest X-Ray AI Triage Program: Qualitative Study",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Silin Kuang1, MBBS, MRCP (UK), MMED (FM); Qi Wei Fong1, MBBS, MMED (FM); Jacqueline Giovanna De Roza1, BHSc, MN, MHS; Dana Hui Min Koh1, BSc (Hons); Cher Heng Tan2,3,4, MBBS, FRCR (UK); Kai Ping Sze1,3*, MBBS, FCFP (S); Sabrina Kay Wye Wong1,3*, MBBS, FCFP (S), PhD",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "1NHG Polyclinics, Population Health Campus, NHG Health, Singapore 2Department of Diagnostic Radiology, Tan Tock Seng Hospital, NHG Health, Singapore 3Lee Kong Chian School of Medicine, Nanyang Technological University, Singapore 4Centre of AI in Medicine, Nanyang Technological University, Singapore *these authors contributed equally",
+          "page": 0,
+          "position": 3
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Corresponding Author:",
+      "level": 3,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Silin Kuang, MBBS, MRCP (UK), MMED (FM) NHG Polyclinics, Population Health Campus, NHG Health 1 Mandalay Road 308205 Singapore Phone: 65 6355 3000 Email: silin.kuang@nhghealth.com.sg",
+          "page": 0,
+          "position": 4
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Background: AI has the potential to support chest X-ray (CXR) triage in primary care, but adoption depends on whether clinicians perceive its outputs as credible, useful, and workable within routine clinical workflows. Evidence on how primary care doctors experience AI-supported CXR triage in real-world practice remains limited. Objective: This study explored primary care doctors’ perspectives on a pilot CXR-AI program and identified barriers and enablers influencing adoption during early implementation. Methods: We conducted a qualitative descriptive study in a Singapore public primary care center where an AI system was embedded into the CXR workflow as a triage tool. Doctors who had used the program in clinical practice were purposively sampled across age, gender, and clinical seniority. Data were collected through semistructured in-depth interviews and focus group discussions, audio-recorded, transcribed verbatim, and analyzed using thematic analysis. Results: Twenty primary care doctors participated in 10 in-depth interviews and 2 focus group discussions. Adoption was variable and shaped by three interconnected themes: (1) AI validity and workflow integration, (2) clinician beliefs and confidence, and (3) organizational culture. Initial engagement appeared to be shaped by whether doctors understood the program’s purpose, perceived a need to change existing practice, and were open to workflow change. Continued use was shaped by the perceived accuracy of the AI tool and its usefulness in clinical practice. Doctors perceived the AI tool as more valuable when they were confident in CXR interpretation. Institutional endorsement, phased implementation, positive peer experiences, and the safety net provided by continued radiologist reporting helped build trust. However, concerns about AI overcalling, lack of clinical context and interaction, and medicolegal responsibility limited clinicians’ willingness to rely on AI alone. Conclusions: Adoption of AI-supported CXR triage in primary care depended not only on the technology itself, but also on how it was introduced, understood, and experienced in practice. These findings support the need for implementation strategies that are responsive to end user perspectives and contextualized within local workflows and clinical settings. Further research should examine later-stage implementation outcomes and objective operational and clinical outcomes of the program.",
+          "page": 0,
+          "position": 5
+        }
+      ],
+      "subsections": [
+        {
+          "title": "J Med Internet Res 2026;28:e103006; doi: 10.2196/103006",
+          "level": 3,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "Keywords: artificial intelligence; chest X-ray triage; primary care; qualitative research; implementation research; technology adoption",
+              "page": 0,
+              "position": 6
+            },
+            {
+              "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+              "page": 0,
+              "position": 7
+            },
+            {
+              "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 1",
+              "page": 0,
+              "position": 8
+            },
+            {
+              "text": "(page number not for citation purposes)",
+              "page": 0,
+              "position": 9
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "AI has shown promise in radiology [1]. In Singapore’s public primary care setting, chest radiographs (CXRs) are formally interpreted by radiologists, with a turnaround time of about an hour [2]. Against a backdrop of rising imaging demand and radiology workload [3], there is growing interest in AI solutions that improve efficiency in imaging workflows [1,4].",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "One such system is Lunit INSIGHT CXR (Lunit), a deep-learning AI system for CXR interpretation [5]. Lunit has been found to perform well in identifying normal CXRs, suggesting a potential role as a triage tool in primary care [6-8], where many CXRs do not show clinically impor- tant abnormalities [9]. In such settings, AI-supported CXR triage may improve operational efficiency, reduce radiologist workload, shorten reporting times, and support more timely clinical decision-making by primary care doctors [8,10,11].",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "In view of this potential, we implemented a pilot CXR- AI program in a Singapore polyclinic, a public primary care center with on-site radiography services. CXRs were triaged using Lunit, allowing primary care doctors to review AI-analyzed CXRs ahead of formal radiologist reporting [4, 12]. To support its safe use in triage, we previously identi- fied an operating threshold that prioritized sensitivity and minimization of false negatives. Lowering the threshold from the default 0.15 to 0.10 yielded a sensitivity of 93.2%, negative predictive value of 91.3%, and specificity of 71.7% [12].",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "However, as a newly implemented pilot program, it was unclear how primary care doctors would interpret, trust, and act on the AI outputs in daily practice. While existing studies have largely focused on diagnostic validation and perceived usefulness, fewer have examined feasibility and acceptabil- ity in real-world clinical workflows—key implementation outcomes that enable subsequent practice change [13]. Understanding how clinicians evaluate and respond to the new program is therefore important for optimizing integration into routine care and supporting sustained adoption [13-15].",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "In the broader literature, studies on clinicians’ perspec- tives of AI-enabled systems have identified factors such as perceived diagnostic accuracy, workflow and workload effects, medicolegal concerns, and regulatory oversight as shaping acceptance [16-18]. However, less is known about how these factors apply to AI-supported CXR triage in primary care, where their relevance may vary depending on clinical setting and workflow design [19,20]. Because adoption is a complex process rather than a single event [14], an in-depth exploration of clinicians’ real-world experiences is required to understand the factors shaping their adoption of the program in practice.",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "To address this gap, we conducted a qualitative study to explore primary care doctors’ perspectives and experiences with the CXR-AI program in daily practice and to identify the barriers and enablers influencing its adoption during the early implementation phase.",
+          "page": 1,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "The Pilot CXR-AI Program",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "The CXR-AI program was rolled out in January 2025 in a single National Healthcare Group (NHG) polyclinic in Singapore. This polyclinic performs approximately 300‐450 CXRs per month. The AI tool, Lunit INSIGHT CXR, had received regulatory approval from Singapore’s Health Sciences Authority and underwent local validation and institutional review before implementation.",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "In the CXR-AI program, all CXRs were analyzed by the AI tool, which displayed a heat map alongside a table of abnormality outputs within the routine CXR viewing platform (Figure 1). By default, CXRs triaged by AI as “normal” could be reviewed by the attending primary care doctor before radiologist reporting, allowing earlier clinical decision- making, and radiologist reports would be completed by the following day. In contrast, CXRs triaged as “abnormal” were prioritized for early radiologist reporting on the same day (Figure 2).",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 2",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "Figure 1. Lunit heat map and output table displaying detected abnormalities within the routine chest X-ray (CXR) viewing system.",
+          "page": 2,
+          "position": 21
+        },
+        {
+          "text": "Figure 2. Overview of the CXR-AI program. CXR: chest X-ray.",
+          "page": 2,
+          "position": 22
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 2,
+          "position": 23
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 3",
+          "page": 2,
+          "position": 24
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 2,
+          "position": 25
+        },
+        {
+          "text": "Clinicians could still override the default workflow. AI-tri- aged “normal” CXRs could be escalated for early radiologist review if the clinician was uncertain, while clinicians who were sufficiently confident could act on AI-triaged “abnor- mal” CXRs before radiologist reporting.",
+          "page": 3,
+          "position": 26
+        },
+        {
+          "text": "Regardless of AI triage status, all CXRs continued to undergo formal radiologist review. Radiologist reports completed the following day were reviewed by a vetting doctor, and patients initially discharged after AI-triaged “normal” CXRs could be recalled for further assessment if needed.",
+          "page": 3,
+          "position": 27
+        },
+        {
+          "text": "Between May 8 and July 18, 2025, a total of 587 CXRs were processed through the program, of which 69.8% (n=410) were triaged by AI as abnormal and 30.2% (n=177) as normal.",
+          "page": 3,
+          "position": 28
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Study Design",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "We used a qualitative descriptive design [21] to explore primary care doctors’ perspectives on using the CXR-AI program.",
+          "page": 3,
+          "position": 29
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Study Participants",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "Two months after program rollout, email invitations were sent to all doctors working at the polyclinic in which the",
+          "page": 3,
+          "position": 30
+        },
+        {
+          "text": "CXR-AI program was implemented. Those who had used the CXR-AI program at least once in clinical practice were eligible for the study. We used purposive sampling to obtain maximum variation across age groups, gender, and clinical seniority levels, with selected doctors approached directly for participation. Interview Guide and Conceptual Frameworks",
+          "page": 3,
+          "position": 31
+        },
+        {
+          "text": "We developed the semistructured interview guide through iterative team discussions informed by relevant literature and three complementary conceptual frameworks (Textbox 1): Proctor’s implementation outcomes framework [13], the Theoretical Domains Framework (TDF) [15], and the Technology Acceptance Model 3 (TAM3) [22]. These frameworks were selected to capture early implementation outcomes, behavioral determinants of clinician use, and technology-specific adoption factors, respectively. Together, these frameworks guided the development of the interview prompts (Multimedia Appendix 1).",
+          "page": 3,
+          "position": 32
+        },
+        {
+          "text": "Textbox 1. Conceptual frameworks and constructs informing development of the interview guide. The interview guide was pilot-tested with the first 3 participants to ensure clarity.",
+          "page": 3,
+          "position": 33
+        },
+        {
+          "text": "Proctor’s implementation outcomes Outcomes salient to early implementation:",
+          "page": 3,
+          "position": 34
+        },
+        {
+          "text": "•Acceptability •Adoption •Appropriateness •Feasibility •Fidelity Technology Acceptance Model 3 (TAM3) Independent constructs:",
+          "page": 3,
+          "position": 35
+        },
+        {
+          "text": "•Perceived usefulness (subjective norm, job relevance, output quality, result demonstrability) •Perceived ease of use (computer playfulness, computer anxiety, perceived enjoyment, perception of external control) Moderators:",
+          "page": 3,
+          "position": 36
+        },
+        {
+          "text": "•Experience •Voluntariness Theoretical Domains Framework (TDF) Behavioral drivers:",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "•Beliefs about capabilities (perceived competence, self-efficacy) •Beliefs about consequences (outcome expectancies) •Professional role, identity, and boundaries •Social influences (organizational commitment, group norms) •Environmental context (environmental stressors, resources, organizational culture) •Reinforcement",
+          "page": 3,
+          "position": 38
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Data Collection",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "We collected data using both in-depth interviews (IDIs) and focus group discussions (FGDs). Participants were assigned to either IDIs or FGDs based on participant preference, scheduling feasibility, and consideration of hierarchical relationships, with junior doctors not grouped with their",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "supervisors. The same semistructured interview guide was used for both.",
+          "page": 3,
+          "position": 40
+        },
+        {
+          "text": "All IDIs and FGDs were conducted face-to-face in English, audio-recorded, and transcribed verbatim. IDIs lasted 45‐60 minutes and FGDs 60‐90 minutes. Sessions were held in private consultation rooms within the polyclinic, with no nonparticipants present.",
+          "page": 3,
+          "position": 41
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 3,
+          "position": 42
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 4",
+          "page": 3,
+          "position": 43
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 3,
+          "position": 44
+        },
+        {
+          "text": "The main interviewer (SK), a female family physician, conducted all sessions. A coinvestigator (KPS, QWF, DHMK, or JGDR) attended as an observer to document field notes, nonverbal cues, and group interactions. All research- ers had prior training in qualitative interviewing. Although QWF oversaw implementation of the CXR-AI program and several investigators worked in the same polyclinic as the participants, none had supervisory relationships with them. All participants were aware of QWF’s involvement in the implementation of the CXR-AI program.",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "To support reflexivity, our team maintained reflexive memos and held regular discussions to consider how our clinical roles and prior assumptions might shape data",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "collection and interpretation. The research team reflected on whether QWF’s presence might inhibit participants from expressing critical views of the program. To mini- mize this risk, QWF ceased attending interviews after two sessions. Participants were also reassured that their respon- ses would remain confidential and were encouraged to share both positive and negative experiences. We conduc- ted postinterview debriefs to reflect on emerging findings, consider whether researcher assumptions may have influ- enced question framing, and refine the interview guide for subsequent interviews.",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "Participants also completed a questionnaire capturing demographic and professional characteristics (Table 1).",
+          "page": 4,
+          "position": 48
+        },
+        {
+          "text": "Table 1. Participant characteristics.",
+          "page": 4,
+          "position": 49
+        },
+        {
+          "text": "Characteristic Number of participants (%)",
+          "page": 4,
+          "position": 50
+        },
+        {
+          "text": "Age, years",
+          "page": 4,
+          "position": 51
+        },
+        {
+          "text": "<30 3 (15)",
+          "page": 4,
+          "position": 52
+        },
+        {
+          "text": "30‐34 8 (40)",
+          "page": 4,
+          "position": 53
+        },
+        {
+          "text": "35‐39 4 (20)",
+          "page": 4,
+          "position": 54
+        },
+        {
+          "text": "≥40 5 (25)",
+          "page": 4,
+          "position": 55
+        },
+        {
+          "text": "Gender",
+          "page": 4,
+          "position": 56
+        },
+        {
+          "text": "Male 13 (65)",
+          "page": 4,
+          "position": 57
+        },
+        {
+          "text": "Female 7 (35)",
+          "page": 4,
+          "position": 58
+        },
+        {
+          "text": "Clinical seniority",
+          "page": 4,
+          "position": 59
+        },
+        {
+          "text": "Job designation",
+          "page": 4,
+          "position": 60
+        },
+        {
+          "text": "Family medicine resident 6 (30)",
+          "page": 4,
+          "position": 61
+        },
+        {
+          "text": "Resident physician 3 (15)",
+          "page": 4,
+          "position": 62
+        },
+        {
+          "text": "Family physician 5 (25)",
+          "page": 4,
+          "position": 63
+        },
+        {
+          "text": "Associate consultant/consultant 6 (30)",
+          "page": 4,
+          "position": 64
+        },
+        {
+          "text": "Postgraduate qualification in Family Medicine",
+          "page": 4,
+          "position": 65
+        },
+        {
+          "text": "Nil 7 (35)",
+          "page": 4,
+          "position": 66
+        },
+        {
+          "text": "Graduate Diploma in Family Medicine 3 (15)",
+          "page": 4,
+          "position": 67
+        },
+        {
+          "text": "Masters of Medicine in Family Medicine 8 (40)",
+          "page": 4,
+          "position": 68
+        },
+        {
+          "text": "Fellowship of College of Family Physicians Singapore 2 (10)",
+          "page": 4,
+          "position": 69
+        },
+        {
+          "text": "Work experience in primary care, years",
+          "page": 4,
+          "position": 70
+        },
+        {
+          "text": "<5 9 (45)",
+          "page": 4,
+          "position": 71
+        },
+        {
+          "text": "5‐10 5 (25) >10 6 (30)",
+          "page": 4,
+          "position": 72
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Data Analysis",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "Data were analyzed using thematic analysis following Braun and Clarke’s 6-step approach [23]. We employed both inductive and deductive coding, with codes primarily derived from participants’ accounts while being guided by the study’s conceptual frameworks. Data were managed in Microsoft Excel (version 16.78.3).",
+          "page": 4,
+          "position": 73
+        },
+        {
+          "text": "Each transcript was independently coded by two investiga- tors (SK, KPS, QWF, DHMK, or JDR), and discrepancies were resolved through discussion. Codes, subthemes, and overarching themes were iteratively developed and refined through regular team meetings and organized into a cod- ing tree. Emerging interpretations were continually checked against the transcripts and participant quotations during team",
+          "page": 4,
+          "position": 74
+        },
+        {
+          "text": "discussions. We maintained an audit trail documenting coding decisions, theme development, and codebook revisions [24]. To examine whether the data collection method influenced the findings, we compared the representation of subthemes across IDI and FGD transcripts. We also examined whether the representation and emphasis of subthemes varied across participants with different demographic and professional characteristics.",
+          "page": 4,
+          "position": 75
+        },
+        {
+          "text": "Data collection and analysis proceeded concurrently. We ceased recruitment after 20 purposively sampled participants once the research team determined that the dataset provi- ded sufficient depth and variation to address the research question. The remaining eligible doctors were not recruited.",
+          "page": 4,
+          "position": 76
+        },
+        {
+          "text": "To enhance trustworthiness, we used data triangulation, reflexive journaling, and member checking by returning",
+          "page": 4,
+          "position": 77
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 4,
+          "position": 78
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 5",
+          "page": 4,
+          "position": 79
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 4,
+          "position": 80
+        },
+        {
+          "text": "transcripts to participants for verification and by clarifying interpretations with them during analysis [24]. Reporting followed the Consolidated Criteria for Reporting Qualitative Research (COREQ) guidelines (Checklist 1).",
+          "page": 5,
+          "position": 81
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Ethical Considerations",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "Ethics approval was obtained from the NHG Domain Specific Review Board (reference: 2024‐3771). All partici- pants provided informed consent. Pseudonyms were used during FGDs. Recordings were transcribed and deidenti- fied before analysis, and participant demographic data were deidentified before compilation. Each participant received a token of appreciation (SGD $30 [US $23.68]).",
+          "page": 5,
+          "position": 82
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "There were 31 primary care doctors eligible for participa- tion at the study site. Over a 9-month period from March",
+          "page": 5,
+          "position": 83
+        },
+        {
+          "text": "2025 to November 2025, a total of 20 were purposively recruited, all of whom agreed to participate. We conducted 10 IDIs (A1-A6, D1-D4) and 2 FGDs with 5 participants each (B1-B5, C1-C5). Participant characteristics are described in Table 1.",
+          "page": 5,
+          "position": 84
+        },
+        {
+          "text": "Three interconnected themes emerged from the analysis: (1) AI Validity and Workflow Integration, (2) Clinician Beliefs and Confidence, and (3) Organizational Culture. These themes collectively shaped clinicians’ perceived value of the CXR-AI program and subsequent adoption patterns (Figure 3). No subthemes were unique to either IDIs or FGDs. No clear patterns in subtheme emphasis were observed according to participants’ demographic or professio- nal characteristics. Some factors appeared more salient when clinicians described their initial willingness to try the tool, while others became more prominent in their accounts of continued use.",
+          "page": 5,
+          "position": 85
+        },
+        {
+          "text": "Figure 3. Primary care doctors’ perspectives of the CXR-AI program. Three interdependent themes shaped the adoption of the program. CXR: chest X-ray.",
+          "page": 5,
+          "position": 86
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Theme 1: AI Validity and Workflow Integration",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "Adoption was shaped by clinicians’ understanding of the tool’s purpose (coherence), perceived accuracy, clinical utility and limitations, and its impact on workload.",
+          "page": 5,
+          "position": 87
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Coherence",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "At initial exposure to the CXR-AI program, clinicians’ understanding of the AI tool’s purpose shaped their willing- ness to engage with it.",
+              "page": 5,
+              "position": 88
+            },
+            {
+              "text": "Those who perceived a clinical or operational problem, such as delays in radiologist reporting, were more likely to view the program as relevant and worth trying. As one clinician described, “on busy days...the radiographs can take two, three hours to report...there’s always this fear that what if it’s something that is urgent and needs to be seen faster?...that to me was a problem, and [the AI] has helped to fill in the gaps” (IDI: D4, 30, male).",
+              "page": 5,
+              "position": 89
+            },
+            {
+              "text": "In contrast, some clinicians saw no need to alter their current practice: “I don’t see any need for a workflow change from what I’ve been practicing” (FGD: C1, 33, male). Some viewed current reporting times as acceptable—“an hour and",
+              "page": 5,
+              "position": 90
+            },
+            {
+              "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+              "page": 5,
+              "position": 91
+            },
+            {
+              "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 6",
+              "page": 5,
+              "position": 92
+            },
+            {
+              "text": "(page number not for citation purposes)",
+              "page": 5,
+              "position": 93
+            },
+            {
+              "text": "a half wait...not too bad for polyclinic” (FGD: C2, 42, male) —and therefore questioned the rationale for the program. Others expressed the need for clearer justification from the institution: “I need the institution to tell us that they are going to do something. What’s the purpose of doing it?...instead of just telling us that it’s probably going to be mainstream care” (FGD: C3, 36, male).",
+              "page": 6,
+              "position": 94
+            },
+            {
+              "text": "These divergent views reflected differences in clinicians’ perceptions of the appropriateness of the intervention. Based on participants’ accounts, coherence appeared important in shaping clinicians’ initial willingness to engage with the tool. With experience, participants’ continued engagement appeared to be shaped more by their evaluation of the tool’s accuracy and clinical utility in practice.",
+              "page": 6,
+              "position": 95
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Perceived Accuracy",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Once coherence was established, the perceived accuracy of the AI tool shaped trust and clinicians’ willingness to act on its outputs. Confidence arose when AI outputs aligned with their own readings or radiologist reports. One doctor found it “largely credible...[as it] correlates with what we expect” (IDI: A4, 36, male).",
+              "page": 6,
+              "position": 96
+            },
+            {
+              "text": "Clinicians also wanted evidence of the AI tool’s valida- tion. As one explained, “For the AI tool to gain my trust, it has to be assessed...the same standards applied to it as any investigation...what’s the sensitivity, what’s the specificity, what’s the gold standard we are comparing against?” (FGD: C5, 32, female). Briefings on the AI’s performance data helped to reassure some: “There was a briefing...sensitivity rate was quite high. Having that knowledge in mind provides me mental reassurance that it’s most likely to be normal when it’s reported normal” (IDI: A6, 27, female). These accounts suggest that clinicians’ assessment of the AI tool’s accuracy influenced their confidence in acting on its outputs.",
+              "page": 6,
+              "position": 97
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Perceived Clinical Utility and Limitations",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Clinicians’ willingness to use the AI tool hinged on whether it was “useful” to their work and patients (IDI: A5, 46, male). Clinical utility centered on time savings, workflow efficiency, and complementing clinical decision-making.",
+              "page": 6,
+              "position": 98
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Usefulness of AI-Triaged “Normal” CXRs",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "For many, the AI’s usefulness was most evident in triaging normal films: “What I like was that if there’s clearly a normal chest x-ray, we can discharge the patient much faster” (FGD: B1, 33, male). However, some cautioned that if there were AI errors not picked up by clinicians, “the patient may need to come back...but that will be a minority of patients” (IDI: A3, 30, female).",
+              "page": 6,
+              "position": 99
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Usefulness of AI-Triaged “Abnormal” CXRs",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "In contrast, for AI-triaged “abnormal” CXRs, perceived usefulness was more variable and depended on whether clinicians were willing to act on the AI output before radiologist review in order to expedite care. Some appreciated it as a “second pair of eyes” (FGD: B1, 33, male) to confirm",
+              "page": 6,
+              "position": 100
+            },
+            {
+              "text": "their own interpretations, particularly for clear-cut findings like consolidation in suspected pneumonia. However, because the AI operating threshold prioritized sensitivity, clinicians felt that it “tend[ed] to overcall certain things” and therefore preferred to wait for radiologist reports (IDI: A1, 38, male).",
+              "page": 6,
+              "position": 101
+            },
+            {
+              "text": "Clinicians also found the heat map useful for localizing single abnormalities: “the heat map generally is quite good because it tends to focus your attention on where it thinks the abnormalities are” (IDI: A1, 38, male). However, when multiple areas were highlighted, interpretation became more difficult: “...so many pathologies, the whole heat map lights up then I’m scratching my head...I cannot make [a] deci- sion...” (IDI: A4, 36, male).",
+              "page": 6,
+              "position": 102
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Perceived Limitations of the AI Tool",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Clinicians highlighted limitations of the AI tool, including its inability to incorporate clinical context and to compare with prior CXRs. As one explained, “If [the consolidation has] improved, the AI is not going to help me because it’s just going to highlight the area as abnormal...there’s no interval comparison” (IDI: A3, 30, female). They also described the lack of interaction with the AI compared with a radiologist, with whom they can discuss clinical context and suspicions (IDI: A2, 41, male). One added that “if I can have that [discussion] with the reporting from the AI, that may perhaps give me a bit more confidence” (FGD: C1, 33, male).",
+              "page": 6,
+              "position": 103
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Indirect Benefits Through Faster Radiologist Reporting",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Regardless of how clinicians responded to the AI outputs, many observed indirect benefits such as faster radiologist reporting. They noted that “radiographs are being reported faster these days, and I like to think that may be because of the triaging process” (FGD: B4, 30, male), which in turn enabled doctors to “manage [patients] faster, whether they need to be seen in the emergency or...can be sent home” (IDI: D4, 30, male).",
+              "page": 6,
+              "position": 104
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Contextual Limitations in the Polyclinic Setting",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Some clinicians felt the AI’s clinical utility was modest in the polyclinic context, where CXRs form only a small part of a high-volume general practice workload. One explained that when doctors were busy attending to other patients, “the X-ray is not the limiting factor...in terms of [patients’] waiting time” (IDI: D1, 29, female). Another reflected that “it’s not that much of an impact because maybe I do two CXRs in the 40-something patients that I see [in a day]” (FGD: B5, 30, male).",
+              "page": 6,
+              "position": 105
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Practical Usability",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "Ease of use was frequently cited as “one of the biggest factors [influencing] adoption” (IDI: A5, 46, male). The tool was praised for its user-friendly interface and easy access within the electronic medical system. “It loads fairly quickly...the features are quite clear. The fonts are big. The heat map is staring at you. Interface is fairly straightforward...just a quick scroll and you can see the next image” (IDI: A4, 36, male).",
+              "page": 6,
+              "position": 106
+            },
+            {
+              "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+              "page": 6,
+              "position": 107
+            },
+            {
+              "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 7",
+              "page": 6,
+              "position": 108
+            },
+            {
+              "text": "(page number not for citation purposes)",
+              "page": 6,
+              "position": 109
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Theme 2: Clinician Beliefs and Confidence",
+      "level": 1,
+      "page_start": 7,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "Clinician beliefs and confidence refer to individual-level determinants of engagement with the AI tool. Three key factors emerged: self-perceived competence in CXR interpretation, attitudes toward AI, and change mindset.",
+          "page": 7,
+          "position": 110
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Self-Perceived Competence in CXR Interpretation",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "Perceived value of the AI tool appeared related to clinicians’ confidence in interpreting CXRs and acting before radiologist reporting (IDI: A3, 30, female). For those already accustomed to doing so, the AI was a useful adjunct that accelerated patient care (IDI: D2, 57, male). For these clinicians, “the biggest advantage [of the AI] is that it’s much faster for the patients...I would definitely use it” (IDI: A5, 46, male).",
+              "page": 7,
+              "position": 111
+            },
+            {
+              "text": "In contrast, when clinicians felt less confident in interpret- ing CXRs, they preferred to wait for the radiologist’s report. “I think if we were to base the management of the patient purely from my personal reading of the image [and the AI output], I’m worried that may potentially be wrong, and then it may also have medicolegal consequences” (FGD: C4, 32, female).",
+              "page": 7,
+              "position": 112
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Change Mindset",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "Clinicians’ openness to change influenced their willingness to try the AI tool even before its value in practice was fully established. One shared that since “it’s a new initiative, just try [it]. I keep an open mind” (IDI: D1, 29, female). Those who viewed change as an opportunity for improvement were more receptive to experimenting with new tools, describing this as dependent on the “personality and the working style of a clinician” (FGD: B4, 30, male).",
+              "page": 7,
+              "position": 113
+            },
+            {
+              "text": "In contrast, some clinicians were reluctant to stray from established workflows when they perceived no clear benefit. One admitted, “I probably would not have chosen the AI...Simply because I’m resistant to change, just my personality...I don’t see any need for a workflow change from what I’ve been practicing” (FGD: C1, 33, male).",
+              "page": 7,
+              "position": 114
+            },
+            {
+              "text": "Attitudes Toward AI Beliefs About AI’s Future Role in Health Care",
+              "page": 7,
+              "position": 115
+            },
+            {
+              "text": "Clinicians expressed optimism about the AI’s potential and therefore accepted its use in its current form, expecting it to improve as the system matures. As one explained, “I think there always needs to be a take-off point somewhere for these innovations to happen” (FGD: B5, 30, male). Another added, “there will be a point in time where the AI output and the radiologist output will be...no significant difference. And the AI might be able to interpret it better” (FGD: C3, 36, male).",
+              "page": 7,
+              "position": 116
+            },
+            {
+              "text": "Others accepted AI integration as inevitable, reflecting that “AI has permeated through our lives.... If you reject it, then you are kind of left behind.... Since I can’t change the tide...I have to learn how to embrace and accept it...” (IDI: A4, 36, male).",
+              "page": 7,
+              "position": 117
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Prior Exposure to AI",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "Prior experience with other AI systems may influence clinicians’ comfort with the AI tool. Those familiar with AI felt more comfortable, knowing “what are the thresholds, what are the limitations” (IDI: A1, 38, male), while others felt such experience was not transferable, as they “don’t use those for CXR” (IDI: A3, 30, female).",
+              "page": 7,
+              "position": 118
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Theme 3: Organizational Culture",
+      "level": 1,
+      "page_start": 7,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "Organizational culture captures how institutional structures and professional norms shaped clinicians’ engagement with the AI tool. The most prominent influences were institutional direction and safeguards, followed by the reassurance of an expert in the loop, and the reinforcing effects of peer influence and professional norms.",
+          "page": 7,
+          "position": 119
+        },
+        {
+          "text": "Institutional Direction and Safeguards Institutional Endorsement and Regulatory Oversight",
+          "page": 7,
+          "position": 120
+        },
+        {
+          "text": "Clinicians’ trust in the CXR-AI program stemmed from their confidence in institutional governance and its framing as an institution-led initiative. For some, institutional support was a prerequisite for acceptance: “for this to be rolled out, I would need to know that there’s institutional support” (FGD: B2, 41, female). Institutional endorsement therefore conferred legitimacy on the AI tool. One explained, “it seems more credible when the whole institution has put weight behind it,” as he trusted that “they would have put in a bit more safeguards” (IDI: A5, 46, male). Another added that “especially in the government institution, we will put a lot of priority in terms of safety” (IDI: A4, 36, male).",
+          "page": 7,
+          "position": 121
+        },
+        {
+          "text": "Many also assumed that rigorous validation and regulatory review had been undertaken. Clinicians articulated expecta- tions of what regulatory oversight should entail, including the AI system being “tried and tested independently, by an independent body outside the organization...[with] a process that continually audits this whole system” (IDI: A2, 41, male) and reviewed across multiple levels, including ministry and professional bodies (IDI: A4, 36, male).",
+          "page": 7,
+          "position": 122
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Stepwise Implementation and Feedback Channels",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Participants appreciated the phased introduction of the CXR-AI program, which built familiarity through briefings, reminders, and a “testing period” where clinicians could observe AI outputs while radiologist reporting continued as usual. “A stepwise introduction is important...to have that time to prove to the people who are using it...that this is a reliable tool” (FGD: B3, 28, female).",
+              "page": 7,
+              "position": 123
+            },
+            {
+              "text": "Although clinicians generally trusted institutional leadership, some felt implementation was largely top-down. One noted that “in our culture...if higher ups say ‘do this,’ we do this...nobody [asks] ‘why?’” and suggested creating opportunities to provide input before implementation (FGD: C3, 36, male).",
+              "page": 7,
+              "position": 124
+            },
+            {
+              "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+              "page": 7,
+              "position": 125
+            },
+            {
+              "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 8",
+              "page": 7,
+              "position": 126
+            },
+            {
+              "text": "(page number not for citation purposes)",
+              "page": 7,
+              "position": 127
+            },
+            {
+              "text": "Together, these accounts suggest that institutional authority both facilitated clinicians’ acceptance of the program and shaped their expectations of how it should be implemented.",
+              "page": 8,
+              "position": 128
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Expert in the Loop",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Clinicians’ acceptance of the CXR-AI program was contin- gent on the continued involvement of radiologists. They felt “protected...that [all] x-rays will ultimately be reviewed by a radiologist...it’s a safety net for all of us” (IDI: A6, 27, female). Knowing that “the radiologist will still double- check,” clinicians felt comfortable to “trust [the AI] as kind of like a first triage” (IDI: A4, 36, male).",
+              "page": 8,
+              "position": 129
+            },
+            {
+              "text": "Beyond patient safety, clinicians valued the shared medicolegal accountability afforded by radiologist involve- ment. The prospect of removing radiologist reporting was deemed unacceptable because “100 percent of the responsibil- ity will then fall upon the family doctor.... I wouldn’t like that at all. I think that’s quite unfair” (IDI: A3, 30, female).",
+              "page": 8,
+              "position": 130
+            },
+            {
+              "text": "Across interviews, radiologists remained the gold standard against which the AI’s value was judged, and their endorse- ment further strengthened its credibility. As one participant explained, “Whatever we learn and interpret, [the radiolog- ists] had taught us in the first place. So, if they realize that the AI is quite trustworthy and credible, it boosts the credibility further” (IDI: D1, 29, female). In effect, the CXR-AI program was accepted not because of the AI alone, but because it was embedded within a workflow in which radiologists remained involved.",
+              "page": 8,
+              "position": 131
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Peer Influence and Professional Norms",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "Clinicians described how their colleagues’ behavior could shape their willingness to use the AI tool. One explained that “as human beings, there’s this herd effect...if many people are not using it, I might probably be influenced not to use it” (FGD: B2, 41, female). Another felt that “if the rest of the team feels that it is useful, then it lends more credibility and I want to use it more” (IDI: A5, 46, male).",
+              "page": 8,
+              "position": 132
+            },
+            {
+              "text": "Peer experiences were generally favorable, with clinicians sharing positive examples of the AI’s performance and how these had built their own confidence in the tool. One recalled hearing that “it picked up pneumothorax...then it escala- ted...then the patient received care” (IDI: D1, 29, female).",
+              "page": 8,
+              "position": 133
+            },
+            {
+              "text": "Beyond peer influence, clinicians linked professional norms to medicolegal reassurance, noting that the AI tool alone was not yet defensible in the event of errors. As one explained, “if it is something that’s recognized as of high standard and it is widely used, then it can help to protect you...in terms of medicolegal implications. However, if it is a process that’s under trial, definitely it will not be helpful in any defense” (IDI: A2, 41, male).",
+              "page": 8,
+              "position": 134
+            },
+            {
+              "text": "However, some clinicians cautioned that peer influence and practice culture should not determine adoption deci- sions, as professional responsibility ultimately rests with the individual doctor: “Just because it’s something that is widely used or accepted doesn’t necessarily mean that it’s correct....",
+              "page": 8,
+              "position": 135
+            },
+            {
+              "text": "Ultimately, I’m the one that has to call the patient back and spend time and effort to change the plan” (IDI: A3, 30, female).",
+              "page": 8,
+              "position": 136
+            },
+            {
+              "text": "Together, these accounts suggest that peer influence helped build confidence in the AI tool, but did not over- ride clinicians’ sense of individual responsibility for decision- making.",
+              "page": 8,
+              "position": 137
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "This qualitative study provides insights into primary care doctors’ perspectives during the early implementation of a pilot CXR-AI program. Clinicians were broadly receptive to the technology, but their engagement was conditional, context-dependent, and shaped by hands-on experience.",
+          "page": 8,
+          "position": 138
+        },
+        {
+          "text": "Determinants of Initial and Continued Adoption During Early Implementation",
+          "page": 8,
+          "position": 139
+        },
+        {
+          "text": "Different factors appeared more salient when participants described initial uptake versus subsequent use.",
+          "page": 8,
+          "position": 140
+        },
+        {
+          "text": "At the point of deciding whether to try the AI tool, coherence and change mindset appeared particularly important in participants’ accounts. Coherence refers to the sense-making work clinicians undertake to understand an intervention’s purpose and relevance to their practice [25] and overlaps with Proctor’s construct of “appropriateness” [13] and TAM3’s “job relevance” [22]. Some clinicians descri- bed being more willing to engage when they understood the purpose of the intervention and saw it as meaningful to their work. Similarly, a change mindset appeared to contribute to early willingness to try the tool despite uncertainty [26]. This is consistent with prior work showing that individual mindsets shape receptivity to health care innovations [27].",
+          "page": 8,
+          "position": 141
+        },
+        {
+          "text": "Following initial use, decisions about whether to continue using the tool were more influenced by clinicians’ assess- ment of its usefulness in clinical practice. This aligns with TDF’s construct of reinforcement, whereby behaviors are more likely to be continued when they produce rewards that are perceived as valuable and immediate [15]. In our study, these rewards took the form of diagnostic accuracy and workflow efficiency, which have also been identified in the literature as important preconditions for AI adoption [16,17]. The operating threshold used by our AI model provided high sensitivity (93.2%) and negative predictive value (91.3%), supporting its role in triaging normal CXRs, but lower specificity (71.7%) and positive predictive value (76.7%), consistent with clinicians’ perceptions of overcall- ing abnormalities [12]. These findings reinforce the potential role of Lunit in triage while highlighting its limitations as a stand-alone diagnostic tool [6-8,28,29].",
+          "page": 8,
+          "position": 142
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Context-Specific Findings: Institutional Legitimacy and Muted Medicolegal Concern",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "Two findings differed from much of the existing literature. First, institutional endorsement emerged as an important",
+          "page": 8,
+          "position": 143
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 8,
+          "position": 144
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 9",
+          "page": 8,
+          "position": 145
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 8,
+          "position": 146
+        },
+        {
+          "text": "enabler of adoption. TAM3 conceptualizes voluntariness as a moderator of social norms’ effects on intention to use, such that in mandatory contexts, individuals may adopt a system due to compliance rather than internalized beliefs about its usefulness [22]. However, in our study, many participants appeared to interpret mandatory implementation not only as something to comply with, but also as a signal of legitimacy. Relatedly, whereas prior studies have described regulatory uncertainty as a source of anxiety [30,31], our participants generally expressed confidence in institutional oversight. This trust in institutional governance may reflect contextual factors specific to the local health care setting. While this could be influenced by broader cultural tendencies, such as a higher power-distance index [32], our study was not designed to examine these explanations directly, and such interpretations should be made cautiously.",
+          "page": 9,
+          "position": 147
+        },
+        {
+          "text": "Second, although medicolegal concerns are frequently cited as a major barrier to clinicians’ acceptance of AI [30, 31,33,34], these concerns appear mitigated in our study. This may be because radiologists remained embedded in the workflow, preserving shared responsibility and reducing anxiety about liability. In the local primary care context, formal radiologist reporting of CXRs is routine [35], and clinicians are accustomed to practicing within this arrange- ment. Participants regarded radiologists as a crucial sec- ond layer of review because of their specialist expertise and greater exposure to CXRs. This is supported by prior studies showing that CXR interpretation by nonradiologists is associated with higher rates of diagnostic error [36]. Together, these factors help explain why the AI tool was viewed as a complement to, rather than a replacement for, radiologist reporting.",
+          "page": 9,
+          "position": 148
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Strengths and Limitations",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "A key strength of this study is that it examined clinicians’ perspectives after real-world use of an AI-supported CXR triage program embedded in routine primary care practice. This contrasts with much of the existing literature, which has explored AI acceptance in hypothetical settings. This is important as first-hand experience significantly shapes clinicians’ perceptions [26,30,37]. The use of multiple conceptual frameworks, together with both IDIs and FGDs, also strengthened the analytic depth of the study.",
+          "page": 9,
+          "position": 149
+        },
+        {
+          "text": "Several limitations should be acknowledged. Given that this study examined a single AI implementation at a single site within one health care system, the transferability of our findings may be limited in settings with different organiza- tional structures, radiology workflows, or AI technologies. The study was also conducted during early implementation and therefore did not capture how clinicians’ perceptions and determinants of adoption may evolve with prolonged use. Participants may also have moderated their responses because interviews were conducted face-to-face by a physician in their workplace, and one investigator was involved in the program’s implementation. As participant allocation to IDIs and FGDs was nonrandom, the data collection method may have influenced how participants expressed their views. However, the subthemes were represented across both IDIs",
+          "page": 9,
+          "position": 150
+        },
+        {
+          "text": "and FGDs, including the socially mediated themes of peer influence and institutional trust. Finally, as a qualitative study, it did not assess objective clinical or safety outcomes of the program. Implications for Practice and Future Research",
+          "page": 9,
+          "position": 151
+        },
+        {
+          "text": "Our findings underscore the importance of a context-sensi- tive approach to AI implementation in primary care. Before rollout, implementation leaders could clearly communicate the clinical and operational problem that the AI interven- tion is intended to address, how it integrates into exist- ing workflows, and its locally validated performance and limitations. This may facilitate a clearer understanding of the rationale for change among end users [25,38]. Beyond this, implementation strategies could consider how local social and organizational dynamics may influence adoption. Where appropriate, approaches such as peer champions could be used to model use, shape norms, and build confidence [26], alongside feedback loops to refine workflows and sustain engagement through a stepwise approach. Finally, the diversity of clinicians’ views in this study reflects heterogene- ous barriers, suggesting that one-size-fits-all implementation strategies may not be effective and that a more personalized approach may be needed [27,39].",
+          "page": 9,
+          "position": 152
+        },
+        {
+          "text": "While these overarching implementation principles may be transferable across settings, the specific barriers encountered may differ according to the AI intervention, its integration into clinical workflows, and the organizational, cultural, and medicolegal context. Implementation strategies should therefore be adapted accordingly. In our setting, this could include accounting for differences in clinicians’ confidence in CXR interpretation and the influence of peer and institutional factors. Specific concerns about AI use could be addressed through targeted strategies such as training on the tool’s intended role and limitations, ongoing performance auditing and monitoring, and clear guidance on clinical accountability and human oversight.",
+          "page": 9,
+          "position": 153
+        },
+        {
+          "text": "A comprehensive evaluation of this AI intervention could integrate qualitative findings with objective clinical and operational outcomes, including diagnostic accuracy, radiologist reporting turnaround time, clinical decision-mak- ing time, workflow efficiency, and safety metrics. Patient- reported experience measures could also explore the intervention’s impact on patients’ experience of waiting and care delivery. Later-stage implementation outcomes, such as penetration, sustainability, and cost-effectiveness, could also be examined [13]. Longitudinal qualitative research could examine how clinicians’ perceptions of AI and its integra- tion into clinical workflows evolve with prolonged routine use. Studies across other health care settings and workflow designs would also help determine whether similar patterns of adoption emerge elsewhere.",
+          "page": 9,
+          "position": 154
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 12,
+      "paragraphs": [
+        {
+          "text": "This qualitative study suggests that adoption of AI-suppor- ted CXR triage in primary care is shaped not only by the technology itself, but also by how it is introduced,",
+          "page": 9,
+          "position": 155
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 9,
+          "position": 156
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 10",
+          "page": 9,
+          "position": 157
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 9,
+          "position": 158
+        },
+        {
+          "text": "understood, and experienced in practice. Clinicians described greater willingness to use the program when they understood its purpose, found it useful within existing workflows, and trusted the organizational safeguards surrounding its use.",
+          "page": 10,
+          "position": 159
+        },
+        {
+          "text": "These findings support the need for implementation strategies that are responsive to end user perspectives, local workflows, and the realities of primary care practice when integrating AI into routine care.",
+          "page": 10,
+          "position": 160
+        },
+        {
+          "text": "Acknowledgments We would like to acknowledge Drs Lim Chee Kong, Jonathan Ting, and Liu Changwei for overseeing the implementation of the CXR-AI program at the NHG polyclinic. Generative AI (ChatGPT, GPT-5.3; OpenAI) was used to assist with language and grammatical editing of the manuscript. The authors reviewed and revised all outputs and take full responsibility for the final content.",
+          "page": 10,
+          "position": 161
+        },
+        {
+          "text": "Funding This study was supported by the National Health Innovation Centre Singapore (NHIC) under the NHIC-I2A-2305009 grant. The funding supported participants’ token of appreciation.",
+          "page": 10,
+          "position": 162
+        },
+        {
+          "text": "Data Availability The data sets generated and analyzed during this study are not publicly available because they contain qualitative interview and focus group transcripts that may compromise participant confidentiality, but deidentified data may be available from the corresponding author on reasonable request and subject to ethics approval.",
+          "page": 10,
+          "position": 163
+        },
+        {
+          "text": "Authors’ Contributions SK, QWF, KPS, and SKWW conceptualized the study. SK, QWF, JGDR, DHMK, KPS, and SKWW contributed to the study methodology, investigation, and formal analysis. SK curated the data and administered the project. QWF and CHT supervised implementation of the CXR-AI program, with CHT also providing resources and acquiring funding. KPS and SKWW supervised the planning and execution of the research activities. SK drafted the initial manuscript. All authors reviewed and edited the manuscript and approved the final version. KPS and SKWW contributed equally as joint senior authors.",
+          "page": 10,
+          "position": 164
+        },
+        {
+          "text": "Conflicts of Interest CHT and QWF were involved in the implementation of the CXR-AI program evaluated in this study. CHT obtained funding for the program. The remaining authors declare no conflicts of interest.",
+          "page": 10,
+          "position": 165
+        },
+        {
+          "text": "Multimedia Appendix 1 Semistructured interview guide. [DOC File (Microsoft Word File), 57 KB-Multimedia Appendix 1]",
+          "page": 10,
+          "position": 166
+        },
+        {
+          "text": "Checklist 1 COREQ checklist. [DOCX File (Microsoft Word File), 404 KB-Checklist 1]",
+          "page": 10,
+          "position": 167
+        },
+        {
+          "text": "References 1. Hosny A, Parmar C, Quackenbush J, Schwartz LH, Aerts H. Artificial intelligence in radiology. Nat Rev Cancer. Aug 2018;18(8):500-510. [doi: 10.1038/s41568-018-0016-5] [Medline: 29777175] 2. National Healthcare Group Diagnostics. URL: https://www.nhgd.com.sg/ourservices [Accessed 2026-09-03] 3. Goh CXY, Ho FCH. The growing problem of radiologist shortages: perspectives from Singapore. Korean J Radiol. Dec 2023;24(12):1176-1178. [doi: 10.3348/kjr.2023.0966] [Medline: 38016677] 4. Ang A. National Healthcare Group adopts AI for lung, heart disease screening. Healthcare IT News. Aug 19, 2024. URL: https://www.healthcareitnews.com/news/asia/national-healthcare-group-adopts-ai-lung-heart-disease-screening [Accessed 2024-09-21] 5. Hwang EJ, Park S, Jin KN, et al. Development and validation of a deep learning-based automated detection algorithm for major thoracic diseases on chest radiographs. JAMA Netw Open. Mar 1, 2019;2(3):e191095. [doi: 10.1001/ jamanetworkopen.2019.1095] [Medline: 30901052] 6. van Beek EJR, Ahn JS, Kim MJ, Murchison JT. Validation study of machine-learning chest radiograph software in primary and emergency medicine. Clin Radiol. Jan 2023;78(1):1-7. [doi: 10.1016/j.crad.2022.08.129] [Medline: 36171164] 7. Miró Catalina Q, Vidal-Alaball J, Fuster-Casanovas A, Escalé-Besa A, Ruiz Comellas A, Solé-Casals J. Real-world testing of an artificial intelligence algorithm for the analysis of chest X-rays in primary care settings. Sci Rep. Mar 3, 2024;14(1):5199. [doi: 10.1038/s41598-024-55792-1] [Medline: 38431731]",
+          "page": 10,
+          "position": 168
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 10,
+          "position": 169
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 11",
+          "page": 10,
+          "position": 170
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 10,
+          "position": 171
+        },
+        {
+          "text": "8. Schalekamp S, van Leeuwen K, Calli E, et al. Performance of AI to exclude normal chest radiographs to reduce radiologists’ workload. Eur Radiol. Nov 2024;34(11):7255-7263. [doi: 10.1007/s00330-024-10794-5] [Medline: 38758252] 9. Speets AM, van der Graaf Y, Hoes AW, et al. Chest radiography in general practice: indications, diagnostic yield and consequences for patient management. Br J Gen Pract. Aug 2006;56(529):574-578. [Medline: 16882374] 10. Shin HJ, Han K, Ryu L, Kim EK. The impact of artificial intelligence on the reading times of radiologists for chest radiographs. NPJ Digit Med. Apr 29, 2023;6(1):82. [doi: 10.1038/s41746-023-00829-4] [Medline: 37120423] 11. Shin HJ, Lee S, Kim S, Son NH, Kim EK. Hospital-wide survey of clinical experience with artificial intelligence applied to daily chest radiographs. PLoS One. 2023;18(3):e0282123. [doi: 10.1371/journal.pone.0282123] [Medline: 36862644] 12. Sim JZT, Lin J, Fong QW, et al. How threshold customisation affects the performance of a multiclass X-ray AI model for primary care triage: a retrospective study. BMJ Open. Feb 12, 2026;16(2):e111127. [doi: 10.1136/bmjopen-2025- 111127] [Medline: 41689225] 13. Proctor E, Silmere H, Raghavan R, et al. Outcomes for implementation research: conceptual distinctions, measurement challenges, and research agenda. Adm Policy Ment Health. Mar 2011;38(2):65-76. [doi: 10.1007/s10488-010-0319-7] [Medline: 20957426] 14. Greenhalgh T, Robert G, Macfarlane F, Bate P, Kyriakidou O. Diffusion of innovations in service organizations: systematic review and recommendations. Milbank Q. 2004;82(4):581-629. [doi: 10.1111/j.0887-378X.2004.00325.x] [Medline: 15595944] 15. Atkins L, Francis J, Islam R, et al. A guide to using the Theoretical Domains Framework of behaviour change to investigate implementation problems. Implement Sci. Jun 21, 2017;12(1):77. [doi: 10.1186/s13012-017-0605-9] [Medline: 28637486] 16. Allen MR, Webb S, Mandvi A, Frieden M, Tai-Seale M, Kallenberg G. Navigating the doctor-patient-AI relationship - a mixed-methods study of physician attitudes toward artificial intelligence in primary care. BMC Prim Care. Jan 27, 2024;25(1):42. [doi: 10.1186/s12875-024-02282-y] [Medline: 38281026] 17. Buck C, Doctor E, Hennrich J, Jöhnk J, Eymann T. General practitioners’ attitudes toward artificial intelligence-enabled systems: interview study. J Med Internet Res. Jan 27, 2022;24(1):e28916. [doi: 10.2196/28916] [Medline: 35084342] 18. Saw SN, Ng KH. Current challenges of implementing artificial intelligence in medical imaging. Phys Med. Aug 2022;100:12-17. [doi: 10.1016/j.ejmp.2022.06.003] [Medline: 35714523] 19. Scipion CEA, Manchester MA, Federman A, Wang Y, Arias JJ. Barriers to and facilitators of clinician acceptance and use of artificial intelligence in healthcare settings: a scoping review. BMJ Open. Apr 15, 2025;15(4):e092624. [doi: 10. 1136/bmjopen-2024-092624] [Medline: 40233955] 20. Thanthrige A, Lu B, Sako Z, Wickramasinghe N. Determinants of health care technology adoption using an integrated unified theory of acceptance and use of technology and task technology fit model: systematic review and meta-analysis. J Med Internet Res. Dec 30, 2025;27:e64524. [doi: 10.2196/64524] [Medline: 41468595] 21. Sandelowski M. Whatever happened to qualitative description? Res Nurs Health. Aug 2000;23(4):334-340. [doi: 10. 1002/1098-240x(200008)23:4<334::aid-nur9>3.0.co;2-g] [Medline: 10940958] 22. Venkatesh V, Bala H. Technology acceptance model 3 and a research agenda on interventions. Decision Sciences. May 2008;39(2):273-315. [doi: 10.1111/j.1540-5915.2008.00192.x] 23. Braun V, Clarke V. Using thematic analysis in psychology. Qual Res Psychol. Jan 2006;3(2):77-101. [doi: 10.1191/ 1478088706qp063oa] 24. Lincoln YS, Guba EG. Naturalistic Inquiry. Sage; 1985. ISBN: 9780803924314 25. Murray E, Treweek S, Pope C, et al. Normalisation process theory: a framework for developing, evaluating and implementing complex interventions. BMC Med. Oct 20, 2010;8:63. [doi: 10.1186/1741-7015-8-63] [Medline: 20961442] 26. Dedehayir O, Ortt RJ, Riverola C, Miralles F. Innovators and early adopters in the diffusion of innovations: a literature review. Int J Innov Mgt. Dec 2017;21(8):1740010. [doi: 10.1142/S1363919617400102] 27. Grayson ML, Macesic N, Huang GK, et al. Use of an innovative personality-mindset profiling tool to guide culture- change strategies among different healthcare worker groups. PLoS One. 2015;10(10):e0140509. [doi: 10.1371/journal. pone.0140509] [Medline: 26489012] 28. Vasilev Y, Vladzymyrskyy A, Omelyanskaya O, Blokhin I, Kirpichev Y, Arzamasov K. AI-based CXR first reading: current limitations to ensure practical value. Diagnostics (Basel). Apr 16, 2023;13(8):1430. [doi: 10.3390/ diagnostics13081430] [Medline: 37189531] 29. Lind Plesner L, Müller FC, Brejnebøl MW, et al. Commercially available chest radiograph AI tools for detecting airspace disease, pneumothorax, and pleural effusion. Radiology. Sep 2023;308(3):e231236. [doi: 10.1148/radiol. 231236] [Medline: 37750768]",
+          "page": 11,
+          "position": 172
+        },
+        {
+          "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+          "page": 11,
+          "position": 173
+        },
+        {
+          "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 12",
+          "page": 11,
+          "position": 174
+        },
+        {
+          "text": "(page number not for citation purposes)",
+          "page": 11,
+          "position": 175
+        },
+        {
+          "text": "30. Masawi TJ, Miller E, Rees D, Thomas R. Clinical perspectives on AI integration: assessing readiness and training needs among healthcare practitioners. Journal of Decision Systems. Jan 2, 2025;34(1):2458874. [doi: 10.1080/12460125.2025. 2458874] 31. Laï MC, Brian M, Mamzer MF. Perceptions of artificial intelligence in healthcare: findings from a qualitative survey study among actors in France. J Transl Med. Jan 9, 2020;18(1):14. [doi: 10.1186/s12967-019-02204-y] [Medline: 31918710] 32. Hofstede G, Hofstede GJ, Minkov M. Cultures and Organizations: Software of the Mind: Intercultural Cooperation and Its Importance for Survival. 3rd ed. McGraw-Hill; 2010:57, 60-62. ISBN: 978-0-07-166418-9 33. Blease C, Kaptchuk TJ, Bernstein MH, Mandl KD, Halamka JD, DesRoches CM. Artificial Intelligence and the future of primary care: exploratory qualitative study of UK general practitioners’ views. J Med Internet Res. Mar 20, 2019;21(3):e12802. [doi: 10.2196/12802] [Medline: 30892270] 34. Khullar D, Casalino LP, Qian Y, Lu Y, Chang E, Aneja S. Public vs physician views of liability for artificial intelligence in health care. J Am Med Inform Assoc. Jul 14, 2021;28(7):1574-1577. [doi: 10.1093/jamia/ocab055] [Medline: 33871009] 35. Ministry of Health Singapore. Healthcare Services Act. Healthcare services (clinical laboratory service and radiological service) regulations 2021. Singapore Statutes Online. May 5, 2026. URL: https://sso.agc.gov.sg/SL/HSA2020-S1036- 2021 [Accessed 2026-09-03] 36. Mehrotra P, Bosemani V, Cox J. Do radiologists still need to report chest x rays? Postgrad Med J. Jul 2009;85(1005):339-341. [doi: 10.1136/pgmj.2007.066712] [Medline: 19581241] 37. Fazakarley CA, Breen M, Leeson P, Thompson B, Williamson V. Experiences of using artificial intelligence in healthcare: a qualitative study of UK clinician and key stakeholder perspectives. BMJ Open. Dec 11, 2023;13(12):e076950. [doi: 10.1136/bmjopen-2023-076950] [Medline: 38081671] 38. Wong Q, Lacombe M, Keller R, Joyce T, OʼMalley K. Leading change with ADKAR. Nurs Manage. Apr 2019;50(4):28-35. [doi: 10.1097/01.NUMA.0000554341.70508.75] [Medline: 30921039] 39. Cabana MD, Rand CS, Powe NR, et al. Why don’t physicians follow clinical practice guidelines? A framework for improvement. JAMA. Oct 20, 1999;282(15):1458-1465. [doi: 10.1001/jama.282.15.1458] [Medline: 10535437]",
+          "page": 12,
+          "position": 176
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Abbreviations",
+          "level": 3,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "COREQ: Consolidated Criteria for Reporting Qualitative Research CXR: chest X-ray FGD: focus group discussion IDI: in-depth interview NHG: National Healthcare Group TAM3: Technology Acceptance Model 3 TDF: Theoretical Domains Framework",
+              "page": 12,
+              "position": 177
+            },
+            {
+              "text": "Edited by Taiane de Azevedo Cardoso; peer-reviewed by Jun Zhang, Xiaolong Liang; submitted 30.May.2026; final revised version received 30.Aug.2026; accepted 31.Aug.2026; published 17.Sep.2026",
+              "page": 12,
+              "position": 178
+            },
+            {
+              "text": "Please cite as: Kuang S, Fong QW, De Roza JG, Koh DHM, Tan CH, Sze KP, Wong SKW Primary Care Doctors’ Perspectives and Experiences With a Chest X-Ray AI Triage Program: Qualitative Study J Med Internet Res 2026;28:e103006 URL: https://www.jmir.org/2026/1/e103006 doi: 10.2196/103006",
+              "page": 12,
+              "position": 179
+            },
+            {
+              "text": "© Silin Kuang, Qi Wei Fong, Jacqueline Giovanna De Roza, Dana Hui Min Koh, Cher Heng Tan, Kai Ping Sze, Sabrina Kay Wye Wong. Originally published in the Journal of Medical Internet Research (https://www.jmir.org), 17.Sep.2026. This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creative- commons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research (ISSN 1438-8871), is properly cited. The complete bibliographic information, a link to the original publication on https://www.jmir.org/, as well as this copyright and license information must be included.",
+              "page": 12,
+              "position": 180
+            },
+            {
+              "text": "JOURNAL OF MEDICAL INTERNET RESEARCH Kuang et al",
+              "page": 12,
+              "position": 181
+            },
+            {
+              "text": "https://www.jmir.org/2026/1/e103006 J Med Internet Res 2026 | vol. 28 | e103006 | p. 13",
+              "page": 12,
+              "position": 182
+            },
+            {
+              "text": "(page number not for citation purposes)",
+              "page": 12,
+              "position": 183
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "page_count": 13,
+  "warnings": [
+    "no references detected"
+  ]
+}

@@ -1,0 +1,1260 @@
+{
+  "identity": {
+    "id": "doc_b18cf9b9d3f87eb8",
+    "source": {
+      "filename": "PMC13605366.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13605366.1/PMC13605366.1.pdf",
+      "content_hash": "b18cf9b9d3f87eb8d8f396d07f6f8562eace6633a46354c01538a98c3449d4bd"
+    }
+  },
+  "metadata": {
+    "title": "Academic Editor: Gaetano Caramori",
+    "authors": [
+      "Received:  July"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3390/diseases14090313",
+    "arxiv_id": null,
+    "abstract": "Background:Immunotherapyandtargetedtherapyhavegainedgroundoverconven- tional chemotherapy in treating various cancers.While pulmonary toxicity associated with these agents is rare, it represents a significant factor in both mortality and morbidity and may influence the overall success of cancer treatment.This case series report adds to the emerging evidence of cancer therapy-induced pneumonitis features and corticotherapy outcomes.Patientsandmethods:Thissingle-center,retrospectivecaseseriesanalyzed 12 consecutive cases of patients undergoing immunotherapy (four receiving nivolumab, four receiving pembrolizumab) or targeted therapy (three receiving obinutuzumab, one receiving abemaciclib) for cancer (seven with lung cancer, three with non-Hodgkin lym- phoma, one with breast cancer, one with renal cancer) who developed pneumonitis during their follow-up.Results:The interval from oncological treatment initiation to pneumonitis onset ranged from 6 to 48 months (median = 18.5), and in four patients it occurred after discontinuation of oncologic therapy.In most patients, the diagnosis was established with high probability based only on the clinical presentation, radiologic pattern, and concomi- tant oncologic therapy.Bronchoscopy with bronchoalveolar lavage analysis was performed in eight of the 12 patients,particularly when onset followed treatment discontinuation. The main symptom was dyspnea (10/12 cases), and three of 12 patients had respiratory failure (SpO2 ≤88%).The CTCAE severity grades were:one mild, seven moderate, three severe, and one life-threatening.The CT scan showed different patterns (7 OP, 4 NSIP-like, and 1 HP). Eleven patients received oral methylprednisolone (0.40 to 0.82 mg/kg) for 5 to 16 weeks.Two patients continued oncologic treatment, and six discontinued.Pneumonitis improved or resolved in 11 of the 12 patients; one patient deteriorated after reintroduction of immunotherapy and subsequently died from cancer-related complications.Conclusions: Immunotherapy- and targeted therapy-induced pneumonitis can express various features andseverities,andpromptrecognitionanddiagnosisbasedonclinical,radiologicand contextual elements are mandatory.In this small, heterogeneous series the individualized corticosteroidregimensusedwerefollowedbyfavorableoutcomes.Ourobservations suggest that, in selected clinically improving patients, follow-up may rely only on clinical assessment and chest X-ray, and extensive tests may be reserved for non-responsive cases. Diseases 2026, 14, 313 https://doi.org/10.3390/diseases14090313 Diseases 2026, 14, 313 2 of 21 Keywords:immune-induced pneumonitis; target agents-induced pneumonitis; immune checkpoint inhibitor; anti-CD20-targeted agents; CDK 4/6 inhibitor",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Academic Editor: Gaetano Caramori",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Received: 21 July 2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Revised: 17 August 2026",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Accepted: 25 August 2026",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Published: 27 August 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Copyright: © 2026 by the authors.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "This article is an open access article",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "distributed under the terms and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "conditions of theCreative Commons",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Attribution (CC BY) license.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Article Pneumonitis Associated with Immune Checkpoint Inhibitors and Targeted Anticancer Therapies:A Retrospective Case Series of 12 Patients",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Claudia Lucia Toma1,2,* , S, tefania Florina Oprea1,2,* , S, tefan Dumitrache-Rujinski1,2 , Ionela Nicoleta Belaconi1,2, Daniela Jipa-Dună1,2, Cristian Cojocaru3 , Alexandra Maria Cristea1,2, Camelia Cristina Diaconu1,4 and Dragos Cosmin Zaharia1,2",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1 Faculty of Medicine, Carol Davila University of Medicine and Pharmacy, 050474 Bucharest, Romania; stefan.dumitrache@umfcd.ro (S, .D.-R.); ionela.belaconi@umfcd.ro (I.N.B.); daniela.jipa@umfcd.ro (D.J.-D.); alexandra.maria.sora@gmail.com (A.M.C.); camelia.diaconu@umfcd.ro (C.C.D.); dragos.zaharia@umfcd.ro (D.C.Z.) 2 Pneumology IV Department, Marius Nasta Institute of Pulmonology, 050159 Bucharest, Romania 3 Faculty of Medicine, Grigore T. Popa University of Medicine and Pharmacy, 700115 Iasi, Romania; cristian.cojocaru@umfiasi.ro 4 Internal Medicine Department, Clinical Emergency Hospital of Bucharest, 105402 Bucharest, Romania * Correspondence:claudia.toma@umfcd.ro (C.L.T.); stefania-florina.oprea@drd.umfcd.ro (S, .F.O.)",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Background:Immunotherapyandtargetedtherapyhavegainedgroundoverconven- tional chemotherapy in treating various cancers.While pulmonary toxicity associated with these agents is rare, it represents a significant factor in both mortality and morbidity and may influence the overall success of cancer treatment.This case series report adds to the emerging evidence of cancer therapy-induced pneumonitis features and corticotherapy outcomes.Patientsandmethods:Thissingle-center,retrospectivecaseseriesanalyzed 12 consecutive cases of patients undergoing immunotherapy (four receiving nivolumab, four receiving pembrolizumab) or targeted therapy (three receiving obinutuzumab, one receiving abemaciclib) for cancer (seven with lung cancer, three with non-Hodgkin lym- phoma, one with breast cancer, one with renal cancer) who developed pneumonitis during their follow-up.Results:The interval from oncological treatment initiation to pneumonitis onset ranged from 6 to 48 months (median = 18.5), and in four patients it occurred after discontinuation of oncologic therapy.In most patients, the diagnosis was established with high probability based only on the clinical presentation, radiologic pattern, and concomi- tant oncologic therapy.Bronchoscopy with bronchoalveolar lavage analysis was performed in eight of the 12 patients,particularly when onset followed treatment discontinuation. The main symptom was dyspnea (10/12 cases), and three of 12 patients had respiratory failure (SpO2 ≤88%).The CTCAE severity grades were:one mild, seven moderate, three severe, and one life-threatening.The CT scan showed different patterns (7 OP, 4 NSIP-like, and 1 HP). Eleven patients received oral methylprednisolone (0.40 to 0.82 mg/kg) for 5 to 16 weeks.Two patients continued oncologic treatment, and six discontinued.Pneumonitis improved or resolved in 11 of the 12 patients; one patient deteriorated after reintroduction of immunotherapy and subsequently died from cancer-related complications.Conclusions: Immunotherapy- and targeted therapy-induced pneumonitis can express various features andseverities,andpromptrecognitionanddiagnosisbasedonclinical,radiologicand contextual elements are mandatory.In this small, heterogeneous series the individualized corticosteroidregimensusedwerefollowedbyfavorableoutcomes.Ourobservations suggest that, in selected clinically improving patients, follow-up may rely only on clinical assessment and chest X-ray, and extensive tests may be reserved for non-responsive cases.",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Diseases 2026, 14, 313 https://doi.org/10.3390/diseases14090313",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Diseases 2026, 14, 313 2 of 21",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "Keywords:immune-induced pneumonitis; target agents-induced pneumonitis; immune checkpoint inhibitor; anti-CD20-targeted agents; CDK 4/6 inhibitor",
+          "page": 1,
+          "position": 17
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1.Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "In recent years, the treatment of certain types of cancer has been revolutionized by the approval of targeted therapies and immunotherapy.Although pulmonary toxicity is a rare adverse effect, the increasing use of these therapeutic agents has facilitated the recognition of such reactions.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "For active immunotherapy involving immune checkpoint inhibitors (ICI), the inci- dence of therapy-induced pneumonitis ranges between 2.7% and 10% [1–6], with conflict- ingevidencethatahigherincidenceisobservedincasesinvolvingthecombinationof immunotherapeutic agents [7].Concomitant chemotherapy seems to reduce the risk of immune-related pneumonitis [7].In the case of molecular-targeted therapies, incidence rates vary depending on the specific agent.For instance, anti-CD20 agents such as Ritux- imab have been associated with a risk of inducing non-infectious pneumonitis ranging from 3.9% to 8.4% [8,9].Conversely, the literature describes only a few reported cases of pneumonitiscausedbytheanti-CD20agentobinutuzumab[10,11].Additionally,CDK 4/6 inhibitors rarely cause pneumonitis; however, the FDA has issued warnings regarding the potential severity of these adverse events [12].",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Thepromptrecognitionofpulmonarytoxicityiscrucialtopreventingpotentially irreversible or fatal consequences.Pneumonitis is one of the leading causes of immunother- apy discontinuation [3].Suspicion usually starts with common symptoms (progressive exertional and even at-rest dyspnea,cough,fever) in a patient with cancer undergoing targetedoncologictherapyforseveralmonths.Themediantimetoonsetis3months, but there is high variability (9 days to 19 months) [3],and pneumonitis can occur even several months after cessation of therapy [13].Patients can present with mild hypoxemia (PaO2morethan60mmHgandSpO2morethan88–90%butlessthannormal~95%) orvariousdegreesofrespiratoryfailure(PaO2lessthan60mmHgandSpO2lessthan 88–90%).Clinical exam of the thorax can be normal,and lung crackles may be audible inrarecases.Postero-anteriorchestX-rayscanrevealapatchyinterstitialpatternwith mild opacity consistent mostly with ground-glass attenuation on CT scan or more intense opacity consistent with lung consolidation.Most papers that present radiologic features of oncologic targeted therapy-induced pneumonitis discuss less simple chest X-ray images and focus mainly on CT scan patterns.Inflammatory markers can have increased values but are not currently used for diagnosis.These patterns can be localized or diffuse.These clinical (symptoms, signs), contextual (cancer following targeted therapy), and paraclinical elements (chest X-ray, inflammatory markers) can suffice for a high-probability diagnosis, but most clinicians follow a more prudent approach and perform other more invasive and costly medical investigations to “confirm” the diagnosis.",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "HRCT scan is frequently used to characterize and localize more precisely the lung lesions as it has a higher sensitivity and specificity for interstitial lung diseases [14]; the mosttypicalandfrequentpatternsarepatchyground-glassattenuationandconsolida- tion zones distributed in both lungs which are quite similar to the aspects encountered in SARS-CoV2 pneumonia (diffuse alveolar damage/acute interstitial pneumonia/acute respiratory distress syndrome–DAD/AIP/ARDS) or organizing pneumonia (OP) [15,16]. Other patterns were also described:nonspecific interstitial pneumonia (NSIP), hypersensi- tivity pneumonia (HP), bronchiolitis (BL), radiation recall pneumonitis (RRP) [16], diffuse",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "Diseases 2026, 14, 313 3 of 21",
+          "page": 2,
+          "position": 23
+        },
+        {
+          "text": "alveolar hemorrhage (DAH) or sarcoid-like reactions (SLR). Also, localized lung lesions can be more rarely encountered [10].",
+          "page": 2,
+          "position": 24
+        },
+        {
+          "text": "Bronchoscopy and lung biopsy can be performed to further characterize the existing lunginjurybycelldistributionpatternsbutoftencannotdistinguishotherdiagnoses such as various types of non-bacterial pneumonia, alveolar hemorrhage, lung congestion, non-cardiogenicpulmonaryedema,sarcoidosis,lymphangiticcarcinomatosis,etc.The bronchoalveolar lavage (BAL) is important to exclude an infectious cause (viral, bacterial or fungal).The bronchoalveolar lavage reveals lymphocyte-predominant cellularity most of the time [15].Still, the existence of other patterns cannot exclude the oncologic targeted therapy lung injury, and the presence of malignant cells can be a feature of the subsidiary oncologic disease.For these considerations, these complex medical tests cannot confirm theetiologicdiagnosis.Lungbiopsiescanalsobeperformed,butthehighvariability of histopathologic lung injury patterns generated by different drugs and even within a specific class of therapeutic agents [3,15] correlated with the risks, making this approach less desirable in terms of the risk/benefit ratio.",
+          "page": 2,
+          "position": 25
+        },
+        {
+          "text": "The management of these patients is guided by symptomatology, levels of severity or presence of respiratory failure and the extent of pulmonary involvement [17] and is guided by severity grades by CTCAE criteria [18].For asymptomatic patients, imaging surveillance alone is sufficient, without interrupting immunotherapy or targeted therapy.Depending on the severity of symptoms, discontinuation of immunotherapy or targeted therapy and the initiation of corticosteroid treatment should be considered in moderate to severe patients. If considering corticotherapy, currently there is no standard recommendation of treatment forthistypeofpneumonitisorofdiscontinuationoftheincriminatedtherapy.Most recommendations are based on clinical experience,consensus opinion or observational studies or case series and include corticotherapy regimens of various doses (0.5–1 mg/kg) for various lengths (minimum of 6 weeks and no maximum duration recommendation) and with no standard dose tapering rhythm (at least 4 weeks, based on the initial severity, clinical response and tendency to relapse with dose decrease) [19,20].",
+          "page": 2,
+          "position": 26
+        },
+        {
+          "text": "Againstthis backgroundandgiven thatmuch ofthe existingliteraturefocuses on immune checkpoint inhibitors and on computed tomography findings, we report a single- center,retrospectiveseriesof12patientswhodevelopedpneumonitisduringorafter treatment with immune checkpoint inhibitors or targeted anticancer agents.This series providesinformationonpneumonitisinducedbylesscommonlyreportedanticancer agents, such as obinutuzumab and abemaciclib.It also includes patients who developed pneumonitis long after the initiation of oncologic treatment, emphasizing that drug-induced pneumonitis may occur both during treatment and after its completion.In addition, it offers radiological images of the different findings and patterns, both at diagnosis and during follow-up.Finally, it suggests evaluation by chest radiography for follow-up in selected, clinically improving patients, in order to reduce costs and avoid unnecessary, expensive investigations.However,given the small and heterogeneous group of patients and the retrospective nature of the case series, we consider these observations to be descriptive and hypothesis-generating.",
+          "page": 2,
+          "position": 27
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2.Materials and Methods",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "2.1.Selection and Description of Participants",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "Thiscaseseriesincludestwelveconsecutivecasesofpneumonitisinducedbyim- munotherapy or targeted therapy diagnosed and managed by the authors at the Marius Nasta Institute of Pulmonology in Bucharest, Romania, between January 2022 and June 2025.The medical data of these cases were collected based on the personal data collection consent form signed by the patients on admission to the hospital, which also covers research",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "Diseases 2026, 14, 313 4 of 21",
+          "page": 3,
+          "position": 31
+        },
+        {
+          "text": "purposes.Besides this, verbal consent for the purpose of publishing anonymized medical data was obtained from the subjects who were alive at the moment of the decision to start this study.A formal request was sent to the ethics committee of the Marius Nasta Institute ofPulmonologyon11July2025.Itwasapprovedbythelocalethicscommitteeofthe Marius Nasta Institute of Pulmonology in August 2025 (reference number 16362/19 August 2025) and was conducted in accordance with the Declaration of Helsinki.The manuscript was reviewed by all team members.",
+          "page": 3,
+          "position": 32
+        },
+        {
+          "text": "The medical data used in this study are available and can be provided by the corre- sponding author upon request.",
+          "page": 3,
+          "position": 33
+        },
+        {
+          "text": "Thestudyaimstoaddmoreinformationtotheemergingevidenceofdiagnostic features and management outcomes of these cases.",
+          "page": 3,
+          "position": 34
+        },
+        {
+          "text": "2.2.Data Collection and Measurements",
+          "page": 3,
+          "position": 35
+        },
+        {
+          "text": "A retrospective search was performed to identify all consecutive patients admitted to the Pneumology IV Department of the Marius Nasta Institute of Pulmonology between January 2022 and June 2025, diagnosed and managed by the authors, in whom a diagno- sis of oncologic therapy-induced pneumonitis was established according to the criteria describedbelow.Asnospecificdiagnosticcodeexistsforoncologictherapy-induced lungdisease,caseswereidentifiedbysearchingthedischargesummariesforthekey- words “drug-induced pneumonitis”, “induced pneumonitis”, “associated pneumonitis”, “immunotherapy”,“immunotherapy-induced pneumonitis”,“targeted therapy” (trans-",
+          "page": 3,
+          "position": 36
+        },
+        {
+          "text": "lated from Romanian), complemented by the treating physicians’ direct knowledge of the patients managed in the department during the study period.",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "Patients were excluded if the available clinical or imaging data were insufficient to support the diagnosis, or if they were lost to follow-up and did not attend their scheduled control visits, precluding assessment of the disease course.",
+          "page": 3,
+          "position": 38
+        },
+        {
+          "text": "In our cohort, the diagnosis of oncologic therapy-induced pneumonitis was based on a stepwise, predominantly non-invasive approach, with bronchoscopy and biopsy reserved for selected cases (Figure 1).Pneumonitis was suspected in patients receiving, or recently treated with, an immune checkpoint inhibitor or a targeted anticancer agent who developed new respiratory symptoms (progressive dyspnea, cough, with or without fever) and/or new pulmonary infiltrates.",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "Allpatientsunderwentclinicalevaluation,includingmeasurementofoxygensat- uration,bloodpressureandheartrate,bloodtests(completebloodcountandin- flammatorymarkers,namelyC-reactiveprotein,erythrocytesedimentationrateand fibrinogen),pulmonaryfunctiontestsandchestimaging(chestradiographyand/or computed tomography).",
+          "page": 3,
+          "position": 40
+        },
+        {
+          "text": "A probable diagnosis was considered when the clinical presentation and the radiologic patternwerecompatiblewithdrug-inducedpneumonitisandweretemporallyrelated to the oncologic therapy.Alternative causes were actively excluded, namely pulmonary infection,cardiacfailureandpulmonaryedema,andlymphangiticcarcinomatosisor tumor progression.Concerning radiation pneumonitis,only two patients had received radiotherapy as part of their oncologic treatment, and their radiological changes were not compatible with this type of parenchymal involvement.",
+          "page": 3,
+          "position": 41
+        },
+        {
+          "text": "Bronchoscopywithbronchoalveolarlavagewasreservedforpatientswithatypi- calclinicalorradiologicfeatures,diagnosticuncertainty,oraninadequateresponseto corticosteroidtherapy.Inthe8patientswhounderwentbronchoalveolarlavage,no malignant cells were identified, and bacteriological and mycological examinations were negative,withlymphocyte-predominantcellularityarguingagainstinfectionandma- lignantinvolvement.Onceaprobablediagnosiswasestablished,severitywasgraded",
+          "page": 3,
+          "position": 42
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 3,
+          "position": 43
+        },
+        {
+          "text": "Diseases 2026, 14, 313 5 of 21",
+          "page": 4,
+          "position": 44
+        },
+        {
+          "text": "accordingtotheCTCAE(CommonTerminologyCriteriaforAdverseEvents)crite- ria,andmanagement—continuationordiscontinuationoftheanticanceragent,initia- tionofcorticosteroids,andfollow-upbyclinicalandradiographicassessment—was decided accordingly.",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "Figure 1.Diagnosis flowchart of oncologic therapy-induced pneumonitis.CT = computed tomograpy, BAL = bronchoalveolar lavage, CTCAE = Common Terminology Criteria for Adverse Events.",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "Themaincharacteristicsofthepatientsincludedinthecaseseriesaredetailed in Table 1.",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "Each clinical case was studied in terms of history, clinical picture, basic tests (chest X- rays, blood tests), further tests (CT scans, bronchoscopy with BAL), treatment and outcome.",
+          "page": 4,
+          "position": 48
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 4,
+          "position": 49
+        },
+        {
+          "text": "Diseases 2026, 14, 313 6 of 21",
+          "page": 5,
+          "position": 50
+        },
+        {
+          "text": "Table 1.Patient characteristics.",
+          "page": 5,
+          "position": 51
+        },
+        {
+          "text": "No Age S Cancer Therapy Treatment Cycle Time from Last Cycle to Symptoms of",
+          "page": 5,
+          "position": 52
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Pneumonitis (Months)",
+          "level": 4,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "1 50 F Breast Abemaciclib 18 1 2 34 F NHL Obinutuzumab 6 + 12 maintenance cycles 6 3 47 M NHL Obinutuzumab 6 + 8 maintenance cycles 1 4 50 M NHL Obinutuzumab 6 + 13 maintenance cycles 6 * 5 74 F Lung Pembrolizumab 9 1 6 69 F Lung Pembrolizumab 12 <1 7 67 M Lung Pembrolizumab 21 <1 8 67 M Lung Pembrolizumab 14 <1",
+              "page": 5,
+              "position": 53
+            },
+            {
+              "text": "9 52 M Renal Ipilimumab,",
+              "page": 5,
+              "position": 54
+            },
+            {
+              "text": "Nivolumab 10,21 <1",
+              "page": 5,
+              "position": 55
+            },
+            {
+              "text": "10 82 M Lung Nivolumab 14 12 11 79 F Lung Nivolumab 8 1 12 62 F Lung Nivolumab 6 <1",
+              "page": 5,
+              "position": 56
+            },
+            {
+              "text": "Age = age in years; S = sex (M = male; F = female); NHL = non-Hodgkin lymphoma; * symptoms present during treatment but were not investigated for target therapy-induced pneumonitis.",
+              "page": 5,
+              "position": 57
+            },
+            {
+              "text": "Imaging studies (chest X-rays and CT scans) were downloaded from the hospital’s database,anonymized,andfurtherstudiedwiththeopen-sourcecross-platformimag- ing software “Weasis–uptodate version.” A descriptive assessment of the initial CT scan was performed using the suggested features of CT patterns previously identified in the literature[16].Basedonthesymptomatology,SaO2,andextentoflunginvolvement, theCTCAEversion5.0criteriawereusedtogradepneumonitisseverityattheinitial diagnosis (Table 2) [17]. A subjective, semi-quantitative comparison of lung involvement wasperformedfortheimagingexamsobtainedforeachpatientatthetimeofdiagno- sis/start of treatment and after a time interval (during or at the end of treatment) to assess the outcome in imaging terms.Comparative assessments were made preferably between same-type images (chest X-rays or CT scans) based on availability.These features were added to the follow-up clinical assessment (improvement or worsening of symptoms) to establish the outcome (improved, stationary, worsened, death).Improvement was defined as a clinical response with amelioration of respiratory symptoms together with regression of theradiologicalabnormalities;resolutionwas defined ascompleteor near-complete clearingofthepneumonitis-relatedradiologicalabnormalities.Stationarydiseasewas definedastheabsenceofsignificantclinicalorradiologicalchangecomparedwiththe initial assessment.Worsening was defined as aggravation of pre-existing respiratory symp- toms or the appearance of new ones, with or without radiological progression.In cases of discordance between clinical and radiological evolution, patients were classified according to the clinical course.",
+              "page": 5,
+              "position": 58
+            },
+            {
+              "text": "Table 2.CTCAE criteria for grading the severity of the pneumonitis.",
+              "page": 5,
+              "position": 59
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Grade Symptoms Management",
+          "level": 4,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "1 Mild Asymptomatic or mild symptoms Clinical or diagnostic observations only;",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "intervention not indicated.",
+          "page": 5,
+          "position": 60
+        },
+        {
+          "text": "2 Moderate Limiting age-appropriate instrumental ADL. Minimal, local, or noninvasive intervention",
+          "page": 5,
+          "position": 61
+        },
+        {
+          "text": "indicated.",
+          "page": 5,
+          "position": 62
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3 Severe",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 6,
+      "paragraphs": [
+        {
+          "text": "Severe or medically significant, but not",
+          "page": 5,
+          "position": 63
+        },
+        {
+          "text": "immediately life-threatening; disabling; limiting self-care ADL.",
+          "page": 5,
+          "position": 64
+        },
+        {
+          "text": "Hospitalization or prolongation of hospitalization",
+          "page": 5,
+          "position": 65
+        },
+        {
+          "text": "indicated.",
+          "page": 5,
+          "position": 66
+        },
+        {
+          "text": "4 Life-threatening Life-threatening consequences Urgent intervention indicated.",
+          "page": 5,
+          "position": 67
+        },
+        {
+          "text": "5 Death Death related to the adverse event.",
+          "page": 5,
+          "position": 68
+        },
+        {
+          "text": "ADL = Activities of Daily Living.",
+          "page": 5,
+          "position": 69
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 5,
+          "position": 70
+        },
+        {
+          "text": "Diseases 2026, 14, 313 7 of 21",
+          "page": 6,
+          "position": 71
+        },
+        {
+          "text": "The essential collected data were centralized in tables of results, and general observa- tions and considerations were issued by the research team.No statistical analysis could be performed on this type of data.",
+          "page": 6,
+          "position": 72
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3.Results",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "3.1.Onset, Symptoms and Severity",
+          "page": 6,
+          "position": 73
+        },
+        {
+          "text": "Theaverageandmedianonsetdurationswere19.4and18.5months,respectively, ranging from 6 to 48 months. One case had an exceptionally long time to onset of 48 months. If we analyzed by drug class, the onset interval differs between groups.In the eight patients treated with ICI, the mean and median onset were 18.8 and 14 months, respectively.In the three patients treated with obinutuzumab (anti-CD20), the median onset was 24 months, with a mean of 32 months, and included the patient with the longest interval of the series (case4,48months).Intheonlypatienttreatedwithabemaciclib(CDK4/6inhibitor), pneumonitis occurred 19 months after treatment initiation.",
+          "page": 6,
+          "position": 74
+        },
+        {
+          "text": "The most frequent symptom observed in 10 out of 12 patients was progressive dyspnea, while only two patients reported dry cough as the sole complaint.In addition to dyspnea, fourpatientsalsopresentedwithcough.Feverwaspresentinasinglepatient(case8), and two patients reported loss of appetite (case 3) or chest pain (case 4).Three patients presented with respiratory failure (SpO2 ≤88%) (Table 3).",
+          "page": 6,
+          "position": 75
+        },
+        {
+          "text": "Table3.Onsettimeinmonthsfromstartofoncologictreatment,symptoms,severityandlung function tests data.",
+          "page": 6,
+          "position": 76
+        }
+      ],
+      "subsections": [
+        {
+          "title": "No Onset (Months)",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Symptoms Severity",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Grade SpO2(%) FVC",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "(%)",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "DLCO",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "(%) Dyspnea Cough Fever Others",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "1 19 No Yes No No 1 99 77 54",
+              "page": 6,
+              "position": 77
+            },
+            {
+              "text": "2 24 Yes No No No 2 96 59.4 17.4",
+              "page": 6,
+              "position": 78
+            },
+            {
+              "text": "3 24 Yes Yes No LA 2 99 NA * 68",
+              "page": 6,
+              "position": 79
+            },
+            {
+              "text": "4 48 No Yes No CP 2 98 61 65",
+              "page": 6,
+              "position": 80
+            },
+            {
+              "text": "5 12 Yes No No No 2 95 75.8 50.5",
+              "page": 6,
+              "position": 81
+            },
+            {
+              "text": "6 18 Yes Yes No No 2 98 NP NP",
+              "page": 6,
+              "position": 82
+            },
+            {
+              "text": "7 16 Yes No No No 2 99 64.3 38.6",
+              "page": 6,
+              "position": 83
+            },
+            {
+              "text": "8 10 Yes No Yes No 3 88 84.7 NP",
+              "page": 6,
+              "position": 84
+            },
+            {
+              "text": "9 24 Yes No No No 3 92 68.2 21.9",
+              "page": 6,
+              "position": 85
+            },
+            {
+              "text": "10 24 Yes No No No 2 98 46.2 29.6",
+              "page": 6,
+              "position": 86
+            },
+            {
+              "text": "11 8 Yes Yes No No 4 70 NP NP",
+              "page": 6,
+              "position": 87
+            },
+            {
+              "text": "12 6 Yes Yes No No 3 88 NP NP",
+              "page": 6,
+              "position": 88
+            },
+            {
+              "text": "LA=lossofappetite;CP=chestpain;SpO2=oxygensaturationofhemoglobin;DLCO=lungdiffusionof carbon monoxide in percentage of predicted value; FVC = forced vital capacity in percentage of predicted value; NA = not available; NP = not performed.* normal values.",
+              "page": 6,
+              "position": 89
+            },
+            {
+              "text": "Oxygen saturation at diagnosis was available for all 12 patients (median 97%, range 70–99%), and three patients (cases 8, 11 and 12) met the criterion for respiratory failure (SpO2≤88%).Lung function testing was feasible only in part of the series.DLCO was obtainedineightof12patients(median44.6%,range17.4–68%ofpredicted)andwas below80%ofpredictedinallofthem,withamildreduction(60–79%)intwocases,a moderate reduction (40–59%) in two cases and a severe reduction (<40%) in four cases.FVC was obtained in eight of 12 patients (median 66.3%, range 46.2–84.7% of predicted) and",
+              "page": 6,
+              "position": 90
+            },
+            {
+              "text": "https://doi.org/10.3390/diseases14090313",
+              "page": 6,
+              "position": 91
+            },
+            {
+              "text": "Diseases 2026, 14, 313 8 of 21",
+              "page": 7,
+              "position": 92
+            },
+            {
+              "text": "was below 80% of predicted in seven of them, consistent with a predominantly restrictive ventilatory pattern.",
+              "page": 7,
+              "position": 93
+            },
+            {
+              "text": "Whenanalyzedbydrugclass,itseemsthatsymptomsandseverityalsodiffered. All the patients treated with immune checkpoint inhibitors presented with dyspnea, and threeofthemreportedcough.Thisgroupincludedallcasesofgrade3and4andall three patients with respiratory failure.In contrast, the three patients treated with obinu- tuzumab had a milder presentation, graded 2.The single patient treated with abemaciclib presented with dry cough as the only complaint, was graded 1, and had a normal oxygen saturation (99%).These differences are descriptive and, given the very small size of the non-checkpointinhibitorgroupsandalsothedifferenttypesofcancer(pulmonaryvs. extrapulmonary), cannot be interpreted as evidence of a class-specific clinical pattern.",
+              "page": 7,
+              "position": 94
+            },
+            {
+              "text": "In our case series, the degree of functional impairment did not parallel the CTCAE severity grade, although this observation is limited by missing data.The lowest DLCO of the series (case 2, 17.4% of predicted) was recorded in a patient graded 2 whose oxygen saturationwasnormal(96%),andthreeofthefourpatientswithaseverereductionin DLCO(<40%)weregraded2.However,lungfunctiontestscouldnotbeobtainedin three patients (cases 6, 11 and 12), including the most severe case (case 11, grade 4) and oneofthegrade3patients(case12).Theavailablefunctionalvaluesthereforereflect predominantly the lower severity grades, and no firm conclusion can be drawn regarding the relationship between functional impairment and CTCAE grade (Table 3).",
+              "page": 7,
+              "position": 95
+            },
+            {
+              "text": "3.2.Radiologic and Bronchoscopy Features",
+              "page": 7,
+              "position": 96
+            },
+            {
+              "text": "In four of 12 cases, the CT scan showed patchy opacities with mild intensity (ground- glass—GGO)predominantlyattheperipheryofbothlungfields,andtheseweremore consistentwiththenonspecificinterstitialpneumonia(NSIP)-likepattern.Insevenof 12 cases, the opacities were more intense, expressing features of lung consolidation, and in two of them the consolidations were peribronchovascular. These cases were more consistent withanorganizingpneumonia(OP)radiologicpattern.Onlyonecaseshoweddiffuse bilateral centrilobular nodules more consistent with a hypersensitivity pneumonitis (HP) radiologic pattern.The CT patterns are centralized in Table 4.",
+              "page": 7,
+              "position": 97
+            },
+            {
+              "text": "Table 4.Radiographic findings.",
+              "page": 7,
+              "position": 98
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Case Radiographic Pattern CT Findings BAL",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "1 OP Bilateral subpleural consolidations Yes 2 OP Bilateral peripheral consolidations, left pleural effusion Yes 3 OP Bilateral multifocal and migratory GGOs Yes 4 NSIP Bilateral GGOs Yes 5 OP Bilateral peribronchovascular consolidations Yes 6 OP Bilateral multifocal consolidations and GGOs No 7 OP Bilateral large lung consolidations Yes 8 OP Bilateral peribronchovascular consolidations Yes",
+              "page": 7,
+              "position": 99
+            },
+            {
+              "text": "9 HP Diffuse bilateral centrilobular ground-glass nodules, mosaic attenuation caused by the air trapping; pneumomediastinum Yes",
+              "page": 7,
+              "position": 100
+            },
+            {
+              "text": "10 NSIP Bilateral predominantly peripheral reticular opacities and GGOs; No 11 NSIP Bilateral GGOs No 12 NSIP Bilateral predominantly peripheral reticular opacities and GGOs No",
+              "page": 7,
+              "position": 101
+            },
+            {
+              "text": "OP = organizing pneumonia;HP = hypersensitivity pneumonitis;NSIP = nonspecific interstitial pneumonia; GGOs = ground-glass opacities; BAL = bronchoalveolar lavage made/not made.",
+              "page": 7,
+              "position": 102
+            },
+            {
+              "text": "Twopatients(cases9and10)developedpneumomediastinum:oneatadmission, and the other at the 1-month control, a complication not commonly reported in oncologic therapy-induced pneumonitis.In both, it followed a benign course and resolved without",
+              "page": 7,
+              "position": 103
+            },
+            {
+              "text": "https://doi.org/10.3390/diseases14090313",
+              "page": 7,
+              "position": 104
+            },
+            {
+              "text": "Diseases 2026, 14, 313 9 of 21",
+              "page": 8,
+              "position": 105
+            },
+            {
+              "text": "specific intervention, even though spontaneous pneumomediastinum has been described as a marker of severe alveolar injury in other interstitial lung diseases.",
+              "page": 8,
+              "position": 106
+            },
+            {
+              "text": "InthreecasesCTscanwasnotperformedatthecontrolvisitgiventheclinician’s consideration that the information provided by the clinical picture of the patient and the chest X-ray is sufficient for assessing the improvement.",
+              "page": 8,
+              "position": 107
+            },
+            {
+              "text": "Onlyonecase(case11)wasnotevaluatedwithachestCTscanatthemomentof pneumonitis diagnosis, as the patient refused to be admitted to the hospital and undergo a CT scan, although the severity was grade 4 and the diagnosis relied only on the clinical data, the nivolumab treatment, and the chest X-ray that showed a patchy interstitial pattern with mild-intensity opacities.The patient received corticotherapy and oxygen therapy at home and improved clinically and radiologically at 1 month, and the CT scan performed at1monthshowedanimprovedNSIP-likepattern.Acomparisonwasmadebetween chest X-rays performed at the diagnosis and at 3-month intervals and showed complete remission of pneumonitis.",
+              "page": 8,
+              "position": 108
+            },
+            {
+              "text": "The three types of radiologic patterns (OP, NSIP and HP) are illustrated in Figure 2. Bronchoalveolar lavage was performed in eight of the 12 included patients, revealing lymphocyte-predominantcellularityinallcases,withnodetectionofneoplasticcells. Inallcaseswithlateonset(cases2,3,4and9),aftermonthsofoncologictreatment discontinuation, BAL was performed to exclude alternative diagnoses, but only in four of 8 cases of pneumonitis that occurred during oncologic treatment, BAL was performed. In the other three cases, BAL was not considered necessary based on the high probability ofoncologictreatment-associatedpneumonitis,andincase11thepatientdeclinedthe procedure, which would in any case have carried an unacceptable risk of further respiratory deterioration given the severe respiratory failure.",
+              "page": 8,
+              "position": 109
+            },
+            {
+              "text": "Table 5.Treatment, decision to stop oncologic treatment and outcome.",
+              "page": 8,
+              "position": 110
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "No",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Weight Dose Oral CS Weeks of Methylprednisolone Dose (mg/day) Hold Outcome",
+              "page": 8,
+              "position": 111
+            },
+            {
+              "text": "kg mg/kg (Weeks) 64 32 24 16 8 8/0",
+              "page": 8,
+              "position": 112
+            },
+            {
+              "text": "1 64 N/A 0 0 0 0 0 0 0 No ++ Improved 2 70 0.46 16 0 4 3 3 3 3 No need Improved 3 78 0.41 12 0 5 0 4 2 1 No need Improved 4 70 0.46 12 0 3 0 3 3 3 No need Improved 5 65 0.49 5 0 2 1 1 1 0 No ++ Improved 6 78 0.82 11 1 4 0 2 2 2 Yes Improved 7 79 0.41 12 0 4 0 0 4 4 Yes + Death * 8 80 0.40 5 0 1 0 0 4 0 Yes Improved 9 75 0.43 6 0 1 1 2 1 1 No need Improved 10 82 0.78 9 2 2 0 2 2 1 Yes Improved 11 42 0.57 12 0 0 4 2 2 2 Yes Improved 12 78 0.82 11 1 4 0 2 2 2 Yes Improved",
+              "page": 8,
+              "position": 113
+            },
+            {
+              "text": "CS = corticosteroid (duration in weeks); Hold = hold oncologic targeted treatment.+ Initially stopped and after improvement, received immunotherapy and oral corticosteroid simultaneously.++ Ongoing treatment.* Initial improvement; death by cancer complications.",
+              "page": 8,
+              "position": 114
+            },
+            {
+              "text": "3.3.Treatment and Outcome",
+              "page": 8,
+              "position": 115
+            },
+            {
+              "text": "Pneumonitistreatmentconsistedoforalmethylprednisolone(Table5)startingat moderate doses (ranging from 0.4 to 0.82 mg/kg, with an average of 0.55 mg/kg) in 11 out of 12 patients, with gradual dose tapering throughout 5 to 16 weeks, depending on each patient’sclinicalandimagingevolution.Thetreatmentregimenswerehighlyvariable and are illustrated in Figure 3.The decision to start with a dose close to the inferior or superior limit of the general recommended interval (equivalent to a prednisone dosage of 0.5 to 1 mg/kg) was made by each clinician based on severity and comorbidities, and the",
+              "page": 8,
+              "position": 116
+            },
+            {
+              "text": "https://doi.org/10.3390/diseases14090313",
+              "page": 8,
+              "position": 117
+            },
+            {
+              "text": "Diseases 2026, 14, 313 10 of 21",
+              "page": 9,
+              "position": 118
+            },
+            {
+              "text": "following regimen was also adjusted by each clinician based on treatment response and clinical experience with different types of pneumonitis treatment with corticotherapy.",
+              "page": 9,
+              "position": 119
+            },
+            {
+              "text": "Figure2.Radiologicpatternsofoncologictreatment-inducedpneumonitis;(A1)case10treated with nivolumab—nonspecific interstitial pneumonia (NSIP)-like pattern on thoracic CT; (A2) case 10after1monthofcorticotherapy,withpneumomediastinum; (B1)case6treatedwith pembrolizumab—organizing pneumonia (OP) pattern on thoracic CT; (B2) case 6’s chest X-ray after 1 month of corticotherapy; (C1) case 9 treated with ipilimumab/nivolumab—hypersensitivity pneu- monitis (HP) pattern on thoracic CT; (C2) case 9 after 1 month of corticotherapy.(See Table 5 and Figure 3 for corticotherapy regimens.).",
+              "page": 9,
+              "position": 120
+            },
+            {
+              "text": "Immunotherapyortargetedoncologicaltherapywasdiscontinuedinsixpatients, whileinfourcases,discontinuationwasnotnecessaryaspneumonitisdevelopedafter completion of treatment.In two patients, the decision was made to continue the oncologic therapy (in case 1 without and in case 5 in parallel with corticotherapy).",
+              "page": 9,
+              "position": 121
+            },
+            {
+              "text": "https://doi.org/10.3390/diseases14090313",
+              "page": 9,
+              "position": 122
+            },
+            {
+              "text": "Diseases 2026, 14, 313 11 of 21",
+              "page": 10,
+              "position": 123
+            },
+            {
+              "text": "Figure 3.Methylprednisolone tapering regimens in the 11 patients treated with corticosteroids; the width of each colored segment corresponds to the number of weeks spent at the corresponding daily methylprednisolone dose, and the color indicates the dose level (see legend).Case 1 received no corticosteroids and showed spontaneous resolution.",
+              "page": 10,
+              "position": 124
+            },
+            {
+              "text": "It is noteworthy that the mild symptomatic patient in whom targeted therapy was not discontinued was monitored solely through imaging, without corticosteroid administration, and exhibited spontaneous resolution of the interstitial lung lesions (Case 1).",
+              "page": 10,
+              "position": 125
+            },
+            {
+              "text": "Symptomaticimprovementwasachievedinall12patients,withresolutionof parenchymallesionsin11outof12cases.Theimagingevolutionofeachpatientisil- lustrated in Appendix A. In Case 7,the oncologic treatment was discontinued,and the patient had experienced improvement after 2 months of corticotherapy.Immunotherapy was reintroduced, in parallel with methylprednisolone administration, and this led to a worsening of pulmonary lesions, despite an improvement in clinical symptoms.Ultimately, the patient died of cancer complications.",
+              "page": 10,
+              "position": 126
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4.Discussion",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 12,
+      "paragraphs": [
+        {
+          "text": "Reviewingthese12cases,aseriesofdiscussionsareraised.Becauseourcohort included threedistinct drug classes,eachaspect is discussed separately forICI-related, anti-CD20-related, and CDK4/6 inhibitor-related pneumonitis while acknowledging that the small size of the non-ICI groups precludes any direct comparison.",
+          "page": 10,
+          "position": 127
+        },
+        {
+          "text": "The first aspect is related to diagnosis.In our series, the diagnosis relied on clinical, onco-therapeutic, and radiologic features, with bronchoscopy reserved for selected cases. The recognition of pneumonitis can be difficult, as the clinical presentation and CT appear- ance can be very similar to other conditions like infection, pulmonary edema, radiation pneumonitis, pulmonary embolism, or tumor progression.All these diagnoses must be ruled out not only at initial diagnosis, but also when the response to treatment is poor, or the symptoms recur.",
+          "page": 10,
+          "position": 128
+        },
+        {
+          "text": "BAL is generally recommended for grade ≥2 to establish the presence of an infection, and it remains unclear whether BAL cell analysis may be useful in the diagnosis of induced ICIpneumonitis.Somereal-lifestudieshaveshownthatinducedICIpneumonitisis associatedwithBALlymphocytosis[21,22],anditseemsthattherearenodifferences",
+          "page": 10,
+          "position": 129
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 10,
+          "position": 130
+        },
+        {
+          "text": "Diseases 2026, 14, 313 12 of 21",
+          "page": 11,
+          "position": 131
+        },
+        {
+          "text": "betweenthechestCTpatternandtheBALcytology[23].Ourfindingsareconsistent with the literature findings.Lavage was performed in eight of 12 patients and showed lymphocyte-predominant cellularity with no malignant cells and negative bacteriology and mycology.Its principal contribution was therefore the exclusion of infection and malignant involvement rather than positive confirmation of pneumonitis.",
+          "page": 11,
+          "position": 132
+        },
+        {
+          "text": "Thediagnosticapproachalsodifferedbydrugclass.IntheICIgroup,inwhich pneumonitis is a well-characterized and comparatively frequent adverse event, the clinical– radiologic–contextual triad may usually be sufficient. In the obinutuzumab and abemaciclib groups, the diagnosis rested more heavily on exclusion, since pneumonitis is rarely reported with these agents and the index of suspicion is correspondingly lower.For abemaciclib, the supporting data from clinical trials report interstitial lung disease or pneumonitis of anygradein3.3%[24],whileforobinutuzumabonlyisolatedcasereportsexist[10,11]. In patients with high-grade severity, in whom bronchoscopy carries additional risk, we considerthatclinical,radiologicalandcircumstantialdatamayreasonablyestablisha probable diagnosis, with invasive testing reserved for atypical presentations or inadequate corticosteroid response (Figure 1).",
+          "page": 11,
+          "position": 133
+        },
+        {
+          "text": "The second aspect is related to the CT radiologic patterns.The pattern distribution in our series (7 OP, 4 NSIP-like, 1 HP) is broadly consistent with published cohorts.The OP pattern was the most common form across all the tumor types and ICI regimens [25].The clinical severity represented by the pneumonitis grades was associated with radiographic patterns so that a pattern-based approach may be useful in assessing severity.The highest CTCAE grades are seen with diffuse alveolar damage and organizing pneumonia patterns and the lowest with NSIP and HP [26].Although they can be helpful in imagistic descrip- tions, some are purely descriptive without pathophysiological correspondence and should not be equated with distinct clinicopathological entities sharing the same name.",
+          "page": 11,
+          "position": 134
+        },
+        {
+          "text": "Bydrugclass,allthreeobinutuzumab-relatedcasesshowedanOPorNSIP-like pattern, in keeping with the two published obinutuzumab reports, both of which described organizingpneumonia[10,11].ThesingleabemaciclibcaseshowedanOPpattern;the literatureonCDK4/6inhibitorsislimited,butamulticenterseriesof10patientswith CDK4/6 inhibitor-associated interstitial lung disease found hypersensitivity pneumonitis and NSIP to be the commonest radiological patterns [27].",
+          "page": 11,
+          "position": 135
+        },
+        {
+          "text": "Therelativelylateonsetinourcohortisconsistentwiththemilderpresentations observed.Inacohortof32patients,early-onsetICI-inducedpneumonitiscaseswere higher in the CTCAE v5.0 grade, whereas late-onset ICI-induced pneumonitis cases were lower in CTCAE grade and mainly presented with an NSIP-like radiographic pattern.The prognosis of the early-onset pneumonitis was poorer than that of the late-onset pneumonitis group [28].",
+          "page": 11,
+          "position": 136
+        },
+        {
+          "text": "Also, Huang et al.showed that patients with high-grade pneumonitis were signifi- cantly older than those with low-grade disease (65.8 vs.61.5 years, p = 0.03) and had poorer performance status, and older age has been reported as a risk factor for immune-related adverse events in several studies [29].In our ICI group, however, this association was not reproduced:the four patients graded 3–4 were, on average, younger than those graded 1–2 (a mean of 65 vs 73 years).Given only eight patients in this subgroup, this discrepancy should not be interpreted as contradicting previous reports, but it does indicate that age alone did not determine severity in our cohort.",
+          "page": 11,
+          "position": 137
+        },
+        {
+          "text": "The third discussion is related to treatment.Currently, there is no standard recom- mendation on dosages and duration of treatment.In this case series, using highly variable regimens of treatment, the patients had good outcomes, but this descriptive experience cannotestablishcomparativeeffectivenessorsupportaseverity-baseddosingstrategy. Data suggest starting with a dose of 1–2 mg/kg prednisone with 4–6-week taper [18] or",
+          "page": 11,
+          "position": 138
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 11,
+          "position": 139
+        },
+        {
+          "text": "Diseases 2026, 14, 313 13 of 21",
+          "page": 12,
+          "position": 140
+        },
+        {
+          "text": "longer for patients with grade 3 or 4 disease [30].The chronic ICI pneumonitis, defined as symptoms lasting > 12 weeks requiring treatment, may require prolonged therapy courses with potential additional immunosuppression and limits the ability to rechallenge with immunotherapy agents [31].",
+          "page": 12,
+          "position": 141
+        },
+        {
+          "text": "One patient (case 1, abemaciclib, grade 1) improved without corticosteroids and while continuingthetargetedtherapy,beingmonitoredbyimagingalone,withspontaneous resolution of the lung lesions—consistent with guidance that in asymptomatic or minimally symptomatic patients, imaging surveillance without interruption of the anticancer agent may be sufficient.",
+          "page": 12,
+          "position": 142
+        },
+        {
+          "text": "The fourth discussion concerns whether to maintain or discontinue oncologic treat- ment.In this subject, there is some controversy, and the decision is a matter of consensus betweenthepneumologistandoncologist.Guidelinerecommendationsaregradedby severity, so patients with grade 1–2 pneumonitis may be considered for rechallenge after complete symptom resolution and completion of the steroid taper, whereas rechallenge is generally discouraged in grade 3–4 disease unless no alternative treatment exists [32,33].",
+          "page": 12,
+          "position": 143
+        },
+        {
+          "text": "Our experience is consistent.Only two patients continued anticancer therapy, and one deteriorated after reintroduction of immunotherapy.The considerations differ by class:for ICIs, structured guidance on rechallenge exists and was the framework we applied; for obinutuzumab and abemaciclib, no comparable guidance is available, and decisions were necessarily individual.Notably, for CDK4/6 inhibitors, regulatory advice is to evaluate patients with new or worsening respiratory symptoms and to consider dose interruption, modification or discontinuation according to event severity [34].We therefore consider that the decision should be individualized, based on severity and multidisciplinary discussion, rather than generalized from a small series.",
+          "page": 12,
+          "position": 144
+        },
+        {
+          "text": "The fifth discussion is related to follow-up.In this case series, three cases were man- aged successfully without a repeat CT scan, with clinical evaluation and chest radiography beingsufficienttodocumenttheoutcome.OmittingrepeatCTinpatientswithclear clinical improvement, and reserving it for those who do not improve, could reduce costs andpatientdiscomfort.Thisremainsapragmaticobservationratherthanavalidated strategy:only three of 12 patients were followed in this way, no comparative assessment waspossible,andtheapproachpresupposesreliableclinicalimprovement.Continued vigilance is essential, since recurrence may occur during steroid tapering as well as after rechallenge[33].Thefollow-upassessmenttimeintervalshouldbebasedonseverity, and based on this assessment (improved,stationary,worsened),the treatment regimen can be adjusted.",
+          "page": 12,
+          "position": 145
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Limitations",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "This study has several limitations.First, it is a retrospective, single-center case series based on a small number of patients (n = 12), without a control group, which limits the generalizability of our observations.Second, the cohort is heterogeneous, comprising differ- ent tumor types and different classes of anticancer agents (immune checkpoint inhibitors, an anti-CD20 agent, and a CDK4/6 inhibitor), so the groups are not directly comparable and the findings for the individual agents rest on very few cases.Third, the diagnosis of drug-induced pneumonitis was based on the temporal relationship with treatment, the clin- ical and radiological picture, and the exclusion of alternative causes, without histological confirmation in most patients; only BAL cellularity and bacteriological and mycological examinations were performed.Fourth, pulmonary function tests were not available for all patients, particularly some of the most severely affected, which limits the interpretation of the functional data.Finally, the corticosteroid regimens were heterogeneous and indi-",
+          "page": 12,
+          "position": 146
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 12,
+          "position": 147
+        },
+        {
+          "text": "Diseases 2026, 14, 313 14 of 21",
+          "page": 13,
+          "position": 148
+        },
+        {
+          "text": "vidually tailored, and follow-up was not standardized, so no conclusions can be drawn regarding the comparative effectiveness of different treatment strategies.",
+          "page": 13,
+          "position": 149
+        },
+        {
+          "text": "Accordingly, our findings should be regarded as descriptive and hypothesis-generating, and they require confirmation in larger, prospective and multicenter studies.",
+          "page": 13,
+          "position": 150
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "5.Conclusions",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "Immunotherapy and targeted therapy have revolutionized cancer treatment, yielding more favorable outcomes for many patients compared to classic chemotherapy.Although pulmonarytoxicityisnotafrequentadverseeffect,itrepresentsasignificantcauseof morbidity and mortality in this patient population.The current literature reports a low incidence of immunotherapy- or targeted therapy-induced pneumonitis; however, the trend appears to be increasing due to the growing use of these agents—often in combination—as well as improved recognition of clinical symptoms and interstitial lung abnormalities.",
+          "page": 13,
+          "position": 151
+        },
+        {
+          "text": "In our series, a probable diagnosis of treatment-induced pneumonitis was reached fromclinical,contextual,andradiologicpatterns,withBALperformedineightofthe 12 patients. These observations suggest that, in selected patients with a compatible clinical andradiologicalpicture,anaccuratediagnosismaybeapproachedwithlessinvasive testing; however, this small, selected sample does not establish that bronchoscopy or CT can generally be avoided.Also, in clinically improving patients, follow-up with clinical assessment and chest radiography appeared feasible—repeat CT was omitted in only three patients—but this should be regarded as a hypothesis to be tested in larger studies.",
+          "page": 13,
+          "position": 152
+        },
+        {
+          "text": "Timely identification of symptoms, radiological changes, assessment of severity, and prompt start of treatment play a crucial role in the management and prognosis of affected patients.Current guidelines, largely based on expert consensus, recommend discontin- uingoncologictreatmentinallcasesoftherapy-inducedpneumonitis.However,con- sideringtherisk–benefitratio,ourcenter’sexperiencesuggeststhatoralcorticosteroid therapyinlowtomoderatedosesadministeredconcurrentlywithimmunotherapyor targetedtherapycanyieldfavorableoutcomes.Closeandcontinuousmonitoringof patients—through regular clinical, functional, and imaging assessments at intervals of one to three months—is essential.",
+          "page": 13,
+          "position": 153
+        },
+        {
+          "text": "Further studies are needed to develop clear therapeutic protocols, particularly those addressing the continuation, discontinuation, or reintroduction of immunotherapy follow- ing the resolution of the acute episode, as well as to identify specific risk factors that may predispose patients to pulmonary toxicity.",
+          "page": 13,
+          "position": 154
+        },
+        {
+          "text": "Author Contributions:Conceptualization, C.L.T., S, .F.O. and D.C.Z.; methodology, C.L.T., S, .F.O. and D.C.Z.; software, S, .F.O. and D.C.Z.; validation, C.L.T., S, .F.O., S, .D.-R., I.N.B., D.J.-D., C.C., A.M.C., C.C.D. and D.C.Z.; formal analysis, C.L.T., S, .F.O. and D.C.Z.; investigation, C.L.T., S, .F.O. and D.C.Z.; resources, C.L.T., S, .F.O., S, .D.-R., I.N.B., D.J.-D., C.C., A.M.C., C.C.D. and D.C.Z.; data curation, C.L.T., S, .F.O. and D.C.Z.; writing—original draft preparation, C.L.T., S, .F.O. and D.C.Z.; writing—review and editing, C.L.T., S, .F.O., S, .D.-R., I.N.B., D.J.-D., C.C., A.M.C., C.C.D. and D.C.Z.; visualization, C.L.T., S, .F.O. and D.C.Z.; supervision, C.L.T., S, .F.O. and D.C.Z.; project administration, C.L.T., S, .F.O. and D.C.Z. All authors have read and agreed to the published version of the manuscript.",
+          "page": 13,
+          "position": 155
+        },
+        {
+          "text": "Funding:This research received no external funding.",
+          "page": 13,
+          "position": 156
+        },
+        {
+          "text": "Institutional Review Board Statement:The study was conducted in accordance with the Declaration of Helsinki and approved by the local ethics committee of the Marius Nasta Institute of Pulmonology (reference number 16362/19 August 2025).",
+          "page": 13,
+          "position": 157
+        },
+        {
+          "text": "Informed Consent Statement:Informed consent was obtained from all subjects involved in the study through the institution’s general informed consent on admission to collect data for scientific and educational purposes.",
+          "page": 13,
+          "position": 158
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 13,
+          "position": 159
+        },
+        {
+          "text": "Diseases 2026, 14, 313 15 of 21",
+          "page": 14,
+          "position": 160
+        },
+        {
+          "text": "Data Availability Statement:The original contributions presented in this study are included in the article.The individual patient data supporting the reported results are not publicly available due to privacy and ethical restrictions regarding patient confidentiality, but anonymized data can be made available on reasonable request from the corresponding authors.",
+          "page": 14,
+          "position": 161
+        },
+        {
+          "text": "Acknowledgments: The authors would like to thank the medical and nursing staff of the Pneumology IV Department, as well as the radiology and bronchoscopy teams of the Marius Nasta Institute of Pulmonology, Bucharest, for their support in patient management and data collection.Publication of this paper was supported by the University of Medicine and Pharmacy Carol Davila, through the institutional program Publish not Perish.",
+          "page": 14,
+          "position": 162
+        },
+        {
+          "text": "Conflicts of Interest:The authors declare no conflicts of interest.",
+          "page": 14,
+          "position": 163
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abbreviations",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "The following abbreviations are used in this manuscript:",
+          "page": 14,
+          "position": 164
+        },
+        {
+          "text": "ARDS Acute respiratory distress syndrome BAL Bronchoalveolar lavage BL Bronchiolitis CD20 Cluster of differentiation 20 CDK 4/6 Cyclin-dependent kinase 4 and 6 CT Computed tomography CTCAE Common Terminology Criteria for Adverse Events DAD Diffuse alveolar damage DAH Diffuse alveolar hemorrhage FDA Food and Drug Administration HP Hypersensitivity pneumonitis ICI Immune checkpoint inhibitor HRCT High-resolution computed tomography NSIP Nonspecific interstitial pneumonia OP Organizing pneumonia PaO2 Arterial partial pressure of oxygen RRP Radiation recall pneumonitis SARS-CoV2 Severe acute respiratory syndrome coronavirus 2 SLR Sarcoid-like reactions SpO2 Peripheral oxygen saturation of hemoglobin",
+          "page": 14,
+          "position": 165
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Appendix A",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 20,
+      "paragraphs": [
+        {
+          "text": "Appendix A.1",
+          "page": 14,
+          "position": 166
+        },
+        {
+          "text": "Figure A1.Case 1:Patient with breast cancer treated with abemaciclib presented with an organizing pneumonia (OP) pattern on chest CT (A). The lesions resolved after 3 months without corticosteroid therapy or interruption of the oncologic treatment (B).",
+          "page": 14,
+          "position": 167
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 14,
+          "position": 168
+        },
+        {
+          "text": "Diseases 2026, 14, 313 16 of 21",
+          "page": 15,
+          "position": 169
+        },
+        {
+          "text": "Appendix A.2",
+          "page": 15,
+          "position": 170
+        },
+        {
+          "text": "Figure A2.Case 2:A patient with non-Hodgkin lymphoma treated with obinutuzumab, presenting with an organizing pneumonia (OP) pattern on CT and a left pleural effusion (A), with improvement of the pulmonary consolidations and resolution of the pleural effusion after 2 weeks of oral corticosteroid therapy (B).",
+          "page": 15,
+          "position": 171
+        },
+        {
+          "text": "Appendix A.3",
+          "page": 15,
+          "position": 172
+        },
+        {
+          "text": "Figure A3.Case 3:Patient with non-Hodgkin lymphoma treated with obinutuzumab presented with an organizing pneumonia (OP) pattern on chest CT (A). The lesions resolved after 2 months with corticosteroid therapy (B).",
+          "page": 15,
+          "position": 173
+        },
+        {
+          "text": "Appendix A.4",
+          "page": 15,
+          "position": 174
+        },
+        {
+          "text": "Figure A4.Case 4:Patient with non-Hodgkin lymphoma treated with obinutuzumab presented with NSIP-like pattern on chest CT (A). Complete resolution of ground-glass opacities after 3 months of oral corticosteroid therapy (B).",
+          "page": 15,
+          "position": 175
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 15,
+          "position": 176
+        },
+        {
+          "text": "Diseases 2026, 14, 313 17 of 21",
+          "page": 16,
+          "position": 177
+        },
+        {
+          "text": "Appendix A.5",
+          "page": 16,
+          "position": 178
+        },
+        {
+          "text": "Figure A5. Case 5: Patient with lung cancer treated with pembrolizumab presented with an organizing pneumonia (OP) pattern on chest CT (A). Improvement of the pulmonary perihilar lesions on chest X-ray after 1 month with corticosteroid therapy and no interruption of the oncologic treatment (B).",
+          "page": 16,
+          "position": 179
+        },
+        {
+          "text": "Appendix A.6",
+          "page": 16,
+          "position": 180
+        },
+        {
+          "text": "Figure A6. Case 6: Patient with lung cancer treated with pembrolizumab presented with an organizing pneumonia (OP) pattern on chest CT (A), with improvement of the lesions on the chest X-ray after one month of corticosteroid therapy and interruption of the oncologic treatment (B).",
+          "page": 16,
+          "position": 181
+        },
+        {
+          "text": "Appendix A.7",
+          "page": 16,
+          "position": 182
+        },
+        {
+          "text": "Figure A7. Case 7: Patient with lung cancer treated with pembrolizumab presented with an organizing pneumonia (OP) pattern on chest CT (A), with progression of the lesions after reintroduction of the immunotherapy in parallel with corticotherapy (B).",
+          "page": 16,
+          "position": 183
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 16,
+          "position": 184
+        },
+        {
+          "text": "Diseases 2026, 14, 313 18 of 21",
+          "page": 17,
+          "position": 185
+        },
+        {
+          "text": "Appendix A.8",
+          "page": 17,
+          "position": 186
+        },
+        {
+          "text": "Figure A8.Case 8:Patient with lung cancer treated with pembrolizumab presented with bilateral reticular and alveolar opacities on chest X-ray (A). Improvement of the lesions on the X-ray after one month of corticosteroid therapy and interruption of the oncologic treatment (B).",
+          "page": 17,
+          "position": 187
+        },
+        {
+          "text": "Appendix A.9",
+          "page": 17,
+          "position": 188
+        },
+        {
+          "text": "Figure A9.Case 9:Patient with renal cancer treated with ipilimumab/nivolumab presented with an HP pattern on chest CT (A). The lesions resolved after one month of corticosteroid therapy (B).",
+          "page": 17,
+          "position": 189
+        },
+        {
+          "text": "Appendix A.10",
+          "page": 17,
+          "position": 190
+        },
+        {
+          "text": "Figure A10.Case 10:Patient with lung cancer treated with nivolumab presented with an NSIP-like pattern on chest CT (A). Improvement of the lesions on CT after one month of corticosteroid therapy and interruption of the oncologic treatment (B).",
+          "page": 17,
+          "position": 191
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 17,
+          "position": 192
+        },
+        {
+          "text": "Diseases 2026, 14, 313 19 of 21",
+          "page": 18,
+          "position": 193
+        },
+        {
+          "text": "Appendix A.11",
+          "page": 18,
+          "position": 194
+        },
+        {
+          "text": "FigureA11.Case11:Patientwithlungcancertreatedwithnivolumabpresentedwithbilateral reticular opacities on chest X-ray (A). Improvement of the lesions on the X-ray after one month of corticosteroid therapy and interruption of the oncologic treatment (B).",
+          "page": 18,
+          "position": 195
+        },
+        {
+          "text": "Appendix A.12",
+          "page": 18,
+          "position": 196
+        },
+        {
+          "text": "Figure A12.Case 12:Patient with lung cancer treated with nivolumab presented with NSIP-like pattern on chest CT (A). The X-ray showed no new lesions, only small pleural effusion on the right side after one month of corticosteroid therapy and interruption of the oncological treatment (B). References",
+          "page": 18,
+          "position": 197
+        },
+        {
+          "text": "1. Zhang, S.; Liang, F.; Zhu, J.; Chen, Q. Risk of pneumonitis associated with programmed cell death 1 inhibitors in cancer patients: A meta-analysis.Mol.Cancer Ther.2017, 16, 1588–1595.[CrossRef] [PubMed] 2. Nishino, M.; Giobbie-Hurder, A.; Hatabu, H.; Ramaiya, N.H.; Hodi, F.S. Incidence of programmed cell death 1 inhibitor-related pneumonitis in patients with advanced cancer a systematic review and meta-analysis.JAMA Oncol.2016, 2, 1607–1616.[CrossRef] [PubMed] 3. Naidoo, J.; Wang, X.; Woo, K.M.; Iyriboz, T.; Halpenny, D.; Cunningham, J.; Chaft, J.E.; Segal, N.H.; Callahan, M.K.; Lesokhin, A.M.; et al.Pneumonitis in patients treated with anti–programmed death-1/programmed death ligand 1 therapy.J. Clin.Oncol. 2017, 35, 709–717.[CrossRef] [PubMed] 4. Delaunay, M.; Cadranel, J.; Lusque, A.; Meyer, N.; Gounant, V.; Moro-Sibilot, D.; Michot, J.-M.; Raimbourg, J.; Girard, N.; Guisier, F.; et al.Immune-checkpoint inhibitors associated with interstitial lung disease in cancer patients.Eur.Respir.J. 2017, 50, 1700050. [CrossRef] [PubMed] 5. Tiu,B.C.;Zubiri,L.;Iheke,J.;Pahalyants,V.;Theodosakis,N.;Ugwu-Dike,P.;Seo,J.;Tang,K.;Sise,M.E.;Sullivan,R.;et al. Real-world incidence and impact of pneumonitis in patients with lung cancer treated with immune checkpoint inhibitors:A multi-institutional cohort study.J. Immunother.Cancer 2022, 10, e004670.[CrossRef] [PubMed] 6. Khunger, M.; Rakshit, S.; Pasupuleti, V.; Hernandez, A.V.; Mazzone, P.; Stevenson, J.; Pennell, N.A.; Velcheti, V. Incidence of Pneumonitis with Use of Programmed Death 1 and Programmed Death-Ligand 1 Inhibitors in Non-Small Cell Lung Cancer:A Systematic Review and Meta-Analysis of Trials.Chest 2017, 152, 271–281.[CrossRef] [PubMed]",
+          "page": 18,
+          "position": 198
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 18,
+          "position": 199
+        },
+        {
+          "text": "Diseases 2026, 14, 313 20 of 21",
+          "page": 19,
+          "position": 200
+        },
+        {
+          "text": "7. Chen, X.; Zhang, Z.; Hou, X.; Zhang, Y.; Zhou, T.; Liu, J.; Lin, Z.; Fang, W.; Yang, Y.; Ma, Y.; et al.Immune-related pneumonitis associated with immune checkpoint inhibitors in lung cancer:A network meta-analysis.J. Immunother.Cancer 2020, 8, e001170. [CrossRef] [PubMed] 8. Salmasi, G.; Li, M.; Sivabalasundaram, V.; Panzarella, T.; Tsang, R.; Kukreti, V.; Crump, M.; Kuruvilla, J. Incidence of pneumonitis in patients with non-Hodgkin lymphoma receiving chemoimmunotherapy with rituximab.Leuk.Lymphoma 2015, 56, 1659–1664. [CrossRef] [PubMed] 9. Liu, X.; Hong, X.-N.; Gu, Y.-J.; Wang, B.-Y.; Luo, Z.-G.; Cao, J. Interstitial pneumonitis during rituximab-containing chemotherapy for non-Hodgkin lymphoma.Leuk.Lymphoma 2008, 49, 1778–1783.[CrossRef] [PubMed] 10. Saunders, S.; Fryman, C. An Original Occurrence of Organizing Pneumonia from Obinutuzumab.In Proceedings of the American Thoracic Society International Conference Meetings Abstracts, San Diego, CA, USA, 17–22 May 2024; p.A3854. 11. Nanda, V.; Ellis, H.; Bandara, H. Organising Pneumonia in a Patient Following Obinutuzumab for Follicular Lymphoma.Respirol. Case Rep.2025, 13, e70258.[CrossRef] [PubMed] 12. FDA. FDA Warns About Rare but Severe Lung Inflammation with Ibrance, Kisqali, and Verzenio for Breast Cancer.Available online:https://www.fda.gov/safety/medical-product-safety-information/ibrance-palbociclib-kisqali-ribociclib-and-verzenio- abemaciclib-drug-safety-communication-due-rare (accessed on 30 June 2025). 13. Kimura, H.; Sone, T.; Araya, T.; Murata, A.; Yamamura, K.; Ohkura, N.; Hara, J.; Abo, M.; Kasahara, K. Late-onset programmed cell death protein-1 inhibitor-induced pneumonitis after cessation of nivolumab or pembrolizumab in patients with advanced non-small cell lung cancer:A case series.Transl.Lung Cancer Res.2021, 10, 1576–1581.[CrossRef] [PubMed] 14. Grenier, P.; Valeyre, D.; Cluzel, P.; Brauner, M.W.; Lenoir, S.; Chastang, C. Chronic diffuse interstitial lung disease:Diagnostic value of chest radiography and high-resolution CT. Radiology 1991, 179, 123–132.[CrossRef] [PubMed] 15. Shannon, V.R. Cancer treatment-related lung injury.In Oncologic Critical Care; Springer:Cham, Switzerland, 2019; pp.531–556. [CrossRef] 16. Kalisz, K.R.; Ramaiya, N.H.; Laukamp, K.R.; Gupta, A. Immune checkpoint inhibitor therapy–related pneumonitis:Patterns and management.RadioGraphics 2019, 39, 1923–1937.[CrossRef] [PubMed] 17. Common Terminology Criteria for Adverse Events (CTCAE) v5.0.Available online:https://dctd.cancer.gov/research/ctep- trials/for-sites/adverse-events/ctcae-v5-5x7.pdf (accessed on 30 June 2025). 18. Darnell, E.P.; Mooradian, M.J.; Baruch, E.N.; Yilmaz, M.; Reynolds, K.L. Immune-Related Adverse Events (irAEs):Diagnosis, Management, and Clinical Pearls.Curr.Oncol.Rep.2020, 22, 39.[CrossRef] [PubMed] 19. Puzanov, I.; Diab, A.; Abdallah, K.; Bingham, C.O., III; Brogdon, C.; Dadu, R.; Hamad, L.; Kim, S.; Lacouture, M.E.; LeBoeuf, N.R.; et al.Managing toxicities associated with immune checkpoint inhibitors:Consensus recommendations from the Society for Immunotherapy of Cancer (SITC) Toxicity Management Working Group.J. Immunother.Cancer 2017, 5, 95.[CrossRef] [PubMed] 20. Rapoport, B.L.; Cooksley, T.; Johnson, D.B.; Anderson, R. Supportive care for new cancer therapies.Curr.Opin.Oncol.2021, 33, 287–294.[CrossRef] [PubMed] 21. Suresh, K.; Naidoo, J.; Zhong, Q.; Xiong, Y.; Mammen, J.; de Flores, M.V.; Cappelli, L.; Balaji, A.; Palmer, T.; Forde, P.M.; et al. The alveolar immune cell landscape is dysregulated in checkpoint inhibitor pneumonitis.J. Clin.Investig.2019, 129, 4305–4315. [CrossRef] [PubMed] 22. Mir, M.; Soto, F.; Gomez, P.A.A.; Arroyo, R.D.R.; Suresh, A.; Su, A.; Gan, Q.; Stewart, J.; Adachi, R.; Balachandran, D.D.; et al. Bronchoalveolar lavage cell percentages as diagnostic markers of immune checkpoint inhibitor pneumonitis.Front.Med.2025, 12, 1582714.[CrossRef] [PubMed] 23. Strippoli, S.; Fucci, L.; Negri, A.; Putignano, D.; Cisternino, M.L.; Napoli, G.; Filannino, R.; De Risi, I.; Sciacovelli, A.M.; Guida, M. Cellular analysis of bronchoalveolar lavage fluid to narrow differential diagnosis of checkpoint inhibitor-related pneumonitis in metastatic melanoma.J. Transl.Med.2020, 18, 473.[CrossRef] [PubMed] 24. Dickler, M.N.; Tolaney, S.M.; Rugo, H.S.; Cortés, J.; Diéras, V.; Patt, D.; Wildiers, H.; Hudis, C.A.; O’Shaughnessy, J.; Zamora, E.; et al.MONARCH 1, A Phase II Study of Abemaciclib, a CDK4 and CDK6 Inhibitor, as a Single Agent, in Patients with Refractory HR+/HER2−Metastatic Breast Cancer.Clin.Cancer Res.2017, 23, 5218–5224.[CrossRef] [PubMed] 25. Nishino, M. Imaging of Oncologic Treatment–Related Pneumonitis: A Focused Review on Emerging Issues of Immune Checkpoint Inhibitor Pneumonitis, From the AJR Special Series on Inflammation.Am.J. Roentgenol.2022, 218, 19–27.[CrossRef] [PubMed] 26. Nishino, M.; Ramaiya, N.H.; Awad, M.M.; Sholl, L.M.; Maattala, J.A.; Taibi, M.; Hatabu, H.; Ott, P.A.; Armand, P.F.; Hodi, F.S. PD-1 Inhibitor–Related Pneumonitis in Advanced Cancer Patients:Radiographic Patterns and Clinical Course.Clin.Cancer Res. 2016, 22, 6051–6060.[CrossRef] [PubMed] 27. ˙Ilhan, N.; Do˘gan, A.; Erölmez, H.N.; Atalah, F.; Ba¸s, S.; Yasar, S.; Odaba¸s, H.; Gümü¸s, M. The Incidence and Clinical Characteristics of Interstitial Lung Disease Associated with CDK4/6 Inhibitors in Breast Cancer Patients:A Retrospective Multicenter Study. Medicina 2025, 61, 549.[CrossRef] [PubMed]",
+          "page": 19,
+          "position": 201
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 19,
+          "position": 202
+        },
+        {
+          "text": "Diseases 2026, 14, 313 21 of 21",
+          "page": 20,
+          "position": 203
+        },
+        {
+          "text": "28. Huang, A.; Xu, Y.; Zang, X.; Wu, C.; Gao, J.; Sun, X.; Xie, M.; Ma, X.; Deng, H.; Song, J.; et al.Radiographic features and prognosis of early- and late-onset non-small cell lung cancer immune checkpoint inhibitor-related pneumonitis.BMC Cancer 2021, 21, 634. [CrossRef] [PubMed] 29. Huang, H.; Chen, R.; Xu, Y.; Fang, N.; Shao, C.; Xu, K.; Wang, M. The Clinical Analysis of Checkpoint Inhibitor Pneumonitis with Different Severities in Lung Cancer Patients:A Retrospective Study.J. Clin.Med.2024, 13, 255.[CrossRef] [PubMed] 30. Montemayor, K.; Ghanbar, M.I.; Koch, A.L.; Suresh, K.; Stephens, R.S. Managing Immune Checkpoint Inhibitor Pneumonitis in the ICU. CHEST Crit.Care 2025, 3, 100126.[CrossRef] 31. Naidoo, J.; Cottrell, T.R.; Lipson, E.J.; Forde, P.M.; Illei, P.B.; Yarmus, L.B.; Voong, K.R.; Feller-Kopman, D.; Lee, H.; Riemer, J.; et al. Chronic immune checkpoint inhibitor pneumonitis.J. Immunother.Cancer 2020, 8, e000840.[CrossRef] [PubMed] 32. Lin, X.; Deng, H.; Chu, T.; Chen, L.; Yang, Y.; Qiu, G.; Xie, X.; Qin, Y.; Liu, M.; Xie, Z.; et al.Safety and efficacy of immunotherapy rechallenge following checkpoint inhibitor-related pneumonitis in advanced lung cancer patients:A retrospective multi-center cohort study.Transl.Lung Cancer Res.2022, 11, 2289–2305.[CrossRef] [PubMed] 33. Xu,Y.;Chen,R.;Pan,R.;Gao,X.;Huang,H.;Wang,M.Clinicalmanagementofcheckpointinhibitorpneumonitis:Focus, challenges, and future directions.Chin.Med.J. Pulm.Crit.Care Med.2025, 3, 29–40.[CrossRef] [PubMed] 34. Chen,Y.;Noma,S.;Taguchi,Y.;Takahashi,M.;Tsurutani,J.;Mori,S.;Sakaguchi,S.;Asou,H.;Tomii,K.Characteristicsof interstitial lung disease in patients from post-marketing data on metastatic breast cancer patients who received abemaciclib in Japan.Breast Cancer 2021, 28, 710–719.[CrossRef] [PubMed]",
+          "page": 20,
+          "position": 204
+        },
+        {
+          "text": "Disclaimer/Publisher’sNote:Thestatements,opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual author(s) and contributor(s) and not of MDPI and/or the editor(s).MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+          "page": 20,
+          "position": 205
+        },
+        {
+          "text": "https://doi.org/10.3390/diseases14090313",
+          "page": 20,
+          "position": 206
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [],
+  "page_count": 21,
+  "warnings": [
+    "no references detected"
+  ]
+}

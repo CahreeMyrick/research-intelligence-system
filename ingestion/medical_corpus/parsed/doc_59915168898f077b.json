@@ -1,0 +1,1508 @@
+{
+  "identity": {
+    "id": "doc_59915168898f077b",
+    "source": {
+      "filename": "PMC13581347.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13581347.1/PMC13581347.1.pdf",
+      "content_hash": "59915168898f077bf365bba74d869897e1e56466018cd4990d7a308db0a45be3"
+    }
+  },
+  "metadata": {
+    "title": "Review began 07/06/2026",
+    "authors": [
+      "Review ended //"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.7759/cureus.114686",
+    "arxiv_id": null,
+    "abstract": "This case series describes a recognizable multimodality cardiothoracic imaging pattern in five patients with obesity hypoventilation syndrome (OHS), also known as Pickwickian syndrome. All five patients had obesity, obstructive sleep apnea (OSA), daytime hypoxemia, and hypercapnia and underwent cardiothoracic imaging. The mean age was 56.8 ± 19 years, the mean BMI was 46.5 ± 7.4 kg/m², and 60% were male. Chest radiography (CXR) demonstrated enlargement of the interlobar pulmonary artery to greater than 16 mm and central pulmonary arterial dilatation. CT showed central pulmonary artery enlargement with relative attenuation of the peripheral pulmonary arterial branches. Mosaic lung attenuation was present in most cases. Cardiomegaly was present on 75% of the available chest radiographs, and right ventricular enlargement was present on CT in 60% of patients. When performed, echocardiography was limited or nondiagnostic. One patient underwent right heart catheterization, which confirmed mild pulmonary hypertension. Cardiac magnetic resonance (CMR) imaging, which was performed in only one patient, demonstrated main pulmonary artery enlargement and mildly reduced right ventricular systolic function without an alternative diagnostic explanation. In patients with obesity, sleep-disordered breathing, daytime hypercapnia, and hypoxemia, a multimodality imaging pattern comprising central pulmonary artery enlargement, relative peripheral vascular attenuation, mosaic lung attenuation, and variable right-sided cardiac remodeling should raise suspicion for possible OHS-associated pulmonary vascular disease and prompt further cardiopulmonary evaluation. Categories: Radiology, Pulmonology, Endocrinology/Diabetes/Metabolism Keywords: cardiothoracic imaging, mosaic attenuation, obesity hypoventilation syndrome, pickwickian syndrome, pulmonary hypertension",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Review began 07/06/2026",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Review ended 08/11/2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Published 08/17/2026",
+          "page": 0,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "© Copyright 2026",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Chimed et al. This is an open access article",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "distributed under the terms of the Creative",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Commons Attribution License CC-BY 4.0.,",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "which permits unrestricted use, distribution,",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "and reproduction in any medium, provided",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "the original author and source are credited.",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "DOI: 10.7759/cureus.114686",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Cardiothoracic Imaging Findings in Obesity Hypoventilation Syndrome (Pickwickian Syndrome): A Case Series",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Munkhsuvd Chimed , Anujin Baljinnyam , Shreya Mahasenan , Ismail M. Kabakus , Jeremy R. Burt",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "1. Radiology, Intermed International University of Health and Welfare (IUHW) Hospital, Ulaanbaatar, MNG 2. Radiology, The University of Utah, Salt Lake City, USA 3. Radiology, Medical University of South Carolina, Charleston, USA",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "Corresponding author: Jeremy R. Burt, radhopkins@hsc.utah.edu",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "This case series describes a recognizable multimodality cardiothoracic imaging pattern in five patients with obesity hypoventilation syndrome (OHS), also known as Pickwickian syndrome. All five patients had obesity, obstructive sleep apnea (OSA), daytime hypoxemia, and hypercapnia and underwent cardiothoracic imaging. The mean age was 56.8 ± 19 years, the mean BMI was 46.5 ± 7.4 kg/m², and 60% were male. Chest radiography (CXR) demonstrated enlargement of the interlobar pulmonary artery to greater than 16 mm and central pulmonary arterial dilatation. CT showed central pulmonary artery enlargement with relative attenuation of the peripheral pulmonary arterial branches. Mosaic lung attenuation was present in most cases. Cardiomegaly was present on 75% of the available chest radiographs, and right ventricular enlargement was present on CT in 60% of patients. When performed, echocardiography was limited or nondiagnostic. One patient underwent right heart catheterization, which confirmed mild pulmonary hypertension. Cardiac magnetic resonance (CMR) imaging, which was performed in only one patient, demonstrated main pulmonary artery enlargement and mildly reduced right ventricular systolic function without an alternative diagnostic explanation. In patients with obesity, sleep-disordered breathing, daytime hypercapnia, and hypoxemia, a multimodality imaging pattern comprising central pulmonary artery enlargement, relative peripheral vascular attenuation, mosaic lung attenuation, and variable right-sided cardiac remodeling should raise suspicion for possible OHS-associated pulmonary vascular disease and prompt further cardiopulmonary evaluation.",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Categories: Radiology, Pulmonology, Endocrinology/Diabetes/Metabolism Keywords: cardiothoracic imaging, mosaic attenuation, obesity hypoventilation syndrome, pickwickian syndrome, pulmonary hypertension",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Obesity hypoventilation syndrome (OHS), also known as Pickwickian syndrome, is characterized by the combination of obesity, sleep-disordered breathing, and daytime hypercapnia after the exclusion of other causes of alveolar hypoventilation [1-4]. Diagnostic criteria include a BMI ≥30 kg/m², daytime arterial carbon dioxide tension (PaCO₂) ≥45 mmHg, and coexisting sleep-disordered breathing.",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "The pathophysiology of OHS is multifactorial and encompasses obesity-related mechanical respiratory impairment, altered central ventilatory drive, and abnormalities associated with sleep-disordered breathing [2-4]. Excessive fat deposition around the abdomen and chest wall reduces lung volumes, limits diaphragmatic excursion, and impairs respiratory mechanics, leading to inadequate ventilatory compensation and resulting in chronic carbon dioxide retention and hypoxemia. Persistent hypoventilation and recurrent nocturnal oxygen desaturation contribute to pulmonary vasoconstriction, vascular remodeling, and secondary right heart strain [2,5,6]. Approximately 90% of patients with OHS have coexisting obstructive sleep apnea (OSA), often in a severe form, making upper airway obstruction a key factor in both nocturnal and daytime gas-exchange abnormalities [1,2].",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "Over the past decade, the prevalence of severe obesity has increased worldwide. Previous literature on pulmonary hypertension associated with OHS has described imaging findings such as central pulmonary artery enlargement, right heart remodeling, and mosaic lung attenuation as indicators of possible pulmonary vascular disease [5-8]. However, a comprehensive description of the characteristic multimodality cardiothoracic imaging pattern in OHS, particularly in patients without pleuroparenchymal lung disease, is lacking.",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "We present a five-patient case series illustrating a recurring cardiothoracic imaging pattern in OHS, characterized by central pulmonary artery enlargement, relative attenuation of the peripheral pulmonary arterial branches, mosaic lung attenuation in the absence of pleuroparenchymal lung disease, and right- sided cardiac remodeling.",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "1 1 2 3 2",
+          "page": 0,
+          "position": 20
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Open Access Case Report",
+          "level": 4,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "How to cite this article Chimed M, Baljinnyam A, Mahasenan S, et al. (August 17, 2026) Cardiothoracic Imaging Findings in Obesity Hypoventilation Syndrome (Pickwickian Syndrome): A Case Series. Cureus 18(8): e114686. DOI 10.7759/cureus.114686",
+              "page": 0,
+              "position": 21
+            },
+            {
+              "text": "Early recognition of this imaging pattern may help clinicians identify possible OHS-associated pulmonary vascular involvement and prompt timely cardiopulmonary evaluation.",
+              "page": 1,
+              "position": 22
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Case Presentation",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Methods",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 6,
+      "paragraphs": [
+        {
+          "text": "This case series includes five patients evaluated at the University of Utah between January 1, 2010, and January 1, 2025, who met the diagnostic criteria for obesity hypoventilation syndrome: BMI ≥30 kg/m², daytime arterial carbon dioxide tension (PaCO₂) ≥45 mmHg, sleep-disordered breathing confirmed by sleep testing, and exclusion of other causes of alveolar hypoventilation. Patients were identified through a retrospective search of the radiology database. All imaging studies were reviewed by a single radiologist.",
+          "page": 1,
+          "position": 23
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Summary statistics",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "Summary statistics were generated using standard descriptive methods. Continuous variables were summarized using the mean, standard deviation, median, IQR, and range. Binary variables were summarized using counts and percentages, with the denominator representing the number of non-missing observations. Missing data were quantified for each variable.",
+              "page": 1,
+              "position": 24
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Case 1",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "A 35-year-old man with class III obesity and a BMI of 55.5 kg/m² presented with excessive daytime sleepiness and severe hypoxemia, with an oxygen saturation of 80% on room air. He had no previous history of lung disease. Sleep testing confirmed OSA. ABG analysis demonstrated daytime hypoxemia, defined as a partial pressure of arterial oxygen (PaO₂) <70 mmHg, and hypercapnia, defined as a partial pressure of arterial carbon dioxide (PaCO₂) ≥45 mmHg. Polycythemia was present. Pulmonary function tests (PFTs) were not performed.",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "Chest radiography (CXR) demonstrated enlargement of the central pulmonary arteries, relative attenuation of the peripheral pulmonary arterial branches, and cardiomegaly, without evidence of underlying lung disease. The right interlobar pulmonary artery measured 22 mm in diameter. Contrast-enhanced CT of the chest demonstrated a main pulmonary artery trunk diameter of 33 mm (reference upper limit of normal, 29 mm), markedly enlarged central pulmonary arteries with comparatively small peripheral branches, right ventricular (RV) enlargement relative to the left ventricle (LV), and a moderate mosaic attenuation pattern in the pulmonary parenchyma. There was no evidence of pleuroparenchymal lung disease or pulmonary arterial filling defects. The constellation of findings was suspicious for pulmonary hypertension in the setting of obesity hypoventilation syndrome (Figure 1). Echocardiographic assessment was inconclusive because of suboptimal visualization of the right heart and pulmonary arteries. Cardiac magnetic resonance (CMR) imaging was not performed.",
+              "page": 1,
+              "position": 26
+            }
+          ],
+          "subsections": [
+            {
+              "title": "FIGURE 1: Imaging findings in Case 1.",
+              "level": 3,
+              "page_start": 1,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "Axial CT images show enlargement of the central pulmonary arteries (A, arrows) and right ventricular (RV) enlargement (B). Coronal and axial CT images displayed in lung windows (C and F) demonstrate moderate, diffuse, patchy mosaic attenuation (arrowheads) and relatively small peripheral pulmonary arteries. A frontal chest radiograph (D) shows enlarged branch pulmonary and interlobar arteries with attenuated peripheral pulmonary vasculature. An apical four-chamber transthoracic echocardiographic image (E) provides limited visualization of the right heart and left atrium.",
+                  "page": 1,
+                  "position": 27
+                },
+                {
+                  "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 2 of 11",
+                  "page": 1,
+                  "position": 28
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Case 2",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "A 62-year-old man with class II obesity and a BMI of 36.7 kg/m² presented with shortness of breath. He had no prior history of lung disease. Sleep testing confirmed OSA. ABG analysis demonstrated daytime hypoxemia and hypercapnia. PFT results were normal, and polycythemia was not present.",
+              "page": 2,
+              "position": 29
+            },
+            {
+              "text": "CXR demonstrated enlargement of the central pulmonary arteries, with relative attenuation of the peripheral pulmonary arterial branches. The right interlobar pulmonary artery measured 19 mm in diameter. No cardiomegaly or pleuroparenchymal lung disease was identified. Unenhanced CT of the chest demonstrated enlarged central pulmonary arteries, relative attenuation of the peripheral pulmonary arterial branches, normal cardiac chamber sizes, no mosaic lung attenuation, and no pleuroparenchymal lung disease (Figure 2). Echocardiography and CMR imaging were not performed.",
+              "page": 2,
+              "position": 30
+            }
+          ],
+          "subsections": [
+            {
+              "title": "FIGURE 2: CT imaging findings in Case 2.",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "Coronal and axial computed tomography (CT) images show enlarged central pulmonary arteries (C, arrows) and relative attenuation of the peripheral pulmonary arteries (A and B). Note the absence of mosaic lung attenuation.",
+                  "page": 2,
+                  "position": 31
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Case 3",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "A 74-year-old man with class III obesity and a BMI of 44.8 kg/m² presented with persistent shortness of breath. He had no history of lung disease. Sleep testing confirmed OSA. Arterial blood gas (ABG) analysis demonstrated daytime hypoxemia and hypercapnia. Polycythemia was not present. PFTs demonstrated a moderate restrictive ventilatory defect without airway obstruction.",
+              "page": 2,
+              "position": 32
+            },
+            {
+              "text": "CXR demonstrated enlargement of the central pulmonary arteries, with relative attenuation of the peripheral pulmonary arterial branches. The right interlobar pulmonary artery measured 20 mm in diameter. Unenhanced CT of the chest demonstrated enlargement of the central pulmonary arteries with comparatively smaller peripheral branches, RV enlargement, and a mild mosaic attenuation pattern in the pulmonary parenchyma, without evidence of pleuroparenchymal lung disease (Figure 3). Echocardiography and CMR imaging were not performed.",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 3 of 11",
+              "page": 2,
+              "position": 34
+            }
+          ],
+          "subsections": [
+            {
+              "title": "FIGURE 3: CT imaging findings in Case 3.",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "Axial and coronal computed tomography (CT) images show right ventricular (RV) and central pulmonary artery enlargement (A and B, arrow), abrupt tapering of the small peripheral pulmonary arteries (C-E), and diffuse, patchy mosaic attenuation (D and E, arrowheads). Panel E is a maximum-intensity projection image.",
+                  "page": 3,
+                  "position": 35
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Case 4",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "A 39-year-old woman with class III obesity and a BMI of 43.7 kg/m² presented with chronic shortness of breath. She had a history of congenital aortic surgery but no known lung disease. Sleep testing confirmed OSA. ABG analysis demonstrated daytime hypoxemia and hypercapnia. Polycythemia was not present. PFTs demonstrated a moderate restrictive ventilatory defect without airway obstruction.",
+              "page": 3,
+              "position": 36
+            },
+            {
+              "text": "CXR demonstrated enlargement of the central pulmonary arteries and cardiomegaly, without evidence of pleuroparenchymal lung disease. The right interlobar pulmonary artery measured 17 mm in diameter. Unenhanced CT of the chest demonstrated enlarged central pulmonary arteries with small peripheral branches, mildly enlarged ventricles, and a mild mosaic attenuation pattern, without pleuroparenchymal lung disease (Figure 4).",
+              "page": 3,
+              "position": 37
+            }
+          ],
+          "subsections": [
+            {
+              "title": "FIGURE 4: Imaging findings in Case 4.",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "Axial and coronal computed tomography (CT) images show mild mosaic attenuation (arrowheads) with relative attenuation of the peripheral pulmonary arteries (A-C), enlargement of the main pulmonary artery (D, arrow), and biventricular enlargement (E). The CT images are limited by artifacts from spinal fusion hardware and sternotomy wires. A pectus excavatum deformity is also present. A frontal chest radiograph (F) demonstrates a large body habitus, cardiomegaly, and enlargement of the hilar and interlobar pulmonary arteries.",
+                  "page": 3,
+                  "position": 38
+                },
+                {
+                  "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 4 of 11",
+                  "page": 3,
+                  "position": 39
+                },
+                {
+                  "text": "Echocardiographic assessment of the right heart was nondiagnostic because of poor sonographic windows. CMR imaging demonstrated an enlarged main pulmonary artery, mildly enlarged ventricles, mildly decreased RV systolic function, normal left ventricular systolic function, normal right and left ventricular wall thickness, and no delayed myocardial enhancement or valvular disease (Figure 5). Right heart catheterization confirmed mild pulmonary arterial hypertension with a vasodilator response to adenosine. Given the patient’s history of congenital aortic surgery, congenital cardiovascular anomalies involving the pulmonary arteries, including an anomalous pulmonary arterial origin or cardiovascular shunt, could not be excluded without contrast-enhanced imaging or additional cardiac evaluation.",
+                  "page": 4,
+                  "position": 40
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "FIGURE 5: Cardiac MRI findings in Case 4.",
+              "level": 3,
+              "page_start": 4,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "Cardiac magnetic resonance (CMR) images include a real-time spoiled gradient-echo short-axis image (A), 3D delayed postcontrast axial images (B and C), and a balanced steady-state free-precession four-chamber long- axis image (D). The images demonstrate main pulmonary artery and biventricular enlargement, mildly decreased right ventricular systolic function (ejection fraction = 40%), and normal left ventricular systolic function (ejection fraction = 55%). No delayed myocardial enhancement is present.",
+                  "page": 4,
+                  "position": 41
+                },
+                {
+                  "text": "RA: Right atrium; RV: Right ventricle; LV: Left ventricle; Arrow points to the main pulmonary artery.",
+                  "page": 4,
+                  "position": 42
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Case 5",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "A 75-year-old woman with class III obesity and a BMI of 51.9 kg/m² presented with chronic shortness of breath. She had no history of lung disease. Sleep testing confirmed OSA. ABG analysis demonstrated daytime hypoxemia and hypercapnia. Polycythemia was not present. PFTs were not performed.",
+              "page": 4,
+              "position": 43
+            },
+            {
+              "text": "CXR demonstrated enlargement of the central pulmonary arteries, pruning of the peripheral pulmonary vasculature, and cardiomegaly, without evidence of pleuroparenchymal lung disease. The right interlobar pulmonary artery measured greater than 21 mm in diameter.",
+              "page": 4,
+              "position": 44
+            },
+            {
+              "text": "Unenhanced CT of the chest demonstrated a main pulmonary artery diameter of 47 mm, with small peripheral branches, RV enlargement with inferior vena cava (IVC) dilatation, and moderate mosaic attenuation, without pleuroparenchymal lung disease. Echocardiography was nondiagnostic because of poor sonographic windows. CMR imaging was not performed.",
+              "page": 4,
+              "position": 45
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Summary",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "This five-patient case series highlights a recognizable cardiothoracic imaging pattern among individuals with OHS, comprising enlarged central pulmonary arteries with relative attenuation of the peripheral pulmonary arterial branches, mosaic lung attenuation without pleuroparenchymal lung disease, and",
+              "page": 4,
+              "position": 46
+            },
+            {
+              "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 5 of 11",
+              "page": 4,
+              "position": 47
+            },
+            {
+              "text": "variable evidence of right-sided cardiac remodeling or dysfunction. All patients had obesity, OSA, daytime hypoxemia, and daytime hypercapnia, and none had underlying lung disease on CT. These baseline demographic and clinical features are summarized in Table 1. The multimodality imaging findings are summarized in Table 2. These findings suggest possible pulmonary vascular disease associated with chronic obesity-related hypoventilation and warrant further cardiopulmonary evaluation to confirm the presence and severity of pulmonary hypertension.",
+              "page": 5,
+              "position": 48
+            },
+            {
+              "text": "Variable n (%) Mean ± SD Median (IQR) Min- Max",
+              "page": 5,
+              "position": 49
+            },
+            {
+              "text": "Demographics Missing data: 0/5",
+              "page": 5,
+              "position": 50
+            },
+            {
+              "text": "Male sex 3 (60) NA NA NA",
+              "page": 5,
+              "position": 51
+            },
+            {
+              "text": "Age, years 5 (100) 56.8 ± 19.0 61.0 (39.0, 74.0) 35.0- 75.0",
+              "page": 5,
+              "position": 52
+            },
+            {
+              "text": "BMI, kg/m² 5 (100) 46.5 ± 7.4 44.8 (43.7, 51.9) 36.7- 55.5",
+              "page": 5,
+              "position": 53
+            },
+            {
+              "text": "BMI ≥30 kg/m² 5 (100) NA NA NA",
+              "page": 5,
+              "position": 54
+            },
+            {
+              "text": "Clinical variables Missing data: 0/5",
+              "page": 5,
+              "position": 55
+            },
+            {
+              "text": "Underlying lung disease 0 (0) NA NA NA",
+              "page": 5,
+              "position": 56
+            },
+            {
+              "text": "Obstructive sleep apnea confirmed by sleep testing 5 (100) NA NA NA",
+              "page": 5,
+              "position": 57
+            },
+            {
+              "text": "Daytime hypoxemia while breathing room air, PaO₂ <70 mmHg 5 (100) NA NA NA",
+              "page": 5,
+              "position": 58
+            },
+            {
+              "text": "Daytime hypercapnia while breathing room air, PaCO₂ ≥45 mmHg (≥6.0 kPa) 5 (100) NA NA NA",
+              "page": 5,
+              "position": 59
+            },
+            {
+              "text": "Polycythemia 1 (20) NA NA NA",
+              "page": 5,
+              "position": 60
+            },
+            {
+              "text": "Biventricular heart failure 1 (20) NA NA NA",
+              "page": 5,
+              "position": 61
+            },
+            {
+              "text": "Pulmonary hypertension diagnosed by echocardiography or right heart catheterization 2 (100)* NA NA NA",
+              "page": 5,
+              "position": 62
+            },
+            {
+              "text": "Pulmonary function tests Missing data: 2/5",
+              "page": 5,
+              "position": 63
+            },
+            {
+              "text": "Moderate restrictive ventilatory defect without airway obstruction 2 (67) NA NA NA",
+              "page": 5,
+              "position": 64
+            },
+            {
+              "text": "TABLE 1: Demographic characteristics, clinical variables, and pulmonary function test results of",
+              "page": 5,
+              "position": 65
+            }
+          ],
+          "subsections": [
+            {
+              "title": "patients with obesity hypoventilation syndrome.",
+              "level": 3,
+              "page_start": 5,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "*Only two of the five patients underwent echocardiography and/or right heart catheterization.",
+                  "page": 5,
+                  "position": 66
+                },
+                {
+                  "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 6 of 11",
+                  "page": 5,
+                  "position": 67
+                }
+              ],
+              "subsections": [
+                {
+                  "title": "Variable n (%) Mean ±",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "SD",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "Median",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "[IQR]",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "Min–",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [],
+                  "subsections": []
+                },
+                {
+                  "title": "Max",
+                  "level": 4,
+                  "page_start": 6,
+                  "page_end": 6,
+                  "paragraphs": [
+                    {
+                      "text": "Chest Radiograph Missing",
+                      "page": 6,
+                      "position": 68
+                    },
+                    {
+                      "text": "data=1/5",
+                      "page": 6,
+                      "position": 69
+                    },
+                    {
+                      "text": "Diameter of the right interlobar pulmonary artery, mm NA 19.8 ± 2.2 20.0 [18.5, 21.2] 17.0– 22.0",
+                      "page": 6,
+                      "position": 70
+                    },
+                    {
+                      "text": "Right interlobar pulmonary artery diameter >16 mm 4 (100) NA NA NA",
+                      "page": 6,
+                      "position": 71
+                    },
+                    {
+                      "text": "Small peripheral arteries 3 (75) NA NA NA",
+                      "page": 6,
+                      "position": 72
+                    },
+                    {
+                      "text": "Dilatation of the central pulmonary arteries 4 (100) NA NA NA",
+                      "page": 6,
+                      "position": 73
+                    },
+                    {
+                      "text": "Cardiomegaly 3 (75) NA NA NA",
+                      "page": 6,
+                      "position": 74
+                    },
+                    {
+                      "text": "Chest CT Missing data=0/5",
+                      "page": 6,
+                      "position": 75
+                    },
+                    {
+                      "text": "Lung or pleural disease 0 (0) NA NA NA",
+                      "page": 6,
+                      "position": 76
+                    },
+                    {
+                      "text": "Small peripheral arteries relative to central pulmonary arteries 4 (80) NA NA NA",
+                      "page": 6,
+                      "position": 77
+                    },
+                    {
+                      "text": "Diameter of the main pulmonary artery trunk, mm NA 35.8 ±",
+                      "page": 6,
+                      "position": 78
+                    },
+                    {
+                      "text": "6.5",
+                      "page": 6,
+                      "position": 79
+                    },
+                    {
+                      "text": "32.0 [32.0,",
+                      "page": 6,
+                      "position": 80
+                    },
+                    {
+                      "text": "36.0]",
+                      "page": 6,
+                      "position": 81
+                    },
+                    {
+                      "text": "32.0–",
+                      "page": 6,
+                      "position": 82
+                    },
+                    {
+                      "text": "47.0",
+                      "page": 6,
+                      "position": 83
+                    },
+                    {
+                      "text": "Main pulmonary artery trunk diameter >29 mm 5 (100) NA NA NA",
+                      "page": 6,
+                      "position": 84
+                    },
+                    {
+                      "text": "Pericardial effusion or thickening 0 (0) NA NA NA",
+                      "page": 6,
+                      "position": 85
+                    },
+                    {
+                      "text": "Mediastinal lipomatosis 1 (20) NA NA NA",
+                      "page": 6,
+                      "position": 86
+                    },
+                    {
+                      "text": "RV:LV size ratio >1 3 (60) NA NA NA",
+                      "page": 6,
+                      "position": 87
+                    },
+                    {
+                      "text": "LV dilatation 0 (0) NA NA NA",
+                      "page": 6,
+                      "position": 88
+                    },
+                    {
+                      "text": "IVC dilatation 2 (40) NA NA NA",
+                      "page": 6,
+                      "position": 89
+                    },
+                    {
+                      "text": "Mosaic attenuation 4 (80) NA NA NA",
+                      "page": 6,
+                      "position": 90
+                    },
+                    {
+                      "text": "Transthoracic Echocardiogram Missing",
+                      "page": 6,
+                      "position": 91
+                    },
+                    {
+                      "text": "data=2/5",
+                      "page": 6,
+                      "position": 92
+                    },
+                    {
+                      "text": "Diagnostic study 0 (0) NA NA NA",
+                      "page": 6,
+                      "position": 93
+                    },
+                    {
+                      "text": "Cardiac MRI Missing",
+                      "page": 6,
+                      "position": 94
+                    },
+                    {
+                      "text": "data=4/5",
+                      "page": 6,
+                      "position": 95
+                    },
+                    {
+                      "text": "Diagnostic study 1 (100) NA NA NA",
+                      "page": 6,
+                      "position": 96
+                    },
+                    {
+                      "text": "Large main pulmonary artery, normal RV size, decreased RV function, normal LV",
+                      "page": 6,
+                      "position": 97
+                    },
+                    {
+                      "text": "size, and LVEF 55% 1 (100) NA NA NA",
+                      "page": 6,
+                      "position": 98
+                    },
+                    {
+                      "text": "TABLE 2: Imaging findings in patients with obesity hypoventilation syndrome.",
+                      "page": 6,
+                      "position": 99
+                    },
+                    {
+                      "text": "RV: Right ventricle; LV: Left ventricle; IVC: Inferior vena cava; LVEF: Left ventricular ejection fraction.",
+                      "page": 6,
+                      "position": 100
+                    },
+                    {
+                      "text": "The CT examinations included one contrast-enhanced study and four unenhanced studies.",
+                      "page": 6,
+                      "position": 101
+                    }
+                  ],
+                  "subsections": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "OHS is increasingly recognized as a distinct, underdiagnosed condition with substantial cardiopulmonary consequences [1,2]. Persistent hypoventilation and hypoxemia contribute to pulmonary vasoconstriction, vascular remodeling, pulmonary hypertension, and secondary right heart strain [2,5,6]. These pathophysiological mechanisms may explain the vascular and cardiothoracic imaging abnormalities observed.",
+          "page": 6,
+          "position": 102
+        },
+        {
+          "text": "Central pulmonary artery enlargement with relative peripheral arterial attenuation was a primary imaging finding. On chest radiographs, this appeared as prominent hilar pulmonary arteries and enlargement of the",
+          "page": 6,
+          "position": 103
+        },
+        {
+          "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 7 of 11",
+          "page": 6,
+          "position": 104
+        },
+        {
+          "text": "interlobar pulmonary artery, while CT clearly demonstrated enlarged central arteries with comparatively small peripheral branches. Previous literature identifies central pulmonary artery enlargement as an important imaging indicator associated with elevated pulmonary artery pressures, while radiographic enlargement of the interlobar pulmonary artery supports suspicion of pulmonary vascular disease [7]. The characteristic pruning-like vascular pattern was consistently observed across cases.",
+          "page": 7,
+          "position": 105
+        },
+        {
+          "text": "Mosaic attenuation was noted in all but one patient and ranged from mild to moderate. Although nonspecific, mosaic attenuation may result from small airways disease, pulmonary vascular disease, or infiltrative lung disease [8,9]. In our cases, the absence of pleuroparenchymal abnormalities and the presence of pulmonary artery enlargement favored a vascular rather than airway or interstitial cause. However, none of the CT examinations included expiratory-phase imaging; therefore, underlying small airways disease could not be excluded. Mosaic attenuation may reflect regional perfusion heterogeneity caused by uneven pulmonary vascular remodeling and hypoxemia in OHS.",
+          "page": 7,
+          "position": 106
+        },
+        {
+          "text": "Importantly, none of the cases exhibited pleuroparenchymal lung disease. The diagnostic criteria for OHS require the exclusion of alternative causes of hypoventilation, such as parenchymal lung disease [1-4]. The absence of interstitial lung disease or emphysema on CT supports the predominance of pulmonary vascular abnormalities rather than structural lung disease in this series.",
+          "page": 7,
+          "position": 107
+        },
+        {
+          "text": "Cardiac findings varied but generally indicated right heart strain. Four patients had cardiomegaly on CXR, RV enlargement was observed on CT in three patients, and one patient demonstrated mild RV systolic dysfunction on CMR imaging. Unfortunately, echocardiography played a limited role because of technical limitations related to body habitus. One patient underwent right heart catheterization, which confirmed mild pulmonary hypertension and supported the physiological significance of the cross-sectional imaging findings in that patient. The results of our case series align with previous studies linking OHS to pulmonary hypertension and RV dysfunction [2,5,6].",
+          "page": 7,
+          "position": 108
+        },
+        {
+          "text": "Pulmonary hypertension was directly confirmed by right heart catheterization in only one patient (Case 4). In the remaining four patients, pulmonary hypertension was inferred indirectly from surrogate imaging markers, central pulmonary artery enlargement, RV enlargement, and mosaic attenuation, rather than confirmed by echocardiography or invasive hemodynamic measurement. Echocardiography was either not performed or was limited or nondiagnostic because of body habitus. These imaging findings should therefore be regarded as suggestive of, rather than diagnostic of, pulmonary hypertension in the absence of confirmatory testing.",
+          "page": 7,
+          "position": 109
+        },
+        {
+          "text": "Our findings emphasize the complementary roles of multimodality imaging. CXR raised suspicion through a large body habitus, central pulmonary artery enlargement, and cardiomegaly, while CT characterized pulmonary vascular size and morphology, excluded pleuroparenchymal lung disease, and defined RV and IVC size. In one case, CMR provided further information about ventricular function and did not demonstrate alternative myocardial pathology. Integration of vessel-caliber assessment and right heart morphology using multimodality imaging is advisable when pulmonary hypertension is suspected in patients with obesity [6], as supported by our observations in OHS.",
+          "page": 7,
+          "position": 110
+        },
+        {
+          "text": "Differential diagnoses for enlarged central pulmonary arteries with peripheral pruning and mosaic attenuation include chronic thromboembolic pulmonary hypertension, idiopathic pulmonary arterial hypertension, pulmonary hypertension due to chronic lung disease, and small airways disease [5,7-9]. In our cohort, the combined presence of hypercapnia, obesity, and OSA favored OHS, although it did not exclude these alternative diagnoses (Table 3). Because four of the five CT examinations were unenhanced, chronic thromboembolic disease could not be excluded solely on the basis of the CT findings. PFTs were available for three of the five patients; none showed airway obstruction, two showed a restrictive ventilatory defect, and one had normal results. PFTs were not performed in the remaining two patients (Cases 1 and 5), so small airways disease could not be excluded on pulmonary function grounds in these cases. In these patients, the diagnosis of OHS relied more heavily on the overall clinical constellation of obesity, hypercapnia, hypoxemia, and confirmed OSA, together with the absence of pleuroparenchymal disease on CT. In this case series, the consistent clinical context of obesity, daytime hypercapnia, hypoxemia, and OSA supported the presence of possible OHS-associated pulmonary vascular disease.",
+          "page": 7,
+          "position": 111
+        },
+        {
+          "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 8 of 11",
+          "page": 7,
+          "position": 112
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Condition Expected PaO₂ Expected PaCO₂",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Spirometry",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "(FEV₁/FVC)",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Lung volumes",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "(TLC/RV)",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "DLCO Notes",
+          "level": 4,
+          "page_start": 8,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Obesity",
+              "page": 8,
+              "position": 113
+            },
+            {
+              "text": "hypoventilation",
+              "page": 8,
+              "position": 114
+            },
+            {
+              "text": "syndrome (OHS)",
+              "page": 8,
+              "position": 115
+            },
+            {
+              "text": "↓ (often <70",
+              "page": 8,
+              "position": 116
+            },
+            {
+              "text": "mmHg at sea",
+              "page": 8,
+              "position": 117
+            },
+            {
+              "text": "level)",
+              "page": 8,
+              "position": 118
+            },
+            {
+              "text": "↑ (daytime",
+              "page": 8,
+              "position": 119
+            },
+            {
+              "text": "hypercapnia ≥45",
+              "page": 8,
+              "position": 120
+            },
+            {
+              "text": "mmHg)",
+              "page": 8,
+              "position": 121
+            },
+            {
+              "text": "Normal or restrictive",
+              "page": 8,
+              "position": 122
+            },
+            {
+              "text": "pattern",
+              "page": 8,
+              "position": 123
+            },
+            {
+              "text": "TLC often ↓",
+              "page": 8,
+              "position": 124
+            },
+            {
+              "text": "(obesity-related",
+              "page": 8,
+              "position": 125
+            },
+            {
+              "text": "restriction); RV",
+              "page": 8,
+              "position": 126
+            },
+            {
+              "text": "usually normal",
+              "page": 8,
+              "position": 127
+            },
+            {
+              "text": "Normal",
+              "page": 8,
+              "position": 128
+            },
+            {
+              "text": "(extrapulmonary",
+              "page": 8,
+              "position": 129
+            },
+            {
+              "text": "restriction pattern)",
+              "page": 8,
+              "position": 130
+            },
+            {
+              "text": "ABG definition includes awake",
+              "page": 8,
+              "position": 131
+            },
+            {
+              "text": "hypercapnia with hypoxemia; PFTs may",
+              "page": 8,
+              "position": 132
+            },
+            {
+              "text": "reflect obesity-related restriction.",
+              "page": 8,
+              "position": 133
+            },
+            {
+              "text": "Idiopathic pulmonary",
+              "page": 8,
+              "position": 134
+            },
+            {
+              "text": "arterial hypertension",
+              "page": 8,
+              "position": 135
+            },
+            {
+              "text": "(IPAH)",
+              "page": 8,
+              "position": 136
+            },
+            {
+              "text": "↓ (mild-moderate",
+              "page": 8,
+              "position": 137
+            },
+            {
+              "text": "hypoxemia)",
+              "page": 8,
+              "position": 138
+            },
+            {
+              "text": "↓ (mild-moderate",
+              "page": 8,
+              "position": 139
+            },
+            {
+              "text": "hypocapnia)",
+              "page": 8,
+              "position": 140
+            },
+            {
+              "text": "Usually normal Usually normal",
+              "page": 8,
+              "position": 141
+            },
+            {
+              "text": "↓ (pulmonary vascular",
+              "page": 8,
+              "position": 142
+            },
+            {
+              "text": "disease pattern)",
+              "page": 8,
+              "position": 143
+            },
+            {
+              "text": "Typical constellation: mild-moderate",
+              "page": 8,
+              "position": 144
+            },
+            {
+              "text": "hypoxemia plus hypocapnia; DLCO is",
+              "page": 8,
+              "position": 145
+            },
+            {
+              "text": "reduced in pulmonary vascular disease.",
+              "page": 8,
+              "position": 146
+            },
+            {
+              "text": "Chronic",
+              "page": 8,
+              "position": 147
+            },
+            {
+              "text": "thromboembolic",
+              "page": 8,
+              "position": 148
+            },
+            {
+              "text": "pulmonary",
+              "page": 8,
+              "position": 149
+            },
+            {
+              "text": "hypertension",
+              "page": 8,
+              "position": 150
+            },
+            {
+              "text": "(CTEPH)",
+              "page": 8,
+              "position": 151
+            },
+            {
+              "text": "↓ (often mild-",
+              "page": 8,
+              "position": 152
+            },
+            {
+              "text": "moderate; may",
+              "page": 8,
+              "position": 153
+            },
+            {
+              "text": "worsen with",
+              "page": 8,
+              "position": 154
+            },
+            {
+              "text": "exercise)",
+              "page": 8,
+              "position": 155
+            },
+            {
+              "text": "↓ (often hypocapnia",
+              "page": 8,
+              "position": 156
+            },
+            {
+              "text": "from",
+              "page": 8,
+              "position": 157
+            },
+            {
+              "text": "hyperventilation/dead",
+              "page": 8,
+              "position": 158
+            },
+            {
+              "text": "space)",
+              "page": 8,
+              "position": 159
+            },
+            {
+              "text": "Usually normal Usually normal",
+              "page": 8,
+              "position": 160
+            },
+            {
+              "text": "↓ (pulmonary",
+              "page": 8,
+              "position": 161
+            },
+            {
+              "text": "embolism/pulmonary",
+              "page": 8,
+              "position": 162
+            },
+            {
+              "text": "vascular disease",
+              "page": 8,
+              "position": 163
+            },
+            {
+              "text": "decreases DLCO)",
+              "page": 8,
+              "position": 164
+            },
+            {
+              "text": "Precapillary PH physiology; DLCO is",
+              "page": 8,
+              "position": 165
+            },
+            {
+              "text": "reduced in pulmonary",
+              "page": 8,
+              "position": 166
+            },
+            {
+              "text": "embolism/pulmonary vascular",
+              "page": 8,
+              "position": 167
+            },
+            {
+              "text": "disorders.",
+              "page": 8,
+              "position": 168
+            },
+            {
+              "text": "Asthma",
+              "page": 8,
+              "position": 169
+            },
+            {
+              "text": "↓ (hypoxemia is",
+              "page": 8,
+              "position": 170
+            },
+            {
+              "text": "common during",
+              "page": 8,
+              "position": 171
+            },
+            {
+              "text": "exacerbation)",
+              "page": 8,
+              "position": 172
+            },
+            {
+              "text": "↓ early; normal/↑ if",
+              "page": 8,
+              "position": 173
+            },
+            {
+              "text": "severe",
+              "page": 8,
+              "position": 174
+            },
+            {
+              "text": "(fatigue/impending",
+              "page": 8,
+              "position": 175
+            },
+            {
+              "text": "failure)",
+              "page": 8,
+              "position": 176
+            },
+            {
+              "text": "Obstructive pattern;",
+              "page": 8,
+              "position": 177
+            },
+            {
+              "text": "bronchodilator",
+              "page": 8,
+              "position": 178
+            },
+            {
+              "text": "reversibility is common",
+              "page": 8,
+              "position": 179
+            },
+            {
+              "text": "RV ↑ (air trapping);",
+              "page": 8,
+              "position": 180
+            },
+            {
+              "text": "TLC normal/↑",
+              "page": 8,
+              "position": 181
+            },
+            {
+              "text": "Normal or ↑",
+              "page": 8,
+              "position": 182
+            },
+            {
+              "text": "Hypocapnia is typical unless obstruction",
+              "page": 8,
+              "position": 183
+            },
+            {
+              "text": "is severe, when hypercapnia may occur;",
+              "page": 8,
+              "position": 184
+            },
+            {
+              "text": "DLCO can be increased in asthma.",
+              "page": 8,
+              "position": 185
+            },
+            {
+              "text": "Small airways",
+              "page": 8,
+              "position": 186
+            },
+            {
+              "text": "disease (e.g.,",
+              "page": 8,
+              "position": 187
+            },
+            {
+              "text": "bronchiolitis/early",
+              "page": 8,
+              "position": 188
+            },
+            {
+              "text": "COPD phenotype)",
+              "page": 8,
+              "position": 189
+            },
+            {
+              "text": "Normal or ↓",
+              "page": 8,
+              "position": 190
+            },
+            {
+              "text": "(depends on",
+              "page": 8,
+              "position": 191
+            },
+            {
+              "text": "severity; ↓ with",
+              "page": 8,
+              "position": 192
+            },
+            {
+              "text": "V/Q mismatch)",
+              "page": 8,
+              "position": 193
+            },
+            {
+              "text": "Normal or ↓ early; ↑",
+              "page": 8,
+              "position": 194
+            },
+            {
+              "text": "in advanced/chronic",
+              "page": 8,
+              "position": 195
+            },
+            {
+              "text": "hypercapnic disease",
+              "page": 8,
+              "position": 196
+            },
+            {
+              "text": "May be normal early;",
+              "page": 8,
+              "position": 197
+            },
+            {
+              "text": "obstructive pattern (↓",
+              "page": 8,
+              "position": 198
+            },
+            {
+              "text": "FEV₁/FVC) when",
+              "page": 8,
+              "position": 199
+            },
+            {
+              "text": "established",
+              "page": 8,
+              "position": 200
+            },
+            {
+              "text": "RV ↑ (air trapping);",
+              "page": 8,
+              "position": 201
+            },
+            {
+              "text": "TLC normal/↑",
+              "page": 8,
+              "position": 202
+            },
+            {
+              "text": "Often normal (unless",
+              "page": 8,
+              "position": 203
+            },
+            {
+              "text": "emphysema/ILD",
+              "page": 8,
+              "position": 204
+            },
+            {
+              "text": "overlap)",
+              "page": 8,
+              "position": 205
+            },
+            {
+              "text": "Small airway involvement may show",
+              "page": 8,
+              "position": 206
+            },
+            {
+              "text": "reduced mid-flows (FEF25-75) and air",
+              "page": 8,
+              "position": 207
+            },
+            {
+              "text": "trapping; ABG varies with severity.",
+              "page": 8,
+              "position": 208
+            },
+            {
+              "text": "TABLE 3: Diagnostic paradigm for enlarged central pulmonary arteries, attenuation of the",
+              "page": 8,
+              "position": 209
+            },
+            {
+              "text": "peripheral pulmonary arteries, and mosaic attenuation on chest CT in patients with obesity.",
+              "page": 8,
+              "position": 210
+            },
+            {
+              "text": "COPD: Chronic obstructive pulmonary disease; V/Q: Ventilation-perfusion; PaO₂: Partial pressure of arterial oxygen; PaCO₂: Partial pressure of arterial carbon dioxide; FEV₁: Forced expiratory volume in one second; FVC: Forced vital capacity; TLC: Total lung capacity; RV: Residual volume; DLCO: Diffusing capacity of the lungs for carbon monoxide; ILD: Interstitial lung disease; ABG: Arterial blood gas; PFTs: Pulmonary function tests; PH: Pulmonary hypertension; FEF25-75%: Forced expiratory flow between 25% and 75% of forced vital capacity.",
+              "page": 8,
+              "position": 211
+            },
+            {
+              "text": "Another critical diagnostic dilemma is distinguishing pulmonary hypertension related to heart failure with preserved ejection fraction (HFpEF) from that related to OHS. On chest CT, patients with HFpEF frequently have a mosaic attenuation pattern and enlarged central pulmonary arteries, similar to patients with OHS. However, they may also have left atrial enlargement and smooth interlobular septal thickening. Less common findings include peribronchovascular interstitial thickening and small bilateral pleural effusions [10]. Except for the development of frank right heart failure, these findings are highly unusual in isolated OHS. Hypercapnia and restrictive PFT findings are also distinguishing features of OHS. Finally, patients with OHS do not improve with diuresis.",
+              "page": 8,
+              "position": 212
+            },
+            {
+              "text": "Limitations of this series include its small sample size and limited availability of confirmatory diagnostic testing, such as right heart catheterization. Only one patient underwent advanced cardiac imaging, limiting our assessment of CMR in this patient population. Four of the five patients underwent only unenhanced CT. Echocardiography was not performed in Cases 2 and 3 and was limited or nondiagnostic in Cases 1, 4, and 5; CMR was performed only in Case 4. Consequently, congenital cardiovascular abnormalities, such as an atrial septal defect or partial anomalous pulmonary venous return, and chronic thromboembolic pulmonary hypertension could not be definitively excluded in all cases. In Case 4, the history of congenital aortic surgery further raises the possibility of an undiagnosed shunt. Notably, no shunt or thromboembolic disease was suspected or reported by the treating pulmonologists in any of these patients; however, in the absence of confirmatory imaging, this cannot be considered definitive. Pulmonary arterial enlargement in this series should therefore not be attributed to OHS with certainty, and these findings should be regarded as hypothesis-generating rather than diagnostic.",
+              "page": 8,
+              "position": 213
+            },
+            {
+              "text": "The clinical picture in Case 4 was further complicated by a history of congenital aortic surgery, spinal fusion, and pectus excavatum, each of which may independently impair respiratory mechanics or restrict lung volumes. These factors may have contributed to the patient’s restrictive ventilatory pattern and imaging findings independently of, or in addition to, OHS, and their relative contributions cannot be fully distinguished from possible OHS-associated pulmonary vascular changes in this case.",
+              "page": 8,
+              "position": 214
+            },
+            {
+              "text": "Nevertheless, the central pulmonary artery enlargement and peripheral vascular attenuation observed",
+              "page": 8,
+              "position": 215
+            },
+            {
+              "text": "2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 9 of 11",
+              "page": 8,
+              "position": 216
+            },
+            {
+              "text": "across all five patients highlight a potentially recognizable cardiothoracic imaging phenotype that may prompt radiologists and clinicians to consider OHS and possible associated pulmonary vascular involvement in the appropriate clinical context. However, associated findings such as mosaic attenuation were not universal, being absent in Case 2, and imaging protocols were not standardized across cases.",
+              "page": 9,
+              "position": 217
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "Obesity hypoventilation syndrome may present with a potentially recognizable multimodality cardiothoracic imaging pattern characterized by central pulmonary artery enlargement and relative attenuation of the peripheral pulmonary arterial branches, features present in all five patients, along with variably present mosaic lung attenuation and right-sided cardiac remodeling. Recognition of this pattern in patients with obesity, sleep-disordered breathing, daytime hypercapnia, and hypoxemia should prompt consideration of OHS-related pulmonary vascular disease and further cardiopulmonary evaluation. Additional studies are needed to confirm these imaging findings in a larger patient population, ideally incorporating contrast- enhanced CT to evaluate for shunt and thromboembolic disease, alongside confirmatory right heart catheterization, to establish the true relationship between the degree of obesity and the degree of pulmonary arterial dilation and determine the usefulness of these findings in directing patient care.",
+          "page": 9,
+          "position": 218
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Additional Information",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 9,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Author Contributions",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.",
+              "page": 9,
+              "position": 219
+            },
+            {
+              "text": "Concept and design:  Jeremy R. Burt, Munkhsuvd Chimed, Anujin Baljinnyam, Ismail M. Kabakus, Shreya Mahasenan",
+              "page": 9,
+              "position": 220
+            },
+            {
+              "text": "Acquisition, analysis, or interpretation of data:  Jeremy R. Burt, Munkhsuvd Chimed, Anujin Baljinnyam, Ismail M. Kabakus, Shreya Mahasenan",
+              "page": 9,
+              "position": 221
+            },
+            {
+              "text": "Drafting of the manuscript:  Jeremy R. Burt, Munkhsuvd Chimed, Anujin Baljinnyam, Ismail M. Kabakus, Shreya Mahasenan",
+              "page": 9,
+              "position": 222
+            },
+            {
+              "text": "Critical review of the manuscript for important intellectual content:  Jeremy R. Burt, Munkhsuvd Chimed, Anujin Baljinnyam, Ismail M. Kabakus, Shreya Mahasenan",
+              "page": 9,
+              "position": 223
+            },
+            {
+              "text": "Supervision:  Jeremy R. Burt",
+              "page": 9,
+              "position": 224
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Disclosures",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. The University of Utah issued approval 00203598. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+              "page": 9,
+              "position": 225
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Mokhlesi B, Masa JF, Brozek JL, et al.: Evaluation and management of obesity hypoventilation syndrome: an official American Thoracic Society clinical practice guideline. Am J Respir Crit Care Med. 2019, 200:e6-e24. 10.1164/rccm.201905-1071ST 2. Masa JF, Pépin JL, Borel JC, Mokhlesi B, Murphy PB, Sánchez-Quiroga MÁ: Obesity hypoventilation syndrome. Eur Respir Rev. 2019, 28:10.1183/16000617.0097-2018 3. Iftikhar IH, Roland J: Obesity hypoventilation syndrome. Clin Chest Med. 2018, 39:427-436. 10.1016/j.ccm.2018.01.006 4. Piper AJ, Grunstein RR: Obesity hypoventilation syndrome: mechanisms and management. Am J Respir Crit Care Med. 2011, 183:292-298. 10.1164/rccm.201008-1280CI 5. Bjork S, Jain D, Marliere MH, Predescu SA, Mokhlesi B: Obstructive sleep apnea, obesity hypoventilation syndrome, and pulmonary hypertension: a state-of-the-art review. Sleep Med Clin. 2024, 19:307-325. 10.1016/j.jsmc.2024.02.009 6. Warricker F, Islam Z, Shah BN: Lesson of the month 1: obesity hypoventilation (Pickwickian) syndrome: a reversible cause of severe pulmonary hypertension. Clin Med (Lond). 2017, 17:578-581. 10.7861/clinmedicine.17-6-578 7. Altschul E, Remy-Jardin M, Machnicki S, Sulica R, Moore JA, Singh A, Raoof S: Imaging of pulmonary hypertension: pictorial essay. Chest. 2019, 156:211-227. 10.1016/j.chest.2019.04.003 8. Kligerman SJ, Henry T, Lin CT, Franks TJ, Galvin JR: Mosaic attenuation: etiology, methods of differentiation, and pitfalls. Radiographics. 2015, 35:1360-1380. 10.1148/rg.2015140308 2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 10 of 11",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": "10.1164/rccm.201905-1071ST"
+    },
+    {
+      "id": 2,
+      "raw_text": "Ussavarungsi K, Lee AS, Burger CD: Mosaic pattern of lung attenuation on chest CT in patients with pulmonary hypertension. Diseases. 2015, 3:205-212. 10.3390/diseases3030205 10. Jain CC, Tschirren J, Reddy YN, Melenovsky V, Redfield M, Borlaug BA: Subclinical pulmonary congestion and abnormal hemodynamics in heart failure with preserved ejection fraction. JACC Cardiovasc Imaging. 2022, 15:629-637. 10.1016/j.jcmg.2021.09.017 2026 Chimed et al. Cureus 18(8): e114686. DOI 10.7759/cureus.114686 11 of 11",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.3390/diseases3030205"
+    }
+  ],
+  "page_count": 11,
+  "warnings": []
+}

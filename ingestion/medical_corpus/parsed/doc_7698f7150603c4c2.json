@@ -1,0 +1,634 @@
+{
+  "identity": {
+    "id": "doc_7698f7150603c4c2",
+    "source": {
+      "filename": "PMC13589588.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13589588.1/PMC13589588.1.pdf",
+      "content_hash": "7698f7150603c4c23a42c086fead8fda799304f79fb9b7143707bcb77fc1a451"
+    }
+  },
+  "metadata": {
+    "title": "Case Report Cutaneous Tuberculosis in a 22-Day-Old Neonate:",
+    "authors": [
+      "A Diagnostic Challenge",
+      "Case Report ARISHA IMRAN",
+      "SYEDA WAREESHA FAREEDUDDIN SHAH",
+      "SYED ABDUL RAFAYUDDIN SHAH",
+      "MUHAMMAD RAFIQUE",
+      "HUDA RAJA"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.12865/CHSJ.52.02.14",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Current Health Sciences Journal Vol. 52, No. 2, 2026 April-June",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "10.12865/CHSJ.52.02.14 277 This is an open-access article distributed under the terms of a Creative Commons Attribution- NonCommercial-ShareAlike 4.0 International Public License, which permits unrestricted use, adaptation, distribution and reproduction in any medium, non-commercially, provided the new creations are licensed under identical terms as the original work and the original work is properly cited.",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Case Report Cutaneous Tuberculosis in a 22-Day-Old Neonate:",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "A Diagnostic Challenge and Case Report ARISHA IMRAN1,SYEDA WAREESHA FAREEDUDDIN SHAH1, SYED ABDUL RAFAYUDDIN SHAH1,MUHAMMAD RAFIQUE1,HUDA RAJA1",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "1Dr. Ruth K. M. Pfau, Civil Hospital Karachi, Pakistan",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "ABSTRACT: Background: Cutaneous tuberculosis (CTB) is a rare extrapulmonary manifestation of tuberculosis, particularly in neonates. Its diagnosis is often challenging due to non-specific presentations that can mimic common conditions. Clinical Description: We report the case of a 22-day-old male neonate who presented to the emergency room with fever and a scalp swelling following a reported fall from bed. Initial assessment suggested a subcutaneous abscess. The patient did not respond to multiple courses of intravenous antibiotics. A blood culture grew Burkholderia species, but targeted therapy also failed. Incision and drainage were performed, and pus GeneXpert testing was positive for Mycobacterium tuberculosis, despite a negative tuberculin skin test and clear chest X-ray. A final diagnosis of cutaneous tuberculosis (tuberculous chancre) was established. Management & Outcome: Anti-tuberculosis therapy (ATT) was initiated, leading to the complete resolution of the swelling and full recovery. Conclusion: This case underscores the diagnostic challenges of neonatal CTB. It highlights the importance of considering tuberculosis in the differential diagnosis of non-resolving abscesses in infants, especially in endemic areas, and demonstrates the critical role of molecular diagnostics like GeneXpert in achieving a timely diagnosis.",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "KEYWORDS: Tuberculosis, chancre, cutaneous tuberculosis, mycobacterium tuberculosis, neonatal, diagnostic challenges, genexpert, antitubercular therapy.",
+          "page": 0,
+          "position": 5
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Tuberculosis (TB) remains a significant global health threat, causing an estimated 1.25 million deaths in 2023, with the majority of cases and mortality occurring in low- and middle- income countries.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "In 2023, approximately 10.8 million people developed TB, including 1.3 million children [1].",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "Immunodeficiency conditions such as HIV/AIDS, diabetes, and malnutrition increase the risk of TB infection [1].",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "Cutaneous tuberculosis (CTB) is an uncommon extrapulmonary manifestation, accounting for only 1-2% of all TB cases [8].",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Its diagnosis is notoriously difficult due to a wide spectrum of clinical presentations, which can mimic various other dermatological conditions [2,5].",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Children, with their developing immune systems, are particularly susceptible to severe forms of the disease [3].",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Alarmingly, Mycobacterium tuberculosis has been identified in the microbiome of asymptomatic premature infants in NICUs, indicating a risk of early exposure [4].",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "Diagnosing CTB requires a high index of suspicion and a multifaceted approach, as its sensitivity and specificity are lower than for pulmonary TB [5-7].",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "This case report presents a rare instance of primary cutaneous tuberculosis in a 22-day-old neonate.",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "We aim to highlight the profound diagnostic challenges, the pitfalls of relying on classic tests like the tuberculin skin test in infants, and the pivotal role of molecular diagnostics in guiding successful management.",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Clinical Description",
+          "level": 2,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "A 22-day-old male neonate presented to the emergency department with a two-day history of fever and a swelling on the right temporoparietal region of the scalp.",
+              "page": 0,
+              "position": 16
+            },
+            {
+              "text": "The mother reported that the swelling appeared after a minor fall from bed.",
+              "page": 0,
+              "position": 17
+            },
+            {
+              "text": "There was no history of swelling prior to the incident. The fever was high-grade (102°F) and responsive to antipyretics.",
+              "page": 0,
+              "position": 18
+            },
+            {
+              "text": "There was no history of seizures, vomiting, apparent loss of consciousness (ALOC), bleeding, or discharge.",
+              "page": 0,
+              "position": 19
+            },
+            {
+              "text": "The patient was born via spontaneous vaginal delivery at a local clinic.",
+              "page": 0,
+              "position": 20
+            },
+            {
+              "text": "He cried immediately after birth and passed meconium on day one.",
+              "page": 0,
+              "position": 21
+            },
+            {
+              "text": "He was initially fed a combination of mother's milk and goat milk but was exclusively breastfed at presentation.",
+              "page": 0,
+              "position": 22
+            },
+            {
+              "text": "The parents were healthy with no history of tuberculosis or sexually transmitted infections; both had negative sputum cultures and chest X-rays.",
+              "page": 0,
+              "position": 23
+            },
+            {
+              "text": "Arisha et al. - Neonatal Cutaneous Tuberculosis Diagnosis",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "278 10.12865/CHSJ.52.02.14",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "On examination, the infant was febrile (102°F) with stable vital signs (HR 134 bpm, RR 48/min). A 1x1 cm soft, tender, and warm swelling with overlying redness was noted on the right temporoparietal scalp (Figure 1).",
+              "page": 1,
+              "position": 26
+            },
+            {
+              "text": "Systemic examination was otherwise normal. An ultrasound of the swelling revealed a subcutaneous collection measuring 3.7×0.9×3.4cm, suggestive of an abscess.",
+              "page": 1,
+              "position": 27
+            },
+            {
+              "text": "During hospitalization, the swelling progressively increased to 4x4 cm, and the patient continued to have daily fever spikes.",
+              "page": 1,
+              "position": 28
+            },
+            {
+              "text": "He was started on intravenous antibiotics (cefotaxime, later switched to amikacin, ampicillin, and finally meropenem) with no clinical improvement.",
+              "page": 1,
+              "position": 29
+            },
+            {
+              "text": "Serial laboratory investigations showed a rising trend in the Total Leukocyte Count (TLC) (Table 1).",
+              "page": 1,
+              "position": 30
+            },
+            {
+              "text": "Table 1. Serial hematological parameters showing a rising trend in Total Leukocyte Count (TLC).",
+              "page": 1,
+              "position": 31
+            },
+            {
+              "text": "Date Hb (g/dL) TLC (x10⁹/L) Neutrophils",
+              "page": 1,
+              "position": 32
+            },
+            {
+              "text": "(%)",
+              "page": 1,
+              "position": 33
+            },
+            {
+              "text": "Lymphocytes",
+              "page": 1,
+              "position": 34
+            },
+            {
+              "text": "(%)",
+              "page": 1,
+              "position": 35
+            },
+            {
+              "text": "Platelets (x10⁹/L) 4/11/24 16.9 13.6 44 42 264 11/11/24 13.2 14.3 52 41 252 16/11/24 13.3 23.5 40 56 574",
+              "page": 1,
+              "position": 36
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Management & Outcome",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The pediatric surgery team performed incision and drainage, yielding 10 cc of pus.",
+              "page": 1,
+              "position": 37
+            },
+            {
+              "text": "Routine pus culture was negative. Subsequently, a GeneXpert test on the pus sample detected Mycobacterium tuberculosis in trace amounts.",
+              "page": 1,
+              "position": 38
+            },
+            {
+              "text": "A tuberculin skin test was negative, and a chest X-ray was clear (Figure 2).",
+              "page": 1,
+              "position": 39
+            },
+            {
+              "text": "An MRI brain was obtained to rule out extension, which revealed cerebral edema but no evidence of tuberculomas or meningitis.",
+              "page": 1,
+              "position": 40
+            },
+            {
+              "text": "The patient was started on mannitol and meningitic doses of antibiotics.",
+              "page": 1,
+              "position": 41
+            },
+            {
+              "text": "A final diagnosis of scalp abscess secondary to cutaneous tuberculosis (tuberculous chancre) was made.",
+              "page": 1,
+              "position": 42
+            },
+            {
+              "text": "In consultation with the infectious disease team, anti-tuberculosis therapy (ATT) was initiated.",
+              "page": 1,
+              "position": 43
+            },
+            {
+              "text": "The patient showed remarkable improvement, with the swelling reducing significantly and eventually resolving completely.",
+              "page": 1,
+              "position": 44
+            },
+            {
+              "text": "Follow-up at one and six months confirmed sustained recovery with no sequelae.",
+              "page": 1,
+              "position": 45
+            },
+            {
+              "text": "Figure 1. Clinical photograph on presentation showing the swelling on the right temporoparietal",
+              "page": 1,
+              "position": 46
+            }
+          ],
+          "subsections": [
+            {
+              "title": "region of the scalp.",
+              "level": 4,
+              "page_start": 1,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "Figure 2. Normal chest X-ray of the patient at the time of diagnosis.",
+                  "page": 1,
+                  "position": 47
+                },
+                {
+                  "text": "Current Health Sciences Journal Vol. 52, No. 2, 2026 April-June",
+                  "page": 2,
+                  "position": 48
+                },
+                {
+                  "text": "10.12865/CHSJ.52.02.14 279",
+                  "page": 2,
+                  "position": 49
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "This case exemplifies the profound diagnostic challenges posed by cutaneous tuberculosis in neonates.",
+          "page": 2,
+          "position": 50
+        },
+        {
+          "text": "The initial presentation, intertwined with a history of trauma, effectively mimicked a common bacterial abscess or hematoma, leading to a delay in considering TB.",
+          "page": 2,
+          "position": 51
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Diagnostic Challenges",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The diagnosis was complicated by several factors. First, the atypical presentation linked to trauma misleadingly suggested a simple abscess [9].",
+              "page": 2,
+              "position": 52
+            },
+            {
+              "text": "Second, the false-negative Tuberculin Skin Test (TST) is a known phenomenon in young infants due to immune immaturity or anergy, reducing its reliability [10].",
+              "page": 2,
+              "position": 53
+            },
+            {
+              "text": "Third, the initial isolation of Burkholderia species in the blood culture, likely a co-infection or contaminant, provided a misleading red herring [11].",
+              "page": 2,
+              "position": 54
+            },
+            {
+              "text": "It was the application of the GeneXpert MTB/RIF assay on pus that proved pivotal. This molecular test, known for its high sensitivity and specificity, provided a rapid and accurate diagnosis where conventional methods had failed [12].",
+              "page": 2,
+              "position": 55
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Management and Clinical Course",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The lack of response to broad-spectrum antibiotics was a critical clue that pointed away from a typical bacterial infection. The decision to perform surgical drainage was necessary for symptomatic relief and, crucially, to obtain a sample for definitive testing. The initiation of ATT based on the GeneXpert result was the turning point, leading to a full recovery and confirming the diagnosis.",
+              "page": 2,
+              "position": 56
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Epidemiological Considerations and Source Investigation",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The mode of transmission in this case remains unclear. Neonatal TB can be congenital (via transplacental spread) or acquired postnatally through contact with an infectious person [13].",
+              "page": 2,
+              "position": 57
+            },
+            {
+              "text": "While the parents were screened and found negative, a thorough investigation of all household and frequent contacts is a public health imperative in such cases to identify the source and prevent further transmission, especially in TB-endemic regions.",
+              "page": 2,
+              "position": 58
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Implications for Clinical Practice/Lesson Learnt",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "This report offers several key lessons for clinicians:",
+              "page": 2,
+              "position": 59
+            },
+            {
+              "text": "•Cutaneous tuberculosis should remain a differential diagnosis in neonates presenting with a non-resolving abscess, even without a known TB contact or a positive tuberculin skin test.",
+              "page": 2,
+              "position": 60
+            },
+            {
+              "text": "•Molecular diagnostic tools like GeneXpert are invaluable for the rapid confirmation of extrapulmonary TB from pus samples, particularly when conventional tests are negative or misleading.",
+              "page": 2,
+              "position": 61
+            },
+            {
+              "text": "•A multidisciplinary approach involving pediatrics, surgery, and infectious disease specialists is crucial for the effective management of complex and atypical pediatric TB cases.",
+              "page": 2,
+              "position": 62
+            },
+            {
+              "text": "•Aggressive contact tracing is essential to uncover the source of infection in pediatric TB cases.",
+              "page": 2,
+              "position": 63
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "This case illustrates the significant diagnostic difficulties of neonatal cutaneous tuberculosis, where an apparent trauma history and a negative tuberculin skin test initially misled the clinical assessment.",
+          "page": 2,
+          "position": 64
+        },
+        {
+          "text": "The application of GeneXpert testing on drained pus enabled a rapid, definitive diagnosis and effective anti-tuberculosis therapy.",
+          "page": 2,
+          "position": 65
+        },
+        {
+          "text": "Cutaneous tuberculosis must be considered in any non-resolving abscess in an infant, particularly in endemic settings, to ensure timely and life-saving intervention.",
+          "page": 2,
+          "position": 66
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Acknowledgement",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "None to declare.",
+              "page": 2,
+              "position": 67
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Author Contributions",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Conceptualization, A. and H.R.; Methodology, A., S.W.F.S. and M.R.; Investigation, A., S.W.F.S., S.A.R.S. and M.R.; Data Curation, S.W.F.S. and S.A.R.S.; Writing- Original Draft Preparation, A. and H.R.; Writing- Review & Editing, M.R. and H.R.; Visualization, A. and S.A.R.S.; Supervision, M.R.",
+              "page": 2,
+              "position": 68
+            },
+            {
+              "text": "All authors have read and agreed to the published version of the manuscript.",
+              "page": 2,
+              "position": 69
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Funding",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "This research received no specific funding.",
+              "page": 2,
+              "position": 70
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Conflicts of interest",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "The authors declare no competing interests.",
+              "page": 2,
+              "position": 71
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Institutional Review Board",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "The study was conducted according to the guidelines of the Declaration of Helsinki.",
+              "page": 2,
+              "position": 72
+            },
+            {
+              "text": "As this is a retrospective case report involving standard clinical care and does not involve prospective experimental intervention, formal",
+              "page": 2,
+              "position": 73
+            },
+            {
+              "text": "Arisha et al. - Neonatal Cutaneous Tuberculosis Diagnosis",
+              "page": 3,
+              "position": 74
+            },
+            {
+              "text": "280 10.12865/CHSJ.52.02.14",
+              "page": 3,
+              "position": 75
+            },
+            {
+              "text": "institutional review was exempted by the Institutional Review Board (Ethics Committee) of Dr. Ruth K. M. Pfau, Civil Hospital Karachi.",
+              "page": 3,
+              "position": 76
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Consent Statement",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Written informed consent was obtained from the patient's legal guardian for the publication of this case report and any accompanying images.",
+              "page": 3,
+              "position": 77
+            },
+            {
+              "text": "A copy of the written consent is available for review by the Editor-in-Chief of this journal on request.",
+              "page": 3,
+              "position": 78
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Data availability",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "All data presented in the manuscript are available from the corresponding author upon reasonable request.",
+              "page": 3,
+              "position": 79
+            },
+            {
+              "text": "References 1. World Health Organization. Tuberculosis [Internet]. Geneva: World Health Organization; 2023 [cited 2025 Jul 24]. Available from: https://www.who.int/news-room/fact- sheets/detail/tuberculosis. 2. Maloney ME, Cohen B. Cutaneous tuberculosis in the pediatric population: A review. JAAD Int [Internet]. 2023 [cited 2025 Jun 27];12:105-12. Available from: https://pmc.ncbi.nlm.nih.gov/articles/PMC1031577 8/. 3. Basu Roy R, Whittaker E, Seddon JA, Kampmann B. Tuberculosis susceptibility and protection in children. Lancet Infect Dis, 2019, 19(3):e96-e108. 4. Shah PA, Govindarajan V, Rangaiah A, Diggikar S, Devadas S, Chunchanur SK, Shankar SM, Das S, Kariyappa M. Mycobacterium Species on the Cutaneous Microbiome of Very Preterm Neonates. J Trop Pediatr, 2022, 68(2):fmac026.",
+              "page": 3,
+              "position": 80
+            },
+            {
+              "text": "5. Santos JB, Ferraz CE, Silva PG, Figueiredo AR, Oliveira MH, Medeiros VLS. Cutaneous tuberculosis: Diagnosis, histopathology and treatment-Part II. An Bras Dermatol, 2014, 89(4):545-555. 6. Mitha M, Naicker P, Taljaard J. Cutaneous mycobacterium kansasii infection in a patient with AIDS post initiation of antiretroviral therapy. J Infect Dev Ctries, 2011, 5(7):553-555. 7. Bravo FG, Gotuzzo E. Cutaneous tuberculosis. In: Goldsmith LA, Katz SI, Gilchrest BA, Paller AS, Leffell DJ, Wolff K (Eds): Fitzpatrick's Dermatology in General Medicine, 8th ed. New York: McGraw- Hill; 2012, 2305-2315. 8. Chopra D, Chopra V, Sharma A, Chopra S, Aggarwal S, Goyal D. Unusual Sites of Cutaneous Tuberculosis: A Report of Two Cases. Case Rep Dermatol Med, 2017, 2017:3820187. 9. Sethuraman G, Ramesh V. Cutaneous tuberculosis in children. Pediatr Dermatol, 2013, 30(1):7-16. 10. Steiner P, Rao M, Victoria MS, Jabbar H, Steiner M. Persistently Negative Tuberculin Reactions: Their Presence Among Children With Culture Positive for Mycobacterium tuberculosis (Tuberculin-Negative Tuberculosis). Am J Dis Child, 1980,134(8):747-750. 11. Kim KY, Yong D, Lee K, Kim HS, Kim DS. Burkholderia Sepsis in Children as a Hospital- Acquired Infection. Yonsei Med J, 2016, 57(1):97- 102. 12. Boehme CC, Nabeta P, Hillemann D, Nicol MP, Shenai S, Krapp F, Allen J, Tahirli R, Blakemore R, Rustomjee R, Milovic A, Jones M, O'Brien SM, Persing DH, Ruesch-Gerdes S, Gotuzzo E, Rodrigues C, Alland D, Perkins MD. Rapid molecular detection of tuberculosis and rifampin resistance. N Engl J Med, 2010, 363(11):1005- 1015. 13. Cantwell MF, Shehab ZM, Costello AM, Sands L, Green WF, Ewing EP, Valway SE, Onorato IM. Congenital Tuberculosis. N Engl J Med, 1994, 330(15):1051-1054.",
+              "page": 3,
+              "position": 81
+            },
+            {
+              "text": "Corresponding Author: Huda Raja, Dr. Ruth K. M. Pfau, Civil Hospital Karachi,",
+              "page": 3,
+              "position": 82
+            }
+          ],
+          "subsections": [
+            {
+              "title": "e-mail: ccornrh2@gmail.com",
+              "level": 4,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "page_count": 4,
+  "warnings": [
+    "no references detected"
+  ]
+}

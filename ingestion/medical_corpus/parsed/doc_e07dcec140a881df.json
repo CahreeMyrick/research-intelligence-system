@@ -1,0 +1,788 @@
+{
+  "identity": {
+    "id": "doc_e07dcec140a881df",
+    "source": {
+      "filename": "PMC13611630.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13611630.1/PMC13611630.1.pdf",
+      "content_hash": "e07dcec140a881df51a1ac2517163ed1c5f6f2be741da0fc7c4fdb711d62813f"
+    }
+  },
+  "metadata": {
+    "title": "Academic Editor: Emilio Quaia",
+    "authors": [
+      "Received:  July"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3390/tomography12090126",
+    "arxiv_id": null,
+    "abstract": "Background:Lungsurveillanceincysticfibrosis(CF)reliesonchestradiography(CR) despite cumulative radiation. Low-field MRI may be a radiation-free alternative for children and young adults.Methods:We prospectively compared 0.55 T MRI and CR in 28 same- day examinations of 22 people with CF (mean age 13 ± 5 years).Three raters scored the disease with the MRI CF score and a modified Chrispin–Norman score, expanded from two to three zones per hemithorax to match the six MRI lobes.Analyses used per-examination values averaged across the raters (Wilcoxon tests, intraclass correlation coefficients, ICC). Results:MRIyieldedhigherglobalscores(median8.2vs.6.7,p=0.002)andhigher centrilobular opacity scores (p = 0.005, adjusted p = 0.03).Air trapping was also higher on MRI (p = 0.025) but not after correction for multiple comparisons (adjusted p = 0.12).The other categories did not differ.Both correlated inversely with FEV1 (p < 0.001), without a significant modality-by-FEV1 interaction (p = 0.08).Interobserver agreement was higher for MRI (ICC = 0.93) than CR (0.82), difference 0.12 (95% bootstrap CI 0.06 to 0.18).The findings held in a per-participant sensitivity analysis.Conclusions:0.55 T MRI is a feasible, radiation-free alternative to CR in CF, yielding higher modality-specific scores and more Tomography 2026, 12, 126 https://doi.org/10.3390/tomography12090126 Tomography 2026, 12, 126 2 of 18 consistent interobserver agreement.Because the instruments were only category-mapped and no CT reference was available, higher scores do not establish superior lesion detection. Keywords: magnetic resonance imaging; cystic fibrosis; lung diseases; radiography; thoracic; respiratory insufficiency; diagnostic imaging; low-field MRI; 0.55 T; interobserver agreement",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Academic Editor: Emilio Quaia",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Received: 7 July 2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Revised: 24 August 2026",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Accepted: 25 August 2026",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Published: 31 August 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Copyright: © 2026 by the authors.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "This article is an open access article",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "distributed under the terms and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "conditions of theCreative Commons",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Attribution (CC BY) license.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Article Contemporary 0.55 T MRI for Lung Disease Assessment in Children and Young Adults with Cystic Fibrosis: A Proof-of-Concept Study",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Nadine Bayerl1,* , Maximilian Hinsen1 , Stephan Ellmann1,2 , Armin M. Nagel1, Lisa C. Adams3, Teresa Gerhalter1,4 , Rafael Heiss1 , Tobias Bäuerle1,5, Sabina Schmitt-Grohé6, Michael Uder1, Oliver Rompel1,†and Alexander Schnell6,†",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1 Institute of Radiology, Uniklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Maximiliansplatz 3, 91054 Erlangen, Germany 2 RNZ—Radiologisch-Nuklearmedizinisches Zentrum, Martin-Richter-Str.43, 90489 Nürnberg, Germany 3 Department of Diagnostic and Interventional Radiology, Technical University of Munich, Ismaninger Str.22, 81675 Munich, Germany 4 Department of Neurology, Medical University of Graz, Auenbruggerplatz 22, 8036 Graz, Austria 5 Department of Diagnostic and Interventional Radiology, University Medical Center of the Johannes Gutenberg University Mainz, Langenbeckstr.1, 55131 Mainz, Germany 6 Department of Pediatrics and Adolescent Medicine, Uniklinikum Erlangen, Friedrich-Alexander-Universität Erlangen-Nürnberg, Loschgestr.15, 91054 Erlangen, Germany * Correspondence:nadine.bayerl@fau.de; Tel.:+49-9131-85-36065 † These authors contributed equally to this work.",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Simple Summary",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Cystic fibrosis is an inherited disease that gradually damages the lungs, so patients need repeated imaging throughout their lives.Chest X-rays are widely used, but they involve radiation that accumulates over time, which is a particular concern for children and young adults.This study evaluated first experiences with a modern low-field MRI scanner as aradiation-freealternative.In28examinationsof22youngpatients,MRIproduced higher lung disease scores than chest X-rays and more consistent results between readers. Because the two methods were graded with different scoring systems and no CT scan was available for comparison, the higher MRI scores alone do not prove that MRI detects more disease.These findings suggest low-field MRI may represent a reliable monitoring option, encouraging larger studies.",
+          "page": 0,
+          "position": 14
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Background:Lungsurveillanceincysticfibrosis(CF)reliesonchestradiography(CR) despite cumulative radiation. Low-field MRI may be a radiation-free alternative for children and young adults.Methods:We prospectively compared 0.55 T MRI and CR in 28 same- day examinations of 22 people with CF (mean age 13 ± 5 years).Three raters scored the disease with the MRI CF score and a modified Chrispin–Norman score, expanded from two to three zones per hemithorax to match the six MRI lobes.Analyses used per-examination values averaged across the raters (Wilcoxon tests, intraclass correlation coefficients, ICC). Results:MRIyieldedhigherglobalscores(median8.2vs.6.7,p=0.002)andhigher centrilobular opacity scores (p = 0.005, adjusted p = 0.03).Air trapping was also higher on MRI (p = 0.025) but not after correction for multiple comparisons (adjusted p = 0.12).The other categories did not differ.Both correlated inversely with FEV1 (p < 0.001), without a significant modality-by-FEV1 interaction (p = 0.08).Interobserver agreement was higher for MRI (ICC = 0.93) than CR (0.82), difference 0.12 (95% bootstrap CI 0.06 to 0.18).The findings held in a per-participant sensitivity analysis.Conclusions:0.55 T MRI is a feasible, radiation-free alternative to CR in CF, yielding higher modality-specific scores and more",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Tomography 2026, 12, 126 https://doi.org/10.3390/tomography12090126",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Tomography 2026, 12, 126 2 of 18",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "consistent interobserver agreement.Because the instruments were only category-mapped and no CT reference was available, higher scores do not establish superior lesion detection.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "Keywords: magnetic resonance imaging; cystic fibrosis; lung diseases; radiography; thoracic; respiratory insufficiency; diagnostic imaging; low-field MRI; 0.55 T; interobserver agreement",
+          "page": 1,
+          "position": 19
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1.Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Cystic fibrosis (CF) is a life-limiting disease resulting from mutations within the cystic fibrosistransmembraneconductanceregulator(CFTR)genethatencodesforacAMP- regulatedchloridechannel[1].AlthoughCFaffectsmultipleorgansystems,end-stage lung disease remains a major cause of mortality according to the 2023 report of the Cystic FibrosisFoundation[2].Inrecentyears,therapeuticadvancessuchashighlyeffective CFTR modulators and structured monitoring programs, including regular lung function tests (LFTs) and pulmonary imaging, have contributed to a reduced incidence of advanced lung disease (ALD) and a continuous increase in overall median survival [2].LFTs may be challenging in younger children because of limited cooperation, highlighting the need for alternative monitoring methods in this age group.While conventional chest radiographs (CR) are still performed at regular intervals for disease monitoring in many hospitals [3,4], the“iMAgingmanagEmentofcySTicfibROsis”(MAESTRO)consortiumrecommends CTorMRIaspreferredimagingmethods[4].CTuseislimitedbyionizingradiation, particularlyinpediatricpatients.Thedoseofasingleradiographisfarlower,butthe burdenaccruesoveralifetimeofsurveillance.InapediatricCFcohortof77children followed over 658 patient-years,chest radiographs accounted for 1485 of 1757 imaging examinations,and the mean cumulative effective dose reached 6.2 mSv (range 0.04–25) at a mean age of 9.5 years [5].This corresponds to approximately 2.3 chest radiographs per patient-year in that cohort.Current consensus documents on CF lung imaging do not prescribe a fixed radiographic interval, so this frequency reflects institutional surveillance practice rather than a guideline-mandated schedule.In a larger mixed-age cohort, 16% of patients exceeded a cumulative effective dose of 20 mSv [6].For a single posteroanterior chestradiograph,theGermannationaldiagnosticreferencelevelsspecifyadose-area productof2.5cGy·cm2forchildrenweighing19tounder32kg,4.0cGy·cm2forthose weighing32tounder56kg,and12cGy·cm2foradults[7].Theselevelsrepresentthe 75thpercentileofthenationaldistributionratherthanoptimizedvalues.MRIoffers comparable assessment of CF lung disease but remains restricted to tertiary centers due to availability and cost.Beyond these practical constraints, lung MRI at 1.5 T and 3 T is limited by the very short transverse relaxation times of lung parenchyma and by susceptibility gradients at the numerous air–tissue interfaces, which cause rapid signal decay and local distortion.Robust parenchymal imaging at these field strengths therefore often requires specialized ultrashort echo time techniques that are not universally available.In children, thenarrowerboreandhigheracousticnoiseofhigh-fieldsystemsadditionallyreduce tolerability and increase the need for sedation [8].Recent technical breakthroughs have profoundly improved lung MRI imaging quality in terms of signal-to-noise ratio (SNR), resolutionandcontrast,includingspecializedsequenceslikeprotondensity-weighted (PDw)withenhancedmotionrobustness[9].Reducedmanufacturing,transportation and operational costs make contemporary 0.55 T MRI systems more affordable compared tohigherfield-strengths[10–12].The0.55TMRIisparticularlyadvantageousforlung imagingasitreducessusceptibilityartifactsinthelungparenchymaandatair–tissue interfaces, while longer transverse relaxation times enable lung imaging with conventional",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Tomography 2026, 12, 126 3 of 18",
+          "page": 2,
+          "position": 22
+        },
+        {
+          "text": "acquisition techniques [13,14].Clinically, 0.55 T MRI has already shown its capability for detailed morphological lung imaging, e.g., in the visualization of inflammatory and fibrotic changes, nodules and cystic diseases such as lymphangioleiomyomatosis (LAM) [14–17]. Similar technical benefits are expected to apply to the visualization of CF lung changes, although studies specifically addressing CF-related lung imaging at contemporary 0.55 T are limited [18,19].In this exploratory study, we aimed to address this gap and, with an initial series of patients, to investigate the feasibility of contemporary 0.55 T lung MRI for CF-related lung changes with special focus on the surveillance of children and young adults.",
+          "page": 2,
+          "position": 23
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2.Materials and Methods",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "This single-center study was approved by the local ethics committee of the Friedrich- Alexander-Universität(FAU)Erlangen-Nürnberg(votenumber20-485-B)andwasper- formedinaccordancewiththeDeclarationofHelsinki.Writteninformedconsentwas obtained from all the study participants prior to study inclusion and, for participants under 18 years of age, additionally from their parents or legal guardians.",
+          "page": 2,
+          "position": 24
+        },
+        {
+          "text": "2.1.Study Population",
+          "page": 2,
+          "position": 25
+        },
+        {
+          "text": "BetweenMarch2022andNovember2023,atotalof40peoplewithCF(pwCF) attending the Center for Cystic Fibrosis of the Department of Child and Adolescent Medicine of the University Hospital Erlangen for routine annual imaging check-ups with conventional CR were offered an additional 0.55 T MRI examination.A total of 23 pwCF and their parents (or guardians, respectively) approved study participation, contributing 29 examinations.The patients received LFT and CR as standard care on the same day.For study participation, additional to the routine check-up including CR and LFT, an MRI of the lung was performed on the same day.One 9-year-old female patient canceled the MRI exam before its completion and was subsequently excluded from the study, leading to 28 of the 29 initiated examinations being completed (96.6%). Theexaminationwasdiscontinuedatthepatient’srequestratherthanbecauseofa technical failure or a scheduling problem.No images of this examination entered the analysis, so the discontinuation does not affect the reported scores, and it is reflected inthecompletionrategivenabove.Thisleftatotalof28examinationsthatwere included in the further analysis comprising CR, MRI and LFT performed on the same day.The28examinationswereobtainedin22pwCF.Sixparticipantsattendedtwo consecutive annual check-ups during the recruitment period and therefore contributed two examinations each.No patients required sedation for the MRI examination.",
+          "page": 2,
+          "position": 26
+        },
+        {
+          "text": "2.2.Morphologic Lung Imaging 2.2.1.Magnetic Resonance Imaging",
+          "page": 2,
+          "position": 27
+        },
+        {
+          "text": "Non-contrast enhanced MRI scans were acquired on a 0.55 T scanner (MAGNETOM Free.Max,SiemensHealthineers,Forchheim,Germany)withaboresizeof80cm.The patients were positioned head-first supine with arms down.Phased-array receiver coils includinga6-channelflexcoil,a9-channelspinecoil,anda12-channelheadandneck coilwereused.Theadditionalapplicationoftheheadandneckcoilprovidedamore homogeneous signal within the upper thoracic aperture.Two-dimensional turbo spin-echo (TSE) sequences were performed in transverse and coronal plane with free-breathing and gated image acquisition during expiration.In transversal plane, PDw sequences, and in coronal plane, T2-weighted (T2w) sequences with a short-tau inversion recovery (STIR) preparation were measured.Both sequences used a multi-shot turbo spin-echo readout along a radial k-space trajectory of rotating blades (BLADE, the vendor implementation of PROPELLER) rather than a half-Fourier single-shot readout.The transverse PDw sequence",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "Tomography 2026, 12, 126 4 of 18",
+          "page": 3,
+          "position": 30
+        },
+        {
+          "text": "wasacquiredwithanechotrainlength(turbofactor)of13,areceiverbandwidthof 548 Hz/pixel and a BLADE coverage of 100%, and the coronal T2w STIR sequence with an echo train length of 23, a receiver bandwidth of 301 Hz/pixel and a BLADE coverage of 121.1%.The inversion time of the STIR preparation was 100 ms, shorter than the values customary at 1.5 T and consistent with the shorter T1 relaxation times at 0.55 T, since the inversion time nulls fat scales with the T1 of fat and is therefore shorter than at 1.5 T. The field of view was 380 mm for the transverse and 400 mm for the coronal acquisition, with 50% phase oversampling, one average, a slice thickness of 6.0 mm and an interslice gap of 1.2 mm.Respiratory gating was prospective and navigator-based, using a liver dome navigator with an acceptance window of 2.0 mm and an acquisition window covering 35% of the respiratory cycle.The liver dome was selected as the navigator position because the interface between the liver parenchyma and aerated lung yields the highest available signal contrast for edge detection, and because the craniocaudal excursion of the diaphragm is the dominant component of respiratory lung motion.The effective repetition interval, along with the acquisition time, followed the individual respiratory cycle so that the repetition times in Table 1 are the nominal protocol values.The DICOM headers of every scored series were reviewed to confirm that these settings applied throughout:echo train length (13 and 23), phase sampling (100%, excluding any half-Fourier acquisition), inversion time (100 ms), receiver bandwidth, slice thickness and interslice gap were identical in every examination. Across the cohort the realized repetition time was a median of 4114 ms (range 2778 to 7492) for the transverse PDw sequence and 4568 ms (range 2869 to 7755) for the coronal T2w STIRsequence,andtherealizedacquisitiontimeshadmediansof5:58min(range4:22 to 10:50) and 7:20 min (range 4:12 to 11:20), respectively.The spread reflects respiratory triggering.The transverse acquisition covered a median of 34 slices (range 28 to 44), and the coronal acquisition covered 25 slices (range 21 to 32).Examinations were acquired under vendorsoftwareversionssyngoMRXA50,XA60andXA80withunchangedsequence parameters, and the header review reported above confirms that these parameters were identical across all three versions.A version-specific influence on image reconstruction cannot be excluded formally, but the raters graded morphological findings on a three-point ordinal scale rather than quantitative signal values, which makes the scores insensitive to the small differences in reconstruction that a software release may introduce.Table 1 provides detailed information of the acquisition parameters.",
+          "page": 3,
+          "position": 31
+        },
+        {
+          "text": "Table 1.Magnetic resonance imaging parameters.",
+          "page": 3,
+          "position": 32
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Acquisition Parameters",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Sequence PDw TSE T2w TSE STIR Orientation transversal coronal TA median (range) 5:58 min (4:22–10:50) 7:20 min (4:12–11:20) TE/TR 35/2000 ms 77/2500 ms Slice thickness 6 mm 6 mm In-plane resolution 1.3 × 1.3 mm2 1.5 × 1.5 mm2",
+              "page": 3,
+              "position": 33
+            },
+            {
+              "text": "Matrix 304 × 304 272 × 272 Acceleration mode GRAPPA GRAPPA Acceleration factor 2 2",
+              "page": 3,
+              "position": 34
+            },
+            {
+              "text": "Readout trajectory PROPELLER (BLADE), ETL",
+              "page": 3,
+              "position": 35
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "13 PROPELLER (BLADE), ETL",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 7,
+      "paragraphs": [
+        {
+          "text": "23 PDw, proton density weighted;T2w, T2-weighted;TSE, turbo spin-echo;BLADE, vendor im- plementation of the PROPELLER trajectory; ETL, echo train length; STIR, short-tau inversion recovery;TA,timeofacquisition;TE,timeofecho;TR,timeofrepetition;GRAPPA,general- ized autocalibrating partial parallel acquisition; PROPELLER, periodically rotated overlapping parallel lines with enhanced reconstructions.",
+          "page": 3,
+          "position": 36
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "Tomography 2026, 12, 126 5 of 18",
+          "page": 4,
+          "position": 38
+        },
+        {
+          "text": "2.2.2.Digital Chest Radiography",
+          "page": 4,
+          "position": 39
+        },
+        {
+          "text": "Digital CR was performed in erect posterior–anterior projection at full inspiration in all 28 examinations.The examinations were acquired with a combined fluoroscopy and radiography system (Luminos dRF Max, Siemens Healthineers GmbH, Forchheim, Ger- many) and a corresponding image post-processing engine (DiamondView MAX, Siemens Healthineers GmbH, Forchheim, Germany).The tube voltage setting was 80 kV in children 5–8 years old, 102 kV in children 8–15 years old, and 125 kV in adolescents >15 years and adults.These settings are those of the organ programs preconfigured on the radiography system for pediatric and adult chest examinations,and they were applied as in clinical routine rather than chosen for the study.The consistency of the resulting exposure across the cohort is documented by the median dose-area products reported below, which stayed well below the national diagnostic reference level in every weight class.For dose reduction, aluminum (1 mm) and copper (0.2 mm) filter systems were applied in all the patients.The dose-area product recorded for each radiograph was extracted from the DICOM header. The median values were 0.43 cGy·cm2for participants weighing 19 to under 32 kg (n = 9), 0.67 cGy·cm2for 32 to under 56 kg (n = 11) and 5.44 cGy·cm2for 56 kg and above (n = 8), corresponding to 17%, 17% and 45% of the respective German national diagnostic reference level.One radiograph in the 32 to under 56 kg class reached 106% of its reference level. It was acquired in a 14-year-old weighing 55.3 kg using the adult protocol, 0.7 kg below the weight threshold of the adult reference category, against which it corresponds to 36%. This single value therefore reflects the reference category against which the examination is compared rather than an increased exposure, since the same radiograph corresponds to 36% of the reference level of the adult protocol that was applied.",
+          "page": 4,
+          "position": 40
+        },
+        {
+          "text": "2.3.Lung Function Tests",
+          "page": 4,
+          "position": 41
+        },
+        {
+          "text": "LFTswereperformedoneachpatientwithbodyplethysmography(VyntusBody, Vyaire Medical, Hoechberg, Germany).Body plethysmography yielded FEV1, FEV1/FVC and total lung capacity for the entire cohort.The additional plethysmographic parameters were retained for the exploratory analysis reported in Section 3.2.The forced expiratory volume in one second (FEV1, percentage predicted as defined by the Global Lung Initiative ReferenceValues)wasusedforthisstudyasameasureregardingthepresenceofan obstructive lung disorder [20].",
+          "page": 4,
+          "position": 42
+        },
+        {
+          "text": "2.4.Image Analysis",
+          "page": 4,
+          "position": 43
+        },
+        {
+          "text": "For MRI analysis of the pulmonary impairment, we applied the established “MRI CF score”, a semi-quantitative morphology scoring system for non-contrast enhanced MRI reporting the following findings [21]:(1) bronchiectasis with peribronchial wall thickening (per definition assessed as one MRI category due to the limited spatial resolution), (2) mucus plugging,(3)centrilobularopacities(nodulesortree-in-budpattern),(4)sacculations, (5) consolidations and (6) air trapping.In MRI, the visibility of bronchiectasis is limited if there is no inflammatory thickening of the peribronchial walls.Therefore, the category “bronchiectasis with peribronchial wall thickening” was summarized consisting of two",
+          "page": 4,
+          "position": 44
+        },
+        {
+          "text": "features [21,22].",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "ForCRanalysis,weusedthesemi-quantitativeChrispin–Normanscoring(CNS) system[23–25].InCR,wereportedthefollowingfeatures:bronchiallineshadows(to represent bronchiectasis with bronchial wall thickening as a corresponding MRI category), ringshadows(asacorrespondingfeaturetotheMRIcategorysacculations),mottled shadows>0.5cm(asacorrespondingfeaturetotheMRIcategorymucusplugging), mottled shadows < 0.5 cm (as a corresponding feature to the MRI category centrilobular opacity/tree-in-bud pattern), overinflation (as a corresponding feature to the MRI category",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "Tomography 2026, 12, 126 6 of 18",
+          "page": 5,
+          "position": 48
+        },
+        {
+          "text": "airtrapping),andlargesoftshadows(asacorrespondingfeaturetotheMRIcategory consolidation and collapse).",
+          "page": 5,
+          "position": 49
+        },
+        {
+          "text": "The ratings were assessed in a semiquantitative way for each feature on a per-lobe basis on MRI (right upper lobe, right middle lobe, right lower lobe, left upper lobe, lingula, left lower lobe) and a per-zone basis on CR (right upper zone, right middle zone, right lower zone, left upper zone, left middle zone, left lower zone).For the regional assessment of the CR scoring, the CNS was slightly modified, as it originally only uses the upper and lower zone on each side instead of the upper, middle and lower zone, as applied by us.This three- zone modification was chosen to match the anatomical granularity of the six MRI lobes used for the paired per-region comparison and to allow finer cranio-caudal localization, at the cost of direct numerical comparability with two-zone Chrispin–Norman totals reported in earlier CF literature.The score has been modified before, both by omitting the lateral projection and in a reliability-tested regional variant, but the present three-zone version has not been separately validated, and its reliability is reported here for the first time.The gradedefinitionsappliedwithineachregionwereleftunchanged,sothemodification refines the spatial sampling of the instrument rather than its scoring rules, and the resulting interobserver agreement is reported for every category in Section 3.4 rather than assumed from the two-zone literature.",
+          "page": 5,
+          "position": 50
+        },
+        {
+          "text": "No study-specific scoring manual was written.The raters applied the published grade definitionsoftheMRICFscore[22]andofthemodifiedChrispin–Normanscore[24] directly, and the illustrative examples of grades 0, 1 and 2 in the corresponding original publicationsservedasanimageatlasduringreading.ALikertscalewasutilizedfor quantifying the changes of each category:score of 0 (pathology not present),score of 1 (pathology present but not marked) and score of 2 (pathology clearly marked).The total score for each category was calculated as the global MRI CF score or global CR CF score, with a maximum possible score of 72 points, accounting for all 6 lobes (considering the lingula as a separate lobe).Each category could achieve a maximum score of 12 points. Scoring was performed by three independent radiologists with professional experience of4/6/30years(MH,NB,OR),respectively.Beforetheindependentreading,allthree ratersattendedajoint15mintrainingsessioninwhichbothscoringsystemsandthe corresponding example images were reviewed.The session was intended to refresh the published grade definitions for readers already familiar with both instruments and not to calibrate reading thresholds on study cases.The consequences of this choice are addressed intheLimitations.Foreachraterandeachscoringcategory,thetransversalPDwand the coronal T2w sequences were reviewed in conjunction, and a single integrative score per lobe was assigned according to the predefined criteria.Scoring was thus performed per lobe on MRI, per zone on CR and per lesion category on the 0–2 Likert scale, and no per-patientcomposite orper-individual-lesionscoring wasapplied.Lesionsextending across more than one lobe or zone were scored in each region they involved.The three raters scored all the examinations independently and were blinded to each other’s scores and to the clinical and lung-function data (including FEV1 and CFTR modulator status), and the MRI and the CR of a given patient were assessed in separate reading sessions.",
+          "page": 5,
+          "position": 51
+        },
+        {
+          "text": "2.5.Statistical Analysis",
+          "page": 5,
+          "position": 52
+        },
+        {
+          "text": "Prism version 10.2.0 (GraphPad Software, LLC, Boston, MA, USA) was used to perform Shapiro–WilktestsandWilcoxonsigned-ranktests.TheShapiro–Wilktestsrevealed significant deviations from normal distribution between the scoring groups.The values are therefore presented as median and interquartile range (IQR). For every examination and modality, the scores of the three raters were averaged into a single per-examination value. Allthedescriptivestatistics,pairedtestsandregressionanalyseswerethenperformed",
+          "page": 5,
+          "position": 53
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 5,
+          "position": 54
+        },
+        {
+          "text": "Tomography 2026, 12, 126 7 of 18",
+          "page": 6,
+          "position": 55
+        },
+        {
+          "text": "on these per-examination values so that 28 examinations, rather than pooled reader-level observations, entered these analyses.Nonparametric paired-group Wilcoxon signed-rank tests evaluated the differences between the MRI and CR groups.RStudio version 2022.12.0 + 353 (Posit Software, PBC, Boston, MA, USA) and the R package irr were used to calculate",
+          "page": 6,
+          "position": 56
+        },
+        {
+          "text": "the intraclass correlation coefficient (ICC) for interobserver agreement.A two-way mixed- effectsmodelwithabsoluteagreementandsingle-raterunitwasapplied(accordingto KooandLi[26]),asthethreeradiologistsrepresentedtheonlyratersofinterestrather than a random sample from a larger pool of potential raters.ICCs are reported as point estimates with 95% confidence intervals (CI). The global ICC was calculated by pooling all the category × lobe-level ratings across examinations (n = 1008 observations per rater). This item-level pooling preserves the full inter-rater variability and is consistent with the category-specific ICCs.Aggregating instead to a single per-examination sum score was deliberately avoided, as summation averages out inter-rater variability while retaining the large between-examination range (0–72) and thereby inflates the ICC. ICC was preferred over kappa because the quadratically weighted kappa and the ICC are equivalent reliability coefficients for ordinal ratings [27],because the ICC is natively defined for three raters, whereas Cohen’s kappa is limited to two, and because it yields coefficients on a common scale at the item and score levels.Because the pooled global ICC treats the 36 item-level ratings of an examination as independent observations, its confidence interval is narrower than the effective sample size of 22 participants would justify and is reported descriptively. Asasensitivityanalysis,ICCswererecomputedonper-examinationsumscores.The difference between the global MRI and CR ICCs was quantified by a bootstrap with the participantastheresamplingunit(5000replicates),whichrespectsboththenestingof itemswithinanexaminationandtherepeatedexaminationsofsixparticipants.ICC values < 0.5 were considered as poor agreement, values between 0.5 and 0.75 as moderate agreement, values between 0.75 and 0.9 as good agreement, and values > 0.90 as excellent agreement [26].Because the MRI CF score and the Chrispin–Norman score are distinct instrumentsratherthanrepeatedmeasurementsofthesamequantity,aBland–Altman plotofthedifferencebetweentheglobalMRIandCRscoresagainsttheirmeanwas generated in R version 4.6.0 (R Foundation for Statistical Computing, Vienna, Austria) to descriptively visualize the direction and magnitude of the systematic difference between thetwomodalitiesacrosstherangeofdiseaseseverity,ratherthanasaformaltestof interchangeability.Limits of agreement and the slope of the difference against the mean are therefore reported as descriptive effect sizes without inferential interpretation.Because the mean of two scores carries the measurement error of both,the question of whether the gap between modalities widens with disease burden was instead addressed against theexternalseverityaxisFEV1,usingthemodality-by-FEV1interactiontermspecified below.Correlation between LFT and global lung score was assessed by linear regression analysisusingPrism10.2.0.AdditionalanalyseswereperformedinPython3.14with NumPy 2.4, SciPy 1.17 and statsmodels 0.14, namely, the linear mixed-effects model of the modality-by-FEV1 interaction, the bootstrap of the difference between the two intraclass correlation coefficients, the leave-one-rater-out analyses, the sensitivity analysis restricted to one examination per participant,the Holm–Bonferroni correction,the category-level p-values and the exploratory regressions on FEV1/FVC and total lung capacity.Figures were drawn in R. For each analysis, the slope co-efficient, as well as the 95% confidence interval are indicated.Rather than comparing the two slopes by inspecting the overlap of their confidence intervals, the difference between them was tested formally in a combined linearmixed-effectsmodelofscoreonFEV1,modalityandtheirinteraction,withthe patient as a random effect.For p-values < 0.05 statistically significant differences, and for p-values < 0.01 highly statistically significant differences were assumed.To account for the",
+          "page": 6,
+          "position": 57
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 6,
+          "position": 58
+        },
+        {
+          "text": "Tomography 2026, 12, 126 8 of 18",
+          "page": 7,
+          "position": 59
+        },
+        {
+          "text": "six category-level comparisons, category p-values were adjusted for multiple testing using the Holm–Bonferroni method.The global comparison was the primary endpoint and was not part of this correction.Because the two instruments are not interchangeable measures of the same quantity, this comparison quantifies the difference in severity assigned under the pre-defined category mapping between the MRI CF score and the modified Chrispin– Norman score.It does not establish which modality is closer to the true extent of disease. That both scales reach a maximum of 72 points is a consequence of their construction, six categoriesbysixregionsbyamaximumoftwopoints,andnotevidenceofacommon metric.This study is reported in accordance with the Guidelines for Reporting Reliability and Agreement Studies (GRRAS) [28].",
+          "page": 7,
+          "position": 60
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3.Results",
+      "level": 1,
+      "page_start": 7,
+      "page_end": 11,
+      "paragraphs": [
+        {
+          "text": "3.1.Study Population",
+          "page": 7,
+          "position": 61
+        },
+        {
+          "text": "A total of 28 examinations in 22 pwCF with a mean age of 13 ± 5 years at examination, ranging from 6 to 27 years, including 11 examinations in female and 17 in male participants, included both 0.55 T MRI of the lung and CR on the same day.Refer to Table 2 for detailed patient metrics including age, mutation status, and FEV1.",
+          "page": 7,
+          "position": 62
+        },
+        {
+          "text": "Table 2.Study population with mutation status, LFT results and CFTR modulator treatment.",
+          "page": 7,
+          "position": 63
+        },
+        {
+          "text": "Examination ID Age (Years) Mutation 1 Mutation 2 FEV1 (%) CFTR Modulator",
+          "page": 7,
+          "position": 64
+        },
+        {
+          "text": "1 7 G551D Duplication Exon",
+          "page": 7,
+          "position": 65
+        },
+        {
+          "text": "7–11 104.0 I",
+          "page": 7,
+          "position": 66
+        },
+        {
+          "text": "2 27 F508del F508del 48.0 ETI 3 10 F508del F508del 92.2 LI 4 12 F508del F508del 104.2 ETI 5 14 F508del F508del 102.3 None 6 6 F508del F508del 80.3 LI 7 7 F508del F508del 79.0 ETI 8 10 F508del G551D 89.8 I 9 11 F508del G551D 94.0 ETI 10 12 F508del G542X 91.8 ETI 11 19 F508del G551D 103.9 I 12 14 F508del F508del 78.3 ETI 13 9 F508del R347P 106.4 None 14 10 F508del R347P 117.0 ETI 15 9 F508del D1152 78.5 None 16 17 F508del D1152 77.5 ETI 17 12 F508del F508del 85.7 ETI 18 18 F508del F508del 99.1 ETI 19 17 F508del F508del 88.7 None 20 17 G551D Q39X 107.0 I 21 21 F508del F508del 51.7 ETI 22 11 F508del G551D 101.7 I 23 10 F508del F508del 119.8 None 24 7 F508del F508del 91.3 TI 25 8 F508del F508del 100.3 ETI 26 19 F508del F508del 95.9 TI 27 11 G542X F861fs 84.3 None 28 15 F508del F508del 112.1 ETI",
+          "page": 7,
+          "position": 67
+        },
+        {
+          "text": "I = Ivacaftor, L = Lumacaftor, T = Tezacaftor, E = Elexacaftor.",
+          "page": 7,
+          "position": 68
+        },
+        {
+          "text": "3.2.Correlation with Lung Function Tests",
+          "page": 7,
+          "position": 69
+        },
+        {
+          "text": "CorrelationswithFEV1asanobjectivemeasureforpulmonaryfunctionshowed higher global scores on MRI than on CR across the range of lung function, whereas both modalities exhibited a significantly inverse correlation to FEV1 (each p < 0.001 slope MRI −0.51 [CI −0.77 to −0.25]; slope CR −0.43 [−0.65 to −0.21]), as depicted in Figure 1.In a",
+          "page": 7,
+          "position": 70
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 7,
+          "position": 71
+        },
+        {
+          "text": "Tomography 2026, 12, 126 9 of 18",
+          "page": 8,
+          "position": 72
+        },
+        {
+          "text": "combined mixed-effects model, the modality-by-FEV1 interaction term was not significant (beta = −0.079; 95% CI −0.168 to 0.010; p = 0.08), so the two slopes did not differ significantly. At this sample size this constitutes absence of evidence for a difference rather than evidence of equivalence.Only 6 of the 28 examinations had an FEV1 below 80% predicted and two below 60%,so observations at the severe end of the range rest on a small subgroup.In an exploratory analysis of the remaining plethysmographic parameters, both modalities correlated inversely with FEV1/FVC (MRI −0.52, 95% CI −0.91 to −0.14, p = 0.010; CR −0.40, 95% CI −0.73 to −0.06, p = 0.024). Correlations with total lung capacity were positive but did not reach significance (MRI 0.42, p = 0.09; CR 0.37, p = 0.07).FEV1/FVC is strongly correlated with FEV1 in this cohort (r = 0.81) and therefore does not constitute independent confirmation, whereas total lung capacity is largely independent of FEV1 (r = −0.15).These exploratory analyses were not corrected for multiplicity.",
+          "page": 8,
+          "position": 73
+        },
+        {
+          "text": "Figure1.Regressionanalysisoflungfunction(FEV1)andper-examinationglobalscores,each averaged across the three raters, showing higher MRI than chest radiography scores across the range of lung function, while both were significantly inversely correlated with FEV1.The two slopes did not differ significantly (interaction p = 0.08).Grey squares and the grey line denote MRI, black circles and the black line chest radiography; the lines are the corresponding linear regressions.FEV1, forced expiratory volume in one second, percentage predicted.",
+          "page": 8,
+          "position": 74
+        },
+        {
+          "text": "3.3.Image Analysis",
+          "page": 8,
+          "position": 75
+        },
+        {
+          "text": "The0.55TMRIyieldedsignificantlyhigherscoresinassessingglobalpulmonary manifestations(median=8.17,interquartilerange/IQR=4.25–25.08)comparedtoCR (median = 6.67, IQR = 4.42–19.17; p = 0.002; Figure 2A). This difference reflects the severity assigned under the pre-defined category mapping between the two instruments and not a validated difference in lesion detection.",
+          "page": 8,
+          "position": 76
+        },
+        {
+          "text": "After Holm–Bonferroni correction for the six category-level comparisons, MRI scored significantlyhigherthanCRforcentrilobularopacities(mottledshadows<0.5cmon CR) (p = 0.005;adjusted p = 0.03;MRI, median = 1.83, IQR = 0–3.58;CR, median = 0.67, IQR = 0–3.00).MRIalsoscoredhigherthanCRforairtrapping(overinflationonCR) (p = 0.025; MRI, median = 2.83, IQR = 0–9.67; CR, median = 1.33, IQR = 0–6.25), but this difference did not remain significant after correction (adjusted p = 0.12).No significant differences were observed in assessing mucus plugging (p = 0.65), bronchiectasis including bronchial wall thickening (p = 0.22), consolidations (p = 0.07), or sacculations (p = 0.68) on MRI compared to CR. All the corresponding Holm–Bonferroni adjusted p-values were 0.28 or higher.In a leave-one-rater-out analysis, the global difference between the modalities",
+          "page": 8,
+          "position": 77
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 8,
+          "position": 78
+        },
+        {
+          "text": "Tomography 2026, 12, 126 10 of 18",
+          "page": 9,
+          "position": 79
+        },
+        {
+          "text": "was robust:it remained significant when any single rater was excluded (p = 0.0008, 0.002 and0.009)andwheneachraterwasanalyzedalone(p=0.03,0.006and0.0005).The category-level difference in centrilobular opacities was not robust in the same way.It was no longer significant when the least experienced rater was excluded (p = 0.38) and was significant for that rater alone (p = 0.0006), which reflects the threshold difference for this feature reported in Section 3.4.For the detailed metrics refer to Table 3.",
+          "page": 9,
+          "position": 80
+        },
+        {
+          "text": "Figure2.(A):MatchedpairedplotsoftheglobalMRIandchestradiography(CR)scoresofall 28examinations,shownseparatelyforeachofthethreeraters(I–III)todisplaythefullreader- leveldata.Statisticaltestingwasnotperformedonthesereader-levelobservationsbutonthe per-examinationvaluesaveragedacrossthethreeraters(n=28;seeSection2.5),whichyielded significantly higher scores on MRI than on CR. (B): Bland–Altman plot of the difference between the global MRI and CR scores plotted against their mean, showing that MRI scores were systematically higher than CR (mean difference 2.8 points; 95% limits of agreement −5.2 to +10.8).Because the two scores are not interchangeable measures of the same quantity, the plot and the slope of the difference against the mean (0.169; 95% CI 0.061 to 0.277) are reported descriptively.In (B), the solid horizontal line marks the mean difference, the dashed lines the 95% limits of agreement, the dotted line zero difference, and the red line the linear regression of the difference on the mean.",
+          "page": 9,
+          "position": 81
+        },
+        {
+          "text": "Table 3.Scoring metrics.",
+          "page": 9,
+          "position": 82
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Scoring Categories MRI-Median MRI-IQR MRI-ICC (95%",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "CI) CR-Median CR-IQR CR-ICC (95%",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "CI)",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "Global 8.17 4.25–25.08 0.93 (0.93–0.94) 6.67 4.42–19.17 0.82 (0.80–0.83) Bronchiectasis 4.33 2.75–6.58 0.86 (0.82–0.89) 4.33 3.00–6.67 0.84 (0.80–0.88) Mucus plugging 0.00 0.00–1.50 0.96 (0.94–0.97) 0.167 0–1.58 0.83 (0.79–0.87)",
+              "page": 9,
+              "position": 83
+            },
+            {
+              "text": "Centrilobular",
+              "page": 9,
+              "position": 84
+            },
+            {
+              "text": "opac- ity/mottled shadows < 0.5",
+              "page": 9,
+              "position": 85
+            },
+            {
+              "text": "cm",
+              "page": 9,
+              "position": 86
+            },
+            {
+              "text": "1.83 0–3.58 0.91 (0.89–0.93) 0.67 0–3.0 0.36 (0.23–0.48)",
+              "page": 9,
+              "position": 87
+            },
+            {
+              "text": "Air trap- ping/overinflation 2.83 0–9.67 0.93 (0.91–0.95) 1.33 0–6.25 0.85 (0.81–0.89)",
+              "page": 9,
+              "position": 88
+            },
+            {
+              "text": "Consolidation 0.00 0–0 0.98 (0.97–0.98) 0.00 0–0 0.72 (0.65–0.77) Sacculation 0.00 0–3.33 0.94 (0.93–0.96) 0.00 0–1.92 0.86 (0.82–0.89)",
+              "page": 9,
+              "position": 89
+            },
+            {
+              "text": "MetricsofMRIandCRscoringincludingthecategories’globalextent(sumofallothercate- gories), bronchiectasis, mucus plugging, centrilobular opacity/mottled shadows < 0.5 cm, air trap- ping/overinflation, consolidation and sacculation.The metrics are given as median, interquartile range (IQR) and intraclass correlation coefficient (ICC) with 95% confidence intervals (CI). The medi- ans and IQRs refer to the 28 per-examination values, each averaged across the three raters.The ICCs were computed on the item-level ratings of the three raters.The p-values of the category-level com- parisons and their Holm–Bonferroni adjusted values are reported in the text.The global comparison was the primary endpoint and was not part of this correction.",
+              "page": 9,
+              "position": 90
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090126",
+              "page": 9,
+              "position": 91
+            },
+            {
+              "text": "Tomography 2026, 12, 126 11 of 18",
+              "page": 10,
+              "position": 92
+            },
+            {
+              "text": "The Bland–Altman plot of the difference between the global MRI and CR scores against their mean (Figure 2B) shows a systematic difference rather than agreement:MRI scores were, on average, higher than CR, and the difference increased with the mean of the two scores (slope 0.169; 95% CI 0.061 to 0.277).As the two instruments are not interchangeable measures of the same quantity, this plot is reported descriptively, and the slope is given asaneffectsizeratherthanasatestofproportionalbias.Thecorrespondingquestion ofwhetherthegapwidenswithdiseaseburdenwastestedagainstFEV1andwasnot significant (p = 0.08, see above).Because six participants contributed two examinations each, all the analyses were repeated on one examination per participant.Restricting the analysis to the first examination of each participant (n = 22) yielded a median global score of 10.50 for MRI and 8.67 for CR (Wilcoxon p = 0.005), regression slopes against FEV1 of −0.59 for MRI and −0.49 for CR, and interobserver agreement of ICC 0.94 for MRI and 0.80 for CR with a difference of 0.144 (95% bootstrap CI 0.096 to 0.203, resampling participants rather than examinations).Restricting the analysis to the last examination of each participant gave concordant results (Wilcoxon p = 0.0003; ICC difference 0.129, 95% bootstrap CI 0.072 to 0.187).No conclusion of this study depends on whether the repeated examinations are retained or removed.For clinical showcases refer to Figure 3.",
+              "page": 10,
+              "position": 93
+            },
+            {
+              "text": "Figure 3.(A,B): MRI of the lung at 0.55 T in a female 14-year-old patient with CF presenting with bronchiectasisandairtrappingintherightupperlobe(arrow),aswellasairtrapping(*)inthe lingula.(A): Transversal proton-density-weighted sequence of the lung.(B): Coronal T2-weighted fat-suppressed sequence of the lung.(C): Corresponding chest radiography in posterior–anterior viewrevealingsubtleorbarelydiscerniblepulmonaryabnormalities,suchasbronchiectasisin therightupperzone(arrow).(D,E):MRIofthelungat0.55Tinafemale17-year-oldpatient withCFpresentingwithbronchiectasis(arrow)intheleftlowerlobeandairtrapping(*)inthe lingula.(D): Transversal proton-density-weighted sequence of the lung.(E): Coronal T2-weighted fat-suppressed sequence of the lung.(F): Corresponding chest radiography in posterior–anterior view not revealing bronchiectasis in the left lower lobe, as it is obscured by the cardiac silhouette (arrow).Blunted left lateral recess.L, left side marker on the radiograph.",
+              "page": 10,
+              "position": 94
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090126",
+              "page": 10,
+              "position": 95
+            },
+            {
+              "text": "Tomography 2026, 12, 126 12 of 18",
+              "page": 11,
+              "position": 96
+            },
+            {
+              "text": "3.4.Interobserver Agreements",
+              "page": 11,
+              "position": 97
+            },
+            {
+              "text": "For MRI, interobserver agreement was good to excellent across all six scoring cate- gories,withICCsrangingfrom0.86(95%CI:0.82–0.89)forbronchiectasisto0.98(95% CI:0.97–0.98) forconsolidation.ForCR, interobserveragreementwas goodforthe cat- egoriesbronchiectasis(ICC=0.84;95%CI:0.80–0.88),sacculation(ICC=0.86;95%CI: 0.82–0.89)andoverinflation(asacorrespondingCRcategorytotheMRIcategoryair trapping; ICC = 0.85; 95% CI: 0.81–0.89).The category mottled shadows > 0.5 cm (corre- sponding to mucus plugging on MRI; ICC = 0.83;95% CI: 0.79–0.87) also showed good agreement, whereas large soft shadows (corresponding to consolidation/collapse on MRI; ICC = 0.72; 95% CI: 0.65–0.77) showed moderate agreement.Poor agreement between the three raters was observed for mottled shadows < 0.5 cm (as a corresponding CR category to the MRI category centrilobular opacity; ICC = 0.36; 95% CI: 0.23–0.48).Considering the six categories for MRI vs.CR, global interobserver agreement was excellent for MRI scorings (ICC = 0.93; 95% CI: 0.93–0.94) and good for CR scorings (ICC = 0.82; 95% CI: 0.80–0.83). The difference of 0.117 was confirmed by a bootstrap with the participant as the resampling unit (95% CI 0.062 to 0.183, no replicate of 5000 reached zero).In the sensitivity analysis on per-examination sum scores, both coefficients rose (MRI 0.99, CR 0.95), which illustrates that aggregation averages out inter-rater variability and inflates the ICC, and supports the item-level pooling used here.Collapsing the three CR zones per hemithorax back to the two zones of the original Chrispin–Norman score left the coefficient essentially unchanged, atanICCof0.82undereitherofthetwoplausiblecollapsingrulesagainst0.82forthe three-zone grid, so the zone modification does not account for the reproducibility reported here.The poor agreement for mottled shadows < 0.5 cm on CR was systematic rather than random:agreement between the two more experienced raters was good (pairwise ICC 0.84), whereas the least experienced rater recorded this feature almost never (mean score 0.03 versus 0.36 and 0.29), reducing both pairwise coefficients involving that rater to near zero (0.005 and 0.021).The higher MRI coefficient does not merely reflect a wider score range:between-examination standard deviations differed by a factor of 1.18 (14.05 versus 11.90onthesumscore),whereasthemeanabsolutedifferencebetweenratersdiffered by a factor of 1.9 (1.24 versus 2.38 points).The advantage therefore arises from smaller measurement error, not from a wider scale.Refer to Table 3 for the detailed ICC values of the MRI and CR scorings.",
+              "page": 11,
+              "position": 98
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4.Discussion",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "This exploratory application study demonstrates that contemporary 0.55 T MRI pro- videsafeasibleradiation-freeoptionforassessingpulmonarymanifestationsinpwCF. We found higher morphological scores and more consistent interobserver reproducibility withMRIthanwithCR,whichisstillwidelyusedinmanyhospitalsfordiseasemoni- toring, although diagnostic accuracy against an independent reference standard was not assessed.ThehigherMRIscoresquantifytheseverityassignedunderthepre-defined category mapping between two different instruments.Without a reference standard they do not establish that MRI detects more true lesions.Clinically, this means that MRI and CR scores are not interchangeable numbers and that a change of modality during surveillance cannot be read as disease progression.The good-to-excellent interobserver agreement for MRI (ICC 0.86–0.98) compared to more variable agreement for CR (ICC 0.36–0.86) suggests more reliable and consistent assessment of CF lung disease on 0.55 T MRI. This improved consistencyininterpretationcouldleadtomorestandardizedtreatmentdecisionsand betterdiseasemonitoring,allwithouttheneedforradiationexposure.Severalfactors likely explain why MRI yielded higher scores than CR. As a cross-sectional tomographic technique,MRIavoidstheantero-posteriorsummationofoverlappingstructuresthat",
+          "page": 11,
+          "position": 99
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 11,
+          "position": 100
+        },
+        {
+          "text": "Tomography 2026, 12, 126 13 of 18",
+          "page": 12,
+          "position": 101
+        },
+        {
+          "text": "limits projectional radiography, and its higher soft-tissue contrast may allow a more direct depictionofmucusimpactionandperibronchialinflammatorychange,whichproduce only nonspecific increased density on CR. Without a reference standard,this remains a mechanisticexplanationforthedifferenceinscoreratherthanademonstratedgainin lesion detection.Air trapping is detected on MRI through regional differences in parenchy- mal signal and lobar volume on expiration-gated acquisitions, whereas CR relies on the comparatively insensitive surrogate of gross hyperinflation.",
+          "page": 12,
+          "position": 102
+        },
+        {
+          "text": "These results extend previous research and address key limitations of conventional imaging approaches.While 1.5 T and 3 T MRI systems have shown promise in CF imag- ing[21,22,29–31],theyfacelimitationsincludingcost,availability,andpatientcomfort, particularly for the pediatric population.The technical basis for the enhanced visualiza- tionoflungmorphologyin0.55TlungMRIliesinthefundamentallydifferenttissue properties at lower field strength [14,32].The longer T2* values in lung parenchyma at 0.55 T (T2* = 8.2 ms vs.2.11 ms at 1.5 T and 0.74 ms at 3 T) enable robust imaging using conventional sequences,tackling a major limitation of 1.5 T and 3 T MRI [32,33].Addi- tionally, T2 values of lung parenchyma at 0.55 T have been quantified at approximately 60 ms [14,34], comparable to or slightly longer than at 1.5 T, which supports robust signal retentionovertheechotrainsofthemulti-shotBLADEreadoutsusedinthisstudy.In combination with the shorter T1 at 0.55 T [14,35] and the reduced susceptibility gradients at air–tissue interfaces inherent to lower field strengths, these relaxation properties enable robust morphological lung imaging with clinically established sequences without requir- ing specialized ultrashort echo time techniques [33], tackling a major limitation of higher fieldstrengths.Directcomparisonwiththe1.5Tand3TCF-MRIliteratureislimited by heterogeneous scoring systems but is informative.Using morpho-functional MRI-CF scores, Eichinger et al.reported global-score concordance correlation coefficients of 0.94 to 0.98 [22], and Sileo et al.reported an inter-observer ICC of 0.84 for the same score, against 0.96 for HRCT in the same cohort [36].Our 0.55 T MRI global ICC of 0.93, computed at the item-level, lies within this higher-field range (the corresponding value on aggregated sum scores is 0.99), suggesting that the longer T2* at a low field offsets the expected loss in spatial resolution rather than compromising reproducibility.Reproducibility is, however, not diagnostic accuracy:studies comparing MRI directly with CT found markedly lower MRI–CT concordance for bronchiectasis and air trapping (ICC 0.41 and 0.35, respectively) and MRI sensitivity for severe bronchiectasis as low as 0.33 [37,38].As no CT was acquired in the present study, our results show only that 0.55 T MRI is at least as reproducible as CR in this surveillance setting, not that it can substitute for CT-based structural staging [39].",
+          "page": 12,
+          "position": 103
+        },
+        {
+          "text": "In our study, the significant inverse correlation between FEV1 values in both imaging modalities (p < 0.001) is consistent with their clinical utility, although this cross-sectional association is partly confounded by age and, in the modulator era, by the decoupling of preservedFEV1frompersistentstructuralchange.MRIshowedanumericallysteeper correlation slope (−0.51 vs.−0.43), but the modality-by-FEV1 interaction term was not significant(p=0.08),sothisdifferenceisnotstatisticallyestablishedandmayreflect differences in score dispersion rather than superior detection.Ciet et al.have emphasized the importance of sensitive imaging biomarkers for early disease detection [4].In addition, the interobserver agreement in our study was good to excellent for MRI (ICC 0.86–0.98), exceedingthepoorerinterobserveragreementreportedinourownCRresultsandin previous CR-based studies [24].This finding suggests that low-field MRI may provide a reproducible assessment of CF manifestation.The FEV1 correlation was moreover based ontheglobalcompositescore.Categoriesreflectingactiveairwayobstruction,suchas airtrappingandmucusplugging,wouldbeexpectedtotrackFEV1morecloselythan categories reflecting fixed structural damage, such as sacculations or consolidation, and",
+          "page": 12,
+          "position": 104
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 12,
+          "position": 105
+        },
+        {
+          "text": "Tomography 2026, 12, 126 14 of 18",
+          "page": 13,
+          "position": 106
+        },
+        {
+          "text": "category-specific correlation with lung function should be examined in larger cohorts.A CFTR modulator was taken at 22 of the 28 examinations (13 elexacaftor–tezacaftor–ivacaftor, 5 ivacaftor, 2 lumacaftor–ivacaftor, 2 tezacaftor–ivacaftor) and at none of the remaining 6. The global scores and FEV1 did not differ detectably between these groups (MRI median 8.17 versus 9.33, p = 0.87; CR 7.50 versus 6.17, p = 0.91; FEV1 93.1 versus 95.5% predicted, p = 0.68), but with only six examinations in the untreated group, this comparison has no meaningful power and is reported only to document that modulator status does not visibly drive the observed score difference.",
+          "page": 13,
+          "position": 107
+        },
+        {
+          "text": "Theclinicalimplicationsofourfindings,ifconfirmed,couldbeconsiderable.The radiation-free nature of 0.55 T MRI addresses a critical concern in CF care, where patients requirefrequentimagingthroughouttheirlives[40].Thelarger80cmborediameter oftheMRIscannerusedinthisstudy,togetherwithreducedoperationalcosts,makes this technology potentially more accessible for pediatric centers and smaller non-tertiary care hospitals.Whether these economic advantages translate into equivalent diagnostic performance and reader expertise outside specialized centers has not been formally studied and should not be assumed [10,11,32,41].The high interobserver agreement suggests more consistent disease assessment, potentially leading to more standardized treatment decisions. Recent recommendations from the MAESTRO consortium emphasize the importance of early detection of structural changes and disease progression, especially in young patients with disease-modifying potential [4].In the era of highly effective CFTR modulators, which can exceed treatment costs of $100,000 per year, precise monitoring of treatment response becomes increasingly important [42].Our study suggests that 0.55 T MRI could contribute tothiscapability,givenitsmoreconsistentinterobserverscoringofinflammatoryand structural alterations.While some specialized tertiary centers in Germany have already adopted MRI as the standard of care [29], our findings with contemporary 0.55 T technology could help expand its adoption.",
+          "page": 13,
+          "position": 108
+        },
+        {
+          "text": "Several limitations warrant discussion.This is a monocentric proof-of-concept study, and its small sample of 28 examinations in 22 pwCF necessitates cautious interpretation. It was designed to establish feasibility and to generate effect-size estimates rather than to provide adequately powered confirmatory comparisons, and the findings require validation in larger, multicenter cohorts before clinical implementation.Although the three readers scored independently and were blinded to clinical data and to each other, all practice at the same institution and were familiar with the study aims and both scoring systems.This may introduce a shared expectation bias that independent scoring alone does not eliminate, particularly for features with softer visual thresholds such as centrilobular opacities, and independent replication by readers external to the study institution is therefore needed. The systematic divergence of one rater for mottled shadows < 0.5 cm on CR indicates that the reading thresholds for this feature were not aligned across the raters, which the brief joint training session did not prevent.Future studies should include a formal calibration on a shared training set with feedback on discordant cases and report reader-level agreement alongside the pooled coefficient.Because this feature also carries the only category-level difference that survived correction for multiplicity, and because that difference disappears whenthedivergingraterisexcluded,thecategory-levelresultshouldberegardedas provisional until it is reproduced with calibrated readers.The global difference between the modalities does not depend on any single rater.Statistically, ICCs were computed on lobe-level observations, treating lobes as independent units (pseudoreplication).While consistentwithpriorradiologyreproducibilitystudies,thepooledcoefficientdoesnot model the nesting of items within an examination.A linear mixed-effects model with the participant as a random effect was used for the comparison of the FEV1 slopes, whereas a variance-component model of the difference between two intraclass correlation coefficients",
+          "page": 13,
+          "position": 109
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 13,
+          "position": 110
+        },
+        {
+          "text": "Tomography 2026, 12, 126 15 of 18",
+          "page": 14,
+          "position": 111
+        },
+        {
+          "text": "is unstable at 22 clusters, so the bootstrap at the participant level and the sensitivity analysis on the sum scores were used for that comparison instead.Furthermore, categories with low pathology prevalence (median = 0 for mucus plugging, consolidation, and sacculation) mayyieldICCsthatpartlyreflectagreementontheabsenceofdiseaseratherthanon severitygrading.Becausemanylobeswerescoredzero,thiscaveatappliesequallyto the pooled global ICCs.Six of the 22 participants contributed two annual examinations each, so the 28 examinations are not statistically independent.All the analyses were there- fore repeated on one examination per participant, which left every conclusion unchanged (Section 3.3).The correlation with lung function was based primarily on FEV1.The pa- rameters separating obstructive from restrictive components, FEV1/FVC and total lung capacity, were available from body plethysmography and are reported in Section 3.2 but only as an exploratory analysis without correction for multiplicity, and FEV1/FVC is itself closely correlated with FEV1 in this cohort.Finally, motion-related sequence repetitions, non-diagnostic acquisitions and structured patient-reported tolerability were not recorded systematically during the study, so these aspects of feasibility can be reported only as the completionrate.Additionally,CT,theestablishedstructuralreferencestandardforCF lung disease, was not acquired.This study therefore reports differences in morphological score and interobserver reliability between MRI and CR, not diagnostic accuracy against ananatomicalgoldstandard.CRwaschosenasthecomparatorbecauseitreflectsour institution’s established surveillance practice in clinically stable pediatric and young adult patients and because the clinical question was whether MRI can replace the radiograph these patients already receive, not whether it matches CT. Adding a CT arm would have exposed a radiation-averse pediatric cohort to ionizing radiation, which would have con- tradicted the radiation-reduction rationale of the study.Because the CR grid was expanded from two to three zones per hemithorax to match the six-lobe MRI grid, absolute CR scores in this cohort are moreover not directly comparable with two-zone Chrispin–Norman totals reported in earlier CF literature.While the 0.55 T system already benefits from reduced susceptibility artifacts owing to its lower field strength, further optimization of sequence parameters and standardization of protocols across centers will be crucial for widespread adoption.To our knowledge, this is the first study evaluating a CF cohort using contempo- rary 0.55 T MRI, and further research is needed to benchmark its performance against 1.5 T and 3 T systems that have been extensively studied in CF imaging [21,22,29,30,43].",
+          "page": 14,
+          "position": 112
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "5.Conclusions",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "Our first-experience findings indicate that contemporary 0.55 T MRI provides a fea- sible, radiation-free approach to morphological lung assessment in children and young adults with CF, yielding higher modality-specific scores and more consistent interobserver scoring than chest radiography.Because the two modalities were assessed with distinct, only category-mapped instruments and no CT reference standard was available, the higher MRIscorescannotbeattributedtosuperiortrue-lesiondetectiononthebasisofthese dataalone.Whetherthisreproducibilityadvantagetranslatesintodiagnosticaccuracy against CT, and whether it generalizes beyond a single-center cohort of 22 patients, requires confirmation in larger, multicenter studies with external readers.",
+          "page": 14,
+          "position": 113
+        },
+        {
+          "text": "AuthorContributions:Conceptualization,O.R.andA.S.;methodology,N.B.andA.S.;software, S.E. and A.M.N.;validation, N.B., S.E., L.C.A., T.G. and A.S.;formal analysis, N.B., S.E. and A.S.; investigation, N.B., M.H., S.E., L.C.A., R.H. and A.S.; resources, A.M.N., S.E., T.G., R.H., T.B., S.S.-G., M.U. and O.R.; data curation, N.B., M.H., S.E. and A.S.; writing of the original draft, N.B. and A.S.; review and editing, all authors; visualization, N.B., S.E. and A.S.; supervision, T.B., M.U. and O.R.; project administration, N.B., S.S.-G., M.U. and O.R.; funding acquisition, N.B. and A.S. All authors have read and agreed to the published version of the manuscript.",
+          "page": 14,
+          "position": 114
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090126",
+          "page": 14,
+          "position": 115
+        },
+        {
+          "text": "Tomography 2026, 12, 126 16 of 18",
+          "page": 15,
+          "position": 116
+        },
+        {
+          "text": "Funding:N.B.wassupportedbytheInterdisciplinaryCenterforClinicalResearch(IZKF)at theFriedrich-Alexander-UniversitätErlangen-Nürnberg(ClinicianScientistProgram,Labora- toryRotation)duringtheinitialphaseofthisworkandiscurrentlyfundedbytheDeutsche Forschungsgemeinschaft (DFG, German Research Foundation)—493624887 (Clinician Scientist Program NOTICE). T.G. is funded by the Deutsche Forschungsgemeinschaft (DFG, German Re- searchFoundation)—497320374.A.S.issupportedbytheInterdisciplinaryCenterforClinical Research (IZKF) at the Friedrich-Alexander-Universität Erlangen-Nürnberg (Clinician Scientist Program, First-Time Applicant Program).",
+          "page": 15,
+          "position": 117
+        },
+        {
+          "text": "Institutional Review Board Statement: This study was conducted in accordance with the Declaration of Helsinki and approved by the Ethics Committee of the Friedrich-Alexander-Universität Erlangen- Nürnberg (vote number 20-485-B). The 0.55 T MRI examination reported here was covered by an approved amendment to this application (amendment 20-485_1-B, approved on 7 December 2021).",
+          "page": 15,
+          "position": 118
+        },
+        {
+          "text": "Informed Consent Statement:Informed consent was obtained from all the subjects involved in this study.For participants under 18 years of age, written informed consent was additionally provided by their parents or legal guardians.All the participants completed the standard MRI safety checklist before the examination.",
+          "page": 15,
+          "position": 119
+        },
+        {
+          "text": "DataAvailabilityStatement:Thedatapresentedinthisstudyareavailableonrequestfromthe corresponding author.The data are not publicly available due to privacy and ethical restrictions.",
+          "page": 15,
+          "position": 120
+        },
+        {
+          "text": "Acknowledgments:The authors thank the patients and their parents for participating in this study, the Imaging Science Institute (ISI) Erlangen for providing measurement time and technical support, and Sandy Schmidt for technical assistance.",
+          "page": 15,
+          "position": 121
+        },
+        {
+          "text": "Conflicts of Interest:M.H., A.M.N., M.U. and R.H. are members of the speakers’ bureau of Siemens Healthineers GmbH. S.S.G. is on the advisory committee of Vertex and has received travel grants fromVertex(ECFS2019)andERS(ERSResearchSeminars).A.S.holdsstockoptionsofVertex Pharmaceuticals and has attended a Vertex-sponsored conference (CF Academy 2023).The remaining authors declare no conflicts of interest for this work. The sponsors had no role in the design, execution, interpretation, or writing of the study.",
+          "page": 15,
+          "position": 122
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Mall, M.A.; Burgel, P.R.; Castellani, C.; Davies, J.C.; Salathe, M.; Taylor-Cousar, J.L. Cystic Fibrosis. Nat. Rev. Dis. Primers 2024, 10, 53. [CrossRef] 2. Cystic Fibrosis Foundation Patient Registry.Patient Registry Annual Data Report.Available online:https://www.cff.org/sites/ default/files/2024-09/2023-Patient-Registry-Annual-Data-Report.pdf (accessed on 19 August 2025). 3. Hatabu,H.;Ohno,Y.;Gefter,W.B.;Parraga,G.;Madore,B.;Lee,K.S.;Altes,T.A.;Lynch,D.A.;Mayo,J.R.;Seo,J.B.;etal. Expanding Applications of Pulmonary MRI in the Clinical Evaluation of Lung Disorders:Fleischner Society Position Paper. Radiology 2020, 297, 286–301.[CrossRef] 4. Ciet,P.;Bertolo,S.;Ros,M.;Casciaro,R.;Cipolli,M.;Colagrande,S.;Costa,S.;Galici,V.;Gramegna,A.;Lanza,C.;etal. State-of-the-Art Review of Lung Imaging in Cystic Fibrosis with Recommendations for Pulmonologists and Radiologists from the “IMAging ManagEment of CySTic FibROsis” (MAESTRO) Consortium.Eur.Respir.Rev.2022, 31, 210173.[CrossRef] 5. O’Reilly, R.; Ryan, S.; Donoghue, V.; Saidlear, C.; Twomey, E.; Slattery, D.M. Cumulative Radiation Exposure in Children with Cystic Fibrosis.Ir.Med.J. 2010, 103, 43–46. 6. O’Connell, O.J.; McWilliams, S.; McGarrigle, A.M.; O’Connor, O.J.; Shanahan, F.; Mullane, D.; Eustace, J.; Maher, M.M.; Plant, B.J. Radiologic Imaging in Cystic Fibrosis:Cumulative Effective Dose and Changing Trends Over 2 Decades. Chest 2012, 141, 1575–1583.[CrossRef] 7. Bundesamt für Strahlenschutz.Bekanntmachung der Aktualisierten Diagnostischen Referenzwerte für Diagnostische und Interventionelle Röntgenanwendungen; Bundesamt für Strahlenschutz:Salzgitter, Germany, 2023. 8. Biederer, J.; Mirsadraee, S.; Beer, M.; Molinari, F.; Hintze, C.; Bauman, G.; Both, M.; Van Beek, E.J.R.; Wild, J.; Puderbach, M. MRI of the Lung (3/3)—Current Applications and Future Perspectives.Insights Imaging 2012, 3, 373–386.[CrossRef] 9. Pipe, J.G. Motion Correction with PROPELLER MRI: Application to Head Motion and Free-Breathing Cardiac Imaging.Magn. Reson.Med.1999, 42, 963–969.[CrossRef] 10. Shetty, A.S.; Ludwig, D.R.; Ippolito, J.E.; Andrews, T.J.; Narra, V.R.; Fraum, T.J. Low-Field-Strength Body MRI: Challenges and Opportunities at 0.55 T. RadioGraphics 2023, 43, e230073.[CrossRef] https://doi.org/10.3390/tomography12090126 Tomography 2026, 12, 126 17 of 18",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.3390/tomography12090126"
+    },
+    {
+      "id": 2,
+      "raw_text": "Chaban, Y.V.; Vosshenrich, J.; McKee, H.; Gunasekaran, S.; Brown, M.J.; Atalay, M.K.; Heye, T.; Markl, M.; Woolen, S.A.; Simonetti, O.P.; et al.Environmental Sustainability and MRI: Challenges, Opportunities, and a Call for Action.J. Magn.Reson.Imaging 2024, 59, 1149–1167.[CrossRef] 12. Runge, V.M.; Heverhagen, J.T. Advocating the Development of Next-Generation, Advanced-Design Low-Field Magnetic Reso- nance Systems.Investig.Radiol.2020, 55, 747–753.[CrossRef] 13. Campbell-Washburn, A.E.; Ramasawmy, R.; Restivo, M.C.; Bhattacharya, I.; Basar, B.; Herzka, D.A.; Hansen, M.S.; Rogers, T.; Patricia Bandettini, W.; McGuirt, D.R.; et al.Opportunities in Interventional and Diagnostic Imaging by Using High-Performance Low-Field-Strength MRI. Radiology 2019, 293, 384–393.[CrossRef] 14. Campbell-Washburn,A.E.;Malayeri,A.A.;Jones,E.C.;Moss,J.;Fennelly,K.P.;Olivier,K.N.;Chen,M.Y. T2-Weighted Lung Imaging Using a 0.55-T MRI System.Radiol.Cardiothorac.Imaging 2021, 3, e200611.[CrossRef] 15. Heiss,R.;Grodzki,D.M.;Horger,W.;Uder,M.;Nagel,A.M.;Bickelhaupt,S.High-PerformanceLowFieldMRIEnables Visualization of Persistent Pulmonary Damage after COVID-19.Magn.Reson.Imaging 2021, 76, 49–51.[CrossRef] 16. Hinsen, M.; Nagel, A.M.; Bayerl, N.; Fautz, H.P.; Benkert, T.; May, M.S.; Uder, M.; Heiss, R. Accuracy of Ultra-Fast Low-Field MRI (0.55 T) for Lung Nodule Detection with Ultra-Short Echo Time Sequences.Tomography 2025, 11, 132.[CrossRef] 17. Bayerl, N.; Mathy, C.S.; Bergmann, C.; Bäuerle, T.; Adams, L.C.; Nagel, A.M.; Distler, J.H.W.; Gerhalter, T.; Uder, M.; Heiss, R.; et al.Contemporary 0.55 T MRI to Visualize Interstitial Lung Disease—An Exploratory Study.Eur.J. Radiol.Open 2026, 16, 100720. [CrossRef] 18. Bhattacharya,I.;Ramasawmy,R.;Javed,A.;Lowery,M.;Henry,J.;Mancini,C.;Machado,T.;Jones,A.;Julien-Williams,P.; Lederman, R.; et al.Assessment of Lung Structure and Regional Function Using 0.55 T MRI in Patients with Lymphangioleiomy- omatosis.Investig.Radiol.2022, 57, 178–186.[CrossRef] 19. Bhattacharya,I.;Ramasawmy,R.;Javed,A.;Chen,M.;Benkert,T.;Majeed,W.;Lederman,R.;Moss,J.;Balaban,R.; Campbell-Washburn,A.Oxygen-enhancedFunctionalLungImagingUsingaContemporary0.55 TMRISystem.NMR Biomed. 2021, 34, e4562.[CrossRef] 20. Hall, G.L.; Filipow, N.; Ruppel, G.; Okitika, T.; Thompson, B.; Kirkby, J.; Steenbruggen, I.; Cooper, B.G.; Stanojevic, S. Official ERS Technical Standard:Global Lung Function Initiative Reference Values for Static Lung Volumes in Individuals of European Ancestry.Eur.Respir.J. 2021, 57, 2000289.[CrossRef] 21. Schaefer, J.F.;Hector, A.;Schmidt, K.;Teufel, M.;Fleischer, S.;Graepler-Mainka, U.;Riethmueller, J.;Gatidis, S.;Schaefer, S.; Nikolaou, K.; et al.A Semiquantitative MRI-Score Can Predict Loss of Lung Function in Patients with Cystic Fibrosis:Preliminary Results.Eur.Radiol.2018, 28, 74–84.[CrossRef] 22. Eichinger,M.;Optazaite,D.-E.;Kopp-Schneider,A.;Hintze,C.;Biederer,J.;Niemann,A.;Mall,M.A.;Wielpütz,M.O.; Kauczor, H.-U.; Puderbach, M. Morphologic and Functional Scoring of Cystic Fibrosis Lung Disease Using MRI. Eur.J. Radiol. 2012, 81, 1321–1329.[CrossRef] 23. Chrispin, A.R.; Norman, A.P. The Systematic Evaluation of the Chest Radiograph in Cystic Fibrosis. Pediatr. Radiol. 1974, 2, 101–105. [CrossRef] 24. de Jong, P.A.; Achterberg, J.A.; Kessels, O.A.M.; van Ginneken, B.; Hogeweg, L.; Beek, F.J.; Terheggen-Lagro, S.W.J. Modified Chrispin-Norman Chest Radiography Score for Cystic Fibrosis:Observer Agreement and Correlation with Lung Function.Eur. Radiol.2011, 21, 722–729.[CrossRef] 25. Benden, C.; Wallis, C.; Owens, C.M.; Ridout, D.A.; Dinwiddie, R. The Chrispin–Norman Score in Cystic Fibrosis:Doing Away with the Lateral View.Eur.Respir.J. 2005, 26, 894.[CrossRef] 26. Koo, T.K.; Li, M.Y. A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.J. Chiropr. Med.2016, 15, 155–163.[CrossRef] 27. Fleiss, J.L.; Cohen, J. The Equivalence of Weighted Kappa and the Intraclass Correlation Coefficient as Measures of Reliability. Educ.Psychol.Meas.1973, 33, 613–619.[CrossRef] 28. Kottner, J.; Audigé, L.; Brorson, S.; Donner, A.; Gajewski, B.J.; Hróbjartsson, A.; Roberts, C.; Shoukri, M.; Streiner, D.L. Guidelines forReportingReliabilityandAgreementStudies(GRRAS)WereProposed.J.Clin.Epidemiol.2011,64,96–106.[CrossRef] [PubMed] 29. Wielpütz, M.O.; von Stackelberg, O.; Stahl, M.; Jobst, B.J.; Eichinger, M.; Puderbach, M.U.; Nährlich, L.; Barth, S.; Schneider, C.; Kopp, M.V.; et al.Multicentre Standardisation of Chest MRI as Radiation-Free Outcome Measure of Lung Disease in Young Children with Cystic Fibrosis.J. Cyst.Fibros.2018, 17, 518–527.[CrossRef] 30. Renz, D.M.; Scholz, O.; Böttcher, J.; Maurer, M.H.; Denecke, T.; Schwarz, C.; Pfeil, A.; Streitparth, F.; Huppertz, A.; Mehl, A.; et al. Comparison Between Magnetic Resonance Imaging and Computed Tomography of the Lung in Patients with Cystic Fibrosis with Regard to Clinical, Laboratory, and Pulmonary Functional Parameters.Investig.Radiol.2015, 50, 733–742.[CrossRef] 31. Revel, M.-P.; Chassagnon, G. Use of MRI to Measure Bronchial Inflammation in Cystic Fibrosis.Radiology 2019, 294, 197–198. [CrossRef] https://doi.org/10.3390/tomography12090126 Tomography 2026, 12, 126 18 of 18",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.3390/tomography12090126"
+    },
+    {
+      "id": 3,
+      "raw_text": "Tian, Y.; Nayak, K.S. New Clinical Opportunities of Low-Field MRI: Heart, Lung, Body, and Musculoskeletal.Magn.Reson.Mater. Phys.Biol.Med.2024, 37, 1–14.[CrossRef] 33. Renz, D.M.; Herrmann, K.-H.; Kraemer, M.; Boettcher, J.; Waginger, M.; Krueger, P.-C.; Pfeil, A.; Streitparth, F.; Kentouche, K.; Gruhn, B.; et al.Ultrashort Echo Time MRI of the Lung in Children and Adolescents:Comparison with Non-Enhanced Computed Tomography and Standard Post-Contrast T1w MRI Sequences.Eur.Radiol.2022, 32, 1833–1842.[CrossRef] 34. Li, B.; Lee, N.G.; Cui, S.X.; Nayak, K.S. Lung Parenchyma Transverse Relaxation Rates at 0.55 T. Magn. Reson. Med. 2023, 89, 1522–1530. [CrossRef] 35. Stadler, A.; Jakob, P.M.; Griswold, M.; Stiebellehner, L.; Barth, M.; Bankier, A.A. T1 Mapping of the Entire Lung Parenchyma: Influence of Respiratory Phase and Correlation to Lung Function Test Results in Patients with Diffuse Lung Disease.Magn.Reson. Med.2008, 59, 96–101.[CrossRef] 36. Sileo, C.; Corvol, H.; Boelle, P.Y.; Blondiaux, E.; Clement, A.; Ducou Le Pointe, H. HRCT and MRI of the Lung in Children with Cystic Fibrosis:Comparison of Different Scoring Systems.J. Cyst.Fibros.2014, 13, 198–204.[CrossRef] 37. Ciet, P.; Serra, G.; Bertolo, S.; Spronk, S.; Ros, M.; Fraioli, F.; Quattrucci, S.; Assael, M.B.; Catalano, C.; Pomerri, F.; et al.Assessment of CF Lung Disease Using Motion Corrected PROPELLER MRI: A Comparison with CT. Eur.Radiol.2016, 26, 780–787.[CrossRef] 38. Tepper, L.A.; Ciet, P.; Caudri, D.; Quittner, A.L.; Utens, E.M.W.J.; Tiddens, H.A.W.M. Validating Chest MRI to Detect and Monitor Cystic Fibrosis Lung Disease in a Pediatric Cohort.Pediatr.Pulmonol.2016, 51, 34–41.[CrossRef] 39. van Straten, M.; Brody, A.S.; Ernst, C.; Guillerman, R.P.; Tiddens, H.A.W.M.; Nagle, S.K. Guidance for Computed Tomography (CT) Imaging of the Lungs for Patients with Cystic Fibrosis (CF) in Research Studies.J. Cyst.Fibros.2020, 19, 176–183.[CrossRef] 40. Leuraud,K.;Richardson,D.B.;Cardis,E.;Daniels,R.D.;Gillies,M.;O’Hagan,J.A.;Hamra,G.B.;Haylock,R.;Laurier,D.; Moissonnier, M.; et al.Ionising Radiation and Risk of Death from Leukaemia and Lymphoma in Radiation-Monitored Workers (INWORKS): An International Cohort Study.Lancet Haematol.2015, 2, e276–e281.[CrossRef] 41. Vosshenrich, J.; Breit, H.-C.; Bach, M.; Merkle, E. Economic Aspects of Low-Field Magnetic Resonance Imaging:Acquisition, Installation, and Maintenance Costs of 0.55 T Systems.Radiologe 2022, 62, 400–404.[CrossRef] 42. Bugenhagen, S.M.; Grant, J.C.E.; Rosenbluth, D.B.; Bhalla, S. Update on the Role of Chest Imaging in Cystic Fibrosis.Radiographics 2024, 44, e240008.[CrossRef] 43. Wielpütz, M.O.;Eichinger, M.;Wege, S.;Eberhardt, R.;Mall, M.A.;Kauczor, H.-U.;Puderbach, M.U.;Risse, F.;Heußel, C.P.; Heußel, G. Midterm Reproducibility of Chest Magnetic Resonance Imaging in Adults with Clinically Stable Cystic Fibrosis and Chronic Obstructive Pulmonary Disease.Am.J. Respir.Crit.Care Med.2019, 200, 103–107.[CrossRef] Disclaimer/Publisher’sNote:Thestatements,opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual author(s) and contributor(s) and not of MDPI and/or the editor(s).MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content. https://doi.org/10.3390/tomography12090126",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.3390/tomography12090126"
+    }
+  ],
+  "page_count": 18,
+  "warnings": []
+}

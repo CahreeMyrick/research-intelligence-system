@@ -1,0 +1,524 @@
+{
+  "identity": {
+    "id": "doc_437eaa9e8fef9d9b",
+    "source": {
+      "filename": "PMC13598527.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13598527.1/PMC13598527.1.pdf",
+      "content_hash": "437eaa9e8fef9d9b51bc5f738f7915c69809467f9673ee39889023e1ae964be5"
+    }
+  },
+  "metadata": {
+    "title": "Solitarynodularpulmonaryamyloidosis mimickingprimarylungcancer:Acasereport✩,✩✩",
+    "authors": [
+      "RyoHashimoto",
+      "MD",
+      "PhDa",
+      "∗",
+      "TomokiNakagawa",
+      "MD",
+      "PhDb",
+      "YutakaKurebayashi",
+      "MD",
+      "PhDc",
+      "RyotaMasuda",
+      "MD",
+      "PhDd"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1016/j.radcr.2026.08.079",
+    "arxiv_id": null,
+    "abstract": "Nodularpulmonaryamyloidosisisarare,localizedformofamyloiddepositioninthelung andanuncommoncauseofsolitarypulmonarynodules.Itsradiologicalfeaturesmay closelymimicthatofprimarylungcancerifspiculationorfluorodeoxyglucoseuptakeis present,makingpreoperativediagnosischallenging.Here,wereportthecaseofawoman inher60swhowasreferredtoourhospitalafteranabnormalopacitywasdetectedbyrou- tinechestradiograph.Chestcomputedtomographyrevealeda21mm× 12mmsolidnod- ulewithpartialspiculationintheleftlowerlobe.Fluorodeoxyglucosepositronemission tomography/computedtomographydemonstratedmilduptake(maximumstandardized uptakevalue;2.5).Bronchoscopicbiopsyresultswereinconclusive,anddiagnosticvideo- assistedthoracoscopicleftbasalsegmentectomywasperformedbecausemalignancycould notbeexcluded.Histopathologicalexaminationunderpolarizedlightmicroscopydemon- stratedCongored-positiveamyloiddepositionwithapple-greenbirefringence,confirming nodularpulmonaryamyloidosis.Thiscasehighlightsthatnodularpulmonaryamyloidosis canmimicprimarylungcanceronimaginganddiagnosticsurgicalresectionmayprovide definitivediagnosisandlocaltreatmentifbronchoscopicbiopsyisinconclusive.Long-term follow-upiswarranted,consideringitsreportedassociationwithlymphoproliferativedis- orders. © 2026TheAuthors.PublishedbyElsevierInc.onbehalfofUniversityofWashington. ThisisanopenaccessarticleundertheCCBYlicense (http://creativecommons.org/licenses/by/4.0/) ✩Acknowledgments:Thisstudydidnotreceiveanyspecificgrantsfromfundingagenciesinthepublic,commercial,ornon-profit sectors. ✩✩CompetingInterests:Theauthorshavedeclaredthatnocompetinginterestsexist. ∗Correspondingauthor. E-mailaddress:hryo90@outlook.jp(R.Hashimoto). https://doi.org/10.1016/j.radcr.2026.08.079 1930-0433/© 2026TheAuthors.PublishedbyElsevierInc.onbehalfofUniversityofWashington.Thisisanopenaccessarticleunderthe CCBYlicense(http://creativecommons.org/licenses/by/4.0/) 6146 R a d i o l o g yC a s eR e p o r t s2 1( 2 0 2 6 )6 1 4 5 – 6 1 4 8",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "R a d i o l o g yC a s eR e p o r t s2 1( 2 0 2 6 )6 1 4 5 – 6 1 4 8",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Availableonlineatwww.sciencedirect.com",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "journalhomepage:www.elsevier.com/locate/radcr",
+          "page": 0,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "CaseReport",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Solitarynodularpulmonaryamyloidosis mimickingprimarylungcancer:Acasereport✩,✩✩",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "RyoHashimoto,MD,PhDa,∗, TomokiNakagawa,MD,PhDb, YutakaKurebayashi,MD, PhDc, RyotaMasuda,MD,PhDd",
+          "level": 3,
+          "page_start": 0,
+          "page_end": 0,
+          "paragraphs": [
+            {
+              "text": "aDepartmentofGeneralThoracicSurgery,ShizuokaCityShimizuHospital,Shimizu,Japan bDepartmentofGeneralThoracicSurgery,TokaiUniversityHachiojiHospital,Hachioji,Japan cDepartmentofDiagnosticPathology,ShizuokaCityShimizuHospital,Shimizu,Japan dDivisionofGeneralThoracicSurgery,DepartmentofSurgery,TokaiUniversitySchoolofMedicine,Isehara,Japan",
+              "page": 0,
+              "position": 3
+            },
+            {
+              "text": "articleinfo",
+              "page": 0,
+              "position": 4
+            },
+            {
+              "text": "Articlehistory:",
+              "page": 0,
+              "position": 5
+            },
+            {
+              "text": "Received12February2026",
+              "page": 0,
+              "position": 6
+            },
+            {
+              "text": "Revised18August2026",
+              "page": 0,
+              "position": 7
+            },
+            {
+              "text": "Accepted25August2026",
+              "page": 0,
+              "position": 8
+            },
+            {
+              "text": "Keywords:",
+              "page": 0,
+              "position": 9
+            },
+            {
+              "text": "Nodularpulmonaryamyloidosis",
+              "page": 0,
+              "position": 10
+            },
+            {
+              "text": "Solitarypulmonarynodule",
+              "page": 0,
+              "position": 11
+            },
+            {
+              "text": "Spiculation",
+              "page": 0,
+              "position": 12
+            },
+            {
+              "text": "FDG-PET/CT",
+              "page": 0,
+              "position": 13
+            },
+            {
+              "text": "Surgicalresection",
+              "page": 0,
+              "position": 14
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Nodularpulmonaryamyloidosisisarare,localizedformofamyloiddepositioninthelung",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "andanuncommoncauseofsolitarypulmonarynodules.Itsradiologicalfeaturesmay",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "closelymimicthatofprimarylungcancerifspiculationorfluorodeoxyglucoseuptakeis",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "present,makingpreoperativediagnosischallenging.Here,wereportthecaseofawoman",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "inher60swhowasreferredtoourhospitalafteranabnormalopacitywasdetectedbyrou-",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "tinechestradiograph.Chestcomputedtomographyrevealeda21mm× 12mmsolidnod-",
+          "page": 0,
+          "position": 20
+        },
+        {
+          "text": "ulewithpartialspiculationintheleftlowerlobe.Fluorodeoxyglucosepositronemission",
+          "page": 0,
+          "position": 21
+        },
+        {
+          "text": "tomography/computedtomographydemonstratedmilduptake(maximumstandardized",
+          "page": 0,
+          "position": 22
+        },
+        {
+          "text": "uptakevalue;2.5).Bronchoscopicbiopsyresultswereinconclusive,anddiagnosticvideo-",
+          "page": 0,
+          "position": 23
+        },
+        {
+          "text": "assistedthoracoscopicleftbasalsegmentectomywasperformedbecausemalignancycould",
+          "page": 0,
+          "position": 24
+        },
+        {
+          "text": "notbeexcluded.Histopathologicalexaminationunderpolarizedlightmicroscopydemon-",
+          "page": 0,
+          "position": 25
+        },
+        {
+          "text": "stratedCongored-positiveamyloiddepositionwithapple-greenbirefringence,confirming",
+          "page": 0,
+          "position": 26
+        },
+        {
+          "text": "nodularpulmonaryamyloidosis.Thiscasehighlightsthatnodularpulmonaryamyloidosis",
+          "page": 0,
+          "position": 27
+        },
+        {
+          "text": "canmimicprimarylungcanceronimaginganddiagnosticsurgicalresectionmayprovide",
+          "page": 0,
+          "position": 28
+        },
+        {
+          "text": "definitivediagnosisandlocaltreatmentifbronchoscopicbiopsyisinconclusive.Long-term",
+          "page": 0,
+          "position": 29
+        },
+        {
+          "text": "follow-upiswarranted,consideringitsreportedassociationwithlymphoproliferativedis-",
+          "page": 0,
+          "position": 30
+        },
+        {
+          "text": "orders.",
+          "page": 0,
+          "position": 31
+        },
+        {
+          "text": "© 2026TheAuthors.PublishedbyElsevierInc.onbehalfofUniversityofWashington.",
+          "page": 0,
+          "position": 32
+        },
+        {
+          "text": "ThisisanopenaccessarticleundertheCCBYlicense",
+          "page": 0,
+          "position": 33
+        },
+        {
+          "text": "(http://creativecommons.org/licenses/by/4.0/)",
+          "page": 0,
+          "position": 34
+        },
+        {
+          "text": "✩Acknowledgments:Thisstudydidnotreceiveanyspecificgrantsfromfundingagenciesinthepublic,commercial,ornon-profit sectors. ✩✩CompetingInterests:Theauthorshavedeclaredthatnocompetinginterestsexist.",
+          "page": 0,
+          "position": 35
+        },
+        {
+          "text": "∗Correspondingauthor.",
+          "page": 0,
+          "position": 36
+        },
+        {
+          "text": "E-mailaddress:hryo90@outlook.jp(R.Hashimoto). https://doi.org/10.1016/j.radcr.2026.08.079 1930-0433/© 2026TheAuthors.PublishedbyElsevierInc.onbehalfofUniversityofWashington.Thisisanopenaccessarticleunderthe CCBYlicense(http://creativecommons.org/licenses/by/4.0/)",
+          "page": 0,
+          "position": 37
+        },
+        {
+          "text": "6146 R a d i o l o g yC a s eR e p o r t s2 1( 2 0 2 6 )6 1 4 5 – 6 1 4 8",
+          "page": 1,
+          "position": 38
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Pulmonaryamyloidosisisararedisordercharacterizedbyex- tracellulardepositionofamyloidproteinswithinthelungs.It isclassifiedintonodularpulmonary,diffusealveolarseptal, andtracheobronchialamyloidosis[1,2].Amongthese,nodu- larpulmonaryamyloidosisisthemostcommonlocalized form;however,itremainsanuncommoncauseofsolitarypul- monarynodules.",
+          "page": 1,
+          "position": 39
+        },
+        {
+          "text": "Nodularpulmonaryamyloidosismaycloselymimicpri- marylungcancerormetastatictumors.Spiculatedmargins oncomputedtomography(CT)anduptakeonfluorodeoxyglu- cosepositronemissiontomography/CT(FDG-PET/CT)have beenreported,makingpreoperativediagnosischallenging[3– 5].Here,wereportacaseofsolitarynodularpulmonaryamy- loidosisthatmimickedprimarylungcancerandwasdefini- tivelydiagnosedbydiagnosticsurgicalresection.",
+          "page": 1,
+          "position": 40
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Casepresentation",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Awomaninher60swasreferredtoourhospitalafterchest radiographdetectedanabnormalopacityduringaroutine healthcheckup.Shewasasymptomaticanddeniedcoughing, sputumproduction,hemoptysis,fever,chestpain,orweight loss.Hermedicalhistoryincludedapreviousepisodeofleft pneumothorax,resectionofaretroauricularexostosis,hyper- tension,dyslipidemia,anddepression.Shehadneversmoked. Herfamilyhistorywasunremarkableforamyloidosis,hema- tologicmalignancy,autoimmunediseases,orlungcancer.",
+              "page": 1,
+              "position": 41
+            },
+            {
+              "text": "Theinitiallaboratorytestsrevealednoclinicallysignifi- cantabnormalities.Thewhitebloodcellcountwas3700/μL (referencerange[RR];3500-9000/μL),hemoglobinwas11.8 g/dL(RR;11.0-16.0g/dL),plateletcountwas208×103/μL (RR;150-350×103/μL),C-reactiveproteinwas0.02mg/dL (RR;0.00-0.30mg/dL),serumcreatininewas0.58mg/dL(RR; 0.40-1.20mg/dL),andestimatedglomerularfiltrationratewas 78mL/min/1.73m2.Urinalysisshowednoproteinuria.Tu- mormarkerswerenormal,includingcarcinoembryonicanti- gen2.8ng/mL(RR;<5.0ng/mL),cytokeratin-19fragment1.0 ng/mL(RR;<3.5ng/mL),andpro-gastrin-releasingpeptide 61.1pg/mL(RR;<81.0pg/mL). Chestradiographyrevealedanodularopacityintheleft lowerlungfield(Fig.1).ChestCTdemonstrateda21mm× 12 mmsolidnoduleinsegment10oftheleftlowerlobe(Fig.2). Althoughthenodulemarginwasrelativelywell-defined,par- tialspiculationwasobserved.Noobviouscalcification,cavi- tation,cysticchanges,pleuraleffusion,ormediastinallym- phadenopathywasobserved.Noapparentgrowthwasob- servedcomparedwithCTobtained3monthspreviously;how- ever,theshortintervalofstabilitywasinsufficienttoestablish benignitybecauseofthespiculatedmorphology.",
+              "page": 1,
+              "position": 42
+            },
+            {
+              "text": "FDG-PET/CTrevealedmildFDGuptakecorrespondingto thepulmonarynodule(maximumstandardizeduptakevalue; 2.5,Fig.3).Themeanstandardizeduptakevalueofthemedi- astinalbloodpoolwasnotdocumentedintheoriginalreport andcouldnotbemeasuredretrospectivelyfromtheavailable FDG-PET/CTimages.Bronchoscopicbiopsywasperformed;",
+              "page": 1,
+              "position": 43
+            },
+            {
+              "text": "Fig.1– Chestradiographrevealsanodularopacityinthe leftlowerlungfield(arrow),withoutobviouscalcificationor cavitation,promptingfurtherevaluationwithcomputed tomography.",
+              "page": 1,
+              "position": 44
+            },
+            {
+              "text": "however,thetissueobtainedwasinsufficientforadefinitive diagnosis.CT-guidedpercutaneousbiopsywasnotperformed becausethenodulewaslocatedrelativelydeepinthelung parenchyma,andtheriskofprocedure-relatedpneumotho- raxwasconsidered.Becauseprimarylungcancerremaineda concernafternondiagnosticbronchoscopyandthelesionwas consideredsurgicallyresectable,diagnosticsurgicalresection wasselectedtoobtainsufficienttissuefordefinitivediagnosis andlocaltreatment.",
+              "page": 1,
+              "position": 45
+            },
+            {
+              "text": "Thepatientunderwentvideo-assistedthoracoscopicleft basalsegmentectomy.Segmentectomywasselectedbecause thenodulewaslocatedinthebasalsegmentoftheleftlower lobeandsufficienttissuevolumeandsurgicalmarginswere requiredincasesinwhichthelesionrepresentedprimarylung cancer.Intraoperativefrozensectionanalysisrevealednoma- lignancy;therefore,noadditionalresectionorlymphnodedis- sectionwasperformed.Theoperationtimewas103minutes, andbloodlosswasminimal.",
+              "page": 1,
+              "position": 46
+            },
+            {
+              "text": "Histopathologicalexaminationoftheresectedspecimen demonstratedthedepositionofeosinophilicamorphousma- terialwithinthelungparenchymaonhematoxylinandeosin staining(Fig.4A).Thedepositedmaterialwaspositivefor Congoredstaining(Fig.4B)anddemonstratedthecharac- teristicapple-greenbirefringenceunderapolarizedlightmi- croscope(Fig.4C),confirmingamyloiddeposition.Noatypi- callymphoidproliferationsuggestiveofalymphomawasob- served.Thesefindingswereconsistentwiththoseofnodular pulmonaryamyloidosis.",
+              "page": 1,
+              "position": 47
+            },
+            {
+              "text": "Thepostoperativecoursewasuneventful,andthepatient wasdischargedonpostoperativeday6.Theavailablesys- temicevaluationsrevealednoevidenceofsystemicamyloi- dosis.Renalfunctionwasnormal,urinalysisrevealednopro- teinuria,andechocardiographyrevealednofindingssugges-",
+              "page": 1,
+              "position": 48
+            },
+            {
+              "text": "R a d i o l o g yC a s eR e p o r t s2 1( 2 0 2 6 )6 1 4 5 – 6 1 4 8 6147",
+              "page": 2,
+              "position": 49
+            },
+            {
+              "text": "Fig.2– Chestcomputedtomography(lungwindowsetting) demonstratesa21mm× 12mmsolidnoduleinsegment 10oftheleftlowerlobe(arrow).Althoughthemarginis relativelywelldefined,partialspiculationisobserved, raisingsuspicionforprimarylungcancer.",
+              "page": 2,
+              "position": 50
+            },
+            {
+              "text": "tiveofcardiacamyloidinvolvement.Serumandurineprotein electrophoresesandimmunofixationwerenotperformed.Ap- proximately24monthspostoperatively,thepatientremained well.Follow-upchestCTperformedat6-monthintervals showednoevidenceoflocalrecurrenceornewpulmonary nodules.",
+              "page": 2,
+              "position": 51
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "Nodularpulmonaryamyloidosisisalocalizedformofamy- loiddepositionthatisoftendetectedincidentally[1,2];how- ever,theirradiologicalappearancemaycloselymimicma- lignantpulmonarynodules,resultinginsignificantdiagnos- ticdifficulties.ThesuspiciousCTfeaturesofpulmonarynod- ulesincludespiculationandirregularmargins[6].Inthiscase, thepartialspiculationofthenodulestronglysuggestedma- lignancy.Althoughtherewasnoapparentgrowthovera3- monthperiod,thisshortstabilityintervalwasinsufficientto establishbenignityinthespiculatedsolidnodule,supporting thedecisiontoproceedwithsurgicalresection.",
+          "page": 2,
+          "position": 52
+        },
+        {
+          "text": "Besidesspiculation,recognizedCTfeaturesofnodularpul- monaryamyloidosisincludecalcification,lobulation,multi- plicity,slowgrowth,long-termstability,andperipheralorsub- pleuraldistribution[3,7].Insomecases,nodularpulmonary amyloidosismaybeassociatedwithcysticchanges[2,7].Other subtypesofpulmonaryamyloidosismustbeidentified.Dif- fusealveolarseptalamyloidosispresentswithdiffuseintersti- tialabnormalities,suchasreticulonodularopacities,interlob- ularseptalthickening,orground-glassopacity,whereastra-",
+          "page": 2,
+          "position": 53
+        },
+        {
+          "text": "Fig.3– Fluorodeoxyglucosepositronemission tomography/computedtomographydemonstratesmildFDG uptakecorrespondingtothepulmonarynodule(arrow), withamaximumstandardizeduptakevalueof2.5. Malignancycouldnotbeexcludedbasedonthisfinding alone.",
+          "page": 2,
+          "position": 54
+        },
+        {
+          "text": "cheobronchialamyloidosismaypresentwithnodularorcir- cumferentialairwaywallthickening,calcifiedairwaylesions, andairwaynarrowing[1,2,7].",
+          "page": 2,
+          "position": 55
+        },
+        {
+          "text": "Previousstudieshavereportedthatnodularpulmonary amyloidosismaypresentwithlobulatedorspiculatedmar- gins,mimickingprimarylungcancer[3].Additionally,mild-to- moderateFDGuptakeonFDG-PET/CThasbeendescribedin patientswithnodularpulmonaryamyloidosis[4,5].FDGavid- ityisassociatedwithalocalizedinflammatoryreactionin- volvinggiantandplasmacellssurroundingamyloiddeposits. Therefore,thediscriminatoryvalueofFDG-PET/CTindiffer- entiatingthisbenignentityfrommalignantonesislimited, andstandardizeduptakevaluesaloneshouldbeinterpreted cautiously.",
+          "page": 2,
+          "position": 56
+        },
+        {
+          "text": "Histologicalconfirmationisessentialfordiagnosis;how- ever,bronchoscopicbiopsymayprovideinsufficienttissuefor adefinitivediagnosis,asinthiscase[8].Amyloiddeposits arefrequentlylocatedindeeperfibroticareasoflesions,and superficialbiopsyspecimensmaynotcapturethediagnostic material.",
+          "page": 2,
+          "position": 57
+        },
+        {
+          "text": "Ifmalignancycannotbeexcluded,diagnosticsurgicalre- sectionremainsareliableapproachtoachieveadefinitivedi- agnosis[8].Inthiscase,segmentectomyprovidedanadequate volumeoftissuewithsufficientsurgicalmargins,whilepre- servinglungfunction.",
+          "page": 2,
+          "position": 58
+        },
+        {
+          "text": "Completesurgicalresectionofnodularpulmonaryamy- loidosisisgenerallyconsideredcurativeforlocalizedlesions. Mostreportedcasesofnodularpulmonaryamyloidosisare oftheALtype.However,asalimitationofthiscasereport, immunohistochemicalsubtypingoftheresectedspecimen wasnotperformed[2,9].Furthermore,serumandurinepro- teinelectrophoresisandimmunofixationwerenotperformed; therefore,underlyingmonoclonalgammopathycouldnotbe excluded.However,renal,urinary,orcardiacfindingssugges-",
+          "page": 2,
+          "position": 59
+        },
+        {
+          "text": "6148 R a d i o l o g yC a s eR e p o r t s2 1( 2 0 2 6 )6 1 4 5 – 6 1 4 8",
+          "page": 3,
+          "position": 60
+        },
+        {
+          "text": "Fig.4– Histopathologicalfindings.Asterisksindicaterepresentativeareasofamyloiddeposition.(A)Hematoxylinandeosin stainingshowsdepositionofeosinophilicamorphousmaterialwithinthelungparenchyma(×100).(B)Thedeposited materialispositiveonCongoredstaining(×100).(C)Polarizedlightmicroscopydemonstratescharacteristicapple-green birefringence(×100),findingsconsistentwithnodularpulmonaryamyloidosis.",
+          "page": 3,
+          "position": 61
+        },
+        {
+          "text": "tiveofsystemicamyloidosiswerenotobserved.Importantly, nodularpulmonaryamyloidosisisassociatedwithB-celllym- phoproliferativedisorders,includingmucosa-associatedlym- phoidtissue(MALT)lymphoma[9].Additionally,chronicau- toimmuneconditions,suchasSjögren’ssyndrome,whichis characterizedbypersistentBcellactivation,contributesto thisbackground[2,9].Therefore,long-termfollow-upisrec- ommendedtomonitorforthepotentialdevelopmentofasso- ciatedlymphoproliferativediseases,evenaftercompletere- section[2,9].",
+          "page": 3,
+          "position": 62
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Patientconsent",
+          "level": 4,
+          "page_start": 3,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Writteninformedconsentwasobtainedfromthepatientfor thepublicationofthiscasereportandanyaccompanyingim- ages.Acopyofthewrittenconsentisavailableforreviewby theEditor-in-Chiefofthisjournalonrequest.",
+              "page": 3,
+              "position": 63
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "CordierJF,LoireR,BruneJ.Amyloidosisofthelower\nrespiratorytract.Clinicalandpathologicfeaturesinaseriesof 21patients.Chest1986;90:827–31.doi:10.1378/chest.90.6.827.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1378/chest.90.6.827"
+    },
+    {
+      "id": 2,
+      "raw_text": "KhoorA,ColbyTV.Amyloidosisofthelung.ArchPatholLab\nMed2017;141:247–54.doi:10.5858/arpa.2016-0102-RA.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.5858/arpa.2016-0102-RA"
+    },
+    {
+      "id": 3,
+      "raw_text": "LeeSH,KoYC,JeongJP,ParkCW,SeoSH,KimJT,etal.Single\nnodularpulmonaryamyloidosis:casereport.TubercRespir Dis(Seoul)2015;78:385–9.doi:10.4046/trd.2015.78.4.385.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.4046/trd.2015.78.4.385"
+    },
+    {
+      "id": 4,
+      "raw_text": "BaqirM,LoweV,YiES,RyuJH.18F-FDGPETscanningin\npulmonaryamyloidosis.JNuclMed2014;55:565–8. doi:10.2967/jnumed.113.130823.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.2967/jnumed.113.130823"
+    },
+    {
+      "id": 5,
+      "raw_text": "QuanXQ,YinTJ,ZhangCT,LiuJ,QiaoLF,KeCS.(18F)-FDG\nPET/CTinpatientswithnodularpulmonaryamyloidosis:case reportandliteraturereview.CaseRepOncol2014;7:789–98. doi:10.1159/000369112.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1159/000369112"
+    },
+    {
+      "id": 6,
+      "raw_text": "MacMahonH,NaidichDP,GooJM,LeeKS,LeungANC,\nMayoJR,etal.Guidelinesformanagementofincidental pulmonarynodulesdetectedonCTimages:fromthe FleischnerSociety2017.Radiology2017;284:228–43. doi:10.1148/radiol.2017161659.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1148/radiol.2017161659"
+    },
+    {
+      "id": 7,
+      "raw_text": "BrandelikSC,HeusselCP,KauczorHU,RöckenC,HuberL,\nBassetM,etal.CTfeaturesinamyloidosisoftherespiratory system:comprehensiveanalysisinatertiaryreferralcenter cohort.EurJRadiol2020;129:109123. doi:10.1016/j.ejrad.2020.109123.",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1016/j.ejrad.2020.109123"
+    },
+    {
+      "id": 8,
+      "raw_text": "NikzadS,Al-ArnawootAA,CabaeroM,RogallaP.Anunusual\ncaseofnodularpulmonaryamyloidosis.ClinCaseRep 2021;9:e04562.doi:10.1002/ccr3.4562.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1002/ccr3.4562"
+    },
+    {
+      "id": 9,
+      "raw_text": "GroggKL,AubryMC,VranaJA,TheisJD,DoganA.Nodular\npulmonaryamyloidosisischaracterizedbylocalized immunoglobulindepositionandisfrequentlyassociatedwith anindolentB-celllymphoproliferativedisorder.AmJSurg Pathol2013;37:406–12.doi:10.1097/PAS.0b013e318272fe19.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1097/PAS.0b013e318272fe19"
+    }
+  ],
+  "page_count": 4,
+  "warnings": []
+}

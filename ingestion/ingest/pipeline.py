@@ -67,9 +67,14 @@ def ingest_one(path: Path) -> Document:
     )
 
 
-def ingest(papers_dir: str | Path, output_dir: str | Path | None = None) -> Corpus:
+def ingest(
+    papers_dir: str | Path,
+    output_dir: str | Path | None = None,
+    recursive: bool = False,
+) -> Corpus:
     """
-    Ingest every PDF in `papers_dir` (non-recursive) into a Corpus.
+    Ingest every PDF in `papers_dir` into a Corpus.
+    Set `recursive=True` to include PDFs in subdirectories.
 
     Papers whose content_hash has already been seen earlier in the same
     run are skipped as duplicates (stable across filename/path changes).
@@ -89,7 +94,7 @@ def ingest(papers_dir: str | Path, output_dir: str | Path | None = None) -> Corp
     if not papers_dir.is_dir():
         raise NotADirectoryError(f"{papers_dir} is not a directory")
 
-    pdf_paths = sorted(papers_dir.glob("*.pdf"))
+    pdf_paths = sorted(papers_dir.rglob("*.pdf") if recursive else papers_dir.glob("*.pdf"))
     corpus = Corpus()
     seen_hashes: set[str] = set()
 
@@ -120,4 +125,3 @@ def ingest(papers_dir: str | Path, output_dir: str | Path | None = None) -> Corp
         corpus.save(output_dir)
 
     return corpus
-

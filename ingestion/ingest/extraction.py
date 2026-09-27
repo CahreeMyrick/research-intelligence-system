@@ -73,7 +73,8 @@ def extract(path: Path) -> RawDocument:
             for line in block.get("lines", []):
                 span_texts = []
                 for s in line.get("spans", []):
-                    txt = s.get("text", "")
+                    # PDF text may contain NULs, which PostgreSQL cannot store.
+                    txt = s.get("text", "").replace("\x00", " ")
                     if not txt.strip():
                         continue
                     span_texts.append(txt)

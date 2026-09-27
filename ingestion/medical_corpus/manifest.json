@@ -1,0 +1,641 @@
+{
+  "version": "1.0",
+  "created_at": "2026-09-27T01:48:44.588575+00:00",
+  "document_count": 32,
+  "documents": [
+    {
+      "id": "doc_fa5177c50bc86026",
+      "filename": "PMC13572696.1.pdf",
+      "content_hash": "fa5177c50bc86026f70a6a83a29d94d14457db43b82d399aca070c599a12be6c",
+      "title": "OPEN ACCESS",
+      "authors": [
+        "EDITED BY Nasser Kashou",
+        "Kash Global Tech",
+        "United States"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3389/frai.2026.1849571",
+      "arxiv_id": null,
+      "page_count": 21,
+      "raw_path": "raw/pdf/doc_fa5177c50bc86026.pdf",
+      "parsed_path": "parsed/doc_fa5177c50bc86026.json",
+      "chunks_path": "chunks/doc_fa5177c50bc86026.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_8dc874a0a94ac94e",
+      "filename": "PMC13574373.1.pdf",
+      "content_hash": "8dc874a0a94ac94e48e3c77738e36c985c19dee4d95bff5d3ccac0b1914b7c64",
+      "title": "Medicine",
+      "authors": [
+        "®"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1097/MD.0000000000050713",
+      "arxiv_id": null,
+      "page_count": 3,
+      "raw_path": "raw/pdf/doc_8dc874a0a94ac94e.pdf",
+      "parsed_path": "parsed/doc_8dc874a0a94ac94e.json",
+      "chunks_path": "chunks/doc_8dc874a0a94ac94e.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_2140025639655b21",
+      "filename": "PMC13574732.1.pdf",
+      "content_hash": "2140025639655b2127062886b97d4d168148515e892d4812fa26b0d55515ccc2",
+      "title": "ComparativeevaluationofgenerativeAI modelsforchestradiographreport generationintheemergencydepartment",
+      "authors": [
+        "WooHyeonLim",
+        "JiYoungLee",
+        "JongHyukLee",
+        "SaehoonKimandHyungjinKim"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1007/s00330-026-12648-8",
+      "arxiv_id": null,
+      "page_count": 14,
+      "raw_path": "raw/pdf/doc_2140025639655b21.pdf",
+      "parsed_path": "parsed/doc_2140025639655b21.json",
+      "chunks_path": "chunks/doc_2140025639655b21.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_c8a81f5b0a534d3a",
+      "filename": "PMC13575940.1.pdf",
+      "content_hash": "c8a81f5b0a534d3a89010c01d3a7da9909b35ed68292c3cd67e71071a0507729",
+      "title": "Current Medical Imaging",
+      "authors": [],
+      "publication_year": 2026,
+      "doi": "10.2174/0115734056396626251105115902",
+      "arxiv_id": null,
+      "page_count": 16,
+      "raw_path": "raw/pdf/doc_c8a81f5b0a534d3a.pdf",
+      "parsed_path": "parsed/doc_c8a81f5b0a534d3a.json",
+      "chunks_path": "chunks/doc_c8a81f5b0a534d3a.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_d3f250e0f651d81b",
+      "filename": "PMC13577619.1.pdf",
+      "content_hash": "d3f250e0f651d81b1d149cfd1863326abe8b5f89b7d5a73062557410f6a11120",
+      "title": "Cannulatipseparationandconﬁgurationasdeterminantsof recirculationinvenovenousECMO",
+      "authors": [
+        "ElliottTWorku(MBBS",
+        "FCICM)",
+        "MichaelGPittard(BMed",
+        "FCICM)",
+        "andRichardJTotaro (MBBS",
+        "FCICM)"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1051/ject/2026010",
+      "arxiv_id": null,
+      "page_count": 12,
+      "raw_path": "raw/pdf/doc_d3f250e0f651d81b.pdf",
+      "parsed_path": "parsed/doc_d3f250e0f651d81b.json",
+      "chunks_path": "chunks/doc_d3f250e0f651d81b.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_d9b900e88ad45371",
+      "filename": "PMC13577916.1.pdf",
+      "content_hash": "d9b900e88ad45371f150e5dc6dd876e573c081d5947f41bcc1de70192ec499bd",
+      "title": "https://doi.org/10.1038/s41591-026-04607-z Article Inhaled siRNA therapy targeting RAGE for pulmonary inflammation: a first-in-human randomized trial",
+      "authors": [],
+      "publication_year": 2025,
+      "doi": "10.1038/s41591-026-04607-z",
+      "arxiv_id": null,
+      "page_count": 34,
+      "raw_path": "raw/pdf/doc_d9b900e88ad45371.pdf",
+      "parsed_path": "parsed/doc_d9b900e88ad45371.json",
+      "chunks_path": "chunks/doc_d9b900e88ad45371.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_e4a0aa76bcd5d8ee",
+      "filename": "PMC13578213.1.pdf",
+      "content_hash": "e4a0aa76bcd5d8eef60afe00e06b90fc0d8297045e6ccdc8bb4d6c153e4bd0d6",
+      "title": "Detection, localization, and measurement of endotracheal tube positioning on adults’ chest X-ray: developing a prediction model",
+      "authors": [],
+      "publication_year": 2026,
+      "doi": "10.1038/s41598-026-58814-2",
+      "arxiv_id": null,
+      "page_count": 14,
+      "raw_path": "raw/pdf/doc_e4a0aa76bcd5d8ee.pdf",
+      "parsed_path": "parsed/doc_e4a0aa76bcd5d8ee.json",
+      "chunks_path": "chunks/doc_e4a0aa76bcd5d8ee.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_21e2558b4d3697f1",
+      "filename": "PMC13579618.1.pdf",
+      "content_hash": "21e2558b4d3697f1484e6abc4006cbbb35f365dc1537ebcb9731e25cb6007183",
+      "title": "VHealth-MFusion: a fusion-based multimodal deep learning framework for pneumonia tele-diagnosis in virtual hospital environments",
+      "authors": [
+        "Sara A. Alsalamah"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3389/fdgth.2026.1827180",
+      "arxiv_id": null,
+      "page_count": 20,
+      "raw_path": "raw/pdf/doc_21e2558b4d3697f1.pdf",
+      "parsed_path": "parsed/doc_21e2558b4d3697f1.json",
+      "chunks_path": "chunks/doc_21e2558b4d3697f1.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_59915168898f077b",
+      "filename": "PMC13581347.1.pdf",
+      "content_hash": "59915168898f077bf365bba74d869897e1e56466018cd4990d7a308db0a45be3",
+      "title": "Review began 07/06/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.114686",
+      "arxiv_id": null,
+      "page_count": 11,
+      "raw_path": "raw/pdf/doc_59915168898f077b.pdf",
+      "parsed_path": "parsed/doc_59915168898f077b.json",
+      "chunks_path": "chunks/doc_59915168898f077b.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_23ef5b2da87886aa",
+      "filename": "PMC13583924.1.pdf",
+      "content_hash": "23ef5b2da87886aab3177c5f2178fa3633da007b4a945a2e9a9dbd288bf1f001",
+      "title": "Syndromic Multiple Odontogenic Keratocysts Associated With Impacted Teeth: A Rare Case Report",
+      "authors": [
+        "Faizal Manrapi",
+        "|  Mohammad Gazali",
+        "|  Nurwahida",
+        "|  Nisrina Ekayani Nasrun"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1155/crid/9907993",
+      "arxiv_id": null,
+      "page_count": 11,
+      "raw_path": "raw/pdf/doc_23ef5b2da87886aa.pdf",
+      "parsed_path": "parsed/doc_23ef5b2da87886aa.json",
+      "chunks_path": "chunks/doc_23ef5b2da87886aa.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_bd42ed610d6e9590",
+      "filename": "PMC13584496.1.pdf",
+      "content_hash": "bd42ed610d6e9590d4eaccb653ebdc788ddfd94972c2752a2e294eb805c558b5",
+      "title": "Conservative management of prolonged air leak following tension pneumothorax in cavitary pulmonary tuberculosis: a case report",
+      "authors": [
+        "Aows Ahmad",
+        "Mohamed Alkhartalak",
+        "Lama Alsaoub",
+        "Mohammad Berro",
+        "Mohammad Abd-Alrahman Saif",
+        "Mohammad Shbat",
+        "Bassam Darwish"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1186/s12890-026-04462-1",
+      "arxiv_id": null,
+      "page_count": 8,
+      "raw_path": "raw/pdf/doc_bd42ed610d6e9590.pdf",
+      "parsed_path": "parsed/doc_bd42ed610d6e9590.json",
+      "chunks_path": "chunks/doc_bd42ed610d6e9590.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_b1cfe1f3e2465ee9",
+      "filename": "PMC13585305.1.pdf",
+      "content_hash": "b1cfe1f3e2465ee9b3e41279407ba52e31555120df8940ce1995bc807e6f6ff3",
+      "title": "Primary Care Doctors’ Perspectives and Experiences With a Chest X-Ray AI Triage Program: Qualitative Study",
+      "authors": [],
+      "publication_year": 2026,
+      "doi": "10.2196/103006",
+      "arxiv_id": null,
+      "page_count": 13,
+      "raw_path": "raw/pdf/doc_b1cfe1f3e2465ee9.pdf",
+      "parsed_path": "parsed/doc_b1cfe1f3e2465ee9.json",
+      "chunks_path": "chunks/doc_b1cfe1f3e2465ee9.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_c735c4225019338b",
+      "filename": "PMC13585932.1.pdf",
+      "content_hash": "c735c4225019338b1b0aa42601d683ad12dacc0659a473e9632d027ae5b64c96",
+      "title": "Detecting temporal clinical change in sequential chest radiography reports: a multi- model and multi-prompt evaluation of large language models",
+      "authors": [
+        "Ertürk Erdağı"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3389/fdgth.2026.1919939",
+      "arxiv_id": null,
+      "page_count": 17,
+      "raw_path": "raw/pdf/doc_c735c4225019338b.pdf",
+      "parsed_path": "parsed/doc_c735c4225019338b.json",
+      "chunks_path": "chunks/doc_c735c4225019338b.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_544086891debdeaf",
+      "filename": "PMC13586462.1.pdf",
+      "content_hash": "544086891debdeaf8cfefedcbd9763ae87fec848fc4a98540da688dbfcb225d8",
+      "title": "CASE REPORT KJHUGR",
+      "authors": [],
+      "publication_year": 2026,
+      "doi": "10.7704/kjhugr.2026.0028",
+      "arxiv_id": null,
+      "page_count": 4,
+      "raw_path": "raw/pdf/doc_544086891debdeaf.pdf",
+      "parsed_path": "parsed/doc_544086891debdeaf.json",
+      "chunks_path": "chunks/doc_544086891debdeaf.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_899256629fd2ed87",
+      "filename": "PMC13589322.1.pdf",
+      "content_hash": "899256629fd2ed872aeb4a94e28b43528d45b56f8f1cd860972859a9fbfb62c7",
+      "title": "Invasive thymoma with rapid response to cisplatin, doxorubicin and cyclophosphamide (PAC) chemotherapy, after an early postoperative recurrence—a case report",
+      "authors": [
+        "Chika Harada",
+        "Kentaro Kitano",
+        "Hiroki Umezawa",
+        "Chiyoko Kono",
+        "Hiroki Tanaka",
+        "Rie Ohtomo"
+      ],
+      "publication_year": 2026,
+      "doi": "10.21037/med-2026-0024",
+      "arxiv_id": null,
+      "page_count": 13,
+      "raw_path": "raw/pdf/doc_899256629fd2ed87.pdf",
+      "parsed_path": "parsed/doc_899256629fd2ed87.json",
+      "chunks_path": "chunks/doc_899256629fd2ed87.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_1d633c28ab389462",
+      "filename": "PMC13589448.1.pdf",
+      "content_hash": "1d633c28ab38946268a3ceb3f1f3a14887fc5276aea023c6885eb510ad2e11bc",
+      "title": "Review began 08/08/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.114853",
+      "arxiv_id": null,
+      "page_count": 7,
+      "raw_path": "raw/pdf/doc_1d633c28ab389462.pdf",
+      "parsed_path": "parsed/doc_1d633c28ab389462.json",
+      "chunks_path": "chunks/doc_1d633c28ab389462.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_7698f7150603c4c2",
+      "filename": "PMC13589588.1.pdf",
+      "content_hash": "7698f7150603c4c23a42c086fead8fda799304f79fb9b7143707bcb77fc1a451",
+      "title": "Case Report Cutaneous Tuberculosis in a 22-Day-Old Neonate:",
+      "authors": [
+        "A Diagnostic Challenge",
+        "Case Report ARISHA IMRAN",
+        "SYEDA WAREESHA FAREEDUDDIN SHAH",
+        "SYED ABDUL RAFAYUDDIN SHAH",
+        "MUHAMMAD RAFIQUE",
+        "HUDA RAJA"
+      ],
+      "publication_year": 2026,
+      "doi": "10.12865/CHSJ.52.02.14",
+      "arxiv_id": null,
+      "page_count": 4,
+      "raw_path": "raw/pdf/doc_7698f7150603c4c2.pdf",
+      "parsed_path": "parsed/doc_7698f7150603c4c2.json",
+      "chunks_path": "chunks/doc_7698f7150603c4c2.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_2d9f1b2b9cf2db92",
+      "filename": "PMC13590703.1.pdf",
+      "content_hash": "2d9f1b2b9cf2db92b822b7295e957060bafeb906da49af77635ac7024bd8d0a3",
+      "title": "Automated chest X-ray disease screening using large language models and deep convolutional neural networks on the MIMIC-CXR dataset",
+      "authors": [
+        "Qingyu Zhang"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3389/fdgth.2026.1883337",
+      "arxiv_id": null,
+      "page_count": 17,
+      "raw_path": "raw/pdf/doc_2d9f1b2b9cf2db92.pdf",
+      "parsed_path": "parsed/doc_2d9f1b2b9cf2db92.json",
+      "chunks_path": "chunks/doc_2d9f1b2b9cf2db92.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_51f1eb943dab4621",
+      "filename": "PMC13592449.1.pdf",
+      "content_hash": "51f1eb943dab46217ac1e3f7dd972c9b5978b46d88721ed8fdd0e85284241a34",
+      "title": "Review began 07/30/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.114986",
+      "arxiv_id": null,
+      "page_count": 12,
+      "raw_path": "raw/pdf/doc_51f1eb943dab4621.pdf",
+      "parsed_path": "parsed/doc_51f1eb943dab4621.json",
+      "chunks_path": "chunks/doc_51f1eb943dab4621.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_69ce704028ae0b4b",
+      "filename": "PMC13592795.1.pdf",
+      "content_hash": "69ce704028ae0b4bdf7cf9e57b36a1413ff016793ee21e6f5fe22d64f03f2029",
+      "title": "Review began 08/10/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.114988",
+      "arxiv_id": null,
+      "page_count": 15,
+      "raw_path": "raw/pdf/doc_69ce704028ae0b4b.pdf",
+      "parsed_path": "parsed/doc_69ce704028ae0b4b.json",
+      "chunks_path": "chunks/doc_69ce704028ae0b4b.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_370bb8563b27a3d7",
+      "filename": "PMC13598445.1.pdf",
+      "content_hash": "370bb8563b27a3d785e22d8142ee1202334bec1ee2208c188f53007537cef37c",
+      "title": "Review began 07/20/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.115057",
+      "arxiv_id": null,
+      "page_count": 16,
+      "raw_path": "raw/pdf/doc_370bb8563b27a3d7.pdf",
+      "parsed_path": "parsed/doc_370bb8563b27a3d7.json",
+      "chunks_path": "chunks/doc_370bb8563b27a3d7.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_437eaa9e8fef9d9b",
+      "filename": "PMC13598527.1.pdf",
+      "content_hash": "437eaa9e8fef9d9b51bc5f738f7915c69809467f9673ee39889023e1ae964be5",
+      "title": "Solitarynodularpulmonaryamyloidosis mimickingprimarylungcancer:Acasereport✩,✩✩",
+      "authors": [
+        "RyoHashimoto",
+        "MD",
+        "PhDa",
+        "∗",
+        "TomokiNakagawa",
+        "MD",
+        "PhDb",
+        "YutakaKurebayashi",
+        "MD",
+        "PhDc",
+        "RyotaMasuda",
+        "MD",
+        "PhDd"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1016/j.radcr.2026.08.079",
+      "arxiv_id": null,
+      "page_count": 4,
+      "raw_path": "raw/pdf/doc_437eaa9e8fef9d9b.pdf",
+      "parsed_path": "parsed/doc_437eaa9e8fef9d9b.json",
+      "chunks_path": "chunks/doc_437eaa9e8fef9d9b.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_e5863c93c123ef0a",
+      "filename": "PMC13598677.1.pdf",
+      "content_hash": "e5863c93c123ef0addaa0de0d262b12b5775853cf1a2d11879cd197b4962f7a5",
+      "title": "DelayedRightHemidiaphragmRuptureAfterBlunt TraumaRepairedWithProlene Mesh:ACaseReport",
+      "authors": [
+        "ZahraSadin |AghajanzadehManochehr|SadinMohammadreza|Alavi FoumaniAli|Fakhr Mousavi Ali Asghar| Mosaffaee Omid|RamezaniNaghi|Farzin Mohaya"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1155/cris/3439339",
+      "arxiv_id": null,
+      "page_count": 4,
+      "raw_path": "raw/pdf/doc_e5863c93c123ef0a.pdf",
+      "parsed_path": "parsed/doc_e5863c93c123ef0a.json",
+      "chunks_path": "chunks/doc_e5863c93c123ef0a.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_5cde147945f4c488",
+      "filename": "PMC13599798.1.pdf",
+      "content_hash": "5cde147945f4c488225fb8cd749a97dd3938df3621591fc432254d6d1d2f25fd",
+      "title": "C A S E R E P O RT Non-Radiographic Axial Spondyloarthritis Presenting with Anterior Chest Wall Pain without Inflammatory Back Pain in an HLA-B27–Negative Young Man: A Case Report Highlighting Diagnostic Challenges",
+      "authors": [
+        "Roddy Gergeus",
+        "Ahmad Bishr Nasra",
+        "Rawia Barghouth",
+        "Dalaa Sheikh Ali"
+      ],
+      "publication_year": 2026,
+      "doi": "10.2147/IMCRJ.S639166",
+      "arxiv_id": null,
+      "page_count": 9,
+      "raw_path": "raw/pdf/doc_5cde147945f4c488.pdf",
+      "parsed_path": "parsed/doc_5cde147945f4c488.json",
+      "chunks_path": "chunks/doc_5cde147945f4c488.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_9abefe680cebaa19",
+      "filename": "PMC13600110.1.pdf",
+      "content_hash": "9abefe680cebaa1981f78ce204c637a048c8d73678a6012c0cbd2eba973d2218",
+      "title": "Academic Editor: Maurizio Aricò",
+      "authors": [
+        "Received:  July"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3390/pediatric18050119",
+      "arxiv_id": null,
+      "page_count": 22,
+      "raw_path": "raw/pdf/doc_9abefe680cebaa19.pdf",
+      "parsed_path": "parsed/doc_9abefe680cebaa19.json",
+      "chunks_path": "chunks/doc_9abefe680cebaa19.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_c714589b232cfa92",
+      "filename": "PMC13601229.1.pdf",
+      "content_hash": "c714589b232cfa9229833b91d53987a36d014f330d14255cb5c0c0cc864f6730",
+      "title": "Frontiers in Medicine 01 frontiersin.org",
+      "authors": [
+        "TYPE  Original Research"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3389/fmed.2026.1908751",
+      "arxiv_id": null,
+      "page_count": 30,
+      "raw_path": "raw/pdf/doc_c714589b232cfa92.pdf",
+      "parsed_path": "parsed/doc_c714589b232cfa92.json",
+      "chunks_path": "chunks/doc_c714589b232cfa92.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_c190ef09f6617ed3",
+      "filename": "PMC13602015.1.pdf",
+      "content_hash": "c190ef09f6617ed3949efe39d68fcfa219e73a21476f8f173d8e2cfab5d8cf57",
+      "title": "Review began 08/10/2026",
+      "authors": [
+        "Review ended //"
+      ],
+      "publication_year": 2026,
+      "doi": "10.7759/cureus.115134",
+      "arxiv_id": null,
+      "page_count": 6,
+      "raw_path": "raw/pdf/doc_c190ef09f6617ed3.pdf",
+      "parsed_path": "parsed/doc_c190ef09f6617ed3.json",
+      "chunks_path": "chunks/doc_c190ef09f6617ed3.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_b18cf9b9d3f87eb8",
+      "filename": "PMC13605366.1.pdf",
+      "content_hash": "b18cf9b9d3f87eb8d8f396d07f6f8562eace6633a46354c01538a98c3449d4bd",
+      "title": "Academic Editor: Gaetano Caramori",
+      "authors": [
+        "Received:  July"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3390/diseases14090313",
+      "arxiv_id": null,
+      "page_count": 21,
+      "raw_path": "raw/pdf/doc_b18cf9b9d3f87eb8.pdf",
+      "parsed_path": "parsed/doc_b18cf9b9d3f87eb8.json",
+      "chunks_path": "chunks/doc_b18cf9b9d3f87eb8.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    },
+    {
+      "id": "doc_8f4ee5f247825c41",
+      "filename": "PMC13611295.1.pdf",
+      "content_hash": "8f4ee5f247825c413c31b40b1281ba41e0e29a1dc42d1baeba33f34a97c63494",
+      "title": "Academic Editor: Emilio Quaia",
+      "authors": [
+        "Received:  August"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3390/tomography12090129",
+      "arxiv_id": null,
+      "page_count": 16,
+      "raw_path": "raw/pdf/doc_8f4ee5f247825c41.pdf",
+      "parsed_path": "parsed/doc_8f4ee5f247825c41.json",
+      "chunks_path": "chunks/doc_8f4ee5f247825c41.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_325d4b498a997247",
+      "filename": "PMC13611314.1.pdf",
+      "content_hash": "325d4b498a9972479cdd2c8021f2702f1f6fe43e6a989b9aac6b2883240567d8",
+      "title": "Academic Editor: Emilio Quaia",
+      "authors": [
+        "Received:  July"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3390/tomography12090136",
+      "arxiv_id": null,
+      "page_count": 16,
+      "raw_path": "raw/pdf/doc_325d4b498a997247.pdf",
+      "parsed_path": "parsed/doc_325d4b498a997247.json",
+      "chunks_path": "chunks/doc_325d4b498a997247.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_e07dcec140a881df",
+      "filename": "PMC13611630.1.pdf",
+      "content_hash": "e07dcec140a881df51a1ac2517163ed1c5f6f2be741da0fc7c4fdb711d62813f",
+      "title": "Academic Editor: Emilio Quaia",
+      "authors": [
+        "Received:  July"
+      ],
+      "publication_year": 2026,
+      "doi": "10.3390/tomography12090126",
+      "arxiv_id": null,
+      "page_count": 18,
+      "raw_path": "raw/pdf/doc_e07dcec140a881df.pdf",
+      "parsed_path": "parsed/doc_e07dcec140a881df.json",
+      "chunks_path": "chunks/doc_e07dcec140a881df.json",
+      "embeddings_path": null,
+      "warnings": []
+    },
+    {
+      "id": "doc_a06fe937845434a9",
+      "filename": "PMC13613845.1.pdf",
+      "content_hash": "a06fe937845434a927b730a3bd227c4e956e36c26d72ca73600408921fc68bf0",
+      "title": "Community-based chest X-ray screening versus symptom-based case presentation in the elderly: evidence from three consecutive years of data",
+      "authors": [
+        "Kui Liu",
+        "Ziyang Fang",
+        "Bin Chen",
+        "Yaling Feng",
+        "Zhicheng Yu",
+        "Yi Yu",
+        "Tao Jiang",
+        "Jianmin Jiang",
+        "Hui Zhang"
+      ],
+      "publication_year": 2026,
+      "doi": "10.1186/s12877-026-07931-8",
+      "arxiv_id": null,
+      "page_count": 11,
+      "raw_path": "raw/pdf/doc_a06fe937845434a9.pdf",
+      "parsed_path": "parsed/doc_a06fe937845434a9.json",
+      "chunks_path": "chunks/doc_a06fe937845434a9.json",
+      "embeddings_path": null,
+      "warnings": [
+        "no references detected"
+      ]
+    }
+  ]
+}

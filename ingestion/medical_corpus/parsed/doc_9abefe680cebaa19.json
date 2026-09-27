@@ -1,0 +1,3028 @@
+{
+  "identity": {
+    "id": "doc_9abefe680cebaa19",
+    "source": {
+      "filename": "PMC13600110.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13600110.1/PMC13600110.1.pdf",
+      "content_hash": "9abefe680cebaa1981f78ce204c637a048c8d73678a6012c0cbd2eba973d2218"
+    }
+  },
+  "metadata": {
+    "title": "Academic Editor: Maurizio Aricò",
+    "authors": [
+      "Received:  July"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3390/pediatric18050119",
+    "arxiv_id": null,
+    "abstract": "The accurate placement of lines, drains, and airways (LDAs) is essential for the safe man- agementofcriticallyillpatients,asmalpositionedmedicaldevicescanresultinsevere complications ranging from ineffective treatment to life-threatening injury.Chest radiogra- phy (CXR) is the primary imaging modality for confirming the placement of many LDAs; however, the growing volume and complexity of bedside CXRs have created increasing demand for rapid,reliable interpretation.Recent advances in artificial intelligence (AI) have enabled automated detection, localization, and position assessment of LDA devices, supporting opportunities to improve clinical workflow and patient safety.This review sum- marizes recent developments in AI algorithms for automated LDA assessment on CXRs, emphasizing their clinical applications, technical approaches, performance, and limitations. The review begins with clinical characteristics, radiographic appearance, and placement criteriaofcommonLDAcategories,followedbyasurveyofAImethodsforpresence detection,devicelocalization,andpositionclassification.Althoughsomemodelshave achieved performance approaching that of radiologists, most do not perform at the level needed for clinical deployment.Future research should prioritize multicenter validation, standardized annotation protocols, pediatric-specific datasets, and anatomically informed models capable of simultaneously evaluating multiple LDA devices.Advances in these areas will facilitate the integration of AI-assisted LDA assessment into clinical decision support and ultimately improve patient care. Keywords:medical device; chest radiography; AI; ETT; segmentation; LDA; central venous catheters; nasogastric tube",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Academic Editor: Maurizio Aricò",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Received: 25 July 2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Revised: 6 September 2026",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Accepted: 8 September 2026",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Published: 11 September 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Copyright: © 2026 by the authors.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "This article is an open access article",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "distributed under the terms and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "conditions of theCreative Commons",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Attribution (CC BY) license.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Review Review of Artificial Intelligence for Automated Assessment of Lines, Drains, and Airways on Pediatric and Adult Chest Radiographs",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Junqi Wang1,2 , Lili He1,2,3,4,5, Gary R. Schooler2,5, Alexander J. Towbin2,3,5 and Hailong Li1,2,3,5,*",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1 Imaging Research Center, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH 45229, USA; junqi.wang@cchmc.org (J.W.); lili.he@cchmc.org (L.H.) 2 Department of Radiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH 45229, USA; gary.schooler@cchmc.org (G.R.S.); alexander.towbin@cchmc.org (A.J.T.) 3 Artificial Intelligence Imaging Research Center, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH 45229, USA 4 Computer Science, Biomedical Engineering, Biomedical Informatics, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA 5 Department of Radiology, University of Cincinnati College of Medicine, Cincinnati, OH 45229, USA * Correspondence:hailong.li@cchmc.org; Tel.:+1-513-8033104",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "The accurate placement of lines, drains, and airways (LDAs) is essential for the safe man- agementofcriticallyillpatients,asmalpositionedmedicaldevicescanresultinsevere complications ranging from ineffective treatment to life-threatening injury.Chest radiogra- phy (CXR) is the primary imaging modality for confirming the placement of many LDAs; however, the growing volume and complexity of bedside CXRs have created increasing demand for rapid,reliable interpretation.Recent advances in artificial intelligence (AI) have enabled automated detection, localization, and position assessment of LDA devices, supporting opportunities to improve clinical workflow and patient safety.This review sum- marizes recent developments in AI algorithms for automated LDA assessment on CXRs, emphasizing their clinical applications, technical approaches, performance, and limitations. The review begins with clinical characteristics, radiographic appearance, and placement criteriaofcommonLDAcategories,followedbyasurveyofAImethodsforpresence detection,devicelocalization,andpositionclassification.Althoughsomemodelshave achieved performance approaching that of radiologists, most do not perform at the level needed for clinical deployment.Future research should prioritize multicenter validation, standardized annotation protocols, pediatric-specific datasets, and anatomically informed models capable of simultaneously evaluating multiple LDA devices.Advances in these areas will facilitate the integration of AI-assisted LDA assessment into clinical decision support and ultimately improve patient care.",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Keywords:medical device; chest radiography; AI; ETT; segmentation; LDA; central venous catheters; nasogastric tube",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1.Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Lines, drains, and airways (LDAs) are essential indwelling medical devices used for respiratorysupport,vascularaccess,enteralnutrition,gastrointestinaldecompression, hemodynamic monitoring, and other therapeutic interventions [1–3].Because these devices may be malpositioned during insertion or subsequently displaced by patient movement,",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 https://doi.org/10.3390/pediatric18050119",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 2 of 22",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "routine care, or procedural manipulation, accurate assessment of their position is essential to prevent complications and guide clinical management [4–6].",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Chest radiography (CXR) is the primary imaging modality used to confirm placement and monitor many of these devices [7–10].However, interpreting bedside CXRs can be chal- lenging, particularly when multiple LDAs overlap with one another.Portable radiographs are frequently obtained under technically suboptimal conditions,with supine position- ing, reduced image quality, low contrast, and altered anatomy making these thin medical devices difficult to identify accurately.These technical challenges are compounded by in- creasing imaging volumes, radiologist workforce shortages, and competing demands from cross-sectional imaging, emergency examinations, and other high-priority studies, which may delay interpretation of bedside CXRs by several hours in busy clinical settings [11–16].",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "To address these challenges, artificial intelligence (AI) has emerged as a promising approachforautomatedLDAassessmentonCXRs.AIcanautomaticallydetectLDA devices, localize device tips, and identify potential malposition, supporting more efficient image interpretation [13,17,18].For the foreseeable future, AI is intended to function as a clinical decision support (CDS) tool rather than replace clinical judgment.By automatically identifying LDA devices and potential malposition, AI may improve workflow efficiency and reporting consistency [14,19,20].AI may also improve access to timely imaging support inhospitalswithradiologistshortagesorlimitedsubspecialtyexpertisebyproviding preliminary assessment when expert interpretation is not immediately available [14,21].",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "An earlier review by Yi et al. [22] summarized computer-aided approaches for catheter andtubeassessmentonradiographsandhighlightedkeychallengesinautomatedde- vice evaluation; since then, substantial advances in AI-based LDA assessment have been reportedacrossabroaderrangeofdevicesandclinicalapplications.Whileautomated assessment of LDAs has advanced rapidly, the literature remains fragmented across indi- vidual devices, algorithms, and clinical applications.This review provides a comprehensive overview of AI methods for automated LDA assessment on CXRs in both adult and pedi- atric populations.We organize the AI applications into three core tasks:presence detection, device localization, and position classification.For each task, we compare performance across multiple LDA categories and discuss the key challenges and future directions for clinical translation.",
+          "page": 1,
+          "position": 22
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2.Methodology",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "Search Strategy",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "To promote transparency and reproducibility, a structured literature search strategy was implemented, and the selection process was documented using a PRISMA-style (Pre- ferred Reporting Items for Systematic Reviews and Meta-Analyses) flow diagram [23].The literature search was conducted in PubMed and limited to a 10-year publication period (13 June 2016, to 13 June 2026) to capture recent advances in AI, especially deep learning, for LDA assessment (Figure 1).The LDA devices included in this review were selected a priori in consultation with board-certified radiologists and represent four major categories encompassing 16 devices routinely evaluated on chest radiographs.The search strategy was designed to capture studies evaluating AI models for LDA assessment in both adult and pediatric populations.",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "Toidentifyrelevantstudies,wedevelopedacomprehensivePubMedsearchstrat- egyencompassingAImethodologies,LDAdevices,andCXRinbothadultandpedi- atric populations.The following Boolean query was applied:(“Deep Learning”[MeSH] OR “Artificial Intelligence”[MeSH] OR “Machine Learning”[MeSH] OR “Computer Vi- sion”[tiab] OR “Neural Network*”[tiab] OR “Convolutional Neural Network*”[tiab] OR “CNN”[tiab] OR “Automated Detection”[tiab] OR “Object Detection”[tiab] OR “Image Seg-",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 3 of 22",
+          "page": 2,
+          "position": 27
+        },
+        {
+          "text": "mentation”[tiab] OR “YOLO”[tiab] OR “U-Net”[tiab] OR “DeepLab*”[tiab] OR “Transfer Learning”[tiab] OR “Localization”[tiab] OR “Localisation”[tiab] OR “Automated Track- ing”[tiab]) AND (“Endotracheal”[tiab] OR “ETT”[tiab] OR “Tracheostomy”[tiab] OR “Na- sogastric”[tiab] OR “NGT”[tiab] OR “Orogastric”[tiab] OR “OGT”[tiab] OR “Nasoduode- nal”[tiab] OR “NDT”[tiab] OR “Nasojejunal”[tiab] OR “NJT”[tiab] OR “Gastrojejunal”[tiab] OR “GJ tube”[tiab] OR “Gastrostomy”[tiab] OR “G tube”[tiab] OR “Replogle”[tiab] OR “PICC”[tiab]OR“CVC”[tiab]OR“CentralLine*”[tiab]OR“InternalJugular”[tiab]OR “Subclavian”[tiab] OR “UVC”[tiab] OR “UAC”[tiab] OR “Chest Tube*”[tiab] OR “Thora-",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "costomy”[tiab] OR “Pleural Drain”[tiab] OR “Percutaneous Catheter Drainage”[tiab] OR “PCD”[tiab] OR “Umbilical Catheter*”[tiab] OR “Catheter*”[tiab] OR “Medical Tube*”[tiab]",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "OR “Feeding tube*”[tiab] OR “Enteric tube*”[tiab] OR “Malposition*”[tiab]) AND (“Radio- graphy, Thoracic”[MeSH] OR “Radiography, Abdominal”[MeSH] OR “Chest X-ray”[tiab] OR “CXR”[tiab] OR “Chest Radiograph*”[tiab] OR “Plain film”[tiab] OR “Digital Radiog- raphy”[tiab] OR “Infant, Newborn”[MeSH] OR “Pediatrics”[MeSH] OR neonat*[tiab] OR pediatric*[tiab] OR paediatric*[tiab] OR infant*[tiab] OR newborn*[tiab] OR NICU[tiab] OR “premature”[tiab] OR “preterm”[tiab]) AND (“Radiograph*”[tiab] OR “X-ray”[tiab] OR “Imaging”[tiab])).",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "Figure 1.Flow diagram of the literature search and screening procedure.",
+          "page": 2,
+          "position": 31
+        },
+        {
+          "text": "The search was designed to identify peer-reviewed studies that developed, validated, or clinically evaluated AI algorithms for LDA assessment on CXRs, including image-level classification, full-course semantic segmentation, and key point detection.",
+          "page": 2,
+          "position": 32
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 2,
+          "position": 33
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 4 of 22",
+          "page": 3,
+          "position": 34
+        },
+        {
+          "text": "Studies evaluating 3D imaging modalities (CT or MRI), non-imaging physiological verification (e.g., ECG guidance), or manual ultrasound tracking without an automated computer vision component were excluded.",
+          "page": 3,
+          "position": 35
+        },
+        {
+          "text": "Thesearchidentified153records.Theliteraturescreeningwasconductedbythe authors (JW and HL) in two sequential phases.First, the authors screened the titles and abstracts of all retrieved records against the eligibility criteria, excluding articles that clearly did not meet inclusion requirements.Second, for any records where eligibility could not be determined from the title and abstract, the authors reviewed the full text to make a final inclusion decision.After manual screening, 41 studies met the eligibility criteria and were included in the final review.",
+          "page": 3,
+          "position": 36
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3.Clinical Background for LDA Devices",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 6,
+      "paragraphs": [
+        {
+          "text": "Thissectionsummarizestheclinicalapplications,properplacementcriteria,and potential complications of the four primary categories of LDA devices.",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "Figure 2 illustrates four primary categories of LDA device on CXRs.",
+          "page": 3,
+          "position": 38
+        },
+        {
+          "text": "Figure 2.Chest radiographs demonstrating the four primary categories of line, drain, and airway (LDA) devices.Images have been contrast-enhanced to improve visualization of device trajectories and distal tips.(a) Artificial Airway:Frontal chest radiograph demonstrating an endotracheal tube (ETT) with the tip in the mid-trachea above the carina.(b) Enteric Tube:Frontal chest radiograph demonstrating a nasogastric tube (NGT) coursing into the stomach with the tip in the mid-stomach. (c) Central Venous Catheter:Frontal chest radiograph demonstrating a peripherally inserted central catheter (PICC) with the tip in the lower third of the superior vena cava.(d) Chest Tube:Frontal chest radiograph demonstrating four chest tubes, two within each hemithorax.",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 3,
+          "position": 40
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 5 of 22",
+          "page": 4,
+          "position": 41
+        },
+        {
+          "text": "3.1.Artificial Airways",
+          "page": 4,
+          "position": 42
+        },
+        {
+          "text": "Artificialairwaysaretubesinsertedintotherespiratorytracttomaintainairway patency, protect the airway, and facilitate mechanical ventilation.This category primarily comprises two devices:",
+          "page": 4,
+          "position": 43
+        },
+        {
+          "text": "Endotracheal Tube (ETT): An ETT is an airway tube inserted through the mouth or nose into the trachea to maintain a patent airway and facilitate mechanical ventilation.Proper ETT placement requires the distal tip to lie in the mid-trachea, between the thoracic inlet and the carina [24,25].A low-positioned tube may enter a mainstem bronchus, resulting in unilateral lung hyperinflation, contralateral atelectasis, hypoxemia, or pneumothorax.Con- versely, positioning the tube too high can result in laryngeal spasm, accidental extubation, and vocal cord damage [26,27].",
+          "page": 4,
+          "position": 44
+        },
+        {
+          "text": "Tracheostomy Tube:A tracheostomy tube is a short, curved airway device inserted directly into the trachea through a surgical opening (stoma) in the anterior neck.It provides long-term respiratory support.Proper placement of the tracheostomy tube requires the distaltiptobecentrallyalignedwithinthetracheallumen,terminatingapproximately midway between the stoma site and the carina.Misplacement or angulation can cause trachealwallerosion,subcutaneousemphysema,oraccidentaldecannulationintothe pretracheal space [9].",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "3.2.Enteric Tubes",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "Enteric tubes are flexible catheters inserted into the gastrointestinal tract to provide nutrition, administer medications, or decompress the stomach and bowel.",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "NasogastricTube(NGT):AnNGTisafeedinganddecompressiontubeinserted through the nose that traverses the esophagus to terminate in the stomach.It is used for short-term enteral nutrition, medical administration, gastric decompression, and removal of gastric contents.Proper NGT placement requires the tube to remain in the midline of the chest, cross below the diaphragm, and terminate within the stomach, with the side-port distal to the gastroesophageal junction [28].Inadvertent placement in the respiratory tract is the primary clinical risk, leading to associated pulmonary complications [28].",
+          "page": 4,
+          "position": 48
+        },
+        {
+          "text": "OrogastricTube(OGT):AnOGTfunctionsidenticallytoanNGTbutisinserted through the mouth to terminate in the stomach.It is commonly used in intubated adults and neonates to avoid nasal airway obstruction.It follows the same placement criteria as an NGT, and incorrect placement similarly risks accidental airway insertion or esophageal perforation [29].",
+          "page": 4,
+          "position": 49
+        },
+        {
+          "text": "Nasoduodenal Tube (NDT): An NDT is a thin feeding tube inserted nasally that passes through the stomach and pylorus to terminate in the duodenum.It is used to provide post- pyloric enteral nutrition.Proper placement requires the tip to extend beyond the pylorus within the C-loop of the duodenum, avoiding looping or coiling within the gastric fundus. Inadvertent misplacement can result in the tube coiling in the esophagus or entering the respiratory tract, which may lead to severe complications such as lung or pleural cavity perforation [29].",
+          "page": 4,
+          "position": 50
+        },
+        {
+          "text": "Nasojejunal Tube (NJT): An NJT is an elongated feeding tube inserted through the nose and advanced through the stomach and duodenum to terminate at or beyond the ligament of Treitz.It provides long-term post-pyloric nutrition while minimizing the risk of aspiration.Proper placement requires the tube to pass through the pylorus and advance beyond the ligament of Treitz into the proximal jejunum.Inadvertent misplacement carries theriskofenteringtheairwayorpleuralcavityinsteadofthesmallbowel,potentially causing significant pulmonary trauma [29].",
+          "page": 4,
+          "position": 51
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 4,
+          "position": 52
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 6 of 22",
+          "page": 5,
+          "position": 53
+        },
+        {
+          "text": "Gastrostomy Tube (G-Tube): A G-tube is a short, direct access catheter inserted through an abdominal incision (stoma) into the stomach to provide direct gastric access for long- term nutrition.Proper placement relies on the internal bolster or water-filled balloon being securely anchored against the gastric wall. Dislodgement into the peritoneal space can cause peritonitis [30].Tubes positioned within the anterior abdominal wall can cause cellulitis.",
+          "page": 5,
+          "position": 54
+        },
+        {
+          "text": "Gastrojejunal Tube (GJ-Tube): A GJ-tube is a dual-port device inserted directly through theabdominalwallintothestomach.Thetubehasanextendedjejunallimbthatter- minatesatorbeyondtheligamentofTreitz.Thetubeallowsforsimultaneousgastric access/decompression and direct jejunal feeding.Proper placement requires the gastric retention balloon to be flush against the anterior stomach wall.The jejunal limb should extendbeyondthepylorusintotheduodenumorjejunumwithoutkinking.Misplace- ment of a gastrojejunal tube can cause feeding intolerance, vomiting, increased pulmonary aspiration risk, and small bowel intussusception and ischemic necrosis [30].",
+          "page": 5,
+          "position": 55
+        },
+        {
+          "text": "Replogle Tube:A Replogle tube is a dual-lumen suction catheter inserted through the nose or mouth for continuous decompression of the upper gastrointestinal tract.In most patients, the tip terminates within the stomach.In neonates with esophageal atresia, however, it is intentionally positioned within the blind-ending proximal esophageal pouch to continuously aspirate secretions and reduce the risk of aspiration. Appropriate placement depends on the clinical indication [31].",
+          "page": 5,
+          "position": 56
+        },
+        {
+          "text": "3.3.Central Venous Catheters (CVCs)",
+          "page": 5,
+          "position": 57
+        },
+        {
+          "text": "Central venous catheters (CVCs) are vascular access devices inserted into large sys- temicveinstoadministermedications,delivertotalparenteralnutrition,obtainblood samples, and monitor central hemodynamic status.This group includes:",
+          "page": 5,
+          "position": 58
+        },
+        {
+          "text": "InternalJugular(IJ)Line:AnIJlineisacentralcatheterinserteddirectlyintothe internal jugular vein in the neck that courses inferiorly through the neck and terminates in the lower superior vena cava (SVC), near the cavoatrial junction [32].Over-insertion of the line into the right atrium increases the risk of cardiac arrhythmias, atrial perforation, and cardiac tamponade, whereas under-insertion increases the risk of venous thrombosis and chemical phlebitis [18,33,34].",
+          "page": 5,
+          "position": 59
+        },
+        {
+          "text": "Subclavian Line:A subclavian line is a central catheter inserted beneath the clavicle into the subclavian vein, coursing medially into the brachiocephalic vein and terminating in the lower SVC, near the cavoatrial junction [32].Excessive advancement of the catheter intotherightatriumheightenstheriskofcardiacarrhythmias,atrialperforation,and tamponade, while inadequate insertion increases the risk of local venous thrombosis and chemical phlebitis.",
+          "page": 5,
+          "position": 60
+        },
+        {
+          "text": "Peripherally Inserted Central Catheter (PICC): A PICC is a long central venous catheter inserted through a peripheral vein to provide prolonged intravenous access for medications, parenteral nutrition, chemotherapy, blood products, and other intravenous therapies.The cathetermaybeinsertedthroughveinsofeithertheupperorlowerextremity.Upper- extremity PICCs typically terminate at the cavoatrial junction or within the lower SVC, whereas lower-extremity PICCs terminate at the inferior cavoatrial junction or within the upper inferior vena cava (IVC) [18,33,35]. Advancing a PICC tip into the right atrium height- ens the risk of arrhythmias, atrial perforation, and tamponade, while under-advancing it, leaving the tip within peripheral or axillary veins, increases the risk of localized thrombosis and chemical phlebitis.",
+          "page": 5,
+          "position": 61
+        },
+        {
+          "text": "Two specialized vascular catheters are commonly used in neonatal intensive care units through umbilical access.",
+          "page": 5,
+          "position": 62
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 5,
+          "position": 63
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 7 of 22",
+          "page": 6,
+          "position": 64
+        },
+        {
+          "text": "Umbilical Venous Catheter (UVC): A UVC is a neonatal catheter inserted through the cut umbilical vein that travels superiorly through the ductus venosus to terminate in the IVC, right at its junction with the right atrium.Proper placement requires the tip to sit at or just above the diaphragm.Low positioning in the portal vein risks thrombosis and hepatic parenchymal infiltration, while high positioning in the heart risks arrhythmia [32].",
+          "page": 6,
+          "position": 65
+        },
+        {
+          "text": "Umbilical Arterial Catheter (UAC): A UAC is a neonatal catheter inserted through anumbilicalarterythattravelsinferiorlyintotheinternaliliacarterybeforecoursing superiorlyintotheaorta.Itallowscontinuousbloodpressuremonitoringandarterial blood gas sampling.Proper placement requires the tip to terminate either in a high position (abovetheceliacaxis)oralowposition(belowtheinferiormesentericartery)toavoid major aortic branches and reduce the risk of visceral infarction or arterial thrombosis [36].",
+          "page": 6,
+          "position": 66
+        },
+        {
+          "text": "3.4.Drains",
+          "page": 6,
+          "position": 67
+        },
+        {
+          "text": "Drainsareflexiblecathetersinsertedintothebodytoevacuatefluidorgascollec- tionsandrestorenormalphysiology.Inthethorax,theyfunctiontorestorenegative intrapleural pressure, relieve mass effect on the mediastinum, and facilitate complete lung re-expansion [14,37].This group primarily includes two categories of drainage systems:",
+          "page": 6,
+          "position": 68
+        },
+        {
+          "text": "Thoracic Drains (Chest Tubes):A thoracic drain is a large-bore or small-bore rigid plastic tube inserted to evacuate air or fluid from the pleural space or mediastinum.Most thoracicdrainsareinsertedthroughanintercostalapproachintothepleuralcavity,al- though mediastinal drains are commonly placed through a subxiphoid approach following cardiothoracic surgery.For pleural drains, all drainage side holes (fenestrations) should lie completely within the pleural space, with the tip directed apically for pneumothorax or basally for pleural effusions.Malposition may result in inadequate drainage, pain, or injury to adjacent structures [37].",
+          "page": 6,
+          "position": 69
+        },
+        {
+          "text": "PercutaneousCatheterDrainage(PCD):APCDisasmall-bore,flexibledrainage catheter,typicallywitharoundedpigtailconfiguration,thatisinsertedunderimage guidance(e.g.,ultrasoundorCT)toevacuatepleuralorotherfluidcollections.Pigtail cathetersarecommonlyusedforpleuraleffusionsofvaryingsizes,dependingonthe clinical indication and operator preference.Proper placement requires the pigtail locking mechanism to be fully deployed within the target collection.The catheter should remain free of kinking or migration.Malpositioning or kinking of these narrow-lumen catheters leads to obstruction and impaired drainage [37].",
+          "page": 6,
+          "position": 70
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "4.AI Tasks and Architectures for Automated LDA Assessment",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "AI applications for LDA assessment on CXRs can be broadly categorized into three tasks:presence detection, device localization, and position classification.These tasks repre- sent progressively more complex stages of automated image analysis, from determining whetheradeviceispresent,toidentifyingitslocation,toassessingwhetheritsatisfies established clinical placement criteria (Figure 3).A variety of AI architectures have been developed to accomplish these tasks, with deep learning approaches predominating in the current literature.",
+          "page": 6,
+          "position": 71
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 6,
+          "position": 72
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 8 of 22",
+          "page": 7,
+          "position": 73
+        },
+        {
+          "text": "Figure 3.Conceptual overview of three AI tasks applied to LDA assessment on chest radiography. RepresentativeneonatalchestradiographdemonstratingthreecommonAIparadigmsforLDA assessment:(1) Presence Detection:determining whether a targeted LDA is present (e.g., ETT present: yes; upper extremity PICC present:yes).Untargeted devices present on the radiograph (such as the enteric tube and chest tube) are not evaluated by the AI models.(2) Device Localization:segmenting thetargetedLDAfullcourseand/oridentifyingitsdistaltip(e.g.,redpixel-levelmaskforETT, yellow mask for upper extremity PICC). (3) Position Classification:determining whether the LDA distal tip is appropriately positioned relative to anatomical landmarks (e.g., Is the ETT appropriately positioned?Yes.Is the upper-extremity PICC appropriately positioned?Yes).ETT, endotracheal tube; LDAs, lines, drains, and airways; PICC, peripherally inserted central catheter; VU, vertebral unit.",
+          "page": 7,
+          "position": 74
+        },
+        {
+          "text": "4.1.Presence Detection",
+          "page": 7,
+          "position": 75
+        },
+        {
+          "text": "Presence detection algorithms determine whether a targeted LDA device is present within the CXR imaging field without identifying its precise location or assessing whether it is appropriately positioned.As the simplest form of automated LDA analysis, presence detection can serve as an initial screening step before more computationally intensive local- ization or position classification algorithms are applied. Based on our review, Convolutional Neural Network (CNN) architectures serve as the primary backbone for LDA presence detection.Several established CNN architectures, including GoogLeNet, ResNet, and Effi- cientNet variants, have demonstrated high performance for detecting a variety of devices, including CVCs, ETTs, thoracic drains, NGTs, and UACs [11,14,38–40].Beyond these estab- lished architectures, specialized AI models have also been developed, including hybrid DenseNet121 and DeepLabV3+ frameworks [17,28], multi-stage cascaded CNNs [25], uni- fied bounding-box detection frameworks [41], and specialized Scale-Recurrent Networks adapted for thin pediatric catheters [42].",
+          "page": 7,
+          "position": 76
+        },
+        {
+          "text": "For presence detection, image-level CNN classifiers may perform well because this task primarily requires recognition of global and local visual features indicating whether a device is present, without requiring precise delineation of its trajectory or tip.Residual anddenselyconnectedarchitecturesmayfurtherfacilitatefeaturereuseandgradient propagation, which can be advantageous for detecting thin, low-contrast devices against complex thoracic anatomy.",
+          "page": 7,
+          "position": 77
+        },
+        {
+          "text": "Importantly, AI systems are capable of distinguishing among different categories of LDA devices when trained using multi-class or multi-label frameworks.Such models can identify multiple device types, including ETTs, enteric tubes, and vascular catheters, within thesameCXR;however,manycurrentlypublishedalgorithmsremainoptimizedfora",
+          "page": 7,
+          "position": 78
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 7,
+          "position": 79
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 9 of 22",
+          "page": 8,
+          "position": 80
+        },
+        {
+          "text": "singledevicecategory,andperformancemayvarywhenmultipleoverlappingdevices are present.",
+          "page": 8,
+          "position": 81
+        },
+        {
+          "text": "4.2.Device Localization",
+          "page": 8,
+          "position": 82
+        },
+        {
+          "text": "Device localization algorithms localize a targeted LDA device within the image by delineating its full course, estimating the location of its distal tip, or both.Localization is clinically valuable for visualizing device position and serves as the foundation for position classification. For some devices, such as tracheostomy tubes, localization alone may provide sufficient clinical information because malposition is relatively uncommon.",
+          "page": 8,
+          "position": 83
+        },
+        {
+          "text": "Semantic segmentation models are commonly used to generate pixel-level mappings ofthecontinuoustrajectoryoftheLDAdevicesandprovidevisualinterpretabilityfor clinicians.Based on our review, U-Net and its variants are the most widely used models for semantic segmentation of LDAs.U-Net and U-Net++ have been applied to generate segmentation masks for ETTs, CVCs, and PICCs [26,43–47].The self-configuring nnU-Net, which automates preprocessing and network topology, has been successfully applied to mapNGTsandRightIJLines[34,48–50].DeepLabV3+hasalsobeenusedtosegment narrow devices, such as NGTs and ETTs, by leveraging its Atrous Spatial Pyramid Pooling (ASPP) module.The ASPP module enables the network to capture multi-scale contextual informationwithoutlosingspatialresolution,whichiscriticalforpreservingthefine structural details of thin LDAs [17,28,51].",
+          "page": 8,
+          "position": 84
+        },
+        {
+          "text": "For many LDAs, accurate localization of the distal tip is more clinically relevant than segmentation of the entire device, as placement appropriateness is ultimately determined by the relationship between the tip and adjacent anatomical landmarks (e.g., carina, CAJ, or thoracic inlet).Tip localization can be achieved by post-processing segmentation masks to identify the most distal end point along the segmented device.Commonly used models for this segmentation-based approach include DeepLabV3+ [17,28,51], nnU-Net [34], or standard U-Net architectures [26,42,44,52].Alternatively, object detection algorithms and coordinate regression models can localize the coordinates of device tips directly without requiring full trajectory segmentation. Object detection frameworks, such as YOLO variants (YOLOv3, YOLOv5) [37,41], Faster R-CNN [47,53], Fully Convolutional One-Stage Object Detection (FCOS) [54], or RetinaNet [55], project bounding boxes directly over the device tip. To achieve precise, single-pixel localization, coordinate regression networks, such as Cas- caded CNNs [25] and modified DenseNet121 [56], estimate the pixel coordinates of device tips through direct numerical coordinate regression or 2D Gaussian probability heatmaps.",
+          "page": 8,
+          "position": 85
+        },
+        {
+          "text": "These architectural differences reflect the level of spatial information required by the localization task.Encoder–decoder segmentation networks are well suited to tracing the continuous trajectories of thin LDAs because skip connections help preserve fine spatial features while incorporating broader contextual information.When the clinical objective islimitedtodistaltiplocalization,object-detection,coordinate-regression,orheatmap- based approaches can instead target a localized region or point directly without requiring reconstruction of the entire device course.",
+          "page": 8,
+          "position": 86
+        },
+        {
+          "text": "4.3.Position Classification",
+          "page": 8,
+          "position": 87
+        },
+        {
+          "text": "Position classification algorithms determine whether a targeted LDA is appropriately positioned relative to key anatomical landmarks.Rather than simply identifying where an LDA device is located, position classification interprets that information against established clinical placement criteria to reach a determination of device position.Position classification algorithms generally follow two methodological paradigms:image-level classification and localization-based classification.",
+          "page": 8,
+          "position": 88
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 8,
+          "position": 89
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 10 of 22",
+          "page": 9,
+          "position": 90
+        },
+        {
+          "text": "Thefirstparadigmusesend-to-endCNNclassifierstrainedonimage-levellabels to directly classify device position as satisfactory or malpositioned without requiring an explicit distal tip localization output.Standard CNN-based classifiers, including Inception V3 [19,27,57], DenseNet121 [58], GoogLeNet [40], and VGG16 with tensor projection lay- ers [59], have demonstrated high performance for image-level position classification using global image features.Additionally, multi-label frameworks [3] and multitask CNNs [32] have been developed to classify multiple placement attributes simultaneously [11].",
+          "page": 9,
+          "position": 91
+        },
+        {
+          "text": "The second paradigm, localization-based classification, builds on device localization by combining segmentation or tip localization with anatomical landmark detection to di- rectly evaluate placement criteria.This is frequently achieved via dual-stage pipelines that combine a segmentation framework (e.g., nnU-Net, DeepLabV3+, or U-Net++) with a clas- sification backbone (e.g., ResNet-50, DenseNet-121) [17,28,46,48–52].Alternatively, unified localization-based frameworks using YOLOv3, YOLOv5, Faster R-CNN, U-Net, and Reti- naNet [37,41,43,53,55,56] have been used to explicitly measure distances relative to anatom- ical landmarks.Several commercial AI tools implementing these approaches have been deployed in ICUs to assist with automated assessment of critical device positions [13,20].",
+          "page": 9,
+          "position": 92
+        },
+        {
+          "text": "The relative advantage of these approaches likely depends on the clinical task.End-to- end classifiers can exploit global image context and require less detailed annotation, but may rely on indirect imaging features rather than explicitly identifying the device–anatomy relationship.Localization-based or dual-stage approaches may therefore be advantageous when correct positioning is defined by measurable spatial relationships between the device tip and anatomical landmarks, although errors in the localization stage can propagate to the final classification.",
+          "page": 9,
+          "position": 93
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "5.Quantitative Performance of AI Models",
+      "level": 1,
+      "page_start": 9,
+      "page_end": 16,
+      "paragraphs": [
+        {
+          "text": "ThissectionsummarizesthequantitativeperformanceofAImodelsforthefour primary categories of LDA devices.Summary tables for each device category are provided in Tables 1–4.",
+          "page": 9,
+          "position": 94
+        },
+        {
+          "text": "Table 1.Summary of AI models for airway assessment.",
+          "page": 9,
+          "position": 95
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Reference Dataset & Sample Size",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Age Group",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "AI Architecture",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Presence Detection",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Device Localization:",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Trajectory Segmentation",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Device Localization:",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Distal Tip Localization",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 9,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Position Classification",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Henderson et al.,",
+              "page": 9,
+              "position": 96
+            },
+            {
+              "text": "2021 [38] Royal Univ. PACS; n = 777 Neonates ResNet-50 AP: 0.989 — — —",
+              "page": 9,
+              "position": 97
+            },
+            {
+              "text": "Yi et al., 2020 [42]",
+              "page": 9,
+              "position": 98
+            },
+            {
+              "text": "Open-i (NIH)",
+              "page": 9,
+              "position": 99
+            },
+            {
+              "text": "& Local; n = 2550",
+              "page": 9,
+              "position": 100
+            },
+            {
+              "text": "Train: Adults; Test: Neonates",
+              "page": 9,
+              "position": 101
+            },
+            {
+              "text": "(<4 wk)",
+              "page": 9,
+              "position": 102
+            },
+            {
+              "text": "Scale-Recurrent",
+              "page": 9,
+              "position": 103
+            },
+            {
+              "text": "Network — F-beta: 0.800 — —",
+              "page": 9,
+              "position": 104
+            },
+            {
+              "text": "Abbas et al., 2026",
+              "page": 9,
+              "position": 105
+            },
+            {
+              "text": "[11]",
+              "page": 9,
+              "position": 106
+            },
+            {
+              "text": "RANZCR",
+              "page": 9,
+              "position": 107
+            },
+            {
+              "text": "CLiP; n = 30,083",
+              "page": 9,
+              "position": 108
+            },
+            {
+              "text": "Adults Conv-MTD — — —",
+              "page": 9,
+              "position": 109
+            },
+            {
+              "text": "AUROC: Normal",
+              "page": 9,
+              "position": 110
+            },
+            {
+              "text": "0.990, Borderline 0.955, Abnormal 0.950",
+              "page": 9,
+              "position": 111
+            },
+            {
+              "text": "Wang et al., 2025",
+              "page": 9,
+              "position": 112
+            },
+            {
+              "text": "[28]",
+              "page": 9,
+              "position": 113
+            },
+            {
+              "text": "NTUH-20 &",
+              "page": 9,
+              "position": 114
+            },
+            {
+              "text": "NTUH-YB;",
+              "page": 9,
+              "position": 115
+            },
+            {
+              "text": "n = 7378",
+              "page": 9,
+              "position": 116
+            },
+            {
+              "text": "Adults (≥20 yr) DeepLabV3+ AUROC: 0.994–1.000",
+              "page": 9,
+              "position": 117
+            },
+            {
+              "text": "Dice: 0.839 (NTUH-YB), 0.854 (NTUH-20)",
+              "page": 9,
+              "position": 118
+            },
+            {
+              "text": "ETT MAE:",
+              "page": 9,
+              "position": 119
+            },
+            {
+              "text": "11.0 mm AUROC: 0.734–0.847",
+              "page": 9,
+              "position": 120
+            },
+            {
+              "text": "Novak et al., 2025",
+              "page": 9,
+              "position": 121
+            },
+            {
+              "text": "[20]",
+              "page": 9,
+              "position": 122
+            },
+            {
+              "text": "CRIS database;",
+              "page": 9,
+              "position": 123
+            },
+            {
+              "text": "n = 400 Adults (≥18 yr) GEHC Critical",
+              "page": 9,
+              "position": 124
+            },
+            {
+              "text": "Care Suite — — —",
+              "page": 9,
+              "position": 125
+            },
+            {
+              "text": "Human accuracy",
+              "page": 9,
+              "position": 126
+            },
+            {
+              "text": "gain: Overall 0.774 (from 0.736), Critical 0.890",
+              "page": 9,
+              "position": 127
+            },
+            {
+              "text": "(from 0.793)",
+              "page": 9,
+              "position": 128
+            },
+            {
+              "text": "Rueckel et al., 2024",
+              "page": 9,
+              "position": 129
+            },
+            {
+              "text": "[52]",
+              "page": 9,
+              "position": 130
+            },
+            {
+              "text": "Multi-center",
+              "page": 9,
+              "position": 131
+            },
+            {
+              "text": "(>10 sites);",
+              "page": 9,
+              "position": 132
+            },
+            {
+              "text": "n = 9889",
+              "page": 9,
+              "position": 133
+            },
+            {
+              "text": "Adults (≥21 yr) Multitask CNN — — — AUROC: 0.980",
+              "page": 9,
+              "position": 134
+            },
+            {
+              "text": "An et al., 2024 [13] Seoul National",
+              "page": 9,
+              "position": 135
+            },
+            {
+              "text": "Univ.; n = 1722 Adults (≥19 yr) Lunit INSIGHT",
+              "page": 9,
+              "position": 136
+            },
+            {
+              "text": "CXR AUROC: 1.000 — ETT-Carina MAE:",
+              "page": 9,
+              "position": 137
+            },
+            {
+              "text": "5.1–6.2 mm",
+              "page": 9,
+              "position": 138
+            },
+            {
+              "text": "Sens: 1.000; Spec:",
+              "page": 9,
+              "position": 139
+            },
+            {
+              "text": "0.967–1.000 (Critical position)",
+              "page": 9,
+              "position": 140
+            },
+            {
+              "text": "https://doi.org/10.3390/pediatric18050119",
+              "page": 9,
+              "position": 141
+            },
+            {
+              "text": "Pediatr.Rep. 2026, 18, 119 11 of 22",
+              "page": 10,
+              "position": 142
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Table 1.Cont.",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 11,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "Tang et al., 2023 [39]",
+                  "page": 10,
+                  "position": 143
+                },
+                {
+                  "text": "Aus. Private &",
+                  "page": 10,
+                  "position": 144
+                },
+                {
+                  "text": "MIMIC-CXR;",
+                  "page": 10,
+                  "position": 145
+                },
+                {
+                  "text": "n = 4568",
+                  "page": 10,
+                  "position": 146
+                },
+                {
+                  "text": "Adults (≥16 yr) Annalise CXR",
+                  "page": 10,
+                  "position": 147
+                },
+                {
+                  "text": "v2.0 AUROC: 0.990 — — AUROC: 0.860–0.910",
+                  "page": 10,
+                  "position": 148
+                },
+                {
+                  "text": "Hsu et al., 2023 [44]",
+                  "page": 10,
+                  "position": 149
+                },
+                {
+                  "text": "Dalin Tzu Chi",
+                  "page": 10,
+                  "position": 150
+                },
+                {
+                  "text": "& RANZCR;",
+                  "page": 10,
+                  "position": 151
+                },
+                {
+                  "text": "n = 1455",
+                  "page": 10,
+                  "position": 152
+                },
+                {
+                  "text": "Adults RegNet encoder, U-Net++ decoder — IoU: 0.868 ETT MAE:",
+                  "page": 10,
+                  "position": 153
+                },
+                {
+                  "text": "2.9 mm —",
+                  "page": 10,
+                  "position": 154
+                },
+                {
+                  "text": "Brown et al., 2023",
+                  "page": 10,
+                  "position": 155
+                },
+                {
+                  "text": "[24]",
+                  "page": 10,
+                  "position": 156
+                },
+                {
+                  "text": "Medical & Surgical ICUs;",
+                  "page": 10,
+                  "position": 157
+                },
+                {
+                  "text": "n = 2000",
+                  "page": 10,
+                  "position": 158
+                },
+                {
+                  "text": "Adults (≥18 yr) Semantically Embedded DNN — — ETT MAE:",
+                  "page": 10,
+                  "position": 159
+                },
+                {
+                  "text": "7.2 mm PPV: 0.830; NPV: 0.980",
+                  "page": 10,
+                  "position": 160
+                },
+                {
+                  "text": "Oliver et al., 2023",
+                  "page": 10,
+                  "position": 161
+                },
+                {
+                  "text": "[55]",
+                  "page": 10,
+                  "position": 162
+                },
+                {
+                  "text": "RadioICU & MIMIC-CXR;",
+                  "page": 10,
+                  "position": 163
+                },
+                {
+                  "text": "n = 2090",
+                  "page": 10,
+                  "position": 164
+                },
+                {
+                  "text": "— CarinaNet — — ETT MAE:",
+                  "page": 10,
+                  "position": 165
+                },
+                {
+                  "text": "5.1 mm",
+                  "page": 10,
+                  "position": 166
+                },
+                {
+                  "text": "Human sensitivity gain: 0.910 (from 0.760)",
+                  "page": 10,
+                  "position": 167
+                },
+                {
+                  "text": "Huang et al., 2022",
+                  "page": 10,
+                  "position": 168
+                },
+                {
+                  "text": "[53]",
+                  "page": 10,
+                  "position": 169
+                },
+                {
+                  "text": "National Cheng Kung Univ.; n = 2058",
+                  "page": 10,
+                  "position": 170
+                },
+                {
+                  "text": "Adults Mask R-CNN — — Median error: ETT 2.8–3.0 mm",
+                  "page": 10,
+                  "position": 171
+                },
+                {
+                  "text": "Sens: 0.721–0.773; Spec: 0.952–0.953",
+                  "page": 10,
+                  "position": 172
+                },
+                {
+                  "text": "Jung et al., 2022 [46] Hanyang Univ.",
+                  "page": 10,
+                  "position": 173
+                },
+                {
+                  "text": "ER; n = 1985",
+                  "page": 10,
+                  "position": 174
+                },
+                {
+                  "text": "Adults (63.5 ± 18.3 yr)",
+                  "page": 10,
+                  "position": 175
+                },
+                {
+                  "text": "U-Net++, EfficientNet-B0 — Dice: ETT 0.893,",
+                  "page": 10,
+                  "position": 176
+                },
+                {
+                  "text": "Trachea 0.841 — 4-label accuracy: 0.922",
+                  "page": 10,
+                  "position": 177
+                },
+                {
+                  "text": "Mao et al., 2022 [54]",
+                  "page": 10,
+                  "position": 178
+                },
+                {
+                  "text": "National Cheng Kung Univ.; n = 2020",
+                  "page": 10,
+                  "position": 179
+                },
+                {
+                  "text": "Adults",
+                  "page": 10,
+                  "position": 180
+                },
+                {
+                  "text": "FCOS + Coarse-to-Fine",
+                  "page": 10,
+                  "position": 181
+                },
+                {
+                  "text": "Attention",
+                  "page": 10,
+                  "position": 182
+                },
+                {
+                  "text": "— —",
+                  "page": 10,
+                  "position": 183
+                },
+                {
+                  "text": "MAE: 3.7–4.3 mm; ETT-Carina",
+                  "page": 10,
+                  "position": 184
+                },
+                {
+                  "text": "MAE: 5.3 mm",
+                  "page": 10,
+                  "position": 185
+                },
+                {
+                  "text": "Classification accuracy: 0.889",
+                  "page": 10,
+                  "position": 186
+                },
+                {
+                  "text": "Tsai et al., 2022 [56] Taipei Medical",
+                  "page": 10,
+                  "position": 187
+                },
+                {
+                  "text": "Univ.; n = 390 Adults",
+                  "page": 10,
+                  "position": 188
+                },
+                {
+                  "text": "DenseNet-121 encoder, CNN",
+                  "page": 10,
+                  "position": 189
+                },
+                {
+                  "text": "decoder",
+                  "page": 10,
+                  "position": 190
+                },
+                {
+                  "text": "— — ETT MAE:",
+                  "page": 10,
+                  "position": 191
+                },
+                {
+                  "text": "3.0 mm AUROC: 0.938",
+                  "page": 10,
+                  "position": 192
+                },
+                {
+                  "text": "Schultheis & Lakhani, 2022 [26]",
+                  "page": 10,
+                  "position": 193
+                },
+                {
+                  "text": "Thomas Jefferson Univ.;",
+                  "page": 10,
+                  "position": 194
+                },
+                {
+                  "text": "n = 826",
+                  "page": 10,
+                  "position": 195
+                },
+                {
+                  "text": "Adults (>18 yr) U-Net — Dice: 0.873 ETT-Carina MAE:",
+                  "page": 10,
+                  "position": 196
+                },
+                {
+                  "text": "4.8–6.0 mm —",
+                  "page": 10,
+                  "position": 197
+                },
+                {
+                  "text": "Yuan et al., 2021 [59] Blinded PACS;",
+                  "page": 10,
+                  "position": 198
+                },
+                {
+                  "text": "n = 4293 Adults VGG-16 — — — AUROC: 0.920",
+                  "page": 10,
+                  "position": 199
+                },
+                {
+                  "text": "Harris et al., 2021",
+                  "page": 10,
+                  "position": 200
+                },
+                {
+                  "text": "[41]",
+                  "page": 10,
+                  "position": 201
+                },
+                {
+                  "text": "vRad; n = 49,112",
+                  "page": 10,
+                  "position": 202
+                },
+                {
+                  "text": "Adults (56.8–60.0 yr) YOLOv3 Sens: 0.994; Spec: 0.992 — MAE: 7.0 mm Sens: 0.759; Spec: 0.885",
+                  "page": 10,
+                  "position": 203
+                },
+                {
+                  "text": "Kara et al., 2021 [25] MIMIC-CXR;",
+                  "page": 10,
+                  "position": 204
+                },
+                {
+                  "text": "n = 16,000 Adults Cascaded CNN AUROC: 0.996 — ETT MAE:",
+                  "page": 10,
+                  "position": 205
+                },
+                {
+                  "text": "8.2 mm —",
+                  "page": 10,
+                  "position": 206
+                },
+                {
+                  "text": "Niehues et al., 2021",
+                  "page": 10,
+                  "position": 207
+                },
+                {
+                  "text": "[14]",
+                  "page": 10,
+                  "position": 208
+                },
+                {
+                  "text": "Charité Level 1",
+                  "page": 10,
+                  "position": 209
+                },
+                {
+                  "text": "Center; n = 18,361",
+                  "page": 10,
+                  "position": 210
+                },
+                {
+                  "text": "Adults (62.6 ± 16.7 yr) ResNet-50 AUROC: 0.990 — — —",
+                  "page": 10,
+                  "position": 211
+                },
+                {
+                  "text": "Lakhani et al., 2021",
+                  "page": 10,
+                  "position": 212
+                },
+                {
+                  "text": "[27]",
+                  "page": 10,
+                  "position": 213
+                },
+                {
+                  "text": "Thomas Jefferson Univ.;",
+                  "page": 10,
+                  "position": 214
+                },
+                {
+                  "text": "n = 22,960",
+                  "page": 10,
+                  "position": 215
+                },
+                {
+                  "text": "Adults (≥18 yr) Inception-v3 — — — Sens: 0.939; Spec: 0.977",
+                  "page": 10,
+                  "position": 216
+                },
+                {
+                  "text": "Lakhani et al., 2017",
+                  "page": 10,
+                  "position": 217
+                },
+                {
+                  "text": "[40]",
+                  "page": 10,
+                  "position": 218
+                },
+                {
+                  "text": "Local PACS;",
+                  "page": 10,
+                  "position": 219
+                },
+                {
+                  "text": "n = 600 Adults GoogLeNet AUROC: 0.989 — — AUROC: 0.809",
+                  "page": 10,
+                  "position": 220
+                },
+                {
+                  "text": "TableFootnotes&Abbreviations.AI&Architectures:CNN=ConvolutionalNeuralNetwork; DNN = Deep Neural Network; FCOS = Fully Convolutional One-Stage Object Detector; MTD = Multi- Task Deep Learning; VGG = Visual Geometry Group; YOLO = You Only Look Once.Performance Metrics:AP = Average Precision; AUROC = Area Under the Receiver Operating Characteristic Curve; IoU=IntersectionoverUnion;MAE=MeanAbsoluteError;NPV=NegativePredictiveValue; PPV = Positive Predictive Value; Sens = Sensitivity; Spec = Specificity.Clinical Terms & Datasets: CXR=ChestRadiograph;ER=EmergencyRoom;ETT=EndotrachealTube;NTUH=National Taiwan University Hospital; ICU = Intensive Care Unit; MIMIC-CXR = Medical Information Mart for Intensive Care Chest X-Ray; NIH = National Institutes of Health; PACS = Picture Archiving and Communication System; vRad = Virtual Radiologic; RANZCR CLiP = Royal Australian and New Zealand College of Radiologists Comprehensive List of Presentations.",
+                  "page": 10,
+                  "position": 221
+                },
+                {
+                  "text": "Table 2.Summary of AI models for enteric tube assessment.",
+                  "page": 10,
+                  "position": 222
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "Henderson et al.,",
+                  "page": 10,
+                  "position": 223
+                },
+                {
+                  "text": "2021 [38] Royal Univ. PACS; n = 777 Neonates ResNet-50 AP: 0.977 — — —",
+                  "page": 10,
+                  "position": 224
+                },
+                {
+                  "text": "Yi et al., 2020 [42]",
+                  "page": 10,
+                  "position": 225
+                },
+                {
+                  "text": "Open-i (NIH)",
+                  "page": 10,
+                  "position": 226
+                },
+                {
+                  "text": "& Local; n = 2550",
+                  "page": 10,
+                  "position": 227
+                },
+                {
+                  "text": "Train: Adults; Test: Neonates",
+                  "page": 10,
+                  "position": 228
+                },
+                {
+                  "text": "(<4 wk)",
+                  "page": 10,
+                  "position": 229
+                },
+                {
+                  "text": "Scale-Recurrent",
+                  "page": 10,
+                  "position": 230
+                },
+                {
+                  "text": "Network — F-beta: 0.800 — —",
+                  "page": 10,
+                  "position": 231
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 10,
+                  "position": 232
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 12 of 22",
+                  "page": 11,
+                  "position": 233
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Table 2.Cont.",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 12,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "Abbas et al., 2026",
+                  "page": 11,
+                  "position": 234
+                },
+                {
+                  "text": "[11]",
+                  "page": 11,
+                  "position": 235
+                },
+                {
+                  "text": "RANZCR",
+                  "page": 11,
+                  "position": 236
+                },
+                {
+                  "text": "CLiP; n = 30,083",
+                  "page": 11,
+                  "position": 237
+                },
+                {
+                  "text": "Adults Conv-MTD — — —",
+                  "page": 11,
+                  "position": 238
+                },
+                {
+                  "text": "AUROC: Normal",
+                  "page": 11,
+                  "position": 239
+                },
+                {
+                  "text": "0.980, Borderline 0.970, Abnormal 0.960",
+                  "page": 11,
+                  "position": 240
+                },
+                {
+                  "text": "Moon et al., 2026",
+                  "page": 11,
+                  "position": 241
+                },
+                {
+                  "text": "[48]",
+                  "page": 11,
+                  "position": 242
+                },
+                {
+                  "text": "Internal & MIMIC-CXR;",
+                  "page": 11,
+                  "position": 243
+                },
+                {
+                  "text": "n = 7028",
+                  "page": 11,
+                  "position": 244
+                },
+                {
+                  "text": "Adults Unified Model —",
+                  "page": 11,
+                  "position": 245
+                },
+                {
+                  "text": "Dice: 0.866 (Internal), 0.794",
+                  "page": 11,
+                  "position": 246
+                },
+                {
+                  "text": "(External)",
+                  "page": 11,
+                  "position": 247
+                },
+                {
+                  "text": "—",
+                  "page": 11,
+                  "position": 248
+                },
+                {
+                  "text": "AUROC: 0.972 (Internal), 0.848",
+                  "page": 11,
+                  "position": 249
+                },
+                {
+                  "text": "(External)",
+                  "page": 11,
+                  "position": 250
+                },
+                {
+                  "text": "Park et al., 2025 [49]",
+                  "page": 11,
+                  "position": 251
+                },
+                {
+                  "text": "Kangwon National Univ.;",
+                  "page": 11,
+                  "position": 252
+                },
+                {
+                  "text": "n = 135",
+                  "page": 11,
+                  "position": 253
+                },
+                {
+                  "text": "Adults (77.3–80.7 yr) Dual-Stage — Dice: 0.654 —",
+                  "page": 11,
+                  "position": 254
+                },
+                {
+                  "text": "AUROC: 0.970;",
+                  "page": 11,
+                  "position": 255
+                },
+                {
+                  "text": "Sens: 0.961; Spec: 0.857",
+                  "page": 11,
+                  "position": 256
+                },
+                {
+                  "text": "Wang et al., 2025",
+                  "page": 11,
+                  "position": 257
+                },
+                {
+                  "text": "[28]",
+                  "page": 11,
+                  "position": 258
+                },
+                {
+                  "text": "NTUH-20 &",
+                  "page": 11,
+                  "position": 259
+                },
+                {
+                  "text": "NTUH-YB;",
+                  "page": 11,
+                  "position": 260
+                },
+                {
+                  "text": "n = 7378",
+                  "page": 11,
+                  "position": 261
+                },
+                {
+                  "text": "Adults (≥20 yr) DeepLabV3+ —",
+                  "page": 11,
+                  "position": 262
+                },
+                {
+                  "text": "Dice: 0.646 (NTUH-YB), 0.665 (NTUH-20)",
+                  "page": 11,
+                  "position": 263
+                },
+                {
+                  "text": "NGT MAE: 16.4–28.3 mm AUROC: 0.964",
+                  "page": 11,
+                  "position": 264
+                },
+                {
+                  "text": "Park et al., 2025 [50]",
+                  "page": 11,
+                  "position": 265
+                },
+                {
+                  "text": "Hallym, Gangneung,",
+                  "page": 11,
+                  "position": 266
+                },
+                {
+                  "text": "Kangwon;",
+                  "page": 11,
+                  "position": 267
+                },
+                {
+                  "text": "n = 2627",
+                  "page": 11,
+                  "position": 268
+                },
+                {
+                  "text": "Adults (77.5 ± 11.2 yr) Dual-Stage — Dice: 0.654 —",
+                  "page": 11,
+                  "position": 269
+                },
+                {
+                  "text": "AUROC: 1.000 (Internal), 0.923",
+                  "page": 11,
+                  "position": 270
+                },
+                {
+                  "text": "(External)",
+                  "page": 11,
+                  "position": 271
+                },
+                {
+                  "text": "Tang et al., 2023 [39]",
+                  "page": 11,
+                  "position": 272
+                },
+                {
+                  "text": "Aus. Private &",
+                  "page": 11,
+                  "position": 273
+                },
+                {
+                  "text": "MIMIC-CXR;",
+                  "page": 11,
+                  "position": 274
+                },
+                {
+                  "text": "n = 4568",
+                  "page": 11,
+                  "position": 275
+                },
+                {
+                  "text": "Adults (≥16 yr) Annalise CXR",
+                  "page": 11,
+                  "position": 276
+                },
+                {
+                  "text": "v2.0 AUROC: 0.990 — — AUROC: 0.890–0.900",
+                  "page": 11,
+                  "position": 277
+                },
+                {
+                  "text": "Drozdov et al., 2023",
+                  "page": 11,
+                  "position": 278
+                },
+                {
+                  "text": "[19]",
+                  "page": 11,
+                  "position": 279
+                },
+                {
+                  "text": "NHS Greater",
+                  "page": 11,
+                  "position": 280
+                },
+                {
+                  "text": "Glasgow & Clyde; n = 7416",
+                  "page": 11,
+                  "position": 281
+                },
+                {
+                  "text": "Adults (≥16 yr) Neural Network",
+                  "page": 11,
+                  "position": 282
+                },
+                {
+                  "text": "Ensemble — — —",
+                  "page": 11,
+                  "position": 283
+                },
+                {
+                  "text": "AUROC: 0.820",
+                  "page": 11,
+                  "position": 284
+                },
+                {
+                  "text": "(Satisfactory),",
+                  "page": 11,
+                  "position": 285
+                },
+                {
+                  "text": "0.770 (Malpositioned); Human accuracy gain: 0.780 (from",
+                  "page": 11,
+                  "position": 286
+                },
+                {
+                  "text": "0.690)",
+                  "page": 11,
+                  "position": 287
+                },
+                {
+                  "text": "Mallon et al., 2022",
+                  "page": 11,
+                  "position": 288
+                },
+                {
+                  "text": "[58]",
+                  "page": 11,
+                  "position": 289
+                },
+                {
+                  "text": "Imperial",
+                  "page": 11,
+                  "position": 290
+                },
+                {
+                  "text": "College Healthcare;",
+                  "page": 11,
+                  "position": 291
+                },
+                {
+                  "text": "n = 6207",
+                  "page": 11,
+                  "position": 292
+                },
+                {
+                  "text": "Adults (>18 yr) DenseNet-121 — — —",
+                  "page": 11,
+                  "position": 293
+                },
+                {
+                  "text": "AUROC: 0.920;",
+                  "page": 11,
+                  "position": 294
+                },
+                {
+                  "text": "Sens: 0.800; Spec: 0.920",
+                  "page": 11,
+                  "position": 295
+                },
+                {
+                  "text": "Niehues et al., 2021",
+                  "page": 11,
+                  "position": 296
+                },
+                {
+                  "text": "[14]",
+                  "page": 11,
+                  "position": 297
+                },
+                {
+                  "text": "Charité Level-1",
+                  "page": 11,
+                  "position": 298
+                },
+                {
+                  "text": "Center; n = 18,361",
+                  "page": 11,
+                  "position": 299
+                },
+                {
+                  "text": "Adults (62.6 ± 16.7 yr) ResNet-50 AUROC: 0.980 — — —",
+                  "page": 11,
+                  "position": 300
+                },
+                {
+                  "text": "Singh et al., 2019",
+                  "page": 11,
+                  "position": 301
+                },
+                {
+                  "text": "[57]",
+                  "page": 11,
+                  "position": 302
+                },
+                {
+                  "text": "Blinded PACS;",
+                  "page": 11,
+                  "position": 303
+                },
+                {
+                  "text": "n = 5475 — Inception-v3 — — — AUROC: 0.870",
+                  "page": 11,
+                  "position": 304
+                },
+                {
+                  "text": "Table Footnotes & Abbreviations. AI & Architectures: MTD = Multi-Task Deep Learning; Performance Metrics:AP = Average Precision; AUROC = Area Under the Receiver Operating Characteristic Curve; MAE=MeanAbsoluteError;Sens=Sensitivity;Spec=Specificity.ClinicalTerms&Datasets: CXR = Chest Radiograph; MIMIC-CXR = Medical Information Mart for Intensive Care Chest X-Ray; NGT=NasogastricTube;NIH=NationalInstitutesofHealth;NHS=NationalHealthService; NTUH=NationalTaiwanUniversityHospital;PACS=PictureArchivingandCommunication System; RANZCR CLiP = Royal Australian and New Zealand College of Radiologists Comprehensive List of Presentations.",
+                  "page": 11,
+                  "position": 305
+                },
+                {
+                  "text": "Table 3.Summary of AI models for central venous catheter (CVC) assessment.",
+                  "page": 11,
+                  "position": 306
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 12,
+              "paragraphs": [
+                {
+                  "text": "Yin et al., 2026 [33]",
+                  "page": 11,
+                  "position": 307
+                },
+                {
+                  "text": "Multi-center",
+                  "page": 11,
+                  "position": 308
+                },
+                {
+                  "text": "(3 centers);",
+                  "page": 11,
+                  "position": 309
+                },
+                {
+                  "text": "n = 1184",
+                  "page": 11,
+                  "position": 310
+                },
+                {
+                  "text": "Pediatric and",
+                  "page": 11,
+                  "position": 311
+                },
+                {
+                  "text": "Adult TopNet — — PICC MAE:",
+                  "page": 11,
+                  "position": 312
+                },
+                {
+                  "text": "3.125 mm —",
+                  "page": 11,
+                  "position": 313
+                },
+                {
+                  "text": "Henderson et al.,",
+                  "page": 11,
+                  "position": 314
+                },
+                {
+                  "text": "2021 [38]",
+                  "page": 11,
+                  "position": 315
+                },
+                {
+                  "text": "Royal Univ.",
+                  "page": 11,
+                  "position": 316
+                },
+                {
+                  "text": "PACS; n = 777",
+                  "page": 11,
+                  "position": 317
+                },
+                {
+                  "text": "Neonates ResNet-50 AP: UAC 0.979,",
+                  "page": 11,
+                  "position": 318
+                },
+                {
+                  "text": "UVC 0.937 — — —",
+                  "page": 11,
+                  "position": 319
+                },
+                {
+                  "text": "Yi et al., 2020 [42]",
+                  "page": 11,
+                  "position": 320
+                },
+                {
+                  "text": "Open-i (NIH)",
+                  "page": 11,
+                  "position": 321
+                },
+                {
+                  "text": "& Local; n = 2550",
+                  "page": 11,
+                  "position": 322
+                },
+                {
+                  "text": "Train: Adults; Test: Neonates",
+                  "page": 11,
+                  "position": 323
+                },
+                {
+                  "text": "(<4 wk)",
+                  "page": 11,
+                  "position": 324
+                },
+                {
+                  "text": "Scale-Recurrent",
+                  "page": 11,
+                  "position": 325
+                },
+                {
+                  "text": "Network — F-beta: 0.800 — —",
+                  "page": 11,
+                  "position": 326
+                },
+                {
+                  "text": "Abbas et al., 2026",
+                  "page": 11,
+                  "position": 327
+                },
+                {
+                  "text": "[11]",
+                  "page": 11,
+                  "position": 328
+                },
+                {
+                  "text": "RANZCR",
+                  "page": 11,
+                  "position": 329
+                },
+                {
+                  "text": "CLiP; n = 30,083",
+                  "page": 11,
+                  "position": 330
+                },
+                {
+                  "text": "Adults Conv-MTD — — —",
+                  "page": 11,
+                  "position": 331
+                },
+                {
+                  "text": "AUROC: Normal",
+                  "page": 11,
+                  "position": 332
+                },
+                {
+                  "text": "0.900, Borderline 0.840, Abnormal 0.900",
+                  "page": 11,
+                  "position": 333
+                },
+                {
+                  "text": "Stroeder et al., 2025",
+                  "page": 11,
+                  "position": 334
+                },
+                {
+                  "text": "[43]",
+                  "page": 11,
+                  "position": 335
+                },
+                {
+                  "text": "RANZCR CLiP",
+                  "page": 11,
+                  "position": 336
+                },
+                {
+                  "text": "& In-house;",
+                  "page": 11,
+                  "position": 337
+                },
+                {
+                  "text": "n = 31,089",
+                  "page": 11,
+                  "position": 338
+                },
+                {
+                  "text": "Adults (69 ± 7 yr) U-Net++, EfficientNet-B1 —",
+                  "page": 11,
+                  "position": 339
+                },
+                {
+                  "text": "Dice: 0.840;",
+                  "page": 11,
+                  "position": 340
+                },
+                {
+                  "text": "Hausdorff:",
+                  "page": 11,
+                  "position": 341
+                },
+                {
+                  "text": "1.35 mm —",
+                  "page": 11,
+                  "position": 342
+                },
+                {
+                  "text": "AUROC: 0.990 (Correct), 0.950",
+                  "page": 11,
+                  "position": 343
+                },
+                {
+                  "text": "(Incorrect)",
+                  "page": 11,
+                  "position": 344
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 11,
+                  "position": 345
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 13 of 22",
+                  "page": 12,
+                  "position": 346
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Table 3.Cont.",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 16,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [
+                {
+                  "text": "Wei et al., 2025 [34]",
+                  "page": 12,
+                  "position": 347
+                },
+                {
+                  "text": "UCLA Health",
+                  "page": 12,
+                  "position": 348
+                },
+                {
+                  "text": "(In-house);",
+                  "page": 12,
+                  "position": 349
+                },
+                {
+                  "text": "n = 937",
+                  "page": 12,
+                  "position": 350
+                },
+                {
+                  "text": "ICU Patients nnU-Net — RIJL ASSD:",
+                  "page": 12,
+                  "position": 351
+                },
+                {
+                  "text": "1.41 mm RIJL Tip MAE:",
+                  "page": 12,
+                  "position": 352
+                },
+                {
+                  "text": "8.29 mm —",
+                  "page": 12,
+                  "position": 353
+                },
+                {
+                  "text": "Rueckel et al., 2024",
+                  "page": 12,
+                  "position": 354
+                },
+                {
+                  "text": "[52]",
+                  "page": 12,
+                  "position": 355
+                },
+                {
+                  "text": "Multi-center",
+                  "page": 12,
+                  "position": 356
+                },
+                {
+                  "text": "(>10 sites);",
+                  "page": 12,
+                  "position": 357
+                },
+                {
+                  "text": "n = 9889",
+                  "page": 12,
+                  "position": 358
+                },
+                {
+                  "text": "Adults (≥21 yr) Multitask CNN — — — AUROC: 0.930",
+                  "page": 12,
+                  "position": 359
+                },
+                {
+                  "text": "Park et al., 2023 [18]",
+                  "page": 12,
+                  "position": 360
+                },
+                {
+                  "text": "Samsung Medical & RANZCR;",
+                  "page": 12,
+                  "position": 361
+                },
+                {
+                  "text": "n = 1250",
+                  "page": 12,
+                  "position": 362
+                },
+                {
+                  "text": "Not reported Multi-Fragment",
+                  "page": 12,
+                  "position": 363
+                },
+                {
+                  "text": "CNN — Dice: 0.920",
+                  "page": 12,
+                  "position": 364
+                },
+                {
+                  "text": "(Internal)",
+                  "page": 12,
+                  "position": 365
+                },
+                {
+                  "text": "PICC RMSE:",
+                  "page": 12,
+                  "position": 366
+                },
+                {
+                  "text": "9.77 mm (Internal), 56.71",
+                  "page": 12,
+                  "position": 367
+                },
+                {
+                  "text": "mm (External)",
+                  "page": 12,
+                  "position": 368
+                },
+                {
+                  "text": "—",
+                  "page": 12,
+                  "position": 369
+                },
+                {
+                  "text": "Tang et al., 2023 [39]",
+                  "page": 12,
+                  "position": 370
+                },
+                {
+                  "text": "Aus. Private &",
+                  "page": 12,
+                  "position": 371
+                },
+                {
+                  "text": "MIMIC-CXR;",
+                  "page": 12,
+                  "position": 372
+                },
+                {
+                  "text": "n = 4568",
+                  "page": 12,
+                  "position": 373
+                },
+                {
+                  "text": "Adults (≥16 yr) Annalise CXR",
+                  "page": 12,
+                  "position": 374
+                },
+                {
+                  "text": "v2.0 AUROC: 0.990 — — AUROC: 0.870",
+                  "page": 12,
+                  "position": 375
+                },
+                {
+                  "text": "Jung et al., 2022 [45]",
+                  "page": 12,
+                  "position": 376
+                },
+                {
+                  "text": "Hanyang Univ.",
+                  "page": 12,
+                  "position": 377
+                },
+                {
+                  "text": "ER; n = 808",
+                  "page": 12,
+                  "position": 378
+                },
+                {
+                  "text": "Adults (18–80 yr) U-Net++, EfficientNet-B4 — — —",
+                  "page": 12,
+                  "position": 379
+                },
+                {
+                  "text": "3-label accuracy: 0.820; F1-score: 0.730",
+                  "page": 12,
+                  "position": 380
+                },
+                {
+                  "text": "Niehues et al., 2021",
+                  "page": 12,
+                  "position": 381
+                },
+                {
+                  "text": "[14]",
+                  "page": 12,
+                  "position": 382
+                },
+                {
+                  "text": "Charité Level-1",
+                  "page": 12,
+                  "position": 383
+                },
+                {
+                  "text": "Center; n = 18,361",
+                  "page": 12,
+                  "position": 384
+                },
+                {
+                  "text": "Adults (62.6 ± 16.7 yr) ResNet-50 AUROC: 0.990 — — —",
+                  "page": 12,
+                  "position": 385
+                },
+                {
+                  "text": "Yu et al., 2020 [47]",
+                  "page": 12,
+                  "position": 386
+                },
+                {
+                  "text": "Quhua &",
+                  "page": 12,
+                  "position": 387
+                },
+                {
+                  "text": "Second Affiliated;",
+                  "page": 12,
+                  "position": 388
+                },
+                {
+                  "text": "n = 348",
+                  "page": 12,
+                  "position": 389
+                },
+                {
+                  "text": "— U-Net and Faster",
+                  "page": 12,
+                  "position": 390
+                },
+                {
+                  "text": "R-CNN — PICC F1-score:",
+                  "page": 12,
+                  "position": 391
+                },
+                {
+                  "text": "0.580 Tip detection F1-score: 0.740 —",
+                  "page": 12,
+                  "position": 392
+                },
+                {
+                  "text": "Lee et al., 2018 [35]",
+                  "page": 12,
+                  "position": 393
+                },
+                {
+                  "text": "Massachusetts",
+                  "page": 12,
+                  "position": 394
+                },
+                {
+                  "text": "General;",
+                  "page": 12,
+                  "position": 395
+                },
+                {
+                  "text": "n = 550",
+                  "page": 12,
+                  "position": 396
+                },
+                {
+                  "text": "— Cascade FCNs — — PICC Tip MAE:",
+                  "page": 12,
+                  "position": 397
+                },
+                {
+                  "text": "3.10 mm —",
+                  "page": 12,
+                  "position": 398
+                },
+                {
+                  "text": "TableFootnotes&Abbreviations.AI&Architectures:CNN=ConvolutionalNeuralNetwork; FCN = Fully Convolutional Network; MTD = Multi-Task Deep Learning; nnU-Net = No-New-Net (Self-configuringU-Net);R-CNN=Region-BasedConvolutionalNeuralNetwork.Performance Metrics:AP = Average Precision;ASSD = Average Symmetric Surface Distance;AUROC = Area Under the Receiver Operating Characteristic Curve;MAE = Mean Absolute Error;RMSE = Root Mean Square Error.Clinical Terms & Datasets:CXR = Chest Radiograph; ER = Emergency Room; ICU = Intensive Care Unit;MIMIC-CXR = Medical Information Mart for Intensive Care Chest X- Ray; NIH = National Institutes of Health; PACS = Picture Archiving and Communication System; PICC = Peripherally Inserted Central Catheter; RIJL = Right Internal Jugular Line; UAC = Umbilical Arterial Catheter; UVC = Umbilical Venous Catheter; RANZCR CLiP = Royal Australian and New Zealand College of Radiologists Comprehensive List of Presentations.",
+                  "page": 12,
+                  "position": 399
+                },
+                {
+                  "text": "Table 4.Summary of AI models for thoracic drain assessment.",
+                  "page": 12,
+                  "position": 400
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Reference Dataset & Sample Size",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Age Group",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "AI Architecture",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Presence Detection",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Trajectory Segmentation",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Device Localization:",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Distal Tip Localization",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 12,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Position Classification",
+              "level": 3,
+              "page_start": 12,
+              "page_end": 16,
+              "paragraphs": [
+                {
+                  "text": "Niehues et al.,",
+                  "page": 12,
+                  "position": 401
+                },
+                {
+                  "text": "2021 [14]",
+                  "page": 12,
+                  "position": 402
+                },
+                {
+                  "text": "Charité Level-1",
+                  "page": 12,
+                  "position": 403
+                },
+                {
+                  "text": "Center; n = 18,361",
+                  "page": 12,
+                  "position": 404
+                },
+                {
+                  "text": "Adults (62.6 ± 16.7 yr) ResNet-50 AUROC: 0.990 — — —",
+                  "page": 12,
+                  "position": 405
+                },
+                {
+                  "text": "Kim et al., 2024",
+                  "page": 12,
+                  "position": 406
+                },
+                {
+                  "text": "[37]",
+                  "page": 12,
+                  "position": 407
+                },
+                {
+                  "text": "Jeju National Univ. Hospital;",
+                  "page": 12,
+                  "position": 408
+                },
+                {
+                  "text": "n = 1217",
+                  "page": 12,
+                  "position": 409
+                },
+                {
+                  "text": "Adults (71.6 ± 0.4 yr) YOLOv5 — — mAP50: 0.860",
+                  "page": 12,
+                  "position": 410
+                },
+                {
+                  "text": "Sens: 0.860; Spec:",
+                  "page": 12,
+                  "position": 411
+                },
+                {
+                  "text": "0.920; Accuracy: 0.880 (Malpositioned",
+                  "page": 12,
+                  "position": 412
+                },
+                {
+                  "text": "PCDs)",
+                  "page": 12,
+                  "position": 413
+                },
+                {
+                  "text": "Table Footnotes & Abbreviations.AI & Architectures:YOLO = You Only Look Once.Performance Metrics: AUROC = Area Under the Receiver Operating Characteristic Curve; mAP50 = Mean Average Precision at IoU threshold of 0.50; Sens = Sensitivity; Spec = Specificity.Clinical Terms & Datasets: PCD = Percutaneous Chest Drain.",
+                  "page": 12,
+                  "position": 414
+                },
+                {
+                  "text": "5.1.Artificial Airway Models",
+                  "page": 12,
+                  "position": 415
+                },
+                {
+                  "text": "Deep learning models consistently demonstrate excellent performance for automated detection of ETTs across both pediatric and adult populations (Table 1).In pediatric and neonatal ICU populations, ResNet-based architectures achieved an average precision of 0.989forETTpresencedetection[38].Similarperformancehasbeenreportedinadult populations, where AUROC values range from 0.989 using pre-trained GoogLeNet [40]",
+                  "page": 12,
+                  "position": 416
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 12,
+                  "position": 417
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 14 of 22",
+                  "page": 13,
+                  "position": 418
+                },
+                {
+                  "text": "to 1.0 utilizing DenseNet121, DeepLabV3+, and commercial algorithms [13,17,39].High detection performance has also been maintained in multi-label frameworks, with YOLO-v3 demonstrating a sensitivity of 99.4% and specificity of 99.2% [41].",
+                  "page": 13,
+                  "position": 419
+                },
+                {
+                  "text": "In addition to presence detection, numerous studies have evaluated automated local- ization of ETTs through segmentation of the tube trajectory, identification of the distal tip, and localization of key anatomical landmarks (e.g., carina).Models for trajectory segmen- tation have consistently demonstrated high performance across both pediatric and adult populations.In pediatric cohorts, Scale-Recurrent Networks achieved an F-beta measure of 0.80 for ETT segmentation on neonatal radiographs despite being trained exclusively on adult data [42].In adult cohorts, standard U-Net architectures achieved a Dice coefficient of 87.3% for ETT segmentation and an absolute ETT-to-carina measurement difference of 0.48 to 0.60 cm, closely mirroring the inter-reader variability of human radiologists [26]. Advanced architectures such as U-Net++ achieved Dice scores of 0.893 for the ETT and 0.841 for the trachea, with an Intersection over Union (IoU) of 0.8683 and average distance errorsof2.9mm[44,46].Similarly,DeepLabV3+achievedaDicescoreof0.854andan overall localization error of 1.1 cm [51].",
+                  "page": 13,
+                  "position": 420
+                },
+                {
+                  "text": "Because clinical placement depends primarily on the position of the distal tip, sev- eral investigators have focused specifically on tip localization.Two-stage Mask R-CNN, DenseNet121, and multitask CNNs achieved localization errors ranging from 2.6 to 3.04 mm, comparable to those of human experts [52,53,56].Among these approaches, Mask R-CNN demonstrated superior localization precision compared with 11 clinicians [53], while multi- task CNNs reported tip localization errors of less than 3 mm in more than 86% of evaluated ETTs[52].Additionalarchitectures,includingFCOS,RetinaNet,CascadedCNNs,and YOLO-v3,achievedtiplocalizationerrorsrangingbetween3.73and8.2mm,demon- strating meaningful variability in localization performance across studies [24,25,41,54,55]. This between-study variability likely reflects multiple methodological factors rather than model architecture alone.Differences in patient populations, image acquisition protocols and spatial resolution,device visibility,and annotation procedures can influence distal tip localization accuracy.Model design may also contribute, as segmentation-based ap- proaches infer the distal tip from the segmented device trajectory, while object-detection and regression-based approaches localize the tip more directly.In addition, differences in the definition of the localization target and reference standard may further limit direct comparison of localization errors across studies.",
+                  "page": 13,
+                  "position": 421
+                },
+                {
+                  "text": "PerformanceforautomatedETTpositionclassificationismorevariablecompared to presence detection or device localization (Table 1).Standard image-level classification models, including VGG16 with ROI-cropped images and commercial multi-label frame- works,achievedAUROCsrangingfrom0.86to0.92forclassifyingsatisfactoryversus malpositioned ETTs [39,59].",
+                  "page": 13,
+                  "position": 422
+                },
+                {
+                  "text": "Other architectures, including DenseNet121 and GoogLeNet, reported lower gener- alizedmalpositionAUROCsrangingfrom0.734to0.847[17,40,51].Formoregranular position classification, U-Net++ combined with EfficientNet-b0 achieved an accuracy of 0.922 across four ETT depth categories [46], while Conv-MTD achieved an AUROC of 0.99 for three-class ETT placement classification [11].",
+                  "page": 13,
+                  "position": 423
+                },
+                {
+                  "text": "Performancegenerallyimproveswhenmodelsaredesignedtoidentifyclinically significant malpositions rather than all forms of malposition.Unified classification archi- tectures and multitask CNNs reported AUROCs exceeding 0.98 for detecting critical ETT malpositions [52], with sensitivities ranging from 93.9% to 100% and specificities from 96.7% to 100% [13,27].AI assistance improves clinician performance.Commercial AI increased clinician accuracy for detecting critical ETT malpositions from 79.3% to 89.0% [20], while",
+                  "page": 13,
+                  "position": 424
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 13,
+                  "position": 425
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 15 of 22",
+                  "page": 14,
+                  "position": 426
+                },
+                {
+                  "text": "RetinaNet improved human sensitivity for detecting dangerously low ETTs from 0.76 to 0.91 [55].",
+                  "page": 14,
+                  "position": 427
+                },
+                {
+                  "text": "5.2.Enteric Tube Models",
+                  "page": 14,
+                  "position": 428
+                },
+                {
+                  "text": "Automated detection of enteric tubes has emerged as one of the most active applica- tions of AI-assisted assessment (Table 2).Across both pediatric and adult populations, AI models consistently demonstrate excellent performance for enteric tube detection.ResNet- 50 architectures successfully identified the presence of NGTs in a pediatric cohort with an average precision of 0.977 [38].The high detection accuracy extends to the general adult population, with standard ResNet-50, deep convolutional neural networks (DCNNs), and DeepLabV3+ algorithms predicting the presence of enteric tubes with AUC scores ranging from 0.98 to 0.998 [14,28,39].",
+                  "page": 14,
+                  "position": 429
+                },
+                {
+                  "text": "For device localization, algorithms demonstrate varied performance in segmenting the continuous trajectory and localizing the distal tip of enteric tubes.In pediatric applications, Scale-Recurrent Networks successfully adapted adult training data to neonatal cohorts with an F-beta score of 0.80 while concurrently segmenting the ETT, NGTs, and vascular lines [42].In adult populations, unified models based on nnU-Net and ResNet backbones achieved a Dice coefficient of 86.56% for NGT segmentation on internal datasets, which decreased to 79.37% on external validation data [48].Several other studies using nnU-Net, ResNet, and DeepLabV3+ achieved lower Dice scores ranging from 0.646 to 0.665 [28,49,50]. Relatively few studies have reported quantitative performance for distal tip localization.",
+                  "page": 14,
+                  "position": 430
+                },
+                {
+                  "text": "DeepLabV3+ and DenseNet121 achieved mean tip localization errors ranging from 1.64 to 2.83 cm [28,51].The larger distal tip localization error reported for enteric tubes compared with ETTs may partly reflect the greater difficulty in visualizing and tracing the distal NGT. On portable supine CXRs, variable image quality, overlap with mediastinal structures and other support devices, and looping or aberrant NGT trajectories can reduce tubevisibilityandcomplicatelocalization.Wangetal.[28]alsonotedthattheportion of the NGT near the distal tip was particularly challenging to segment.However, direct comparison with ETT studies should be interpreted cautiously because the studies used different datasets, model architectures, and evaluation protocols.",
+                  "page": 14,
+                  "position": 431
+                },
+                {
+                  "text": "Assessing enteric tube placement yields more variable performance than simply detect- ing tube presence, with outcomes varying by classification task.For general NGT misplace- ment classification, neural network ensembles and nnU-Net models achieved AUROCs ranging from 0.77 to 0.848 [19,48].Higher performance was achieved by dual-stage frame- works that combined localization with position classification, reporting AUROCs between 0.964 and 1 for NGT placement evaluation [28,49–51].When evaluating a broader range of enteric tubes (double-lumen, fine-bore, NJT, and NDT) using diverse datasets, such as the Catheter and Line Position (CLiP) dataset, models achieved general malposition AUROCs ranging from 0.839 to 0.89, and satisfactory placement AUROCs up to 0.91 [21,28].Multi- label frameworks achieved excellent discrimination for classifying enteric tube placement into normal (AUROC = 0.98), borderline (AUROC = 0.97), and abnormal (AUROC = 0.96) placements [11].Performance generally improved when models were designed to identify severe or clinically significant malpositions, with DenseNet121-based models and neural network ensembles reporting AUROCs between 0.87 and 0.98 [19,28,57,58].",
+                  "page": 14,
+                  "position": 432
+                },
+                {
+                  "text": "5.3.Central Venous Catheter Models",
+                  "page": 14,
+                  "position": 433
+                },
+                {
+                  "text": "AI models demonstrate excellent performance for automated detection of CVCs across both pediatric and adult populations (Table 3).In highly vulnerable pediatric and neonatal populations, ResNet-50-based architectures have demonstrated excellent performance for detecting specialized neonatal vascular lines, including UACs and UVCs, achieving average",
+                  "page": 14,
+                  "position": 434
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 14,
+                  "position": 435
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 16 of 22",
+                  "page": 15,
+                  "position": 436
+                },
+                {
+                  "text": "precisions of 0.979 and 0.937, respectively [38].In adult cohorts, ResNet-50 and commercial models such as Annalise CXR exhibit excellent discriminative capability, reporting AUROCs ranging from 0.90 to greater than 0.99 for CVC detection [14,39].",
+                  "page": 15,
+                  "position": 437
+                },
+                {
+                  "text": "For device localization, studies have evaluated both segmentation of catheter trajecto- ries and localization of distal catheter tips.In neonatal populations, the Scale-Recurrent Network accurately traced UAC and UVC trajectories, achieving an F-beta score of 0.80 for the combined catheter class [42].More recently, topology-preserving embedded net- works have been developed to address the challenges of low-contrast pediatric imaging and demonstrated highly precise PICC localization, with mean tip distance errors below 3.125 mm [33].In adult CVC segmentation applications, a model combining U-Net++ and EfficientNet-B1 achieved a Dice score of 0.84 [43].Similarly, nnU-Net models achieved an average symmetric surface distance of 1.41 mm for segmenting right IJ lines and a mean tip localization error of 8.29 mm [34].For PICC segmentation, a multi-stage deep learning framework achieved a Dice score of 0.92 and an internal tip RMSE of 9.77 mm [18], while alternative multi-task frameworks integrating U-Net and Faster R-CNN reported more modest segmentation performance (Dice = 0.58) [47].Direct tip localization approaches have generally achieved sub-centimeter accuracy.Cascade FCN yielded a mean absolute tip distance error of 3.10 mm (RMSE = 3.71 mm) [35], whereas multi-task CNNs localized catheter tips within 3 mm of the reference standard in 77% of cases [52].The variability in reported tip localization performance likely reflects differences in catheter type, patient population, image quality, annotation strategy, and localization methodology, as well as differences between internal and external validation datasets.",
+                  "page": 15,
+                  "position": 438
+                },
+                {
+                  "text": "PerformanceforautomatedCVCpositionclassificationremainsconsistentlyhigh acrossmultipleAIarchitectures.AcombinedarchitectureincorporatingU-Net++and EfficientNet-B1 achieved an AUROC of 0.99 for identifying correctly positioned CVCs and an AUROC of 0.95 for detecting malpositioned catheters [43].Similarly, multi-task CNNs reported AUROC values exceeding 0.93 for overall CVC malposition classification [52], while commercial algorithms demonstrated slightly lower performance, with an AUROC of0.87fordetectingunsatisfactoryCVCplacement[39].Formulti-classclassification tasks, Jung et al. [45] employed a U-Net++ and EfficientNet-B4 framework to classify CVC placementsasshallow,appropriate,ordeep,achievinganoverallaccuracyof0.82and an F1-score of 0.73.Likewise, the Conv-MTD framework stratified catheter position into normal, borderline, and abnormal categories, yielding AUROC values of 0.90, 0.84, and 0.90, respectively [11].",
+                  "page": 15,
+                  "position": 439
+                },
+                {
+                  "text": "5.4.Drain Models",
+                  "page": 15,
+                  "position": 440
+                },
+                {
+                  "text": "AI models demonstrate excellent performance for automated detection of thoracic drainage devices (Table 4).ResNet-50 models successfully identified thoracic drains on CXRswithanAUCof0.99,demonstratingdiagnosticaccuracycomparabletoexpert radiologists [14].",
+                  "page": 15,
+                  "position": 441
+                },
+                {
+                  "text": "For device localization, published studies have primarily focused on device localiza- tion using object detection frameworks rather than segmentation-based approaches.Using theYOLOv5architecture,Kimetal.localizedchestPCDsonCXRs,achievingamean average precision at 50% intersection over union (mAP50) of 0.86 [37].",
+                  "page": 15,
+                  "position": 442
+                },
+                {
+                  "text": "Performance for automated drain position classification has also been encouraging. By analyzing localized bounding boxes, a YOLOv5 algorithm differentiated appropriately positioned from malpositioned chest PCDs with an overall accuracy of 0.88,sensitivity of 0.86, and specificity of 0.92.Notably, prediction of drain malfunction associated with malposition achieved an even higher sensitivity of 0.93 and specificity of 0.95, demonstrat-",
+                  "page": 15,
+                  "position": 443
+                },
+                {
+                  "text": "https://doi.org/10.3390/pediatric18050119",
+                  "page": 15,
+                  "position": 444
+                },
+                {
+                  "text": "Pediatr.Rep. 2026, 18, 119 17 of 22",
+                  "page": 16,
+                  "position": 445
+                },
+                {
+                  "text": "ingthepotentialofAItosupportbothradiologistsandcliniciansinassessingthoracic drains [37].",
+                  "page": 16,
+                  "position": 446
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6.Discussion",
+      "level": 1,
+      "page_start": 16,
+      "page_end": 17,
+      "paragraphs": [
+        {
+          "text": "AI models have achieved consistently high performance for automated assessment of LDAs on CXRs, although performance varies substantially according to the underlying task.AcrossthefourLDAdevicecategories,includingartificialairways,enterictubes, CVCs, and drains, a consistent pattern emerged regarding algorithm performance. Presence detection achieved the highest and most reproducible diagnostic accuracy, with several ETT detection models reporting AUROCs near 0.99 or higher across both adult and pedi- atric populations [14,38,39].Device localization also demonstrated strong performance, although performance varied with device complexity, anatomical variability, and image quality.In contrast, position classification remains the most challenging task because it requires not only accurate device localization but also precise detection of relevant anatom- ical landmarks before a clinically meaningful decision can be made [42].This progressive increase in task complexity was consistently reflected by declining performance across the reviewed studies, suggesting that future methodological advances should focus increas- ingly on anatomically informed position classification rather than further improvements in device detection alone.",
+          "page": 16,
+          "position": 447
+        },
+        {
+          "text": "While a limited number of models have demonstrated performance approaching that of expert radiologists, the majority have yet to achieve the robustness and generalizability requiredforroutineclinicaldeployment.Therefore,thecurrentroleofAIisprimarily to support rather than replace clinical expertise [13,19,20].In this role, AI is particularly valuable for bedside CXRs, where it may help clinicians identify potentially life-threatening malpositions before a formal radiology report becomes available [17,57,58].Collectively, these findings suggest that AI is best positioned as a CDS tool that improves workflow efficiency, enhances diagnostic consistency, and strengthens patient safety [14,20,39].",
+          "page": 16,
+          "position": 448
+        },
+        {
+          "text": "One important finding of this review is the scarcity of pediatric and neonatal evidence despite the substantial clinical need within these populations.Although several studies demonstrated excellent performance for detecting and localizing neonatal ETTs,umbil- ical catheters, and enteric feeding tubes [38,42], pediatric-specific investigations remain limited.Most currently available algorithms were developed using adult datasets [33,42]. This discrepancy is clinically significant because pediatric CXRs present unique imaging challenges, including substantially smaller anatomical structures, lower image contrast resulting from radiation dose reduction strategies, and the frequent coexistence of multiple overlapping life-support devices within a restricted field of view [33,38,60,61].Moreover, even minimal deviations in device position may result in serious complications in neonates and young children [56].Consequently, future research should prioritize pediatric-specific datasets and model architectures capable of accommodating substantial scale variation.",
+          "page": 16,
+          "position": 449
+        },
+        {
+          "text": "Despitetheencouragingprogressdemonstratedacrossliterature,severalmethod- ologicallimitationscontinuetoimpedebroaderclinicalimplementation.Terminology and thresholds for device malposition vary across device types and individual studies.In general, satisfactory positioning refers to placement within the accepted device-specific anatomical target range, whereas borderline or suboptimal positioning describes deviation from the ideal position that may warrant reassessment or adjustment but does not necessar- ily represent an immediate high-risk situation.Clinically significant malposition refers to a position associated with substantial risk of impaired device function or patient harm and generally requiring prompt clinical attention or correction.Some studies further use terms such as severe or critical malposition to describe specific high-risk subsets;these terms and their quantitative thresholds are study-specific and are therefore retained as originally",
+          "page": 16,
+          "position": 450
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 16,
+          "position": 451
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 18 of 22",
+          "page": 17,
+          "position": 452
+        },
+        {
+          "text": "defined when individual study results are reported.Representative clinically significant malpositions include endobronchial ETT placement,enteric tube entry into the respira- tory tract, excessive advancement of a central venous catheter into the heart or another unintended vessel, and displacement of a drainage catheter that compromises drainage. From a data perspective, severe class imbalance remains a persistent challenge because clinically significant device malposition occurs far less frequently than correctly positioned devices [11,48,49,58].Consequently, many algorithms are trained predominantly on nor- malexaminationsandmayexhibitreducedsensitivityfordetectingrare,butclinically significant device malposition.In addition, the lack of standardized annotation protocols and device-specific labeling may reduce both model performance and the comparability of published studies.A representative example is the publicly available CLiP dataset, in which multiple enteric feeding devices, including nasogastric, nasoduodenal, and nasojeju- nal tubes, are collectively labeled as nasogastric tubes [11,28,39].Although these devices share similar proximal courses through the esophagus, they differ substantially in their distal trajectories and intended anatomical endpoints [28].Consequently, models trained or externally validated on such datasets may experience reduced performance, particularly for malposition assessment, because the tube tip is the primary determinant of appropriate placement [28].More granular annotation of individual enteric tube types, their distal tips, and their corresponding placement criteria would therefore improve model development, facilitate fair comparison across studies, and enhance the clinical specificity of AI-assisted device assessment [28,39].Furthermore, the reference standard itself is inherently imperfect becauseannotationofcathetertips,airwaylandmarks,andotheranatomicalreference points is subject to inter-observer variability among experienced radiologists [14,26,52].",
+          "page": 17,
+          "position": 453
+        },
+        {
+          "text": "Futureresearchshouldthereforefocusontranslatingthesepromisingalgorithms into robust clinical tools.Rather than further improving image-level classification alone, future efforts should continue emphasizing anatomically informed localization frameworks thatintegratedevicesegmentation,landmarkidentification,andquantitativedistance measurements into clinically interpretable decision-making pipelines [34,43,48,52].The development of unified multi-device algorithms capable of simultaneously assessing the wide array of medical devices encountered on bedside CXRs would further enhance their clinical utility [11,14,38].Prospective multicenter validation across heterogeneous adult and pediatric populations will be essential to establish model robustness, generalizability, and clinical effectiveness under real-world conditions [19,33,39,49].",
+          "page": 17,
+          "position": 454
+        },
+        {
+          "text": "Even highly accurate algorithms will require careful integration into radiology and bedside workflows before they can achieve widespread adoption.AI systems for LDA assessment must be evaluated not only by conventional metrics, such as AUROC, Dice, andlocalizationerror,butalsobytheirimpactonreportturnaroundtime,urgentcase prioritization, false-positive alert burden, clinician trust, and downstream patient outcomes. In addition, model calibration, uncertainty estimation, failure-mode analysis, regulatory clearance, and post-deployment performance monitoring will be essential to ensure safe and reliable use across institutions, imaging equipment, patient populations, and clinical settings.Together, these advances may facilitate the translation of AI-assisted LDA assess- ment from retrospective algorithm development into routine clinical practice, improving workflow efficiency, enhancing diagnostic consistency, and ultimately contributing to safer patient care.",
+          "page": 17,
+          "position": 455
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "7.Conclusions",
+      "level": 1,
+      "page_start": 17,
+      "page_end": 18,
+      "paragraphs": [
+        {
+          "text": "AI has emerged as a powerful tool for the automated assessment of LDAs on CXRs, demonstrating substantial progress across a wide range of clinical applications.Among the reviewed studies, AI models consistently achieved the highest performance for presence",
+          "page": 17,
+          "position": 456
+        },
+        {
+          "text": "https://doi.org/10.3390/pediatric18050119",
+          "page": 17,
+          "position": 457
+        },
+        {
+          "text": "Pediatr.Rep. 2026, 18, 119 19 of 22",
+          "page": 18,
+          "position": 458
+        },
+        {
+          "text": "detection, followed by device localization, whereas position classification remained the mostchallengingtaskbecauseitrequiredintegrationofdevicepositionwithclinically relevantanatomicallandmarks.Collectively,thesefindingsdemonstratethegrowing potentialofAItoimprovebedsideimagingworkflowsthroughrapid,consistent,and reproducibleassessmentofmedicaldevices.However,theevidencesupportingthese findings is derived predominantly from adult populations, and pediatric- and neonatal- specific validation remains limited.",
+          "page": 18,
+          "position": 459
+        },
+        {
+          "text": "Despite these advances, several important challenges remain before widespread clini- cal implementation can be achieved.Current evidence suggests that AI is best positioned tofunctionasaCDStoolthatcomplements,ratherthanreplaces,radiologistexpertise. With continued methodological improvements, prospective multicenter validation, and thoughtful integration into radiology and bedside workflows, AI-assisted LDA assessment has the potential to become an important component of routine clinical practice, improving diagnostic efficiency, reducing interpretive variability, and ultimately contributing to safer patient care.",
+          "page": 18,
+          "position": 460
+        },
+        {
+          "text": "Author Contributions:Conceptualization, J.W. and H.L.; methodology, J.W. and H.L.; validation, L.H., G.R.S., A.J.T. and H.L.; formal analysis, J.W.; investigation, J.W. and H.L.; data curation, J.W.; writing—original draft preparation, J.W. and H.L.; writing—review and editing, L.H., G.R.S. and A.J.T.; visualization, J.W. and H.L.; supervision, H.L.; project administration, H.L.; funding acquisition, L.H. and H.L. All authors have read and agreed to the published version of the manuscript.",
+          "page": 18,
+          "position": 461
+        },
+        {
+          "text": "Funding:This work was supported by the National Institute of Biomedical Imaging and Bioengi- neering of the National Institutes of Health under award number R21EB036699, and by a Trustee Award from Cincinnati Children’s Hospital Medical Center.The funders played no role in the design, analysis or presentation of the findings.",
+          "page": 18,
+          "position": 462
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Institutional Review Board Statement:Not applicable.",
+          "level": 2,
+          "page_start": 18,
+          "page_end": 18,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Informed Consent Statement:Not applicable.",
+          "level": 2,
+          "page_start": 18,
+          "page_end": 18,
+          "paragraphs": [
+            {
+              "text": "Data Availability Statement:No new data were created or analyzed in this study.Data sharing is not applicable to this article.",
+              "page": 18,
+              "position": 463
+            },
+            {
+              "text": "Conflicts of Interest:The authors declare no conflicts of interest.",
+              "page": 18,
+              "position": 464
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Ibrahim, M.J.A.; Elbarbary, M.; Yacoub, G.E.E.; Abdo, M.A.M. Confirmation and reproducibility of endotracheal tube position by tracheal ultrasonography in preterms:Expert versus trainee.Eur.J. Pediatr.2025, 185, 2.[CrossRef] [PubMed] 2. Kandasamy, M.; Xue, S.; McGregor, N.; Xiang, H. Optimising central venous catheter placement by comparing cavoatrial junction position to chest X-ray landmarks:A cross-sectional study using CT chest reconstruction.J. Med.Imaging Radiat.Oncol.2024, 68, 667–672.[CrossRef] [PubMed] 3. Guo,L.J.;Bai,Y.Z.;Li,Z.Y.;Zhao,P.L.;Luo,B.Real-timelocalizationforport-implantedcathetertipbyechocardiographic guidance.Zhonghua Yi Xue Za Zhi 2024, 104, 1184–1187.[PubMed] 4. Mavrych,V.;Majeed,K.;Alshehri,S.;Yasmin,U.;Kashif,M.R.;Kashif,A.;Mahdi,W.;Talha,R.;Bolgova,O.Concordance Between Anthropometric Formula Predictions and Chest Radiograph-Confirmed Endotracheal Tube Depth in Young Infants:A Retrospective Cohort Study from Saudi Arabia.J. Clin.Med.2026, 15, 4554.[CrossRef] [PubMed] 5. Im, D.D.; Ross, P.A.; Hotz, J.; Newth, C.J.L. Evaluating the Practice of Repositioning Endotracheal Tubes in Neonates and Children Based on Radiographic Location.Pediatr.Crit.Care Med.2019, 20, 1057–1060.[CrossRef] [PubMed] 6. Volsko, T.A.; McNinch, N.L.; Page-Goertz, C. Development and internal validation of an equation using anthropometric measures to predict correct endotracheal tube insertion depth.Can.J. Respir.Ther.2022, 58, 9–14.[CrossRef] [PubMed] 7. Mathew, R.P.; Alexander, T.; Patel, V.; Low, G. Chest radiographs of cardiac devices (Part 1):Lines, tubes, non-cardiac medical devices and materials.S. Afr.J. Radiol.2019, 23, 1729.[CrossRef] [PubMed] 8. Gambato, M.; Scotti, N.; Borsari, G.; Zambon Bertoja, J.; Gabrieli, J.D.; De Cassai, A.; Cester, G.; Navalesi, P.; Quaia, E.; Causin, F. Chest X-ray Interpretation:Detecting Devices and Device-Related Complications.Diagnostics 2023, 13, 599.[CrossRef] [PubMed] https://doi.org/10.3390/pediatric18050119 Pediatr.Rep. 2026, 18, 119 20 of 22",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.3390/pediatric18050119"
+    },
+    {
+      "id": 2,
+      "raw_text": "Sakthivel,M.K.;Bosemani,T.;Bacchus,L.;Pamuklar,E.MalpositionedLinesandTubesonChestRadiograph—AConcise Pictorial Review.J. Clin.Imaging Sci.2020, 10, 66.[CrossRef] [PubMed] 10. Ablordeppey, E.A.; Drewry, A.M.; Beyer, A.B.; Theodoro, D.L.; Fowler, S.A.; Fuller, B.M.; Carpenter, C.R. Diagnostic Accuracy of Central Venous Catheter Confirmation by Bedside Ultrasound Versus Chest Radiography in Critically Ill Patients:A Systematic Review and Meta-Analysis.Crit.Care Med.2017, 45, 715–724.[CrossRef] [PubMed] 11. Abbas, M.; Kuo, W.C.; Mahmood, K.; Akram, W.; Mehmood, S.; Bashir, A.K. Conv-MTD: A CNN Based Multi-Label Medical Tubes Detection and Classification Model to Facilitate Resource-Constrained Point-of-Care Devices.IEEE J. Biomed.Health Inform. 2026, 30, 2927–2938.[CrossRef] [PubMed] 12. Schalekamp, S.;van Leeuwen, K.;Calli, E.;Murphy, K.;Rutten, M.;Geurts, B.;Peters-Bax, L.;van Ginneken, B.;Prokop, M. PerformanceofAItoexcludenormalchestradiographstoreduceradiologists’workload.Eur.Radiol.2024,34,7255–7263. [CrossRef] [PubMed] 13. An, J.Y.; Hwang, E.J.; Nam, G.; Lee, S.H.; Park, C.M.; Goo, J.M.; Choi, Y.R. Artificial Intelligence for Assessment of Endotracheal TubePositiononChestRadiographs:ValidationinPatientsFromTwoInstitutions.Am.J.Roentgenol.2024,222,e2329769. [CrossRef] [PubMed] 14. Niehues, S.M.; Adams, L.C.; Gaudin, R.A.; Erxleben, C.; Keller, S.; Makowski, M.R.; Vahldiek, J.L.; Bressem, K.K. Deep-Learning- Based Diagnosis of Bedside Chest X-ray in Intensive Care and Emergency Medicine.Investig.Radiol.2021, 56, 525–534.[CrossRef] [PubMed] 15. Rachh, P.; Levey, A.O.; Lemmon, A.; Marinescu, A.; Auffermann, W.F.; Haycook, D.; Berkowitz, E.A. Reducing STAT Portable Chest Radiograph Turnaround Times:A Pilot Study.Curr.Probl.Diagn.Radiol.2018, 47, 156–160.[CrossRef] [PubMed] 16. Wang,C.H.;Lin,T.;Chen,G.;Lee,M.R.;Tay,J.;Wu,C.Y.;Wu,M.C.;Roth,H.R.;Yang,D.;Zhao,C.;etal.DeepLearning- based Diagnosis and Localization of Pneumothorax on Portable Supine Chest X-ray in Intensive and Emergency Medicine:A Retrospective Study.J. Med.Syst.2023, 48, 1.[CrossRef] [PubMed] 17. Wang, C.H.; Hwang, T.; Huang, Y.S.; Tay, J.; Wu, C.Y.; Wu, M.C.; Roth, H.R.; Yang, D.; Zhao, C.; Wang, W.; et al.Deep Learning- Based Localization and Detection of Malpositioned Endotracheal Tube on Portable Supine Chest Radiographs in Intensive and Emergency Medicine:A Multicenter Retrospective Study.Crit.Care Med.2024, 52, 237–247.[CrossRef] [PubMed] 18. Park, S.; Cha, Y.K.; Park, S.; Chung, M.J.; Kim, K. Automated precision localization of peripherally inserted central catheter tip through model-agnostic multi-stage networks.Artif.Intell.Med.2023, 144, 102643.[CrossRef] [PubMed] 19. Drozdov, I.; Dixon, R.; Szubert, B.; Dunn, J.; Green, D.; Hall, N.; Shirandami, A.; Rosas, S.; Grech, R.; Puttagunta, S.; et al.An Artificial Neural Network for Nasogastric Tube Position Decision Support.Radiol.Artif.Intell.2023,5,e220165.[CrossRef] [PubMed] 20. Novak, A.; Ather, S.; Morgado, A.T.E.; Maskell, G.; Cowell, G.W.; Black, D.; Shah, A.; Bowness, J.S.; Shadmaan, A.; Bloomfield, C.; et al.Evaluation of the impact of artificial intelligence-assisted image interpretation on the diagnostic performance of clinicians in identifying endotracheal tube position on plain chest X-ray:A multi-case multi-reader study.Crit.Care 2025, 29, 330.[CrossRef] [PubMed] 21. Lonsdale, H.; Gray, G.M.; Ahumada, L.M.; Matava, C.T. Machine Vision and Image Analysis in Anesthesia:Narrative Review and Future Prospects.Anesth.Analg.2023, 137, 830–840.[CrossRef] [PubMed] 22. Yi, X.; Adams, S.J.; Henderson, R.D.E.; Babyn, P. Computer-aided Assessment of Catheters and Tubes on Radiographs:How Good Is Artificial Intelligence for Assessment?Radiol.Artif.Intell.2020, 2, e190082.[CrossRef] [PubMed] 23. Parums, D.V. Editorial:Review Articles, Systematic Reviews, Meta-Analysis, and the Updated Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 Guidelines.Med.Sci.Monit.2021, 27, e934475.[CrossRef] [PubMed] 24. Brown, M.S.; Wong, K.P.; Shrestha, L.; Wahi-Anwar, M.; Daly, M.; Foster, G.; Abtin, F.; Ruchalski, K.L.; Goldin, J.G.; Enzmann, D. Automated Endotracheal Tube Placement Check Using Semantically Embedded Deep Neural Networks.Acad.Radiol.2023, 30, 412–420.[CrossRef] [PubMed] 25. Kara, S.; Akers, J.Y.; Chang, P.D. Identification and Localization of Endotracheal Tube on Chest Radiographs Using a Cascaded Convolutional Neural Network Approach.J. Digit.Imaging 2021, 34, 898–904.[CrossRef] [PubMed] 26. Schultheis, W.G.; Lakhani, P. Using Deep Learning Segmentation for Endotracheal Tube Position Assessment.J. Thorac.Imaging 2022, 37, 125–131.[CrossRef] [PubMed] 27. Lakhani, P.; Flanders, A.; Gorniak, R. Endotracheal Tube Position Assessment on Chest Radiographs Using Deep Learning.Radiol. Artif.Intell.2021, 3, e200026.[CrossRef] [PubMed] 28. Wang, C.H.; Hwang, T.; Huang, Y.S.; Tay, J.; Wu, C.Y.; Wu, M.C.; Roth, H.R.; Yang, D.; Zhao, C.; Wang, W.; et al.Deep Learning- Based Localization and Detection of Malpositioned Nasogastric Tubes on Portable Supine Chest X-Rays in Intensive Care and Emergency Medicine:A Multi-center Retrospective Study.J. Imaging Inform.Med.2025, 38, 335–345.[CrossRef] [PubMed] https://doi.org/10.3390/pediatric18050119 Pediatr.Rep. 2026, 18, 119 21 of 22",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.3390/pediatric18050119"
+    },
+    {
+      "id": 3,
+      "raw_text": "Itkin,M.;DeLegge,M.H.;Fang,J.C.;McClave,S.A.;Kundu,S.;D’Othee,B.J.;Martinez-Salazar,G.M.;Sacks,D.;Swan,T.L.; Towbin, R.B.; et al.Multidisciplinary practical guidelines for gastrointestinal access for enteral nutrition and decompression from the Society of Interventional Radiology and American Gastroenterological Association (AGA) Institute, with endorsement by Canadian Interventional Radiological Association (CIRA) and Cardiovascular and Interventional Radiological Society of Europe (CIRSE). Gastroenterology 2011, 141, 742–765.[CrossRef] [PubMed] 30. Soscia, J.; Friedman, J.N. A guide to the management of common gastrostomy and gastrojejunostomy tube problems.Paediatr. Child Health 2011, 16, 281–287.[CrossRef] [PubMed] 31. Vittery Née Firth, E.; Sloan, K.; Powis, M. Transient respiratory distress and difficulty passing a nasogastric tube in a newborn baby.BMJ 2016, 355, i3695.[CrossRef] [PubMed] 32. Bersani, I.; Piersigilli, F.; Iacona, G.; Savarese, I.; Campi, F.; Dotta, A.; Auriti, C.; Di Stasio, E.; Garcovich, M. Incidence of umbilical vein catheter-associated thrombosis of the portal system:A systematic review and meta-analysis.World J. Hepatol.2021,13, 1802–1815.[CrossRef] [PubMed] 33. Yin, X.; Cheng, K.; Chen, Z.; Zhang, P.; Deng, K.; Deng, H.; Min, X. Topology preserving embedded network for PICC segmentation in pediatric X ray images.npj Digit.Med.2026, 9, 68.[CrossRef] [PubMed] 34. Wei, S.; Shrestha, L.; Melendez-Corres, G.; Brown, M.S. Anatomically Guided Deep Learning System for Right Internal Jugular Line (RIJL) Segmentation and Tip Localization in Chest X-Ray.Life 2025, 15, 201.[CrossRef] [PubMed] 35. Lee, H.; Mansouri, M.; Tajmir, S.; Lev, M.H.; Do, S. A Deep-Learning System for Fully-Automated Peripherally Inserted Central Catheter (PICC) Tip Detection.J. Digit.Imaging 2018, 31, 393–402.[CrossRef] [PubMed] 36. Tomaszkiewicz, A.; Szyma´nski, P.; Kruczek, P. Novel ultralow positioning of the umbilical artery catheter:A prospective pilot study.J. Ultrason.2024, 24, 1–6.[CrossRef] [PubMed] 37. Kim, D.J.; Nam, I.C.; Kim, D.R.; Kim, J.J.; Hwang, I.K.; Lee, J.S.; Park, S.E.; Kim, H. Detection and position evaluation of chest percutaneous drainage catheter on chest radiographs using deep learning.PLoS ONE 2024, 19, e0305859.[CrossRef] [PubMed] 38. Henderson,R.D.E.;Yi,X.;Adams,S.J.;Babyn,P.AutomaticDetectionandClassificationofMultipleCathetersinNeonatal Radiographs with Deep Learning.J. Digit.Imaging 2021, 34, 888–897.[CrossRef] [PubMed] 39. Tang,C.H.M.;Seah,J.C.Y.;Ahmad,H.K.;Milne,M.R.;Wardman,J.B.;Buchlak,Q.D.;Esmaili,N.;Lambert,J.F.;Jones,C.M. AnalysisofLineandTubeDetectionPerformanceofaChestX-ray DeepLearningModeltoEvaluateHiddenStratification. Diagnostics 2023, 13, 2317.[CrossRef] [PubMed] 40. Lakhani, P. Deep Convolutional Neural Networks for Endotracheal Tube Position and X-ray Image Classification:Challenges and Opportunities.J. Digit.Imaging 2017, 30, 460–468.[CrossRef] [PubMed] 41. Harris,R.J.;Baginski,S.G.;Bronstein,Y.;Kim,S.;Lohr,J.;Towey,S.;Velichkovich,Z.;Kabachenko,T.;Driscoll,I.;Baker,B. Measurement of Endotracheal Tube Positioning on Chest X-Ray Using Object Detection.J. Digit.Imaging 2021,34,846–852. [CrossRef] [PubMed] 42. Yi, X.; Adams, S.; Babyn, P.; Elnajmi, A. Automatic Catheter and Tube Detection in Pediatric X-ray Images Using a Scale-Recurrent Network and Synthetic Data.J. Digit.Imaging 2020, 33, 181–190.[CrossRef] [PubMed] 43. Stroeder, J.; Multusch, M.; Berkel, L.; Hansen, L.; Saalbach, A.; Schulz, H.; Heinrich, M.P.; Elser, Y.; Barkhausen, J.; Sieren, M.M. Optimizing Catheter Verification:An Understandable AI Model for Efficient Assessment of Central Venous Catheter Placement in Chest Radiography.Investig.Radiol.2025, 60, 267–274. 44. Hsu,C.C.;Ameri,R.;Lin,C.W.;He,J.S.;Biyari,M.;Yarahmadi,A.;Band,S.S.;Lin,T.K.;Fan,W.L.Arobustapproachfor endotracheal tube localization in chest radiographs.Front.Artif.Intell.2023, 6, 1181812.[CrossRef] [PubMed] 45. Jung, S.; Oh, J.; Ryu, J.; Kim, J.; Lee, J.; Cho, Y.; Yoon, M.S.; Jeong, J.Y. Classification of Central Venous Catheter Tip Position on Chest X-ray Using Artificial Intelligence.J. Pers.Med.2022, 12, 1637.[CrossRef] [PubMed] 46. Jung, H.C.; Kim, C.; Oh, J.; Kim, T.H.; Kim, B.; Lee, J.; Chung, J.H.; Byun, H.; Yoon, M.S.; Lee, D.K. Position Classification of theEndotrachealTubewithAutomaticSegmentationoftheTracheaandtheTubeonPlainChestRadiographyUsingDeep Convolutional Neural Network.J. Pers.Med.2022, 12, 1363.[CrossRef] [PubMed] 47. Yu, D.; Zhang, K.; Huang, L.; Zhao, B.; Zhang, X.; Guo, X.; Li, M.; Gu, Z.; Fu, G.; Hu, M.; et al.Detection of peripherally inserted central catheter (PICC) in chest X-ray images:A multi-task deep learning model.Comput.Methods Programs Biomed.2020, 197, 105674.[CrossRef] [PubMed] 48. Moon, G.; Moon, K.M.; Park, I.; Lee, K.; Lee, D.; Kim, W.J.; Kim, Y.; Hong, J.Y.; Choi, H.S. Unified model with random penalty entropy loss for robust nasogastric tube placement analysis in X-ray.Comput.Med.Imaging Graph.2026, 128, 102715.[CrossRef] [PubMed] 49. Park, S.W.; Lee, D.; Song, J.E.; Kim, Y.; Choi, H.S.; Lee, S.J.; Kim, W.J.; Moon, K.M.; Kwon, O.B. Pilot Evaluation of a Deep Learning Model for Nasogastric Tube Verification on Chest Radiographs:A Single-Center Retrospective Study.Tomography 2025, 11, 140. [CrossRef] [PubMed] 50. Park, I.; Moon, G.; Hong, J.Y.; Heo, J.; Ko, H.; Lee, D.; Kim, Y.; Kim, W.J.; Choi, H.S.; Moon, K.M. Deep learning based dual stage model for accurate nasogastric tube positioning in chest radiographs.Sci.Rep.2025, 15, 14556.[CrossRef] [PubMed] https://doi.org/10.3390/pediatric18050119 Pediatr.Rep. 2026, 18, 119 22 of 22",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": "10.3390/pediatric18050119"
+    },
+    {
+      "id": 4,
+      "raw_text": "Tsai, C.L.; Chu, T.C.; Wang, C.H.; Chang, W.T.; Tsai, M.S.; Ku, S.C.; Lin, Y.H.; Tai, H.C.; Kuo, S.W.; Wang, K.C.; et al.Clinical and Economic Evaluation of a Real-Time Chest X-Ray Computer-Aided Detection System for Misplaced Endotracheal and Nasogastric Tubes and Pneumothorax in Emergency and Critical Care Settings:Protocol for a Cluster Randomized Controlled Trial.JMIR Res. Protoc.2025, 14, e72928.[CrossRef] [PubMed] 52. Rueckel, J.; Huemmer, C.; Shahidi, C.; Buizza, G.; Hoppe, B.F.; Liebig, T.; Ricke, J.; Rudolph, J.; Sabel, B.O. Artificial Intelligence to Assess Tracheal Tubes and Central Venous Catheters in Chest Radiographs Using an Algorithmic Approach with Adjustable Positioning Definitions.Investig.Radiol.2024, 59, 306–313.[CrossRef] [PubMed] 53. Huang, M.H.; Chen, C.Y.; Horng, M.H.; Li, C.I.; Hsu, I.L.; Su, C.M.; Sun, Y.N.; Lai, C.H. Validation of a Deep Learning-based Automatic Detection Algorithm for Measurement of Endotracheal Tube-to-Carina Distance on Chest Radiographs.Anesthesiology 2022, 137, 704–715.[CrossRef] [PubMed] 54. Mao, L.K.; Huang, M.H.; Lai, C.H.; Sun, Y.N.; Chen, C.Y. Detecting Endotracheal Tube and Carina on Portable Supine Chest Radiographs Using One-Stage Detector with a Coarse-to-Fine Attention.Diagnostics 2022, 12, 1913.[CrossRef] [PubMed] 55. Oliver, M.; Renou, A.; Allou, N.; Moscatelli, L.; Ferdynus, C.; Allyn, J. Image augmentation and automated measurement of endotracheal-tube-to-carinadistance onchestradiographsin intensivecare unitusingadeeplearningmodelwithexternal validation.Crit.Care 2023, 27, 40.[CrossRef] [PubMed] 56. Tsai, L.W.; Yuan, K.C.; Hou, S.K.; Wu, W.L.; Hsu, C.H.; Liu, T.L.; Lee, K.M.; Li, C.H.; Chen, H.C.; Tu, E.; et al.Determining Carina and Clavicular Distance-Dependent Positioning of Endotracheal Tube in Critically Ill Patients:An Artificial Intelligence-Based Approach.Biology 2022, 11, 490.[CrossRef] [PubMed] 57. Singh, V.; Danda, V.; Gorniak, R.; Flanders, A.; Lakhani, P. Assessment of Critical Feeding Tube Malpositions on Radiographs Using Deep Learning.J. Digit.Imaging 2019, 32, 651–655.[CrossRef] [PubMed] 58. Mallon, D.H.; McNamara, C.D.; Rahmani, G.S.; O’Regan, D.P.; Amiras, D.G. Automated detection of enteric tubes misplaced in the respiratory tract on chest radiographs using deep learning with two centre validation.Clin.Radiol.2022, 77, e758–e764. [CrossRef] [PubMed] 59. Yuan, K.C.; Tsai, L.W.; Lai, K.S.; Teng, S.T.; Lo, Y.S.; Peng, S.J. Using Transfer Learning Method to Develop an Artificial Intelligence Assisted Triaging for Endotracheal Tube Position on Chest X-ray.Diagnostics 2021, 11, 1844.[CrossRef] [PubMed] 60. Frush,D.P.;Donnelly,L.F.;Chotas,H.G.Contemporarypediatricthoracicimaging.Am.J.Roentgenol.2000,175,841–851. [CrossRef] [PubMed] 61. Liszewski, M.C.; Daltro, P.; Lee, E.Y. Back to Fundamentals:Radiographic Evaluation of Thoracic Lines and Tubes in Children. Am.J. Roentgenol.2019, 212, 988–996.[CrossRef] [PubMed] Disclaimer/Publisher’sNote:Thestatements,opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual author(s) and contributor(s) and not of MDPI and/or the editor(s).MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content. https://doi.org/10.3390/pediatric18050119",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.3390/pediatric18050119"
+    }
+  ],
+  "page_count": 22,
+  "warnings": []
+}

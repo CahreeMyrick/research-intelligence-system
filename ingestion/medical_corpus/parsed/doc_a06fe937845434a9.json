@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "id": "doc_a06fe937845434a9",
+    "source": {
+      "filename": "PMC13613845.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13613845.1/PMC13613845.1.pdf",
+      "content_hash": "a06fe937845434a927b730a3bd227c4e956e36c26d72ca73600408921fc68bf0"
+    }
+  },
+  "metadata": {
+    "title": "Community-based chest X-ray screening versus symptom-based case presentation in the elderly: evidence from three consecutive years of data",
+    "authors": [
+      "Kui Liu",
+      "Ziyang Fang",
+      "Bin Chen",
+      "Yaling Feng",
+      "Zhicheng Yu",
+      "Yi Yu",
+      "Tao Jiang",
+      "Jianmin Jiang",
+      "Hui Zhang"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1186/s12877-026-07931-8",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "RESEARCH Open Access",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "BMC Geriatrics Liu et al. BMC Geriatrics         (2026) 26:1202 https://doi.org/10.1186/s12877-026-07931-8",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Community-based chest X-ray screening versus symptom-based case presentation in the elderly: evidence from three consecutive years of data",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Kui Liu1,2†, Ziyang Fang3†, Bin Chen2, Yaling Feng4, Zhicheng Yu4, Yi Yu5, Tao Jiang2, Jianmin Jiang2,6* and Hui Zhang1*",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "​​†​​K​u​i Liu and Ziyang Fang contributed equally to this work.",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "*Correspondence: Jianmin Jiang jmjiang@cdc.zj.cn Hui Zhang zhanghui@chinacdc.cn",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Full list of author information is available at the end of the article",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "© The Author(s) 2026. Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​ v​e​c​o​m​m​o​n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Abstract Background  Community-based chest X-ray (CXR) screening has been widely performed to improve tuberculosis identification in elderly populations, but comparative evidence against mode of symptom-driven case finding remains scarce. Methods  We conducted three annual rounds of mass CXR screening among individuals aged over 60 years in Lanxi City, China, from 2021 to 2023. Tuberculosis cases identified through CXR screening were compared with concurrent, symptom-driven case presentations via routine surveillance. Restricted cubic spline and multivariable logistic regression analyses were used to examine factors associated with distinct detection pathways. Results  At the individual level, a total of 831 tuberculosis cases were identified through two modes. CXR mass screening detected more patients with less typical symptoms, while symptom-driven detection was more effective in females (aOR = 0.59, 95% CI 0.39–0.88), bacteriologically confirmed cases (aOR = 0.42, 95% CI 0.27–0.63), and those aged greater than 80 (aOR = 0.50, 95% CI 0.30–0.82). Age showed a nonlinear association with mass screening yield, with peak effectiveness between 60 and 66 years while no significance was found for BMI. In population-level analysis, CXR mass screening outperformed symptom-driven detection for case identification in the first round but declined and reversed by the third round. Subgroup analyses revealed potential benefits among individuals with diabetes or prior tuberculosis history, particularly within two years post-diagnosis or treatment. Conclusions  Community-based CXR screening could effectively detect incremental tuberculosis cases with atypical or mild symptoms. The young-old would benefit from mass CXR screening, while more accessible services were needed for the very elderly. Elderly individuals with diabetes or prior tuberculosis history should be prioritized, with intensified monitoring within two years after diagnosis or treatment completion.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "Page 2 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 1,
+          "position": 8
+        },
+        {
+          "text": "​Introduction As a chronic infectious disease, tuberculosis causes huge challenges in low- and middle-income countries glob­ ally, especially among the 30 high burden countries [1]. According to the latest report released by the World Health Organization (WHO) in 2025, there were 10.7 million new tuberculosis cases globally, with an esti­ mated incidence rate of 131 per 100,000 population [2]. In recent years, with the enhancement of global surveil­ lance capacity and improvements in diagnostic technolo­ gies, the gap in undetected tuberculosis cases has been gradually narrowing. However, a disparity of approxi­ mately 2.7 million persists between estimated data and reported results [3]. To address this gap, active screening interventions, particularly community-based active case finding have been implemented to improve case detec­ tion in populations with limited healthcare access and well-confined regions [4].",
+          "page": 1,
+          "position": 9
+        },
+        {
+          "text": "Globally, passive case detection (PCF), where patients seek care based on their symptoms, remains the domi­ nant tuberculosis detection strategy [5, 6]. Recent studies showed that a clinically significant proportion of active pulmonary tuberculosis cases, particularly among elderly populations, presented with nonspecific or asymptomatic manifestations, substantially compromising the sensitiv­ ity of conventional PCF approaches [7, 8]. In this con­ text, mass screening such as using chest radiography has gained prominence as a viable case-finding modality in resource-constrained settings, owing to its optimal bal­ ance between diagnostic sensitivity and specificity for case identification [9–11].",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "Since 2021, we have conducted three annual rounds of active pulmonary tuberculosis case detection using Chest X-ray (CXR) screening among elderly populations in Lanxi City, China. This study aims to evaluate the dif­ ference between community-based CXR screening and concurrent symptom-driven group at both the individual and population levels. It would help identify effective patient demographic profiles of CXR screening for fur­ ther optimal screening intervention and clarify key target populations for screening in elderly communities as well.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "Methods Setting During 2021–2023, three rounds of CXR screening for tuberculosis among all community-dwelling elderly residents (aged ≥ 60 years, with median age of approxi­ mately 70 years) in Lanxi City, Zhejiang Province were performed. Lanxi City, located in eastern Zhejiang Prov­ ince, was a high-burden area of tuberculosis. Elderly indi­ viduals aged over 60 years accounted for 27% of the total",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "population. The tuberculosis notification rate among this elderly population was 205 per 100,000 in 2020, and the prevalence of latent tuberculosis infection among those aged over 65 years reached 26.78% [12]. The serial mass chest X-ray screenings were implemented in 16 local community health service centers. The location was pre­ sented in Figure S1.",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "Study design A previous study described the similar study design of the first round of CXR screening in community [13]. The screening period for each round was one year, tar­ geting local elderly individuals aged 60 and above. Each round of mass screening covered two stages: preliminary community mobilization and CXR screening in local community health centers. CXR screening underwent two rounds of review by community-based radiologists and peers from higher-level institutions. Presumptive tuberculosis cases were referred to designated hospitals for further evaluation. We defined tuberculosis cases identified through community-based CXR screening as presumptive tuberculosis cases detected through CXR screening in local community and confirmed via refer­ ral within three months after this specific mass screen­ ing. Symptom-driven tuberculosis cases in this study referred to pulmonary tuberculosis patients aged 60 or above who were notified in Lanxi City from 2021 to 2023 after seeking care at designated hospitals due to tuber­ culosis-related symptoms. Information on these patients was first obtained from the tuberculosis-specific report­ ing data in the China Disease Control and Prevention Information System and subsequently verified through field checks at designated hospitals to confirm symptom- driven Tuberculosis cases. Two scenarios were excluded: (1) tuberculosis cases who did not participate in commu­ nity-based active screening but were identified through routine physical examinations at local general hospitals and subsequently referred. (2) tuberculosis cases who were diagnosed during medical examinations or hospi­ talization for other diseases. For both community-based mass screening and symptom-driven tuberculosis cases identification, field verification at designated hospi­ tals was conducted to ultimately confirm diagnosis and patient-reported information, while relevant variables were collected. All diagnosed pulmonary tuberculosis cases received standardized treatment regimens, and their closed contacts received comprehensive interven­ tions in accordance with national guidelines.",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "Besides, the annual surveillance data for individu­ als with prior tuberculosis were constructed based on the time interval between treatment completion or cure",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "Keywords  Tuberculosis, Mass screening, Chest radiography, BMI, Diabetes",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "Page 3 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 2,
+          "position": 17
+        },
+        {
+          "text": "Variables Community-based CXR screening group Symptom-driven group P value N 374 457 Age Group, median [IQR] 70.00 [67.00, 75.75] 72.00 [67.00, 79.00] < 0.001 60–69 160 (42.8) 162 (35.4) 70–79 176 (47.1) 197 (43.1) ≥ 80 38 (10.2) 98 (21.4) BMI 0.737 < 18.5 55 (14.7) 59 (12.9) 18.5–23.9 261 (69.8) 323 (70.7) > 24 58 (15.5) 75 (16.4) Gender 0.321 Male 265 (70.9) 339 (74.2) Female 109 (29.1) 118 (25.8) Bacteriologically Confirmed < 0.001 Yes 278 (74.3) 398 (87.1) No 96 (25.7) 59 (12.9) Formal Education 0.572 Yes 270 (72.2) 339 (74.2) No 104 (27.8) 118 (25.8) Marital status 0.645 Married 294 (78.6) 354 (77.5) Unmarried 26 (7.0) 25 (5.5) Divorced 7 (1.9) 10 (2.2) Widowed 47 (12.6) 68 (14.9) Smoking 0.123 Non-smoker 249 (66.6) 334 (73.1) Former smoker 40 (10.7) 38 (8.3) Current smoker 85 (22.7) 85 (18.6) Drinking 0.021 Never 231 (61.8) 324 (70.9) Occasionally 32 (8.6) 31 (6.8) Frequently 111 (29.7) 102 (22.3) Diabetes 0.102 Yes 108 (28.9) 108 (23.6) No 266 (71.1) 349 (76.4) Prior History of Tuberculosis 0.339 Yes 20 (5.3) 33 (7.2) No 354 (94.7) 424 (92.8) Any Cough < 0.001 Yes 206 (55.1) 332 (72.6) No 168 (44.9) 125 (27.4) Cough lasted more than 2 weeks 0.001 Yes 178 (47.6) 270 (59.1) No 196 (52.4) 187 (40.9) Expectoration < 0.001 Yes 176 (47.1) 274 (60.0) No 198 (52.9) 183 (40.0) Hemoptysis 0.252 Yes 21 (5.6) 36 (7.9) No 353 (94.4) 421 (92.1) Chest Pain < 0.001 Yes 27 (7.2) 107 (23.4) No 347 (92.8) 350 (76.6) Fever < 0.001",
+          "page": 2,
+          "position": 18
+        },
+        {
+          "text": "Table 1  Baseline characteristics of case identification by community-based CXR screening group and symptom-driven cases group",
+          "page": 2,
+          "position": 19
+        },
+        {
+          "text": "Page 4 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 3,
+          "position": 20
+        },
+        {
+          "text": "were defined as having any tuberculosis treatment expe­ rience including completed course or cured before this round of tuberculosis treatment [16]. Previous tuberculo­ sis treatment records or diabetes diagnosis records were obtained through the online specialized illnesses report­ ing system or local patient self-reports.",
+          "page": 3,
+          "position": 21
+        },
+        {
+          "text": "Statistical analysis Descriptive statistics were used to summarize partici­ pant characteristics. Categorical variables were presented using frequencies/percentages, and the Chi-square (χ²) test and Fisher’s Exact Test were used to compare the differences between subgroups in both groups. Binary logistic regression identified factors for patients’ differ­ ence between CXR screening group and symptom-driven tuberculosis group, calculating adjusted ORs and 95% CIs, with P < 0.05 indicating significance. Restricted cubic spline (RCS) analysis was used to explore the potential nonlinear or linear association between the continuous variables and the ratio of the CXR mass screening group to the symptom-driven group [17]. Data processing and analysis were performed using R 4.5.",
+          "page": 3,
+          "position": 22
+        },
+        {
+          "text": "Results General features of tuberculosis cases identification in both community-based CXR screening group and symptom-driven group From 2021 to 2023, we conducted three rounds of screen­ ing in the Lanxi area, Zhejiang Province. The first round involved 49,339 participants, the second round involved 78,121 participants, and the third round involved 87,488 participants. A total of 374 active pulmonary tuberculo­ sis cases were identified through mass screening in these rounds. Among the 374 tuberculosis cases detected, 278 were bacteriologically positive, accounting for 74.33%. In comparison, during the same period, the symptom- driven group identified 457 tuberculosis patients aged 60 and above, with a bacteriological positivity rate of 87.1% (398/457). A comparison of demographic characteristics",
+          "page": 3,
+          "position": 23
+        },
+        {
+          "text": "with case closure in the Tuberculosis Surveillance System and their subsequent re-diagnosis with tuberculosis. The annual surveillance data on tuberculosis among diabetic patients were derived from the time interval between the patient’s initial diagnosis in the diabetes surveillance sys­ tem and the diagnosis of tuberculosis in its specific sur­ veillance system.",
+          "page": 3,
+          "position": 24
+        },
+        {
+          "text": "Study definitions In this study, we classified patient detection methods into two categories: community-based CXR screening and symptom-based case presentation. The former referred to cases identified through systematic community-based CXR screening of presumptive individuals, followed by referral and diagnostic confirmation. Symptom-based case presentation was defined as tuberculosis cases detected when patients proactively sought medical care due to TB-related symptoms. It should be noted that among passively detected cases, those identified inci­ dentally—for instance, through routine hospitalization check-ups—were excluded from the definition of symp­ tom-based case presentation in this study. The definition of bacteriologically confirmed and clinically diagnosed pulmonary tuberculosis cases in both groups referred to the Diagnostic Criteria for Pulmonary Tuberculosis (WS 288–2017) in China [14]. Smoking statuses were catego­ rized into 3 groups as nonsmoker, former smoker, and current smoker. Former smokers were defined as people with a previous history of smoking but now quit; cur­ rent smokers were defined as people who consumed any tobacco product within the past 30 days and had a life­ time cigarette use of 100 or more. Alcohol use was also categorized into 3 subgroups as nondrinkers, occasional drinkers who drink less than twice a week, and frequent drinkers who drink at least twice a week [12]. Body mass index (BMI) was generally categorized according to Asian-specific criteria as underweight (< 18.5 kg/m²), normal weight (18.5–23.9 kg/m²), and overweight (≥ 24 kg/m²) [15]. People with a prior history of tuberculosis",
+          "page": 3,
+          "position": 25
+        },
+        {
+          "text": "Variables Community-based CXR screening group Symptom-driven group P value Yes 36 (9.6) 104 (22.8) No 338 (90.4) 353 (77.2) Appetite Loss 0.001 Yes 6 (1.6) 31 (6.8) No 368 (98.4) 426 (93.2) Night Sweats 0.376 Yes 3 (0.8) 8 (1.8) No 371 (99.2) 449 (98.2) Weight Loss 0.869 Yes 2 (0.5) 4 (0.9) No 372 (99.5) 453 (99.1)",
+          "page": 3,
+          "position": 26
+        },
+        {
+          "text": "Percentages may not sum to 100% because of rounding",
+          "page": 3,
+          "position": 27
+        },
+        {
+          "text": "Table 1  (continued)",
+          "page": 3,
+          "position": 28
+        },
+        {
+          "text": "Page 5 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 4,
+          "position": 29
+        },
+        {
+          "text": "between the two groups revealed that the community- based CXR screening group had a higher proportion of tuberculosis identification in the 60–69 age group, while the average age of this specific group was lower than that of the symptom-driven group. Additionally, the commu­ nity-based screening group identified more tuberculosis cases with drinking habits. In terms of symptoms, cases in this group showed less pronounced symptoms such as any cough, cough lasting more than two weeks, expecto­ ration, chest pain, fever, and appetite loss compared to the symptom-driven group. More details were shown in Table 1.",
+          "page": 4,
+          "position": 30
+        },
+        {
+          "text": "Restricted cubic spline analysis for age and BMI Regarding the continuous variables of age and BMI, we further explored the relationship between these varia­ tions and the ratio of tuberculosis case finding through",
+          "page": 4,
+          "position": 31
+        },
+        {
+          "text": "community-based CXR screening to symptom-driven case finding, respectively. For the RCS analysis, age showed a highly significant nonlinear association with the odds ratio (overall P < 0.001, nonlinear P < 0.001). As shown in Fig. 1, between the ages of 60 and 66, the odds ratio increased rapidly with age, while after age 75, the odds ratio gradually declined. Besides, the multivariable- adjusted RCS model revealed no significant association between BMI and the odds ratio of two modes (overall P = 0.219, nonlinear P = 0.205). As illustrated in Figure S2, across the entire BMI distribution range, the adjusted odds ratio (aOR) estimates were close to 1.0, and their 95% confidence intervals consistently included the null value.",
+          "page": 4,
+          "position": 32
+        },
+        {
+          "text": "Fig. 1  The restricted cubic spline analysis of age and the odds ratio of pulmonary tuberculosis findings through community-based CXR screening to symptom-driven group",
+          "page": 4,
+          "position": 33
+        },
+        {
+          "text": "Page 6 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 5,
+          "position": 34
+        },
+        {
+          "text": "Multifactorial analysis of community-based CXR screening versus symptom-driven group Further multivariate analysis revealed that patients in the older age group (age ≥ 80), females, and those with bac­ teriologically confirmed tuberculosis were more suscep­ tible to being identified through symptom-driven group (Fig. 2). Additionally, patients presenting with symptoms such as cough, hemoptysis, chest pain, fever, and appetite loss were more likely to be diagnosed with tuberculosis via symptom-driven pathways. Conversely, symptoms including cough lasting more than two weeks, expecto­ ration, night sweats, and weight loss were consistently observed in both the community-based screening group and the symptom-driven group.",
+          "page": 5,
+          "position": 35
+        },
+        {
+          "text": "Population differences in tuberculosis case detection between community-based CXR screening and symptom- driven group At the population level, we compared the yield of tuber­ culosis detection between serial CXR screenings and concurrent symptom-driven presentations. In the first round, the CXR screening identified significantly more active pulmonary tuberculosis than the symptom-driven group with risk ratio (RR) 1.63 and its 95% CI 1.28 to",
+          "page": 5,
+          "position": 36
+        },
+        {
+          "text": "2.07. By the second round, no significant difference was observed between the two models. However, in the third round, the CXR screening group was associated with significantly lower tuberculosis detection among older adults compared with the symptom-driven group (RR = 0.70, 95% CI 0.55–0.89). Sex-specific analyses revealed that the overall trend among male participants was consistent with the general population, whereas no statistically significant differences were detected between both groups among females across any round. When stratified by age, the CXR screening group detected sig­ nificantly more tuberculosis cases in the 60–69 year age group than the symptom-driven identification in the first two rounds; however, this difference was no lon­ ger significant in the third round. Among participants aged 70–80 years, the symptom-driven group out­ performed the CXR screening group in the latter two rounds. Among individuals with a history of diabetes, the CXR screening improved tuberculosis detection across all rounds compared with the symptom-driven group. Among those with prior tuberculosis, the CXR screening exhibited a gradually increasing advantage in tuberculo­ sis case detection across screening rounds, with a mar­ ginally higher detection yield than the symptom-driven",
+          "page": 5,
+          "position": 37
+        },
+        {
+          "text": "Fig. 2  Multifactorial analysis of possible variables difference between two groups. It displayed the odds ratios (ORs) with 95% confidence intervals (CIs) for different tuberculosis finding models stratified by multiple demographic and clinical subgroups",
+          "page": 5,
+          "position": 38
+        },
+        {
+          "text": "Page 7 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 6,
+          "position": 39
+        },
+        {
+          "text": "presentation in the second round and a statistically sig­ nificant superiority in the third round of mass screening. It was shown in Fig. 3.",
+          "page": 6,
+          "position": 40
+        },
+        {
+          "text": "Analysis of surveillance data for populations with prior tuberculosis or diabetes We further examined the surveillance data on prior tuberculosis group and diabetes group. Among elderly patients in Lanxi City who completed the tuberculosis treatment course and were cured between 2014 and 2020, 47 cases developed tuberculosis again within the follow­ ing five years. Notably, 65.96% (31/47) of these recur­ rence cases occurred within two years after completing the treatment. Additionally, among elderly patients diag­ nosed with diabetes, 121 developed tuberculosis within five years of their diabetes diagnosis. Of these, 65.29% (79/121) occurred within the first two years after diabetes diagnosis. It was shown in Fig. 4.",
+          "page": 6,
+          "position": 41
+        },
+        {
+          "text": "Discussion In this study, we compared case detection via commu­ nity CXR screening with those found through symp­ tom-driven presentations. RCS analysis clarified the key individual attributes in improving the effectiveness of CXR screening among the elderly. Meanwhile, our find­ ings revealed significant differences in the demographic characteristics and clinical manifestations of tuber­ culosis identified by both strategies, providing a more detailed profile of targeted objectives by CXR screening. Finally, from a population perspective along with histori­ cal surveillance data, our findings indicated that active",
+          "page": 6,
+          "position": 42
+        },
+        {
+          "text": "screening should be prioritized or intensified for individ­ uals within two years following completion of tuberculo­ sis treatment or cure, as well as for those within two years after a diabetes diagnosis. Our findings offer important data support and decision-making basis for optimizing tuberculosis control strategies in the elderly population, particularly for implementing targeted screening in high- risk subgroups.",
+          "page": 6,
+          "position": 43
+        },
+        {
+          "text": "RCS analysis revealed a significant non-linear relation­ ship between age and case finding in different modes. Between the ages of 60 and 66, the odds ratio of patients in active cases findings increased rapidly, indicating that the relative yield of CXR screening improved with age during this interval. Some reasons might explain this result. Within this age interval, they maintained a cer­ tain level of social mobility and possessed discretionary time after retirement, resulting in higher accessibility to community-based screening [18]; meanwhile, the clinical symptoms of tuberculosis in the old population tended to be more insidious or atypical [19–21]. CXR screen­ ing could increase the chance of detecting more “hid­ den cases” and simultaneously raise the possibility of detecting more asymptomatic or atypical tuberculosis cases [7, 12]. This makes it a critical window for achiev­ ing early tuberculosis control. Consequently, invest­ ing community-based CXR screening resources in this group yielded incremental marginal returns with each additional year of age. After the age of 75, the odds ratio gradually declined, implying that case findings from community-based CXR screening diminished in the older population. This shift may be explained by some",
+          "page": 6,
+          "position": 44
+        },
+        {
+          "text": "Fig. 3  Tuberculosis prevalence to case notification ratio among distinct subgroup of elderly groups. It was stratified by sex, age group (60–69, 70–80, ≥80 years), diagnosed diabetes, and prior tuberculosis diagnosis, shown across three years",
+          "page": 6,
+          "position": 45
+        },
+        {
+          "text": "Page 8 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 7,
+          "position": 46
+        },
+        {
+          "text": "reasons below. Firstly, the accessibility of community- based CXR screening declined with age. Older adults faced physical functional decline and mobility challenges, making it difficult to participate in centralized commu­ nity screening [7]; secondly, their frequent medical visits due to multiple comorbidities increased the likelihood of tuberculosis detection during routine care, thereby par­ tially offsetting the relative benefits of mass screening [22, 23]. This indicated that for individuals aged 75 and above, CXR screening strategies in community required corresponding adjustments. That is to say, sole reliance on centralized CXR screening for tuberculosis in this specific age group may face limited yield, and alternative approaches such as door-to-door screening and integra­ tion into multi-chronic disease co-management should be explored to improve tuberculosis detection among the elderly population [24–27].",
+          "page": 7,
+          "position": 47
+        },
+        {
+          "text": "A notable negative finding in our study among the elderly subgroup was that BMI was not a predictor of the suitable pathway through which tuberculosis cases should be detected. From the perspective of optimizing resource allocation, prioritizing case finding strategies",
+          "page": 7,
+          "position": 48
+        },
+        {
+          "text": "based on BMI may be inefficient in the elderly popula­ tion. Whether driven by symptom‑based healthcare- seeking or active participation in mass screening, the decision‑making process among older adults was likely influenced more by factors such as symptom percep­ tion, functional status, and socioeconomic determinants, rather than anthropometric indices alone [28, 29]. In future, greater emphasis should be placed on the relative importance of refined age stratification and comorbid­ ity management in guiding targeted screening. Concur­ rently, we should explore efficient indicators, particularly behavioral and social determinants, to better differentiate the pathways of patient identification.",
+          "page": 7,
+          "position": 49
+        },
+        {
+          "text": "Third, multivariate analysis further identified impor­ tant independent factors influencing the pathways through which patients were detected. Older age group (greater than 80 years), female gender, bacteriologically confirmed positivity, and the presence of typical symp­ toms such as cough, hemoptysis, chest pain, fever, and appetite loss all significantly increased the likelihood of patients being detected through the symptom-driven pathway. These findings align with clinical observations",
+          "page": 7,
+          "position": 50
+        },
+        {
+          "text": "Fig. 4  Yearly proportion of pulmonary tuberculosis occurrence in a 5-year follow-up of prior tuberculosis and diabetes",
+          "page": 7,
+          "position": 51
+        },
+        {
+          "text": "Page 9 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+          "page": 8,
+          "position": 52
+        },
+        {
+          "text": "and suggested that, for specific subgroups such as senior women, it should strengthen tuberculosis awareness campaigns, enhance their vigilance and proactive health­ care-seeking behavior toward atypical symptoms [29, 30]. It also helped to reduce diagnostic delays [31]. Although not an unbiased approach to detecting asymptomatic tuberculosis, community-based mass screening using CXR played an indispensable role in identifying indi­ viduals with suggestive tuberculosis—particularly when patients presented only with atypical or minimal symp­ toms [32–35].",
+          "page": 8,
+          "position": 53
+        },
+        {
+          "text": "At the population level, stratified annual comparisons across different subgroups revealed dynamic variations in the effectiveness of screening strategies. Overall, the detection rate of the first round of community-based CXR screening was significantly higher than that of symptom-driven detection. However, as the number of screening rounds increased, its effectiveness gradu­ ally declined and reversed by the third round. This may reflect the substantial “depletion” of the pool of tuber­ culosis cases among individuals inclined to participate in mass screening after multiple rounds caused by self- selection bias [36]. Additionally, the possible decline in tuberculosis cases within the age groups, changes in pop­ ulation structure, and the potential impact of screening during the COVID-19 period may all have played a role. Notably, the benefits of CXR mass screening existed in some specific subgroups such as individuals with diabe­ tes and individuals with prior tuberculosis. Regarding the latter, CXR mass screening demonstrated higher detec­ tion rates than symptom-driven group starting from the second round. These findings are further validated by local surveillance data. About 65% of TB recurrences in cured patients and new TB cases among diabetic patients happened in the first two years after treatment or diag­ nosis. Thus, both high-risk groups should intensify more comprehensive interventions such as regularly collect­ ing sputum samples and concentratedly implementing tongue swab screening [37, 38]. It could facilitate early detection and treatment of recurrent or new tuberculo­ sis cases, thereby curbing transmission and improving patient prognosis.",
+          "page": 8,
+          "position": 54
+        },
+        {
+          "text": "Some limitations should be mentioned. Firstly, the symptoms reported in some patients’ chief complaint during their initial registration in designated hospitals may be inconsistent with those reported during the mass screening, potentially due to participants' stigma at the screening site or improper questioning techniques by community healthcare workers. Although we adjusted it based on chief complaints, potential bias may still exist. Secondly, due to the insidious onset of diabetes, we used the date of the patient’s first diabetes diagnosis in the monitoring data, which may have some impact on the subsequent duration of tuberculosis onset.",
+          "page": 8,
+          "position": 55
+        },
+        {
+          "text": "In conclusion, within the context of a high-burden city in Eastern China, a community-based CXR screen­ ing can effectively identify tuberculosis cases with mild or asymptomatic status compared with symptom-driven case detection at the individual level. Meanwhile, the current mass screening protocol should be maintained for the younger elderly group to improve case detection, while more convenient and precise services should be developed for the very elderly population. At the popu­ lation level, elderly individuals with diabetes or a history of tuberculosis should be prioritized as core screening populations, with an intensified monitoring mecha­ nism established within two years post-treatment or post-diagnosis.",
+          "page": 8,
+          "position": 56
+        },
+        {
+          "text": "Supplementary Information The online version contains supplementary material available at ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​ g​/​1​0​.​1​1​8​6​/​s​1​2​8​7​7​-​0​2​6​-​0​7​9​3​1​-​8​.​",
+          "page": 8,
+          "position": 57
+        },
+        {
+          "text": "Supplementary Material 1.",
+          "page": 8,
+          "position": 58
+        },
+        {
+          "text": "Acknowledgements We thank the medical staff and community workers in Lanxi who participated in the mass screening.",
+          "page": 8,
+          "position": 59
+        },
+        {
+          "text": "Authors’ contributions J.J. and H.Z. designed the study. K.L. and Z.F. wrote the initial manuscript draft. B.C. and T.J. modified subsequent versions of the manuscript. K.L. and Z.F. performed the statistical analysis with input from Y.F. and Z.Y. K.L., Y.Y., and Z.F. prepared the tables and figures. Y.F. and Z.Y. conducted the investigation and collected the data. K.L., Y.F., and Z.Y. were responsible for quality control of the investigation at the study sites and designated hospitals. All authors contributed to the article and approved the submitted version.",
+          "page": 8,
+          "position": 60
+        },
+        {
+          "text": "Funding The research was supported by the National Science and Technology Major Project (2025ZD01901004), “Pioneer” and “Leading Goose” R&D Program of Zhejiang (grant number 2025C01134), Disease Prevention and Control Innovation Team of Zhejiang Province (2026JKC-05), Zhejiang Provincial Medical and Health Project (2025KY774), and Zhejiang Science and Technology Plan for Disease Prevention and Control (Project No. 2026JKY294).",
+          "page": 8,
+          "position": 61
+        },
+        {
+          "text": "Data availability The datasets generated and analyzed during the current study are not publicly available due to ethical considerations involving sensitive personal health information. Access to these data may be granted for non-commercial academic research purposes upon reasonable request and is subjected to approval by the first author, Kui Liu. Requests should be directed to the corresponding authors, Dr. Jianmin Jiang (e-mail: jmjiang@cdc.zj.cn) and Dr. Hui Zhang (e-mail: zhanghui@chinacdc.cn). Requests will be evaluated within four weeks, and the data will be available for one month after approval. All other data supporting the findings of this study, including processed results, are available in the Supplementary Information.",
+          "page": 8,
+          "position": 62
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Declarations",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Ethics approval and consent to participate The study was approved by the Institutional Review Board of Zhejiang Provincial Center for Disease Control and Prevention and Lanxi City Center for Disease Control and Prevention (No. LX-2020-R-001, and 2025-049-01). For mass screening group, all participants undergoing CXR screening provided written informed consent to finish the study, using documents administered by Lanxi City Center for Disease Control and Prevention. For participants who were illiterate or unable to read, the informed consent form was verbally",
+              "page": 8,
+              "position": 63
+            },
+            {
+              "text": "Page 10 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+              "page": 9,
+              "position": 64
+            },
+            {
+              "text": "presented in its entirety by the research staff. Subsequently, a family member designated as a proxy provided consent by signing the document on the participant's behalf. Symptom-driven tuberculosis cases were obtained from surveillance system, and informed consent was waived as the data were exported and analyzed anonymously. The study was conducted in full compliance with the Declaration of Helsinki and China's Law on the Prevention and Treatment of Infectious Diseases.",
+              "page": 9,
+              "position": 65
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Consent for publication Not applicable.",
+              "level": 3,
+              "page_start": 9,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "Competing interests The authors declare no competing interests.",
+                  "page": 9,
+                  "position": 66
+                },
+                {
+                  "text": "Author details 1National Center for Tuberculosis Control and Prevention, Chinese Center for Disease Control and Prevention & Chinese Academy of Preventive Medicine, Beijing, China 2Department of Tuberculosis Control and Prevention, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, China 3Ningbo University, Ningbo, China 4Lanxi City Center for Disease Control and Prevention, Jinhua, China 5Hangzhou Xiaoshan Hospital of Traditional Chinese Medicine, Hangzhou, China 6Key Laboratory of Vaccine, Prevention and Control of Infectious Disease of Zhejiang Province, Zhejiang Provincial Center for Disease Control and Prevention, Hangzhou, Zhejiang, China",
+                  "page": 9,
+                  "position": 67
+                },
+                {
+                  "text": "Received: 26 January 2026 / Accepted: 29 June 2026",
+                  "page": 9,
+                  "position": 68
+                },
+                {
+                  "text": "References 1. Lv H, Wang L, Zhang X, Dang C, Liu F, Zhang X, et al. Further analysis of tuberculosis in eight high-burden countries based on the Global Burden of Disease Study 2021 data. Infect Dis Poverty. 2024;13(1):70. 2. World Health Organization. Global tuberculosis report 2025. Geneva: World Health Organization; 2025. 3. Chen Z, Wang T, Du J, Sun L, Wang G, Ni R, et al. Decoding the WHO global tuberculosis report 2024: a critical analysis of global and Chinese key data. Zoonoses. 2025;5(1):999. 4. Liu Q, You N, Wen J, Wang J, Ge Y, Shen Y, et al. Yield and efficiency of a population-based mass tuberculosis screening intervention among persons with diabetes in Jiangsu Province, China. Clin Infect Dis. 2023;77(1):103–11. 5. World Health Organization. Global tuberculosis report 2024. Geneva: World Health Organization; 2024. 6. Xu C, Zhao Y. Commit, invest and deliver: towards achieving end tuberculosis strategy goals through active case finding and preventive treatment in China. China CDC Wkly. 2025;7(13):407–12. 7. Zhou Y, Wang F, Chen S, Zhang Y, Wang W, Wu Q, et al. The asymptomatic tuberculosis proportion among the elderly population: a systematic review and meta-analysis. BMC Public Health. 2024;24(1):3551. 8. Yeh JJ, Chen JH, Kuo YL, Tsai CH, Ko YE. A clinical prediction model for atypical tuberculosis manifestations among older adults. Med (Kaunas). 2025;61(10):1888. 9. Telisinghe L, Fielding KL, Malden JL, Hanifa Y, Churchyard GJ, Grant AD, et al. High tuberculosis prevalence in a South African prison: the need for routine tuberculosis screening. PLoS ONE. 2014;9(1):e87262. 10.\tNguyen TBP, Nguyen TA, Luu BK, Le TTO, Nguyen VS, Nguyen KC, et al. A comparison of digital chest radiography and Xpert(®) MTB/RIF in active case finding for tuberculosis. Int J Tuberc Lung Dis. 2020;24(9):934–40. 11.\tDolla C, Padmapriyadarsini C, Pradeep Menon A, Muniyandi M, Adinarayanan S, Sekar G, et al. Tuberculosis among the homeless in Chennai city, South India. Trans R Soc Trop Med Hyg. 2017;111(10):479–81. 12.\tJiang X, Feng Y, Yu Z, Chen B, Wang W, Jiang G, et al. The latent tuberculosis infection survey using two interferon γ release assay tests among the elderly in a well-confined rural county in Eastern China. BMC Geriatr. 2025;25(1):1035. 13.\tHu Z, Liu K, Zhou M, Jiang X, Feng Y, Yu Z, et al. Mass tuberculosis screening among the elderly: a population-based study in a well-confined, rural county in eastern China. Clin Infect Dis. 2023;77(10):1468–75.",
+                  "page": 9,
+                  "position": 69
+                },
+                {
+                  "text": "14.\tNational Health Commission of the People’s Republic of China. Diagnostic criteria for pulmonary tuberculosis (WS 288–2017). ​h​t​t​p​s​:​/​/​w​w​w​.​n​h​c​.​g​o​v​.​c​n​/​ w​j​w​/​s​9​4​9​1​/​2​0​1​7​1​2​/​a​4​5​2​5​8​6​f​d​2​1​d​4​0​1​8​b​0​e​b​c​0​0​b​8​9​c​0​6​2​5​4​/​f​i​l​e​s​/​1​7​3​9​7​8​1​4​4​6​ 5​8​4​_​6​4​0​2​1​.​p​d​f​. Accessed 23 Jun 2026. 15.\tWorld Health Organization Expert Consultation. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet. 2004;363(9403):157–63. 16.\tZhu P, Chen X, Pan J, Wang W, Hao X, Xu B, et al. Prognostic value of an abnormal chest X-ray result in predicting the development of tuberculosis. Nat Commun. 2025;16(1):9866. 17.\tDiscacciati A, Palazzolo MG, Park JG, Melloni GEM, Murphy SA, Bellavia A. Esti­ mating and presenting non-linear associations with restricted cubic splines. Int J Epidemiol. 2025;54(4):dyaf088. 18.\tEibich P. Understanding the effect of retirement on health: mechanisms and heterogeneity. J Health Econ. 2015;43:1–12. 19.\tPérez-Guzmán C, Vargas MH, Torres-Cruz A, Villarreal-Velarde H. Does aging modify pulmonary tuberculosis? A meta-analytical review. Chest. 1999;116(4):961–7. 20.\tvan Arkel C, Storms I, Kurver L, Smeenk F, Wielders P, Hoefsloot W, et al. Elderly patients with tuberculosis in a low-incidence country: clinical characteristics, inflammation and outcome. J Infect. 2024;89(2):106200. 21.\tWang L, Zhang H, Ruan Y, Chin DP, Xia Y, Cheng S, et al. Tuberculosis preva­ lence in China, 1990–2010; a longitudinal analysis of national survey data. Lancet. 2014;383(9934):2057–64. 22.\tHan Y, Hu Y, Yu C, Guo Y, Pei P, Yang L, et al. Lifestyle, cardiometabolic disease, and multimorbidity in a prospective Chinese study. Eur Heart J. 2021;42(34):3374–84. 23.\tBarnett K, Mercer SW, Norbury M, Watt G, Wyke S, Guthrie B. Epidemiology of multimorbidity and implications for health care, research, and medical education: a cross-sectional study. Lancet. 2012;380(9836):37–43. 24.\tSung J, Nantale M, Nalutaaya A, Biché P, Mukiibi J, Akampurira J, et al. Long-term risk of tuberculosis among individuals with Xpert Ultra trace screening results in Uganda: a longitudinal follow-up study. Lancet Infect Dis. 2025;26(2):203–12. 25.\tGao L, Lu W, Bai L, Wang X, Xu J, Catanzaro A, et al. Latent tuberculosis infection in rural China: baseline results of a population-based, multicentre, prospective cohort study. Lancet Infect Dis. 2015;15(3):310–9. 26.\tPoot CC, Meijer E, Kruis AL, Smidt N, Chavannes NH, Honkoop PJ. Integrated disease management interventions for patients with chronic obstructive pulmonary disease. Cochrane Database Syst Rev. 2021;9(9):CD009437. 27.\tMpagama SG, Chamba NG, Byashalira KC, Kalolo A, Shayo PJ, Ramaiya KL, et al. Clinical audit for integration of communicable and non-communicable diseases at the primary health care level in Tanzania. East Afr Health Res J. 2023;7(2):241–8. 28.\tDuarte R, Lönnroth K, Carvalho C, Lima F, Carvalho ACC, Muñoz-Torrico M, et al. Tuberculosis, social determinants and co-morbidities (including HIV). Pulmonology. 2018;24(2):115–9. 29.\tTeo AKJ, Morishita F, Islam T, Viney K, Ong CWM, Kato S, et al. Tuberculosis in older adults: challenges and best practices in the Western Pacific Region. Lancet Reg Health West Pac. 2023;36:100770. 30.\tRajagopalan S. Tuberculosis and aging: a global health problem. Clin Infect Dis. 2001;33(7):1034–9. 31.\tYuen CM, Amanullah F, Dharmadhikari A, Nardell EA, Seddon JA, Vasilyeva I, et al. Turning off the tap: stopping tuberculosis transmission through active case-finding and prompt effective treatment. Lancet. 2015;386(10010):2334–43. 32.\tDrain PK, Bajema KL, Dowdy D, Dheda K, Naidoo K, Schumacher SG, et al. Incipient and subclinical tuberculosis: a clinical review of early stages and progression of infection. Clin Microbiol Rev. 2018;31(4):e00021–18. 33.\tKendall EA, Kitonsa PJ, Nalutaaya A, Erisa KC, Mukiibi J, Nakasolya O, et al. The spectrum of tuberculosis disease in an urban Ugandan community and its health facilities. Clin Infect Dis. 2021;72(12):e1035–43. 34.\tMishra H, Reeve BWP, Palmer Z, Caldwell J, Dolby T, Naidoo CC, et al. Xpert MTB/RIF Ultra and Xpert MTB/RIF for diagnosis of tuberculosis in an HIV- endemic setting with a high burden of previous tuberculosis: a two-cohort diagnostic accuracy study. Lancet Respir Med. 2020;8(4):368–82. 35.\tMendelsohn SC, Mulenga H, Tameris M, Moloantoa T, Malherbe ST, Katona A, et al. Screening for asymptomatic tuberculosis among adults with household exposure to pulmonary tuberculosis: a prospective observational cohort study. Lancet Glob Health. 2025;13(11):e1869–79.",
+                  "page": 9,
+                  "position": 70
+                },
+                {
+                  "text": "Page 11 of 11 Liu et al. BMC Geriatrics         (2026) 26:1202",
+                  "page": 10,
+                  "position": 71
+                },
+                {
+                  "text": "36.\tAutier P. Self-selection bias in randomized and observational studies on screening mammography: a quantitative assessment. Clin Epidemiol. 2025;17:441–50. 37.\tWang Y, Cui J, Li Y, Wang M, Han W, Liu A, et al. Rapid quantitative PCR on tongue swabs for pulmonary tuberculosis in adults: a prospective multicen­ tre study. Eur Respir J. 2025;65(1):2401493. 38.\tSteadman A, Andama A, Ball A, Mukwatamundu J, Khimani K, Mochizuki T, et al. New manual quantitative polymerase chain reaction assay validated",
+                  "page": 10,
+                  "position": 72
+                },
+                {
+                  "text": "on tongue swabs collected and processed in Uganda shows sensitivity that rivals sputum-based molecular tuberculosis diagnostics. Clin Infect Dis. 2024;78(5):1313–20.",
+                  "page": 10,
+                  "position": 73
+                },
+                {
+                  "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+                  "page": 10,
+                  "position": 74
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [],
+  "page_count": 11,
+  "warnings": [
+    "no references detected"
+  ]
+}

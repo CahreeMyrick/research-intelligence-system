@@ -29,22 +29,29 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     parser.add_argument(
+        "--config",
+        type=Path,
+        default=CONFIG_PATH,
+        help="Path to YAML configuration file.",
+    )
+
+    parser.add_argument(
         "--model",
-        default="qwen3:4b-docmind",
+        default=None,
         help="Local Ollama model.",
     )
 
     parser.add_argument(
         "--top-k",
         type=int,
-        default=10,
+        default=None,
         help="Number of evidence chunks to provide to Qwen.",
     )
 
     parser.add_argument(
         "--candidate-k",
         type=int,
-        default=50,
+        default=None,
         help="Number of retrieval candidates.",
     )
 
@@ -75,7 +82,7 @@ def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
 
-    config = IndexerConfig.from_yaml(CONFIG_PATH)
+    config = IndexerConfig.from_yaml(args.config)
 
     db_manager = DatabaseManager(
         config.database_url
@@ -97,7 +104,7 @@ def main() -> int:
     )
 
     llm_provider = OllamaQwenProvider(
-        model=args.model,
+        model=args.model if args.model is not None else config.llm_model,
     )
 
     qa_service = QuestionAnsweringService(
@@ -108,8 +115,8 @@ def main() -> int:
     try:
         response = qa_service.answer(
             args.question,
-            top_k=args.top_k,
-            candidate_k=args.candidate_k,
+            top_k=args.top_k if args.top_k is not None else config.top_k,
+            candidate_k=args.candidate_k if args.candidate_k is not None else config.candidate_k,
             year_from=args.year_from,
             year_to=args.year_to,
             document_id=args.document_id,

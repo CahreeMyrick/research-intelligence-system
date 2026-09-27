@@ -1,0 +1,1321 @@
+{
+  "document_id": "doc_8f4ee5f247825c41",
+  "chunk_count": 60,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0000",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0000",
+      "section_title": "(preamble)",
+      "section_path": [
+        "(preamble)"
+      ],
+      "source_text": "Academic Editor: Emilio Quaia\n\nReceived: 14 August 2026\n\nRevised: 4 September 2026\n\nAccepted: 7 September 2026\n\nPublished: 9 September 2026\n\nCopyright: © 2026 by the authors.\n\nLicensee MDPI, Basel, Switzerland.\n\nThis article is an open access article\n\ndistributed under the terms and\n\nconditions of theCreative Commons\n\nAttribution (CC BY) license.\n\nArticle Symmetric Siamese Networks for Longitudinal Chest Radiograph Change Detection:A Leakage-Controlled Study on MIMIC-CXR",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: (preamble)\n\nAcademic Editor: Emilio Quaia\n\nReceived: 14 August 2026\n\nRevised: 4 September 2026\n\nAccepted: 7 September 2026\n\nPublished: 9 September 2026\n\nCopyright: © 2026 by the authors.\n\nLicensee MDPI, Basel, Switzerland.\n\nThis article is an open access article\n\ndistributed under the terms and\n\nconditions of theCreative Commons\n\nAttribution (CC BY) license.\n\nArticle Symmetric Siamese Networks for Longitudinal Chest Radiograph Change Detection:A Leakage-Controlled Study on MIMIC-CXR",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "token_count": 100,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0001",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0001",
+      "section_title": "¸Sahin I¸sık1,* and Hakan Alp Eren2",
+      "section_path": [
+        "¸Sahin I¸sık1,* and Hakan Alp Eren2"
+      ],
+      "source_text": "1 Department of Computer Engineering, Engineering and Architecture Faculty, Eski¸sehir Osmangazi University, 26040 Eski¸sehir, Turkey 2 Department of Software Engineering, Engineering and Architecture Faculty, Eski¸sehir Osmangazi University, 26040 Eski¸sehir, Turkey; hakan.eren@ogu.edu.tr * Correspondence:sahini@ogu.edu.tr",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: ¸Sahin I¸sık1,* and Hakan Alp Eren2\n\n1 Department of Computer Engineering, Engineering and Architecture Faculty, Eski¸sehir Osmangazi University, 26040 Eski¸sehir, Turkey 2 Department of Software Engineering, Engineering and Architecture Faculty, Eski¸sehir Osmangazi University, 26040 Eski¸sehir, Turkey; hakan.eren@ogu.edu.tr * Correspondence:sahini@ogu.edu.tr",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        12
+      ],
+      "token_count": 71,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0002",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0002",
+      "section_title": "Simple Summary",
+      "section_path": [
+        "Simple Summary"
+      ],
+      "source_text": "Doctors who read chest X-rays almost always compare the new image with an earlier one toseewhetheraproblemhasappeared,improved,orstayedthesame.Mostartificial intelligence tools, however, look at only one image at a time, so they cannot tell whether a finding is new or has healed.In this study, we trained a model that looks at two chest X-rays of the same patient taken at different times and decides how specific findings, such asfluidaroundthelungs,havechanged.Usingmorethan14,000imagepairsfroma large public database, we show that the two-image model recognizes improvement and newly appearing findings far better than an equally trained one-image model, which often performs no better than guessing.These results support the construction of future medical imaging tools that, like radiologists, compare images over time rather than judging a single image in isolation.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: Simple Summary\n\nDoctors who read chest X-rays almost always compare the new image with an earlier one toseewhetheraproblemhasappeared,improved,orstayedthesame.Mostartificial intelligence tools, however, look at only one image at a time, so they cannot tell whether a finding is new or has healed.In this study, we trained a model that looks at two chest X-rays of the same patient taken at different times and decides how specific findings, such asfluidaroundthelungs,havechanged.Usingmorethan14,000imagepairsfroma large public database, we show that the two-image model recognizes improvement and newly appearing findings far better than an equally trained one-image model, which often performs no better than guessing.These results support the construction of future medical imaging tools that, like radiologists, compare images over time rather than judging a single image in isolation.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        13
+      ],
+      "token_count": 191,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0003",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0003",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "Background/Objectives: Radiologists usually read a chest radiograph by comparing it with an earlier one, yet most deep learning models are trained and tested on single images.This study measures how much a longitudinal pair of radiographs improves finding-specific change detection on MIMIC-CXR and tests whether the gain can be explained by encoder pretraining.Methods:One frontal pair per patient was built from the earliest and latest studies within 180 days (14,043 pairs), and paired CheXpert labels defined four transition classes:absent-to-absent, onset, resolved, and persistent.A Siamese DenseNet-121 with two symmetric, weight-sharing branches fused the two images through concatenation and feature difference, and it was compared with a matched baseline that received only the final image.Evaluation used patient-grouped five-fold cross-validation over five seeds and three leakage-free encoder regimes.Results:On two matched binary tasks that hold the final image fixed—resolved versus absent (1→0 vs.0→0) and onset versus persistent (0→1 vs.1→1)—the single-image baseline performed at chance (AUROC 0.45 to 0.60),while the paired model scored well above it (paired difference +0.18 to +0.37 for resolution and +0.12 to +0.34 for onset; all significant by patient-level bootstrap after multiple-comparison\n\ncorrection),reachingaresolved-versus-absentAUROCofupto0.87(supportdevices). Thebenefitwasstableacrossseeds,encoderregimes,projectionchanges,andfollow- up intervals, and the CheXpert-derived transitions agreed with radiologist annotations (Cohen’s κ up to 0.97).Conclusions:A prior radiograph adds value whenever the final imagealoneunderdeterminesthetransition,andtheysupportpair-baseddesignsfor longitudinal change analysis.\n\nTomography 2026, 12, 129 https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 2 of 16\n\nKeywords:chest radiography; change detection; Siamese networks; longitudinal imaging; MIMIC-CXR; data leakage; explainable AI",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: Abstract\n\nBackground/Objectives: Radiologists usually read a chest radiograph by comparing it with an earlier one, yet most deep learning models are trained and tested on single images.This study measures how much a longitudinal pair of radiographs improves finding-specific change detection on MIMIC-CXR and tests whether the gain can be explained by encoder pretraining.Methods:One frontal pair per patient was built from the earliest and latest studies within 180 days (14,043 pairs), and paired CheXpert labels defined four transition classes:absent-to-absent, onset, resolved, and persistent.A Siamese DenseNet-121 with two symmetric, weight-sharing branches fused the two images through concatenation and feature difference, and it was compared with a matched baseline that received only the final image.Evaluation used patient-grouped five-fold cross-validation over five seeds and three leakage-free encoder regimes.Results:On two matched binary tasks that hold the final image fixed—resolved versus absent (1→0 vs.0→0) and onset versus persistent (0→1 vs.1→1)—the single-image baseline performed at chance (AUROC 0.45 to 0.60),while the paired model scored well above it (paired difference +0.18 to +0.37 for resolution and +0.12 to +0.34 for onset; all significant by patient-level bootstrap after multiple-comparison\n\ncorrection),reachingaresolved-versus-absentAUROCofupto0.87(supportdevices). Thebenefitwasstableacrossseeds,encoderregimes,projectionchanges,andfollow- up intervals, and the CheXpert-derived transitions agreed with radiologist annotations (Cohen’s κ up to 0.97).Conclusions:A prior radiograph adds value whenever the final imagealoneunderdeterminesthetransition,andtheysupportpair-baseddesignsfor longitudinal change analysis.\n\nTomography 2026, 12, 129 https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 2 of 16\n\nKeywords:chest radiography; change detection; Siamese networks; longitudinal imaging; MIMIC-CXR; data leakage; explainable AI",
+      "page_start": 0,
+      "page_end": 1,
+      "paragraph_positions": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "token_count": 493,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0004",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0004",
+      "section_title": "1.Introduction",
+      "section_path": [
+        "1.Introduction"
+      ],
+      "source_text": "Radiological interpretation is comparative by nature.In clinical practice, a chest radio- graph is rarely read on its own; when earlier imaging exists, the current study is compared with it to decide whether findings are new, worse, better, or unchanged.Reporting guide- lines explicitly recommend this comparison and its documentation in the report [1].In many situations, the relevant question is therefore not whether an abnormality is present, but whether it has changed over time.For outcomes such as clearing of pulmonary edema or a pleural effusion after treatment, this question needs temporal information:a current radiograph with clear lungs cannot show, by itself, what was present before.Dedicated temporal chest-imaging techniques, such as dynamic (functional) radiography, have also been developed to capture time-resolved information [2].\n\nIncontrast,muchofthedeeplearningliteraturehastreatedchestradiographyas asingle-imageclassificationproblem.LargelabeledresourcessuchasCheXpertand MIMIC-CXR/MIMIC-CXR-JPG, distributed through the PhysioNet platform, have enabled modelsforimage-levelandfinding-levelclassification[3–6],andseveralsystemshave reportedperformancecomparabletoradiologistsforselectedfindings[7,8].Asingle- imagemodel,however,cannottellwhetheranobservedfindingisneworpersistent, norcanitestablishthatapreviouslypresentfindinghasbeenresolved.Howmucha modelgainsfromalongitudinalimage pair,andforwhich findings,thereforeremains insufficiently characterized.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 1.Introduction\n\nRadiological interpretation is comparative by nature.In clinical practice, a chest radio- graph is rarely read on its own; when earlier imaging exists, the current study is compared with it to decide whether findings are new, worse, better, or unchanged.Reporting guide- lines explicitly recommend this comparison and its documentation in the report [1].In many situations, the relevant question is therefore not whether an abnormality is present, but whether it has changed over time.For outcomes such as clearing of pulmonary edema or a pleural effusion after treatment, this question needs temporal information:a current radiograph with clear lungs cannot show, by itself, what was present before.Dedicated temporal chest-imaging techniques, such as dynamic (functional) radiography, have also been developed to capture time-resolved information [2].\n\nIncontrast,muchofthedeeplearningliteraturehastreatedchestradiographyas asingle-imageclassificationproblem.LargelabeledresourcessuchasCheXpertand MIMIC-CXR/MIMIC-CXR-JPG, distributed through the PhysioNet platform, have enabled modelsforimage-levelandfinding-levelclassification[3–6],andseveralsystemshave reportedperformancecomparabletoradiologistsforselectedfindings[7,8].Asingle- imagemodel,however,cannottellwhetheranobservedfindingisneworpersistent, norcanitestablishthatapreviouslypresentfindinghasbeenresolved.Howmucha modelgainsfromalongitudinalimage pair,andforwhich findings,thereforeremains insufficiently characterized.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        19,
+        20
+      ],
+      "token_count": 370,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0005",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0004",
+      "section_title": "1.Introduction",
+      "section_path": [
+        "1.Introduction"
+      ],
+      "source_text": "Longitudinal and comparative modeling has been studied in several medical imaging settings.Siamese networks have been used to grade disease severity and change in retinal photographs and knee radiographs [9], and dedicated methods have been proposed for interval change between sequential chest radiographs [10,11].Temporal information from priorimagesandreportshavealsobeenusedinvision-languagemodelingandreport generation [12,13].Siamese architectures are a natural choice for paired inputs because their two symmetric branches share the same weights and produce representations that canbecompareddirectly[14].Extendingthisideatomulti-findingchestradiograph progression raises three challenges.First, transition labels must be derived from per-image labelsattwotimepoints,whichinheritslabelnoiseandcreatesstrongclassimbalance dominated by the absent-to-absent state.Second, onset and resolution are individually uncommon for many findings, which makes their evaluation difficult. Third, pretraining the encoder on the same corpus can leak information if images from test patients contributed torepresentationlearning;patient-levelseparationisthereforeessential[15].Without controlling this overlap, gains attributed to longitudinal comparison are hard to separate from information introduced during pretraining.\n\nIn this study, we quantify the contribution of longitudinal pairing to finding-specific change detection on MIMIC-CXR under an experimental design that is robust to pretraining leakage.For each finding, the task is to predict one of four transitions (absent-to-absent, onset, resolved, or persistent) from the patient’s earliest and latest frontal studies within a bounded interval.A Siamese DenseNet-121 encodes the two images, and their represen- tations are fused through concatenation and feature difference.A single-image baseline receives only the final radiograph, which isolates the contribution of the prior image.Eval- uation uses patient-grouped cross-validation, and the whole comparison is repeated under\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 3 of 16\n\nthree encoder initialization regimes without train/test patient overlap.Our contributions are four-fold:",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 1.Introduction\n\nLongitudinal and comparative modeling has been studied in several medical imaging settings.Siamese networks have been used to grade disease severity and change in retinal photographs and knee radiographs [9], and dedicated methods have been proposed for interval change between sequential chest radiographs [10,11].Temporal information from priorimagesandreportshavealsobeenusedinvision-languagemodelingandreport generation [12,13].Siamese architectures are a natural choice for paired inputs because their two symmetric branches share the same weights and produce representations that canbecompareddirectly[14].Extendingthisideatomulti-findingchestradiograph progression raises three challenges.First, transition labels must be derived from per-image labelsattwotimepoints,whichinheritslabelnoiseandcreatesstrongclassimbalance dominated by the absent-to-absent state.Second, onset and resolution are individually uncommon for many findings, which makes their evaluation difficult. Third, pretraining the encoder on the same corpus can leak information if images from test patients contributed torepresentationlearning;patient-levelseparationisthereforeessential[15].Without controlling this overlap, gains attributed to longitudinal comparison are hard to separate from information introduced during pretraining.\n\nIn this study, we quantify the contribution of longitudinal pairing to finding-specific change detection on MIMIC-CXR under an experimental design that is robust to pretraining leakage.For each finding, the task is to predict one of four transitions (absent-to-absent, onset, resolved, or persistent) from the patient’s earliest and latest frontal studies within a bounded interval.A Siamese DenseNet-121 encodes the two images, and their represen- tations are fused through concatenation and feature difference.A single-image baseline receives only the final radiograph, which isolates the contribution of the prior image.Eval- uation uses patient-grouped cross-validation, and the whole comparison is repeated under\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 3 of 16\n\nthree encoder initialization regimes without train/test patient overlap.Our contributions are four-fold:",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "token_count": 477,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0006",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0004",
+      "section_title": "1.Introduction",
+      "section_path": [
+        "1.Introduction"
+      ],
+      "source_text": "https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 3 of 16\n\nthree encoder initialization regimes without train/test patient overlap.Our contributions are four-fold:\n\n• Quantifying the value of longitudinal pairing:on two matched tasks that hold the finalimagefixed,thesingle-imagebaselineisatchancewhilethepairedmodelis well above it for resolution (1→0 vs.0→0) and onset (0→1 vs.1→1) alike (paired AUROC gains +0.18 to +0.37 and +0.12 to +0.34),showing that a prior radiograph helps whenever the final image alone underdetermines the transition. • A leakage-controlled design:the comparison is repeated with three encoder regimes without train/test patient overlap, and Siamese resolution performance stays similar across them. • Architecture-alignedinterpretability:achange-pathwayGrad-CAMisolatesthe feature-difference branch and complements conventional paired Grad-CAM. • A reproducible benchmark: the full pipeline and the cross-validation fold definitions are made publicly available on GitHub (https://github.com/haeren/mimic-cxr-siamese).\n\nThe rest of the paper describes the data and methods in Section 2, presents the results in Section 3, discusses their interpretation and limitations in Section 4, and concludes in Section 5.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 1.Introduction\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 3 of 16\n\nthree encoder initialization regimes without train/test patient overlap.Our contributions are four-fold:\n\n• Quantifying the value of longitudinal pairing:on two matched tasks that hold the finalimagefixed,thesingle-imagebaselineisatchancewhilethepairedmodelis well above it for resolution (1→0 vs.0→0) and onset (0→1 vs.1→1) alike (paired AUROC gains +0.18 to +0.37 and +0.12 to +0.34),showing that a prior radiograph helps whenever the final image alone underdetermines the transition. • A leakage-controlled design:the comparison is repeated with three encoder regimes without train/test patient overlap, and Siamese resolution performance stays similar across them. • Architecture-alignedinterpretability:achange-pathwayGrad-CAMisolatesthe feature-difference branch and complements conventional paired Grad-CAM. • A reproducible benchmark: the full pipeline and the cross-validation fold definitions are made publicly available on GitHub (https://github.com/haeren/mimic-cxr-siamese).\n\nThe rest of the paper describes the data and methods in Section 2, presents the results in Section 3, discusses their interpretation and limitations in Section 4, and concludes in Section 5.",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "token_count": 323,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0007",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0005",
+      "section_title": "2.Materials and Methods",
+      "section_path": [
+        "2.Materials and Methods"
+      ],
+      "source_text": "Figure 1 gives an overview of the experimental design.Each patient contributes one earliest–latest frontal pair within 180 days.A shared DenseNet-121 encodes the two images, and their features are fused (first image, last image, and their difference) before 14 finding- specific four-class transition heads.Three leakage-free encoder regimes (ImageNet, disjoint, andfold-nested)areevaluated,andamatchedsingle-imagebaselinefeedsthelatest radiograph to both branches.Evaluation uses patient-grouped five-fold cross-validation across five random seeds.\n\nFigure 1.Overview of the longitudinal change-detection framework.\n\n2.1.Dataset, Pre-Processing, and Longitudinal Pairing\n\nWe used MIMIC-CXR-JPG v2.1.0 [5], including its metadata and CheXpert label files. The dataset is derived from the original MIMIC-CXR database [4] and was accessed through PhysioNet under its credentialed data use agreement [6].Only frontal projections, antero- posterior(AP)andpostero-anterior(PA),wereincluded,becausethefindingsstudied hereareassessedfromfrontalimages.Whenastudycontainedseveralfrontalimages,\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 4 of 16\n\none representative image was kept, with PA preferred over AP. Images were converted to RGB, padded to a centered square, and resized to 320 × 320 pixels.Labels came from the CheXpert automatic labeler distributed with the dataset [3,5], covering 14 observations with the states positive (1), negative (0), uncertain (−1), or unmentioned.We verified that patient identities did not overlap across the provided partitions, then recombined them and used patient-grouped cross-validation instead (Section 2.4).",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\n\nFigure 1 gives an overview of the experimental design.Each patient contributes one earliest–latest frontal pair within 180 days.A shared DenseNet-121 encodes the two images, and their features are fused (first image, last image, and their difference) before 14 finding- specific four-class transition heads.Three leakage-free encoder regimes (ImageNet, disjoint, andfold-nested)areevaluated,andamatchedsingle-imagebaselinefeedsthelatest radiograph to both branches.Evaluation uses patient-grouped five-fold cross-validation across five random seeds.\n\nFigure 1.Overview of the longitudinal change-detection framework.\n\n2.1.Dataset, Pre-Processing, and Longitudinal Pairing\n\nWe used MIMIC-CXR-JPG v2.1.0 [5], including its metadata and CheXpert label files. The dataset is derived from the original MIMIC-CXR database [4] and was accessed through PhysioNet under its credentialed data use agreement [6].Only frontal projections, antero- posterior(AP)andpostero-anterior(PA),wereincluded,becausethefindingsstudied hereareassessedfromfrontalimages.Whenastudycontainedseveralfrontalimages,\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 4 of 16\n\none representative image was kept, with PA preferred over AP. Images were converted to RGB, padded to a centered square, and resized to 320 × 320 pixels.Labels came from the CheXpert automatic labeler distributed with the dataset [3,5], covering 14 observations with the states positive (1), negative (0), uncertain (−1), or unmentioned.We verified that patient identities did not overlap across the provided partitions, then recombined them and used patient-grouped cross-validation instead (Section 2.4).",
+      "page_start": 2,
+      "page_end": 3,
+      "paragraph_positions": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "token_count": 430,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0008",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0005",
+      "section_title": "2.Materials and Methods",
+      "section_path": [
+        "2.Materials and Methods"
+      ],
+      "source_text": "For each patient with at least two distinct frontal studies, we built one longitudinal pair from the earliest and latest eligible studies.One pair per patient avoids repeated obser- vations from the same person and matches the patient-level fold assignment.Temporal order was taken from the anonymized study dates, whose chronological order and intervals arepreservedwithineachpatient[5].Weexaminedpairingstatisticsundermaximum follow-upwindowsof90and180days.The90-daylimitkept11,664of30,742eligible patients(37.9%;medianinterval10days),whilethe180-daylimitkept14,043patients (45.7%; median interval 16 days) and gave larger class support.The 180-day window was therefore used for all model training and evaluation; the 90-day window served only for preliminarycharacterization.Afurther32,486patientshadonlyasinglefrontalstudy; these patients were used only for leakage-free encoder pretraining (Section 2.4) and never entered the change-detection dataset.\n\n2.2.Transition Labels",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\n\nFor each patient with at least two distinct frontal studies, we built one longitudinal pair from the earliest and latest eligible studies.One pair per patient avoids repeated obser- vations from the same person and matches the patient-level fold assignment.Temporal order was taken from the anonymized study dates, whose chronological order and intervals arepreservedwithineachpatient[5].Weexaminedpairingstatisticsundermaximum follow-upwindowsof90and180days.The90-daylimitkept11,664of30,742eligible patients(37.9%;medianinterval10days),whilethe180-daylimitkept14,043patients (45.7%; median interval 16 days) and gave larger class support.The 180-day window was therefore used for all model training and evaluation; the 90-day window served only for preliminarycharacterization.Afurther32,486patientshadonlyasinglefrontalstudy; these patients were used only for leakage-free encoder pretraining (Section 2.4) and never entered the change-detection dataset.\n\n2.2.Transition Labels",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        35,
+        36
+      ],
+      "token_count": 255,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0009",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0005",
+      "section_title": "2.Materials and Methods",
+      "section_path": [
+        "2.Materials and Methods"
+      ],
+      "source_text": "2.2.Transition Labels\n\nForeachfinding,afour-classtransitionlabelwasderivedfromthelabelerstates at thetwo timepoints.Eachendpointwas treated aspresent whenthe rawlabel was 1 andnotpresentwhenitwasnegativeorunmentioned.Itisimportanttonotethat,in radiology reports, an unmentioned finding is not necessarily radiographically absent; find- ings are typically reported when present or explicitly excluded, so silence usually—but not always—implies absence.In this cohort, the great majority of not-present endpoints were unmentioned rather than explicitly negated (ranging from about 82% to 100% across Tier-1findings),sothe0→0classinparticularshouldbereadas“negativeorunmen- tioned” rather than be confirmed as negative.This is a known property of report-derived labels and is why the field-standard CheXpert convention treats unmentioned as negative; follow-up reports may additionally be selective, documenting a previously noted finding’s progression while omitting a stable known finding, so a follow-up is not always a complete reassessment.TheresultingclassesaredefinedinTable1.Allfourclassesarereport- derived label transitions rather than radiologist-adjudicated events, and the “negative or unmentioned” readingof state 0 applies to every classthat involves it:throughout the manuscript,onset(0→1)denotesafindingnewlyreportedaspresentafterbeingnega- tiveorunmentioned,andresolved(1→0)denotesafindingreportedaspresentearlier and negative or unmentioned later.Because an unmentioned finding is not necessarily radiographically absent and follow-up reporting may be selective, a fraction of these label transitionsmaynotcorrespondtotrueradiographiconsetorresolution(seeSection4).",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\n\n2.2.Transition Labels\n\nForeachfinding,afour-classtransitionlabelwasderivedfromthelabelerstates at thetwo timepoints.Eachendpointwas treated aspresent whenthe rawlabel was 1 andnotpresentwhenitwasnegativeorunmentioned.Itisimportanttonotethat,in radiology reports, an unmentioned finding is not necessarily radiographically absent; find- ings are typically reported when present or explicitly excluded, so silence usually—but not always—implies absence.In this cohort, the great majority of not-present endpoints were unmentioned rather than explicitly negated (ranging from about 82% to 100% across Tier-1findings),sothe0→0classinparticularshouldbereadas“negativeorunmen- tioned” rather than be confirmed as negative.This is a known property of report-derived labels and is why the field-standard CheXpert convention treats unmentioned as negative; follow-up reports may additionally be selective, documenting a previously noted finding’s progression while omitting a stable known finding, so a follow-up is not always a complete reassessment.TheresultingclassesaredefinedinTable1.Allfourclassesarereport- derived label transitions rather than radiologist-adjudicated events, and the “negative or unmentioned” readingof state 0 applies to every classthat involves it:throughout the manuscript,onset(0→1)denotesafindingnewlyreportedaspresentafterbeingnega- tiveorunmentioned,andresolved(1→0)denotesafindingreportedaspresentearlier and negative or unmentioned later.Because an unmentioned finding is not necessarily radiographically absent and follow-up reporting may be selective, a fraction of these label transitionsmaynotcorrespondtotrueradiographiconsetorresolution(seeSection4).",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        36,
+        37
+      ],
+      "token_count": 429,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0010",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0005",
+      "section_title": "2.Materials and Methods",
+      "section_path": [
+        "2.Materials and Methods"
+      ],
+      "source_text": "Fornon-pathologicalobservationssuchasNoFindingandSupportDevices,theterms likewise describe label-state changes rather than literal disease onset or resolution.If either endpoint was uncertain (−1), the transition was masked for that pair and excluded from training and evaluation.This conservative rule avoids inferring a change from an uncertain endpoint, but it also means that findings with high labeler uncertainty are judged only on their confident subsets (see Section 4).\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 5 of 16\n\nTable 1.The four transition classes derived from paired finding labels at the two timepoints.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\n\nFornon-pathologicalobservationssuchasNoFindingandSupportDevices,theterms likewise describe label-state changes rather than literal disease onset or resolution.If either endpoint was uncertain (−1), the transition was masked for that pair and excluded from training and evaluation.This conservative rule avoids inferring a change from an uncertain endpoint, but it also means that findings with high labeler uncertainty are judged only on their confident subsets (see Section 4).\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 5 of 16\n\nTable 1.The four transition classes derived from paired finding labels at the two timepoints.",
+      "page_start": 3,
+      "page_end": 4,
+      "paragraph_positions": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "token_count": 151,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0011",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0006",
+      "section_title": "Code Transition Meaning",
+      "section_path": [
+        "2.Materials and Methods",
+        "Code Transition Meaning"
+      ],
+      "source_text": "0 0→0 Absent (negative or unmentioned) at both studies\n\n1 0→1 Onset (newly reported present; previously negative or unmentioned)\n\n2 1→0 Resolved (no longer reported present; negative or unmentioned at follow-up) 3 1→1 Persistent\n\nThetransitionclasseswerehighlyimbalanced:absent-to-absentdominatedevery finding, while 0→1 and 1→0 were much rarer.Table 2 lists the per-finding support under the180-daywindow;becauseeverypairisaheld-outtestexampleexactlyonce,the pooledcountsequaltheeffectiveevaluationsupport.Findingswithatleast800onset and 800 resolution transitions were defined as Tier-1 and form the primary analysis.The remainingfindingsareTier-2andaretreatedassecondarybecausetheirrareclasses givewiderconfidenceintervals.PleuralOtherhastoolittlesupportandislistedonly for completeness.\n\nTable 2.Per-finding transition support within the 180-day follow-up window among 14,043 pairs.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: Code Transition Meaning\n\n0 0→0 Absent (negative or unmentioned) at both studies\n\n1 0→1 Onset (newly reported present; previously negative or unmentioned)\n\n2 1→0 Resolved (no longer reported present; negative or unmentioned at follow-up) 3 1→1 Persistent\n\nThetransitionclasseswerehighlyimbalanced:absent-to-absentdominatedevery finding, while 0→1 and 1→0 were much rarer.Table 2 lists the per-finding support under the180-daywindow;becauseeverypairisaheld-outtestexampleexactlyonce,the pooledcountsequaltheeffectiveevaluationsupport.Findingswithatleast800onset and 800 resolution transitions were defined as Tier-1 and form the primary analysis.The remainingfindingsareTier-2andaretreatedassecondarybecausetheirrareclasses givewiderconfidenceintervals.PleuralOtherhastoolittlesupportandislistedonly for completeness.\n\nTable 2.Per-finding transition support within the 180-day follow-up window among 14,043 pairs.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "token_count": 254,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0012",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0007",
+      "section_title": "Finding Tier Onset (0→1)",
+      "section_path": [
+        "2.Materials and Methods",
+        "Finding Tier Onset (0→1)"
+      ],
+      "source_text": "Finding Tier Onset (0→1)",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: Finding Tier Onset (0→1)\n\nFinding Tier Onset (0→1)",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 8,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0013",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0008",
+      "section_title": "Resolved",
+      "section_path": [
+        "2.Materials and Methods",
+        "Resolved"
+      ],
+      "source_text": "Resolved",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: Resolved\n\nResolved",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0014",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0009",
+      "section_title": "(1→0)",
+      "section_path": [
+        "2.Materials and Methods",
+        "(1→0)"
+      ],
+      "source_text": "(1→0)",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (1→0)\n\n(1→0)",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0015",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0010",
+      "section_title": "Persistent",
+      "section_path": [
+        "2.Materials and Methods",
+        "Persistent"
+      ],
+      "source_text": "Persistent",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: Persistent\n\nPersistent",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0016",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0011",
+      "section_title": "(1→1)",
+      "section_path": [
+        "2.Materials and Methods",
+        "(1→1)"
+      ],
+      "source_text": "(1→1)",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (1→1)\n\n(1→1)",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0017",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0012",
+      "section_title": "Absent",
+      "section_path": [
+        "2.Materials and Methods",
+        "Absent"
+      ],
+      "source_text": "Absent",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: Absent\n\nAbsent",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0018",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0013",
+      "section_title": "(0→0) Masked",
+      "section_path": [
+        "2.Materials and Methods",
+        "(0→0) Masked"
+      ],
+      "source_text": "Lung Opacity 1 2106 2273 1215 7924 525 Support Devices 1 2409 1893 1686 8024 31 No Finding 1 1893 2307 2062 7781 0 Atelectasis 1 2067 1597 1026 7771 1582 Cardiomegaly 1 2107 1456 889 8843 748 Pleural Effusion 1 2463 1012 1419 8229 920 Edema 1 1012 848 471 10,018 1694 Pneumonia 2 738 816 179 9721 2589 Consolidation 2 638 437 83 12,282 603 Enlarged Cardiomediastinum 2 415 452 39 12,047 1090 Pneumothorax 2 327 384 149 13,035 148 Lung Lesion 2 258 418 158 12,999 210 Fracture 2 196 314 118 13,356 59 Pleural Other - 117 91 19 13,686 130\n\n2.3.Siamese Change Model and Single-Image Baseline\n\nLet x f irst and xlast denote the earliest and latest radiographs in a pair. A shared encoder φ maps each image to a 1024-dimensional feature vector obtained by global average pooling of the final convolutional block of a DenseNet-121 [16]:\n\nf f irst=φ(x f irst), flast=φ(xlast). (1)\n\nThetworepresentationsarefusedbyconcatenatingtheindividualfeatureswith their difference:\n\nz =\n\nh\n\nf f irst;flast;flast −f f irst\n\ni\n\n∈R3072. (2)\n\nThe difference component explicitly represents change between the two timepoints, while the two original vectors keep the absolute state of each image.The fused representa- tion passes through a shared trunk (a 512-unit fully connected layer, ReLU, and dropout) and then reaches 14 finding-specific heads,each producing four transition logits,so all findings share a common representation.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 6 of 16\n\nTomeasurethespecificcontributionofthepriorradiograph,webuiltamatched baseline in which the final image is fed to both branches, i.e., x f irst:=xlast.Consequently,",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (0→0) Masked\n\nLung Opacity 1 2106 2273 1215 7924 525 Support Devices 1 2409 1893 1686 8024 31 No Finding 1 1893 2307 2062 7781 0 Atelectasis 1 2067 1597 1026 7771 1582 Cardiomegaly 1 2107 1456 889 8843 748 Pleural Effusion 1 2463 1012 1419 8229 920 Edema 1 1012 848 471 10,018 1694 Pneumonia 2 738 816 179 9721 2589 Consolidation 2 638 437 83 12,282 603 Enlarged Cardiomediastinum 2 415 452 39 12,047 1090 Pneumothorax 2 327 384 149 13,035 148 Lung Lesion 2 258 418 158 12,999 210 Fracture 2 196 314 118 13,356 59 Pleural Other - 117 91 19 13,686 130\n\n2.3.Siamese Change Model and Single-Image Baseline\n\nLet x f irst and xlast denote the earliest and latest radiographs in a pair. A shared encoder φ maps each image to a 1024-dimensional feature vector obtained by global average pooling of the final convolutional block of a DenseNet-121 [16]:\n\nf f irst=φ(x f irst), flast=φ(xlast). (1)\n\nThetworepresentationsarefusedbyconcatenatingtheindividualfeatureswith their difference:\n\nz =\n\nh\n\nf f irst;flast;flast −f f irst\n\ni\n\n∈R3072. (2)\n\nThe difference component explicitly represents change between the two timepoints, while the two original vectors keep the absolute state of each image.The fused representa- tion passes through a shared trunk (a 512-unit fully connected layer, ReLU, and dropout) and then reaches 14 finding-specific heads,each producing four transition logits,so all findings share a common representation.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 6 of 16\n\nTomeasurethespecificcontributionofthepriorradiograph,webuiltamatched baseline in which the final image is fed to both branches, i.e., x f irst:=xlast.Consequently,",
+      "page_start": 4,
+      "page_end": 5,
+      "paragraph_positions": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "token_count": 503,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0019",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0013",
+      "section_title": "(0→0) Masked",
+      "section_path": [
+        "2.Materials and Methods",
+        "(0→0) Masked"
+      ],
+      "source_text": "Tomography 2026, 12, 129 6 of 16\n\nTomeasurethespecificcontributionofthepriorradiograph,webuiltamatched baseline in which the final image is fed to both branches, i.e., x f irst:=xlast.Consequently,\n\nflast −f f irst= 0, (3)\n\nand transition prediction must rely only on the final radiograph.This last-only baseline uses the same architecture, encoder, and training procedure; the only difference is the input. The performance gap between the Siamese and last-only models is the primary measure of the value of longitudinal pairing.\n\n2.4.Cross-Validation and Leakage-Controlled Encoder Pretraining\n\nWe used patient-grouped five-fold cross-validation.Since each patient contributes exactly one pair, a seeded random partition assigned patients to five nearly equal, patient- disjoint folds of about 2808–2809 pairs.Every pair appears in a held-out fold exactly once, so pooled test predictions cover the full dataset.Fold membership was generated once, stored in a common fold map, and remained unchanged throughout the pipeline, including when deciding which patients were eligible for encoder pretraining.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (0→0) Masked\n\nTomography 2026, 12, 129 6 of 16\n\nTomeasurethespecificcontributionofthepriorradiograph,webuiltamatched baseline in which the final image is fed to both branches, i.e., x f irst:=xlast.Consequently,\n\nflast −f f irst= 0, (3)\n\nand transition prediction must rely only on the final radiograph.This last-only baseline uses the same architecture, encoder, and training procedure; the only difference is the input. The performance gap between the Siamese and last-only models is the primary measure of the value of longitudinal pairing.\n\n2.4.Cross-Validation and Leakage-Controlled Encoder Pretraining\n\nWe used patient-grouped five-fold cross-validation.Since each patient contributes exactly one pair, a seeded random partition assigned patients to five nearly equal, patient- disjoint folds of about 2808–2809 pairs.Every pair appears in a held-out fold exactly once, so pooled test predictions cover the full dataset.Fold membership was generated once, stored in a common fold map, and remained unchanged throughout the pipeline, including when deciding which patients were eligible for encoder pretraining.",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "token_count": 258,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0020",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0013",
+      "section_title": "(0→0) Masked",
+      "section_path": [
+        "2.Materials and Methods",
+        "(0→0) Masked"
+      ],
+      "source_text": "Totestwhetherthebenefitofpairingdependsonencoderpretraining,theshared encoderwasinitializedunderthreeregimes,allwithouttrain/testpatientoverlap: (i) ImageNet, using ImageNet-pretrained DenseNet-121 weights [17,18] with no MIMIC- CXR pretraining; (ii) disjoint, pretrained only on the patients with a single frontal study, who cannot appear in the pair dataset; (iii) fold-nested, where a separate encoder was pre- trained for each fold using only paired patients from the other folds.Encoder pretraining was a standard single-image multi-label task:a DenseNet-121 with a 14-output sigmoid head trained forup to 10 epochs withmasked binary cross-entropy,AdamW (learning rate2×10−4,warm-upthencosinedecay,weightdecay10−4),gradientclippingat5, positive-class weighting capped at 10, and mixed precision.Uncertain labels received a fixed soft target of 0.75, a variant of the U-Ones label-smoothing policy of Pham et al. [19] chosen because it gave the highest mean validation AUROC in a policy sweep.Only the convolutional backbone was transferred; the classification head was discarded.Leakage preventionwasenforcedprogrammatically:anassertioncheckedbeforetrainingifthe permitted pretraining patients did not intersect with the held-out set, and early stopping used a 10% patient-disjoint validation subset drawn only from the permitted population.In total, six MIMIC-pretrained encoders were built (one disjoint and five fold-nested), while the ImageNet regime needed none.\n\n2.5.Training, Evaluation, and Interpretability",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (0→0) Masked\n\nTotestwhetherthebenefitofpairingdependsonencoderpretraining,theshared encoderwasinitializedunderthreeregimes,allwithouttrain/testpatientoverlap: (i) ImageNet, using ImageNet-pretrained DenseNet-121 weights [17,18] with no MIMIC- CXR pretraining; (ii) disjoint, pretrained only on the patients with a single frontal study, who cannot appear in the pair dataset; (iii) fold-nested, where a separate encoder was pre- trained for each fold using only paired patients from the other folds.Encoder pretraining was a standard single-image multi-label task:a DenseNet-121 with a 14-output sigmoid head trained forup to 10 epochs withmasked binary cross-entropy,AdamW (learning rate2×10−4,warm-upthencosinedecay,weightdecay10−4),gradientclippingat5, positive-class weighting capped at 10, and mixed precision.Uncertain labels received a fixed soft target of 0.75, a variant of the U-Ones label-smoothing policy of Pham et al. [19] chosen because it gave the highest mean validation AUROC in a policy sweep.Only the convolutional backbone was transferred; the classification head was discarded.Leakage preventionwasenforcedprogrammatically:anassertioncheckedbeforetrainingifthe permitted pretraining patients did not intersect with the held-out set, and early stopping used a 10% patient-disjoint validation subset drawn only from the permitted population.In total, six MIMIC-pretrained encoders were built (one disjoint and five fold-nested), while the ImageNet regime needed none.\n\n2.5.Training, Evaluation, and Interpretability",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        64,
+        65
+      ],
+      "token_count": 413,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0021",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0013",
+      "section_title": "(0→0) Masked",
+      "section_path": [
+        "2.Materials and Methods",
+        "(0→0) Masked"
+      ],
+      "source_text": "2.5.Training, Evaluation, and Interpretability\n\nThechangemodelswereoptimizedwithamasked,class-weightedcross-entropy loss.Class weights were the inverse class frequencies computed on the training folds only, normalized to a mean of one within each finding and capped at ten.Uncertain transitions were masked from the loss. Optimization used AdamW (initial learning rate 10−4, warm-up then cosine decay, weight decay 10−4), dropout 0.3, gradient clipping at 5, mixed precision, and a batch size of 32 for up to 12 epochs.Within each fold, 10% of training patients formed a patient-disjoint validation subset for early stopping and model selection, using Tier-1 macro-F1 as the criterion.Pretrained encoders stayed fixed across seeds; the five seeds (0, 26, 33, 42, and 99) affected only change-model training.The full experiment combined three encoder regimes, two input modes, and five seeds, giving 30 complete cross-validated runs.\n\nBecause absent-to-absent dominates every finding, overall accuracy was not used.We reportper-classrecall,macro-F1overthefourclasses,andone-versus-restAUROCfor onset (0→1) and resolution (1→0).For each run, predictions from the five held-out folds were pooled.Because the one-versus-rest framing lets a current-image model exploit the\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 7 of 16",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (0→0) Masked\n\n2.5.Training, Evaluation, and Interpretability\n\nThechangemodelswereoptimizedwithamasked,class-weightedcross-entropy loss.Class weights were the inverse class frequencies computed on the training folds only, normalized to a mean of one within each finding and capped at ten.Uncertain transitions were masked from the loss. Optimization used AdamW (initial learning rate 10−4, warm-up then cosine decay, weight decay 10−4), dropout 0.3, gradient clipping at 5, mixed precision, and a batch size of 32 for up to 12 epochs.Within each fold, 10% of training patients formed a patient-disjoint validation subset for early stopping and model selection, using Tier-1 macro-F1 as the criterion.Pretrained encoders stayed fixed across seeds; the five seeds (0, 26, 33, 42, and 99) affected only change-model training.The full experiment combined three encoder regimes, two input modes, and five seeds, giving 30 complete cross-validated runs.\n\nBecause absent-to-absent dominates every finding, overall accuracy was not used.We reportper-classrecall,macro-F1overthefourclasses,andone-versus-restAUROCfor onset (0→1) and resolution (1→0).For each run, predictions from the five held-out folds were pooled.Because the one-versus-rest framing lets a current-image model exploit the\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 7 of 16",
+      "page_start": 5,
+      "page_end": 6,
+      "paragraph_positions": [
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "token_count": 345,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0022",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0013",
+      "section_title": "(0→0) Masked",
+      "section_path": [
+        "2.Materials and Methods",
+        "(0→0) Masked"
+      ],
+      "source_text": "https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 7 of 16\n\ndominant absent-to-absent class, we additionally define two matched binary discrimination tasks that isolate the value of the prior image:resolved-versus-absent (1→0 vs.0→0) and onset-versus-persistent (0→1 vs.1→1).For every finding and task, we report both AUROC andaverageprecision(AUPRC),withthelattergiventheclassimbalance.Toquantify uncertainty at the level of patients rather than training runs, we averaged the softmax pre- dictions of the five seeds per patient (an ensemble) and computed 95% confidence intervals by patient-level bootstrap resampling (2000 resamples).The Siamese and single-image models were resampled on the same patients so that the paired difference is preserved. Across the seven Tier-1 findings, per-finding p-values were corrected for multiple compar- isons by the Holm and Benjamini–Hochberg procedures, and bootstrap p-values are floored at 1/(B + 1) and reported accordingly.Robustness to encoder pretraining was assessed descriptively across the three regimes.\n\nFor interpretability, two complementary Grad-CAM explanations [20] were generated fromtrainedmodelsonheld-outpairs.PairedGrad-CAMpropagatesgradientsfora selected finding and transition logit through the shared encoder to give one saliency map per image.Change-pathway Grad-CAM detaches the two absolute-state components of thefusedrepresentationsothatgradientsflowonlythroughtheflast −f f irstdifference pathway,isolatingattributionlinkedtochange.Becausethetworadiographsarenot spatially registered, the per-image maps are shown side by side and are not subtracted; each map is min–max normalized to [0, 1] before overlay.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 2.Materials and Methods\nSubsection: (0→0) Masked\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 7 of 16\n\ndominant absent-to-absent class, we additionally define two matched binary discrimination tasks that isolate the value of the prior image:resolved-versus-absent (1→0 vs.0→0) and onset-versus-persistent (0→1 vs.1→1).For every finding and task, we report both AUROC andaverageprecision(AUPRC),withthelattergiventheclassimbalance.Toquantify uncertainty at the level of patients rather than training runs, we averaged the softmax pre- dictions of the five seeds per patient (an ensemble) and computed 95% confidence intervals by patient-level bootstrap resampling (2000 resamples).The Siamese and single-image models were resampled on the same patients so that the paired difference is preserved. Across the seven Tier-1 findings, per-finding p-values were corrected for multiple compar- isons by the Holm and Benjamini–Hochberg procedures, and bootstrap p-values are floored at 1/(B + 1) and reported accordingly.Robustness to encoder pretraining was assessed descriptively across the three regimes.\n\nFor interpretability, two complementary Grad-CAM explanations [20] were generated fromtrainedmodelsonheld-outpairs.PairedGrad-CAMpropagatesgradientsfora selected finding and transition logit through the shared encoder to give one saliency map per image.Change-pathway Grad-CAM detaches the two absolute-state components of thefusedrepresentationsothatgradientsflowonlythroughtheflast −f f irstdifference pathway,isolatingattributionlinkedtochange.Becausethetworadiographsarenot spatially registered, the per-image maps are shown side by side and are not subtracted; each map is min–max normalized to [0, 1] before overlay.",
+      "page_start": 5,
+      "page_end": 6,
+      "paragraph_positions": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "token_count": 445,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0023",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0014",
+      "section_title": "3.Results",
+      "section_path": [
+        "3.Results"
+      ],
+      "source_text": "3.1.Matched Binary Tasks Isolate the Contribution of the Prior Radiograph\n\nThe decisive test of whether the prior radiograph carries information is a comparison in which the single-image baseline sees exactly the final radiograph the paired model sees.We therefore evaluated two matched binary tasks.In resolved-versus-absent (1→0 vs.0→0), where both cases end with the finding not reported as present (negative or unmentioned) in the final study, the single-image baseline performed at chance for every Tier-1 finding (AUROC 0.49 to 0.60), whereas the paired model reached 0.69 to 0.87.The paired-minus- baselineAUROCdifferencerangedfrom+0.18to+0.37,andevery95%patient-level bootstrap interval excluded zero after Holm and Benjamini–Hochberg correction (Table 3). The gains were similar in average precision (AUPRC +0.12 to +0.40).Because the two cases differ only in the earlier label state, this isolates the contribution of the prior image: with the final radiograph held identical, only the model that also sees the earlier study can separate a finding labeled as resolved from one labeled as not present at both timepoints.The same pattern held for onset-versus-persistent (0→1 vs.1→1),where both cases end with the findingreportedaspresent:thebaselinewasagainnearchance(AUROC0.45to0.53) and the paired model was well above it (+0.12 to +0.34 AUROC, all significant), because distinguishing a newly reported finding from one already reported as present likewise requires the earlier image.Prior imaging therefore adds value across both directions of label change whenever the final image alone underdetermines the transition.\n\nIn the one-versus-rest framing (refers to Table 4 and Figure 2), the apparent benefit of pairing looked strongly asymmetric:large for resolution (resolved-versus-rest AUROC +0.14 to +0.27) but small and mixed for onset (−0.02 to +0.06).This asymmetry is an artifact",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\n\n3.1.Matched Binary Tasks Isolate the Contribution of the Prior Radiograph\n\nThe decisive test of whether the prior radiograph carries information is a comparison in which the single-image baseline sees exactly the final radiograph the paired model sees.We therefore evaluated two matched binary tasks.In resolved-versus-absent (1→0 vs.0→0), where both cases end with the finding not reported as present (negative or unmentioned) in the final study, the single-image baseline performed at chance for every Tier-1 finding (AUROC 0.49 to 0.60), whereas the paired model reached 0.69 to 0.87.The paired-minus- baselineAUROCdifferencerangedfrom+0.18to+0.37,andevery95%patient-level bootstrap interval excluded zero after Holm and Benjamini–Hochberg correction (Table 3). The gains were similar in average precision (AUPRC +0.12 to +0.40).Because the two cases differ only in the earlier label state, this isolates the contribution of the prior image: with the final radiograph held identical, only the model that also sees the earlier study can separate a finding labeled as resolved from one labeled as not present at both timepoints.The same pattern held for onset-versus-persistent (0→1 vs.1→1),where both cases end with the findingreportedaspresent:thebaselinewasagainnearchance(AUROC0.45to0.53) and the paired model was well above it (+0.12 to +0.34 AUROC, all significant), because distinguishing a newly reported finding from one already reported as present likewise requires the earlier image.Prior imaging therefore adds value across both directions of label change whenever the final image alone underdetermines the transition.\n\nIn the one-versus-rest framing (refers to Table 4 and Figure 2), the apparent benefit of pairing looked strongly asymmetric:large for resolution (resolved-versus-rest AUROC +0.14 to +0.27) but small and mixed for onset (−0.02 to +0.06).This asymmetry is an artifact",
+      "page_start": 6,
+      "page_end": 6,
+      "paragraph_positions": [
+        72,
+        73,
+        74
+      ],
+      "token_count": 469,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0024",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0014",
+      "section_title": "3.Results",
+      "section_path": [
+        "3.Results"
+      ],
+      "source_text": "of the evaluation framing rather than a property of the model.In one-versus-rest, each transition is scored against all others, so the onset score is dominated by the many absent- to-absent cases, which the single-image baseline easily separates from the final radiograph alone; this inflates the baseline for onset and hides the benefit of the prior image.Removing that shortcut with the matched onset-versus-persistent task restores a clear onset benefit.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 8 of 16\n\nFour-class macro-F1 also improved with pairing for every Tier-1 finding (paired differences +0.04 to +0.19).\n\nTable 3.Discrimination on the two matched binary tasks under the fold-nested regime,Siamese versussingle-imagebaseline.Valuesarethefive-seedensembleAUROCandAUPRCforeach model;∆isthepairedSiamese–baselinedifferencewitha95%patient-levelbootstrapinterval (2000 resamples), all significant after Holm and Benjamini–Hochberg correction.Baseline AUROC near 0.50 indicates the final image alone cannot separate the two classes.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\n\nof the evaluation framing rather than a property of the model.In one-versus-rest, each transition is scored against all others, so the onset score is dominated by the many absent- to-absent cases, which the single-image baseline easily separates from the final radiograph alone; this inflates the baseline for onset and hides the benefit of the prior image.Removing that shortcut with the matched onset-versus-persistent task restores a clear onset benefit.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 8 of 16\n\nFour-class macro-F1 also improved with pairing for every Tier-1 finding (paired differences +0.04 to +0.19).\n\nTable 3.Discrimination on the two matched binary tasks under the fold-nested regime,Siamese versussingle-imagebaseline.Valuesarethefive-seedensembleAUROCandAUPRCforeach model;∆isthepairedSiamese–baselinedifferencewitha95%patient-levelbootstrapinterval (2000 resamples), all significant after Holm and Benjamini–Hochberg correction.Baseline AUROC near 0.50 indicates the final image alone cannot separate the two classes.",
+      "page_start": 6,
+      "page_end": 7,
+      "paragraph_positions": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "token_count": 268,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0025",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0015",
+      "section_title": "Finding",
+      "section_path": [
+        "3.Results",
+        "Finding"
+      ],
+      "source_text": "Finding",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding\n\nFinding",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 25,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0026",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0016",
+      "section_title": "Task A. Resolved Versus Absent (1→0 vs.0→0)",
+      "section_path": [
+        "3.Results",
+        "Task A. Resolved Versus Absent (1→0 vs.0→0)"
+      ],
+      "source_text": "Task A. Resolved Versus Absent (1→0 vs.0→0)",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Task A. Resolved Versus Absent (1→0 vs.0→0)\n\nTask A. Resolved Versus Absent (1→0 vs.0→0)",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 16,
+      "chunk_index": 26,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0027",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0017",
+      "section_title": "Siamese AUROC",
+      "section_path": [
+        "3.Results",
+        "Siamese AUROC"
+      ],
+      "source_text": "Siamese AUROC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Siamese AUROC\n\nSiamese AUROC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 27,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0028",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0018",
+      "section_title": "Baseline AUROC",
+      "section_path": [
+        "3.Results",
+        "Baseline AUROC"
+      ],
+      "source_text": "Baseline AUROC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Baseline AUROC\n\nBaseline AUROC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 28,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0029",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0019",
+      "section_title": "∆ AUROC 95% CI Siamese",
+      "section_path": [
+        "3.Results",
+        "∆ AUROC 95% CI Siamese"
+      ],
+      "source_text": "∆ AUROC 95% CI Siamese",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: ∆ AUROC 95% CI Siamese\n\n∆ AUROC 95% CI Siamese",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 9,
+      "chunk_index": 29,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0030",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0020",
+      "section_title": "AUPRC",
+      "section_path": [
+        "3.Results",
+        "AUPRC"
+      ],
+      "source_text": "AUPRC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: AUPRC\n\nAUPRC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 30,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0031",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0021",
+      "section_title": "Baseline",
+      "section_path": [
+        "3.Results",
+        "Baseline"
+      ],
+      "source_text": "Baseline",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Baseline\n\nBaseline",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 31,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0032",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0022",
+      "section_title": "AUPRC",
+      "section_path": [
+        "3.Results",
+        "AUPRC"
+      ],
+      "source_text": "AUPRC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: AUPRC\n\nAUPRC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 32,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0033",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0023",
+      "section_title": "∆ AUPRC 95% CI",
+      "section_path": [
+        "3.Results",
+        "∆ AUPRC 95% CI"
+      ],
+      "source_text": "No Finding 0.754 0.490 +0.264 [+0.251, +0.277] 0.506 0.242 +0.264 [+0.246, +0.282] Support\n\nDevices 0.867 0.496 +0.371 [+0.356, +0.386] 0.632 0.228 +0.404 [+0.382, +0.424]\n\nCardiomegaly 0.740 0.564 +0.175 [+0.160, +0.192] 0.296 0.176 +0.119 [+0.100, +0.138] Lung Opacity 0.685 0.494 +0.191 [+0.176, +0.206] 0.348 0.227 +0.121 [+0.106, +0.137] Atelectasis 0.751 0.506 +0.245 [+0.229, +0.261] 0.368 0.178 +0.191 [+0.170, +0.211] Pleural Effusion 0.805 0.533 +0.271 [+0.253, +0.288] 0.384 0.129 +0.254 [+0.225, +0.283]\n\nEdema 0.845 0.604 +0.241 [+0.224, +0.257] 0.343 0.114 +0.230 [+0.201, +0.261]",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: ∆ AUPRC 95% CI\n\nNo Finding 0.754 0.490 +0.264 [+0.251, +0.277] 0.506 0.242 +0.264 [+0.246, +0.282] Support\n\nDevices 0.867 0.496 +0.371 [+0.356, +0.386] 0.632 0.228 +0.404 [+0.382, +0.424]\n\nCardiomegaly 0.740 0.564 +0.175 [+0.160, +0.192] 0.296 0.176 +0.119 [+0.100, +0.138] Lung Opacity 0.685 0.494 +0.191 [+0.176, +0.206] 0.348 0.227 +0.121 [+0.106, +0.137] Atelectasis 0.751 0.506 +0.245 [+0.229, +0.261] 0.368 0.178 +0.191 [+0.170, +0.211] Pleural Effusion 0.805 0.533 +0.271 [+0.253, +0.288] 0.384 0.129 +0.254 [+0.225, +0.283]\n\nEdema 0.845 0.604 +0.241 [+0.224, +0.257] 0.343 0.114 +0.230 [+0.201, +0.261]",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "token_count": 339,
+      "chunk_index": 33,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0034",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0024",
+      "section_title": "Finding",
+      "section_path": [
+        "3.Results",
+        "Finding"
+      ],
+      "source_text": "Finding",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding\n\nFinding",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 34,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0035",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0025",
+      "section_title": "Task B. Onset Versus Persistent (0→1 vs.1→1)",
+      "section_path": [
+        "3.Results",
+        "Task B. Onset Versus Persistent (0→1 vs.1→1)"
+      ],
+      "source_text": "Task B. Onset Versus Persistent (0→1 vs.1→1)",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Task B. Onset Versus Persistent (0→1 vs.1→1)\n\nTask B. Onset Versus Persistent (0→1 vs.1→1)",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 16,
+      "chunk_index": 35,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0036",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0026",
+      "section_title": "Siamese AUROC",
+      "section_path": [
+        "3.Results",
+        "Siamese AUROC"
+      ],
+      "source_text": "Siamese AUROC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Siamese AUROC\n\nSiamese AUROC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 5,
+      "chunk_index": 36,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0037",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0027",
+      "section_title": "Baseline AUROC",
+      "section_path": [
+        "3.Results",
+        "Baseline AUROC"
+      ],
+      "source_text": "Baseline AUROC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Baseline AUROC\n\nBaseline AUROC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 37,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0038",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0028",
+      "section_title": "∆ AUROC 95% CI Siamese",
+      "section_path": [
+        "3.Results",
+        "∆ AUROC 95% CI Siamese"
+      ],
+      "source_text": "∆ AUROC 95% CI Siamese",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: ∆ AUROC 95% CI Siamese\n\n∆ AUROC 95% CI Siamese",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 9,
+      "chunk_index": 38,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0039",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0029",
+      "section_title": "AUPRC",
+      "section_path": [
+        "3.Results",
+        "AUPRC"
+      ],
+      "source_text": "AUPRC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: AUPRC\n\nAUPRC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 39,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0040",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0030",
+      "section_title": "Baseline",
+      "section_path": [
+        "3.Results",
+        "Baseline"
+      ],
+      "source_text": "Baseline",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Baseline\n\nBaseline",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 40,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0041",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0031",
+      "section_title": "AUPRC",
+      "section_path": [
+        "3.Results",
+        "AUPRC"
+      ],
+      "source_text": "AUPRC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: AUPRC\n\nAUPRC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 41,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0042",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0032",
+      "section_title": "∆ AUPRC 95% CI",
+      "section_path": [
+        "3.Results",
+        "∆ AUPRC 95% CI"
+      ],
+      "source_text": "No Finding 0.725 0.490 +0.235 [+0.216, +0.255] 0.717 0.495 +0.223 [+0.200, +0.244] Support\n\nDevices 0.864 0.522 +0.342 [+0.325, +0.360] 0.897 0.616 +0.281 [+0.262, +0.300]\n\nCardiomegaly 0.671 0.533 +0.138 [+0.114, +0.162] 0.818 0.727 +0.091 [+0.071, +0.110] Lung Opacity 0.613 0.498 +0.115 [+0.095, +0.134] 0.746 0.647 +0.099 [+0.080, +0.117] Atelectasis 0.674 0.451 +0.224 [+0.201, +0.244] 0.819 0.644 +0.175 [+0.156, +0.193] Pleural Effusion 0.808 0.501 +0.307 [+0.288, +0.324] 0.876 0.657 +0.219 [+0.201, +0.237]\n\nEdema 0.789 0.515 +0.274 [+0.242, +0.307] 0.888 0.698 +0.190 [+0.160, +0.216]\n\nTable 4.Effect of longitudinal pairing on transition detection for Tier-1 findings under the fold-nested regime.Values are one-vs-rest AUROC averaged over five seeds;∆is the paired mean difference (Siamese −baseline) with the paired-t p-value.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: ∆ AUPRC 95% CI\n\nNo Finding 0.725 0.490 +0.235 [+0.216, +0.255] 0.717 0.495 +0.223 [+0.200, +0.244] Support\n\nDevices 0.864 0.522 +0.342 [+0.325, +0.360] 0.897 0.616 +0.281 [+0.262, +0.300]\n\nCardiomegaly 0.671 0.533 +0.138 [+0.114, +0.162] 0.818 0.727 +0.091 [+0.071, +0.110] Lung Opacity 0.613 0.498 +0.115 [+0.095, +0.134] 0.746 0.647 +0.099 [+0.080, +0.117] Atelectasis 0.674 0.451 +0.224 [+0.201, +0.244] 0.819 0.644 +0.175 [+0.156, +0.193] Pleural Effusion 0.808 0.501 +0.307 [+0.288, +0.324] 0.876 0.657 +0.219 [+0.201, +0.237]\n\nEdema 0.789 0.515 +0.274 [+0.242, +0.307] 0.888 0.698 +0.190 [+0.160, +0.216]\n\nTable 4.Effect of longitudinal pairing on transition detection for Tier-1 findings under the fold-nested regime.Values are one-vs-rest AUROC averaged over five seeds;∆is the paired mean difference (Siamese −baseline) with the paired-t p-value.",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "token_count": 408,
+      "chunk_index": 42,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0043",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0033",
+      "section_title": "Finding",
+      "section_path": [
+        "3.Results",
+        "Finding"
+      ],
+      "source_text": "Finding",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding\n\nFinding",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 43,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0044",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0034",
+      "section_title": "Onset (0→1) AUROC Resolved (1→0) AUROC",
+      "section_path": [
+        "3.Results",
+        "Onset (0→1) AUROC Resolved (1→0) AUROC"
+      ],
+      "source_text": "Onset (0→1) AUROC Resolved (1→0) AUROC",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Onset (0→1) AUROC Resolved (1→0) AUROC\n\nOnset (0→1) AUROC Resolved (1→0) AUROC",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [],
+      "token_count": 18,
+      "chunk_index": 44,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0045",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0035",
+      "section_title": "Siamese Baseline ∆ p Siamese Baseline ∆ p",
+      "section_path": [
+        "3.Results",
+        "Siamese Baseline ∆ p Siamese Baseline ∆ p"
+      ],
+      "source_text": "Support Devices 0.826 0.767 +0.059 2.1 × 10−5 0.843 0.575 +0.268 4.2 × 10−8\n\nEdema 0.798 0.820 −0.022 1.5 × 10−3 0.816 0.603 +0.213 5.4 × 10−7\n\nPleural Effusion 0.829 0.800 +0.029 2.2 × 10−5 0.784 0.577 +0.207 5.5 × 10−7\n\nAtelectasis 0.743 0.740 +0.003 6.0 × 10−2 0.725 0.537 +0.188 4.5 × 10−8\n\nNo Finding 0.698 0.689 +0.009 8.3 × 10−2 0.743 0.578 +0.165 6.0 × 10−9\n\nCardiomegaly 0.681 0.694 −0.013 2.6 × 10−2 0.708 0.562 +0.146 2.0 × 10−6\n\nLung Opacity 0.670 0.669 +0.001 6.8 × 10−1 0.660 0.517 +0.143 2.6 × 10−6\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 9 of 16\n\nFigure 2.Differential effect of longitudinal pairing on onset and resolution detection.Bars show the mean change in one-versus-rest AUROC (Siamese −baseline) across five seeds for the seven Tier-1 findings under the fold-nested regime; error bars are 95% CIs.Gains are large and consistent for resolution (1→0) and small and mixed for onset (0→1).As explained in the text, this apparent asymmetryreflectstheone-versus-restevaluationframingratherthanalimitationofthepaired model:the dominant absent-to-absent class inflates the single-image baseline for onset.The matched onset-versus-persistent task (Table 3) removes this shortcut and shows a clear onset benefit.\n\n3.2.Performance Is Stable Across Seeds and Encoder Regimes",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Siamese Baseline ∆ p Siamese Baseline ∆ p\n\nSupport Devices 0.826 0.767 +0.059 2.1 × 10−5 0.843 0.575 +0.268 4.2 × 10−8\n\nEdema 0.798 0.820 −0.022 1.5 × 10−3 0.816 0.603 +0.213 5.4 × 10−7\n\nPleural Effusion 0.829 0.800 +0.029 2.2 × 10−5 0.784 0.577 +0.207 5.5 × 10−7\n\nAtelectasis 0.743 0.740 +0.003 6.0 × 10−2 0.725 0.537 +0.188 4.5 × 10−8\n\nNo Finding 0.698 0.689 +0.009 8.3 × 10−2 0.743 0.578 +0.165 6.0 × 10−9\n\nCardiomegaly 0.681 0.694 −0.013 2.6 × 10−2 0.708 0.562 +0.146 2.0 × 10−6\n\nLung Opacity 0.670 0.669 +0.001 6.8 × 10−1 0.660 0.517 +0.143 2.6 × 10−6\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 9 of 16\n\nFigure 2.Differential effect of longitudinal pairing on onset and resolution detection.Bars show the mean change in one-versus-rest AUROC (Siamese −baseline) across five seeds for the seven Tier-1 findings under the fold-nested regime; error bars are 95% CIs.Gains are large and consistent for resolution (1→0) and small and mixed for onset (0→1).As explained in the text, this apparent asymmetryreflectstheone-versus-restevaluationframingratherthanalimitationofthepaired model:the dominant absent-to-absent class inflates the single-image baseline for onset.The matched onset-versus-persistent task (Table 3) removes this shortcut and shows a clear onset benefit.\n\n3.2.Performance Is Stable Across Seeds and Encoder Regimes",
+      "page_start": 7,
+      "page_end": 8,
+      "paragraph_positions": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ],
+      "token_count": 497,
+      "chunk_index": 45,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0046",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0035",
+      "section_title": "Siamese Baseline ∆ p Siamese Baseline ∆ p",
+      "section_path": [
+        "3.Results",
+        "Siamese Baseline ∆ p Siamese Baseline ∆ p"
+      ],
+      "source_text": "3.2.Performance Is Stable Across Seeds and Encoder Regimes\n\nThelongitudinalmodelwashighlyreproducibleacrossrandomseeds:forTier-1 resolved-AUROC, the mean half-width of the 95% CI was 0.006, which was small relative to the gains in Table 3.Siamese performance was also consistent across the three leakage- freeencoderstrategies.AsTable5shows,resolved-versus-restAUROCvalueswere closelymatchedacrosstheImageNet,disjoint,andfold-nestedregimes,withamean between-regime spread of only 0.020 across the seven Tier-1 findings.Similar performance was therefore obtained with an encoder never exposed to MIMIC-CXR, with an encoder pretrainedonentirelyseparatepatients,andwithfold-specificencodersexcludingthe held-out patients.The disjoint regime was numerically higher for several findings, but the differences were small; we read Table 5 as descriptive robustness rather than as evidence that one regime is superior.Together, these results indicate that resolution performance is not driven by a particular pretraining strategy or by train/test patient overlap.\n\nTable 5.Robustness of Siamese resolution detection across encoder regimes.Resolved-versus-rest AUROC is mean ± 95% CI across five seeds.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Siamese Baseline ∆ p Siamese Baseline ∆ p\n\n3.2.Performance Is Stable Across Seeds and Encoder Regimes\n\nThelongitudinalmodelwashighlyreproducibleacrossrandomseeds:forTier-1 resolved-AUROC, the mean half-width of the 95% CI was 0.006, which was small relative to the gains in Table 3.Siamese performance was also consistent across the three leakage- freeencoderstrategies.AsTable5shows,resolved-versus-restAUROCvalueswere closelymatchedacrosstheImageNet,disjoint,andfold-nestedregimes,withamean between-regime spread of only 0.020 across the seven Tier-1 findings.Similar performance was therefore obtained with an encoder never exposed to MIMIC-CXR, with an encoder pretrainedonentirelyseparatepatients,andwithfold-specificencodersexcludingthe held-out patients.The disjoint regime was numerically higher for several findings, but the differences were small; we read Table 5 as descriptive robustness rather than as evidence that one regime is superior.Together, these results indicate that resolution performance is not driven by a particular pretraining strategy or by train/test patient overlap.\n\nTable 5.Robustness of Siamese resolution detection across encoder regimes.Resolved-versus-rest AUROC is mean ± 95% CI across five seeds.",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        99,
+        100,
+        101
+      ],
+      "token_count": 305,
+      "chunk_index": 46,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0047",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0036",
+      "section_title": "Finding ImageNet Disjoint Fold-Nested",
+      "section_path": [
+        "3.Results",
+        "Finding ImageNet Disjoint Fold-Nested"
+      ],
+      "source_text": "Support Devices 0.817 ± 0.005 0.837 ± 0.005 0.843 ± 0.004 Edema 0.818 ± 0.002 0.828 ± 0.015 0.816 ± 0.008 Pleural Effusion 0.778 ± 0.006 0.796 ± 0.009 0.784 ± 0.003 No Finding 0.736 ± 0.003 0.757 ± 0.005 0.743 ± 0.006 Atelectasis 0.708 ± 0.008 0.731 ± 0.008 0.725 ± 0.003 Cardiomegaly 0.690 ± 0.006 0.713 ± 0.009 0.708 ± 0.008 Lung Opacity 0.651 ± 0.005 0.665 ± 0.006 0.660 ± 0.008\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 10 of 16\n\n3.3.Projection Change Does Not Explain the Effect\n\nA concern with longitudinal comparison is that patients often move from portable AP to PA imaging as they improve, so a projection change could coincide with resolution. UsingtheDICOMviewpositionforeachpairedimage,were-evaluatedtheresolved- versus-absent task on the 9806 pairs whose projection did not change (both PA or both AP; a well-powered majority of the 14,043 pairs).The Siamese–baseline gain was essentially unchanged from the full cohort (AUROC differences +0.19 to +0.45 versus +0.18 to +0.37), andthesingle-imagebaselineremainedatchance(AUROC0.41to0.59),soprojection change cannot account for the effect.Where a projection effect was detectable at all (support devices, baseline AUROC 0.41 on same-projection versus 0.65 on changed-projection pairs), it inflated the single-image baseline rather than the paired model, which makes the reported gainsconservative.Cardiomegaly,thefindingmostplausiblysensitivetoprojection, showed almost no difference between same- and changed-projection pairs.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding ImageNet Disjoint Fold-Nested\n\nSupport Devices 0.817 ± 0.005 0.837 ± 0.005 0.843 ± 0.004 Edema 0.818 ± 0.002 0.828 ± 0.015 0.816 ± 0.008 Pleural Effusion 0.778 ± 0.006 0.796 ± 0.009 0.784 ± 0.003 No Finding 0.736 ± 0.003 0.757 ± 0.005 0.743 ± 0.006 Atelectasis 0.708 ± 0.008 0.731 ± 0.008 0.725 ± 0.003 Cardiomegaly 0.690 ± 0.006 0.713 ± 0.009 0.708 ± 0.008 Lung Opacity 0.651 ± 0.005 0.665 ± 0.006 0.660 ± 0.008\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 10 of 16\n\n3.3.Projection Change Does Not Explain the Effect\n\nA concern with longitudinal comparison is that patients often move from portable AP to PA imaging as they improve, so a projection change could coincide with resolution. UsingtheDICOMviewpositionforeachpairedimage,were-evaluatedtheresolved- versus-absent task on the 9806 pairs whose projection did not change (both PA or both AP; a well-powered majority of the 14,043 pairs).The Siamese–baseline gain was essentially unchanged from the full cohort (AUROC differences +0.19 to +0.45 versus +0.18 to +0.37), andthesingle-imagebaselineremainedatchance(AUROC0.41to0.59),soprojection change cannot account for the effect.Where a projection effect was detectable at all (support devices, baseline AUROC 0.41 on same-projection versus 0.65 on changed-projection pairs), it inflated the single-image baseline rather than the paired model, which makes the reported gainsconservative.Cardiomegaly,thefindingmostplausiblysensitivetoprojection, showed almost no difference between same- and changed-projection pairs.",
+      "page_start": 8,
+      "page_end": 9,
+      "paragraph_positions": [
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "token_count": 506,
+      "chunk_index": 47,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0048",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0036",
+      "section_title": "Finding ImageNet Disjoint Fold-Nested",
+      "section_path": [
+        "3.Results",
+        "Finding ImageNet Disjoint Fold-Nested"
+      ],
+      "source_text": "3.4.The Benefit Is Stable Across Follow-Up Intervals\n\nPairs span a range of inter-study intervals, so we stratified both matched tasks into 0→30-,31→90-,and91→180-daybins(8728/2936/2379pairs).Theresolutionbenefit was stable across all bins (for example, the resolved-versus-absent AUROC difference for atelectasis was +0.235, +0.251, and +0.254 across the three bins), with a slight increase at longer gaps for several findings.The onset benefit was present in every bin but declined modestly at the longest interval for some findings (support devices onset AUPRC +0.319, +0.187, +0.154 across bins; atelectasis +0.187, +0.158, +0.108), consistent with an older prior\n\nimage being less informative about a newly reported finding.Rare-transition cells thinned inthe91→180-daybin(forexample,edemaonset,n≈111→136),whereintervalsare correspondingly wider.\n\n3.5.Transition Labels Agree with Radiologist Annotations",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding ImageNet Disjoint Fold-Nested\n\n3.4.The Benefit Is Stable Across Follow-Up Intervals\n\nPairs span a range of inter-study intervals, so we stratified both matched tasks into 0→30-,31→90-,and91→180-daybins(8728/2936/2379pairs).Theresolutionbenefit was stable across all bins (for example, the resolved-versus-absent AUROC difference for atelectasis was +0.235, +0.251, and +0.254 across the three bins), with a slight increase at longer gaps for several findings.The onset benefit was present in every bin but declined modestly at the longest interval for some findings (support devices onset AUPRC +0.319, +0.187, +0.154 across bins; atelectasis +0.187, +0.158, +0.108), consistent with an older prior\n\nimage being less informative about a newly reported finding.Rare-transition cells thinned inthe91→180-daybin(forexample,edemaonset,n≈111→136),whereintervalsare correspondingly wider.\n\n3.5.Transition Labels Agree with Radiologist Annotations",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        107,
+        108,
+        109,
+        110
+      ],
+      "token_count": 267,
+      "chunk_index": 48,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0049",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0036",
+      "section_title": "Finding ImageNet Disjoint Fold-Nested",
+      "section_path": [
+        "3.Results",
+        "Finding ImageNet Disjoint Fold-Nested"
+      ],
+      "source_text": "3.5.Transition Labels Agree with Radiologist Annotations\n\nTo check that the CheXpert-derived transitions reflect radiographic change rather than labeler noise, we compared them with the public single-radiologist reference annotations for the MIMIC-CXR test set (687 studies; the reference names Lung Opacity as “Airspace Opacity”, which we mapped).Of our pairs, 101 endpoint studies and 28 complete pairs overlapped with the reference.At the endpoint level, agreement was substantial to almost perfect for six of seven Tier-1 findings (Cohen’s κ = 0.68 to 0.97), with No Finding being the weakest (κ = 0.46), a noisy derived meta-label.For the 28 complete pairs, the four-class transition agreed with the radiologist-derived transition at κ = 0.58 to 0.94.Resolved-class agreement was high for most findings—κ = 1.0 for cardiomegaly, atelectasis, and pleural effusion, 0.88 for edema, and 0.70 for lung opacity, and it was lower for no finding (0.63) and support devices (0.51); these estimates each rest on only a handful of cases.These results indicate the transitions are radiologist-concordant, subject to the single-reader reference, the modest overlap, and the fact that this validates the direction of change rather than the exact four-class scheme; full multi-reader adjudication is reserved for future work.\n\n3.6.Tier-2 Findings\n\nThe less frequent Tier-2 findings showed the same general pattern of improved res- olution detection, but with clearly wider confidence intervals given their lower support (Table 2).We therefore treat these results as secondary and avoid strong finding-specific conclusions. SeveralTier-2findings,notablyConsolidationandEnlargedCardiome- diastinum,hadveryfewpersistentcases,whichaddedvariabilitytotheirfour-class macro-F1 estimates.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 11 of 16\n\n3.7.Interpretability",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding ImageNet Disjoint Fold-Nested\n\n3.5.Transition Labels Agree with Radiologist Annotations\n\nTo check that the CheXpert-derived transitions reflect radiographic change rather than labeler noise, we compared them with the public single-radiologist reference annotations for the MIMIC-CXR test set (687 studies; the reference names Lung Opacity as “Airspace Opacity”, which we mapped).Of our pairs, 101 endpoint studies and 28 complete pairs overlapped with the reference.At the endpoint level, agreement was substantial to almost perfect for six of seven Tier-1 findings (Cohen’s κ = 0.68 to 0.97), with No Finding being the weakest (κ = 0.46), a noisy derived meta-label.For the 28 complete pairs, the four-class transition agreed with the radiologist-derived transition at κ = 0.58 to 0.94.Resolved-class agreement was high for most findings—κ = 1.0 for cardiomegaly, atelectasis, and pleural effusion, 0.88 for edema, and 0.70 for lung opacity, and it was lower for no finding (0.63) and support devices (0.51); these estimates each rest on only a handful of cases.These results indicate the transitions are radiologist-concordant, subject to the single-reader reference, the modest overlap, and the fact that this validates the direction of change rather than the exact four-class scheme; full multi-reader adjudication is reserved for future work.\n\n3.6.Tier-2 Findings\n\nThe less frequent Tier-2 findings showed the same general pattern of improved res- olution detection, but with clearly wider confidence intervals given their lower support (Table 2).We therefore treat these results as secondary and avoid strong finding-specific conclusions. SeveralTier-2findings,notablyConsolidationandEnlargedCardiome- diastinum,hadveryfewpersistentcases,whichaddedvariabilitytotheirfour-class macro-F1 estimates.\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 11 of 16\n\n3.7.Interpretability",
+      "page_start": 9,
+      "page_end": 10,
+      "paragraph_positions": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "token_count": 475,
+      "chunk_index": 49,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0050",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0036",
+      "section_title": "Finding ImageNet Disjoint Fold-Nested",
+      "section_path": [
+        "3.Results",
+        "Finding ImageNet Disjoint Fold-Nested"
+      ],
+      "source_text": "https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 11 of 16\n\n3.7.Interpretability\n\nPaired and change-pathway Grad-CAM produced spatially localized saliency in the selected high-confidence resolution examples (Figure 3).For edema, pleural effusion, and atelectasis, the paired maps emphasized localized regions on the earlier radiograph that were less prominent on the later one, and the paired and change-pathway maps looked very similar at corresponding timepoints, even though the change-pathway attribution is restricted to theflast −f f irstdifference pathway.This similarity is reported descriptively. However, no expert region annotations were available, so these locations were not inde- pendently validated, and the maps should be read as qualitative attributions rather than validated anatomical grounding.\n\nFigure3.Pairedandchange-pathwayGrad-CAMforrepresentativeresolution(1→0)examples: edema (top), pleural effusion (middle), and atelectasis (bottom).In each row, the left panel shows the earlier radiograph, paired Grad-CAM on the first and last images, and the later radiograph; the right panel shows the corresponding change-pathway maps, restricted to theflast −f f irstdifference pathway.The selected paired and change-pathway maps essentially emphasize the same regions atcorrespondingtimepoints.Heatmapsareindependentlymin–maxnormalizedandwerenot validated against expert annotations; examples come from held-out pairs (seed 0, fold 1).",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 3.Results\nSubsection: Finding ImageNet Disjoint Fold-Nested\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 11 of 16\n\n3.7.Interpretability\n\nPaired and change-pathway Grad-CAM produced spatially localized saliency in the selected high-confidence resolution examples (Figure 3).For edema, pleural effusion, and atelectasis, the paired maps emphasized localized regions on the earlier radiograph that were less prominent on the later one, and the paired and change-pathway maps looked very similar at corresponding timepoints, even though the change-pathway attribution is restricted to theflast −f f irstdifference pathway.This similarity is reported descriptively. However, no expert region annotations were available, so these locations were not inde- pendently validated, and the maps should be read as qualitative attributions rather than validated anatomical grounding.\n\nFigure3.Pairedandchange-pathwayGrad-CAMforrepresentativeresolution(1→0)examples: edema (top), pleural effusion (middle), and atelectasis (bottom).In each row, the left panel shows the earlier radiograph, paired Grad-CAM on the first and last images, and the later radiograph; the right panel shows the corresponding change-pathway maps, restricted to theflast −f f irstdifference pathway.The selected paired and change-pathway maps essentially emphasize the same regions atcorrespondingtimepoints.Heatmapsareindependentlymin–maxnormalizedandwerenot validated against expert annotations; examples come from held-out pairs (seed 0, fold 1).",
+      "page_start": 9,
+      "page_end": 10,
+      "paragraph_positions": [
+        114,
+        115,
+        116,
+        117,
+        118
+      ],
+      "token_count": 369,
+      "chunk_index": 50,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0051",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0037",
+      "section_title": "4.Discussion",
+      "section_path": [
+        "4.Discussion"
+      ],
+      "source_text": "Framing chest radiograph interpretation as a comparison between a patient’s prior and current examinations, rather than as classification of a single image, produced large and reproducible improvements in change detection.The clearest evidence comes from two matched tasks in which the single-image baseline sees exactly the final radiograph the paired model sees:in resolved-versus-absent (1→0 vs.0→0) and onset-versus-persistent (0→1 vs.1→1), the baseline performed at chance (AUROC 0.45 to 0.60) while the paired model scored well above it (paired difference +0.18 to +0.37 and +0.12 to +0.34, respectively; all significant by patient-level bootstrap after correction).Because the two cases in each task share an identical final image, this isolates the contribution of the prior radiograph and shows that its value is broad:it helps whenever the final image alone cannot reveal the history of a finding.An apparent asymmetry in an earlier analysis—a large-resolution benefit but little-onset benefit under one-versus-rest scoring (Table 4, Figure 2)—proved to\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 12 of 16\n\nbe an artifact of that framing.In one-vs-rest, the many absent-to-absent cases let the single- imagebaselineseparateonsetfromtherestusingthefinalimagealone,whichinflates the onset baseline and hides the benefit of the prior image.The benefit was reproducible acrossfiveseedsandthreeleakage-freeencoderregimes,includinganImageNet-only encoder never exposed to MIMIC-CXR, so it is not explained by pretraining or by patient overlap.It also persisted on same-projection pairs and across follow-up intervals, and the CheXpert-derived transitions agreed with radiologist reference annotations (endpoint κ up to 0.97; high agreement on the resolved class), supporting the reliability of the labels underlying these findings.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 4.Discussion\n\nFraming chest radiograph interpretation as a comparison between a patient’s prior and current examinations, rather than as classification of a single image, produced large and reproducible improvements in change detection.The clearest evidence comes from two matched tasks in which the single-image baseline sees exactly the final radiograph the paired model sees:in resolved-versus-absent (1→0 vs.0→0) and onset-versus-persistent (0→1 vs.1→1), the baseline performed at chance (AUROC 0.45 to 0.60) while the paired model scored well above it (paired difference +0.18 to +0.37 and +0.12 to +0.34, respectively; all significant by patient-level bootstrap after correction).Because the two cases in each task share an identical final image, this isolates the contribution of the prior radiograph and shows that its value is broad:it helps whenever the final image alone cannot reveal the history of a finding.An apparent asymmetry in an earlier analysis—a large-resolution benefit but little-onset benefit under one-versus-rest scoring (Table 4, Figure 2)—proved to\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 12 of 16\n\nbe an artifact of that framing.In one-vs-rest, the many absent-to-absent cases let the single- imagebaselineseparateonsetfromtherestusingthefinalimagealone,whichinflates the onset baseline and hides the benefit of the prior image.The benefit was reproducible acrossfiveseedsandthreeleakage-freeencoderregimes,includinganImageNet-only encoder never exposed to MIMIC-CXR, so it is not explained by pretraining or by patient overlap.It also persisted on same-projection pairs and across follow-up intervals, and the CheXpert-derived transitions agreed with radiologist reference annotations (endpoint κ up to 0.97; high agreement on the resolved class), supporting the reliability of the labels underlying these findings.",
+      "page_start": 10,
+      "page_end": 11,
+      "paragraph_positions": [
+        119,
+        120,
+        121,
+        122
+      ],
+      "token_count": 452,
+      "chunk_index": 51,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0052",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0037",
+      "section_title": "4.Discussion",
+      "section_path": [
+        "4.Discussion"
+      ],
+      "source_text": "These results agree with radiological practice, where comparison with prior studies is an established part of interpretation [1].They suggest that systems intended for longitudi- nal monitoring—for example, detecting interval resolution of edema or pleural effusion after treatment,or the new appearance of a finding—may benefit from explicitly using priorimagingratherthanonlythecurrentradiograph,andthatpurelycross-sectional evaluation does not assess this capability.The benefit is not perfectly uniform:for a few findings (for example, cardiomegaly and lung opacity), the onset gain in average precision is smaller, and the baseline is already comparatively strong, so the advantage is largest where the two endpoints are most easily confused.The absolute performance also tempers clinical claims:Tier-1 resolved-versus-absent AUROC ranged from about 0.69 to 0.87, so the present system is a controlled demonstration of the value of pairing rather than a de- ployable change-detection tool, and the main contribution is to quantify, under controlled conditions, how much information a prior radiograph carries about the transition a finding has undergone.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 4.Discussion\n\nThese results agree with radiological practice, where comparison with prior studies is an established part of interpretation [1].They suggest that systems intended for longitudi- nal monitoring—for example, detecting interval resolution of edema or pleural effusion after treatment,or the new appearance of a finding—may benefit from explicitly using priorimagingratherthanonlythecurrentradiograph,andthatpurelycross-sectional evaluation does not assess this capability.The benefit is not perfectly uniform:for a few findings (for example, cardiomegaly and lung opacity), the onset gain in average precision is smaller, and the baseline is already comparatively strong, so the advantage is largest where the two endpoints are most easily confused.The absolute performance also tempers clinical claims:Tier-1 resolved-versus-absent AUROC ranged from about 0.69 to 0.87, so the present system is a controlled demonstration of the value of pairing rather than a de- ployable change-detection tool, and the main contribution is to quantify, under controlled conditions, how much information a prior radiograph carries about the transition a finding has undergone.",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        123
+      ],
+      "token_count": 244,
+      "chunk_index": 52,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0053",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0037",
+      "section_title": "4.Discussion",
+      "section_path": [
+        "4.Discussion"
+      ],
+      "source_text": "Pairwise and longitudinal modeling has been explored before.Siamese architectures have been applied to longitudinal medical image comparison [9], Oh et al.introduced geo- metric correlation maps for interval change on chest radiographs [10], CheXRelNet added anatomical information for longitudinal pathology relationships [11], and CheXRelFormer used a Siamese hierarchical Transformer for progression classification [21].Similarly, Yu etal.developedatwinnetworkthatclassifiesanatomy-specificprogressionintofour categories from weakly supervised, report-derived labels [22].Like the other studies above, this work centers on building a progression classifier, whereas our aim is to quantify how much the prior image itself contributes by comparing a paired model against a matched single-imagebaselineunderleakagecontrol,ratherthantoproposeanewprogression architecture.Temporal information has also entered vision-language modeling:BioViL-T learns temporal representations from prior examinations [12], TempA-VLP extends this with temporal-aware pretraining [23], recent work addresses sensitivity to temporal or- der [24], MI-CXR benchmarks reasoning over multiple examinations [25], and longitudinal context has been used in report generation [13].Change detection between co-registered images is also a long-standing task in other imaging domains, such as remote sensing [26], whererobustnessandgeneralizationacrossacquisitionconditionsarelikewisecentral concerns.Against this background, our contribution is neither a new pairwise architecture nor the first longitudinal application.We instead answer a more specific question:how much predictive value does the prior radiograph add over the current image alone, and howdoesthatvaluedifferacrosstransitions?Thematchedlast-onlybaselineisolates thiscontribution,thefour-classformulationseparatesonsetfromresolutioninsteadof collapsingchangeintoonecategory,andtheexplicitcontrolofpatientoverlapduring pretraining, including an ImageNet-only regime and fold-nested pretraining, separates the effect of temporal information from a possible pretraining confound.We therefore position this study as a controlled, leakage-aware quantification rather than a novelty claim.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 4.Discussion\n\nPairwise and longitudinal modeling has been explored before.Siamese architectures have been applied to longitudinal medical image comparison [9], Oh et al.introduced geo- metric correlation maps for interval change on chest radiographs [10], CheXRelNet added anatomical information for longitudinal pathology relationships [11], and CheXRelFormer used a Siamese hierarchical Transformer for progression classification [21].Similarly, Yu etal.developedatwinnetworkthatclassifiesanatomy-specificprogressionintofour categories from weakly supervised, report-derived labels [22].Like the other studies above, this work centers on building a progression classifier, whereas our aim is to quantify how much the prior image itself contributes by comparing a paired model against a matched single-imagebaselineunderleakagecontrol,ratherthantoproposeanewprogression architecture.Temporal information has also entered vision-language modeling:BioViL-T learns temporal representations from prior examinations [12], TempA-VLP extends this with temporal-aware pretraining [23], recent work addresses sensitivity to temporal or- der [24], MI-CXR benchmarks reasoning over multiple examinations [25], and longitudinal context has been used in report generation [13].Change detection between co-registered images is also a long-standing task in other imaging domains, such as remote sensing [26], whererobustnessandgeneralizationacrossacquisitionconditionsarelikewisecentral concerns.Against this background, our contribution is neither a new pairwise architecture nor the first longitudinal application.We instead answer a more specific question:how much predictive value does the prior radiograph add over the current image alone, and howdoesthatvaluedifferacrosstransitions?Thematchedlast-onlybaselineisolates thiscontribution,thefour-classformulationseparatesonsetfromresolutioninsteadof collapsingchangeintoonecategory,andtheexplicitcontrolofpatientoverlapduring pretraining, including an ImageNet-only regime and fold-nested pretraining, separates the effect of temporal information from a possible pretraining confound.We therefore position this study as a controlled, leakage-aware quantification rather than a novelty claim.",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        124
+      ],
+      "token_count": 496,
+      "chunk_index": 53,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0054",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0037",
+      "section_title": "4.Discussion",
+      "section_path": [
+        "4.Discussion"
+      ],
+      "source_text": "https://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 13 of 16\n\nTransition labels were built from the CheXpert automatic labeler [3,5], so an observed 0→1or1→0transitionmayreflecteithertrueradiographicchangeorlabelerinconsis- tency between examinations;no radiologist-adjudicated labels were available.Because unmentionedfindingsweretreatedasnotpresent,theambiguityofstate0appliesto all transition classes, not only 0→0:an apparent resolution (1→0) may include findings thatremainedvisiblebutwereunreportedatfollow-up,andanapparentonset(0→1) may include findings present but unmentioned at baseline, particularly since follow-up reports can be selective.The transitions studied here are therefore report-derived label transitions, and the reported gains quantify the value of the prior image for discriminat- ingthosetransitionsratherthanadjudicatedradiographicchange.Wenotethatinthe resolved-versus-absent task, the single-image baseline performed at chance on the final radiograph.If a substantial share of 1→0 cases still carried a visible finding mislabeled as not present, the final image alone would have been informative, so this pattern is at least consistent with the label transitions predominantly reflecting genuine change, though it remains indirect evidence.Masking uncertain endpoints reduces this risk but means that findings with high uncertainty, such as pneumonia and edema, are evaluated only on their confidentsubsets,whichmaynotrepresentallcases.Eachpatientcontributesasingle earliest–latest pair within 180 days, so intermediate trajectories, repeated follow-ups, the magnitude of change, longer-term progression, lateral views, and clinical events between examinations are all outside the scope of this analysis, and patients with a single frontal study could not contribute.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 4.Discussion\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 13 of 16\n\nTransition labels were built from the CheXpert automatic labeler [3,5], so an observed 0→1or1→0transitionmayreflecteithertrueradiographicchangeorlabelerinconsis- tency between examinations;no radiologist-adjudicated labels were available.Because unmentionedfindingsweretreatedasnotpresent,theambiguityofstate0appliesto all transition classes, not only 0→0:an apparent resolution (1→0) may include findings thatremainedvisiblebutwereunreportedatfollow-up,andanapparentonset(0→1) may include findings present but unmentioned at baseline, particularly since follow-up reports can be selective.The transitions studied here are therefore report-derived label transitions, and the reported gains quantify the value of the prior image for discriminat- ingthosetransitionsratherthanadjudicatedradiographicchange.Wenotethatinthe resolved-versus-absent task, the single-image baseline performed at chance on the final radiograph.If a substantial share of 1→0 cases still carried a visible finding mislabeled as not present, the final image alone would have been informative, so this pattern is at least consistent with the label transitions predominantly reflecting genuine change, though it remains indirect evidence.Masking uncertain endpoints reduces this risk but means that findings with high uncertainty, such as pneumonia and edema, are evaluated only on their confidentsubsets,whichmaynotrepresentallcases.Eachpatientcontributesasingle earliest–latest pair within 180 days, so intermediate trajectories, repeated follow-ups, the magnitude of change, longer-term progression, lateral views, and clinical events between examinations are all outside the scope of this analysis, and patients with a single frontal study could not contribute.",
+      "page_start": 11,
+      "page_end": 12,
+      "paragraph_positions": [
+        125,
+        126,
+        127
+      ],
+      "token_count": 437,
+      "chunk_index": 54,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0055",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0037",
+      "section_title": "4.Discussion",
+      "section_path": [
+        "4.Discussion"
+      ],
+      "source_text": "TheGrad-CAManalysesarequalitative:localizationfaithfulnesswasnotquanti- tativelyassessedbecauseexpertregionannotationswereunavailable.Moreover,the displayedmapsaredrawnfromselectedhigh-confidenceresolutionexamplesandare not a random sample, so they illustrate model behavior rather than provide an unbiased assessment of localization quality.A blinded radiologist review of a larger, representative sample would be required for that purpose.Finally, all experiments used MIMIC-CXR, a single-center dataset [4].External validation on an independent longitudinal cohort, ideally with radiologist-adjudicated change labels, is needed to confirm that the observed effects generalize across institutions, populations, and imaging systems.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 4.Discussion\n\nTheGrad-CAManalysesarequalitative:localizationfaithfulnesswasnotquanti- tativelyassessedbecauseexpertregionannotationswereunavailable.Moreover,the displayedmapsaredrawnfromselectedhigh-confidenceresolutionexamplesandare not a random sample, so they illustrate model behavior rather than provide an unbiased assessment of localization quality.A blinded radiologist review of a larger, representative sample would be required for that purpose.Finally, all experiments used MIMIC-CXR, a single-center dataset [4].External validation on an independent longitudinal cohort, ideally with radiologist-adjudicated change labels, is needed to confirm that the observed effects generalize across institutions, populations, and imaging systems.",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        128
+      ],
+      "token_count": 168,
+      "chunk_index": 55,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0056",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0038",
+      "section_title": "5.Conclusions",
+      "section_path": [
+        "5.Conclusions"
+      ],
+      "source_text": "Chest radiographs are commonly read in relation to prior examinations, while many computational methods still operate on single images.Using a leakage-controlled design on MIMIC-CXR, we found that modeling a longitudinal radiograph pair produced large and reproducible improvements in finding-specific change detection, with prior imaging adding value across both directions of label change—resolution and onset alike—whenever the final image alone underdetermines the transition.An apparent onset–resolution asymmetry under one-versus-rest scoring proved to be an artifact of that evaluation framing.The gains were stable across random seeds and across three encoder-pretraining regimes without train/testpatientoverlap,includinganImageNet-onlyregime.Wemakenoclaimof clinicaldeployability:thisisacontrolleddemonstrationofthevalueofpriorimaging, and independent external validation with radiologist-adjudicated change labels remains necessary before any deployment.\n\nThese results quantify how much a prior radiograph contributes to change detection, as well as supporting comparative, pair-based formulations when the goal is to characterize change over time.The pipeline and fold definitions will be released to provide a repro- ducible framework.Future work will focus on radiologist-adjudicated or region-grounded changelabels,extensionofthetwo-imagedesigntomulti-visitsequenceswithexplicit\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 14 of 16\n\ntime intervals, dedicated pairwise tasks such as 1→0 vs.0→0, and spatial registration of paired radiographs.\n\nAuthor Contributions:Conceptualization,¸S.I. and H.A.E.; methodology,¸S.I. and H.A.E.; software, H.A.E.;validation,¸S.I.andH.A.E.;formalanalysis,H.A.E.;investigation,H.A.E.;resources,¸S.I.; data curation, H.A.E.; writing—original draft preparation, H.A.E.; writing—review and editing,¸S.I.; visualization, H.A.E.; supervision,¸S.I.; project administration,¸S.I. All authors have read and agreed to the published version of the manuscript.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 5.Conclusions\n\nChest radiographs are commonly read in relation to prior examinations, while many computational methods still operate on single images.Using a leakage-controlled design on MIMIC-CXR, we found that modeling a longitudinal radiograph pair produced large and reproducible improvements in finding-specific change detection, with prior imaging adding value across both directions of label change—resolution and onset alike—whenever the final image alone underdetermines the transition.An apparent onset–resolution asymmetry under one-versus-rest scoring proved to be an artifact of that evaluation framing.The gains were stable across random seeds and across three encoder-pretraining regimes without train/testpatientoverlap,includinganImageNet-onlyregime.Wemakenoclaimof clinicaldeployability:thisisacontrolleddemonstrationofthevalueofpriorimaging, and independent external validation with radiologist-adjudicated change labels remains necessary before any deployment.\n\nThese results quantify how much a prior radiograph contributes to change detection, as well as supporting comparative, pair-based formulations when the goal is to characterize change over time.The pipeline and fold definitions will be released to provide a repro- ducible framework.Future work will focus on radiologist-adjudicated or region-grounded changelabels,extensionofthetwo-imagedesigntomulti-visitsequenceswithexplicit\n\nhttps://doi.org/10.3390/tomography12090129\n\nTomography 2026, 12, 129 14 of 16\n\ntime intervals, dedicated pairwise tasks such as 1→0 vs.0→0, and spatial registration of paired radiographs.\n\nAuthor Contributions:Conceptualization,¸S.I. and H.A.E.; methodology,¸S.I. and H.A.E.; software, H.A.E.;validation,¸S.I.andH.A.E.;formalanalysis,H.A.E.;investigation,H.A.E.;resources,¸S.I.; data curation, H.A.E.; writing—original draft preparation, H.A.E.; writing—review and editing,¸S.I.; visualization, H.A.E.; supervision,¸S.I.; project administration,¸S.I. All authors have read and agreed to the published version of the manuscript.",
+      "page_start": 12,
+      "page_end": 13,
+      "paragraph_positions": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "token_count": 509,
+      "chunk_index": 56,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0057",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0038",
+      "section_title": "5.Conclusions",
+      "section_path": [
+        "5.Conclusions"
+      ],
+      "source_text": "Funding:This research received no external funding.\n\nInstitutional Review Board Statement:The present study involved secondary analysis of existing de- identified data from MIMIC-CXR-JPG and did not involve new participant recruitment, intervention, or collection of identifiable patient information.MIMIC-CXR-JPG is wholly derived from MIMIC- CXR and is de-identified to satisfy the Health Insurance Portability and Accountability Act (HIPAA) SafeHarborrequirements,withprotectedhealthinformationremoved[4,5].Thecollectionof patient information and creation of the original MIMIC-CXR research resource were reviewed by the Institutional Review Board (IRB) of Beth Israel Deaconess Medical Center (BIDMC), which granted a waiver of informed consent and approved the data-sharing initiative [4,5]. Access to MIMIC-CXR-JPG is restricted to credentialed PhysioNet users who complete the required human-subjects research training and sign the applicable Data Use Agreement [5,6].\n\nInformed Consent Statement:Informed consent was not obtained as part of the present secondary analysisbecausenonewparticipantdatawerecollected.FortheoriginalMIMIC-CXRresearch resource, the Institutional Review Board of Beth Israel Deaconess Medical Center granted a waiver of individual informed consent because the project did not affect clinical care and protected health information was removed [4,5].\n\nData Availability Statement:The MIMIC-CXR-JPG v2.1.0 dataset is available to credentialed re- searchers through PhysioNet [5].Access requires PhysioNet credentialing, completion of the required CITI Data or Specimens Only Research training, and acceptance of the PhysioNet Credentialed Health Data Use Agreement [5].The source code and exact cross-validation fold definitions used in this study are publicly available on GitHub (https://github.com/haeren/mimic-cxr-siamese, accessed 8 September 2026).\n\nAcknowledgments:During the preparation of this manuscript, the authors used Claude Opus 4.8 and Fable 5 (Anthropic) for language editing and manuscript formatting.The authors have reviewed and edited the output, and they take full responsibility for the content of this publication.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 5.Conclusions\n\nFunding:This research received no external funding.\n\nInstitutional Review Board Statement:The present study involved secondary analysis of existing de- identified data from MIMIC-CXR-JPG and did not involve new participant recruitment, intervention, or collection of identifiable patient information.MIMIC-CXR-JPG is wholly derived from MIMIC- CXR and is de-identified to satisfy the Health Insurance Portability and Accountability Act (HIPAA) SafeHarborrequirements,withprotectedhealthinformationremoved[4,5].Thecollectionof patient information and creation of the original MIMIC-CXR research resource were reviewed by the Institutional Review Board (IRB) of Beth Israel Deaconess Medical Center (BIDMC), which granted a waiver of informed consent and approved the data-sharing initiative [4,5]. Access to MIMIC-CXR-JPG is restricted to credentialed PhysioNet users who complete the required human-subjects research training and sign the applicable Data Use Agreement [5,6].\n\nInformed Consent Statement:Informed consent was not obtained as part of the present secondary analysisbecausenonewparticipantdatawerecollected.FortheoriginalMIMIC-CXRresearch resource, the Institutional Review Board of Beth Israel Deaconess Medical Center granted a waiver of individual informed consent because the project did not affect clinical care and protected health information was removed [4,5].\n\nData Availability Statement:The MIMIC-CXR-JPG v2.1.0 dataset is available to credentialed re- searchers through PhysioNet [5].Access requires PhysioNet credentialing, completion of the required CITI Data or Specimens Only Research training, and acceptance of the PhysioNet Credentialed Health Data Use Agreement [5].The source code and exact cross-validation fold definitions used in this study are publicly available on GitHub (https://github.com/haeren/mimic-cxr-siamese, accessed 8 September 2026).\n\nAcknowledgments:During the preparation of this manuscript, the authors used Claude Opus 4.8 and Fable 5 (Anthropic) for language editing and manuscript formatting.The authors have reviewed and edited the output, and they take full responsibility for the content of this publication.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "token_count": 503,
+      "chunk_index": 57,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0058",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0038",
+      "section_title": "5.Conclusions",
+      "section_path": [
+        "5.Conclusions"
+      ],
+      "source_text": "Acknowledgments:During the preparation of this manuscript, the authors used Claude Opus 4.8 and Fable 5 (Anthropic) for language editing and manuscript formatting.The authors have reviewed and edited the output, and they take full responsibility for the content of this publication.\n\nConflicts of Interest:The authors declare no conflicts of interest.",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: 5.Conclusions\n\nAcknowledgments:During the preparation of this manuscript, the authors used Claude Opus 4.8 and Fable 5 (Anthropic) for language editing and manuscript formatting.The authors have reviewed and edited the output, and they take full responsibility for the content of this publication.\n\nConflicts of Interest:The authors declare no conflicts of interest.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        139,
+        140
+      ],
+      "token_count": 72,
+      "chunk_index": 58,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_8f4ee5f247825c41_0059",
+      "document_id": "doc_8f4ee5f247825c41",
+      "section_id": "sec_doc_8f4ee5f247825c41_0039",
+      "section_title": "Abbreviations",
+      "section_path": [
+        "Abbreviations"
+      ],
+      "source_text": "The following abbreviations are used in this manuscript:\n\nAP Antero-posterior AUROC Area under the receiver operating characteristic curve CI Confidence interval CXR Chest radiograph (chest X-ray) Grad-CAM Gradient-weighted class activation mapping PA Postero-anterior",
+      "embedding_text": "Document: Academic Editor: Emilio Quaia\nSection: Abbreviations\n\nThe following abbreviations are used in this manuscript:\n\nAP Antero-posterior AUROC Area under the receiver operating characteristic curve CI Confidence interval CXR Chest radiograph (chest X-ray) Grad-CAM Gradient-weighted class activation mapping PA Postero-anterior",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        141,
+        142
+      ],
+      "token_count": 55,
+      "chunk_index": 59,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

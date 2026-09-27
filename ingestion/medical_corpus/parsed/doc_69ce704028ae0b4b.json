@@ -1,0 +1,801 @@
+{
+  "identity": {
+    "id": "doc_69ce704028ae0b4b",
+    "source": {
+      "filename": "PMC13592795.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13592795.1/PMC13592795.1.pdf",
+      "content_hash": "69ce704028ae0b4bdf7cf9e57b36a1413ff016793ee21e6f5fe22d64f03f2029"
+    }
+  },
+  "metadata": {
+    "title": "Review began 08/10/2026",
+    "authors": [
+      "Review ended //"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.7759/cureus.114988",
+    "arxiv_id": null,
+    "abstract": "Enterococcus faecalis bacteremia presents a diagnostic challenge, particularly in elderly patients with multiple comorbidities and cardiac implantable electronic devices. We present the case of an 88-year-old woman with atrial fibrillation on anticoagulation, pacemaker placement, hypertension, hypothyroidism, and anxiety who presented with five days of abdominal pain, nausea, vomiting, and upper back/right shoulder pain. Initial evaluation raised concern for pneumonia due to the patient's chest X-ray and elevated temperature, and she was admitted for further management. Blood cultures at 48 hours grew Gram-positive cocci in pairs and chains and Enterococcus faecalis, prompting treatment with ceftriaxone and ampicillin and an extensive search for an infectious source. Transthoracic and transesophageal echocardiography showed no evidence of infective endocarditis or pacemaker-associated infection. Abdominal imaging was unrevealing. During hospitalization, the patient developed a declining hemoglobin and reported melena, prompting gastrointestinal evaluation. Colonoscopy revealed multiple colonic polyps, including tubular adenomas in the cecum and rectum, without evidence of malignancy. These adenomas were considered the most plausible portal of entry for bacteremia. Repeat blood cultures cleared, and the patient was transitioned to oral amoxicillin on discharge with outpatient follow-up. This case highlights the importance of considering gastrointestinal sources, including colorectal neoplasia, in patients with E. faecalis bacteremia of unclear origin. It also supports the role of multidisciplinary evaluation, including infectious disease, cardiology, and gastroenterology, in guiding workup and management. Categories: Internal Medicine, Infectious Disease Keywords: colorectal polyp, enterococcus faecalis (e. faecalis), gram positive bacteremia, pacemaker, transthoracic and transesophageal echocardiography",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Review began 08/10/2026",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Review ended 08/17/2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Published 08/22/2026",
+          "page": 0,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "© Copyright 2026",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Kambham et al. This is an open access",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "article distributed under the terms of the",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Creative Commons Attribution License CC-",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "BY 4.0., which permits unrestricted use,",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "distribution, and reproduction in any",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "medium, provided the original author and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "source are credited.",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "DOI: 10.7759/cureus.114988",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "A Diagnostic Challenge Involving Enterococcus faecalis Bacteremia: A Case Report",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Anvitha Kambham , Maria P. Farez Ochoa  , Himanshukumar Nayak , Diptee Poudel ,",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "Roxana Lazarescu",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "1. Medicine, Touro College of Osteopathic Medicine, New York, USA 2. Biology, Nova Southeastern University, Davie, USA 3. Internal Medicine/Surgery, Saba University School of Medicine, The Bottom, BES 4. Internal Medicine, Wyckoff Heights Medical Center, New York, USA",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "Corresponding author: Anvitha Kambham, akambham@student.touro.edu",
+          "page": 0,
+          "position": 15
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Enterococcus faecalis bacteremia presents a diagnostic challenge, particularly in elderly patients with multiple comorbidities and cardiac implantable electronic devices. We present the case of an 88-year-old woman with atrial fibrillation on anticoagulation, pacemaker placement, hypertension, hypothyroidism, and anxiety who presented with five days of abdominal pain, nausea, vomiting, and upper back/right shoulder pain. Initial evaluation raised concern for pneumonia due to the patient's chest X-ray and elevated temperature, and she was admitted for further management. Blood cultures at 48 hours grew Gram-positive cocci in pairs and chains and Enterococcus faecalis, prompting treatment with ceftriaxone and ampicillin and an extensive search for an infectious source. Transthoracic and transesophageal echocardiography showed no evidence of infective endocarditis or pacemaker-associated infection. Abdominal imaging was unrevealing. During hospitalization, the patient developed a declining hemoglobin and reported melena, prompting gastrointestinal evaluation. Colonoscopy revealed multiple colonic polyps, including tubular adenomas in the cecum and rectum, without evidence of malignancy. These adenomas were considered the most plausible portal of entry for bacteremia. Repeat blood cultures cleared, and the patient was transitioned to oral amoxicillin on discharge with outpatient follow-up. This case highlights the importance of considering gastrointestinal sources, including colorectal neoplasia, in patients with E. faecalis bacteremia of unclear origin. It also supports the role of multidisciplinary evaluation, including infectious disease, cardiology, and gastroenterology, in guiding workup and management.",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Categories: Internal Medicine, Infectious Disease Keywords: colorectal polyp, enterococcus faecalis (e. faecalis), gram positive bacteremia, pacemaker, transthoracic and transesophageal echocardiography",
+          "page": 0,
+          "position": 17
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Enterococcus faecalis (E. faecalis) is a Gram-positive, facultatively anaerobic bacterium [1]. It works as a part of the healthy human microbiome by producing vitamins, metabolizing nutrients, and maintaining intestinal pH [1,2]. It is also present in the oral cavity, genitourinary tract, especially the vaginal tract, oral cavity, and skin [1]. When there is loss of beneficial microorganisms in the microbiome, an increase in harmful pathogens, and a decrease in microbial diversity, E. faecalis can become pathogenic [3]. It is a common nosocomial pathogen that is implicated in infections of the gastrointestinal (GI) tract, urinary tract, wound epithelium, endocarditis, and bacteremia [2,4]. Research has also shown a prevalence of E. faecalis bloodstream infections in people with colorectal cancer. Although more studies on this association should be performed, colorectal cancer screening could be beneficial in those with E. faecalis bloodstream infection without an identified source [5]. In patients presenting with E. faecalis bloodstream infection, multiple potential sources of infection should be investigated. Echocardiograms are highly recommended as E. faecalis is a well-known cause of endocarditis and heart valve disease. Prosthetic valves and cardiac implantable electronic devices (CIEDs) could be potential sources of infection [6,7]. For those with endovascular devices, venous Doppler of the catheter site to rule out infected thrombosis is also suggested [6]. Abdominal imaging to rule out intra-abdominal abscesses or collections and urinary studies for urinary tract sources can also be performed [6]. Finally, blood cultures with susceptibilities are required to target effective antibiotic treatment [6]. Workup and proper treatment are very important as E. faecalis carries a mortality rate of up to 20% depending on a patient’s underlying comorbidities and antimicrobial resistance [6]. Many antibiotics can be used to treat E. faecalis, such as beta-lactams, vancomycin, cephalosporins, and carbapenems. But due to high levels of resistance, treatment must be adjusted based on susceptibilities, and drug combinations should be used [8].",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "This case highlights the importance of a thorough diagnostic evaluation in patients with E. faecalis bacteremia when a clear source is not identified. Beyond evaluation for endocarditis and common GI and genitourinary sources, unexplained bacteremia may warrant consideration of underlying colorectal pathology. This case illustrates how an initially unexplained bloodstream infection can prompt investigation for less apparent sources.",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "1 2, 3 4 4",
+          "page": 0,
+          "position": 20
+        },
+        {
+          "text": "4",
+          "page": 0,
+          "position": 21
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Open Access Case Report",
+          "level": 4,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "How to cite this article Kambham A, Farez Ochoa M P, Nayak H, et al. (August 22, 2026) A Diagnostic Challenge Involving Enterococcus faecalis Bacteremia: A Case Report. Cureus 18(8): e114988. DOI 10.7759/cureus.114988",
+              "page": 0,
+              "position": 22
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Case Presentation",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 11,
+      "paragraphs": [
+        {
+          "text": "An 88-year-old woman with a past medical history of atrial fibrillation on apixaban, pacemaker, hypertension, hypothyroidism, and anxiety presented to the emergency department with five days of generalized abdominal pain with associated nausea and vomiting. When asked where the pain was located, the patient pointed to the epigastrium. She presented to her primary care provider for similar symptoms two days prior and was prescribed dicyclomine with no improvement. The patient also endorsed nontraumatic upper back and right shoulder pain that has been there for about five days, ever since the patient had an intense physical therapy session.",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "In the emergency department, she had a mild temperature of 99.5 °F (37.5 °C) and was borderline bradycardic at 60 beats per minute (bpm), but other vitals were within the normal range. On repeat vitals, the patient had a temperature of 101.5°F. Although the systemic inflammatory response syndrome criteria were not met, the emergency department physician decided to start a pre-sepsis workup and ordered labs, a chest X-ray, and antibiotics (azithromycin and ceftriaxone), as well as a 500 cubic centimeter (cc) bolus of fluids to compensate for fluid lost through vomiting [9]. As shown in Figure 1, the chest X-ray showed mild pulmonary vascular congestion, bibasilar infiltrates, and atelectasis with small bilateral pleural effusions, which was questionable for pneumonia, and cardiomegaly with a left-sided pacemaker (Figure 1). Urinalysis and Adult 4-plex were negative for COVID-19, influenza A, influenza B, and respiratory syncytial virus. Electrocardiogram (EKG) showed normal sinus rhythm. Troponin was negative. Computed tomography (CT) of the abdomen and pelvis showed no acute findings and a small hiatal hernia. The patient's initial lab work on admission is shown in Table 1, displaying a neutrophil-predominant leukocytosis (Table 1). The patient was admitted due to confusion, uremia, respiratory rate, blood pressure, and an age (CURB-65) score of 2 [10].",
+          "page": 1,
+          "position": 24
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Lab Patient Values on Admission Normal Range",
+          "level": 4,
+          "page_start": 1,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "WBC 11.5 ↑ 4.5–11.0 x10³/µL",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "RBC Count 3.63 ↓ Male: 4.3–5.9 x10⁶/µL",
+              "page": 1,
+              "position": 26
+            },
+            {
+              "text": "Hemoglobin 11.2 ↓ Male: 13.5–17.5 g/dL",
+              "page": 1,
+              "position": 27
+            },
+            {
+              "text": "Hematocrit 33.2 ↓ Male: 41–53%",
+              "page": 1,
+              "position": 28
+            },
+            {
+              "text": "MCV 91.5 80–100 fL",
+              "page": 1,
+              "position": 29
+            },
+            {
+              "text": "MCH 30.9 26–34 pg",
+              "page": 1,
+              "position": 30
+            },
+            {
+              "text": "MCHC 33.7 32–36 g/dL",
+              "page": 1,
+              "position": 31
+            },
+            {
+              "text": "RDW 13.1 11.5–14.5%",
+              "page": 1,
+              "position": 32
+            },
+            {
+              "text": "Platelet Count 183 150–400 x10³/µL",
+              "page": 1,
+              "position": 33
+            },
+            {
+              "text": "MPV 11.3 7.5-12.0 fL",
+              "page": 1,
+              "position": 34
+            },
+            {
+              "text": "Neutrophils 71.6 ↑ 54–62%",
+              "page": 1,
+              "position": 35
+            },
+            {
+              "text": "Lymphocytes 13.7 ↓ 25–33%",
+              "page": 1,
+              "position": 36
+            },
+            {
+              "text": "Monocytes 13.4 ↑ 3–7%",
+              "page": 1,
+              "position": 37
+            },
+            {
+              "text": "Eosinophils 0.1 ↓ 1–3%",
+              "page": 1,
+              "position": 38
+            },
+            {
+              "text": "Basophils 0.2 0–0.75%",
+              "page": 1,
+              "position": 39
+            },
+            {
+              "text": "Immature Grans 1.0 0–0.5%",
+              "page": 1,
+              "position": 40
+            },
+            {
+              "text": "Procalcitonin 0.52 ↑ <0.05 ng/mL",
+              "page": 1,
+              "position": 41
+            },
+            {
+              "text": "Calcium 8.9 8.4–10.2 mg/dL",
+              "page": 1,
+              "position": 42
+            },
+            {
+              "text": "Albumin 2.8 ↓ 3.5–5.0 g/dL",
+              "page": 1,
+              "position": 43
+            },
+            {
+              "text": "Total Protein 6.7 6.0–8.0 g/dL",
+              "page": 1,
+              "position": 44
+            },
+            {
+              "text": "Sodium 131 ↓ 136–145 mEq/L",
+              "page": 1,
+              "position": 45
+            },
+            {
+              "text": "Potassium 2.8 ↓ 3.5–5.0 mEq/L",
+              "page": 1,
+              "position": 46
+            },
+            {
+              "text": "Chloride 93 95–105 mEq/L",
+              "page": 1,
+              "position": 47
+            },
+            {
+              "text": "CO2 28 23–30 mEq/L",
+              "page": 1,
+              "position": 48
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 2 of 15",
+              "page": 1,
+              "position": 49
+            },
+            {
+              "text": "Blood Urea Nitrogen 39 ↑ 7–18 mg/dL",
+              "page": 2,
+              "position": 50
+            },
+            {
+              "text": "Glucose 101 <140 mg/dL, non-fasting",
+              "page": 2,
+              "position": 51
+            },
+            {
+              "text": "Total Bilirubin 0.5 0.1–1.0 mg/dL",
+              "page": 2,
+              "position": 52
+            },
+            {
+              "text": "Alkaline Phosphatase 56 45–115 U/L",
+              "page": 2,
+              "position": 53
+            },
+            {
+              "text": "AST 21 10–40 U/L",
+              "page": 2,
+              "position": 54
+            },
+            {
+              "text": "ALT 25 7–56 U/L",
+              "page": 2,
+              "position": 55
+            },
+            {
+              "text": "Creatinine 1.75 ↑ Male: 0.5–1.1 mg/dL",
+              "page": 2,
+              "position": 56
+            },
+            {
+              "text": "GFR Estimation 28 >60 mL/min/1.73 m²",
+              "page": 2,
+              "position": 57
+            },
+            {
+              "text": "B-Type Natriuretic Peptide 35 <100 pg/mL",
+              "page": 2,
+              "position": 58
+            },
+            {
+              "text": "CRP, Cardio 149 ↑ <1.0 mg/L",
+              "page": 2,
+              "position": 59
+            },
+            {
+              "text": "TABLE 1: Patient’s Lab Values on Initial Presentation to the Hospital",
+              "page": 2,
+              "position": 60
+            },
+            {
+              "text": "WBC, white blood cell count; RBC, red blood cell count; MCV, mean corpuscular volume; MCH, mean corpuscular hemoglobin; MCHC, mean corpuscular hemoglobin concentration; RDW, red cell distribution width; CO₂, serum bicarbonate (total carbon dioxide); AST, aspartate aminotransferase; ALT, alanine aminotransferase; GFR, estimated glomerular filtration rate; CRP, C-reactive protein.",
+              "page": 2,
+              "position": 61
+            },
+            {
+              "text": "Blood cultures, performed on hospital days two and three (at 24 and 48 hours after admission), returned positive for Gram-positive cocci in pairs and chains and E. faecalis. The culture showed antibiotic susceptibility to ampicillin, vancomycin, and gentamicin and resistance to streptomycin. The patient was started on ceftriaxone (2 grams (g) intravenous (IV) every 12 hours) and ampicillin (2 g IV every 4-6 hours) to cover the Gram-positive cocci in pairs and chains shown in the culture. The pneumonia workup of sputum culture, methicillin-resistant Staphylococcus aureus swab, Legionella urinary antigen, and Streptococcus pneumoniae urinary antigen test was unremarkable. Transthoracic echocardiography showed an ejection fraction of 55-60% with grade 1 diastolic dysfunction. No other acute changes were noted, and no source of infection was identified. The patient was then scheduled for transesophageal echocardiography (TEE) to investigate potential sources of infection around her pacemaker or vegetations on the heart. The TEE showed no echocardiographic evidence of infective endocarditis (IE). Tumor markers for carcinoembryonic antigen, carbohydrate antigen (CA) 19-9, CA 125, and alpha-fetoprotein were negative. To evaluate for other possible sources of infection and due to the patient’s reported pain after her physical therapy session, multiple X-rays were ordered. X-rays of the cervical spine showed moderate multilevel degenerative changes as shown in Figures 2, 3. X-rays of the right shoulder showed osteoarthritic changes at the acromioclavicular joint, as shown in Figure 4. X-rays of the thoracic spine showed no significant abnormality of the thoracic spine and severe aortic calcifications, as shown in Figures 5, 6. Finally, the X-rays of the lumbar spine showed moderate multilevel degenerative changes as shown in Figures 7-9. On hospital day 5, the patient presented with dropping hemoglobin (Hb) and self-reported two episodes of black stool. Her Hb was 11.2 g/dL on admission and 9.7 g/dL on hospital day 5. The patient states that her last colonoscopy was 6-7 years ago and was normal. Before that, it was 15 years ago, and the patient had one polyp removed and biopsied, and it came back benign. The cardiology team was consulted and decided to hold abixaban at this time. The GI team was consulted and recommended esophagogastroduodenoscopy (EGD) and colonoscopy. EGD showed mild reflux esophagitis, a 3-centimeter hiatal hernia, and gastritis erythema. Colonoscopy showed polyps; three polyps from the colon were removed and sent for biopsy. The first polyp was from the cecum and showed “fragments of tubular adenoma”. The second polyp was from the ascending colon and showed a “hyperplastic polyp”. And finally, the third polyp from the rectum showed “fragments of tubular adenoma”. There was no evidence of malignancy.",
+              "page": 2,
+              "position": 62
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 3 of 15",
+              "page": 2,
+              "position": 63
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 1: Chest X-ray",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "X-ray of the chest showing mild pulmonary vascular congestion (blue arrow), bibasilar infiltrates (red arrow) and atelectasis (green arrow) with small bilateral pleural effusions (yellow arrow), which were questionable for pneumonia, and cardiomegaly (purple arrow) with a left-sided pacemaker (orange arrow).",
+              "page": 3,
+              "position": 64
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 4 of 15",
+              "page": 3,
+              "position": 65
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 2: X-ray of the Cervical Spine",
+          "level": 3,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "X-ray of the cervical spine showing no fractures but moderate multilevel degenerative changes (blue arrows). Surgical clips are present in the soft tissue of the neck (red box).",
+              "page": 4,
+              "position": 66
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 5 of 15",
+              "page": 4,
+              "position": 67
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 3: X-ray of the Cervical Spine",
+          "level": 3,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "X-ray of the cervical spine showing no fractures but moderate multilevel degenerative changes (blue arrows). Surgical clips are present in the soft tissue of the neck (red box).",
+              "page": 5,
+              "position": 68
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 6 of 15",
+              "page": 5,
+              "position": 69
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 4: X-ray of the Right Shoulder",
+          "level": 3,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "X-ray of the right shoulder showing no acute fracture or dislocation and osteoarthritic changes at the acromioclavicular joint (blue arrows).",
+              "page": 6,
+              "position": 70
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 7 of 15",
+              "page": 6,
+              "position": 71
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 5: X-ray of the Thoracic Spine",
+          "level": 3,
+          "page_start": 7,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "X-ray of the thoracic spine showing no significant abnormality of the thoracic spine and severe aortic calcifications (blue arrows).",
+              "page": 7,
+              "position": 72
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 8 of 15",
+              "page": 7,
+              "position": 73
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 6: X-ray of the Thoracic Spine",
+          "level": 3,
+          "page_start": 8,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "X-ray of the thoracic spine showing no significant abnormality of the thoracic spine and severe aortic calcifications (blue arrows).",
+              "page": 8,
+              "position": 74
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 9 of 15",
+              "page": 8,
+              "position": 75
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 7: X-ray of the Lumbar Spine",
+          "level": 3,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "X-ray of the lumbar spine showing no acute fracture or subluxation and moderate multilevel degenerative changes of the lumbar spine (blue arrows).",
+              "page": 9,
+              "position": 76
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 10 of 15",
+              "page": 9,
+              "position": 77
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 8: X-ray of the Lumbar Spine",
+          "level": 3,
+          "page_start": 10,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "X-ray of the lumbar spine showing no acute fracture or subluxation and moderate multilevel degenerative changes of the lumbar spine (blue arrows).",
+              "page": 10,
+              "position": 78
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 11 of 15",
+              "page": 10,
+              "position": 79
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 9: X-ray of the Lumbar Spine",
+          "level": 3,
+          "page_start": 11,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "X-ray of the lumbar spine showing no acute fracture or subluxation and moderate multilevel degenerative changes of the lumbar spine (blue arrows).",
+              "page": 11,
+              "position": 80
+            },
+            {
+              "text": "The repeat blood culture from hospital day 5 showed a negative blood culture with no growth. The duration of the bacteremia was three days. On hospital day 6, the infectious disease (ID) team was consulted and suggested discontinuing ceftriaxone (the patient was receiving this for 4 days) and continuing ampicillin (2 g IV every 4-6 hours) while the patient was admitted. Then, the patient was discharged on amoxicillin 1 g orally three times daily for four days to complete a total 10-day antibiotic course. On hospital day 8, Eliquis was resumed after no active bleeds were shown, and the patient’s Hb was stable after resuming abixaban. The patient was discharged and scheduled for follow-up in the GI clinic, ID clinic, and cardiology clinic.",
+              "page": 11,
+              "position": 81
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 12,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Colonic polyps as a portal of entry",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Colonic polyps are a well-recognized GI portal of entry for E. faecalis bacteremia. In a systematic study of IE portals of entry, GI sources accounted for 23% of cases, with colonic polyps identified in 46% of GI-related portals of entry [11]. These findings are further supported by a large Danish cohort study that demonstrated significantly elevated rates of colorectal neoplasia among patients with E. faecalis bloodstream infections (hazard ratio (HR) 4.64) [12], while the Grupo de Apoyo al Manejo de la Endocarditis en España (Spanish",
+              "page": 11,
+              "position": 82
+            },
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 12 of 15",
+              "page": 11,
+              "position": 83
+            },
+            {
+              "text": "Collaboration on Endocarditis) (GAMES) cohort similarly identified colorectal neoplasia in 14.8% of E. faecalis IE patients [13]. In the present case, the patient's tubular adenomas in the cecum and rectum represent a plausible portal of entry, as mucosal disruption associated with adenomatous polyps can facilitate enterococcal translocation into the bloodstream.",
+              "page": 12,
+              "position": 84
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Role of capsule endoscopy and double-balloon enteroscopy",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Once a plausible source of bacteremia was identified through colonoscopy, additional small bowel evaluation with capsule endoscopy or double-balloon enteroscopy was not warranted. Several factors supported this decision: the colonic adenomas provided a sufficient explanation for the bacteremia, CT abdomen and pelvis revealed no small bowel pathology, tumor markers were negative, and hemoglobin stabilized after anticoagulation was held [14]. This approach is consistent with American Society for Gastrointestinal Endoscopy (ASGE) guidelines, which recommend capsule endoscopy only after upper and lower GI sources have been excluded [14]. These advanced modalities would be appropriate only if GI bleeding recurred following polypectomy with negative repeat bidirectional endoscopy [15].",
+              "page": 12,
+              "position": 85
+            },
+            {
+              "text": "⁸F-fluorodeoxyglucose positron emission tomography/computed tomography (¹⁸F-FDG PET/CT) as an adjunct to TEE",
+              "page": 12,
+              "position": 86
+            },
+            {
+              "text": "In this patient with a permanent pacemaker, persistent E. faecalis bacteremia, and negative transesophageal echocardiography, ¹⁸F-FDG PET/CT would have been a reasonable diagnostic adjunct. The 2024 American Heart Association (AHA) Scientific Statement, along with a multi-society expert consensus, rated PET/CT as \"Appropriate\" in patients with cardiac implantable electronic devices and fever in the setting of a negative TEE, noting that it increases diagnostic yield for occult device infection and may additionally detect extracardiac infectious foci [16,17].",
+              "page": 12,
+              "position": 87
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Degenerative spine disease and occult vertebral infection",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "The patient's back pain was clinically attributed to physical therapy, and imaging evaluation was limited to plain radiographs, which have poor sensitivity for detecting early vertebral osteomyelitis. This is a notable limitation, as the Infectious Diseases Society of America (IDSA) has reported that 34% of native vertebral osteomyelitis cases are initially misdiagnosed as degenerative disease. Magnetic resonance imaging, which offers superior diagnostic accuracy with a sensitivity of 97% and a specificity of 93%, was not performed. Given the E. faecalis bacteremia of unclear source and the patient's degenerative spinal changes, the possibility that an early vertebral infection was obscured by pre-existing degenerative disease cannot be entirely excluded [11].",
+              "page": 12,
+              "position": 88
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "CIED management",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "The 2024 AHA guidelines recommend complete device removal for definite CIED infection [16]. However, a Swedish study of 72 patients with CIED and E. faecalis bacteremia found that when echocardiography showed no structural CIED changes, omitting extraction appeared safe, with no CIED-related recurrences [7]. These findings support device retention given the negative TEE.",
+              "page": 12,
+              "position": 89
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Antibiotic therapy and duration",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Ampicillin remains the drug of choice for susceptible E. faecalis. The AHA recommends ampicillin plus ceftriaxone for six weeks for enterococcal IE [18]. For uncomplicated bacteremia, a target trial emulation found no significant benefit of combination over monotherapy [19]. Regarding treatment duration, a retrospective study found short-course therapy (4-10 days) was not inferior to longer courses for uncomplicated enterococcal bacteremia (HR 1.03, 95% CI 0.65-1.62) [20]. Transition to oral amoxicillin 1 g TID for discharge was appropriate.",
+              "page": 12,
+              "position": 90
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 12,
+      "paragraphs": [
+        {
+          "text": "This case illustrates the diagnostic complexity of E. faecalis bacteremia in an elderly patient with multiple comorbidities and a CIED. Despite an extensive workup, no source of infection was initially identified. Colonoscopy, prompted by declining hemoglobin and melena, ultimately revealed colonic tubular adenomas as the most plausible portal of entry, consistent with the growing literature linking E. faecalis bloodstream infections to colorectal neoplasia. This case supports the practice of routine colonoscopy in patients with E. faecalis bacteremia of unclear source, particularly in elderly patients. The patient's favorable outcome, clearance of bacteremia, negative TEE, successful polypectomy, and transition to oral amoxicillin, demonstrates the value of a multidisciplinary approach. Future prospective studies are needed to better define the optimal screening strategy for colorectal neoplasia in patients with E. faecalis bloodstream infections.",
+          "page": 12,
+          "position": 91
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Additional Information",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 13,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Author Contributions",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 13 of 15",
+              "page": 12,
+              "position": 92
+            },
+            {
+              "text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.",
+              "page": 13,
+              "position": 93
+            },
+            {
+              "text": "Concept and design:  Anvitha Kambham, Diptee Poudel, Himanshukumar Nayak, Maria P. Farez Ochoa, Roxana Lazarescu",
+              "page": 13,
+              "position": 94
+            },
+            {
+              "text": "Acquisition, analysis, or interpretation of data:  Anvitha Kambham, Diptee Poudel, Himanshukumar Nayak, Maria P. Farez Ochoa, Roxana Lazarescu",
+              "page": 13,
+              "position": 95
+            },
+            {
+              "text": "Drafting of the manuscript:  Anvitha Kambham, Diptee Poudel, Himanshukumar Nayak, Maria P. Farez Ochoa, Roxana Lazarescu",
+              "page": 13,
+              "position": 96
+            },
+            {
+              "text": "Critical review of the manuscript for important intellectual content:  Anvitha Kambham, Diptee Poudel, Himanshukumar Nayak, Maria P. Farez Ochoa, Roxana Lazarescu",
+              "page": 13,
+              "position": 97
+            },
+            {
+              "text": "Supervision:  Roxana Lazarescu",
+              "page": 13,
+              "position": 98
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Disclosures",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+              "page": 13,
+              "position": 99
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Daca A, Jarzembowski T: From the friend to the foe—Enterococcus faecalis diverse impact on the human immune system. Int J Mol Sci. 2024, 25:2422. 10.3390/ijms25042422 2. Kao PH, Kline KA: Dr. Jekyll and Mr. Hide: how Enterococcus faecalis subverts the host immune response to cause infection. J Mol Biol. 2019, 431:2932-45. 10.1016/j.jmb.2019.05.030 3. Petersen C, Round JL: Defining dysbiosis and its influence on host immunity and disease. Cell Microbiol. 2014, 16:1024-33. 10.1111/cmi.12308 4. Said MS, Tirthani E, Lesho E: Enterococcus infections. StatPearls [Internet]. StatPearls Publishing, Treasure Island, FL; 2026. \\: 5. Østergaard L, Dahl A, Chamat-Hedemand S, et al.: Prevalence of colorectal cancer in patients with Enterococcus faecalis blood stream infection: a nationwide study. J Infect. 2025, 91:106644. 10.1016/j.jinf.2025.106644 6. Rosselli Del Turco E, Bartoletti M, Dahl A, Cervera C, Pericàs JM: How do I manage a patient with enterococcal bacteraemia?. Clin Microbiol Infect. 2021, 27:364-71. 10.1016/j.cmi.2020.10.029 7. Berge A, Arkel L, Nilson B, Rasmussen M: Enterococcus faecalis bacteremia, cardiac implantable electronic device, extraction, and the risk of recurrence. Infection. 2022, 50:1517-23. 10.1007/s15010-022-01838-3 8. Herrera-Hidalgo L, Fernández-Rubio B, Luque-Márquez R, López-Cortés LE, Gil-Navarro MV, de Alarcón A: Treatment of Enterococcus faecalis infective endocarditis: a continuing challenge. Antibiotics (Basel). 2023, 12:10.3390/antibiotics12040704 9. Baddam S, Burns B: Systemic inflammatory response syndrome. StatPearls [Internet]. StatPearls Publishing, Treasure Island, FL; 2026. https://www.ncbi.nlm.nih.gov/books/NBK547669/: 10. Barlow G, Nathwani D, Davey P: The CURB65 pneumonia severity score outperforms generic sepsis and early warning scores in predicting mortality in community-acquired pneumonia. Thorax. 2007, 62:253-9. 10.1136/thx.2006.067371 11. Berbari EF, Kanj SS, Kowalski TJ, et al.: 2015 Infectious Diseases Society of America (IDSA) clinical practice guidelines for the diagnosis and treatment of native vertebral osteomyelitis in adults. Clin Infect Dis. 2015, 61:e26-46. 10.1093/cid/civ482 12. Otani K, Watanabe T, Shimada S, et al.: Clinical utility of capsule endoscopy and double-balloon enteroscopy in the management of obscure gastrointestinal bleeding. Digestion. 2018, 97:52-8. 10.1159/000484218 13. Pericàs JM, Ambrosioni J, Muñoz P, et al.: Prevalence of colorectal neoplasms among patients with enterococcus Faecalis endocarditis in the games cohort (2008-2017). Mayo Clin Proc. 2021, 96:132-46. 10.1016/j.mayocp.2020.06.056 14. Gurudu SR, Bruining DH, Acosta RD, et al.: The role of endoscopy in the management of suspected small- bowel bleeding. Gastrointest Endosc. 2017, 85:22-31. 10.1016/j.gie.2016.06.013 15. Gerson LB, Fidler JL, Cave DR, Leighton JA: ACG Clinical Guideline: diagnosis and management of small bowel bleeding. Am J Gastroenterol. 2015, 110:1265-87; quiz 1288. 10.1038/ajg.2015.246 16. Baddour LM, Esquer Garrigos Z, Rizwan Sohail M, et al.: Update on cardiovascular implantable electronic device infections and their prevention, diagnosis, and management: a scientific statement from the American heart association: endorsed by the international society for cardiovascular infectious diseases. Circulation. 2024, 149:e201-16. 10.1161/CIR.0000000000001187 17. Bourque JM, Birgersdotter-Green U, Bravo PE, et al.: (18)F-FDG PET/CT and radiolabeled leukocyte",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.3390/ijms25042422"
+    },
+    {
+      "id": 2,
+      "raw_text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 14 of 15",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.7759/cureus.114988"
+    },
+    {
+      "id": 3,
+      "raw_text": "SPECT/CT imaging for the evaluation of cardiovascular infection in the multimodality context: ASNC imaging indications (ASNC I2) series expert consensus recommendations from, AATS, ACC, AHA, ASE, EANM, HRS, IDSA, SCCT, SNMMI, and STS. JACC Cardiovasc Imaging. 2024, 17:669-701. 10.1016/j.jcmg.2024.01.004 18. Baddour LM, Wilson WR, Bayer AS, et al.: Infective endocarditis in adults: diagnosis, antimicrobial therapy, and management of complications: a scientific statement for healthcare professionals from the American Heart Association. Circulation. 2015, 132:1435-86. 10.1161/CIR.0000000000000296 19. Bartoletti M, Rosselli Del Turco E, Bussini L, et al.: Monotherapy vs. combination therapy for Enterococcus faecalis bacteraemia: a target trial emulation. Clin Microbiol Infect. 2026, 32:983-90. 10.1016/j.cmi.2026.03.018 20. Zimmermann V, Fourré N, Senn L, Guery B, Papadimitriou-Olivgeris M: Short course of antimicrobial treatment for uncomplicated enterococcal bacteremia. Eur J Clin Microbiol Infect Dis. 2026, 45:557-65. 10.1007/s10096-025-05348-6",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1016/j.jcmg.2024.01.004"
+    },
+    {
+      "id": 4,
+      "raw_text": "2026 Kambham et al. Cureus 18(8): e114988. DOI 10.7759/cureus.114988 15 of 15",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.7759/cureus.114988"
+    }
+  ],
+  "page_count": 15,
+  "warnings": []
+}

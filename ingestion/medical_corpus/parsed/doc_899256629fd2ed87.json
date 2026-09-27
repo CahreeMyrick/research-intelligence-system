@@ -1,0 +1,856 @@
+{
+  "identity": {
+    "id": "doc_899256629fd2ed87",
+    "source": {
+      "filename": "PMC13589322.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13589322.1/PMC13589322.1.pdf",
+      "content_hash": "899256629fd2ed872aeb4a94e28b43528d45b56f8f1cd860972859a9fbfb62c7"
+    }
+  },
+  "metadata": {
+    "title": "Invasive thymoma with rapid response to cisplatin, doxorubicin and cyclophosphamide (PAC) chemotherapy, after an early postoperative recurrence—a case report",
+    "authors": [
+      "Chika Harada",
+      "Kentaro Kitano",
+      "Hiroki Umezawa",
+      "Chiyoko Kono",
+      "Hiroki Tanaka",
+      "Rie Ohtomo"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.21037/med-2026-0024",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Page 1 of 13 Case Report",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Invasive thymoma with rapid response to cisplatin, doxorubicin and cyclophosphamide (PAC) chemotherapy, after an early postoperative recurrence—a case report",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Chika Harada1, Kentaro Kitano1, Hiroki Umezawa2, Chiyoko Kono2, Hiroki Tanaka3, Rie Ohtomo3",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "1 Department of Thoracic Surgery, JR Tokyo General Hospital, Tokyo, Japan; 2 Department of Respiratory Medicine, JR Tokyo General Hospital,",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Tokyo, Japan;",
+          "page": 0,
+          "position": 4
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3 Department of Pathology, JR Tokyo General Hospital, Tokyo, Japan",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Contributions: (I) Conception and design: C Harada, K Kitano; (II) Administrative support: C Harada, K Kitano; (III) Provision of study materials or",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "patients: C Harada, K Kitano; (IV) Collection and assembly of data: C Harada, K Kitano; (V) Data analysis and interpretation: C Harada, K Kitano,",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "H Tanaka; (VI) Manuscript writing: All authors; (VII) Final approval of manuscript: All authors.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "Correspondence to: Kentaro Kitano, MD, PhD. Department of Thoracic Surgery, JR Tokyo General Hospital, 2-1-3 Yoyogi, Shibuya-ku, Tokyo, Japan.",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "Email: ken.tky@gmail.com.",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Background: Thymomas generally exhibit indolent growth and local progression, with extrathoracic",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "metastases being rare. Recurrence typically occurs months or years after surgical resection. We herein present",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "a rare case of thymoma exhibiting rapid postoperative recurrence and abdominal lymph node metastasis, which",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "showed a dramatic response to chemotherapy.",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "Case Description: A 66-year-old female was referred to our hospital for breast cancer treatment. A",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "preoperative computed tomography (CT) scan coincidentally revealed a 7.5 cm anterior mediastinal tumor,",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "suspected to be invading the pericardium and left lung. Extended thymothymectomy with partial resection",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "of the left lung and pericardium was performed. Intraoperatively, no pleural dissemination was observed, and",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "pleural effusion cytology was negative for malignant cells. The pathology was Type AB thymoma, Masaoka",
+          "page": 0,
+          "position": 18
+        },
+        {
+          "text": "stage III [tumor, node, metastasis (TNM) 8th edition: pT3N0M0, Stage IIIA; TNM 9th edition: pT2N0M0,",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "Stage II], with microscopically positive (R1) margins; thus, postoperative radiotherapy was planned. On",
+          "page": 0,
+          "position": 20
+        },
+        {
+          "text": "postoperative day (POD) 18, she presented with dyspnea and massive left pleural effusion; after repeated",
+          "page": 0,
+          "position": 21
+        },
+        {
+          "text": "thoracocentesis, the effusion recurred, and the patient was readmitted for continuous drainage. On POD 43, a",
+          "page": 0,
+          "position": 22
+        },
+        {
+          "text": "CT scan showed a massive lesion along the left thoracic wall adjacent to the pericardium, with multiple small",
+          "page": 0,
+          "position": 23
+        },
+        {
+          "text": "nodes in the left lung and two enlarged left gastric lymph nodes. A CT-guided needle biopsy of the thoracic",
+          "page": 0,
+          "position": 24
+        },
+        {
+          "text": "wall performed on POD 47 confirmed recurrent thymoma. The patient received chemotherapy with cisplatin,",
+          "page": 0,
+          "position": 25
+        },
+        {
+          "text": "doxorubicin, and cyclophosphamide (PAC), with biochemical evidence of rapid tumor lysis that did not meet",
+          "page": 0,
+          "position": 26
+        },
+        {
+          "text": "formal tumor lysis syndrome criteria. Chest X-ray on day 3 of chemotherapy showed near-complete resolution",
+          "page": 0,
+          "position": 27
+        },
+        {
+          "text": "of the thoracic lesions, and a complete response, including normalization of the abdominal lymph nodes, was",
+          "page": 0,
+          "position": 28
+        },
+        {
+          "text": "achieved after four courses of PAC. Serial follow-up imaging has shown no evidence of recurrence for at least",
+          "page": 0,
+          "position": 29
+        },
+        {
+          "text": "18 months.",
+          "page": 0,
+          "position": 30
+        },
+        {
+          "text": "Conclusions: This case illustrates the diagnostic complexity of thymoma, including atypical radiological",
+          "page": 0,
+          "position": 31
+        },
+        {
+          "text": "and pathological features together with an unusually aggressive early recurrence. Incomplete resection can",
+          "page": 0,
+          "position": 32
+        },
+        {
+          "text": "lead to early recurrence and progression, and clinicians must remain vigilant for such atypical courses. The",
+          "page": 0,
+          "position": 33
+        },
+        {
+          "text": "tumor nonetheless proved highly sensitive to chemotherapy, underscoring the importance of prompt systemic",
+          "page": 0,
+          "position": 34
+        },
+        {
+          "text": "treatment intervention when recurrence occurs.",
+          "page": 0,
+          "position": 35
+        },
+        {
+          "text": "Keywords:Thymoma; case report; rapid progression; abdominal lymph node metastasis",
+          "page": 0,
+          "position": 36
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 0,
+          "position": 37
+        },
+        {
+          "text": "Page 2 of 13 Mediastinum, 2026",
+          "page": 1,
+          "position": 38
+        },
+        {
+          "text": "Received: 22 May 2026; Accepted: 10 August 2026; Published online: 17 August 2026.",
+          "page": 1,
+          "position": 39
+        },
+        {
+          "text": "doi: 10.21037/med-2026-0024",
+          "page": 1,
+          "position": 40
+        },
+        {
+          "text": "View this article at: https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 1,
+          "position": 41
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Highlight box",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "Key findings",
+              "level": 3,
+              "page_start": 1,
+              "page_end": 1,
+              "paragraphs": [
+                {
+                  "text": "• This was a rare case of thymoma with rapid postoperative recurrence and metastasis to abdominal lymph nodes. This case achieved a complete and rapid response to cisplatin, doxorubicin, and cyclophosphamide (PAC) chemotherapy.",
+                  "page": 1,
+                  "position": 42
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "What is known and what is new?",
+              "level": 3,
+              "page_start": 1,
+              "page_end": 1,
+              "paragraphs": [
+                {
+                  "text": "• Recurrence of thymoma usually occurs months or years after the initial surgical treatment. Incomplete resection is known to be a risk factor for recurrence. For unresectable recurrences, cytotoxic chemotherapy would be the first-line option.",
+                  "page": 1,
+                  "position": 43
+                },
+                {
+                  "text": "• Though we suspected such rapid progression to be associated with other malignancies (such as thymic carcinoma or malignant lymphoma), computed tomography-guided biopsy confirmed the lesion to be recurrent thymoma. After introduction of PAC chemotherapy, the lesion showed marked radiological regression within 3 days. Such a rapid response to PAC chemotherapy has not been documented elsewhere.",
+                  "page": 1,
+                  "position": 44
+                },
+                {
+                  "text": "What is the implication, and what should change now?",
+                  "page": 1,
+                  "position": 45
+                },
+                {
+                  "text": "• Incomplete resection of thymoma could lead to early recurrence, as was seen in our case. In such cases, close observation and quick intervention should be made to avoid missing the opportunity for further treatment.",
+                  "page": 1,
+                  "position": 46
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Surgery has been the main treatment for thymoma, with incomplete resection known to be a negative prognostic factor (1). Postoperative recurrence of thymoma is reported to occur in 10–30% of cases (2). Because of the indolent behavior of most thymomas, recurrence happens months or years after surgical treatment (1). Most recurrences occur within the pleural cavity; distant recurrences are rare (3). However, we present a case of thymoma with rapid postoperative recurrence and metastasis to abdominal lymph nodes, which exhibited a dramatic response to chemotherapy.We present this article in accordance with the CARE reporting checklist(available athttps://med.amegroups. com/article/view/10.21037/med-2026-0024/rc).",
+          "page": 1,
+          "position": 47
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Case presentation",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "A 66-year-old female was referred to our hospital for treatment of breast cancer. Core needle biopsy of the right breast showed ductal carcinoma in situ (DCIS) without stromal invasion. A preoperative computed tomography (CT) scan coincidentally revealed an anterior mediastinal tumor; given the absence of invasive disease, metastatic breast cancer was considered an unlikely explanation for the intrathoracic and abdominal findings described below. Thus, she was referred to our Department of Thoracic Surgery.",
+          "page": 1,
+          "position": 48
+        },
+        {
+          "text": "On the contrast-enhanced CT scan (Figure 1A-1D), the mediastinal tumor was 7.5 cm × 3.5 cm in size with an irregular shape, suspected of invading the pericardium and left lung (Figure 1B). There were no signs of invasion within the cardiac chambers or the aorta.Fluorodeoxyglucose positron emission tomography(FDG-PET)/CT scan showed an abnormal uptake on the mass, with a maximum standardized uptake value (SUVmax) of 14.89. There were no signs of distant metastases. Serum markers were all within normal range: cytokeratin fraction (CYFRA) 21-1 1.7 ng/mL (reference ≤2.8 ng/mL), squamous cell carcinoma antigen (SCC) 0.8 ng/mL (reference 0.6–2.5 ng/mL), neuron-specific enolase (NSE) 9.6 ng/mL (reference ≤16.3 ng/mL), soluble interleukin-2 receptor (sIL-2R) 397 U/mL (reference 157–474 U/mL), and anti- acetylcholine receptor (anti-AChR) antibody <0.2 nmol/L (reference ≤0.2 nmol/L).",
+          "page": 1,
+          "position": 49
+        },
+        {
+          "text": "We planned the thymectomy to take place before the surgery for breast cancer. A non-contrast CT scan was performed the day before surgery, to assess the possibility of interval progression—specifically, a suspected pleural lesion that might represent pleural dissemination (Figure 1C), or progression of tumor involvement of the left hilar vessels (Figure 1B)—findings which would require a change in strategy, such as a more extensive pulmonary resection. The scan (Figure 2A-2D) revealed a new small amount of left pleural effusion (Figure 2C) but no definite pleural dissemination, and no findings that required altering the planned operative approach. This scan, which also included the abdomen and pelvis, showed no abdominal lymphadenopathy (Figure 2D).",
+          "page": 1,
+          "position": 50
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 1,
+          "position": 51
+        },
+        {
+          "text": "Mediastinum, 2026 Page 3 of 13",
+          "page": 2,
+          "position": 52
+        },
+        {
+          "text": "Figure 1 Preoperative contrast-enhanced computed tomography findings. (A) Image at the level of the left brachiocephalic vein. (B) Image",
+          "page": 2,
+          "position": 53
+        },
+        {
+          "text": "at the level of the pulmonary artery. The tumor is 7.5 cm × 3.5 cm in size, suspected of invading the pericardium and left lung; a white arrow",
+          "page": 2,
+          "position": 54
+        },
+        {
+          "text": "indicates compression of the medial middle lobe pulmonary vein (V4b), suggestive of left lung invasion. (C) Image at the level of the coronary",
+          "page": 2,
+          "position": 55
+        },
+        {
+          "text": "sinus, showing a pleural lesion (white arrow) that might represent pleural dissemination. (D) Image at the level of the left gastric lymph nodes.",
+          "page": 2,
+          "position": 56
+        },
+        {
+          "text": "Via median sternotomy, extended thymothymectomy plus partial resection of the left lung, and resection and reconstruction of the pericardium, was performed; the tumor was resected en bloc. There were no signs of pleural implants. Cytology of the pleural and pericardial fluid was negative for malignant cells. Reconstruction of the pericardium was made using an expanded polytetrafluoroethylene (ePTFE) sheet (Gore-Tex sheet, 0.1 mm in thickness, Tokyo, Japan). The patient was discharged on postoperative day (POD) 9 without major complications.",
+          "page": 2,
+          "position": 57
+        },
+        {
+          "text": "Grossly, the resection specimen (Figure 3A,3B) measured 16 cm × 12 cm × 4.8 cm, including a 3.5 cm segment of partially resected lung, and contained an approximately 8 cm, infiltrative, somewhat ill-defined, milky-white, lobulated solid mass, with membranous tissue corresponding to the lung and pericardium adherent to it (Figure 3A,3B). Histological examination of the resected tumor showed a predominant thymoma component with B1-like morphology (Figure 3C), together with a component of epithelial cells with spindle-shaped morphology consistent with type A, and a further component in which distinction between type A and type B2/B3 morphology",
+          "page": 2,
+          "position": 58
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 2,
+          "position": 59
+        },
+        {
+          "text": "Page 4 of 13 Mediastinum, 2026",
+          "page": 3,
+          "position": 60
+        },
+        {
+          "text": "Figure 2 Preoperative non-contrast CT performed the day before surgery. (A) Image at the level of the left brachiocephalic vein. (B) Image at",
+          "page": 3,
+          "position": 61
+        },
+        {
+          "text": "the level of the pulmonary artery. (C) Image at the level of the coronary sinus, showing a small amount of left pleural effusion (white arrow).",
+          "page": 3,
+          "position": 62
+        },
+        {
+          "text": "(D) Image at the level of left gastric lymph nodes; a white arrow indicates a normal-sized lymph node, for comparison with the enlarged left",
+          "page": 3,
+          "position": 63
+        },
+        {
+          "text": "gastric lymph nodes subsequently identified at recurrence. CT, computed tomography.",
+          "page": 3,
+          "position": 64
+        },
+        {
+          "text": "was difficult; on this combined morphology, the tumor was diagnosed as World Health Organization (WHO) type AB thymoma [Masaoka stage III; tumor, node, metastasis (TNM) 8th edition pT3N0M0, Stage IIIA; TNM 9th edition pT2N0M0, Stage II]. The tumor observed at all invasive foci in the surgical specimen showed B1-like morphology. At the time of resection, the surgeon’s intraoperative assessment was R0, with no macroscopically visible residual tumor. Histological examination of the specimen subsequently showed the tumor widely invading the surrounding adipose tissue, including the lung (Figure 3D) and pericardium-equivalent fibrous membranous tissue. Microscopic tumor exposure was also noted at the dissection margin, corresponding to R1 (microscopic residual tumor) by standard residual tumor classification (4); the specific anatomical orientation of this margin could not be determined from the specimen. Based on this result, postoperative radiotherapy was planned, consistent with National Comprehensive Cancer Network (NCCN) and European Society for Medical Oncology (ESMO) guideline recommendations for R1- resected thymoma (5,6).",
+          "page": 3,
+          "position": 65
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 3,
+          "position": 66
+        },
+        {
+          "text": "Mediastinum, 2026 Page 5 of 13",
+          "page": 4,
+          "position": 67
+        },
+        {
+          "text": "Figure 3 Gross and microscopic findings of the resected tumor. (A,B) Gross appearance of the resected specimen: an approximately 8 cm,",
+          "page": 4,
+          "position": 68
+        },
+        {
+          "text": "infiltrative, ill-defined, milky-white, lobulated solid mass, with lung (A, white arrow) and pericardium-equivalent membranous tissue (B, white",
+          "page": 4,
+          "position": 69
+        },
+        {
+          "text": "arrow) adherent to it. (C) Photomicrograph showing a predominant B1-like thymoma component (left side) together with a more epithelial-",
+          "page": 4,
+          "position": 70
+        },
+        {
+          "text": "cell-prominent area (right side) , H&E staining. (D) Photomicrograph showing tumor cells invading the adjacent lung, H&E staining. H&E,",
+          "page": 4,
+          "position": 71
+        },
+        {
+          "text": "hematoxylin and eosin.",
+          "page": 4,
+          "position": 72
+        },
+        {
+          "text": "On POD 18, the patient visited our outpatient clinic with dyspnea. An X-ray showed a large amount of left pleural effusion (Figure 4A,4B). After repeated thoracocentesis, the effusion recurred, and the patient was readmitted on POD 35 for continuous drainage.",
+          "page": 4,
+          "position": 73
+        },
+        {
+          "text": "On POD 43, bulging of the left anterior chest wall was noticed. A CT scan showed a massive lesion along the left thoracic wall adjacent to the pericardium (Figure 4C-4E), with multiple small nodes in the left lung and two massively enlarged left gastric lymph nodes (Figure 4F), not present on preoperative imaging (Figure 2D). These findings, identified on POD 43, preceded the initiation of chemotherapy (POD 57) and therefore represent disease progression rather than a treatment-related change. CT-guided needle biopsy of the intrathoracic mass via the thoracic wall (Figure 5A) performed on POD 47 confirmed the lesion (Figure 5B-5D) to be recurrent thymoma.",
+          "page": 4,
+          "position": 74
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 4,
+          "position": 75
+        },
+        {
+          "text": "Page 6 of 13 Mediastinum, 2026",
+          "page": 5,
+          "position": 76
+        },
+        {
+          "text": "↗",
+          "page": 5,
+          "position": 77
+        },
+        {
+          "text": "Figure 4 Computed tomography and radiographic findings at postoperative recurrence. (A) Chest X-ray on POD 8. (B) Chest X-ray on POD",
+          "page": 5,
+          "position": 78
+        },
+        {
+          "text": "18, showing left pleural effusion. (C) CT on POD 43, image at the level of the left brachiocephalic vein, showing bulging of the left anterior",
+          "page": 5,
+          "position": 79
+        },
+        {
+          "text": "chest wall (white arrowhead) and a massive lesion along the left thoracic wall (white arrow). (D) CT on POD 43, image at the level of the",
+          "page": 5,
+          "position": 80
+        },
+        {
+          "text": "pulmonary artery. (E) CT on POD 43, image at the level of the coronary sinus. (F) CT on POD 43, showing enlarged left gastric lymph nodes",
+          "page": 5,
+          "position": 81
+        },
+        {
+          "text": "(white arrows), not present preoperatively. CT, computed tomography; POD, postoperative day.",
+          "page": 5,
+          "position": 82
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 5,
+          "position": 83
+        },
+        {
+          "text": "Mediastinum, 2026 Page 7 of 13",
+          "page": 6,
+          "position": 84
+        },
+        {
+          "text": "Figure 5 CT-guided biopsy and histopathological findings of the recurrent lesion. (A) CT-guided percutaneous needle biopsy of the",
+          "page": 6,
+          "position": 85
+        },
+        {
+          "text": "intrathoracic mass, performed on POD 47. (B,C) Photomicrographs showing infiltrating lymphocytes admixed with a few epithelioid cell",
+          "page": 6,
+          "position": 86
+        },
+        {
+          "text": "clusters, H&E staining. (D) Immunohistochemistry showing the epithelioid clusters positive for AE1/AE3, consistent with thymus-derived",
+          "page": 6,
+          "position": 87
+        },
+        {
+          "text": "epithelial cells. CT, computed tomography; H&E, hematoxylin and eosin; POD, postoperative day.",
+          "page": 6,
+          "position": 88
+        },
+        {
+          "text": "Cisplatin, doxorubicin, and cyclophosphamide (PAC) chemotherapy was initiated on POD 57. Biochemical evidence of rapid tumor cell lysis was observed, with marked elevation of lactate dehydrogenase (LDH) (peak 1241 U/L) and transient elevation of blood urea nitrogen (BUN) and uric acid (peak 6.5 mg/dL); phosphorus, potassium, and corrected calcium remained within normal limits, thus formal Cairo-Bishop criteria for Laboratory or Clinical tumor lysis syndrome (7,8) were not met. The patient was managed with intravenous hydration and serial monitoring of renal function and electrolytes, without pharmacologic urate-lowering therapy; laboratory values normalized over approximately 10 days. Three days after initiation of chemotherapy, there were almost no signs of remaining thoracic lesions on the X-ray (Figure 6A,6B). A CT scan after 2 cycles of PAC showed the disappearance of the pleural mass and normalization of the abdominal lymph nodes. Following 4 PAC cycles, remaining pleural effusion disappeared on the CT, achieving a complete response (Figure 6C-6F). Serial follow-up imaging has shown no evidence of recurrent tumor, significant lymphadenopathy, pleural effusion, or bone metastasis for at least 18 months. All procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Helsinki Declaration and its subsequent amendments. Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the editorial office of this journal.",
+          "page": 6,
+          "position": 89
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 6,
+          "position": 90
+        },
+        {
+          "text": "Page 8 of 13 Mediastinum, 2026",
+          "page": 7,
+          "position": 91
+        },
+        {
+          "text": "Figure 6 Radiological response after PAC chemotherapy. (A) Chest X-ray on POD 55. (B) Chest X-ray on POD 60, showing resolution of the",
+          "page": 7,
+          "position": 92
+        },
+        {
+          "text": "left pleural effusion. (C) CT after 4 cycles of PAC, image at the level of the left brachiocephalic vein. (D) CT after 4 cycles of PAC, image at the",
+          "page": 7,
+          "position": 93
+        },
+        {
+          "text": "level of the pulmonary artery. (E) CT after 4 cycles of PAC, image at the level of the coronary sinus, showing disappearance of both the lesion",
+          "page": 7,
+          "position": 94
+        },
+        {
+          "text": "and the pleural effusion. (F) CT after 4 cycles of PAC, showing normalization of the left gastric lymph nodes. CT, computed tomography;",
+          "page": 7,
+          "position": 95
+        },
+        {
+          "text": "PAC, cisplatin, doxorubicin, and cyclophosphamide; POD, postoperative day.",
+          "page": 7,
+          "position": 96
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 7,
+          "position": 97
+        },
+        {
+          "text": "Mediastinum, 2026 Page 9 of 13",
+          "page": 8,
+          "position": 98
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "Recurrence after complete resection of thymoma is known to occur years after operation [the 10-year recurrence-free survival rate was 89.2% in Japan (9)]. Even in cases of recurrence, most lesions are confined to the pleural cavity, and extrathoracic metastases are rare (2,3). In our case, pleural effusion appeared on POD 18, and bulging of the left anterior chest wall was noticed on POD 43, indicating high intrathoracic pressure that we speculate resulted from massive tumor growth. We interpret this pleural effusion, in retrospect, as an early manifestation of the same disease process subsequently confirmed as recurrent thymoma by biopsy on POD 47; at the time it first appeared, however, its underlying cause was not yet established. To our knowledge, this rapid postoperative onset of pleural effusion and chest wall bulging is an extremely rare presentation. In a longitudinal imaging-based study correlating recurrence timing with histological subtype, the median time to recurrence was 25.1 months for thymic carcinoma and 68.8 months for high-risk (B2/B3) thymoma, while the median had not been reached for low-risk (A/AB/B1) thymoma—the risk category to which this tumor belongs (10). The recurrence observed in our case, within weeks of surgery, is therefore markedly earlier than would be expected even for the most rapidly recurring risk category reported in this cohort. A previous report by Kameyama et al. described a case of rapid progression after resection, but even in that case, recurrence was diagnosed 4 months postoperatively (11).",
+          "page": 8,
+          "position": 99
+        },
+        {
+          "text": "For locally advanced thymic epithelial tumors in which complete (R0) resection is considered doubtful, induction chemotherapy or chemoradiotherapy has been recommended (5,6,12). In retrospect, preoperative chemotherapy or chemoradiotherapy should also have been considered as a treatment option in this case. At the time of initial treatment planning, however, the tumor was judged amenable to complete macroscopic (en bloc) resection, and upfront surgery was therefore selected as the initial strategy; final pathology nevertheless demonstrated microscopically positive (R1) margins, indicating a limitation in the preoperative assessment of resectability and, consequently, in the treatment selected. Given the marked chemosensitivity this tumor later demonstrated, it is plausible that preoperative chemotherapy could have reduced tumor burden and increased the likelihood of achieving a complete (R0) resection, potentially including a smaller resection of the pericardium or lung. We recognize this limited preoperative assessment, and the resulting absence of preoperative therapy, as a limitation of the treatment approach in this case.",
+          "page": 8,
+          "position": 100
+        },
+        {
+          "text": "The recurrence involved invasion of the left anterior chest wall together with diffuse left pleural dissemination. We propose one possible explanation for this recurrence pattern, offered as a retrospective hypothesis rather than an established conclusion. Because the specimen was not anatomically oriented, the structure corresponding to the microscopically positive margin cannot be determined with certainty; it could not be directly attributed to the lung, the pericardium, or any other specific adjacent structure among those bordering the anterior mediastinum—the anterior chest wall, the superior vena cava, the left brachiocephalic vein, the pericardium, the left lung (left mediastinal pleura), and the right mediastinal pleura. Since the pathologically documented invasion of the lung and pericardium was reported separately from this margin finding, and based on the subsequent recurrence involving the left anterior chest wall, this margin may have represented the dissection plane facing the anterior chest wall; however, this remains a retrospective hypothesis. Moreover, microscopic residual disease at a single margin would not fully explain the diffuse pleural dissemination observed at recurrence,",
+          "page": 8,
+          "position": 101
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 8,
+          "position": 102
+        },
+        {
+          "text": "Page 10 of 13 Mediastinum, 2026",
+          "page": 9,
+          "position": 103
+        },
+        {
+          "text": "raising the possibility that clinically occult pleural disease was already present at the time of surgery.",
+          "page": 9,
+          "position": 104
+        },
+        {
+          "text": "In our case, whether the newly accumulated lesions (including the enlarged abdominal lymph nodes) were truly a recurrence or not was an important clinical question. The original tumor was mixed thymoma (type AB); there were no cells with significant nuclear atypia or increased mitotic counts. The biopsy specimen of the lesion along the thoracic wall showed only mild atypical lymphocytes infiltrating the muscle tissue (Figure 5B,5C), mainly consisting of CD3/CD5 positive T cells. This atypia was considered too mild to be lymphoma malignant enough to invade muscle, but atypical enough not to be inflammatory. Immunohistochemistry showed the presence of epithelial cells (positive for cytokeratins AE1/AE3) amongst lymphocytes (Figure 5D), which indicated the lesion to be a metastasis from some epithelial tumor. It was unlikely to be cancer, since the lesion was mainly lymphocytic, and the atypia of the epithelial cells within was also relatively mild. Since a completely different malignancy was very unlikely, we diagnosed this case to be compatible with recurrent thymoma. The invasive foci of the primary tumor and the material obtained from the recurrence biopsy both showed morphology corresponding to a B1 component, the latter characterized by prominent lymphocytic infiltration. This finding is consistent with—though not confirmatory of—histological continuity between the primary and recurrent lesions; spatial or temporal heterogeneity cannot be fully excluded given the limited biopsy material available.",
+          "page": 9,
+          "position": 105
+        },
+        {
+          "text": "Considering the patient’s concurrent breast cancer, an anthracycline-based regimen was deemed appropriate. While the ADOC regimen (cisplatin, doxorubicin, vincristine, cyclophosphamide) was also an option, we selected the PAC regimen (cisplatin, doxorubicin, cyclophosphamide), considering the risk and benefit of adding vincristine (12,13), and the patient’s preference for a shorter administration schedule. The response to PAC was dramatic, with chest X-rays showing near-complete resolution of thoracic lesions by day 3 of the first cycle. Although the clinical course was consistent with rapid tumor lysis, as reflected by marked LDH elevation and a transient rise in BUN and uric acid, formal Cairo-Bishop criteria for Laboratory or Clinical tumor lysis syndrome (7,8) were not met. Reports of tumor lysis syndrome during thymoma treatment are extremely rare (14); in our case, laboratory values approached but did not reach formal diagnostic thresholds, and the patient was managed successfully with intravenous hydration and close monitoring alone, without pharmacologic urate-lowering therapy. The antiemetic dexamethasone regimen administered with chemotherapy (Dexart 6.6 mg intravenously on day 1 followed by Decadron 8 mg orally once daily for two days during cycle 1; Dexart 9.9 mg intravenously on day 1 followed by Decadron 8 mg orally once daily for two days during cycles 2–4, with cycle 4 delayed because of herpes zoster though the regimen itself was unchanged) reflects standard antiemetic prophylaxis rather than a therapeutic corticosteroid dose for thymoma; the authors continue to regard any contribution of dexamethasone to the response as speculative and limited, though corticosteroids are known to have anti-tumor activity against thymoma (15). Reported chemotherapy response rates in thymoma vary substantially by treatment setting; in a large prospective cohort, objective response rates were 83% in the primary treatment setting but 39% at first recurrence (13), the setting most relevant to this case. The magnitude and speed of the response observed here, including the normalization",
+          "page": 9,
+          "position": 106
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 9,
+          "position": 107
+        },
+        {
+          "text": "Mediastinum, 2026 Page 11 of 13",
+          "page": 10,
+          "position": 108
+        },
+        {
+          "text": "of abdominal lymph nodes, are most likely attributable to the high chemosensitivity of this tumor’s cells to the cytotoxic agents.",
+          "page": 10,
+          "position": 109
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "This case of WHO type AB thymoma exhibited several atypical features. On FDG- PET/CT, the tumor showed an unexpectedly high SUVmax, a finding that is not typical of the generally indolent behavior described for AB thymomas and that may be related to its subsequent aggressive clinical course. The distinction between WHO type AB and type B2/B3 thymoma can be difficult to define on morphology alone; in this case, despite the absence of marked nuclear atypia or increased mitotic activity, the combined findings of a predominantly B1-like component together with a spindle-cell type A component supported the diagnosis of type AB thymoma. The tumor recurred early after resection, and the recurrence biopsy itself showed morphology corresponding to a B1 component, consistent with, though not confirmatory of, histological continuity with the primary tumor.",
+          "page": 10,
+          "position": 110
+        },
+        {
+          "text": "Although thymoma is generally considered less aggressive than thymic carcinoma, incomplete resection—as occurred in this case—can lead to early recurrence and progression. In cases of incomplete resection, efforts should be made to avoid missing the opportunity for postoperative radiotherapy or chemotherapy, and clinicians must remain vigilant for such atypical courses. In this case, despite the aggressive recurrence, the tumor proved highly sensitive to chemotherapy, underscoring the importance of prompt systemic treatment intervention when recurrence occurs.",
+          "page": 10,
+          "position": 111
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Acknowledgments",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "The authors would like to acknowledge the use of Google Gemini (model: Gemini Advanced) for English language editing and structural assistance during the preparation of this manuscript.",
+          "page": 10,
+          "position": 112
+        },
+        {
+          "text": "Declaration of Generative AI and AI-assisted technologies in the writing process: During the preparation of this work, the authors used Google Gemini(model:Gemini Advanced, accessed on November 30, 2025) to improve the readability and language quality of the manuscript. The authors reviewed and edited the content as needed and take full responsibility for the content of the publication.",
+          "page": 10,
+          "position": 113
+        },
+        {
+          "text": "List of prompts used:The following queries were used to refine the text and structure:",
+          "page": 10,
+          "position": 114
+        },
+        {
+          "text": "“Act as an editor for a scientific medical journal. Refine the grammar and style of the provided case report draft to meet the standards of Mediastinum.”",
+          "page": 10,
+          "position": 115
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "“Format the references according to the Vancouver style.”",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "“Check the logical flow and consistency of the terminology in the Case Presentation.”",
+          "page": 10,
+          "position": 116
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Footnote",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 11,
+      "paragraphs": [
+        {
+          "text": "Reporting Checklist: The authors have completed the CARE reporting checklist. Available at https://med.amegroups.com/article/view/10.21037/med-2026-0024/rc",
+          "page": 10,
+          "position": 117
+        },
+        {
+          "text": "© AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+          "page": 10,
+          "position": 118
+        },
+        {
+          "text": "Page 12 of 13 Mediastinum, 2026",
+          "page": 11,
+          "position": 119
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Peer Review File: Available at https://med.amegroups.com/article/view/10.21037/med- 2026-0024/prf",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 11,
+      "paragraphs": [],
+      "subsections": []
+    },
+    {
+      "title": "Funding: None.",
+      "level": 1,
+      "page_start": 11,
+      "page_end": 11,
+      "paragraphs": [
+        {
+          "text": "Conflicts of Interest: All authors have completed the ICMJE uniform disclosure form (available at https://med.amegroups.com/article/view/10.21037/med-2026-0024/coif). The authors have no conflicts of interest to declare.",
+          "page": 11,
+          "position": 120
+        },
+        {
+          "text": "Ethical Statement: The authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Helsinki Declaration and its subsequent amendments. Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the editorial office of this journal.",
+          "page": 11,
+          "position": 121
+        },
+        {
+          "text": "Open Access Statement: This is an Open Access article distributed in accordance with the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the non-commercial replication and distribution of the article with the strict proviso that no changes or edits are made and the original work is properly cited (including links to both the formal publication through the relevant DOI and the license). See: https://creativecommons.org/licenses/by-nc-nd/4. 0/.",
+          "page": 11,
+          "position": 122
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Ruffini E, Detterbeck F, Van Raemdonck D, et al. Tumours of the thymus: a cohort study of prognostic factors from the European Society of Thoracic Surgeons database. Eur J Cardiothorac Surg 2014;46:361-8.",
+      "authors": [],
+      "title": null,
+      "year": 2014,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "Bott MJ, Wang H, Travis W, et al. Management and outcomes of relapse after treatment for thymoma and thymic carcinoma. Ann Thorac Surg 2011;92:1984-91.",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "Wright CD, Wain JC, Wong DR, et al. Predictors of recurrence in thymic tumors: importance of invasion, World Health Organization histology, and size. J Thorac Cardiovasc Surg 2005;130:1413-21.",
+      "authors": [],
+      "title": null,
+      "year": 2005,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "Wittekind C, Compton C, Quirke P, et al. A uniform residual tumor (R) classification: integration of the R classification and the circumferential margin status. Cancer 2009;115:3483-8.",
+      "authors": [],
+      "title": null,
+      "year": 2009,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "Riely GJ, Wood DE, Loo BW Jr, et al. Thymomas and Thymic Carcinomas, Version 2.2025, NCCN Clinical Practice Guidelines In Oncology. J Natl Compr Canc Netw 2025;23:255-69.",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 6,
+      "raw_text": "Girard N, Ruffini E, Marx A, et al. Thymic epithelial tumours: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol 2015;26:v40-55. © AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024 Mediastinum, 2026 Page 13 of 13",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": "10.21037/med-2026-0024"
+    },
+    {
+      "id": 7,
+      "raw_text": "Cairo MS, Bishop M. Tumour lysis syndrome: new therapeutic strategies and classification. Br J Haematol 2004;127:3-11.",
+      "authors": [],
+      "title": null,
+      "year": 2004,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Howard SC, Jones DP, Pui CH. The tumor lysis syndrome. N Engl J Med 2011;364:1844-54.",
+      "authors": [],
+      "title": null,
+      "year": 2011,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 9,
+      "raw_text": "Okumura M, Yoshino I, Funaki S, et al. Long-term outcomes following surgical treatment for thymic epithelial tumor in Japan and an analysis of prognostic factors based on the Japanese Association for Research on the Thymus nationwide database. Surg Today 2023;53:1247-59. 10.Khandelwal A, Sholl LM, Araki T, et al. Patterns of metastasis and recurrence in thymic epithelial tumours: longitudinal imaging review in correlation with histological subtypes. Clin Radiol 2016;71:1010-7. 11.Kameyama A, Iwazawa T, Nishioka K, et al. Intrathoracic recurrent thymoma exhibiting rapid progression after resection. Haigan 2015;55:42-7. 12.Schmitt J, Loehrer PJ Sr. The role of chemotherapy in advanced thymoma. J Thorac Oncol 2010;5:S357-60. 13.Merveilleux du Vignaux C, Dansin E, Mhanna L, et al. Systemic Therapy in Advanced Thymic Epithelial Tumors: Insights from the RYTHMIC Prospective Cohort. J Thorac Oncol 2018;13:1762-70. 14.Lee JY, Lim SH, Lee JY, et al. Tumor lysis syndrome in a solid tumor: a case report of a patient with invasive thymoma. Cancer Res Treat 2013;45:343-8. 15.Kobayashi Y, Fujii Y, Yano M, et al. Preoperative steroid pulse therapy for invasive thymoma: clinical experience and mechanism of action. Cancer 2006;106:1901-7. doi: 10.21037/med-2026-0024 Cite this article as: Harada C, Kitano K, Umezawa H, Kono C, Tanaka H, Ohtomo R. Invasive thymoma with rapid response to cisplatin, doxorubicin and cyclophosphamide (PAC) chemotherapy, after an early postoperative recurrence—a case report. Mediastinum 2026;10:43. © AME Publishing Company. Mediastinum 2026;10:43 | https://dx.doi.org/10.21037/med-2026-0024",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.21037/med-2026-0024"
+    }
+  ],
+  "page_count": 13,
+  "warnings": []
+}

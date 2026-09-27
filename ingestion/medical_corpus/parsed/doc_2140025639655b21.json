@@ -1,0 +1,990 @@
+{
+  "identity": {
+    "id": "doc_2140025639655b21",
+    "source": {
+      "filename": "PMC13574732.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13574732.1/PMC13574732.1.pdf",
+      "content_hash": "2140025639655b2127062886b97d4d168148515e892d4812fa26b0d55515ccc2"
+    }
+  },
+  "metadata": {
+    "title": "ComparativeevaluationofgenerativeAI modelsforchestradiographreport generationintheemergencydepartment",
+    "authors": [
+      "WooHyeonLim",
+      "JiYoungLee",
+      "JongHyukLee",
+      "SaehoonKimandHyungjinKim"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1007/s00330-026-12648-8",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 https://doi.org/10.1007/s00330-026-12648-8",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "C H E S T O p e nA c c e s s",
+          "page": 0,
+          "position": 1
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "ComparativeevaluationofgenerativeAI modelsforchestradiographreport generationintheemergencydepartment",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 12,
+      "paragraphs": [
+        {
+          "text": "WooHyeonLim1,JiYoungLee1,JongHyukLee1,2,SaehoonKim3andHyungjinKim1,2,3*",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Abstract ObjectivesTobenchmarkmedicalimage-speciﬁcvision–languagemodels(VLMs)againstreal-worldradiologist- writtenreports,focusingondiagnosticquality,clinicalacceptability,hallucinations,andlanguageclarity. MaterialsandmethodsThisretrospectivestudyincludedadultpatientswhopresentedtotheemergency departmentofatertiarycenterbetweenJanuary2022andApril2025andunderwentsame-daychestradiograph (CXR) and CT for febrile or respiratory symptoms. Reports from ﬁve VLMs (AIRead, Lingshu, MAIRA-2, MedGemma, and MedVersa)andradiologist-writtenreportswererandomlypresentedandblindlyevaluatedbythreethoracic radiologistsusingfourcriteria:RADPEER,clinicalacceptability,hallucination,andlanguageclarity.Comparative performancewasassessedusinggeneralizedlinearmixedmodels,withradiologist-writtenreportstreatedasthe reference.Finding-levelanalyseswerealsoperformedwithCTasareference. ResultsAtotalof478patients(medianage,67years[interquartilerange,50–78];282males[59.0%])wereincluded. AIRead demonstrated the lowest RADPEER 3b rate (5.3% [76/1434] vs radiologists 13.9% [200/1434]; p < 0.001) and the highestclinicalacceptability(84.5%[1212/1434]vsradiologists74.3%[1065/1434];p < 0.001),withhallucinationrates comparabletoradiologists(0.3%[4/1425])vs0.1%[1/1425];p = 0.21).OtherVLMsshowedhigherdisagreement (16.8–43.0%;p < 0.05),loweracceptability(41.1–71.4%;p < 0.05),andmorefrequenthallucinations(5.4–17.4%; p < 0.05).LanguageclaritywashigherforseveralVLMs(AIRead,Lingshu,andMedVersa)thanforradiologist-written reports(82.9–88.4%[1189–1268/1434]vs78.1%[1120/1434];p < 0.05).Finding-levelanalysesshowedsubstantial variabilityinsensitivityacrossVLMsforcommonthoracicﬁndings. ConclusionMedical VLMs for CXR report generation exhibited variable performance in report quality and diagnostic measures.",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "KeyPoints QuestionHowdomedicalVLMsperformcomparedwithradiologist-writtenreportsregardingdiagnosticquality,clinical acceptability,hallucinations,andlanguageclarityforCXRs? Findings One non-open-source VLMachievedthe lowest RADPEER 3b rate and highestacceptability withradiologist-level hallucinations,whereasothermodelsshowedinferiorperformance.",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "© The Author(s) 2026. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing,adaptation,distributionandreproductioninanymediumorformat,aslongasyougiveappropriatecredittotheoriginalauthor(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not includedin the article’s CreativeCommonslicenceand yourintended use is notpermittedby statutoryregulationor exceeds the permitted use,youwillneedtoobtainpermissiondirectlyfromthecopyrightholder.Toviewacopyofthislicence,visithttp://creativecommons.org/ licenses/by/4.0/.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "WooHyeonLimandJiYoungLeecontributedequallytothiswork.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "SaehoonKimandHyungjinKimjointlysupervisedthiswork.",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "*Correspondence: HyungjinKim kiche29@snu.ac.kr Fulllistofauthorinformationisavailableattheendofthearticle",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "1234567890():,; 1234567890():,;",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "1234567890():,; 1234567890():,;",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "ClinicalrelevanceVLMsmaysupportautomatedpreliminaryCXRreportingandserveasadjuncttoolstoenhance workﬂowefﬁciencyandconsistency.Althoughperformancevariedwidely,carefullydevelopedmodelsapproached radiologist-levelquality,supportingcontinuedreﬁnementandtargetedclinicalintegration.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "KeywordsDiagnosticimaging,Generativeartiﬁcialintelligence,Naturallanguageprocessing,Radiography (Thoracic),Radiologists",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "GraphicalAbstract",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "Introduction Overthepastdecade,artiﬁcialintelligence(AI)-based approaches, including deep learning, have shown promise indetectingandlocalizingabnormalitiesinchestradio- graphs(CXRs)[1].Morerecently,theemergenceof vision–languagemodels(VLMs),whichjointlyprocess imagesandtext,hasbroughtattentiontoradiologic reportgeneration[1].Thisisparticularlyrelevantcon- sideringtheglobalshortageofradiologists,whichis increasinglystrainedbythegrowingdemandandclinical importanceofimagingstudies[2–4].VLM-basedreport generationhasthereforebeenproposedasapotential solution for producing timely and clinically useful reports insettingswithlimitedradiologistavailability[1].",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "Previous studies have explored the performance of AI in CXR report generation, most often evaluating outputs with semanticsimilaritymeasuresorautomatedmetricsbased onlabelextraction[5–8].However,assessingtheclinical utilityandqualityofAI-generatedreportsrequiresa",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "multifacetedapproachtoaccuratelydeterminethereadi- nessofVLMsforclinicaltranslation[9,10].Forinstance, onepriorstudyemployedmultidimensionalassessments includingclinicalacceptability,expertagreement,and overallreportquality[10].KeydimensionsofVLM- generatedreportevaluationshouldencompassdiagnostic performance (report-level and ﬁnding-level), clinical acceptability (i.e., whether generated reports are suitable for clinical usewith onlyminor revisions), absence of halluci- nation, and linguistic clarity [10, 11].",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "Medicalimage-speciﬁcVLMscaninternalizeradiology priorsbeyondwhatgeneralistmodelsacquirefromnat- uralimagesandcaptions[10–12].Althoughmedical VLMshavedemonstratedpromisingperformancein isolation[13–16],theliteraturecurrentlylacksasys- tematic, standardized comparison across multiple medical VLMs for the speciﬁc task of CXR report generation. It is essentialtocomparemodel-generatedreportsundera uniﬁedframeworkandidenticalexperimentalconditions.",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7912",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "Inthisretrospectivestudy,weaddressthisgapby conductingasystematichead-to-headbenchmarkingof medicalimage-speciﬁcVLMsforCXRreportgeneration. Weperformedamultidimensionalcomparisonofﬁve recentlyreleasedmodelsagainstreal-worldradiologist- writtenreferencereports,usingCXRsobtainedfrom patientspresentingtotheemergencydepartment.",
+          "page": 2,
+          "position": 19
+        },
+        {
+          "text": "Materialsandmethods This retrospective study was approved by the Institutional ReviewBoardofSeoulNationalUniversityHospital(No. H-2505-199-1646),withawaiverofinformedconsent.",
+          "page": 2,
+          "position": 20
+        },
+        {
+          "text": "Patients Adult patients presenting to the emergency department of a tertiary referral center between January 2022 and April 2025 wereretrospectivelyidentiﬁed.Eligiblepatientswerethose whounderwentinitialfrontalCXR(anteroposterioror posteroanteriorview)andchestCTonthesameday,with CTservingasthereferencestandardforﬁnding-level assessment.Amongthese,patientspresentingwithfever and/orchillsorrespiratorysymptoms—includingdyspnea, coughwithorwithoutsputum,blood-tingedsputumor hemoptysis,andchestdiscomfortorpain—wereincluded. The following patients were excluded: (1) those whose CXR reportscontainedcomparisonstatements,(2)thosewhose reports were not available, and (3) those whose reports relied heavily on clinical information rather than imaging ﬁndings.",
+          "page": 2,
+          "position": 21
+        },
+        {
+          "text": "Datacollection From the electronicmedical records,we collected patient demographics, radiologist-written CXR reports, the interval between CXR and CT scan, chief complaints, and comorbidities.DigitalImagingandCommunicationsin MedicineﬁlesofCXRswereexportedfromthePicture ArchivingandCommunicationSystem.CXRsbetween January2022andFebruary2024wereprimarilyinter- pretedbyradiologyresidents,whereasthosebetween March2024andApril2025wereinterpretedbyboard- certiﬁedradiologists.Thelatterperiodcoincidedwitha nationwidestrikebymedicalstudents,residents,andfel- lows,whichshiftedtheemergencydepartmentworkload exclusivelytoboard-certiﬁedradiologists[17,18].",
+          "page": 2,
+          "position": 22
+        },
+        {
+          "text": "CXRreportgeneration Fivemedicalimage-speciﬁcVLMswereemployed:AIR- ead (Soombit.ai), Lingshu (Alibaba), MAIRA-2 (Microsoft Research),MedGemma(GoogleDeepMind),andMed- Versa (Harvard University) [10, 13–16]. Among these, the latterfour models are open-source.For each model, CXR reportsweregeneratedfromthecorrespondingDigital ImagingandCommunicationsinMedicineﬁles,without accesstoclinicalinformationorcomparisonimages.",
+          "page": 2,
+          "position": 23
+        },
+        {
+          "text": "ModelinferencewasperformedonasingleNVIDIA H100graphicsprocessingunitrunningCUDA12.4, withoutﬁne-tuningortransferlearning.Detailsofeach model,includingavailabilityandthepromptsused,are providedinSupplementaryText1.",
+          "page": 2,
+          "position": 24
+        },
+        {
+          "text": "EvaluationofVLM-generatedCXRreports VLM-generatedCXRreportswereevaluatedusingtwo approaches:(1)amultireaderstudyassessingthediag- nosticqualityoffree-textreportsbasedonfourcriteria (RADPEERscore,clinicalacceptability,presenceofhal- lucinations, and language clarity) [10, 19], and (2) ﬁnding- leveldiagnosticsensitivityandspeciﬁcity.",
+          "page": 2,
+          "position": 25
+        },
+        {
+          "text": "Report-leveldiagnosticquality The RADPEER scoring system was originally developed by the American College of Radiology as a peer review tool for quality assurance [19]. It uses a three-point scale: a score of 1indicatescompleteagreementwiththeoriginalinter- pretation,whilescoresof2(understandablemiss)and3 (unacceptablemiss)indicateincreasinglevelsofdisagree- ment. Subcategories “a” and “b” further classify ﬁndings as clinically insigniﬁcant or clinically signiﬁcant,respectively. Thestudyoutcomesweredeﬁnedastheproportionsof reportswithascoreof3b(unacceptable,clinicallysig- niﬁcantmiss)andwithscoresof2bor3bcombined(any clinically signiﬁcant miss [i.e., stricter criterion]).",
+          "page": 2,
+          "position": 26
+        },
+        {
+          "text": "Clinical acceptability was evaluated on a four-point scale that considered the presence of detection errors (e.g., false negatives, false positives, incorrect laterality) and the extent ofeditingrequiredforclinicaluse,complementingthe RADPEER system [11]. In this scale, a score of 1 denoted a report that was not acceptable because of detection errors for clinically referable abnormalities. A score of 2 denoted a report acceptable after major revision due to fewer critical detection errors or the need for extensive edits. A score of 3 denoted a report acceptable only with minor revision, being generallyaccuratebutrequiringlimitededits.Finally,a score of 4 denoted a report acceptable as is, being accurate, clear,andclinicallyactionablewithoutedits.Thestudy outcomewastheproportionofclinicallyacceptable reports,deﬁnedundertwothresholds:(1)thestandard criterion,encompassingreportsacceptableasisorafter minorrevision,and(2)thestringentcriterion,limitedto reports acceptable as is.",
+          "page": 2,
+          "position": 27
+        },
+        {
+          "text": "Hallucinationwasdeﬁnedastheinclusionofinforma- tionthatcouldnotbederivedfromasinglefrontalCXR. Examplesincludedreferencestoalateralview,patient history,comparisonstudies,ormeasurements(suchas lesion size or distance) not supported by the study setting andmodels.Languageclaritywasevaluatedasameasure ofreadabilityusingaﬁve-pointscale(1,unacceptable;2,",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7913",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "poor;3,moderate;4,good;5,excellent).Thestudyout- comewastheproportionofreportsrated4or5.",
+          "page": 3,
+          "position": 30
+        },
+        {
+          "text": "Thisevaluationframeworkwasappliedtoreportsgen- eratedbytheﬁveVLMs,aswellastoradiologist-written reports. Three board-certiﬁed, fellowship-trained thoracic radiologists(J.H.L.,4yearsofpost-fellowshipexperience; W.H.L.,2years;J.Y.L.,1year)independentlyevaluated, for each case, all six reports (ﬁve VLM-generated and one radiologist-written)withaccesstotheoriginalCXRima- ges,usingaweb-basedassessmentplatforminarando- mized,blindedmanner.Allassessmentswereperformed inasinglesessionwithoutawashoutperiod.Thecriteria aresummarizedinSupplementaryTable1.",
+          "page": 3,
+          "position": 31
+        },
+        {
+          "text": "Per-patientﬁnding-levelanalyses Finding-levelsensitivityandspeciﬁcityweremeasuredfor bothVLM-generatedandradiologist-writtenCXRreports, withsame-daychestCTasthereference.CTscanswere reviewed for the presence of predeﬁned abnormalities: aortic aneurysm (≥50 mm for the ascending aorta, ≥40 mm for the descendingaorta),cardiomegaly(CTcardiothoracicratio > 0.5),cavity,emphysema,hilarmass,lungopacity(con- solidation or ground-glass opacity), mediastinal mass, miliary nodules, non-calciﬁed nodule(≥4 mm) or mass, pericardial effusion,pleuraleffusion,pneumomediastinum,pneumo- peritoneum,pneumothorax,andreticularopacity[20–22]. EachCTwasreviewedbyoneofthreeboard-certiﬁed thoracic radiologists after completion of the reader study.",
+          "page": 3,
+          "position": 32
+        },
+        {
+          "text": "Then,apreviouslydevelopedlabelerwasusedtoextract the presence or absence of individual ﬁndings from the CXR reports (Supplementary Text 2). Brieﬂy, CheXGPT, a Bidir- ectional Encoder Representationsfrom Transformers-based model trained on 3 million CXR reports, was used [23].",
+          "page": 3,
+          "position": 33
+        },
+        {
+          "text": "Statisticalanalyses The normality of continuous variables was assessed using theShapiro–Wilktest.Continuousvariableswerepre- sentedasmean ± standarddeviationorasmedianwith interquartilerange(IQR),dependingondistribution.",
+          "page": 3,
+          "position": 34
+        },
+        {
+          "text": "Theproportionsofreportqualitymeasureswereana- lyzed using generalized linear mixed-effects models with a logitlink.Reportsource(VLMsorradiologists)was includedasaﬁxedeffect,usingradiologistsastherefer- encecategory,whilereaderandcaseweremodeledas randomintercepts.Casesinwhichoriginalreportscon- tainedmeasurementswereexcludedfromthehallucina- tion analysis. Subgroup analyses were performed, stratiﬁed by sex (male vs female),age (≥65 vs < 65 years), andtheexpertiseleveloftheinterpretingradiologist (residentvsboard-certiﬁed).Forﬁnding-levelanalyses, sensitivityandspeciﬁcitywith95%conﬁdenceintervals werecalculatedforeachreportsourceandforeach abnormality,usingCTasthereferencestandard.",
+          "page": 3,
+          "position": 35
+        },
+        {
+          "text": "AllstatisticalanalyseswereperformedusingR(version 4.1.2) by W.H.L., and a two-sided p < 0.05 was considered statisticallysigniﬁcant.",
+          "page": 3,
+          "position": 36
+        },
+        {
+          "text": "Results Patients Ofthe1037adultpatientswhopresentedtotheemer- gency department and underwent initial CXR and CT, the following were excluded: (1) patients without fever, chills, orrespiratorysymptoms(n = 537),(2)patientswhose CXRreportscontainedcomparisonstatements(n = 19), (3)patientswithmissingreports(n = 1),and(4)patients whose reports relied heavily on clinical information rather thanimagingﬁndings(n = 2).Atotalof478patients (medianage,67years[IQR,50–78];282male[59.0%]) wereincludedintheﬁnalanalyses(Fig.1).",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "The most common chief complaint was dyspnea (47.7% [228/478]),followedbyfeverand/orchills(23.6%[113/ 478])(Table1).Malignancywaspresentin5.4%(26/478) ofpatients(lungcancer,n = 9;othersolidorganmalig- nancy,n = 12;hematologicmalignancy,n = 5),anddif- fuse parenchymallung diseasewasidentiﬁed in 3.1%(15/ 478;chronicobstructivepulmonarydisease,n = 10; interstitiallungdisease,n = 5)(Table1).Amongthe includedCXRs,32.6%ofpatients(156/478)wereinter- preted as normal (i.e., no abnormal ﬁndings), whereas the remaining67.4%(322/478)hadatleastoneabnormality.",
+          "page": 3,
+          "position": 38
+        },
+        {
+          "text": "Report-leveldiagnosticquality Themedianwordcountwas5words(IQR,4–7)for radiologists,10(IQR,4–15)forAIRead,32(IQR,27–38)",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "Fig.1Flowdiagramofpatientinclusionandexclusion",
+          "page": 3,
+          "position": 40
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7914",
+          "page": 3,
+          "position": 41
+        },
+        {
+          "text": "forLingshu,19(IQR,14–28)forMAIRA-2,275(IQR, 242–321)forMedGemma,and46(IQR,32–66)for MedVersa.",
+          "page": 4,
+          "position": 42
+        },
+        {
+          "text": "RepresentativecasesareshowninFigs.2–4andSup- plementaryFigs.1and2.",
+          "page": 4,
+          "position": 43
+        },
+        {
+          "text": "AgreementandacceptabilityofVLM-generatedreports Theproportionofradiologist-writtenreportscontaining RADPEER 3b disagreement was 13.9% (200/1434). AmongtheVLM-generatedreports,comparedwith radiologists’reports,AIReadshowedalowerproportion ofRADPEER3b(5.3%[76/1434],p < 0.001),whereas otherVLMsshowedhigherproportions:Lingshu(43.0% [616/1434], p < 0.001), MAIRA-2 (24.5% [352/1434], p < 0.001),MedGemma(16.8%[241/1434],p = 0.02),and MedVersa(25.9%[371/1434],p < 0.001)(Table2and Fig.5).ForRADPEER2bor3bdisagreement,thepro- portionwasalsolowerwithAIReadcomparedwith radiologists(AIRead,20.3%[291/1434]vsradiologists, 30.3%[435/1434];p < 0.001),buthigherwithLingshu (57.1%[819/1434],p < 0.001),MAIRA-2(36.8%[528/",
+          "page": 4,
+          "position": 44
+        },
+        {
+          "text": "1434],p < 0.001),andMedVersa(38.4%[551/1434], p < 0.001) (Table 2 and Fig. 5). MedGemma demonstrated RADPEER2bor3brates(27.9%[400/1434],p = 0.10) comparabletothoseofradiologists.",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "The proportion of clinically acceptable reports using the standardcriteriondifferedamongtheVLMs.AIRead showedthehighestacceptability,higherthanthatof radiologists(AIRead,84.5%[1212/1434]vsradiologists, 74.3%[1065/1434];p < 0.001)(Table2andFig.5).All othermodelsshowedloweracceptabilitythanradi- ologists:Lingshu(41.1%[589/1434]),MAIRA-2(65.6% [941/1434]), MedGemma (71.4% [1024/1434]), and MedVersa(63.7%[914/1434])(p < 0.05forall)(Table2 andFig.5).Underthestringentcriterion,AIReadstill showedthehighestacceptability,whichwasgreaterthan thatofradiologists(58.2%[834/1434]vs43.5%[624/ 1434],p < 0.001)(Table2andFig.5).MedGemma demonstratedanacceptabilityratesimilartothatof radiologists(42.9%[615/1434],p = 0.68),whereasthe otherVLM-generatedreportsshowedloweracceptability (25.3–39.7%,p < 0.05forall).",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "Hallucination and language clarity of VLM-generated reports Asinglehallucinationwasidentiﬁedintheradiologist- writtenreports,whichwasnotatruehallucinationbut ratherareviewer’ssubjectiveinterpretationofafalse- positiveﬁnding.Theproportionofreportscontaining hallucinationswasconsiderablyhigherinLingshu(11.0% [157/1425]),MAIRA-2(17.4%[248/1425]),MedGemma (5.4%[77/1425]),andMedVersa(12.3%[175/1425])than in radiologists (0.1% [1/1425], p < 0.05 for all). In contrast, hallucinationsweremarkedlysuppressedinAIRead,with only0.3%ofreports(4/1425,p = 0.21)affected.",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "Intermsoflanguageclarity,AIRead(82.9%[1189/ 1434], p = 0.001), Lingshu (88.0% [1262/1434], p < 0.001), and MedVersa (88.4% [1268/1434], p < 0.001) out- performedradiologists(78.1%[1120/1434]).MedGemma had the lowest proportion of clear language among report sources(69.7%[1000/1434],p < 0.001)(Table2and Fig.5).",
+          "page": 4,
+          "position": 48
+        },
+        {
+          "text": "Subgroupanalysesofreport-leveldiagnosticquality Thesetrendsremainedsimilarinsubgroupsstratiﬁedby sex,age,andtheexperienceleveloftheinterpreting radiologists(SupplementaryTables2–7).",
+          "page": 4,
+          "position": 49
+        },
+        {
+          "text": "Inanalysesstratiﬁedbyradiologistexperience,AIRead consistently demonstrated the lowest proportion of clinicallysigniﬁcantdisagreement(RADPEER3b)com- paredwithbothresidentradiologists(5.6%[60/1074]vs 13.3%[143/1074],p < 0.001)andboard-certiﬁedradi- ologists(4.4%[16/360]vs15.8%[57/360],p < 0.001).In contrast,Lingshu,MAIRA-2,andMedVersaconsistently showed higher disagreement rates than radiologists",
+          "page": 4,
+          "position": 50
+        },
+        {
+          "text": "Table1 Characteristicsofstudypatients",
+          "page": 4,
+          "position": 51
+        },
+        {
+          "text": "Variable No.ofpatients(n = 478)",
+          "page": 4,
+          "position": 52
+        },
+        {
+          "text": "Age,years* 67(50–78) Sex",
+          "page": 4,
+          "position": 53
+        },
+        {
+          "text": "Men 282(59.0)",
+          "page": 4,
+          "position": 54
+        },
+        {
+          "text": "Women 196(41.0)",
+          "page": 4,
+          "position": 55
+        },
+        {
+          "text": "ChestCT-CXRinterval,days* 0(0–0)",
+          "page": 4,
+          "position": 56
+        },
+        {
+          "text": "Projection",
+          "page": 4,
+          "position": 57
+        },
+        {
+          "text": "Posterior–anterior 237(49.6)",
+          "page": 4,
+          "position": 58
+        },
+        {
+          "text": "Anterior–posterior 241(50.4)",
+          "page": 4,
+          "position": 59
+        },
+        {
+          "text": "Chiefcomplaint",
+          "page": 4,
+          "position": 60
+        },
+        {
+          "text": "Feverand/orchill 113(23.6)",
+          "page": 4,
+          "position": 61
+        },
+        {
+          "text": "Dyspnea 228(47.7)",
+          "page": 4,
+          "position": 62
+        },
+        {
+          "text": "Coughand/orsputum 43(9.0)",
+          "page": 4,
+          "position": 63
+        },
+        {
+          "text": "Blood-tingedsputumorhemoptysis 32(6.7)",
+          "page": 4,
+          "position": 64
+        },
+        {
+          "text": "Chestdiscomfortorpain 62(13.0)",
+          "page": 4,
+          "position": 65
+        },
+        {
+          "text": "Comorbidity",
+          "page": 4,
+          "position": 66
+        },
+        {
+          "text": "Lungcancer 9(1.9)",
+          "page": 4,
+          "position": 67
+        },
+        {
+          "text": "Othersolidorganmalignancy 12(2.5) Hematologicmalignancy 5(1.0)",
+          "page": 4,
+          "position": 68
+        },
+        {
+          "text": "Chronicobstructivepulmonarydisease 10(2.1)",
+          "page": 4,
+          "position": 69
+        },
+        {
+          "text": "Interstitiallungdisease 5(1.0)",
+          "page": 4,
+          "position": 70
+        },
+        {
+          "text": "Heartfailure 12(2.5)",
+          "page": 4,
+          "position": 71
+        },
+        {
+          "text": "Hypertension 156(32.6)",
+          "page": 4,
+          "position": 72
+        },
+        {
+          "text": "Diabetesmellitus 94(19.7)",
+          "page": 4,
+          "position": 73
+        },
+        {
+          "text": "Stroke 15(3.1)",
+          "page": 4,
+          "position": 74
+        },
+        {
+          "text": "Coronaryarterydisease 17(3.6)",
+          "page": 4,
+          "position": 75
+        },
+        {
+          "text": "Dataarepresentedasthenumberofpatients(percentage),unlessotherwise speciﬁed CTcomputedtomography,CXRchestradiograph *Dataarepresentedasmedians(IQR)",
+          "page": 4,
+          "position": 76
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7915",
+          "page": 4,
+          "position": 77
+        },
+        {
+          "text": "regardlessofradiologists’experiencelevel(allp < 0.001; SupplementaryTables6and7).",
+          "page": 5,
+          "position": 78
+        },
+        {
+          "text": "Similarly,AIReaddemonstratedthehighestclinical acceptability,whereasLingshuconsistentlyshowedthe lowestacceptabilityacrossbothsubgroups(allp < 0.001). OtherVLMsshowedintermediateperformancewith somevariabilitydependingonacceptabilitycriteriaand readerexperience(SupplementaryTables6and7).",
+          "page": 5,
+          "position": 79
+        },
+        {
+          "text": "Agreementsamongthreeassessorsaresummarizedin Supplementary Tables 8 and 9. Disagreement in language claritywasparticularlypronouncedforMedGemma’s reports(SupplementaryTables8and9).",
+          "page": 5,
+          "position": 80
+        },
+        {
+          "text": "Finding-leveldiagnosticperformance ThemostfrequentCTﬁndingswerelungopacity(con- solidationorground-glassopacity)in53.8%(257/478), followed by pleural effusion in 42.3% (202/478), nodule or massin23.4%(112/478),emphysemain18.2%(84/478), andcardiomegalyin15.7%(75/478)(Tables3and4). About16.3%ofCTscans(78/478)werenormal.",
+          "page": 5,
+          "position": 81
+        },
+        {
+          "text": "Per-patientsensitivityandspeciﬁcityfordetecting majorabnormalitiespotentiallyrelatedtopatients’acute symptoms(i.e.,lungopacityandpleuraleffusion)varied acrossVLMs.AIReadandMedGemmaachievedthe highestsensitivityforlungopacityandpleuraleffusion, respectively(AIReadforlungopacity:sensitivity,77.8% [200/257],speciﬁcity,70.6%[156/221];MedGemmafor pleuraleffusion:sensitivity,71.8%[145/202],speciﬁcity, 75.0%[207/276]).Lingshushowedthelowestsensitivities forbothabnormalitiesamongmodels(lungopacity: sensitivity,16.3%[42/257],speciﬁcity,89.1%[197/221]; pleuraleffusion:sensitivity,21.3%[43/202],speciﬁcity, 90.2%[249/276]).VLMsalsoexhibitedsubstantialvaria- bility for other ﬁndings (cardiomegaly: sensitivity, 69.3–86.7% and speciﬁcity, 61.5–87.3%; emphysema: sensitivity, 2.4–20.2% and speciﬁcity, 94.7–99.2%) (Tables3and4;andFig.6).",
+          "page": 5,
+          "position": 82
+        },
+        {
+          "text": "NoneoftheVLMsidentiﬁedanyofthe10casesof miliarynodulesorthesinglecaseofpneumoperitoneum (Tables 3 and 4; and Fig. 6). Lingshu failed to detect any of",
+          "page": 5,
+          "position": 83
+        },
+        {
+          "text": "Fig. 2Representative CXRs and reports of true-positive cases. A 79-year-old male with dyspnea. Frontal CXR shows increased pulmonary vascularity with equivocal peribronchial opacities (white arrows); CT conﬁrmed interlobular septal thickening (black arrows). Some report sources suggested pulmonary congestion/edema,whereasMAIRA-2andMedVersafailedtoreporttheseﬁndings.Green = truepositive/truenegative;red = falsepositive/false negative",
+          "page": 5,
+          "position": 84
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7916",
+          "page": 5,
+          "position": 85
+        },
+        {
+          "text": "theninepneumothoraxcases(Table3andFig.6),and AIReadsuccessfullydetectedtheonecaseofpneumo- mediastinum(Fig.4).Additionalresultsarepresentedin Tables3and4;andFig.6.",
+          "page": 6,
+          "position": 86
+        },
+        {
+          "text": "Discussion Although several VLMs for medical imaging have recently been released, comparative evaluations remain limited. In thisstudy,weanalyzedCXRsfrompatientspresentingto theemergencydepartmentwithfebrileorrespiratory symptomsandcomparedtheperformanceofﬁveVLMs forreportgenerationagainstradiologist-writtenreports acquiredfromclinicalpractice.Amongthemodels, AIReadconsistentlydemonstratedthemostfavorable balanceacrossmultiplequalitydimensions,achieving lowerratesofclinicallysigniﬁcantdisagreementand higherclinicalacceptability,outperformingradiologists. TheotherVLMsexhibitedvariableresults,withsome excelling in language clarity but performing less reliably in diagnostic agreement and/or clinical acceptability.",
+          "page": 6,
+          "position": 87
+        },
+        {
+          "text": "Notably,AIReaddemonstratedverylowhallucination rates,adesirablefeaturethatenhancesreportreliability.",
+          "page": 6,
+          "position": 88
+        },
+        {
+          "text": "Ourﬁndingsareconsistentwithpriorstudiesshowing thatVLM-generatedreportscanachievehighclinical acceptabilitybutremainlimitedbyhallucinationand reducedperformanceunderstricterevaluationcriteria [10,23,24].Incontrasttopreviousstudiesthatprimarily evaluatedsinglemodels,ourstudyprovidesahead-to- headcomparisonofmultiplecontemporaryVLMs,high- lightingsubstantialinter-modelvariability.Furthermore, ourstudyfocusesontheemergencydepartmentsetting, whereaccurateandtimelyreportingiscritical.",
+          "page": 6,
+          "position": 89
+        },
+        {
+          "text": "Akeyﬁndingofourworkisthediscrepancybetween diagnosticperformanceandreadability.Fluent,well- structuredtextdoesnotguaranteeclinicallyaccurateor usefulcontent,highlightingthatlinguisticclarityand diagnosticﬁdelityareseparatedimensions[25,26].That is,highlanguageclarity,asobservedinLingshuand MedVersa,didnotcorrespondtogreaterdiagnostic accuracy,whereasMedGemmademonstratedthereverse",
+          "page": 6,
+          "position": 90
+        },
+        {
+          "text": "Fig. 3Representative CXRs and reports of false-positive cases. A 35-year-old male with chest discomfort. Radiograph demonstrates left pleural effusion andcardiomegaly(whitearrows);CTconﬁrmedpericardialeffusionwithpericardialthickeningandleftpleuraleffusion(whitearrows).AIReadand MedVersa correctly described these ﬁndings, whereas others partially or entirely missed them. MedVersa falsely reported a pneumothorax, and Lingshu generatedcomparisonstatements.Green = truepositive/truenegative;red = falsepositive/falsenegative;yellow = hallucination",
+          "page": 6,
+          "position": 91
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7917",
+          "page": 6,
+          "position": 92
+        },
+        {
+          "text": "Fig.4(Seelegendonnextpage.)",
+          "page": 7,
+          "position": 93
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7918",
+          "page": 7,
+          "position": 94
+        },
+        {
+          "text": "Fig. 5Comparative evaluation of CXR reports generated by vision-language models against real-world radiologist-written reports. All CXR reports were independentlyreviewedandratedinablindedandrandomizedmannerbythreethoracicradiologists.ADistributionofRADPEERscoresacrossﬁve vision-language models (AIRead, Lingshu, MAIRA-2, MedGemma, and MedVersa) and radiologists (i.e., original reports). RADPEER categories indicate levels ofinterpretiveagreement,withlower scoresreﬂecting higher agreement andhigherscoresreﬂecting greaterdiscrepancies.Within eachscore,the“a” descriptor denotes a clinically insigniﬁcant discrepancy, whereas “b” denotes a clinically signiﬁcant one. B Clinical acceptability of reports, categorized as acceptable as is, acceptable with minor revision, acceptable only with major revision, or not acceptable. C Clarity of language scored on a 5‑point scale, withhigherscoresrepresentinggreaterclarity",
+          "page": 8,
+          "position": 95
+        },
+        {
+          "text": "(seeﬁgureonpreviouspage) Fig. 4Representative CXRs and reports illustrating hallucinations and issues of language clarity. A A 29-year-old male with chest discomfort. Radiograph andCTshowedpneumomediastinumandsubcutaneousemphysema.RadiologistandAIReadreportswereappropriate,whereasMAIRA-2included comparisonstatementsandMedGemmainferredmedicalinformation.Green = truepositive/truenegative;red = falsepositive/falsenegative; yellow = hallucination.BA26-year-oldmalewithchestpainandpneumothorax.Lingshufailedtoreportthelargerightpneumothorax,whileother modelsdescribeditcorrectly.MedVersaincludedahallucinatedstatementregardingphysiciancommunication.Notably,MedGemmaemployedan enumerative manner, incorrectly characterizing the obvious compressive atelectasis caused by a large pneumothorax as mass/tumor, infection, ﬂuid, or consolidation,therebyobscuringlanguageclarity.Additionally,MedGemma’sreportssometimescontainedincompletesentences.Green = true positive/truenegative;red = falsepositive/falsenegative;yellow = hallucination/poorlanguageclarity;underline = incompletesentence",
+          "page": 8,
+          "position": 96
+        },
+        {
+          "text": "Table2 Evaluationofradiologist-writtenandAI-generatedreportsbythreethoracicradiologists",
+          "page": 8,
+          "position": 97
+        },
+        {
+          "text": "Variable Radiologist AIRead Lingshu MAIRA-2 MedGemma MedVersa",
+          "page": 8,
+          "position": 98
+        },
+        {
+          "text": "RADPEERScore3b,% 13.9(200/1434) 5.3(76/1434) 43.0(616/1434) 24.5(352/1434) 16.8(241/1434) 25.9(371/1434)",
+          "page": 8,
+          "position": 99
+        },
+        {
+          "text": "pvalue Reference < 0.001 < 0.001 < 0.001 0.02 < 0.001",
+          "page": 8,
+          "position": 100
+        },
+        {
+          "text": "RADPEERScore2bor3b,% 30.3(435/1434) 20.3(291/1434) 57.1(819/1434) 36.8(528/1434) 27.9(400/1434) 38.4(551/1434)",
+          "page": 8,
+          "position": 101
+        },
+        {
+          "text": "pvalue Reference < 0.001 < 0.001 < 0.001 0.10 < 0.001",
+          "page": 8,
+          "position": 102
+        },
+        {
+          "text": "Clinicallyacceptablereportsbystandardcriterion,% 74.3(1065/1434) 84.5(1212/1434) 41.1(589/1434) 65.6(941/1434) 71.4(1024/1434) 63.7(914/1434)",
+          "page": 8,
+          "position": 103
+        },
+        {
+          "text": "pvalue Reference < 0.001 < 0.001 < 0.001 0.04 < 0.001",
+          "page": 8,
+          "position": 104
+        },
+        {
+          "text": "Clinicallyacceptablereportsbystringentcriterion,% 43.5(624/1434) 58.2(834/1434) 25.3(363/1434) 37.3(535/1434) 42.9(615/1434) 39.7(570/1434)",
+          "page": 8,
+          "position": 105
+        },
+        {
+          "text": "pvalue Reference < 0.001 < 0.001 < 0.001 0.68 0.01",
+          "page": 8,
+          "position": 106
+        },
+        {
+          "text": "Hallucination,%* 0.1(1/1425) 0.3(4/1425) 11.0(157/1425) 17.4(248/1425) 5.4(77/1425) 12.3(175/1425)",
+          "page": 8,
+          "position": 107
+        },
+        {
+          "text": "pvalue Reference 0.21 < 0.001 < 0.001 < 0.001 < 0.001",
+          "page": 8,
+          "position": 108
+        },
+        {
+          "text": "Clarityoflanguage,% 78.1(1120/1434) 82.9(1189/1434) 88.0(1262/1434) 78.4(1124/1434) 69.7(1000/1434) 88.4(1268/1434)",
+          "page": 8,
+          "position": 109
+        },
+        {
+          "text": "pvalue Reference 0.001 < 0.001 0.85 < 0.001 < 0.001",
+          "page": 8,
+          "position": 110
+        },
+        {
+          "text": "Clinicalacceptabilitywasdeﬁnedas“acceptableasis”or“withminorrevision”(standard),andstrictlyas“acceptableasis”only(stringent) Clarityoflanguagewasdeﬁnedasascoreof4orhigher(goodtoexcellent) pvaluesrepresentcomparisonsagainsttheradiologistasthereference *Threepatientswhoseoriginalreportscontainedmeasurementswereexcludedfromtheanalysisofhallucinations",
+          "page": 8,
+          "position": 111
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7919",
+          "page": 8,
+          "position": 112
+        },
+        {
+          "text": "Table3 DiagnosticperformancewithchestCTasthereferencestandard",
+          "page": 9,
+          "position": 113
+        },
+        {
+          "text": "Radiologist AIRead Lingshu",
+          "page": 9,
+          "position": 114
+        },
+        {
+          "text": "Findings Sensitivity,% Speciﬁcity,% Sensitivity,% Speciﬁcity,% Sensitivity,% Speciﬁcity,%",
+          "page": 9,
+          "position": 115
+        },
+        {
+          "text": "Aorticaneurysm 0(0,41.0)[0/7] 100(99.2,100)[471/471] 28.6(3.7,71.0)[2/7] 98.1(96.3,99.1)[462/471] 0(0,41.0)[0/7] 100(99.2,100)[471/471]",
+          "page": 9,
+          "position": 116
+        },
+        {
+          "text": "Cardiomegaly 21.3(13.0,32.6)[16/75] 98.3(96.3,99.2)[396/403] 86.7(76.4,93.1)[65/75] 77.9(73.5,81.8)[314/403] 86.7(76.4,93.1)[65/75] 61.5(56.6,66.3)[248/403]",
+          "page": 9,
+          "position": 117
+        },
+        {
+          "text": "Cavity 20(4.3,48.1)[3/15] 100(99.2,100)[463/463] 6.7(0.2,31.9)[1/15] 100(99.2,100)[463/463] 0(0,21.8)[0/15] 100(99.2,100)[463/463]",
+          "page": 9,
+          "position": 118
+        },
+        {
+          "text": "Emphysema 6.0(2.2,14.0)[5/84] 100(99.1,100)[394/394] 15.5(8.8,25.4)[13/84] 99.2(97.8,99.8)[391/394] 2.4(0.3,8.3)[2/84] 95.7(93.0,97.4)[377/394]",
+          "page": 9,
+          "position": 119
+        },
+        {
+          "text": "Hilarenlargement 30(6.7,65.2)[3/10] 99.1(97.8,99.8)[464/468] 80(44.4,97.5)[8/10] 94.7(92.1,96.4)[443/468] 0(0,30.8)[0/10] 98.9(97.4,99.6)[463/468]",
+          "page": 9,
+          "position": 120
+        },
+        {
+          "text": "Lungopacity(consolidationorGGO) 60.7(54.4,66.7)[156/257] 85.1(79.5,89.4)[188/221] 77.8(72.1,82.6)[200/257] 70.6(64.0,76.4)[156/221] 16.3(12.2,21.6)[42/257] 89.1(84.1,92.8)[197/221]",
+          "page": 9,
+          "position": 121
+        },
+        {
+          "text": "Mediastinalwidening 21.1(6.1,45.6)[4/19] 99.3(98.1,99.9)[456/459] 57.9(33.5,79.7)[11/19] 99.1(97.8,99.8)[455/459] 15.8(3.4,39.6)[3/19] 85.4(81.8,88.4)[392/459]",
+          "page": 9,
+          "position": 122
+        },
+        {
+          "text": "Miliarynodule 0(0,30.8)[0/10] 100(99.2,100)[468/468] 0(0,30.8)[0/10] 100(99.2,100)[468/468] 0(0,30.8)[0/10] 100(99.2,100)[468/468]",
+          "page": 9,
+          "position": 123
+        },
+        {
+          "text": "Noduleormass 20.5(13.7,29.4)[23/112] 97.0(94.5,98.4)[355/366] 36.6(27.9,46.3)[41/112] 87.4(83.5,90.6)[320/366] 0.9(0,4.9)[1/112] 99.5(98.0,99.9)[364/366]",
+          "page": 9,
+          "position": 124
+        },
+        {
+          "text": "Pericardialeffusion 0(0,6.1)[0/59] 100(99.1,100)[419/419] 0(0,6.1)[0/59] 100(99.1,100)[419/419] 0(0,6.1)[0/59] 100(99.1,100)[419/419]",
+          "page": 9,
+          "position": 125
+        },
+        {
+          "text": "Pleuraleffusion 43.1(36.2,50.2)[87/202] 97.5(94.6,98.9)[269/276] 68.3(61.4,74.6)[138/202] 92.0(88.0,94.8)[254/276] 21.3(16.0,27.7)[43/202] 90.2(85.9,93.3)[249/276]",
+          "page": 9,
+          "position": 126
+        },
+        {
+          "text": "Pneumomediastinum 100(2.5,100)[1/1] 100(99.2,100)[477/477] 100(2.5,100)[1/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477]",
+          "page": 9,
+          "position": 127
+        },
+        {
+          "text": "Pneumoperitoneum 0(0,97.5)[0/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 99.8(98.8,100)[476/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477]",
+          "page": 9,
+          "position": 128
+        },
+        {
+          "text": "Pneumothorax 77.8(40,97.2)[7/9] 99.8(98.8,100)[468/469] 77.8(40,97.2)[7/9] 100(99.2,100)[469/469] 0(0,33.6)[0/9] 99.6(98.5,99.9)[467/469]",
+          "page": 9,
+          "position": 129
+        },
+        {
+          "text": "Reticularopacity 7.1(0.9,23.5)[2/28] 98.4(96.7,99.3)[443/450] 25.0(10.7,44.9)[7/28] 99.8(98.8,100)[449/450] 3.6(0.1,18.3)[1/28] 95.6(93.1,97.2)[430/450]",
+          "page": 9,
+          "position": 130
+        },
+        {
+          "text": "Valuesinparenthesesindicate95%conﬁdenceintervals,anddatainbracketsdenotenumeratorsanddenominators",
+          "page": 9,
+          "position": 131
+        },
+        {
+          "text": "GGOground-glassopacity",
+          "page": 9,
+          "position": 132
+        },
+        {
+          "text": "Table4 DiagnosticperformancewithchestCTasthereferencestandard",
+          "page": 9,
+          "position": 133
+        },
+        {
+          "text": "MAIRA-2 MedGemma MedVersa",
+          "page": 9,
+          "position": 134
+        },
+        {
+          "text": "Findings Sensitivity, Speciﬁcity, Sensitivity, Speciﬁcity, Sensitivity, Speciﬁcity,",
+          "page": 9,
+          "position": 135
+        },
+        {
+          "text": "Aorticaneurysm 0(0,41.0)[0/7] 100(99.2,100)[471/471] 0(0,41.0)[0/7] 100(99.2,100)[471/471] 0(0,41.0)[0/7] 100(99.2,100)[471/471]",
+          "page": 9,
+          "position": 136
+        },
+        {
+          "text": "Cardiomegaly 72.0(60.3,81.5)[54/75] 85.6(81.7,88.8)[345/403] 73.3(61.7,82.6)[55/75] 81.1(76.9,84.8)[327/403] 69.3(57.5,79.2)[52/75] 87.3(83.6,90.4)[352/403]",
+          "page": 9,
+          "position": 137
+        },
+        {
+          "text": "Cavity 0(0,21.8)[0/15] 99.8(98.8,100)[462/463] 0(0,21.8)[0/15] 99.6(98.4,99.9)[461/463] 0(0,21.8)[0/15] 100(99.2,100)[463/463]",
+          "page": 9,
+          "position": 138
+        },
+        {
+          "text": "Emphysema 6.0(2.2,14.0)[5/84] 98.2(96.2,99.2)[387/394] 4.8(1.3,11.7)[4/84] 97.5(95.2,98.7)[384/394] 20.2(12.6,30.7)[17/84] 94.7(91.8,96.6)[373/394]",
+          "page": 9,
+          "position": 139
+        },
+        {
+          "text": "Hilarenlargement 20(2.5,55.6)[2/10] 96.8(94.6,98.1)[453/468] 10(0.3,44.5)[1/10] 96.2(93.9,97.6)[450/468] 10(0.3,44.5)[1/10] 98.3(96.5,99.2)[460/468]",
+          "page": 9,
+          "position": 140
+        },
+        {
+          "text": "Lungopacity(consolidationorGGO) 51.4(45.1,57.6)[132/257] 82.8(77.0,87.4)[183/221] 76.7(70.9,81.6)[197/257] 47.5(40.8,54.3)[105/221] 39.3(33.3,45.6)[101/257] 86.9(81.5,90.9)[192/221]",
+          "page": 9,
+          "position": 141
+        },
+        {
+          "text": "Mediastinalwidening 5.3(0.1,26.0)[1/19] 99.3(98.1,99.9)[456/459] 15.8(3.4,39.6)[3/19] 95.6(93.2,97.2)[439/459] 10.5(1.3,33.1)[2/19] 99.6(98.4,99.9)[457/459]",
+          "page": 9,
+          "position": 142
+        },
+        {
+          "text": "Miliarynodule 0(0,30.8)[0/10] 100(99.2,100)[468/468] 0(0,30.8)[0/10] 100(99.2,100)[468/468] 0(0,30.8)[0/10] 100(99.2,100)[468/468]",
+          "page": 9,
+          "position": 143
+        },
+        {
+          "text": "Noduleormass 7.1(3.4,14.0)[8/112] 98.1(95.9,99.2)[359/366] 26.8(19.1,36.1)[30/112] 82.8(78.4,86.4)[303/366] 3.6(1.0,8.9)[4/112] 98.4(96.3,99.3)[360/366]",
+          "page": 9,
+          "position": 144
+        },
+        {
+          "text": "Pericardialeffusion 0(0,6.1)[0/59] 100(99.1,100)[419/419] 5.1(1.1,14.1)[3/59] 98.1(96.1,99.1)[411/419] 0(0,6.1)[0/59] 100(99.1,100)[419/419]",
+          "page": 9,
+          "position": 145
+        },
+        {
+          "text": "Pleuraleffusion 43.6(36.7,50.7)[88/202] 91.3(87.2,94.2)[252/276] 71.8(65.0,77.8)[145/202] 75.0(69.4,79.9)[207/276] 48.0(41.0,55.1)[97/202] 97.1(94.2,98.6)[268/276]",
+          "page": 9,
+          "position": 146
+        },
+        {
+          "text": "Pneumomediastinum 0(0,97.5)[0/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477]",
+          "page": 9,
+          "position": 147
+        },
+        {
+          "text": "Pneumoperitoneum 0(0,97.5)[0/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477] 0(0,97.5)[0/1] 100(99.2,100)[477/477]",
+          "page": 9,
+          "position": 148
+        },
+        {
+          "text": "Pneumothorax 55.6(21.2,86.3)[5/9] 99.6(98.5,99.9)[467/469] 22.2(2.8,60)[2/9] 98.1(96.3,99.1)[460/469] 44.4(13.7,78.8)[4/9] 99.4(98.1,99.9)[466/469]",
+          "page": 9,
+          "position": 149
+        },
+        {
+          "text": "Reticularopacity 7.1(0.9,23.5)[2/28] 99.1(97.7,99.8)[446/450] 28.6(13.2,48.7)[8/28] 93.1(90.3,95.2)[419/450] 28.6(13.2,48.7)[8/28] 95.6(93.1,97.2)[430/450]",
+          "page": 9,
+          "position": 150
+        },
+        {
+          "text": "Valuesinparenthesesindicate95%conﬁdenceintervals,anddatainbracketsdenotenumeratorsanddenominators",
+          "page": 9,
+          "position": 151
+        },
+        {
+          "text": "GGOground-glassopacity",
+          "page": 9,
+          "position": 152
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7920",
+          "page": 9,
+          "position": 153
+        },
+        {
+          "text": "pattern. MedGemma’s exhaustive and enumerative reportingstyleperformedwellundertheRADPEER scoringsystem,whichprimarilyemphasizesreport-level agreement;however,thisapproachappearstocompro- misereadability,therebylimitingitspracticalutility. Additionally, inter-assessor agreement for language clarity",
+          "page": 10,
+          "position": 154
+        },
+        {
+          "text": "waslow,reﬂectingsubstantialvariabilityinindividual assessors’scoringcriteria.Giventhesusceptibilityoflin- guistic clarity to assessor subjectivity, standardized assessmentframeworksencompassingredundancy,com- pleteness,andlexicalclarityarewarranted.WhenVLM- generatedoutputsarefactuallyincorrect,potentiallydue",
+          "page": 10,
+          "position": 155
+        },
+        {
+          "text": "Fig. 6Sensitivity and speciﬁcity for individual ﬁndings. Forest plots show the sensitivity (left) and speciﬁcity (right) with 95% conﬁdence intervals for 15 ﬁndings, including cardiomegaly, consolidation or ground‑glass opacity (GGO), pleural effusion, pneumothorax, pneumomediastinum, hilar enlargement, mediastinalwidening,reticularopacity,noduleormass,emphysema,aorticaneurysm,cavity,pericardialeffusion,miliarynodule,and pneumoperitoneum. Results are compared across ﬁve vision-language models (AIRead, Lingshu, MAIRA‑2, MedGemma, and MedVersa) and radiologists (i.e.,originalreports)",
+          "page": 10,
+          "position": 156
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7921",
+          "page": 10,
+          "position": 157
+        },
+        {
+          "text": "tohallucinations,yetpresentedwithhighconﬁdenceand coherence,theymayintroducesafetyconcernsbymis- leading end-users [27]. Therefore, continued reﬁnement is warrantedtojointlyoptimizediagnosticaccuracyand linguisticclarity.",
+          "page": 11,
+          "position": 158
+        },
+        {
+          "text": "GiventhatAIReaddemonstratedlowerratesofclini- callysigniﬁcantdisagreement(RADPEER3b),higher acceptabilityunderthestringentcriterion,andrare hallucinations,themodelmayserveasavaluable adjunctinclinicalpractice.Onepotentialusecaseis automated draft generation, in which AIRead produces a preliminaryreportthatcanberapidlyreviewedand ﬁnalizedbyradiologists,therebyimprovingefﬁciency without compromising diagnostic quality. In high- volumeorresource-limitedsettings,AIReadcouldalso functionasasecondreadertoreduceerrorratesand enhancereportconsistency.Furthermore,itslowhal- lucinationratesuggestspotentialapplicabilityinemer- gency or frontline care, where rapidand reliable reportingisessential.Theseindicationsunderscorethe roleofsuchmodelsnotasreplacementsbutasclinical supporttoolsthataugmentradiologistperformanceand helpmaintainreportingqualityunderheavyworkload conditions.",
+          "page": 11,
+          "position": 159
+        },
+        {
+          "text": "At the ﬁnding level, VLMs demonstrated relatively high sensitivitiesforcommonabnormalities,includinglung opacity,pleuraleffusion,nodulesormasses,andcardio- megaly. However, the reduced speciﬁcity observed among somemodelsunderscoresatrade-offthatmayleadto false-positivedownstreaminvestigations.Morecritically, both radiologistsand VLMs underperformedin detecting rarebutclinicallyrelevantﬁndings,suchasaortic aneurysms, mediastinal or hilar abnormalities, and pneumoperitoneum.Delayedrecognitionofthesecondi- tionsmayleadtocatastrophicconsequences.Therefore, furtherreﬁnementofVLMstobetteridentifyrare,high- impactabnormalitiesisessential.Itisalsoimportantto notethatthereferencestandardforeachﬁndingwas based on CT results, and the inherent limitations of CXRs indetectingcertainabnormalities—suchasemphysema, miliarynodules,andpneumoperitoneum—shouldbe consideredwheninterpretingourresults,assensitivities mayhavebeenunderestimatedunderthesereference standards.",
+          "page": 11,
+          "position": 160
+        },
+        {
+          "text": "Thisstudyhasseverallimitations.First,itwascon- ductedretrospectivelyatasingleinstitution.Second, becauseCXRreportsinKoreaaretypicallywrittenina conciseformat,assessorsmaybepredisposedtoward similarreportingstyles.Thiscontextisparticularly importantforinterpretingthelanguageclarityresults,as oneassessorsystematicallyassignedlowerscoresto MedGemma’senumerativereports.However,preferred reportingstylesmaydifferinsettingswheremore",
+          "page": 11,
+          "position": 161
+        },
+        {
+          "text": "descriptivereportingisstandardpractice.Therefore,our ﬁndingsregardinglinguisticclarityshouldbevalidated acrossdiverseclinicalandculturalcontexts.Third,the diagnosticperformanceofradiologistsinourstudymay havebeenunderestimated.Duringthestudyperiod,a nationwidestrikebymedicalstudents,residents,andfel- lowsincreasedtheworkloadofboard-certiﬁedradi- ologists, who had to cover emergency department shifts in additiontotheirroutineclinicalduties.Thisunusual clinical environment may have negatively inﬂuenced their performance and should be considered when interpreting theresults.Additionally,asthereportsweregeneratedin areal-worldclinicalworkﬂow,someCXRreportsmay havebeenﬁnalizedwithaccesstosubsequentCTima- ging.Thiscouldhaveinﬂuencedtheradiologists’inter- pretations and potentially contributed to an overestimationoftheirperformance.Therefore,the resultsshouldbeinterpretedwiththisconsiderationin mind.Fourth,ourevaluationincludedonlyonenon- open-sourcemodel,withtheremainderbeingopen- source.Fifth,thisstudydidnotassessthedownstream impactonpatientoutcomes.Importantly,improved diagnostic performance does not necessarily translate into favorableclinicaloutcomes[28,29].Sixth,theinputto VLMs was limited to images alone, and their performance maybeenhancedbyincorporatingrelevantclinical metadata[30,31].Finally,thisstudydidnotassess human–AI collaboration, which may further inﬂuence the clinicalutilityofVLM-generatedreports.",
+          "page": 11,
+          "position": 162
+        },
+        {
+          "text": "Inconclusion,afewVLMsforCXRreportgeneration arenowavailable,yetourevaluationdemonstratedcon- siderablevariationintheirperformance.Amongthem, onenon-open-sourcemodelnotonlyoutperformed radiologistsindiagnosticqualitybutalsoshowedan exceptionally lowrate ofhallucination, whichmay enhancetrustinitsoutputs.",
+          "page": 11,
+          "position": 163
+        },
+        {
+          "text": "Abbreviations AI Artiﬁcialintelligence CXR Chestradiograph IQR Interquartilerange VLM Vision–languagemodel",
+          "page": 11,
+          "position": 164
+        },
+        {
+          "text": "Supplementaryinformation Theonlineversioncontainssupplementarymaterialavailableathttps://doi. org/10.1007/s00330-026-12648-8.",
+          "page": 11,
+          "position": 165
+        },
+        {
+          "text": "Funding OpenAccessfundingenabledandorganizedbySeoulNationalUniversity.",
+          "page": 11,
+          "position": 166
+        },
+        {
+          "text": "Compliancewithethicalstandards",
+          "page": 11,
+          "position": 167
+        },
+        {
+          "text": "Guarantor ThescientiﬁcguarantorofthispublicationisHyungjinKim.",
+          "page": 11,
+          "position": 168
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7922",
+          "page": 11,
+          "position": 169
+        },
+        {
+          "text": "Conﬂictofinterest W.H.L.Norelevantrelationships.J.Y.L.Norelevantrelationships.J.H.L.received consultingfeesfromRadiSen;aresearchgrantfromCorelineSoftandKakao Brain,outsideofsubmittedwork.S.K.isthechieftechnicalofﬁceranda shareholder of Soombit.ai. H.K. Research grants from Kakao Brain and RadiSen, anhonorariumfromAstraZeneca,consultingfeesfromRadiSen,stockand stockoptionsinMedicalIP,stockinSoombit.ai,andmedicaldirectorof Soombit.ai.",
+          "page": 12,
+          "position": 170
+        },
+        {
+          "text": "Statisticsandbiometry Nocomplexstatisticalmethodswerenecessaryforthispaper.",
+          "page": 12,
+          "position": 171
+        },
+        {
+          "text": "Informedconsent WritteninformedconsentwaswaivedbytheInstitutionalReviewBoard.",
+          "page": 12,
+          "position": 172
+        },
+        {
+          "text": "Ethicalapproval InstitutionalReviewBoardapprovalwasobtained.",
+          "page": 12,
+          "position": 173
+        },
+        {
+          "text": "Studysubjectsorcohortsoverlap None.",
+          "page": 12,
+          "position": 174
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Methodology",
+      "level": 1,
+      "page_start": 12,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "●Retrospective",
+          "page": 12,
+          "position": 175
+        },
+        {
+          "text": "●Diagnosticorprognosticstudy",
+          "page": 12,
+          "position": 176
+        },
+        {
+          "text": "●Performedatoneinstitution",
+          "page": 12,
+          "position": 177
+        },
+        {
+          "text": "Authordetails 1DepartmentofRadiology,SeoulNationalUniversityHospital,Jongno-gu, Korea.2DepartmentofRadiology,SeoulNationalUniversityCollegeof Medicine,Jongno-gu,Korea.3Soombit.ai,Bundang-gu,Korea.",
+          "page": 12,
+          "position": 178
+        },
+        {
+          "text": "Received:25February2026Revised:20April2026Accepted:8May2026 Publishedonline:10June2026",
+          "page": 12,
+          "position": 179
+        },
+        {
+          "text": "References 1. SeahJCY,TangJSN,TranA(2025)Draftingthefuture:thedawnofAI report generation in radiology. Radiology 316:e243378. https://doi.org/10. 1148/radiol.243378 2. DoKH,BeckKS,LeeJM(2023)Thegrowingproblemofradiologist shortages: Koreanperspective.KoreanJRadiol24:1173–1175.https://doi. org/10.3348/kjr.2023.1010 3. KooHJ,DoKH(2024)Thestafﬁngcrisisandburnoutinacademicradi- ology: insights from a survey study in Korea. J Am Coll Radiol 21:505–514. https://doi.org/10.1016/j.jacr.2023.08.046 4. AfshariMirakS,TirumaniSH, RamaiyaN, MohamedI (2025) The growing nationwideradiologistshortage:currentopportunitiesandongoing challengesforInternationalMedicalGraduateRadiologists.Radiology 314:e232625.https://doi.org/10.1148/radiol.232625 5. ZhangY,LiuM,ZhangLetal(2023)Comparisonofchestradiograph captionsbasedonnaturallanguageprocessingvscompletedbyradi- ologists. JAMA Netw Open 6:e2255113. https://doi.org/10.1001/ jamanetworkopen.2022.55113 6. NicolsonA,DowlingJ,KoopmanB(2023)ImprovingchestX-rayreport generationbyleveragingwarmstarting.ArtifIntellMed144:102633. https://doi.org/10.1016/j.artmed.2023.102633 7. YuF,EndoM,KrishnanRetal(2023)Evaluatingprogressinautomatic chestX-rayradiologyreportgeneration.Patterns(NY)4:100802.https:// doi.org/10.1016/j.patter.2023.100802 8. Parres D, Albiol A, Paredes R (2024) Improving radiology report generation quality and diversity through reinforcement learning and text augmentation. Bioengineering 11:351. https://doi.org/10.3390/bioengineering11040351 9. ZambranoChavesJM,HuangSC,XuYetal(2025)Aclinicallyaccessible smallmultimodalradiologymodelandevaluationmetricforchestX-ray ﬁndings. Nat Commun 16:3108. https://doi.org/10.1038/s41467-025- 58344-x",
+          "page": 12,
+          "position": 180
+        },
+        {
+          "text": "10. Hong EK, Ham J, Roh B et al (2025) Diagnostic accuracy and clinical value ofadomain-speciﬁcmultimodalgenerativeAImodelforchestradio- graph report generation. Radiology 314:e241476. https://doi.org/10.1148/ radiol.241476 11. LeeS,YounJ,KimH,KimM,YoonSH(2025)CXR-LLaVA:amultimodal largelanguagemodelforinterpretingchestX-rayimages.EurRadiol 35:4374–4386.https://doi.org/10.1007/s00330-024-11339-6 12. Savage CH, Kanhere A, Parekh V et al (2025) Open-source large language modelsinradiology:areviewandtutorialforpracticalresearchand clinicaldeployment.Radiology314:e241073.https://doi.org/10.1148/ radiol.241073 13. XuW,ChanHP,LiLetal(2025)Lingshu:ageneralistfoundationmodel for uniﬁed multimodal medical understanding and reasoning. Preprint at https://doi.org/10.48550/arXiv.2506.07044 14. BannurS,BouzidK,CastroDCetal(2024)MAIRA-2:groundedradiology reportgeneration.Preprintathttps://doi.org/10.48550/arXiv.2406.04449 15. Sellergren A, Kazemzadeh S, Jaroensri T et al (2025) MedGemma technical report.Preprintathttps://doi.org/10.48550/arXiv.2507.05201 16. ZhouHY,AcostaJN,AdithanS,DattaS,TopolEJ,RajpurkarP(2024) MedVersa:ageneralistfoundationmodelformedicalimageinterpreta- tion.Preprintathttps://doi.org/10.48550/arXiv.2405.07988 17. ParkH(2024)Juniordoctors’strikeinSouthKorea:systemicbarriers underminemedicalpractice.BMJ385:q752.https://doi.org/10.1136/bmj. q752 18. deBeerA,WernerAS,KimS,JenneFA(2024)Professionalresistance: whyKoreanmedicalstudentsareboycottingoverincreasingmedical schoolplaces.PerspectMedEduc13:602–607.https://doi.org/10.5334/ pme.1426 19. Goldberg-Stein S, Frigini LA, Long S et al (2017) ACR RADPEER Committee WhitePaperwith2016updates:revisedscoringsystem,newclassiﬁca- tions, self-review, and subspecialized reports. J Am Coll Radiol 14:1080–1086.https://doi.org/10.1016/j.jacr.2017.03.023 20. Gollub MJ, Panu N, Delaney H et al (2012) Shall we report cardiomegaly at routinecomputedtomographyofthechest?JComputAssistTomogr 36:67–71.https://doi.org/10.1097/RCT.0b013e318241e585 21. Munden RF, Carter BW, Chiles C et al (2018) Managing incidental ﬁndings on thoracic CT: mediastinal and cardiovascular ﬁndings. A White Paper of theACRIncidentalFindingsCommittee.JAmCollRadiol15:1087–1096. https://doi.org/10.1016/j.jacr.2018.04.029 22. Bankier AA, MacMahon H, Colby T et al (2024) Fleischner Society: glossary oftermsforthoracicimaging.Radiology310:e232558.https://doi.org/10. 1148/radiol.232558 23. Hong EK, Roh B, ParkB et al (2025) Value of usinga generativeAI model inchestradiographyreporting:areaderstudy.Radiology314,e241646. https://doi.org/10.1148/radiol.241646 24. HwangEJ,LeeJH,Lim WHet al(2025)Clinicalvalidationofa generative artiﬁcialintelligence model for chest radiographreporting: a multicohort study.Radiology316:e250568.https://doi.org/10.1148/radiol.250568 25. Wang X, Figueredo G, Li R, Zhang WE, Chen W, Chen X (2025) A survey of deep-learning-basedradiologyreportgenerationusingmultimodal inputs. Med Image Anal 103:103627. https://doi.org/10.1016/j.media.2025. 103627 26. BaiX,FengM,MaW,LiaoY(2025)Applicationofartiﬁcialintelligence chatbotsininterpretingmagneticresonanceimagingreports:acom- parativestudy.SciRep15:31266.https://doi.org/10.1038/s41598-025- 17355-w 27. HowellMD(2024)Generativeartiﬁcialintelligence,patientsafetyand healthcarequality:areview.BMJQualSaf33:e016690.https://doi.org/10. 1136/bmjqs-2023-016690 28. HwangEJ,ParkCM(2020)Clinicalimplementationofdeeplearningin thoracic radiology: potential applications and challenges. Korean J Radiol 21:511–525.https://doi.org/10.3348/kjr.2019.0821 29. ParkSH,HanK(2018)Methodologicguideforevaluatingclinicalper- formanceandeffectofartiﬁcialintelligencetechnologyformedical diagnosisandprediction.Radiology286:800–809.https://doi.org/10. 1148/radiol.2017171920 30. BluethgenC,ChambonP,DelbrouckJBetal(2025)Avision-language foundationmodelforthegenerationofrealisticchestX-rayimages.Nat BiomedEng9:494–506.https://doi.org/10.1038/s41551-024-01246-y",
+          "page": 12,
+          "position": 181
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7923",
+          "page": 12,
+          "position": 182
+        },
+        {
+          "text": "31. Aksoy N, Sharoff S, Baser S, Ravikumar N, Frangi AF (2024) Beyond images: anintegrativemulti-modalapproachtochestx-rayreportgeneration. FrontRadiol4:1339612.https://doi.org/10.3389/fradi.2024.1339612",
+          "page": 13,
+          "position": 183
+        },
+        {
+          "text": "Publisher’sNote SpringerNatureremainsneutralwithregardtojurisdictionalclaimsin publishedmapsandinstitutionalafﬁliations.",
+          "page": 13,
+          "position": 184
+        },
+        {
+          "text": "Limetal.EuropeanRadiology(2026)36:7911–7924 7924",
+          "page": 13,
+          "position": 185
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [],
+  "page_count": 14,
+  "warnings": [
+    "no references detected"
+  ]
+}

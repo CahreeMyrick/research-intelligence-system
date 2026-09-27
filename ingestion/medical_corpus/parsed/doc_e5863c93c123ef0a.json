@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "id": "doc_e5863c93c123ef0a",
+    "source": {
+      "filename": "PMC13598677.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13598677.1/PMC13598677.1.pdf",
+      "content_hash": "e5863c93c123ef0addaa0de0d262b12b5775853cf1a2d11879cd197b4962f7a5"
+    }
+  },
+  "metadata": {
+    "title": "DelayedRightHemidiaphragmRuptureAfterBlunt TraumaRepairedWithProlene Mesh:ACaseReport",
+    "authors": [
+      "ZahraSadin |AghajanzadehManochehr|SadinMohammadreza|Alavi FoumaniAli|Fakhr Mousavi Ali Asghar| Mosaffaee Omid|RamezaniNaghi|Farzin Mohaya"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1155/cris/3439339",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "CASEREPORT OPENACCESS",
+          "page": 0,
+          "position": 0
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "DelayedRightHemidiaphragmRuptureAfterBlunt TraumaRepairedWithProlene Mesh:ACaseReport",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "ZahraSadin1 |AghajanzadehManochehr1|SadinMohammadreza2|Alavi FoumaniAli3|Fakhr Mousavi Ali Asghar3| Mosaffaee Omid3|RamezaniNaghi3|Farzin Mohaya3",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "1Departmentof ThoracicSurgery,GuilanUniversityofMedical Sciences,Rasht, Iran|2Departmentof Pulmonology, GuilanUniversityofMedical Sciences, Rasht, Iran|3Department of Internal Medicine, Inﬂammatory Lung Diseases Research Center, Razi Hospital, School of Medicine, Guilan University of Medical Sciences,Rasht,Iran",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Correspondence: ZahraSadin(drsadin95@gmail.com)",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Received:29May 2026|Revised: 18August2026|Accepted:1September2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "AcademicEditor: SemontiNandi",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Keywords:blunttrauma|delayedpresentation| diaphragmaticrupture|Prolenemesh|righthemidiaphragm",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "ABSTRACT Traumatic diaphragmatic rupture (TDR) is a rare butserious injury. It most commonly results from high-impact blunt trauma. Right-sidedrupturesareparticularlyuncommonduetotheprotectiveeffectoftheliver.Delayedpresentationcancausediag- nostic challenges, as the injury may remain clinically silent for years before complications such as organ herniation. We report a case of a 65-year-old male who presented with progressive dyspnea, right-sided chest pain, and right upper quadrant abdominal discomfort4yearsafteraseveremotorvehicleaccident.Chestradiographyrevealedaheterogeneousopacityintheright hemithorax,andcontrast-enhancedCTconﬁrmedrighthemidiaphragmaticrupturewithintrathoracicherniationoftheliver. The patient underwent urgent surgical repair. A large diaphragmatic defect was identiﬁed and repaired with a Prolene mesh in a tension-freefashion.Thepostoperativecoursewasuneventful,withcompleteresolutionofsymptoms.Thiscasehighlightsthe importance of maintaining clinical suspicion for delayed diaphragmatic rupture in patients with a remote history of blunt trauma, evenwheninitialimagingwasnormal.Contrast-enhancedCTremainsthediagnosticstandard,andProlenemeshrepairisa surgical solutionfor large diaphragmatic defects.",
+          "page": 0,
+          "position": 7
+        }
+      ],
+      "subsections": [
+        {
+          "title": "1|Introduction",
+          "level": 3,
+          "page_start": 0,
+          "page_end": 0,
+          "paragraphs": [
+            {
+              "text": "Traumatic diaphragmatic rupture (TDR) is a rare but serious injury, mostoften caused byhigh-impact traumassuch asmotorvehicle accidents.Itisreportedin0.8%–5.8%ofbluntthoracoabdominal trauma cases. Right-sided ruptures are less common than left-sided injuriesbecausetheliverdistributesthetraumaticforceand becauseright-sideddefectsaremoreeasilyoverlookedoninitial imaging beforeherniationdevelops[1–3].Adistinctivefeatureof these injuries is their potential to remain clinically silent for years and only become apparent when complications such as organ her- niation develop. Like when the liver or stomach protrude into the",
+              "page": 0,
+              "position": 8
+            },
+            {
+              "text": "chest and cause symptoms like chest pain or shortness of breath [1, 4].Thislatencycanreﬂectasmallinitialtearthatistemporarily sealed by the adjacent liver or omentum, and frank herniation only occurs later when intra-abdominal pressure rises from heavy lifting oranotherValsalva-typemaneuver.Itforcestheabdominalcon- tents through the defect. Diagnosing a delayed rupture is not easy: chest X-rays can miss up to 25% of cases, so contrast-enhanced CT scans remain the preferred method for detecting defects and herni- ated organs [5, 6]. In our patient, a 4-year delay from a car accident totheonsetofsymptomsshowshowtheseinjuriescanremain silent and can only present when physical exertion triggers compli- cations.RegardingrepairoflargeTDR,primaryclosureisnot",
+              "page": 0,
+              "position": 9
+            },
+            {
+              "text": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided theoriginalworkis properlycited.",
+              "page": 0,
+              "position": 10
+            },
+            {
+              "text": "Copyright© 2026ZahraSadinetal. CaseReportsinSurgerypublishedbyJohn Wiley & SonsLtd.",
+              "page": 0,
+              "position": 11
+            },
+            {
+              "text": "CaseReportsinSurgery,2026;2026:3439339 1of4 https://doi.org/10.1155/cris/3439339",
+              "page": 0,
+              "position": 12
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Case Reports in Surgery",
+          "level": 2,
+          "page_start": 0,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "always possible, especially for defects larger than 8–10 cm; in such cases,syntheticmeshessuchasProleneprovideatension-free repair[3,5].Biologicmeshesarealsoanoption,butthereisnot enough evidences of their superiority over synthetics [2, 5, 7]. This casereportexploresararedelayedrighthemidiaphragmrupture withliverherniation,whichwasmanagedwithProlenemesh repair. It highlights the diagnostic challenges and surgical consid- erations in managing large TDRs [1, 3].",
+              "page": 1,
+              "position": 13
+            }
+          ],
+          "subsections": [
+            {
+              "title": "2|Case",
+              "level": 3,
+              "page_start": 1,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "A 65-year-old male presented to the pulmonary medicine depart- ment of a teaching hospital with complaints of severe right-sided chest pain, right upper quadrant abdominal discomfort, progres- sivedyspnea,constipation,decreasedappetite,andaproductive cough lasting for 12 days from the onset. These symptoms began several days afterthe patient lifteda heavypackage.",
+                  "page": 1,
+                  "position": 14
+                },
+                {
+                  "text": "Onexamination,thepatientwasafebrilebutinrespiratorydis- tress, with a respiratory rate of 34 breaths per minute, an oxygen saturation of 96% on room air, a pulse rate of 96 beats per minute, and a blood pressure of 130/80 mmHg. Abdominal examination revealedaﬂatandtenderabdomen,mostnotablyintheright upperquadrant.Onchestexamination,breathsoundswere decreasedinthemidandlowerzonesoftherightlung,and cardiacauscultationrevealedashiftofthepointofmaximal impulse to the left hemithorax. It was consistent with mediastinal displacement secondary to right-sided diaphragmatic herniation.",
+                  "page": 1,
+                  "position": 15
+                },
+                {
+                  "text": "Aposteroanteriorchestradiographshowedaheterogeneous opacity in the right hemithorax (Figure 1). It initially raised sus- picion of a pleural or pulmonary pathology. Abdominal ultraso- nographyrevealedtheliververticallywithintheright hemithorax.Itsuggestsherniationthroughthediaphragm.A contrast-enhancedCTscanofthethoraxandabdomencon- ﬁrmedthediagnosisofright-sideddiaphragmaticrupturewith intrathoracic herniationof theliver.",
+                  "page": 1,
+                  "position": 16
+                },
+                {
+                  "text": "Thepatienthadnoknownchroniccardiopulmonarydisease orothersigniﬁcantcomorbiditiesandwasnotonanticoagu- lantorantiplatelettherapy.Hejustreportedahistoryofa severemotorvehicleaccidentabout4yearsago,andhewas evaluatedanddischargedafteranunremarkableinitial traumaassessment.Medicalrecordsfromthatadmission werenotavailableforreview.Nofollow-upwasdoneafter thatinjury.Basedontheclinicalhistory,itwasretrospec- tivelysuspectedthataminordiaphragmatictearhad occurredduringtheinitialtraumaandremainedundiag- nosed.Itwasgraduallyenlargingovertimeandeventually led to complete rupture because of increased intra-abdominal pressurebyliftingtheheavyobject.",
+                  "page": 1,
+                  "position": 17
+                },
+                {
+                  "text": "Following multidisciplinary consultation with thoracic surgery and pulmonary medicine, the patient was admitted for urgent surgical intervention by a right posterolateral thoracotomy. In operation, a large right diaphragmatic defect of about 10 cm × 8 cm was identi- ﬁed, with herniation of the liver into the thoracic cavity; the size of the defect prevents the tension-free primary closure. So, it was the indication for prosthetic mesh reconstruction (Figure 2).",
+                  "page": 1,
+                  "position": 18
+                },
+                {
+                  "text": "Completereductionoftheherniatedliverwasperformed,and theresidualdiaphragmaticdefectwasrepairedwithapolypro- pylene(Prolene)mesh.Itoverlappedthedefectmarginsbyat least 2 cm and was secured circumferentially to the residual dia- phragmatic rim and adjacent costal margin with interrupted and nonabsorbable0-Prolenemattresssutures.So,wemadeaten- sion-free repair (Figure 3). The after surgery course was unevent- ful,withresolutionofchestpainanddyspneawithin48 h.The patientwasdischargedonpostoperativeday5instablecondi- tion.Atthe2-weekfollow-upvisit,heremainedasymptomatic, withanormalchestradiographandnoclinicalsignsofmesh- related complications; at the 3-month visit, follow-up chest imag- ingconﬁrmedanintactrepairwithnorecurrenceofherniation and complete resolution of the previous right hemithoracic opac- ity(Figure 4).",
+                  "page": 1,
+                  "position": 19
+                },
+                {
+                  "text": "(a) (b)",
+                  "page": 1,
+                  "position": 20
+                },
+                {
+                  "text": "(c)",
+                  "page": 1,
+                  "position": 21
+                },
+                {
+                  "text": "FIGURE1 | Preoperativeimaging ﬁndings. Posteroanterior chest radiograph demonstrating a heterogeneous opacity in the right hemithorax, raising initial suspicion for pleural or pulmonary pathology (a). Contrast-enhanced CT scan of the thorax (axial view) conﬁrming right hemidiaphragmatic rupture with intrathoracic herniation of the liver (b). Coronal CT reconstruction illustrating the extent of liver displacement into the right thoracic cavity (c).",
+                  "page": 1,
+                  "position": 22
+                },
+                {
+                  "text": "2of4 CaseReportsinSurgery,2026",
+                  "page": 1,
+                  "position": 23
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "3|Discussion",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "A diaphragmatic hernia is when abdominal organs protrude into the thoracic cavity through a diaphragmatic defect or rupture [8]. About75%ofsuchherniasarebecauseofpenetratingorblunt trauma, whichresults in diaphragmatic rupture [7, 8]. The inci- dence of diaphragmatic rupture ranges from 0.8% to 5% in cases of thoracoabdominal trauma [1, 3]. The simultaneous herniation of the liver, gallbladder, stomach, and omentum is still rare [5, 7].",
+                  "page": 2,
+                  "position": 24
+                },
+                {
+                  "text": "Delayed diaphragmatic rupture may manifest days or weeks after theinitialtrauma,whichpermitsabdominalorganstoherniate",
+                  "page": 2,
+                  "position": 25
+                },
+                {
+                  "text": "intothethoraciccavity[5].Adiagnosticdelayiscommon betweentheinjuryandtheidentiﬁcationofcomplications[3]. Predominantly, 80%–90% of TDRs occur on the left side because ofthevulnerabilityrelativetotherightdiaphragm,whichis reinforced by the liver. These injuries may initially go undetected duetoconcurrenttraumaornonspeciﬁcsymptoms,andthey",
+                  "page": 2,
+                  "position": 26
+                },
+                {
+                  "text": "FIGURE 2 | Intraoperative ﬁndings. Direct visualization of the large right diaphragmatic defect following thoracotomy. Herniation of the liver into therightthoraciccavityasseenintraoperatively.Intraoperativephotographshowingtheextentofhepaticdisplacementwithinthethoraxpriorto reduction. Complete reduction ofthe herniated liver with visualization ofthe diaphragmatic defect before mesh repair.",
+                  "page": 2,
+                  "position": 27
+                },
+                {
+                  "text": "FIGURE3 | Repairofthelargediaphragmaticdefectaftercomplete reductionoftheherniatedliverintotheabdominalcavity,byaProlene mesh.",
+                  "page": 2,
+                  "position": 28
+                },
+                {
+                  "text": "FIGURE 4 | Chest X-ray after surgery. Follow-up imaging shows res- toration of the normal anatomical position of the liver with resolution of the previous intrathoracic herniation and improvement of the right hemi- thoracic ﬁndings.",
+                  "page": 2,
+                  "position": 29
+                },
+                {
+                  "text": "CaseReportsinSurgery,2026 3of4",
+                  "page": 2,
+                  "position": 30
+                },
+                {
+                  "text": "onlybecomeevidentlaterwithcomplicationssuchasorgan incarcerationand strangulation[3].",
+                  "page": 3,
+                  "position": 31
+                },
+                {
+                  "text": "The majority of patients with diaphragmatic hernias are asymp- tomatic.Whensymptomsarise,theyareinﬂuencedbythe defect’s size, the organs involved, and any coexisting pulmonary conditions.Symptomsareabdominalpain,nausea,vomiting, dyspnea, chest pain, tachypnea, or cough. Strangulation particu- larlyinvolvingthecolonorsmallintestine,soitcancause abdominal distention and acute abdominal symptoms. It carries therisksof morbidityand mortality[4].",
+                  "page": 3,
+                  "position": 32
+                },
+                {
+                  "text": "The diagnosis has challenges. The initial ﬁndings of chest X-rays are misinterpreted in 25% of cases [5]. The sensitivity of chest X- raysvaries,rangingfrom2%to60%forleft-sidedherniasand 17%–33%forright-sidedhernias[3].So,contrast-enhancedCT scansarethediagnosticstandardforconﬁrmingdiaphragmatic hernias [1]. A recent multicenter analysis of 35 patients that were treatedforTDRacrossthreecentersoveradecadeconﬁrmed contrast-enhancedCTasthediagnosticmainstay.Italsomen- tionsthepersistentdiagnosticdelaywithright-sidedTDRs[6]. Severalpreviouslyreportedcasesofdelayedright-sidedTDR havealsobeenrepairedwithamesh[1,3,4].Threefeatures, however, distinguish this case from those reports. First, the inter- valbetweentraumaandpresentationwas4years,whichwas longerthanthedays-to-monthslatencydescribedinmostpub- lisheddelayedcases.Thisrupturewastriggeredbyaspeciﬁc mechanicalevent(heavylifting)ratherthanagradualonset. Second,herniationinvolvedtheliveralone,withoutthebowel, gallbladder,oromentum,whichwasinthosereports.Thiscase hasisolatedhepaticherniationwithoutvisceralstrangulation, which is uncommon and prevents ischemic and obstructive com- plicationsthatcauseurgentpresentation.Third,thedefectwas repairedinasingleopenprocedurebyalargeProlenemesh alone, without the dual-mesh or staged reinforcement techniques thatsomepriorreportsrequired[3].Thispatienthadcomplete symptom resolution within 48 h and an intact repair at 3 months. Taken together, these features suggest that even very long-stand- ingandlargerightTDRswithisolatedorganherniationcanbe managed successfully with a single-stage mesh repair. This is the mainpointof thecase.",
+                  "page": 3,
+                  "position": 33
+                },
+                {
+                  "text": "Surgical intervention is still the primary approach to treatment. It repositionstheherniatedorgansintotheabdominalcavityand repairsthediaphragmaticdefect.Forsmallerdefects,primary closurewithnonabsorbablesuturesisadequate[4].Larger defectsthatcannotbecloseddirectlynecessitatemeshrecon- struction[3,5].Insome cases,thediaphragm mayrequirereat- tachmenttotheribsatahigher-than-normalanatomical position.Reconstructionmaterialsvaryaccordingtosurgical preference. Synthetic meshes such as Prolene are widely utilized and generally well-tolerated [3]. In the current case, the extensive defect requireda completeProlene mesh repair.",
+                  "page": 3,
+                  "position": 34
+                },
+                {
+                  "text": "Author Contributions",
+                  "page": 3,
+                  "position": 35
+                },
+                {
+                  "text": "ZahraSadincontributedtopatientcare,conceptualizationofthestudy, drafting of the manuscript, and performed critical revision of the manu- scriptforimportantintellectualcontent.AghajanzadehManochehrand",
+                  "page": 3,
+                  "position": 36
+                },
+                {
+                  "text": "SadinMohammadrezaparticipatedinpatientmanagementanddata acquisition.AlaviFoumaniAli,FakhrMousaviAliAsghar,Mosaffaee Omid, Ramezani Naghi, and Farzin Mohaya assisted in literature review and manuscript preparation.",
+                  "page": 3,
+                  "position": 37
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acknowledgments",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "The authors have nothing to report.",
+          "page": 3,
+          "position": 38
+        },
+        {
+          "text": "Funding",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "No funding was received for this study.",
+          "page": 3,
+          "position": 40
+        },
+        {
+          "text": "Disclosure",
+          "page": 3,
+          "position": 41
+        },
+        {
+          "text": "All authors have read and approved the ﬁnal version ofthe manuscript.",
+          "page": 3,
+          "position": 42
+        },
+        {
+          "text": "Consent",
+          "page": 3,
+          "position": 43
+        },
+        {
+          "text": "Written informed consent was obtained from the patient for the publica- tion ofthis case report and accompanying images.",
+          "page": 3,
+          "position": 44
+        },
+        {
+          "text": "Conﬂicts of Interest",
+          "page": 3,
+          "position": 45
+        },
+        {
+          "text": "The authors declare no conﬂicts ofinterest.",
+          "page": 3,
+          "position": 46
+        },
+        {
+          "text": "Data AvailabilityStatement",
+          "page": 3,
+          "position": 47
+        },
+        {
+          "text": "Thedatasupportingtheﬁndingsofthisstudyareincludedwithinthe article.",
+          "page": 3,
+          "position": 48
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "1.A.ZarzavadjianLeBian,R.Costi,andC.Smadja,“DelayedRight- SidedDiaphragmaticRuptureandLaparoscopicRepairWithMesh Fixation,” Annals of Thoracic and Cardiovascular Surgery 20, no.Supplement (2014): 550–553.",
+      "authors": [],
+      "title": null,
+      "year": 2014,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 2,
+      "raw_text": "2.M.Pace, D.Vallati, E. Belloni,etal., “BluntTrauma AssociatedWith Bilateral Diaphragmatic Rupture: A Case Report,” Frontiers in Surgery 8 (2021): 772913.",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "3.M.Ercan, M.Aziret, K.Karaman,B.Bostancı, andM.Akoğlu, “Dual Mesh Repair for a Large Diaphragmatic Hernia Defect: An Unusual Case Report,” International Journal of Surgery Case Reports 28 (2016): 266–269.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "4.B.H.ManouchehrAghajanzadeh,M.Saraﬁ,andO.Rad,“Rare Emergency Presentationin Delayed Diaphragmatic Hernia and Total: Or PartialReconstructionofHemidiaphragmWithproleneMesh:InFive Cases,” InternationalJournal of Scientiﬁc Research 6, no.8(2017).",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 5,
+      "raw_text": "5.M.Giuffrida,G.Perrone,F.Abu-Zidan,etal.,“Managementof ComplicatedDiaphragmaticHerniaintheAcuteSetting:AWSES Position Paper,” World Journal of Emergency Surgery 18, no.1 (2023): 43.",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 6,
+      "raw_text": "6.O.Topaloglu,K.N.Kılıc,S.Karapolat,etal.,“Diagnosis,Treatment, and Managementof Traumatic Diaphragmatic Rupture: A Multi-Center Study,” Turkish Journal of Thoracic and Cardiovascular Surgery 33, no.4 (2025): 517–527.",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "7.S.A. Antoniou, R. Pointner, F.-A. Granderath, and F. Köckerling, “The Use of Biological Meshes in Diaphragmatic Defects—An Evidence-Based Review of theLiterature,” Frontiers in Surgery 2 (2015): 56.",
+      "authors": [],
+      "title": null,
+      "year": 2015,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "8.H.Kuwahara,J.Salo,andE.Tukiainen,“DiaphragmReconstruction CombinedWithThoraco-AbdominalWallReconstructionAfterTumor Resection,” Journal of Plastic Surgery and Hand Surgery 52, no.3 (2018): 172–177.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 9,
+      "raw_text": "4of4 CaseReportsinSurgery,2026",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 4,
+  "warnings": []
+}

@@ -1,0 +1,1413 @@
+{
+  "document_id": "doc_370bb8563b27a3d7",
+  "chunk_count": 61,
+  "chunker_version": "1.0",
+  "chunker_config_hash": "c9d4dc2ec8f5bbd1",
+  "chunks": [
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0000",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0000",
+      "section_title": "(preamble)",
+      "section_path": [
+        "(preamble)"
+      ],
+      "source_text": "Review began 07/20/2026\n\nReview ended 08/17/2026\n\nPublished 08/23/2026",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: (preamble)\n\nReview began 07/20/2026\n\nReview ended 08/17/2026\n\nPublished 08/23/2026",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        0,
+        1,
+        2
+      ],
+      "token_count": 23,
+      "chunk_index": 0,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0001",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0001",
+      "section_title": "© Copyright 2026",
+      "section_path": [
+        "© Copyright 2026"
+      ],
+      "source_text": "Obungoloch et al. This is an open access\n\narticle distributed under the terms of the\n\nCreative Commons Attribution License CC-\n\nBY 4.0., which permits unrestricted use,\n\ndistribution, and reproduction in any\n\nmedium, provided the original author and\n\nsource are credited.\n\nDOI: 10.7759/cureus.115057\n\nOptimizing Chest X-ray Referral Using Clinical Metadata: Pulmonary Disease Patterns and Diagnostic Access in Southwestern Uganda\n\nJohnes Obungoloch , Julius Tumusiime , Gershom Buri , Martin Mukama , Jacob Nkwanga ,\n\nChrispus Mbusa , Fred Kaggwa , Shallot N. Murungi , William Wasswa\n\n1. Biomedical Engineering, Mbarara University of Science and Technology, Mbarara, UGA 2. Computer Science, Mbarara University of Science and Technology, Mbarara, UGA 3. Centre for Affordable Medical Technologies (CAMTech), Mbarara University of Science and Technology, Mbarara, UGA 4. Internal Medicine, Kabale University, Kabale, UGA 5. Administration, Mbarara University Data Science Research Hub, Mbarara, UGA 6. Faculty of Computing and Informatics, Mbarara University of Science and Technology, Mbarara, UGA 7. Biomedical Sciences and Engineering, Mbarara University of Science and Technology, Mbarara, UGA\n\nCorresponding author: Julius Tumusiime, juliusbtumusiime@gmail.com",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: © Copyright 2026\n\nObungoloch et al. This is an open access\n\narticle distributed under the terms of the\n\nCreative Commons Attribution License CC-\n\nBY 4.0., which permits unrestricted use,\n\ndistribution, and reproduction in any\n\nmedium, provided the original author and\n\nsource are credited.\n\nDOI: 10.7759/cureus.115057\n\nOptimizing Chest X-ray Referral Using Clinical Metadata: Pulmonary Disease Patterns and Diagnostic Access in Southwestern Uganda\n\nJohnes Obungoloch , Julius Tumusiime , Gershom Buri , Martin Mukama , Jacob Nkwanga ,\n\nChrispus Mbusa , Fred Kaggwa , Shallot N. Murungi , William Wasswa\n\n1. Biomedical Engineering, Mbarara University of Science and Technology, Mbarara, UGA 2. Computer Science, Mbarara University of Science and Technology, Mbarara, UGA 3. Centre for Affordable Medical Technologies (CAMTech), Mbarara University of Science and Technology, Mbarara, UGA 4. Internal Medicine, Kabale University, Kabale, UGA 5. Administration, Mbarara University Data Science Research Hub, Mbarara, UGA 6. Faculty of Computing and Informatics, Mbarara University of Science and Technology, Mbarara, UGA 7. Biomedical Sciences and Engineering, Mbarara University of Science and Technology, Mbarara, UGA\n\nCorresponding author: Julius Tumusiime, juliusbtumusiime@gmail.com",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "token_count": 310,
+      "chunk_index": 1,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0002",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0002",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "Background: Chest X-ray (CXR) imaging is important for diagnosing pulmonary and cardiothoracic conditions, but timely access remains limited in many low- and middle-income countries. This study characterized radiographic abnormalities, examined associated clinical factors, evaluated exploratory clinical metadata-based prediction models, and assessed barriers to CXR utilization in southwestern Uganda.\n\nMethods: This facility-based observational pilot study included 422 adults undergoing chest radiography for suspected pulmonary or cardiothoracic disease at two healthcare facilities. Prospectively collected demographic, clinical, environmental, and healthcare-access data were linked to routine radiographer reports. Radiographer-reported pneumonia, pleural effusion, and cardiomegaly were summarized descriptively. Associated factors were examined using multivariable logistic regression with complete-case analysis. Exploratory model discrimination was assessed using receiver operating characteristic analysis, while post hoc Stage 1 simulations examined trade-offs between imaging-referral volume and case detection.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Abstract\n\nBackground: Chest X-ray (CXR) imaging is important for diagnosing pulmonary and cardiothoracic conditions, but timely access remains limited in many low- and middle-income countries. This study characterized radiographic abnormalities, examined associated clinical factors, evaluated exploratory clinical metadata-based prediction models, and assessed barriers to CXR utilization in southwestern Uganda.\n\nMethods: This facility-based observational pilot study included 422 adults undergoing chest radiography for suspected pulmonary or cardiothoracic disease at two healthcare facilities. Prospectively collected demographic, clinical, environmental, and healthcare-access data were linked to routine radiographer reports. Radiographer-reported pneumonia, pleural effusion, and cardiomegaly were summarized descriptively. Associated factors were examined using multivariable logistic regression with complete-case analysis. Exploratory model discrimination was assessed using receiver operating characteristic analysis, while post hoc Stage 1 simulations examined trade-offs between imaging-referral volume and case detection.",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        16,
+        17
+      ],
+      "token_count": 204,
+      "chunk_index": 2,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0003",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0002",
+      "section_title": "Abstract",
+      "section_path": [
+        "Abstract"
+      ],
+      "source_text": "Results: Complete radiographic-outcome classifications were available for 403 participants. Pneumonia was the most frequently reported abnormality (18.9%), followed by pleural effusion (9.7%) and cardiomegaly (5.5%). Increasing age was independently associated with pneumonia (adjusted odds ratio (aOR) 1.318 per 10-year increase; 95% confidence interval (CI) 1.149-1.523) and cardiomegaly (aOR 1.756 per 10-year increase; 95% CI 1.383-2.240), but not pleural effusion. Higher body mass index was associated with lower odds of pleural effusion and slightly higher odds of cardiomegaly. The exploratory models showed apparent in-sample discrimination for cardiomegaly (AUC 0.881; 95% CI 0.807-0.963), pneumonia (AUC 0.787; 95% CI 0.728-0.849), pleural effusion (AUC 0.699; 95% CI 0.601-0.788), and any reported abnormality (AUC 0.790; 95% CI 0.742-0.836). Effective access declined after accounting for personnel availability, affordability, and willingness to undergo imaging; only 17% of participants reported being both willing and able to complete the diagnostic pathway. The Stage 1 simulations illustrated trade-offs between referral volume and case detection under selected thresholds.\n\nConclusions: Routinely obtainable clinical metadata may contain useful information for preliminary pre- imaging risk stratification. However, the reported AUCs represent apparent discrimination within the model-development sample, and the referral strategies were neither prospectively implemented nor clinically validated. The findings are exploratory and hypothesis-generating. Independent radiologist verification, validation of the report-classification procedure, model calibration, internal and external validation, and prospective workflow evaluation are required before the proposed approach can support patient-level referral decisions.\n\nCategories: Radiology, Public Health, Pulmonology Keywords: chest x-ray, clinical metadata, diagnostic imaging, healthcare access, predictive modelling, pulmonary disease, risk stratification, southwestern uganda",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Abstract\n\nResults: Complete radiographic-outcome classifications were available for 403 participants. Pneumonia was the most frequently reported abnormality (18.9%), followed by pleural effusion (9.7%) and cardiomegaly (5.5%). Increasing age was independently associated with pneumonia (adjusted odds ratio (aOR) 1.318 per 10-year increase; 95% confidence interval (CI) 1.149-1.523) and cardiomegaly (aOR 1.756 per 10-year increase; 95% CI 1.383-2.240), but not pleural effusion. Higher body mass index was associated with lower odds of pleural effusion and slightly higher odds of cardiomegaly. The exploratory models showed apparent in-sample discrimination for cardiomegaly (AUC 0.881; 95% CI 0.807-0.963), pneumonia (AUC 0.787; 95% CI 0.728-0.849), pleural effusion (AUC 0.699; 95% CI 0.601-0.788), and any reported abnormality (AUC 0.790; 95% CI 0.742-0.836). Effective access declined after accounting for personnel availability, affordability, and willingness to undergo imaging; only 17% of participants reported being both willing and able to complete the diagnostic pathway. The Stage 1 simulations illustrated trade-offs between referral volume and case detection under selected thresholds.\n\nConclusions: Routinely obtainable clinical metadata may contain useful information for preliminary pre- imaging risk stratification. However, the reported AUCs represent apparent discrimination within the model-development sample, and the referral strategies were neither prospectively implemented nor clinically validated. The findings are exploratory and hypothesis-generating. Independent radiologist verification, validation of the report-classification procedure, model calibration, internal and external validation, and prospective workflow evaluation are required before the proposed approach can support patient-level referral decisions.\n\nCategories: Radiology, Public Health, Pulmonology Keywords: chest x-ray, clinical metadata, diagnostic imaging, healthcare access, predictive modelling, pulmonary disease, risk stratification, southwestern uganda",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        18,
+        19,
+        20
+      ],
+      "token_count": 484,
+      "chunk_index": 3,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0004",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0003",
+      "section_title": "Introduction",
+      "section_path": [
+        "Introduction"
+      ],
+      "source_text": "Chest radiography remains one of the most widely used and accessible diagnostic imaging examinations for detecting and monitoring pulmonary and cardiothoracic conditions, including pneumonia, tuberculosis, lung cancer, pleural disease, and cardiovascular abnormalities [1,2]. In sub-Saharan Africa, where respiratory and cardiothoracic diseases continue to impose a substantial burden on healthcare systems, chest radiography plays an important role in clinical decision-making [3,4]. However, access to imaging and timely\n\n1 1 2 3 4\n\n5 6 1 7",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Introduction\n\nChest radiography remains one of the most widely used and accessible diagnostic imaging examinations for detecting and monitoring pulmonary and cardiothoracic conditions, including pneumonia, tuberculosis, lung cancer, pleural disease, and cardiovascular abnormalities [1,2]. In sub-Saharan Africa, where respiratory and cardiothoracic diseases continue to impose a substantial burden on healthcare systems, chest radiography plays an important role in clinical decision-making [3,4]. However, access to imaging and timely\n\n1 1 2 3 4\n\n5 6 1 7",
+      "page_start": 0,
+      "page_end": 0,
+      "paragraph_positions": [
+        21,
+        22,
+        23
+      ],
+      "token_count": 107,
+      "chunk_index": 4,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0005",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0004",
+      "section_title": "Open Access Original Article",
+      "section_path": [
+        "Introduction",
+        "Open Access Original Article"
+      ],
+      "source_text": "How to cite this article Obungoloch J, Tumusiime J, Buri G, et al. (August 23, 2026) Optimizing Chest X-ray Referral Using Clinical Metadata: Pulmonary Disease Patterns and Diagnostic Access in Southwestern Uganda. Cureus 18(8): e115057. DOI 10.7759/cureus.115057\n\nexpert interpretation remains limited in many low- and middle-income countries (LMICs), including Uganda. Shortages of radiologists mean that chest radiographs are often interpreted by other healthcare professionals with varying levels of radiological expertise, which may contribute to delayed or inaccurate diagnosis [3].\n\nThese limitations affect both the interpretation of completed examinations and the decisions that determine which patients receive imaging. Although chest radiograph interpretation conventionally relies on trained radiologists, their scarcity in resource-limited settings frequently requires general clinicians to interpret radiographic findings despite limited specialized training [4,5]. At the same time, constrained equipment, staffing, affordability, and referral systems may prevent clinically eligible patients from accessing chest radiography. These challenges are compounded by fragmented health information systems in which imaging findings, clinical history, vital signs, and other patient information are recorded separately, limiting comprehensive assessment and informed decision-making.\n\nRecent advances in artificial intelligence (AI) and machine learning have demonstrated potential to support chest X-ray (CXR) interpretation, improve diagnostic accuracy, and strengthen clinical workflows [6-8]. However, the development and deployment of reliable models depend on large, high-quality, and representative datasets. Most existing models have been developed using data from high-income countries and may not generalize adequately to African populations because of differences in disease epidemiology, patient characteristics, environmental exposures, healthcare access, and imaging practices [9,10]. The limited availability of linked clinical and imaging datasets from African healthcare settings therefore remains an important barrier to developing locally relevant and clinically useful decision-support tools.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Introduction\nSubsection: Open Access Original Article\n\nHow to cite this article Obungoloch J, Tumusiime J, Buri G, et al. (August 23, 2026) Optimizing Chest X-ray Referral Using Clinical Metadata: Pulmonary Disease Patterns and Diagnostic Access in Southwestern Uganda. Cureus 18(8): e115057. DOI 10.7759/cureus.115057\n\nexpert interpretation remains limited in many low- and middle-income countries (LMICs), including Uganda. Shortages of radiologists mean that chest radiographs are often interpreted by other healthcare professionals with varying levels of radiological expertise, which may contribute to delayed or inaccurate diagnosis [3].\n\nThese limitations affect both the interpretation of completed examinations and the decisions that determine which patients receive imaging. Although chest radiograph interpretation conventionally relies on trained radiologists, their scarcity in resource-limited settings frequently requires general clinicians to interpret radiographic findings despite limited specialized training [4,5]. At the same time, constrained equipment, staffing, affordability, and referral systems may prevent clinically eligible patients from accessing chest radiography. These challenges are compounded by fragmented health information systems in which imaging findings, clinical history, vital signs, and other patient information are recorded separately, limiting comprehensive assessment and informed decision-making.\n\nRecent advances in artificial intelligence (AI) and machine learning have demonstrated potential to support chest X-ray (CXR) interpretation, improve diagnostic accuracy, and strengthen clinical workflows [6-8]. However, the development and deployment of reliable models depend on large, high-quality, and representative datasets. Most existing models have been developed using data from high-income countries and may not generalize adequately to African populations because of differences in disease epidemiology, patient characteristics, environmental exposures, healthcare access, and imaging practices [9,10]. The limited availability of linked clinical and imaging datasets from African healthcare settings therefore remains an important barrier to developing locally relevant and clinically useful decision-support tools.",
+      "page_start": 0,
+      "page_end": 1,
+      "paragraph_positions": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "token_count": 414,
+      "chunk_index": 5,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0006",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0004",
+      "section_title": "Open Access Original Article",
+      "section_path": [
+        "Introduction",
+        "Open Access Original Article"
+      ],
+      "source_text": "Approaches that use routinely collected clinical information may help address the decision point before imaging is performed. Patient demographics, presenting symptoms, vital signs, environmental and behavioral exposures, and comorbidities may support early risk stratification and help prioritize referrals when imaging capacity is constrained [11,12]. When subsequently linked with chest-radiographic outcomes, these data can also be used to examine disease patterns and develop contextually relevant prediction models [13]. Importantly, the Stage 1 referral strategies evaluated in this study represented pre-imaging triage: referral decisions were derived from analysis of clinical presentation and routinely collected patient parameters only. Radiographer-reported imaging findings were not used to determine these simulated referrals.\n\nTo enable these analyses, we established a multimodal database linking CXR examinations with structured clinical metadata collected from patients receiving routine care in southwestern Uganda. This dataset provided a common framework for describing chest radiographic abnormalities, examining their clinical correlates, evaluating metadata-based prediction, assessing access to imaging, and exploring how limited chest-radiography capacity might be allocated through clinically informed referral strategies.\n\nThe primary objectives were to characterize the prevalence of major chest-radiographic abnormalities and identify clinical factors independently associated with pneumonia, pleural effusion, and cardiomegaly. The secondary objectives were to evaluate the internally validated discriminatory performance of clinical metadata-based prediction models, assess barriers to chest radiography access, and simulate Stage 1 referral strategies under different imaging-capacity assumptions. By integrating epidemiological analysis, prediction modelling, and health-system evaluation, the study sought to determine how routinely collected clinical information could support more efficient, equitable, and resource-aware diagnostic pathways in a low- resource healthcare setting.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Introduction\nSubsection: Open Access Original Article\n\nApproaches that use routinely collected clinical information may help address the decision point before imaging is performed. Patient demographics, presenting symptoms, vital signs, environmental and behavioral exposures, and comorbidities may support early risk stratification and help prioritize referrals when imaging capacity is constrained [11,12]. When subsequently linked with chest-radiographic outcomes, these data can also be used to examine disease patterns and develop contextually relevant prediction models [13]. Importantly, the Stage 1 referral strategies evaluated in this study represented pre-imaging triage: referral decisions were derived from analysis of clinical presentation and routinely collected patient parameters only. Radiographer-reported imaging findings were not used to determine these simulated referrals.\n\nTo enable these analyses, we established a multimodal database linking CXR examinations with structured clinical metadata collected from patients receiving routine care in southwestern Uganda. This dataset provided a common framework for describing chest radiographic abnormalities, examining their clinical correlates, evaluating metadata-based prediction, assessing access to imaging, and exploring how limited chest-radiography capacity might be allocated through clinically informed referral strategies.\n\nThe primary objectives were to characterize the prevalence of major chest-radiographic abnormalities and identify clinical factors independently associated with pneumonia, pleural effusion, and cardiomegaly. The secondary objectives were to evaluate the internally validated discriminatory performance of clinical metadata-based prediction models, assess barriers to chest radiography access, and simulate Stage 1 referral strategies under different imaging-capacity assumptions. By integrating epidemiological analysis, prediction modelling, and health-system evaluation, the study sought to determine how routinely collected clinical information could support more efficient, equitable, and resource-aware diagnostic pathways in a low- resource healthcare setting.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        28,
+        29,
+        30
+      ],
+      "token_count": 362,
+      "chunk_index": 6,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0007",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0005",
+      "section_title": "Materials And Methods",
+      "section_path": [
+        "Materials And Methods"
+      ],
+      "source_text": "Materials And Methods",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\n\nMaterials And Methods",
+      "page_start": 1,
+      "page_end": 4,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 7,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0008",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0006",
+      "section_title": "Study design and setting",
+      "section_path": [
+        "Materials And Methods",
+        "Study design and setting"
+      ],
+      "source_text": "This observational pilot study, conducted in a facility-based setting, utilized prospectively collected clinical and radiographic data from consenting adults who underwent chest radiography as part of routine care between March 25, 2024, and May 31, 2025. Data collection adhered to a predefined study protocol, and the analyses presented here were performed following the completion of enrolment. The individual patient encounter served as the unit of analysis, with each record comprising a clinical assessment linked to a corresponding chest radiograph.\n\nParticipants were recruited from Divine Mercy Hospital and Mbarara Regional Referral Hospital in southwestern Uganda. All study-related chest radiographs were obtained at Divine Mercy Hospital using a digital radiography system. Participants identified at Mbarara Regional Referral Hospital were referred to Divine Mercy Hospital due to the inconsistent availability of comparable digital imaging at the referral hospital during the study period. Consequently, recruitment involved two levels of healthcare delivery, while image acquisition was centralized at one institution.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Study design and setting\n\nThis observational pilot study, conducted in a facility-based setting, utilized prospectively collected clinical and radiographic data from consenting adults who underwent chest radiography as part of routine care between March 25, 2024, and May 31, 2025. Data collection adhered to a predefined study protocol, and the analyses presented here were performed following the completion of enrolment. The individual patient encounter served as the unit of analysis, with each record comprising a clinical assessment linked to a corresponding chest radiograph.\n\nParticipants were recruited from Divine Mercy Hospital and Mbarara Regional Referral Hospital in southwestern Uganda. All study-related chest radiographs were obtained at Divine Mercy Hospital using a digital radiography system. Participants identified at Mbarara Regional Referral Hospital were referred to Divine Mercy Hospital due to the inconsistent availability of comparable digital imaging at the referral hospital during the study period. Consequently, recruitment involved two levels of healthcare delivery, while image acquisition was centralized at one institution.",
+      "page_start": 1,
+      "page_end": 1,
+      "paragraph_positions": [
+        31,
+        32
+      ],
+      "token_count": 198,
+      "chunk_index": 8,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0009",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0007",
+      "section_title": "Participant recruitment",
+      "section_path": [
+        "Materials And Methods",
+        "Participant recruitment"
+      ],
+      "source_text": "Potential participants were systematically approached from among patients who had been clinically referred\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 2 of 16\n\nfor chest radiography due to suspected pulmonary or cardiothoracic disease. Consequently, the study did not involve an unselected community or primary-care screening population. Eligibility criteria included adults aged 18 years or older who could provide written informed consent and undergo erect chest radiography. Exclusion criteria encompassed patients who were critically ill or unable to undergo chest radiography in the erect position.\n\nDuring the recruitment period, 475 individuals were approached. Of these, 47 declined participation, resulting in 428 individuals being assessed for eligibility. Two individuals were excluded for being under 18 years of age, and four were excluded due to critical illness. Ultimately, 422 participants provided written informed consent and were enrolled in the study. Following consent, participants underwent the standard clinical workflow, which included medical history documentation, physical examination, chest radiography, and routine radiographic reporting. The participant flow and data acquisition process are depicted in Figure 1.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Participant recruitment\n\nPotential participants were systematically approached from among patients who had been clinically referred\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 2 of 16\n\nfor chest radiography due to suspected pulmonary or cardiothoracic disease. Consequently, the study did not involve an unselected community or primary-care screening population. Eligibility criteria included adults aged 18 years or older who could provide written informed consent and undergo erect chest radiography. Exclusion criteria encompassed patients who were critically ill or unable to undergo chest radiography in the erect position.\n\nDuring the recruitment period, 475 individuals were approached. Of these, 47 declined participation, resulting in 428 individuals being assessed for eligibility. Two individuals were excluded for being under 18 years of age, and four were excluded due to critical illness. Ultimately, 422 participants provided written informed consent and were enrolled in the study. Following consent, participants underwent the standard clinical workflow, which included medical history documentation, physical examination, chest radiography, and routine radiographic reporting. The participant flow and data acquisition process are depicted in Figure 1.",
+      "page_start": 1,
+      "page_end": 2,
+      "paragraph_positions": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "token_count": 233,
+      "chunk_index": 9,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0010",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0008",
+      "section_title": "FIGURE 1: Patient handling and data acquisition procedure",
+      "section_path": [
+        "Materials And Methods",
+        "Participant recruitment",
+        "FIGURE 1: Patient handling and data acquisition procedure"
+      ],
+      "source_text": "CXR: Chest X-ray",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Participant recruitment\nSubsection: FIGURE 1: Patient handling and data acquisition procedure\n\nCXR: Chest X-ray",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        37
+      ],
+      "token_count": 8,
+      "chunk_index": 10,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0011",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0009",
+      "section_title": "Data collection and management",
+      "section_path": [
+        "Materials And Methods",
+        "Data collection and management"
+      ],
+      "source_text": "Clinical and radiographic data were collected prospectively through standardized study procedures. While clinical variables comprised information typically obtained during patient assessments, they were entered into the research database only after enrolment and the acquisition of written informed consent. The structured metadata encompassed sociodemographic characteristics, socioeconomic indicators, behavioral factors, environmental exposures, presenting symptoms, vital signs, comorbidities, and variables related to access to and use of imaging services. Clinical information was electronically entered using the custom- developed Klear Chest data-collection platform. CXR images and their corresponding narrative reports were uploaded via a secure web-based dashboard to servers managed by the Data Management and Analysis Core of the Mbarara University Data Science Research Hub. Each participant provided one clinical record and one associated chest radiograph. Records were subsequently reviewed, digitized as necessary, and integrated into a structured analytic dataset.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Data collection and management\n\nClinical and radiographic data were collected prospectively through standardized study procedures. While clinical variables comprised information typically obtained during patient assessments, they were entered into the research database only after enrolment and the acquisition of written informed consent. The structured metadata encompassed sociodemographic characteristics, socioeconomic indicators, behavioral factors, environmental exposures, presenting symptoms, vital signs, comorbidities, and variables related to access to and use of imaging services. Clinical information was electronically entered using the custom- developed Klear Chest data-collection platform. CXR images and their corresponding narrative reports were uploaded via a secure web-based dashboard to servers managed by the Data Management and Analysis Core of the Mbarara University Data Science Research Hub. Each participant provided one clinical record and one associated chest radiograph. Records were subsequently reviewed, digitized as necessary, and integrated into a structured analytic dataset.",
+      "page_start": 2,
+      "page_end": 2,
+      "paragraph_positions": [
+        38
+      ],
+      "token_count": 179,
+      "chunk_index": 11,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0012",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0010",
+      "section_title": "Radiographic outcomes and report classification",
+      "section_path": [
+        "Materials And Methods",
+        "Radiographic outcomes and report classification"
+      ],
+      "source_text": "The primary outcomes focused on identifying the presence or absence of three significant chest radiographic abnormalities: pneumonia, pleural effusion, and cardiomegaly. These outcomes were extracted from routine chest radiograph reports, which were generated by degree-level radiographers or medical imaging experts with a minimum of five years of experience as part of their service delivery. Due to the lack of an independent expert radiologist consensus interpretation, these outcomes are consistently referred to as radiographer-reported abnormalities rather than definitive diagnoses. A deterministic, rule-based text classification procedure was employed to convert narrative reports into binary outcome labels. For each outcome, the reports were scrutinized for predefined diagnostic terms and their accepted synonyms, as detailed in Table 1. Explicit negations, such as 'no,' 'without,' 'absent,' 'free of,' and 'ruled out,' were categorized as indicating the absence of the corresponding finding. This procedure aimed to standardize\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 3 of 16\n\nexisting narrative reports and did not involve a trained natural language processing or machine learning model. Statements indicating uncertainty or a differential diagnosis, including terms like 'query,' 'cannot exclude,' 'suggestive of,' and 'rule out,' were classified as possible. After applying the terminology, negation, and uncertainty rules, each target outcome was coded as either present or absent. The rule set was not formally validated against independent manual classification or an expert reference standard.\n\nTarget abnormality Accepted terms and synonyms Negation terms Uncertainty terms Classification decision\n\nPneumonia\n\nPneumonia; bronchopneumonia;\n\npneumonic consolidation; recognized spelling/misspelling variants\n\nNo, without, absent,\n\nfree of, ruled out, other complication\n\nrule out, r/o, suggestive\n\nof, suggest, likely, to be ruled/r/o\n\nPresent/possible/absent\n\nPleural effusion\n\nPleural effusion; hydrothorax; recognized spelling/misspelling variants (e.g. plueral)\n\nNo, without, absent, free of, ruled out, other\n\ncomplication\n\nrule out, r/o, suggestive of, suggest, likely, to be\n\nruled/r/o\n\nPresent/possible/absent\n\nCardiomegaly Cardiomegaly; recognized synonym/misspelling variants",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Radiographic outcomes and report classification\n\nThe primary outcomes focused on identifying the presence or absence of three significant chest radiographic abnormalities: pneumonia, pleural effusion, and cardiomegaly. These outcomes were extracted from routine chest radiograph reports, which were generated by degree-level radiographers or medical imaging experts with a minimum of five years of experience as part of their service delivery. Due to the lack of an independent expert radiologist consensus interpretation, these outcomes are consistently referred to as radiographer-reported abnormalities rather than definitive diagnoses. A deterministic, rule-based text classification procedure was employed to convert narrative reports into binary outcome labels. For each outcome, the reports were scrutinized for predefined diagnostic terms and their accepted synonyms, as detailed in Table 1. Explicit negations, such as 'no,' 'without,' 'absent,' 'free of,' and 'ruled out,' were categorized as indicating the absence of the corresponding finding. This procedure aimed to standardize\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 3 of 16\n\nexisting narrative reports and did not involve a trained natural language processing or machine learning model. Statements indicating uncertainty or a differential diagnosis, including terms like 'query,' 'cannot exclude,' 'suggestive of,' and 'rule out,' were classified as possible. After applying the terminology, negation, and uncertainty rules, each target outcome was coded as either present or absent. The rule set was not formally validated against independent manual classification or an expert reference standard.\n\nTarget abnormality Accepted terms and synonyms Negation terms Uncertainty terms Classification decision\n\nPneumonia\n\nPneumonia; bronchopneumonia;\n\npneumonic consolidation; recognized spelling/misspelling variants\n\nNo, without, absent,\n\nfree of, ruled out, other complication\n\nrule out, r/o, suggestive\n\nof, suggest, likely, to be ruled/r/o\n\nPresent/possible/absent\n\nPleural effusion\n\nPleural effusion; hydrothorax; recognized spelling/misspelling variants (e.g. plueral)\n\nNo, without, absent, free of, ruled out, other\n\ncomplication\n\nrule out, r/o, suggestive of, suggest, likely, to be\n\nruled/r/o\n\nPresent/possible/absent\n\nCardiomegaly Cardiomegaly; recognized synonym/misspelling variants",
+      "page_start": 2,
+      "page_end": 3,
+      "paragraph_positions": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "token_count": 506,
+      "chunk_index": 12,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0013",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0010",
+      "section_title": "Radiographic outcomes and report classification",
+      "section_path": [
+        "Materials And Methods",
+        "Radiographic outcomes and report classification"
+      ],
+      "source_text": "No, without, absent, free of, ruled out, other\n\ncomplication\n\nrule out, r/o, suggestive of, suggest, likely, to be\n\nruled/r/o\n\nPresent/possible/absent\n\nCardiomegaly Cardiomegaly; recognized synonym/misspelling variants\n\nNo, without, absent, free of, ruled out, other complication\n\nrule out, r/o, suggestive of, suggest, likely, to be ruled/r/o\n\nPresent/possible/absent",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Radiographic outcomes and report classification\n\nNo, without, absent, free of, ruled out, other\n\ncomplication\n\nrule out, r/o, suggestive of, suggest, likely, to be\n\nruled/r/o\n\nPresent/possible/absent\n\nCardiomegaly Cardiomegaly; recognized synonym/misspelling variants\n\nNo, without, absent, free of, ruled out, other complication\n\nrule out, r/o, suggestive of, suggest, likely, to be ruled/r/o\n\nPresent/possible/absent",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "token_count": 100,
+      "chunk_index": 13,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0014",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0011",
+      "section_title": "TABLE 1: Rule-based classification table for target abnormality",
+      "section_path": [
+        "Materials And Methods",
+        "Radiographic outcomes and report classification",
+        "TABLE 1: Rule-based classification table for target abnormality"
+      ],
+      "source_text": "TABLE 1: Rule-based classification table for target abnormality",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Radiographic outcomes and report classification\nSubsection: TABLE 1: Rule-based classification table for target abnormality\n\nTABLE 1: Rule-based classification table for target abnormality",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [],
+      "token_count": 12,
+      "chunk_index": 14,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0015",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0012",
+      "section_title": "Data processing",
+      "section_path": [
+        "Materials And Methods",
+        "Data processing"
+      ],
+      "source_text": "Prior to analysis, variable names, formats, and category labels were standardized across data sources. Sparse categorical levels were consolidated only when clinically and conceptually justified. Physiological measurements deemed clinically implausible were treated as missing, based on the prespecified ranges detailed in Table 2.\n\nVariable Minimum accepted value Maximum accepted value Treatment of out-of-range values.\n\nSystolic blood pressure 90 140 Missing\n\nDiastolic blood pressure 50 80 Missing\n\nOxygen saturation 60 100 Missing\n\nRespiratory rate 10 23 Missing\n\nTemperature 36 37 Missing\n\nBMI 18 40 Missing\n\nTABLE 2: Plausible ranges of vital clinical parameters for inclusion or exclusion in the analysis\n\nThe extent of missing data was evaluated for each variable. No statistical imputation was conducted. Descriptive analyses utilized all available observations, with variable-specific denominators reported when data were incomplete. Multivariable analyses employed complete cases for the variables included in each outcome-specific model, resulting in differing analytical sample sizes across models. Healthcare-access and diagnostic-pathway variables were analyzed separately from disease-specific explanatory models.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Data processing\n\nPrior to analysis, variable names, formats, and category labels were standardized across data sources. Sparse categorical levels were consolidated only when clinically and conceptually justified. Physiological measurements deemed clinically implausible were treated as missing, based on the prespecified ranges detailed in Table 2.\n\nVariable Minimum accepted value Maximum accepted value Treatment of out-of-range values.\n\nSystolic blood pressure 90 140 Missing\n\nDiastolic blood pressure 50 80 Missing\n\nOxygen saturation 60 100 Missing\n\nRespiratory rate 10 23 Missing\n\nTemperature 36 37 Missing\n\nBMI 18 40 Missing\n\nTABLE 2: Plausible ranges of vital clinical parameters for inclusion or exclusion in the analysis\n\nThe extent of missing data was evaluated for each variable. No statistical imputation was conducted. Descriptive analyses utilized all available observations, with variable-specific denominators reported when data were incomplete. Multivariable analyses employed complete cases for the variables included in each outcome-specific model, resulting in differing analytical sample sizes across models. Healthcare-access and diagnostic-pathway variables were analyzed separately from disease-specific explanatory models.",
+      "page_start": 3,
+      "page_end": 3,
+      "paragraph_positions": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "token_count": 214,
+      "chunk_index": 15,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0016",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0013",
+      "section_title": "Statistical analysis",
+      "section_path": [
+        "Materials And Methods",
+        "Statistical analysis"
+      ],
+      "source_text": "Participant characteristics, clinical presentations, radiographer-reported abnormalities, comorbidities, environmental exposures, and healthcare-access indicators were summarized descriptively. Categorical variables were presented as frequencies and percentages, utilizing the available denominator. Associations between participant characteristics and conditions such as pneumonia, pleural effusion, and cardiomegaly were analyzed using separate multivariable logistic regression models. Results are expressed as adjusted odds ratios with 95% confidence intervals and p-values. For continuous predictors, the effect unit was the original measurement unit unless otherwise specified in the relevant results table.\n\nThe candidate covariate set included age, sex, body mass index, presenting symptoms, smoking status,\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 4 of 16\n\nalcohol-use score, hypertension, education, income, household fuel type, cooking location, and other recorded clinical or exposure variables. The final pneumonia model incorporated age, sex, smoking status, cooking location, household fuel type, education, and income score. The pleural effusion model included age, sex, body mass index, hypertension, and education. The cardiomegaly model comprised age, hypertension, body mass index, and AUDIT-C score. The pneumonia, pleural effusion, and cardiomegaly models included 396 participants (74 events), 395 participants (39 events), and 398 participants (21 events), respectively.\n\nThe regressions were exploratory in nature. Formal assessments of multicollinearity, linearity of continuous predictors in the logit, interaction effects, and influential observations were not conducted. Exploratory models were developed separately for pneumonia, pleural effusion, cardiomegaly, and the presence of any reported radiographic abnormality. Predictors were limited to demographic and clinical information available prior to the interpretation of the chest radiograph. Radiographic findings and radiographer reports were solely used to define outcome labels and were not included as model predictors.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Statistical analysis\n\nParticipant characteristics, clinical presentations, radiographer-reported abnormalities, comorbidities, environmental exposures, and healthcare-access indicators were summarized descriptively. Categorical variables were presented as frequencies and percentages, utilizing the available denominator. Associations between participant characteristics and conditions such as pneumonia, pleural effusion, and cardiomegaly were analyzed using separate multivariable logistic regression models. Results are expressed as adjusted odds ratios with 95% confidence intervals and p-values. For continuous predictors, the effect unit was the original measurement unit unless otherwise specified in the relevant results table.\n\nThe candidate covariate set included age, sex, body mass index, presenting symptoms, smoking status,\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 4 of 16\n\nalcohol-use score, hypertension, education, income, household fuel type, cooking location, and other recorded clinical or exposure variables. The final pneumonia model incorporated age, sex, smoking status, cooking location, household fuel type, education, and income score. The pleural effusion model included age, sex, body mass index, hypertension, and education. The cardiomegaly model comprised age, hypertension, body mass index, and AUDIT-C score. The pneumonia, pleural effusion, and cardiomegaly models included 396 participants (74 events), 395 participants (39 events), and 398 participants (21 events), respectively.\n\nThe regressions were exploratory in nature. Formal assessments of multicollinearity, linearity of continuous predictors in the logit, interaction effects, and influential observations were not conducted. Exploratory models were developed separately for pneumonia, pleural effusion, cardiomegaly, and the presence of any reported radiographic abnormality. Predictors were limited to demographic and clinical information available prior to the interpretation of the chest radiograph. Radiographic findings and radiographer reports were solely used to define outcome labels and were not included as model predictors.",
+      "page_start": 3,
+      "page_end": 4,
+      "paragraph_positions": [
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "token_count": 437,
+      "chunk_index": 16,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0017",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0013",
+      "section_title": "Statistical analysis",
+      "section_path": [
+        "Materials And Methods",
+        "Statistical analysis"
+      ],
+      "source_text": "Discrimination was quantified using the area under the receiver operating characteristic curve (AUCs). Predictions used to estimate the reported AUCs were generated from the same dataset used for model development; thus, the estimates represent apparent in-sample discrimination. Cross-validation, bootstrap optimism correction, evaluation in a held-out test set, calibration assessment, and external validation were not performed. The models were exploratory and not intended to serve as validated clinical prediction tools. Healthcare-access variables were analyzed descriptively to examine sequential barriers along the chest- radiography pathway, including geographical availability of services, personnel availability, affordability, referral requirements, and willingness or ability to undergo imaging.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Statistical analysis\n\nDiscrimination was quantified using the area under the receiver operating characteristic curve (AUCs). Predictions used to estimate the reported AUCs were generated from the same dataset used for model development; thus, the estimates represent apparent in-sample discrimination. Cross-validation, bootstrap optimism correction, evaluation in a held-out test set, calibration assessment, and external validation were not performed. The models were exploratory and not intended to serve as validated clinical prediction tools. Healthcare-access variables were analyzed descriptively to examine sequential barriers along the chest- radiography pathway, including geographical availability of services, personnel availability, affordability, referral requirements, and willingness or ability to undergo imaging.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        77
+      ],
+      "token_count": 144,
+      "chunk_index": 17,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0018",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0014",
+      "section_title": "Ethical considerations",
+      "section_path": [
+        "Materials And Methods",
+        "Ethical considerations"
+      ],
+      "source_text": "Ethical approval was obtained from the Mbarara University of Science and Technology Research Ethics Committee (MUST-REC; Registration No. MUST-2024-1343) and the study was subsequently approved by the Uganda National Council for Science and Technology (UNCST; Registration No. SS2718ES). All participants provided written informed consent before enrolment. Chest radiographs and associated clinical metadata were de-identified before analysis to protect participant confidentiality and were managed in accordance with the Uganda Personal Data Protection and Privacy Act (2019).",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Materials And Methods\nSubsection: Ethical considerations\n\nEthical approval was obtained from the Mbarara University of Science and Technology Research Ethics Committee (MUST-REC; Registration No. MUST-2024-1343) and the study was subsequently approved by the Uganda National Council for Science and Technology (UNCST; Registration No. SS2718ES). All participants provided written informed consent before enrolment. Chest radiographs and associated clinical metadata were de-identified before analysis to protect participant confidentiality and were managed in accordance with the Uganda Personal Data Protection and Privacy Act (2019).",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        78
+      ],
+      "token_count": 109,
+      "chunk_index": 18,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0019",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0015",
+      "section_title": "Results",
+      "section_path": [
+        "Results"
+      ],
+      "source_text": "Results",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\n\nResults",
+      "page_start": 4,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 19,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0020",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0016",
+      "section_title": "Participant characteristics",
+      "section_path": [
+        "Results",
+        "Participant characteristics"
+      ],
+      "source_text": "A total of 422 eligible and consenting adults undergoing chest radiography for suspected pulmonary or cardiothoracic conditions were enrolled in the study. The study population encompassed a diverse range of demographic and socioeconomic backgrounds. The mean age of participants was 48.2 ± 21.2 years, with individuals aged 50 years and above constituting the largest age group (n = 215, 51%). The majority of participants were economically inactive (n = 145, 34%), while 134 (32%) were engaged in agriculture or informal occupations, 53 (13%) had formal employment, and 20 (4.7%) were classified under other occupations. Educational attainment varied across the study population, with secondary education being the most common level achieved (n = 220, 53%), followed by tertiary education (n = 106, 25%), primary education (n = 54, 13%), and no formal education (n = 39, 9.3%). Exposure to biomass fuels and other environmental risk factors was prevalent among all participants, reflecting the predominantly rural and peri-urban settings from which the study population was drawn. Body mass index and other physiological measurements were recorded as indicators of general health status and were subsequently evaluated in multivariable analyses.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Participant characteristics\n\nA total of 422 eligible and consenting adults undergoing chest radiography for suspected pulmonary or cardiothoracic conditions were enrolled in the study. The study population encompassed a diverse range of demographic and socioeconomic backgrounds. The mean age of participants was 48.2 ± 21.2 years, with individuals aged 50 years and above constituting the largest age group (n = 215, 51%). The majority of participants were economically inactive (n = 145, 34%), while 134 (32%) were engaged in agriculture or informal occupations, 53 (13%) had formal employment, and 20 (4.7%) were classified under other occupations. Educational attainment varied across the study population, with secondary education being the most common level achieved (n = 220, 53%), followed by tertiary education (n = 106, 25%), primary education (n = 54, 13%), and no formal education (n = 39, 9.3%). Exposure to biomass fuels and other environmental risk factors was prevalent among all participants, reflecting the predominantly rural and peri-urban settings from which the study population was drawn. Body mass index and other physiological measurements were recorded as indicators of general health status and were subsequently evaluated in multivariable analyses.",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        79
+      ],
+      "token_count": 256,
+      "chunk_index": 20,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0021",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0017",
+      "section_title": "Clinical presentation",
+      "section_path": [
+        "Results",
+        "Clinical presentation"
+      ],
+      "source_text": "Respiratory and constitutional symptoms were frequently reported among participants. Cough, chest pain, and difficulty breathing were the most common presenting symptoms and were observed across all major radiographic conditions. Fever, weight loss, night sweats, and fatigue were also reported but exhibited similar prevalence patterns across disease categories. No individual symptom was unique to a specific radiographic diagnosis, indicating substantial overlap in clinical presentation among patients undergoing chest radiography (Figure 2).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 5 of 16",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Clinical presentation\n\nRespiratory and constitutional symptoms were frequently reported among participants. Cough, chest pain, and difficulty breathing were the most common presenting symptoms and were observed across all major radiographic conditions. Fever, weight loss, night sweats, and fatigue were also reported but exhibited similar prevalence patterns across disease categories. No individual symptom was unique to a specific radiographic diagnosis, indicating substantial overlap in clinical presentation among patients undergoing chest radiography (Figure 2).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 5 of 16",
+      "page_start": 4,
+      "page_end": 4,
+      "paragraph_positions": [
+        80,
+        81
+      ],
+      "token_count": 124,
+      "chunk_index": 21,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0022",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0018",
+      "section_title": "FIGURE 2: Symptom prevalence among patients",
+      "section_path": [
+        "Results",
+        "Clinical presentation",
+        "FIGURE 2: Symptom prevalence among patients"
+      ],
+      "source_text": "FIGURE 2: Symptom prevalence among patients",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Clinical presentation\nSubsection: FIGURE 2: Symptom prevalence among patients\n\nFIGURE 2: Symptom prevalence among patients",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 9,
+      "chunk_index": 22,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0023",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0019",
+      "section_title": "Radiographic findings",
+      "section_path": [
+        "Results",
+        "Radiographic findings"
+      ],
+      "source_text": "Radiographic examination identified a spectrum of pulmonary and cardiothoracic abnormalities. Pneumonia was the most frequently reported condition, affecting 18.9% of participants, followed by pleural effusion (9.7%) and cardiomegaly (5.5%) (Table 3).",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\n\nRadiographic examination identified a spectrum of pulmonary and cardiothoracic abnormalities. Pneumonia was the most frequently reported condition, affecting 18.9% of participants, followed by pleural effusion (9.7%) and cardiomegaly (5.5%) (Table 3).",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        82
+      ],
+      "token_count": 61,
+      "chunk_index": 23,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0024",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0020",
+      "section_title": "Outcome Number of participants",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "Outcome Number of participants"
+      ],
+      "source_text": "Outcome Number of participants",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: Outcome Number of participants\n\nOutcome Number of participants",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 24,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0025",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0021",
+      "section_title": "Participants omitted due to missing data",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "Participants omitted due to missing data"
+      ],
+      "source_text": "Participants omitted due to missing data",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: Participants omitted due to missing data\n\nParticipants omitted due to missing data",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 6,
+      "chunk_index": 25,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0026",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0022",
+      "section_title": "Participants considered",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "Participants considered"
+      ],
+      "source_text": "Participants considered",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: Participants considered\n\nParticipants considered",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 26,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0027",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0023",
+      "section_title": "Positive cases",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "Positive cases"
+      ],
+      "source_text": "Positive cases",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: Positive cases\n\nPositive cases",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 27,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0028",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0024",
+      "section_title": "Prevalence (%)",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "Prevalence (%)"
+      ],
+      "source_text": "Cardiomegaly 422 19 403 22 5.5\n\nPleural effusion 422 19 403 39 9.7\n\nPneumonia 422 19 403 76 18.9\n\nTABLE 3: Prevalence of the three common pulmonary conditions identified\n\nAlthough many participants presented with a single radiographic abnormality, multiple conditions frequently occurred in combination. The distribution of individual and overlapping abnormalities is summarized in Figure 3.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 6 of 16",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: Prevalence (%)\n\nCardiomegaly 422 19 403 22 5.5\n\nPleural effusion 422 19 403 39 9.7\n\nPneumonia 422 19 403 76 18.9\n\nTABLE 3: Prevalence of the three common pulmonary conditions identified\n\nAlthough many participants presented with a single radiographic abnormality, multiple conditions frequently occurred in combination. The distribution of individual and overlapping abnormalities is summarized in Figure 3.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 6 of 16",
+      "page_start": 5,
+      "page_end": 5,
+      "paragraph_positions": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "token_count": 111,
+      "chunk_index": 28,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0029",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0025",
+      "section_title": "FIGURE 3: Co-occurrence of selected chest radiographic abnormalities",
+      "section_path": [
+        "Results",
+        "Radiographic findings",
+        "FIGURE 3: Co-occurrence of selected chest radiographic abnormalities"
+      ],
+      "source_text": "The UpSet plot shows individual and overlapping occurrences of pneumonia, cardiomegaly, and pleural effusion. Horizontal bars indicate the total number of radiographs containing each abnormality, while vertical bars show the number of radiographs in each mutually exclusive intersection. Filled circles identify the abnormalities included in each intersection, and connected circles indicate co-occurrence within the same radiograph. Counts are based on radiographs with available classifications for all included abnormalities.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Radiographic findings\nSubsection: FIGURE 3: Co-occurrence of selected chest radiographic abnormalities\n\nThe UpSet plot shows individual and overlapping occurrences of pneumonia, cardiomegaly, and pleural effusion. Horizontal bars indicate the total number of radiographs containing each abnormality, while vertical bars show the number of radiographs in each mutually exclusive intersection. Filled circles identify the abnormalities included in each intersection, and connected circles indicate co-occurrence within the same radiograph. Counts are based on radiographs with available classifications for all included abnormalities.",
+      "page_start": 6,
+      "page_end": 6,
+      "paragraph_positions": [
+        89
+      ],
+      "token_count": 90,
+      "chunk_index": 29,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0030",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0026",
+      "section_title": "Comorbidities and risk factors",
+      "section_path": [
+        "Results",
+        "Comorbidities and risk factors"
+      ],
+      "source_text": "Several chronic medical conditions were documented within the study population, including hypertension and other long-term illnesses. Behavioral and environmental risk factors, such as smoking, alcohol consumption, and biomass fuel exposure, were also recorded. These characteristics were observed across the different radiographic outcomes and were subsequently evaluated in multivariable regression analyses to determine their independent associations with disease.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Comorbidities and risk factors\n\nSeveral chronic medical conditions were documented within the study population, including hypertension and other long-term illnesses. Behavioral and environmental risk factors, such as smoking, alcohol consumption, and biomass fuel exposure, were also recorded. These characteristics were observed across the different radiographic outcomes and were subsequently evaluated in multivariable regression analyses to determine their independent associations with disease.",
+      "page_start": 6,
+      "page_end": 6,
+      "paragraph_positions": [
+        90
+      ],
+      "token_count": 71,
+      "chunk_index": 30,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0031",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0027",
+      "section_title": "Factors associated with major radiographic outcomes",
+      "section_path": [
+        "Results",
+        "Factors associated with major radiographic outcomes"
+      ],
+      "source_text": "Multivariable logistic regression analyses identified age as the most consistent predictor of major radiographic abnormalities (Figure 4). Increasing age was independently associated with higher odds of both pneumonia and cardiomegaly (Figures 4a, 4c). Body mass index showed a positive association with cardiomegaly (Figure 4c) but was inversely associated with pleural effusion (Figure 4b). Other demographic, socioeconomic, and behavioral variables, including education level, income, smoking history, hypertension, and alcohol use, were not independently associated with the major radiographic outcomes after adjustment for potential confounders.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 7 of 16\n\nFIGURE 4: Adjusted associations between participant characteristics and selected chest radiographic abnormalities\n\nForest plots show adjusted odds ratios (ORs) and 95% confidence intervals (CIs) for factors associated with (a) pneumonia, (b) pleural effusion, and (c) cardiomegaly. Points represent adjusted OR estimates, and horizontal lines indicate 95% CIs. The dashed vertical line marks the null value (OR = 1). Variables with ORs greater than 1 indicate higher odds of the corresponding abnormality, whereas ORs less than 1 indicate lower odds, after adjustment for other covariates included in each model.\n\nComplete numerical regression results, including adjusted ORs, 95% CIs, p-values, units of effect, model covariates, and analytical sample sizes for pneumonia, pleural effusion, and cardiomegaly, are presented in Tables 4-6, respectively.\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 1.318 1.149–1.523 <0.001\n\nSex Male vs female 1.032 0.570–1.868 0.917\n\nSmoking status Passive vs never 0.970 0.464–2.031 0.936\n\nSmoking status Ever (former/current) vs never 1.537 0.730–3.236 0.258\n\nCooking location Yes vs No 1.398 0.759–2.572 0.282\n\nHousehold fuel Solid fuels vs clean fuels 1.927 0.599–6.205 0.272",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Factors associated with major radiographic outcomes\n\nMultivariable logistic regression analyses identified age as the most consistent predictor of major radiographic abnormalities (Figure 4). Increasing age was independently associated with higher odds of both pneumonia and cardiomegaly (Figures 4a, 4c). Body mass index showed a positive association with cardiomegaly (Figure 4c) but was inversely associated with pleural effusion (Figure 4b). Other demographic, socioeconomic, and behavioral variables, including education level, income, smoking history, hypertension, and alcohol use, were not independently associated with the major radiographic outcomes after adjustment for potential confounders.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 7 of 16\n\nFIGURE 4: Adjusted associations between participant characteristics and selected chest radiographic abnormalities\n\nForest plots show adjusted odds ratios (ORs) and 95% confidence intervals (CIs) for factors associated with (a) pneumonia, (b) pleural effusion, and (c) cardiomegaly. Points represent adjusted OR estimates, and horizontal lines indicate 95% CIs. The dashed vertical line marks the null value (OR = 1). Variables with ORs greater than 1 indicate higher odds of the corresponding abnormality, whereas ORs less than 1 indicate lower odds, after adjustment for other covariates included in each model.\n\nComplete numerical regression results, including adjusted ORs, 95% CIs, p-values, units of effect, model covariates, and analytical sample sizes for pneumonia, pleural effusion, and cardiomegaly, are presented in Tables 4-6, respectively.\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 1.318 1.149–1.523 <0.001\n\nSex Male vs female 1.032 0.570–1.868 0.917\n\nSmoking status Passive vs never 0.970 0.464–2.031 0.936\n\nSmoking status Ever (former/current) vs never 1.537 0.730–3.236 0.258\n\nCooking location Yes vs No 1.398 0.759–2.572 0.282\n\nHousehold fuel Solid fuels vs clean fuels 1.927 0.599–6.205 0.272",
+      "page_start": 6,
+      "page_end": 7,
+      "paragraph_positions": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "token_count": 494,
+      "chunk_index": 31,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0032",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0027",
+      "section_title": "Factors associated with major radiographic outcomes",
+      "section_path": [
+        "Results",
+        "Factors associated with major radiographic outcomes"
+      ],
+      "source_text": "Cooking location Yes vs No 1.398 0.759–2.572 0.282\n\nHousehold fuel Solid fuels vs clean fuels 1.927 0.599–6.205 0.272\n\nEducation Secondary vs no/primary 0.933 0.473–1.840 0.842\n\nEducation Tertiary vs no/primary 0.375 0.134–1.045 0.061\n\nIncome score Per 1-unit increase 1.288 0.935–1.775 0.122",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Factors associated with major radiographic outcomes\n\nCooking location Yes vs No 1.398 0.759–2.572 0.282\n\nHousehold fuel Solid fuels vs clean fuels 1.927 0.599–6.205 0.272\n\nEducation Secondary vs no/primary 0.933 0.473–1.840 0.842\n\nEducation Tertiary vs no/primary 0.375 0.134–1.045 0.061\n\nIncome score Per 1-unit increase 1.288 0.935–1.775 0.122",
+      "page_start": 7,
+      "page_end": 7,
+      "paragraph_positions": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "token_count": 108,
+      "chunk_index": 32,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0033",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0028",
+      "section_title": "TABLE 4: Multivariable associations with pneumonia",
+      "section_path": [
+        "Results",
+        "Factors associated with major radiographic outcomes",
+        "TABLE 4: Multivariable associations with pneumonia"
+      ],
+      "source_text": "Analytical N = 396; events = 74; non-events = 322: Increasing age was associated with greater odds of pneumonia. For every 10-year increase in age, the adjusted odds of pneumonia increased by approximately 32% (aOR 1.318, 95% CI 1.149–1.523; p<0.001). There was some evidence of lower odds among participants with tertiary education compared with those with no or primary education, but this association did not meet the conventional 5% significance threshold (aOR 0.375, 95% CI 0.134–1.045; p=0.061).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 8 of 16\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 0.990 0.833–1.183 0.940\n\nSex Male vs Female 0.620 0.317–1.214 0.163\n\nBody mass index Per 1 kg/m² increase 0.935 0.877–0.998 0.042\n\nHypertension Yes vs No 1.332 0.573–3.094 0.505\n\nEducation Secondary vs No/Primary 0.895 0.370–2.160 0.804\n\nEducation Tertiary vs No/Primary 0.581 0.188–1.796 0.346",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Factors associated with major radiographic outcomes\nSubsection: TABLE 4: Multivariable associations with pneumonia\n\nAnalytical N = 396; events = 74; non-events = 322: Increasing age was associated with greater odds of pneumonia. For every 10-year increase in age, the adjusted odds of pneumonia increased by approximately 32% (aOR 1.318, 95% CI 1.149–1.523; p<0.001). There was some evidence of lower odds among participants with tertiary education compared with those with no or primary education, but this association did not meet the conventional 5% significance threshold (aOR 0.375, 95% CI 0.134–1.045; p=0.061).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 8 of 16\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 0.990 0.833–1.183 0.940\n\nSex Male vs Female 0.620 0.317–1.214 0.163\n\nBody mass index Per 1 kg/m² increase 0.935 0.877–0.998 0.042\n\nHypertension Yes vs No 1.332 0.573–3.094 0.505\n\nEducation Secondary vs No/Primary 0.895 0.370–2.160 0.804\n\nEducation Tertiary vs No/Primary 0.581 0.188–1.796 0.346",
+      "page_start": 7,
+      "page_end": 8,
+      "paragraph_positions": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "token_count": 309,
+      "chunk_index": 33,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0034",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0029",
+      "section_title": "TABLE 5: Multivariable associations with pleural effusion",
+      "section_path": [
+        "Results",
+        "Factors associated with major radiographic outcomes",
+        "TABLE 5: Multivariable associations with pleural effusion"
+      ],
+      "source_text": "Analytical N = 395; events = 39; non-events = 356: Higher body mass index was independently associated with lower odds of pleural effusion (adjusted OR 0.935 per unit increase, 95% CI 0.877–0.997, p=0.042). No other covariates showed statistically significant independent associations.\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 1.756 1.383–2.240 <0.001\n\nHypertension Yes vs No 2.086 0.793–5.487 0.136\n\nBody mass index Per 1 kg/m² increase 1.074 1.001–1.151 0.046\n\nAUDIT-C score Per 1-SD increase 0.685 0.360–1.306 0.251",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Factors associated with major radiographic outcomes\nSubsection: TABLE 5: Multivariable associations with pleural effusion\n\nAnalytical N = 395; events = 39; non-events = 356: Higher body mass index was independently associated with lower odds of pleural effusion (adjusted OR 0.935 per unit increase, 95% CI 0.877–0.997, p=0.042). No other covariates showed statistically significant independent associations.\n\nCovariate Unit or comparison Adjusted OR 95% CI p-value\n\nAge Per 10-year increase 1.756 1.383–2.240 <0.001\n\nHypertension Yes vs No 2.086 0.793–5.487 0.136\n\nBody mass index Per 1 kg/m² increase 1.074 1.001–1.151 0.046\n\nAUDIT-C score Per 1-SD increase 0.685 0.360–1.306 0.251",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "token_count": 181,
+      "chunk_index": 34,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0035",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0030",
+      "section_title": "TABLE 6: Multivariable associations with cardiomegaly",
+      "section_path": [
+        "Results",
+        "Factors associated with major radiographic outcomes",
+        "TABLE 6: Multivariable associations with cardiomegaly"
+      ],
+      "source_text": "Analytical N = 398; events = 21; non-events = 377: Older age was strongly associated with greater odds of cardiomegaly. The adjusted odds increased by approximately 76% for every 10-year increase in age (aOR 1.756, 95% CI 1.383–2.240; p<0.001). Higher body mass index was also associated with greater odds of cardiomegaly, although the magnitude of association was modest and close to the conventional threshold for statistical significance (aOR per 1 kg/m² increase 1.074, 95% CI 1.00–1.151; p=0.046). Neither hypertension nor AUDIT-C score showed statistically significant independent associations with cardiomegaly.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Factors associated with major radiographic outcomes\nSubsection: TABLE 6: Multivariable associations with cardiomegaly\n\nAnalytical N = 398; events = 21; non-events = 377: Older age was strongly associated with greater odds of cardiomegaly. The adjusted odds increased by approximately 76% for every 10-year increase in age (aOR 1.756, 95% CI 1.383–2.240; p<0.001). Higher body mass index was also associated with greater odds of cardiomegaly, although the magnitude of association was modest and close to the conventional threshold for statistical significance (aOR per 1 kg/m² increase 1.074, 95% CI 1.00–1.151; p=0.046). Neither hypertension nor AUDIT-C score showed statistically significant independent associations with cardiomegaly.",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        121
+      ],
+      "token_count": 159,
+      "chunk_index": 35,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0036",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0031",
+      "section_title": "Predictive model performance",
+      "section_path": [
+        "Results",
+        "Predictive model performance"
+      ],
+      "source_text": "Prediction models developed using routinely collected clinical metadata demonstrated good discriminative performance (Figure 5). The cardiomegaly model achieved the highest performance (Figure 5a), with an area under the receiver operating characteristic curve (AUC) of 0.881 (95% CI 0.807-0.963). The pneumonia model (Figure 5c) also demonstrated good discrimination (AUC 0.787, 95% CI 0.728-0.849), while the pleural effusion (Figure 5b) model achieved moderate performance (AUC 0.699, 95% CI 0.601-0.788). A composite model (Figure 5d) predicting the presence of any radiographic abnormality achieved an AUC of 0.790 (95% CI 0.742-0.836). Across all models, age consistently ranked among the strongest predictors of radiographic disease.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 9 of 16",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Predictive model performance\n\nPrediction models developed using routinely collected clinical metadata demonstrated good discriminative performance (Figure 5). The cardiomegaly model achieved the highest performance (Figure 5a), with an area under the receiver operating characteristic curve (AUC) of 0.881 (95% CI 0.807-0.963). The pneumonia model (Figure 5c) also demonstrated good discrimination (AUC 0.787, 95% CI 0.728-0.849), while the pleural effusion (Figure 5b) model achieved moderate performance (AUC 0.699, 95% CI 0.601-0.788). A composite model (Figure 5d) predicting the presence of any radiographic abnormality achieved an AUC of 0.790 (95% CI 0.742-0.836). Across all models, age consistently ranked among the strongest predictors of radiographic disease.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 9 of 16",
+      "page_start": 8,
+      "page_end": 8,
+      "paragraph_positions": [
+        122,
+        123
+      ],
+      "token_count": 236,
+      "chunk_index": 36,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0037",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0032",
+      "section_title": "FIGURE 5: Predictive model performance",
+      "section_path": [
+        "Results",
+        "Predictive model performance",
+        "FIGURE 5: Predictive model performance"
+      ],
+      "source_text": "a) The predictive model demonstrated excellent discrimination for cardiomegaly (AUC 0.881, 95% CI 0.807– 0.963). Age was the strongest predictor of cardiomegaly, followed by systolic blood pressure and oxygen saturation. All other variables, including symptoms, contributed negligibly. b) Moderate discrimination for pleural effusion (AUC 0.699, 95% CI 0.601–0.788). Chest pain was the only meaningful predictor. c) Good discrimination for pneumonia (AUC 0.787, 95% CI 0.728–0.849). Age was the most influential predictor, followed by BMI that contributed minimally. d) Good discrimination for detecting \"Any Abnormality\" (AUC 0.790, 95% CI 0.742–0.836). Any abnormality is used to describe any complication including but not limited to pneumonia, pleural effusion and cardiomegaly. Age was the primary predictor of any radiographic abnormality, followed by BMI and cough that contributed minimally. All other variables had negligible predictive importance.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Predictive model performance\nSubsection: FIGURE 5: Predictive model performance\n\na) The predictive model demonstrated excellent discrimination for cardiomegaly (AUC 0.881, 95% CI 0.807– 0.963). Age was the strongest predictor of cardiomegaly, followed by systolic blood pressure and oxygen saturation. All other variables, including symptoms, contributed negligibly. b) Moderate discrimination for pleural effusion (AUC 0.699, 95% CI 0.601–0.788). Chest pain was the only meaningful predictor. c) Good discrimination for pneumonia (AUC 0.787, 95% CI 0.728–0.849). Age was the most influential predictor, followed by BMI that contributed minimally. d) Good discrimination for detecting \"Any Abnormality\" (AUC 0.790, 95% CI 0.742–0.836). Any abnormality is used to describe any complication including but not limited to pneumonia, pleural effusion and cardiomegaly. Age was the primary predictor of any radiographic abnormality, followed by BMI and cough that contributed minimally. All other variables had negligible predictive importance.",
+      "page_start": 9,
+      "page_end": 9,
+      "paragraph_positions": [
+        124
+      ],
+      "token_count": 257,
+      "chunk_index": 37,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0038",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0033",
+      "section_title": "Accessibility and utilization of chest X-ray services",
+      "section_path": [
+        "Results",
+        "Accessibility and utilization of chest X-ray services"
+      ],
+      "source_text": "Progressive reductions were observed across the diagnostic access pathway (Figure 6). Although 68% of participants reported that CXR services were available within their locality, this proportion decreased to 56% when personnel availability was considered and to 52% when affordability was taken into account. Ultimately, only 17% of participants indicated that they were both willing and able to undergo chest radiography despite perceived risks.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 10 of 16\n\nFIGURE 6: Referral rate and implication on missed diagnosis\n\nDiagnostic access cascade showing sequential structural barriers to chest X-ray utilization. The graph shows the screening target for pneumonia and any abnormality, which captures the presence of any clinically relevant radiographic abnormality warranting diagnostic attention, including but not limited to pneumonia, pleural effusion, cardiomegaly, and other actionable findings.\n\nCXR: Chest X-ray\n\nFacility-level comparisons demonstrated significant differences in referral pathways and personnel availability between Divine Mercy Hospital and Mbarara Regional Referral Hospital (Table 7). Walk-in attendance was more common at Divine Mercy Hospital, whereas willingness to undergo imaging was higher among participants attending Mbarara Regional Referral Hospital. Presentation at Mbarara Regional Referral Hospital was associated with referral status (adjusted OR 4.311, 95% CI 2.362-8.194; p <0.001), as was imaging-personnel availability (adjusted OR 3.343, 95% CI 1.511-7.813; p = 0.004), while travel time, affordability, and financing mechanisms were not significantly associated with referral patterns.\n\nvariable p-value Divine Mercy Hospital Mbarara Regional Referral Hospital\n\nReferral 2.45E-06 Walk-in (Direct) (92%) Walk-in (Direct) (75%)\n\nFinancing 2.46E-01 Out of pocket (72%) Out of pocket (81%)\n\nX-ray nearby 6.46E-02 Yes (72%) Yes (63%)\n\nPersonnel availability 2.20E-03 Yes (72%) Yes (57%)\n\nAffordability of X-ray 1.00E+00 Yes (74%) Yes (75%)\n\nTime to reach facility 3.99E-01 Less than 30 minutes (37%) Less than 30 minutes (32%)",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Accessibility and utilization of chest X-ray services\n\nProgressive reductions were observed across the diagnostic access pathway (Figure 6). Although 68% of participants reported that CXR services were available within their locality, this proportion decreased to 56% when personnel availability was considered and to 52% when affordability was taken into account. Ultimately, only 17% of participants indicated that they were both willing and able to undergo chest radiography despite perceived risks.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 10 of 16\n\nFIGURE 6: Referral rate and implication on missed diagnosis\n\nDiagnostic access cascade showing sequential structural barriers to chest X-ray utilization. The graph shows the screening target for pneumonia and any abnormality, which captures the presence of any clinically relevant radiographic abnormality warranting diagnostic attention, including but not limited to pneumonia, pleural effusion, cardiomegaly, and other actionable findings.\n\nCXR: Chest X-ray\n\nFacility-level comparisons demonstrated significant differences in referral pathways and personnel availability between Divine Mercy Hospital and Mbarara Regional Referral Hospital (Table 7). Walk-in attendance was more common at Divine Mercy Hospital, whereas willingness to undergo imaging was higher among participants attending Mbarara Regional Referral Hospital. Presentation at Mbarara Regional Referral Hospital was associated with referral status (adjusted OR 4.311, 95% CI 2.362-8.194; p <0.001), as was imaging-personnel availability (adjusted OR 3.343, 95% CI 1.511-7.813; p = 0.004), while travel time, affordability, and financing mechanisms were not significantly associated with referral patterns.\n\nvariable p-value Divine Mercy Hospital Mbarara Regional Referral Hospital\n\nReferral 2.45E-06 Walk-in (Direct) (92%) Walk-in (Direct) (75%)\n\nFinancing 2.46E-01 Out of pocket (72%) Out of pocket (81%)\n\nX-ray nearby 6.46E-02 Yes (72%) Yes (63%)\n\nPersonnel availability 2.20E-03 Yes (72%) Yes (57%)\n\nAffordability of X-ray 1.00E+00 Yes (74%) Yes (75%)\n\nTime to reach facility 3.99E-01 Less than 30 minutes (37%) Less than 30 minutes (32%)",
+      "page_start": 9,
+      "page_end": 10,
+      "paragraph_positions": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "token_count": 507,
+      "chunk_index": 38,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0039",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0033",
+      "section_title": "Accessibility and utilization of chest X-ray services",
+      "section_path": [
+        "Results",
+        "Accessibility and utilization of chest X-ray services"
+      ],
+      "source_text": "Affordability of X-ray 1.00E+00 Yes (74%) Yes (75%)\n\nTime to reach facility 3.99E-01 Less than 30 minutes (37%) Less than 30 minutes (32%)\n\nStill willing despite actors 2.69E-04 No (74%) No (56%)\n\nTABLE 7: Referral pathways and accessibility to the two hospitals",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Accessibility and utilization of chest X-ray services\n\nAffordability of X-ray 1.00E+00 Yes (74%) Yes (75%)\n\nTime to reach facility 3.99E-01 Less than 30 minutes (37%) Less than 30 minutes (32%)\n\nStill willing despite actors 2.69E-04 No (74%) No (56%)\n\nTABLE 7: Referral pathways and accessibility to the two hospitals",
+      "page_start": 10,
+      "page_end": 10,
+      "paragraph_positions": [
+        136,
+        137,
+        138,
+        139
+      ],
+      "token_count": 80,
+      "chunk_index": 39,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0040",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0034",
+      "section_title": "Exploratory stage 1 referral simulations",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations"
+      ],
+      "source_text": "The study-sample simulations illustrated the trade-off between imaging demand and case detection at the selected operating thresholds. These results describe model behavior within the study dataset and do not represent prospectively evaluated clinical performance (Tables 8, 9).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 11 of 16",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\n\nThe study-sample simulations illustrated the trade-off between imaging demand and case detection at the selected operating thresholds. These results describe model behavior within the study dataset and do not represent prospectively evaluated clinical performance (Tables 8, 9).\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 11 of 16",
+      "page_start": 10,
+      "page_end": 10,
+      "paragraph_positions": [
+        140,
+        141
+      ],
+      "token_count": 85,
+      "chunk_index": 40,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0041",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0035",
+      "section_title": "Policy",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "Policy"
+      ],
+      "source_text": "Referral rate Sensitivity Missed cases Specificity Positive predictive value (PPV)",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: Policy\n\nReferral rate Sensitivity Missed cases Specificity Positive predictive value (PPV)",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        142
+      ],
+      "token_count": 16,
+      "chunk_index": 41,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0042",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0036",
+      "section_title": "Negative predictive value (NPV)",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "Negative predictive value (NPV)"
+      ],
+      "source_text": "(%) (%) (%) (%) (%) (%)\n\nCapacity- constrained 35.7 75 25 73.4 39.6 92.7\n\nSafety-prioritized 73.7 93.4 6.6 30.9 23.9 95.3\n\nTABLE 8: Stage 1 operating policies for pneumonia screening (prevalence = 18.9%)",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: Negative predictive value (NPV)\n\n(%) (%) (%) (%) (%) (%)\n\nCapacity- constrained 35.7 75 25 73.4 39.6 92.7\n\nSafety-prioritized 73.7 93.4 6.6 30.9 23.9 95.3\n\nTABLE 8: Stage 1 operating policies for pneumonia screening (prevalence = 18.9%)",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        143,
+        144,
+        145,
+        146
+      ],
+      "token_count": 76,
+      "chunk_index": 42,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0043",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0037",
+      "section_title": "Policy",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "Policy"
+      ],
+      "source_text": "Policy",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: Policy\n\nPolicy",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 1,
+      "chunk_index": 43,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0044",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0038",
+      "section_title": "Referral",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "Referral"
+      ],
+      "source_text": "Referral",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: Referral\n\nReferral",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 44,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0045",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0039",
+      "section_title": "rate Sensitivity Missed",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "rate Sensitivity Missed"
+      ],
+      "source_text": "rate Sensitivity Missed",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: rate Sensitivity Missed\n\nrate Sensitivity Missed",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 3,
+      "chunk_index": 45,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0046",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0040",
+      "section_title": "cases Specificity Positive predictive value",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "cases Specificity Positive predictive value"
+      ],
+      "source_text": "cases Specificity Positive predictive value",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: cases Specificity Positive predictive value\n\ncases Specificity Positive predictive value",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 7,
+      "chunk_index": 46,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0047",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0041",
+      "section_title": "(PPV)",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "(PPV)"
+      ],
+      "source_text": "(PPV)",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: (PPV)\n\n(PPV)",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 47,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0048",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0042",
+      "section_title": "Negative predictive value",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "Negative predictive value"
+      ],
+      "source_text": "Negative predictive value",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: Negative predictive value\n\nNegative predictive value",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [],
+      "token_count": 4,
+      "chunk_index": 48,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0049",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0043",
+      "section_title": "(NPV)",
+      "section_path": [
+        "Results",
+        "Exploratory stage 1 referral simulations",
+        "(NPV)"
+      ],
+      "source_text": "(%) (%) (%) (%) (%) (%)\n\nCapacity-\n\nconstrained 35.1 62 38 79.8 62.9 79.2\n\nSafety-prioritized 67.9 90.8 9.2 44.7 47.6 89.8\n\nTABLE 9: Stage 1 operating policies for any abnormality screening (prevalence = 35.6%)\n\nFor pneumonia, a capacity-constrained policy referred approximately 36% of patients while identifying 75% of cases. A safety-prioritized strategy increased case detection to more than 93% but substantially increased referral rates. Similar patterns were observed for the detection of any radiographic abnormality, with higher sensitivity achieved at the expense of increased imaging utilization (Figure 6).",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Results\nSubsection: Exploratory stage 1 referral simulations\nSubsection: (NPV)\n\n(%) (%) (%) (%) (%) (%)\n\nCapacity-\n\nconstrained 35.1 62 38 79.8 62.9 79.2\n\nSafety-prioritized 67.9 90.8 9.2 44.7 47.6 89.8\n\nTABLE 9: Stage 1 operating policies for any abnormality screening (prevalence = 35.6%)\n\nFor pneumonia, a capacity-constrained policy referred approximately 36% of patients while identifying 75% of cases. A safety-prioritized strategy increased case detection to more than 93% but substantially increased referral rates. Similar patterns were observed for the detection of any radiographic abnormality, with higher sensitivity achieved at the expense of increased imaging utilization (Figure 6).",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "token_count": 151,
+      "chunk_index": 49,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0050",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "This study examined pulmonary disease patterns, associated risk profiles, exploratory prediction-model discrimination, and barriers to diagnostic imaging using a multimodal CXR dataset from patients receiving routine clinical care in southwestern Uganda. By integrating radiographic findings with structured clinical metadata and health-system access variables, the study extends beyond traditional disease surveillance to provide preliminary insights into diagnostic decision-making in a resource-limited setting. The findings suggest that routinely obtainable clinical information may contribute to disease characterization, preliminary risk stratification, and the exploration of strategies for prioritizing imaging services. The study also highlights structural barriers affecting access to chest radiography. These observations are consistent with the increasing recognition that multimodal datasets are important for developing clinically relevant and context-appropriate diagnostic-support systems, particularly in LMICs [14].\n\nPneumonia was the most frequently reported radiographic abnormality, followed by pleural effusion and cardiomegaly. This distribution reflects the continuing burden of infectious respiratory disease in Uganda and the growing coexistence of chronic cardiothoracic conditions [15]. Similar epidemiological transitions have been observed in many LMICs, where infectious diseases remain prevalent alongside a rising burden of noncommunicable diseases. Consequently, healthcare systems are increasingly required to diagnose and manage patients with multiple interacting disease processes rather than isolated conditions [16]. The predominance of pneumonia in this study further emphasizes the importance of strengthening timely diagnostic and referral pathways for lower respiratory tract infections, particularly in settings with limited access to imaging services.\n\nA notable observation was the considerable overlap in presenting symptoms across the major radiographic abnormalities. Cough, chest pain, difficulty breathing, fever, and weight loss were frequently reported across different radiographic outcomes, demonstrating the limited specificity of symptom-based assessment alone. These findings are consistent with previous studies showing that pulmonary diseases often present with shared clinical manifestations [17], making differentiation based solely on symptoms difficult without radiographic confirmation. The frequent coexistence of multiple radiographic abnormalities further illustrates the complexity of cardiothoracic disease in routine clinical practice and the limitations of relying on individual clinical features to guide diagnostic decisions. Collectively, these findings support the integration of clinical assessment with imaging and other diagnostic information to strengthen diagnostic decision-making and potentially reduce missed or delayed diagnoses [18].",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\nThis study examined pulmonary disease patterns, associated risk profiles, exploratory prediction-model discrimination, and barriers to diagnostic imaging using a multimodal CXR dataset from patients receiving routine clinical care in southwestern Uganda. By integrating radiographic findings with structured clinical metadata and health-system access variables, the study extends beyond traditional disease surveillance to provide preliminary insights into diagnostic decision-making in a resource-limited setting. The findings suggest that routinely obtainable clinical information may contribute to disease characterization, preliminary risk stratification, and the exploration of strategies for prioritizing imaging services. The study also highlights structural barriers affecting access to chest radiography. These observations are consistent with the increasing recognition that multimodal datasets are important for developing clinically relevant and context-appropriate diagnostic-support systems, particularly in LMICs [14].\n\nPneumonia was the most frequently reported radiographic abnormality, followed by pleural effusion and cardiomegaly. This distribution reflects the continuing burden of infectious respiratory disease in Uganda and the growing coexistence of chronic cardiothoracic conditions [15]. Similar epidemiological transitions have been observed in many LMICs, where infectious diseases remain prevalent alongside a rising burden of noncommunicable diseases. Consequently, healthcare systems are increasingly required to diagnose and manage patients with multiple interacting disease processes rather than isolated conditions [16]. The predominance of pneumonia in this study further emphasizes the importance of strengthening timely diagnostic and referral pathways for lower respiratory tract infections, particularly in settings with limited access to imaging services.\n\nA notable observation was the considerable overlap in presenting symptoms across the major radiographic abnormalities. Cough, chest pain, difficulty breathing, fever, and weight loss were frequently reported across different radiographic outcomes, demonstrating the limited specificity of symptom-based assessment alone. These findings are consistent with previous studies showing that pulmonary diseases often present with shared clinical manifestations [17], making differentiation based solely on symptoms difficult without radiographic confirmation. The frequent coexistence of multiple radiographic abnormalities further illustrates the complexity of cardiothoracic disease in routine clinical practice and the limitations of relying on individual clinical features to guide diagnostic decisions. Collectively, these findings support the integration of clinical assessment with imaging and other diagnostic information to strengthen diagnostic decision-making and potentially reduce missed or delayed diagnoses [18].",
+      "page_start": 11,
+      "page_end": 11,
+      "paragraph_positions": [
+        153,
+        154,
+        155
+      ],
+      "token_count": 481,
+      "chunk_index": 50,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0051",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 12 of 16\n\nAge was the most consistent predictor of pneumonia and cardiomegaly in the multivariable analyses, although it was not independently associated with pleural effusion. This finding is biologically plausible and aligns with previous epidemiological studies demonstrating increased susceptibility to respiratory infections and cardiovascular disease with advancing age. Progressive immunosenescence, cumulative environmental exposures, declining physiological reserve, and increasing multimorbidity may contribute to elevated disease risk among older adults [19,20]. Body mass index was also associated with certain radiographic outcomes, although the direction of association differed between diseases. Higher body mass index was associated with slightly increased odds of cardiomegaly and reduced odds of pleural effusion. These findings suggest that nutritional status and body composition may influence different pathological processes through distinct mechanisms. However, because some effect estimates were close to the null and the number of outcome events was limited, these associations should be interpreted cautiously.\n\nSocioeconomic indicators such as education and income were not independently associated with the selected radiographic abnormalities after adjustment for other variables. Their effects may operate through more proximal determinants, including environmental exposure, healthcare utilization, underlying clinical status, and the ability to access diagnostic services, rather than through direct relationships with radiographic disease. However, the absence of statistically significant associations should not be interpreted as evidence that socioeconomic circumstances are unimportant. The study may have had limited statistical power to detect modest relationships, and the selected sample comprised patients who had already entered a chest- radiography referral pathway.\n\nThe exploratory prediction models based on clinical metadata showed apparent discrimination within the study sample, particularly for cardiomegaly and pneumonia. These results suggest that information available during routine patient assessment may contain signals associated with radiographer-reported abnormalities before imaging is performed. However, the reported AUCs were obtained from the model- development sample and were not corrected for optimism through internal validation, assessed for calibration, or evaluated in an external population. They may therefore overestimate performance in new patients, particularly for cardiomegaly, for which the number of outcome events was small. The findings should consequently be interpreted as preliminary and hypothesis-generating rather than evidence of a validated clinical prediction tool.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 12 of 16\n\nAge was the most consistent predictor of pneumonia and cardiomegaly in the multivariable analyses, although it was not independently associated with pleural effusion. This finding is biologically plausible and aligns with previous epidemiological studies demonstrating increased susceptibility to respiratory infections and cardiovascular disease with advancing age. Progressive immunosenescence, cumulative environmental exposures, declining physiological reserve, and increasing multimorbidity may contribute to elevated disease risk among older adults [19,20]. Body mass index was also associated with certain radiographic outcomes, although the direction of association differed between diseases. Higher body mass index was associated with slightly increased odds of cardiomegaly and reduced odds of pleural effusion. These findings suggest that nutritional status and body composition may influence different pathological processes through distinct mechanisms. However, because some effect estimates were close to the null and the number of outcome events was limited, these associations should be interpreted cautiously.\n\nSocioeconomic indicators such as education and income were not independently associated with the selected radiographic abnormalities after adjustment for other variables. Their effects may operate through more proximal determinants, including environmental exposure, healthcare utilization, underlying clinical status, and the ability to access diagnostic services, rather than through direct relationships with radiographic disease. However, the absence of statistically significant associations should not be interpreted as evidence that socioeconomic circumstances are unimportant. The study may have had limited statistical power to detect modest relationships, and the selected sample comprised patients who had already entered a chest- radiography referral pathway.\n\nThe exploratory prediction models based on clinical metadata showed apparent discrimination within the study sample, particularly for cardiomegaly and pneumonia. These results suggest that information available during routine patient assessment may contain signals associated with radiographer-reported abnormalities before imaging is performed. However, the reported AUCs were obtained from the model- development sample and were not corrected for optimism through internal validation, assessed for calibration, or evaluated in an external population. They may therefore overestimate performance in new patients, particularly for cardiomegaly, for which the number of outcome events was small. The findings should consequently be interpreted as preliminary and hypothesis-generating rather than evidence of a validated clinical prediction tool.",
+      "page_start": 11,
+      "page_end": 12,
+      "paragraph_positions": [
+        156,
+        157,
+        158,
+        159
+      ],
+      "token_count": 498,
+      "chunk_index": 51,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0052",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "Similar studies have suggested that integrating clinical metadata with imaging information may improve diagnostic assessment and provide a more complete representation of the patient than approaches based on imaging alone [21]. In the present study, however, the clinical metadata models were intended only to explore pre-imaging risk stratification. Radiographer-reported findings were used as outcome labels and were not included as predictors in the referral models. The proposed approach is therefore not intended to replace chest radiography, radiographers, expert image interpretation, or clinical judgement. Radiographers remain essential for image acquisition and routine imaging-service delivery. If subsequently validated, a clinical metadata-based approach might complement existing workflows by supporting the prioritization of patients for imaging in settings where equipment, personnel, and financial resources are limited.\n\nBeyond disease characterization, the study provides insights into barriers affecting access to CXR services. Although imaging services were geographically available to many participants, effective access declined after personnel availability, affordability, and willingness to undergo imaging were considered. Only a relatively small proportion of participants remained both willing and able to complete the diagnostic pathway. These findings indicate that diagnostic access is influenced by multiple interconnected health-system factors rather than by the availability of equipment alone. Similar challenges have been reported across sub- Saharan Africa, where shortages of trained personnel, inadequate financing mechanisms, and inequitable distribution of diagnostic services continue to impede timely access to medical imaging [3]. Addressing these barriers will require coordinated investment in workforce development, financing mechanisms, infrastructure, referral systems, and community engagement.\n\nThe study also explored a proposed two-stage diagnostic framework for resource-limited settings. In the first stage, routinely obtainable clinical metadata would be used to estimate the probability of a radiographic abnormality and support decisions about prioritization for chest radiography. In a possible future second stage, image-based AI models could assist with interpretation of acquired images. The present study evaluated only the exploratory clinical metadata component; it did not develop or evaluate an image-based AI model. The image-based component should therefore be understood as a proposed direction for future work rather than as a component validated in this study.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\nSimilar studies have suggested that integrating clinical metadata with imaging information may improve diagnostic assessment and provide a more complete representation of the patient than approaches based on imaging alone [21]. In the present study, however, the clinical metadata models were intended only to explore pre-imaging risk stratification. Radiographer-reported findings were used as outcome labels and were not included as predictors in the referral models. The proposed approach is therefore not intended to replace chest radiography, radiographers, expert image interpretation, or clinical judgement. Radiographers remain essential for image acquisition and routine imaging-service delivery. If subsequently validated, a clinical metadata-based approach might complement existing workflows by supporting the prioritization of patients for imaging in settings where equipment, personnel, and financial resources are limited.\n\nBeyond disease characterization, the study provides insights into barriers affecting access to CXR services. Although imaging services were geographically available to many participants, effective access declined after personnel availability, affordability, and willingness to undergo imaging were considered. Only a relatively small proportion of participants remained both willing and able to complete the diagnostic pathway. These findings indicate that diagnostic access is influenced by multiple interconnected health-system factors rather than by the availability of equipment alone. Similar challenges have been reported across sub- Saharan Africa, where shortages of trained personnel, inadequate financing mechanisms, and inequitable distribution of diagnostic services continue to impede timely access to medical imaging [3]. Addressing these barriers will require coordinated investment in workforce development, financing mechanisms, infrastructure, referral systems, and community engagement.\n\nThe study also explored a proposed two-stage diagnostic framework for resource-limited settings. In the first stage, routinely obtainable clinical metadata would be used to estimate the probability of a radiographic abnormality and support decisions about prioritization for chest radiography. In a possible future second stage, image-based AI models could assist with interpretation of acquired images. The present study evaluated only the exploratory clinical metadata component; it did not develop or evaluate an image-based AI model. The image-based component should therefore be understood as a proposed direction for future work rather than as a component validated in this study.",
+      "page_start": 12,
+      "page_end": 12,
+      "paragraph_positions": [
+        160,
+        161,
+        162
+      ],
+      "token_count": 442,
+      "chunk_index": 52,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0053",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "The Stage 1 referral simulations illustrated the trade-off between imaging demand and case detection under selected operating thresholds. Within the study sample, the capacity-constrained and safety-prioritized policies produced different referral volumes and proportions of missed cases. These simulations demonstrate how changing a decision threshold may alter the balance between conserving imaging capacity and identifying patients with recorded abnormalities. Nevertheless, the operating thresholds were selected as post hoc illustrative scenarios and were not prospectively implemented or clinically validated. The results therefore do not demonstrate that metadata-based triage safely reduces imaging demand, improves access, optimizes resource allocation, or improves patient outcomes. Rather, they provide a preliminary framework for developing and prospectively evaluating alternative referral strategies. Comparable multimodal\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 13 of 16\n\nworkflows that combine structured clinical information with imaging have been proposed as potential approaches for integrating AI into clinical practice [18], but their safety, effectiveness, and operational value must be established in the intended healthcare setting.\n\nThe strengths of this study include the integration of radiographic findings with demographic, clinical, behavioral, environmental, and health-system information collected under routine clinical conditions. Unlike many publicly available CXR datasets that focus primarily on image classification, this dataset captures the broader clinical and health-system context in which imaging decisions are made. It therefore provides opportunities to investigate disease patterns, associated clinical factors, healthcare utilization, barriers to diagnostic access, and potential referral pathways. The inclusion of participants from two levels of healthcare delivery also provides useful preliminary information about how diagnostic access and referral processes operate across different facilities in southwestern Uganda.\n\nSeveral limitations should be considered when interpreting the findings. First, the study used a relatively modest sample from two healthcare facilities, with radiographs obtained primarily at one facility. This limits geographical and institutional generalizability. Furthermore, participants had already been referred for chest radiography because of suspected pulmonary or cardiothoracic disease. This may have introduced referral-selection and spectrum bias and limits applicability to community-screening settings, primary-care populations, and patients not already selected for imaging.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\nThe Stage 1 referral simulations illustrated the trade-off between imaging demand and case detection under selected operating thresholds. Within the study sample, the capacity-constrained and safety-prioritized policies produced different referral volumes and proportions of missed cases. These simulations demonstrate how changing a decision threshold may alter the balance between conserving imaging capacity and identifying patients with recorded abnormalities. Nevertheless, the operating thresholds were selected as post hoc illustrative scenarios and were not prospectively implemented or clinically validated. The results therefore do not demonstrate that metadata-based triage safely reduces imaging demand, improves access, optimizes resource allocation, or improves patient outcomes. Rather, they provide a preliminary framework for developing and prospectively evaluating alternative referral strategies. Comparable multimodal\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 13 of 16\n\nworkflows that combine structured clinical information with imaging have been proposed as potential approaches for integrating AI into clinical practice [18], but their safety, effectiveness, and operational value must be established in the intended healthcare setting.\n\nThe strengths of this study include the integration of radiographic findings with demographic, clinical, behavioral, environmental, and health-system information collected under routine clinical conditions. Unlike many publicly available CXR datasets that focus primarily on image classification, this dataset captures the broader clinical and health-system context in which imaging decisions are made. It therefore provides opportunities to investigate disease patterns, associated clinical factors, healthcare utilization, barriers to diagnostic access, and potential referral pathways. The inclusion of participants from two levels of healthcare delivery also provides useful preliminary information about how diagnostic access and referral processes operate across different facilities in southwestern Uganda.\n\nSeveral limitations should be considered when interpreting the findings. First, the study used a relatively modest sample from two healthcare facilities, with radiographs obtained primarily at one facility. This limits geographical and institutional generalizability. Furthermore, participants had already been referred for chest radiography because of suspected pulmonary or cardiothoracic disease. This may have introduced referral-selection and spectrum bias and limits applicability to community-screening settings, primary-care populations, and patients not already selected for imaging.",
+      "page_start": 12,
+      "page_end": 13,
+      "paragraph_positions": [
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "token_count": 460,
+      "chunk_index": 53,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0054",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "Second, the radiographic outcomes were derived from routine reports prepared by radiographers rather than from independent consensus interpretation by expert radiologists. The rule-based procedure used to convert narrative reports into binary outcome labels was also not formally validated against manual classification or an independent reference standard. Potential inter-reader variability and outcome-label misclassification may therefore have influenced the estimated disease frequencies, multivariable associations, and apparent model discrimination.\n\nThird, missing covariate data were handled using complete-case analysis without imputation, resulting in differences in analytical sample sizes across the outcome-specific models. If missingness was associated with participant characteristics or disease status, complete-case analysis may have introduced bias. The relatively small number of outcome events, particularly for cardiomegaly, also increased the risk of model overfitting, coefficient instability, and optimistic estimates of discrimination. In addition, the exploratory regression analyses did not include comprehensive assessment of all potential nonlinear relationships, interactions, multicollinearity, or influential observations.\n\nFourth, the reported AUCs represent apparent discrimination within the model-development sample. The models were not corrected for optimism through internal validation, assessed for calibration, evaluated using a held-out test set, or validated in an external population. The results therefore do not establish model calibration, transportability, clinical usefulness, or expected performance in new patients. The absence of image-derived features is an additional limitation, although the clinical metadata models were intended to examine pre-imaging risk stratification rather than image interpretation.\n\nFinally, the referral policies were exploratory, post hoc simulations rather than prospectively implemented clinical interventions. They were not evaluated for clinical safety, workflow feasibility, cost-effectiveness, effects on equity, or patient outcomes. Consequently, the simulations illustrate potential trade-offs between referral volume and case detection but do not establish the effectiveness of the proposed referral framework in routine practice.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\nSecond, the radiographic outcomes were derived from routine reports prepared by radiographers rather than from independent consensus interpretation by expert radiologists. The rule-based procedure used to convert narrative reports into binary outcome labels was also not formally validated against manual classification or an independent reference standard. Potential inter-reader variability and outcome-label misclassification may therefore have influenced the estimated disease frequencies, multivariable associations, and apparent model discrimination.\n\nThird, missing covariate data were handled using complete-case analysis without imputation, resulting in differences in analytical sample sizes across the outcome-specific models. If missingness was associated with participant characteristics or disease status, complete-case analysis may have introduced bias. The relatively small number of outcome events, particularly for cardiomegaly, also increased the risk of model overfitting, coefficient instability, and optimistic estimates of discrimination. In addition, the exploratory regression analyses did not include comprehensive assessment of all potential nonlinear relationships, interactions, multicollinearity, or influential observations.\n\nFourth, the reported AUCs represent apparent discrimination within the model-development sample. The models were not corrected for optimism through internal validation, assessed for calibration, evaluated using a held-out test set, or validated in an external population. The results therefore do not establish model calibration, transportability, clinical usefulness, or expected performance in new patients. The absence of image-derived features is an additional limitation, although the clinical metadata models were intended to examine pre-imaging risk stratification rather than image interpretation.\n\nFinally, the referral policies were exploratory, post hoc simulations rather than prospectively implemented clinical interventions. They were not evaluated for clinical safety, workflow feasibility, cost-effectiveness, effects on equity, or patient outcomes. Consequently, the simulations illustrate potential trade-offs between referral volume and case detection but do not establish the effectiveness of the proposed referral framework in routine practice.",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "token_count": 394,
+      "chunk_index": 54,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0055",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0044",
+      "section_title": "Discussion",
+      "section_path": [
+        "Discussion"
+      ],
+      "source_text": "Future research should expand recruitment to additional healthcare facilities and more geographically diverse populations, increase the number of outcome events, establish standardized image annotation using independent expert-radiologist review, and formally validate the rule-based report-classification procedure. Prediction models should undergo appropriate internal validation, optimism correction, calibration assessment, and external validation before clinical application. Prospective implementation studies will also be necessary to determine whether clinical metadata-based prioritization can be integrated safely into existing workflows and whether it improves diagnostic access, efficiency, equity, or patient outcomes. Subsequent research may then evaluate a fully integrated multimodal system combining validated clinical metadata models with image-based AI tools.\n\nOverall, this exploratory pilot study highlights the value of integrating clinical metadata, radiographer- reported findings, and health-system information to improve understanding of pulmonary disease patterns and diagnostic pathways in southwestern Uganda. Routinely obtainable clinical information may have potential to support preliminary risk stratification before imaging, while multimodal datasets provide a useful foundation for developing locally relevant diagnostic-support tools. However, the present findings do not establish a validated or clinically effective referral system. Independent verification of radiographic outcomes, formal validation of the report-classification procedure, internal and external model validation, calibration assessment, and prospective workflow evaluation are required before the proposed approach can support patient-level referral decisions in routine clinical practice.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 14 of 16",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Discussion\n\nFuture research should expand recruitment to additional healthcare facilities and more geographically diverse populations, increase the number of outcome events, establish standardized image annotation using independent expert-radiologist review, and formally validate the rule-based report-classification procedure. Prediction models should undergo appropriate internal validation, optimism correction, calibration assessment, and external validation before clinical application. Prospective implementation studies will also be necessary to determine whether clinical metadata-based prioritization can be integrated safely into existing workflows and whether it improves diagnostic access, efficiency, equity, or patient outcomes. Subsequent research may then evaluate a fully integrated multimodal system combining validated clinical metadata models with image-based AI tools.\n\nOverall, this exploratory pilot study highlights the value of integrating clinical metadata, radiographer- reported findings, and health-system information to improve understanding of pulmonary disease patterns and diagnostic pathways in southwestern Uganda. Routinely obtainable clinical information may have potential to support preliminary risk stratification before imaging, while multimodal datasets provide a useful foundation for developing locally relevant diagnostic-support tools. However, the present findings do not establish a validated or clinically effective referral system. Independent verification of radiographic outcomes, formal validation of the report-classification procedure, internal and external model validation, calibration assessment, and prospective workflow evaluation are required before the proposed approach can support patient-level referral decisions in routine clinical practice.\n\n2026 Obungoloch et al. Cureus 18(8): e115057. DOI 10.7759/cureus.115057 14 of 16",
+      "page_start": 13,
+      "page_end": 13,
+      "paragraph_positions": [
+        172,
+        173,
+        174
+      ],
+      "token_count": 324,
+      "chunk_index": 55,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0056",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0045",
+      "section_title": "Conclusions",
+      "section_path": [
+        "Conclusions"
+      ],
+      "source_text": "This exploratory pilot study examined radiographer-reported pulmonary and cardiothoracic abnormalities, associated clinical factors, and barriers to chest X-ray use among patients already referred for radiography in southwestern Uganda. Pneumonia emerged as the most frequently reported abnormality, with increasing age linked to both pneumonia and cardiomegaly. The significant overlap in clinical presentation across radiographic outcomes underscores the limited specificity of symptoms alone and emphasizes the importance of chest radiography in evaluating suspected cardiothoracic disease. Routinely obtainable clinical metadata demonstrated potential for preliminary pre-imaging risk stratification, while Stage 1 simulations indicated possible trade-offs between imaging-referral volume and case detection. However, the reported model performance reflects apparent discrimination within the study sample, and the simulated referral strategies were neither prospectively implemented nor clinically validated. Consequently, these findings are hypothesis-generating and do not establish a validated, safe, or clinically effective referral tool. Further research should encompass larger and more geographically diverse populations, independent expert-radiologist verification of radiographic outcomes, formal validation of the report-classification procedure, and appropriate internal and external validation of the prediction models, including calibration assessment. Prospective studies are also necessary to evaluate workflow feasibility, clinical safety, equity, and patient outcomes. Following such validation, integrating clinical metadata with image-based AI models may facilitate the development of context-appropriate diagnostic systems for resource-constrained healthcare settings.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Conclusions\n\nThis exploratory pilot study examined radiographer-reported pulmonary and cardiothoracic abnormalities, associated clinical factors, and barriers to chest X-ray use among patients already referred for radiography in southwestern Uganda. Pneumonia emerged as the most frequently reported abnormality, with increasing age linked to both pneumonia and cardiomegaly. The significant overlap in clinical presentation across radiographic outcomes underscores the limited specificity of symptoms alone and emphasizes the importance of chest radiography in evaluating suspected cardiothoracic disease. Routinely obtainable clinical metadata demonstrated potential for preliminary pre-imaging risk stratification, while Stage 1 simulations indicated possible trade-offs between imaging-referral volume and case detection. However, the reported model performance reflects apparent discrimination within the study sample, and the simulated referral strategies were neither prospectively implemented nor clinically validated. Consequently, these findings are hypothesis-generating and do not establish a validated, safe, or clinically effective referral tool. Further research should encompass larger and more geographically diverse populations, independent expert-radiologist verification of radiographic outcomes, formal validation of the report-classification procedure, and appropriate internal and external validation of the prediction models, including calibration assessment. Prospective studies are also necessary to evaluate workflow feasibility, clinical safety, equity, and patient outcomes. Following such validation, integrating clinical metadata with image-based AI models may facilitate the development of context-appropriate diagnostic systems for resource-constrained healthcare settings.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        175
+      ],
+      "token_count": 294,
+      "chunk_index": 56,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0057",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0046",
+      "section_title": "Additional Information",
+      "section_path": [
+        "Additional Information"
+      ],
+      "source_text": "Additional Information",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Additional Information\n\nAdditional Information",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [],
+      "token_count": 2,
+      "chunk_index": 57,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0058",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0047",
+      "section_title": "Author Contributions",
+      "section_path": [
+        "Additional Information",
+        "Author Contributions"
+      ],
+      "source_text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.\n\nConcept and design:  Johnes Obungoloch, Julius Tumusiime, Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, Shallot N. Murungi, William Wasswa\n\nDrafting of the manuscript:  Johnes Obungoloch, Julius Tumusiime, Jacob Nkwanga\n\nCritical review of the manuscript for important intellectual content:  Johnes Obungoloch, Gershom Buri, Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, Shallot N. Murungi, William Wasswa, Martin Mukama\n\nAcquisition, analysis, or interpretation of data:  Julius Tumusiime, Gershom Buri, Jacob Nkwanga, Shallot N. Murungi, William Wasswa, Martin Mukama\n\nSupervision:  Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, William Wasswa",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Additional Information\nSubsection: Author Contributions\n\nAll authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.\n\nConcept and design:  Johnes Obungoloch, Julius Tumusiime, Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, Shallot N. Murungi, William Wasswa\n\nDrafting of the manuscript:  Johnes Obungoloch, Julius Tumusiime, Jacob Nkwanga\n\nCritical review of the manuscript for important intellectual content:  Johnes Obungoloch, Gershom Buri, Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, Shallot N. Murungi, William Wasswa, Martin Mukama\n\nAcquisition, analysis, or interpretation of data:  Julius Tumusiime, Gershom Buri, Jacob Nkwanga, Shallot N. Murungi, William Wasswa, Martin Mukama\n\nSupervision:  Jacob Nkwanga, Chrispus Mbusa, Fred Kaggwa, William Wasswa",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "token_count": 207,
+      "chunk_index": 58,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0059",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0048",
+      "section_title": "Disclosures",
+      "section_path": [
+        "Additional Information",
+        "Disclosures"
+      ],
+      "source_text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. MUST Research Ethics Committee issued approval MUST-2024-1343. Animal subjects: All authors have confirmed that this study did not involve animal subjects or tissue. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Additional Information\nSubsection: Disclosures\n\nHuman subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. MUST Research Ethics Committee issued approval MUST-2024-1343. Animal subjects: All authors have confirmed that this study did not involve animal subjects or tissue. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        182
+      ],
+      "token_count": 157,
+      "chunk_index": 59,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    },
+    {
+      "chunk_id": "chunk_doc_370bb8563b27a3d7_0060",
+      "document_id": "doc_370bb8563b27a3d7",
+      "section_id": "sec_doc_370bb8563b27a3d7_0049",
+      "section_title": "Acknowledgements",
+      "section_path": [
+        "Acknowledgements"
+      ],
+      "source_text": "The authors sincerely acknowledge the invaluable contributions of the entire research team, including Leo Anthony Celi, Jessica Haberer, Nahwera Bonconcil, Biryomumeisho Joshua, Kamugisha Vincent, Eliot Ayebare, Ruth Nakadama, James Ssemitego, Acan Moses, Akol Gideon, and Edwin Nahabwe, whose dedication and support were instrumental to the successful completion of this study. The authors also extend their gratitude to the administration and staff of Mbarara University Data Science Hub, Divine Mercy Hospital, and Mbarara Regional Referral Hospital for their collaboration, institutional support, and guidance throughout the study.",
+      "embedding_text": "Document: Review began 07/20/2026\nSection: Acknowledgements\n\nThe authors sincerely acknowledge the invaluable contributions of the entire research team, including Leo Anthony Celi, Jessica Haberer, Nahwera Bonconcil, Biryomumeisho Joshua, Kamugisha Vincent, Eliot Ayebare, Ruth Nakadama, James Ssemitego, Acan Moses, Akol Gideon, and Edwin Nahabwe, whose dedication and support were instrumental to the successful completion of this study. The authors also extend their gratitude to the administration and staff of Mbarara University Data Science Hub, Divine Mercy Hospital, and Mbarara Regional Referral Hospital for their collaboration, institutional support, and guidance throughout the study.",
+      "page_start": 14,
+      "page_end": 14,
+      "paragraph_positions": [
+        183
+      ],
+      "token_count": 137,
+      "chunk_index": 60,
+      "chunker_version": "1.0",
+      "chunker_config_hash": "c9d4dc2ec8f5bbd1"
+    }
+  ]
+}

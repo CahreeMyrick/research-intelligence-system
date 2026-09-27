@@ -5,6 +5,7 @@ import argparse
 from indexer.config import IndexerConfig
 from indexer.database.connection import DatabaseManager
 from indexer.embeddings.ollama import OllamaEmbeddingProvider
+from indexer.embeddings.sentence_transformers import SentenceTransformersProvider
 from indexer.llm import AnswerService, OllamaLLM
 from indexer.retrieval.repository import RetrievalRepository
 from indexer.retrieval.service import RetrievalService
@@ -41,9 +42,19 @@ def main() -> None:
         config.database_url,
     )
 
-    embedding_provider = OllamaEmbeddingProvider(
-        model=config.embedding_model,
-    )
+    # Match the provider selection used by CorpusIndexer.
+    if ":" in config.embedding_model:
+        embedding_provider = OllamaEmbeddingProvider(
+            model=config.embedding_model,
+            model_version=config.embedding_model_version,
+            expected_dimensions=config.embedding_dimensions,
+        )
+    else:
+        embedding_provider = SentenceTransformersProvider(
+            model_name=config.embedding_model,
+            model_version=config.embedding_model_version,
+            expected_dimensions=config.embedding_dimensions,
+        )
 
     retrieval_repository = RetrievalRepository(
         db_manager=db,

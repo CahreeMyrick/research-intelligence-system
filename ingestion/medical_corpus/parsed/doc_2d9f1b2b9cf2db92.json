@@ -1,0 +1,2356 @@
+{
+  "identity": {
+    "id": "doc_2d9f1b2b9cf2db92",
+    "source": {
+      "filename": "PMC13590703.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13590703.1/PMC13590703.1.pdf",
+      "content_hash": "2d9f1b2b9cf2db92b822b7295e957060bafeb906da49af77635ac7024bd8d0a3"
+    }
+  },
+  "metadata": {
+    "title": "Automated chest X-ray disease screening using large language models and deep convolutional neural networks on the MIMIC-CXR dataset",
+    "authors": [
+      "Qingyu Zhang"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3389/fdgth.2026.1883337",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "EDITED BY Uwe Aickelin, The University of Melbourne, Australia",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "REVIEWED BY James Devasia, Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), India Priyanka Savadekar, Presidency University, India",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "*CORRESPONDENCE Holger Kunz",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "h.kunz@ucl.ac.uk",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "RECEIVED 16 May 2026 REVISED 01 July 2026 ACCEPTED 10 August 2026 PUBLISHED 07 September 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "CITATION Zhang Q, Vasudev P, Li K and Kunz H (2026) Automated chest X-ray disease screening using large language models and deep convolutional neural networks on the MIMIC-CXR dataset. Front. Digit. Health 8:1883337. doi: 10.3389/fdgth.2026.1883337",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "COPYRIGHT © 2026 Zhang, Vasudev, Li and Kunz. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "Automated chest X-ray disease screening using large language models and deep convolutional neural networks on the MIMIC-CXR dataset",
+          "page": 0,
+          "position": 7
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Qingyu Zhang",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "1, Pardeep Vasudev 1, Kezhi Li 1 and Holger Kunz 1,2*",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "1Institute of Health Informatics, University College London, London, United Kingdom, 2Department of Primary Care and Public Health, Imperial College London, London, United Kingdom",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Introduction:Radiologists in resource-limited settings often face high workloads, especially in chest X-ray interpretation. Manual annotation of large-scale imaging datasets remains costly and time-consuming. This study aims to explore the feasibility of using large language models (LLMs), specifically GPT-4o, to generate binary disease presence labels from free-text radiology reports, and to use these labels to train deep learning models for automated chest X-ray classification. Methods:A two-stage supervised learning pipeline was developed using the publicly available MIMIC-CXR v2.1.0 dataset. First, GPT-4o was prompted with a structured clinical protocol to classify each radiology report as either “diseased” or “no disease.” Second, the generated labels were used to supervise the training of four convolutional neural networks: ResNet-18, DenseNet-121, EfficientNet-B1, and ConvNeXt-Tiny. A patient-level 70/10/20 split was employed to prevent data leakage across sets. Each model was trained across five random seeds (42–46), and 95% confidence intervals were computed using the t-distribution. Label quality was evaluated by comparing 210 generated labels against radiologist annotations from a board-certified radiologist. Results: GPT-4o achieved an overall accuracy of 92.9% with expert labels on the 210-report validation set. For the “diseased” class, the precision was 97.4% and recall was 90.5%; for “no disease,” precision was 87.1% and recall was 96.4%. Among the CNN models evaluated on the held-out test set, ConvNeXt-Tiny achieved the highest area under the curve (AUC = 0.832, 95% CI [0.801, 0.863]) and balanced accuracy (0.739), significantly outperforming EfficientNet-B1 (AUC = 0.797; paired t-test, p = 0.014). ResNet-18 (AUC = 0.822) and DenseNet-121 (AUC = 0.808) showed intermediate performance. All models demonstrated AUC values above 0.79, confirming the viability of LLM-derived weak supervision. Discussion:This study demonstrates that LLMs can be effectively employed to generate supervision labels for medical imaging tasks. The proposed approach offers a scalable and low-cost solution for preliminary disease screening, particularly in healthcare environments with limited expert availability. The multi-seed evaluation with confidence intervals provides a rigorous assessment of model stability. Further work is needed to improve label reliability and expand to multi-label classification.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "KEYWORDS",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "CNN, deep learning, disease screening, LLM, medical imaging, MIMIC-CXR, radiology report analysis",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "TYPE Original Research PUBLISHED 07 September 2026 DOI 10.3389/fdgth.2026.1883337",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "Frontiers in Digital Health 01 frontiersin.org",
+          "page": 0,
+          "position": 14
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1 Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "1.1 Clinical motivation and diagnostic challenges",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "Chest radiographs (CXRs) are among the most frequently used diagnostic imaging modalities in clinical medicine, particularly for identifying cardiovascular and pulmonary conditions such as pneumonia, pleural effusion, and heart failure (1). However, interpreting CXRs requires specialised expertise and consistency —resources that are often stretched thin in high-throughput or resource-constrained healthcare systems. These challenges are not limited to low-income countries; in the UK, radiologist shortages are a well-documented concern (2).",
+              "page": 1,
+              "position": 15
+            },
+            {
+              "text": "The interpretation of CXRs is further complicated by the inherent limitations of the imaging modality. As a two- dimensional projection of three-dimensional anatomy, CXRs suffer from the superimposition of anatomical structures, which may obscure key findings. For example, pulmonary nodules may be hidden behind the heart or ribs, and subtle pathologies such as early-stage pneumonia can easily be missed. Moreover, the same image may exhibit multiple overlapping disease patterns, requiring considerable diagnostic acumen. Substantial inter- observer variability among radiologists has also been reported, underscoring the subjectivity involved in interpretation (3). Examples of diseased and healthy chest X-rays are shown in Figures 1and 2, respectively.",
+              "page": 1,
+              "position": 16
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "1.2 Deep learning for chest X-ray interpretation",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "Artificial intelligence (AI), and in particular deep learning (DL), has emerged as a promising solution to these diagnostic challenges. Convolutional neural networks (CNNs) have achieved strong performance in various medical imaging tasks, such as breast cancer detection (4, 5), cardiac function analysis",
+              "page": 1,
+              "position": 17
+            },
+            {
+              "text": "(6), and skin lesion classification (7, 8). In the domain of chest radiography, notable work such as CheXNet demonstrated that a 121-layer DenseNet could match radiologist-level performance in pneumonia detection (9).",
+              "page": 1,
+              "position": 18
+            },
+            {
+              "text": "Transfer learning has played a central role in advancing DL- based CXR interpretation. Most successful models are pre- trained on large-scale natural image datasets such as ImageNet and later fine-tuned on domain-specific CXR data (10, 11). This approach enables the reuse of low-level visual features (e.g., edges, textures) and allows for effective training even when labelled medical data is limited.",
+              "page": 1,
+              "position": 19
+            },
+            {
+              "text": "However, the development of high-performing models relies heavily on high-quality annotated datasets—something that is often lacking in the clinical domain. Manual annotation is time-consuming and expensive, while rule-based natural language processing (NLP) for label extraction frequently suffers from poor generalisation due to the variability of clinical language.",
+              "page": 1,
+              "position": 20
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "1.3 Large language models in clinical NLP",
+          "level": 2,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "Recent advances in large language models (LLMs), such as GPT-4, PaLM, and LLaMA, offer a compelling alternative to traditional NLP pipelines. Built on the Transformer architecture (12), these models are capable of understanding and generating human-like text with remarkable contextual accuracy (13–15).",
+              "page": 1,
+              "position": 21
+            },
+            {
+              "text": "LLMs can be categorised as encoder-based (e.g., BERT), decoder-based (e.g., GPT-3), or encoder-decoder-based (e.g., T5), and are typically trained on massive corpora using self- supervised objectives. As LLMs have scaled in size and training data, their zero-shot and few-shot learning abilities have improved dramatically (16), allowing them to perform new tasks with minimal or no task-specific tuning.",
+              "page": 1,
+              "position": 22
+            },
+            {
+              "text": "In healthcare, LLMs have been applied to tasks such as clinical summarisation, ICD code prediction, radiology report generation,",
+              "page": 1,
+              "position": 23
+            },
+            {
+              "text": "FIGURE 1 X-ray of diseased chest. Cite mimic cxr V2.1.0.",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "FIGURE 2 X-ray of healthy chest. Cite mimic cxr V2.1.0.",
+              "page": 1,
+              "position": 25
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 1,
+              "position": 26
+            },
+            {
+              "text": "Frontiers in Digital Health 02 frontiersin.org",
+              "page": 1,
+              "position": 27
+            },
+            {
+              "text": "and patient education through medical chat interfaces (17–19). When combined with prompt engineering, LLMs can extract structured labels from unstructured clinical text without additional training (20).",
+              "page": 2,
+              "position": 28
+            },
+            {
+              "text": "This study leverages GPT-4o to extract binary labels (diseased/no disease) from free-text CXR reports. Previous approaches to label generation, such as CheXpert (21), focused on diagnostic systems, whereas our approach focuses solely on screening for clinical relevance. While this approach offers scalability, it also introduces potential risks, such as label noise, bias, and lack of transparency. Prior work has emphasised the importance of uncertainty quantification and model calibration when using LLM-generated labels in clinical contexts (22).",
+              "page": 2,
+              "position": 29
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "1.4 CNN architectures for chest X-ray classification",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "CNNs remain foundational in medical imaging due to their inductive biases and computational efficiency. This study evaluates four widely used CNN architectures:",
+              "page": 2,
+              "position": 30
+            },
+            {
+              "text": "•ResNet-18: Incorporates residual skip connections to mitigate vanishing gradients and enables deep model training (23). •DenseNet-121: Connects each layer to every preceding layer, promoting feature reuse and facilitating gradient flow (24). •ConvNeXt-Tiny: A modern CNN architecture inspired by Vision Transformers, using large kernels, GELU activations, and layer scaling (25). •EfficientNet-B1: Employs compound scaling to optimise model depth, width, and resolution (26).",
+              "page": 2,
+              "position": 31
+            },
+            {
+              "text": "These models offer a range of architectural choices and inductive biases, making them suitable for comparative analysis under a supervised learning paradigm.",
+              "page": 2,
+              "position": 32
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "1.5 Study objectives and contributions",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "This study proposes a scalable two-stage pipeline to support automated chest X-ray classification for clinical screening purposes:",
+              "page": 2,
+              "position": 33
+            },
+            {
+              "text": "1.Data Pre-processing: Use GPT-4o to extract binary disease/ no-disease labels from radiology reports in the MIMIC- CXR dataset for label generation; 2.Image Classification: Train CNN models using the LLM- generated labels to classify CXR images.",
+              "page": 2,
+              "position": 34
+            },
+            {
+              "text": "This approach aims to reduce reliance on manual annotation and rule-based NLP, while exploring the reliability and generalisability of LLM-generated labels in a clinical setting.",
+              "page": 2,
+              "position": 35
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "2 Materials and methods",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 10,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "2.1 Dataset and subset selection",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "2.1.1 Dataset description",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "This study utilises the MIMIC-CXR v2.1.0 dataset, a large- scale, publicly available chest radiograph dataset released by the MIT Laboratory for Computational Physiology (27). The dataset contains 377,110 de-identified chest radiographs and 227,835 corresponding free-text radiology reports collected from 65,379 patients admitted to the Beth Israel Deaconess Medical Center between 2011 and 2016. Each radiograph is stored in DICOM format, and each report is linked to one or more images via a unique study identifier.",
+                  "page": 2,
+                  "position": 36
+                },
+                {
+                  "text": "All data are accessible under a credentialed data use agreement, and the dataset has been ethically reviewed and approved. MIMIC-CXR is widely used in research focused on computer vision, NLP, and multimodal learning in medical imaging.",
+                  "page": 2,
+                  "position": 37
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.1.2 Subset selection",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "The selected subset includes:",
+                  "page": 2,
+                  "position": 38
+                },
+                {
+                  "text": "–623 unique patients, each stored in a separate folder (e.g.,",
+                  "page": 2,
+                  "position": 39
+                },
+                {
+                  "text": "p10/p10000032); –2,105 radiographic studies, each in a subfolder (e.g.,",
+                  "page": 2,
+                  "position": 40
+                },
+                {
+                  "text": "s50414267), representing a single imaging encounter; –2,105 corresponding radiology reports in plain- text format.",
+                  "page": 2,
+                  "position": 41
+                },
+                {
+                  "text": "Each study folder contains one text file (view*.txt) storing the full radiology report, and one or more DICOM images named using view position codes (e.g., PA, AP, LATERAL).",
+                  "page": 2,
+                  "position": 42
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.1.3 Image modalities and view types",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 2,
+              "paragraphs": [
+                {
+                  "text": "The subset includes multiple view types, with the majority of images being either posterior-anterior (PA) or anterior-posterior (AP) projections. A smaller proportion of images are lateral views. Multi-view studies typically contain both frontal and lateral images. The distribution of view types is consistent with those reported in the full dataset.",
+                  "page": 2,
+                  "position": 43
+                },
+                {
+                  "text": "All images remain in their original DICOM format and resolution at this stage. No resizing or normalisation is applied prior to preprocessing. Figure 3shows an example chest X- ray image from the dataset.",
+                  "page": 2,
+                  "position": 44
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.1.4 Radiology report structure",
+              "level": 3,
+              "page_start": 2,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "Each report consists of unstructured free-text, typically divided into sections such as:",
+                  "page": 2,
+                  "position": 45
+                },
+                {
+                  "text": "–FINDINGS: Description of observed features in the",
+                  "page": 2,
+                  "position": 46
+                },
+                {
+                  "text": "radiograph; –IMPRESSION or CONCLUSION: Summary diagnosis or",
+                  "page": 2,
+                  "position": 47
+                },
+                {
+                  "text": "clinical interpretation;",
+                  "page": 2,
+                  "position": 48
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 2,
+                  "position": 49
+                },
+                {
+                  "text": "Frontiers in Digital Health 03 frontiersin.org",
+                  "page": 2,
+                  "position": 50
+                },
+                {
+                  "text": "–Occasional subheaders like INDICATION and TECHNIQUE.",
+                  "page": 3,
+                  "position": 51
+                },
+                {
+                  "text": "The structure is not strictly standardised across all reports, and some reports may omit certain sections. Most reports are relatively concise (typically 50–200 words) and written in domain-specific clinical language. Table 1presents an example radiology report from the dataset, illustrating the typical section structure.",
+                  "page": 3,
+                  "position": 52
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.1.5 Data integrity and preprocessing decisions",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "During dataset preparation, a small number of studies were excluded based on the following criteria:",
+                  "page": 3,
+                  "position": 53
+                },
+                {
+                  "text": "–Missing or corrupted DICOM files; –Empty or incomplete radiology reports;",
+                  "page": 3,
+                  "position": 54
+                },
+                {
+                  "text": "After filtering, 2,097 high-quality studies remained, all of which include at least one frontal-view image and a complete report.",
+                  "page": 3,
+                  "position": 55
+                },
+                {
+                  "text": "This curated subset allows for controlled experimentation while preserving the real-world complexity of CXR interpretation, including multi-view imaging, variable report structure, and diverse pathology prevalence.",
+                  "page": 3,
+                  "position": 56
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "2.2 Study design",
+          "level": 2,
+          "page_start": 3,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "This study follows a two-stage pipeline. In the first stage, binary labels (“diseased” or “no disease”) are automatically extracted from radiology reports using a large language model (LLM). In the second stage, these labels are used to train convolutional neural networks (CNNs) to classify chest radiographs. The overall study design is illustrated in Figure 4.",
+              "page": 3,
+              "position": 57
+            }
+          ],
+          "subsections": [
+            {
+              "title": "2.2.1 Technical specification",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "The deep learning models in this study were developed and trained locally on an ASUS ROG Zephyrus M16 GU604VI (ASUSTeK Computer Inc., Taipei, Taiwan), equipped with a 13th Generation Intel",
+                  "page": 3,
+                  "position": 58
+                },
+                {
+                  "text": "® CoreTM i9-13900H processor (Intel Corporation, Santa Clara, CA, USA) running at 2.60 GHz, 32 GB of RAM, and an NVIDIA GeForce RTX 4,070 Laptop GPU with 8 GB of GDDR6 memory (NVIDIA Corporation, Santa Clara, CA, USA).",
+                  "page": 3,
+                  "position": 59
+                },
+                {
+                  "text": "All experiments were conducted within a dedicated Conda environment configured on a 64-bit Windows operating system, with Python 3.8.20. The models were implemented using PyTorch, an open-source machine learning library developed by Facebook’s AI Research lab, which offers a flexible and dynamic computational graph along with support for CUDA-enabled GPU acceleration. Specifically, PyTorch version 2.4.1, compiled with CUDA 12.1 support, was used in conjunction with TorchVision 0.19.1 and TorchAudio 2.4.1, enabling seamless integration of image and audio processing capabilities. Visual Studio Code (Microsoft Corporation, Redmond, WA, USA) was employed as the integrated development environment (IDE), providing an efficient and reproducible workflow for model development, training, and evaluation.",
+                  "page": 3,
+                  "position": 60
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.2.2 Preprocessing",
+              "level": 3,
+              "page_start": 3,
+              "page_end": 4,
+              "paragraphs": [
+                {
+                  "text": "A consistent data preprocessing pipeline was applied to all CXR images prior to model training, with the aim of standardising inputs, improving generalisability, and preventing overfitting.",
+                  "page": 3,
+                  "position": 61
+                },
+                {
+                  "text": "•Image Standardisation: DICOM images were converted to PNG and resized to 224 \u0002 224 pixels (240 \u0002 240 for EfficientNet) using bilinear interpolation. Greyscale images were converted to RGB channels to meet model input requirements. •Data Augmentation: Randomised transformations were applied during training to simulate clinical variability:",
+                  "page": 3,
+                  "position": 62
+                },
+                {
+                  "text": "1.Horizontal flipping (50%)—simulates left/right orientation differences. 2.Rotation (+10\u000e)—accounts for variations in positioning.",
+                  "page": 3,
+                  "position": 63
+                },
+                {
+                  "text": "FIGURE 3 Example chest X-ray image. Cite mimic cxr V2.1.0.",
+                  "page": 3,
+                  "position": 64
+                },
+                {
+                  "text": "TABLE 1 Example radiology report.",
+                  "page": 3,
+                  "position": 65
+                },
+                {
+                  "text": "Section Content",
+                  "page": 3,
+                  "position": 66
+                },
+                {
+                  "text": "History Dyspnoea and history of lung cancer.",
+                  "page": 3,
+                  "position": 67
+                },
+                {
+                  "text": "Technique Semi-upright anteroposterior (AP) view of the chest.",
+                  "page": 3,
+                  "position": 68
+                },
+                {
+                  "text": "Comparison CT torso and chest radiograph.",
+                  "page": 3,
+                  "position": 69
+                },
+                {
+                  "text": "Findings Lung volumes are low, resulting in crowding of the",
+                  "page": 3,
+                  "position": 70
+                },
+                {
+                  "text": "bronchovascular structures. There may be mild pulmonary",
+                  "page": 3,
+                  "position": 71
+                },
+                {
+                  "text": "vascular congestion. The heart size is borderline enlarged. The",
+                  "page": 3,
+                  "position": 72
+                },
+                {
+                  "text": "mediastinal and hilar contours are relatively unremarkable.",
+                  "page": 3,
+                  "position": 73
+                },
+                {
+                  "text": "Innumerable nodules are demonstrated in both lungs, more",
+                  "page": 3,
+                  "position": 74
+                },
+                {
+                  "text": "pronounced in the left upper and lower lung fields, compatible",
+                  "page": 3,
+                  "position": 75
+                },
+                {
+                  "text": "with metastatic disease. No new focal consolidation, pleural",
+                  "page": 3,
+                  "position": 76
+                },
+                {
+                  "text": "effusion, or pneumothorax is seen. Chronic elevation of the right",
+                  "page": 3,
+                  "position": 77
+                },
+                {
+                  "text": "hemidiaphragm is again noted. The patient is status post right",
+                  "page": 3,
+                  "position": 78
+                },
+                {
+                  "text": "lower lobectomy. Rib deformities within the right hemithorax are",
+                  "page": 3,
+                  "position": 79
+                },
+                {
+                  "text": "compatible with prior postsurgical changes.",
+                  "page": 3,
+                  "position": 80
+                },
+                {
+                  "text": "Impression Innumerable pulmonary metastases. Possible mild pulmonary",
+                  "page": 3,
+                  "position": 81
+                },
+                {
+                  "text": "vascular congestion. Low lung volumes.",
+                  "page": 3,
+                  "position": 82
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 3,
+                  "position": 83
+                },
+                {
+                  "text": "Frontiers in Digital Health 04 frontiersin.org",
+                  "page": 3,
+                  "position": 84
+                },
+                {
+                  "text": "3.Colour jitter—introduces brightness and contrast noise to simulate hardware variability. •Tensor Conversion and Normalisation: Images were converted using PyTorch’s ToTensor() and normalised using standard ImageNet statistics:",
+                  "page": 4,
+                  "position": 85
+                },
+                {
+                  "text": "\u000eMean ¼ [0:485, 0:456, 0:406]. \u000eStd ¼ [0:229, 0:224, 0:225]. •Dataset Filtering and Splitting: Only samples with valid images and binary labels were retained. A patient-level split was performed with approximately 1,468 studies for training (70%), 210 for validation (10%), and 419 for test (20%), ensuring that all reports from the same patient appear exclusively in one subset to prevent data leakage. For each random seed, the split was re-generated while maintaining the patient-level constraint and label stratification.",
+                  "page": 4,
+                  "position": 86
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.2.3 Stage 1: label generation via large language model (LLM)",
+              "level": 3,
+              "page_start": 4,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "To derive weak supervision labels from the MIMIC-CXR radiology reports, the gpt-4o model from OpenAI was employed. GPT-4o is a multimodal transformer-based large language model capable of processing both text and images. Its application in this context allowed for scalable and consistent textual labelling of free-form medical reports, with improved speed and cost-effectiveness compared to earlier GPT-family models.",
+                  "page": 4,
+                  "position": 87
+                },
+                {
+                  "text": "Each chest X-ray report was processed individually using a deterministic prompting strategy. A structured clinical protocol, refined in collaboration with a board-certified radiologist, was",
+                  "page": 4,
+                  "position": 88
+                },
+                {
+                  "text": "FIGURE 4 Study design pipeline.",
+                  "page": 4,
+                  "position": 89
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 4,
+                  "position": 90
+                },
+                {
+                  "text": "Frontiers in Digital Health 05 frontiersin.org",
+                  "page": 4,
+                  "position": 91
+                },
+                {
+                  "text": "designed to guide the classification. The protocol defined “diseased” as the presence of at least one definite or possible pathological radiographic finding across 14 anatomical and pathological categories (including lung opacity, atelectasis, consolidation, edema, pneumonia, cardiomegaly, pleural effusion, pneumothorax, lung lesion, fracture, and support devices with complications). It specified that uncertain findings (e.g., “possible,” “likely,” “cannot exclude”) count as diseased, while negated findings, historical abnormalities, and uncomplicated support devices do not. The model was instructed to return exactly one of two labels using lowercase letters: diseased or no disease. The full prompt is shown in Figures 5–7.",
+                  "page": 5,
+                  "position": 92
+                },
+                {
+                  "text": "API queries were conducted using a temperature setting of zero to ensure deterministic responses, with up to five retry attempts and exponential backoff implemented in case of transient API failures or rate limiting. The model’s output",
+                  "page": 5,
+                  "position": 93
+                },
+                {
+                  "text": "was parsed and normalised to lowercase. Outputs containing the expected substrings “diseased” or “no disease” were retained as valid labels.",
+                  "page": 5,
+                  "position": 94
+                },
+                {
+                  "text": "The labelled results, comprising patient identifiers, report filenames, and predicted labels, were stored in a structured CSV file (mimic_all_labels.csv). This file subsequently served as the primary annotation source for downstream image-based classification. No dynamic prompt tuning or few- shot examples were employed. Although the current method does not incorporate uncertainty quantification, future extensions may include ensemble prompting, confidence calibration, or filtering based on response consistency to enhance label reliability.",
+                  "page": 5,
+                  "position": 95
+                },
+                {
+                  "text": "2.2.3.1 LLM Label Evaluation To assess the reliability of these automatically generated labels, we conducted a validation study against expert",
+                  "page": 5,
+                  "position": 96
+                },
+                {
+                  "text": "FIGURE 5 Structured clinical prompt (part 1 of 3): opening instructions, source sections, definition of “diseased,” and the first eight radiographic finding categories.",
+                  "page": 5,
+                  "position": 97
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 5,
+                  "position": 98
+                },
+                {
+                  "text": "Frontiers in Digital Health 06 frontiersin.org",
+                  "page": 5,
+                  "position": 99
+                },
+                {
+                  "text": "annotations. A set of 210 CXR reports was randomly sampled and independently labeled by a board-certified radiologist, serving as the reference standard. The expert- labeled dataset contained 126 diseased and 84 no- disease reports.",
+                  "page": 6,
+                  "position": 100
+                },
+                {
+                  "text": "We then compared the LLM-generated labels to the expert annotations using standard classification metrics, including precision, recall, F1 score, and overall accuracy. A detailed breakdown of this evaluation is presented in Section: Results and Analysis.",
+                  "page": 6,
+                  "position": 101
+                },
+                {
+                  "text": "FIGURE 6 Structured clinical prompt (part 2 of 3): remaining six finding categories, other abnormalities, handling of uncertain findings, and rules for current vs. previous findings.",
+                  "page": 6,
+                  "position": 102
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 6,
+                  "position": 103
+                },
+                {
+                  "text": "Frontiers in Digital Health 07 frontiersin.org",
+                  "page": 6,
+                  "position": 104
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.2.4 Stage 2: CNN-based image classification",
+              "level": 3,
+              "page_start": 7,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "The binary image-level labels generated by the LLM were subsequently used to train convolutional neural networks (CNNs) to classify chest radiographs as either “diseased” or “no disease”. Four CNN architectures were selected based on their performance in prior literature and their diversity in architectural paradigms:",
+                  "page": 7,
+                  "position": 105
+                },
+                {
+                  "text": "2.2.4.1 Modified ResNet-18 architecture This study adopt the ResNet-18 architecture as the backbone for chest X-ray image classification, leveraging its proven effectiveness in medical imaging tasks while maintaining a lightweight footprint suitable for large-scale training. The base model is initialized with ImageNet-pretrained weights and subsequently fine-tuned on our dataset. Several key",
+                  "page": 7,
+                  "position": 106
+                },
+                {
+                  "text": "modifications are applied to adapt it to the binary classification task (“diseased” vs. “no disease”). These modifications are summarised in Table 2:",
+                  "page": 7,
+                  "position": 107
+                },
+                {
+                  "text": "2.2.4.1.1 (1) Classification head redesign.The original fully connected (FC) layer of ResNet-18, which outputs logits for 1,000 ImageNet classes, is replaced with a custom head tailored for binary classification. Specifically, this head consists of:",
+                  "page": 7,
+                  "position": 108
+                },
+                {
+                  "text": "•A dropout layer with probability p ¼ 0:5 to introduce regularization and prevent overfitting on limited medical image data. •A fully connected layer that projects the 512-dimensional feature vector to 2 output logits corresponding to the two classes.",
+                  "page": 7,
+                  "position": 109
+                },
+                {
+                  "text": "FIGURE 7 Structured clinical prompt (part 3 of 3): negated findings, conditions that do not count as disease, and the final decision protocol.",
+                  "page": 7,
+                  "position": 110
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 7,
+                  "position": 111
+                },
+                {
+                  "text": "Frontiers in Digital Health 08 frontiersin.org",
+                  "page": 7,
+                  "position": 112
+                },
+                {
+                  "text": "2.2.4.1.2 (2) Loss function with class weights.To address class imbalance, this study employs a CrossEntropyLoss function with:",
+                  "page": 8,
+                  "position": 113
+                },
+                {
+                  "text": "•Class-balancing weights, computed using sklearn’s compute_class_weight based on the label distribution in the training set. These weights are passed to the loss function to mitigate bias towards the majority class, as formalised in Equation 1.",
+                  "page": 8,
+                  "position": 114
+                },
+                {
+                  "text": "2.2.4.1.3 Mathematical formulation.The weighted binary cross- entropy loss is defined as:",
+                  "page": 8,
+                  "position": 115
+                },
+                {
+                  "text": "Lweighted¼w1 \u0001 y \u0001 log (^y) þ w0 \u0001 (1y) \u0001 log (1^y) ½  (1)",
+                  "page": 8,
+                  "position": 116
+                },
+                {
+                  "text": "where y [ {0, 1} is the ground truth label, ^y [ [0, 1] is the predicted probability, and w0, w1 are class-specific weights.",
+                  "page": 8,
+                  "position": 117
+                },
+                {
+                  "text": "2.2.4.1.4 (3) Data augmentation strategy.To enhance generalization and reduce overfitting, this study applies a set of data augmentations during training:",
+                  "page": 8,
+                  "position": 118
+                },
+                {
+                  "text": "•Resize to 224 \u0002 224 to match the expected input size of ResNet-18. •RandomHorizontalFlip to simulate left-right body variation. •RandomRotation up to +10\u000e to account for positioning variability. •ColorJitter (brightness, contrast ¼ 0.2) to introduce photometric noise. •Normalization using ImageNet mean and standard deviation.",
+                  "page": 8,
+                  "position": 119
+                },
+                {
+                  "text": "For validation, only resizing and normalization are applied to ensure consistency in evaluation.",
+                  "page": 8,
+                  "position": 120
+                },
+                {
+                  "text": "2.2.4.1.5 (4) Optimization and training schedule.This study uses the AdamW optimizer with the following settings:",
+                  "page": 8,
+                  "position": 121
+                },
+                {
+                  "text": "•Initial learning rate of 1 \u0002 104. •Weight decay regularization of 1 \u0002 105.",
+                  "page": 8,
+                  "position": 122
+                },
+                {
+                  "text": "The model is trained for up to 30 epochs with early stopping based on validation balanced accuracy, using a patience of 10 epochs to prevent overfitting.",
+                  "page": 8,
+                  "position": 123
+                },
+                {
+                  "text": "2.2.4.1.6 (5) Evaluation and checkpointing.Model performance is evaluated each epoch on a held-out validation set using:",
+                  "page": 8,
+                  "position": 124
+                },
+                {
+                  "text": "•Accuracy, F1-score, and ROC-AUC. •Confusion matrix analysis for error inspection.",
+                  "page": 8,
+                  "position": 125
+                },
+                {
+                  "text": "The model achieving the highest validation balanced accuracy is saved as the best checkpoint. 2.2.4.1.7 (6) Early stopping and model selection.Early stopping is triggered when validation balanced accuracy fails to improve for 10 consecutive epochs. The best-performing model is used for final evaluation on the held-out test set.",
+                  "page": 8,
+                  "position": 126
+                },
+                {
+                  "text": "2.2.4.2 Modified DenseNet-121 This study adopts DenseNet-121 as the backbone architecture for chest X-ray image classification. DenseNet introduces dense connectivity, where each layer receives inputs from all preceding layers. This design encourages feature reuse, strengthens gradient propagation, and has demonstrated excellent performance in various medical imaging tasks.",
+                  "page": 8,
+                  "position": 127
+                },
+                {
+                  "text": "To adapt DenseNet-121 for our binary classification task (“diseased” vs. “no disease”), several customizations are applied:",
+                  "page": 8,
+                  "position": 128
+                },
+                {
+                  "text": "•Classifier modification: The original classifier layer is replaced with a lightweight head consisting of a Dropout layer (p ¼ 0:5) followed by a fully connected layer mapping to two output logits. This design helps prevent overfitting and enables probabilistic interpretation via softmax activation. •Class-balanced loss: This study incorporates a weighted CrossEntropyLoss, where class weights are computed based on the label distribution in the training set using sklearn’s compute_class_weight. This adjustment mitigates the effects of dataset imbalance between “diseased” and “no disease” samples. •Data augmentation: To improve generalization, this study applies standard image augmentations during training, including resizing to 224 \u0002 224, random horizontal flip, rotation (up to +10\u000e), and color jittering (brightness and contrast). All images are normalized using ImageNet statistics to match the pretraining domain. •Learning strategy: The model is trained using Adam optimizer with a learning rate of 5 \u0002 105 and weight decay of 1 \u0002 105. A step-based learning rate scheduler decays the learning rate by a factor of 0.5 every 5 epochs. Early stopping is employed with a patience of 10 epochs based on validation balanced accuracy. •Threshold optimization: During validation, this study computes the optimal classification threshold using the Youden index, which maximises the difference between sensitivity and false positive rate Equation 2:",
+                  "page": 8,
+                  "position": 129
+                },
+                {
+                  "text": "t\u0003¼ arg max",
+                  "page": 8,
+                  "position": 130
+                },
+                {
+                  "text": "t TPR(t)FPR(t) ð Þ (2)",
+                  "page": 8,
+                  "position": 131
+                },
+                {
+                  "text": "where TPR(t) and FPR(t) denote the true positive rate and false positive rate at threshold t, respectively. The optimal",
+                  "page": 8,
+                  "position": 132
+                },
+                {
+                  "text": "TABLE 2 Summary of ResNet-18 modifications for chest X-ray classification.",
+                  "page": 8,
+                  "position": 133
+                },
+                {
+                  "text": "Component Modification",
+                  "page": 8,
+                  "position": 134
+                },
+                {
+                  "text": "Final FC Layer Replaced with Dropout(0.5) þ Linear(2)",
+                  "page": 8,
+                  "position": 135
+                },
+                {
+                  "text": "Loss Function CrossEntropyLoss with class weights",
+                  "page": 8,
+                  "position": 136
+                },
+                {
+                  "text": "Class Imbalance",
+                  "page": 8,
+                  "position": 137
+                },
+                {
+                  "text": "Handling",
+                  "page": 8,
+                  "position": 138
+                },
+                {
+                  "text": "Weighted loss via class frequency",
+                  "page": 8,
+                  "position": 139
+                },
+                {
+                  "text": "Data Augmentation Resize, Flip, Rotation, ColorJitter, Normalize",
+                  "page": 8,
+                  "position": 140
+                },
+                {
+                  "text": "Optimizer AdamW (lr ¼ 1e4, weightdecay ¼ 1e5)",
+                  "page": 8,
+                  "position": 141
+                },
+                {
+                  "text": "Early Stopping Patience = 10 (based on validation balanced",
+                  "page": 8,
+                  "position": 142
+                },
+                {
+                  "text": "accuracy)",
+                  "page": 8,
+                  "position": 143
+                },
+                {
+                  "text": "Evaluation Metrics Accuracy, F1-score, AUC, Confusion Matrix",
+                  "page": 8,
+                  "position": 144
+                },
+                {
+                  "text": "Model Checkpoints Best balanced accuracy checkpoint",
+                  "page": 8,
+                  "position": 145
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 8,
+                  "position": 146
+                },
+                {
+                  "text": "Frontiers in Digital Health 09 frontiersin.org",
+                  "page": 8,
+                  "position": 147
+                },
+                {
+                  "text": "threshold was constrained to the interval [0:4, 0:7] to prevent degenerate threshold selection while maintaining clinically meaningful sensitivity and specificity. This adaptive threshold is used to convert model probabilities into binary predictions. •Evaluation and checkpointing: At each epoch, this study monitored validation accuracy, F1-score, AUC, and balanced accuracy. The model achieving the highest balanced accuracy is saved as the best checkpoint. Final evaluation includes confusion matrix visualization and performance reporting.",
+                  "page": 9,
+                  "position": 148
+                },
+                {
+                  "text": "This customized DenseNet-121 pipeline combines architectural strength with practical training strategies, yielding a robust classifier for binary chest X-ray diagnosis.",
+                  "page": 9,
+                  "position": 149
+                },
+                {
+                  "text": "2.2.4.3 Modified ConvNeXt-Tiny ConvNeXt is a modern convolutional neural network architecture inspired by Vision Transformers (ViTs), designed to bridge the gap between traditional CNNs and transformer- based models. ConvNeXt-Tiny, in particular, is a lightweight variant that incorporates several architectural innovations: large kernel depthwise convolutions, GELU activations, layer normalization (instead of batch normalization), and inverted bottleneck structures. These components enable the model to learn hierarchical visual representations with fewer inductive biases, while maintaining strong performance on large-scale benchmarks such as ImageNet, despite its reduced parameter count.",
+                  "page": 9,
+                  "position": 150
+                },
+                {
+                  "text": "In our implementation, ConvNeXt-Tiny is initialized with pretrained weights (ConvNeXt˙Tiny˙Weights.IMAGENET1K˙V1) and adapted for binary classification of chest X-ray images via the following modifications:",
+                  "page": 9,
+                  "position": 151
+                },
+                {
+                  "text": "•Classifier modification: The final classification head is replaced by a linear layer mapping the pretrained feature dimension to two output logits. This layer directly replaces the original model.classifier[2] component of the pretrained model. •Class-balanced training: To address class imbalance in the dataset, this study computes class weights from the training labels and incorporate them in a weighted CrossEntropyLoss function. This encourages the model to treat both classes more equally during gradient updates. •Data preprocessing: This study adopts the default image transforms associated with the pretrained ConvNeXt-Tiny weights, which include resizing, center cropping, normalization, and other augmentations tailored to the model’s pretraining distribution. •Optimization and regularization: The model is optimized using the AdamW optimizer with a learning rate of 1 \u0002 104 and weight decay of 1 \u0002 105. A validation- based early stopping mechanism with a patience of 10 epochs is employed to prevent overfitting. •Threshold calibration: During validation, we use the ROC curve to compute the optimal decision threshold via Youden’s J statistic. The threshold is constrained to the interval [0:4, 0:7] to prevent degenerate selection while",
+                  "page": 9,
+                  "position": 152
+                },
+                {
+                  "text": "preserving clinically meaningful sensitivity and specificity. This calibrated threshold is used to binarize softmax probabilities into final class predictions. •Evaluation and checkpointing: At each epoch, we monitor standard classification metrics including accuracy, F1-score, AUC, and balanced accuracy. The model checkpoint achieving the highest balanced accuracy on the validation set is saved for final evaluation. Performance curves and confusion matrices are also generated for in-depth analysis.",
+                  "page": 9,
+                  "position": 153
+                },
+                {
+                  "text": "This setup combines the architectural strengths of ConvNeXt- Tiny with practical training strategies tailored to the medical imaging domain, offering a strong balance between model capacity, efficiency, and classification robustness.",
+                  "page": 9,
+                  "position": 154
+                },
+                {
+                  "text": "2.2.4.4 Modified EfficientNet-B1 EfficientNet is a family of convolutional neural networks designed using compound scaling principles, which uniformly scales network depth, width, and input resolution in a balanced and principled way. This approach leads to better accuracy and efficiency trade-offs compared to traditional scaling strategies. The B1 variant increases input resolution and model capacity relative to the base model (B0), providing improved accuracy while remaining computationally tractable, making it particularly suitable for deployment in clinical workflows.",
+                  "page": 9,
+                  "position": 155
+                },
+                {
+                  "text": "In our implementation, we adopt EfficientNet-B1 with ImageNet-pretrained weights and apply several customizations for binary classification of chest X-ray images:",
+                  "page": 9,
+                  "position": 156
+                },
+                {
+                  "text": "•Classifier adaptation: The final fully connected layer (model.classifier[1]) is replaced with a linear layer outputting logits for the two target classes (“no disease” and “diseased”). •Loss function: This study employs a class-weighted CrossEntropyLoss Class weights are computed from the training data distribution using sklearn’s compute_class_weight, addressing the inherent class imbalance. •Image preprocessing: Images are resized to 240 \u0002 240 to match the expected input resolution for EfficientNet-B1. During training, this study applied standard data augmentations including random horizontal flip, rotation (+10\u000e), and color jittering. All images are normalized using ImageNet statistics. •Optimization and scheduling: The model is trained using the AdamW optimizer with a learning rate of 1 \u0002 104 and weight decay of 1 \u0002 105. •Early stopping and checkpointing: Validation balanced accuracy is monitored at each epoch, and training is stopped early if no improvement is observed for 10 consecutive epochs. The best-performing model (based on validation balanced accuracy) is saved for final evaluation on the held-out test set. •Evaluation metrics: This study reports validation accuracy, F1 score, ROC-AUC, and plot confusion matrices to assess model performance in detail. Performance curves over epochs are also visualized to monitor training dynamics.",
+                  "page": 9,
+                  "position": 157
+                },
+                {
+                  "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+                  "page": 9,
+                  "position": 158
+                },
+                {
+                  "text": "Frontiers in Digital Health 10 frontiersin.org",
+                  "page": 9,
+                  "position": 159
+                },
+                {
+                  "text": "This configuration leverages the efficiency and scalability of EfficientNet-B1 while tailoring it to the specific demands of medical image classification tasks.",
+                  "page": 10,
+                  "position": 160
+                },
+                {
+                  "text": "All models were initialised with ImageNet-pretrained weights and fine-tuned end-to-end on the chest X-ray dataset. The final classification layer in each model was replaced with a fully connected layer producing two logits, optionally preceded by a dropout layer (e.g., 0.5 for ResNet-18 and DenseNet-121). No layers were frozen during training, allowing the entire network to adapt to the medical imaging domain.",
+                  "page": 10,
+                  "position": 161
+                },
+                {
+                  "text": "To address class imbalance, class weights were calculated using scikit-learn’s compute_class_weight and incorporated into the cross-entropy loss function. Optimisation was performed using either Adam or AdamW, with learning rates of 1 \u0002 104",
+                  "page": 10,
+                  "position": 162
+                },
+                {
+                  "text": "(ConvNeXt-Tiny, ResNet-18, EfficientNet-B1) or 5 \u0002 105",
+                  "page": 10,
+                  "position": 163
+                },
+                {
+                  "text": "(DenseNet-121), and weight decay of 1 \u0002 105. For DenseNet- 121, a StepLR scheduler was employed (step size of 5 epochs, decay factor 0.5).",
+                  "page": 10,
+                  "position": 164
+                },
+                {
+                  "text": "Training was conducted for up to 30 epochs, with early stopping triggered if validation balanced accuracy did not improve for 10 consecutive epochs. Batch sizes were set to 16 or 20 depending on model size and GPU memory constraints. To determine the optimal classification threshold, receiver operating characteristic (ROC) curves were computed for each model on the validation set. The threshold corresponding to the maximum Youden Index (J¼ TPRFPR) was selected, constrained to the interval [0:4, 0:7] to prevent degenerate threshold selection. Final evaluation was performed on the held- out test set using accuracy, F1-score, area under the ROC curve (AUC), sensitivity, specificity, and balanced accuracy.",
+                  "page": 10,
+                  "position": 165
+                },
+                {
+                  "text": "This comprehensive approach enabled a comparative analysis of diverse CNN architectures under a consistent training framework, guided by weak supervision from large language model-derived labels.",
+                  "page": 10,
+                  "position": 166
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.2.5 Model architectures and training configuration",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "The four CNN architectures evaluated were ResNet18, DenseNet121, EfficientNet-B1, and ConvNeXt-Tiny. All models were initialised with ImageNet-pretrained weights and fine-tuned on the CXR data.",
+                  "page": 10,
+                  "position": 167
+                },
+                {
+                  "text": "Each model was trained using the AdamW optimiser (ConvNeXt-Tiny, ResNet-18, EfficientNet-B1; learning rate 1 \u0002 104) or Adam optimiser (DenseNet-121; learning rate 5 \u0002 105), with weight decay 1 \u0002 105. Class-weighted binary cross-entropy loss was employed to counteract class imbalance. Training was performed for up to 30 epochs with early stopping based on validation balanced accuracy (patience of 10 epochs). For DenseNet-121, a StepLR scheduler was used (step size of 5 epochs, decay factor 0.5).",
+                  "page": 10,
+                  "position": 168
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "2.2.6 Evaluation metrics",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "To comprehensively assess the performance of our binary classification models (diseased vs. no disease), this study reported a series of standard evaluation metrics commonly used in medical image analysis. These metrics capture not only overall correctness but also the model’s behavior on imbalanced",
+                  "page": 10,
+                  "position": 169
+                },
+                {
+                  "text": "data and its ability to distinguish between positive and negative cases.",
+                  "page": 10,
+                  "position": 170
+                },
+                {
+                  "text": "•Accuracy: The proportion of correctly predicted samples among all predictions as given in Equation 3.",
+                  "page": 10,
+                  "position": 171
+                },
+                {
+                  "text": "Accuracy ¼ TP þ TN TP þ TN þ FP þ FN (3)",
+                  "page": 10,
+                  "position": 172
+                },
+                {
+                  "text": "•Area Under the ROC Curve (AUC): Measures the model’s ability to distinguish between the two classes across all classification thresholds. A higher AUC indicates better separability. This metric is threshold-independent and robust to class imbalance. •F1-Score: The harmonic mean of precision and recall, representing a balance between false positives and false negatives as given in Equation 4. Particularly valuable in medical settings where both types of errors carry clinical risk.",
+                  "page": 10,
+                  "position": 173
+                },
+                {
+                  "text": "F1 ¼ 2 \u0001Precision \u0001 Recall",
+                  "page": 10,
+                  "position": 174
+                },
+                {
+                  "text": "Precision þ Recall (4)",
+                  "page": 10,
+                  "position": 175
+                },
+                {
+                  "text": "•True Positive Rate (TPR)/Sensitivity/Recall: The proportion of actual positive cases that are correctly identified, as given in Equation 5. In clinical applications, high sensitivity is crucial to avoid missing diseased cases.",
+                  "page": 10,
+                  "position": 176
+                },
+                {
+                  "text": "TPR ¼ TP TP þ FN (5)",
+                  "page": 10,
+                  "position": 177
+                },
+                {
+                  "text": "•True Negative Rate (TNR)/Specificity: The proportion of actual negative cases correctly classified, as given in Equation 6. Specificity is important to prevent over- diagnosis and unnecessary intervention.",
+                  "page": 10,
+                  "position": 178
+                },
+                {
+                  "text": "TNR ¼ TN TN þ FP (6)",
+                  "page": 10,
+                  "position": 179
+                },
+                {
+                  "text": "All metrics are computed on the held-out test set, and threshold- based metrics (e.g., accuracy, F1, TPR, TNR) are evaluated using the calibrated threshold derived from the validation-set ROC curve via Youden’s Index. This ensures a balanced trade-off between sensitivity and specificity.",
+                  "page": 10,
+                  "position": 180
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3 Results",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "This section presents the experimental design, training configuration, and comparative performance of four convolutional neural networks (CNNs) trained on chest X-ray images using weak supervision derived from large language model (LLM)-generated labels.",
+          "page": 10,
+          "position": 181
+        }
+      ],
+      "subsections": [
+        {
+          "title": "3.1 Experimental setup",
+          "level": 2,
+          "page_start": 10,
+          "page_end": 11,
+          "paragraphs": [
+            {
+              "text": "The dataset consists of 2,097 chest radiograph studies with valid images from the MIMIC-CXR dataset p10 partition. Each",
+              "page": 10,
+              "position": 182
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 10,
+              "position": 183
+            },
+            {
+              "text": "Frontiers in Digital Health 11 frontiersin.org",
+              "page": 10,
+              "position": 184
+            },
+            {
+              "text": "study was assigned a binary label (diseased or no disease) based on a GPT-4o prompt applied to the associated free-text radiology report. Figure 8shows the distribution of these binary labels. Approximately 68.8% of studies were labelled as diseased, and 31.2% as no disease, indicating moderate class imbalance.",
+              "page": 11,
+              "position": 185
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.2 LLM generated label quality",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 11,
+          "paragraphs": [],
+          "subsections": [
+            {
+              "title": "3.2.1 LLM label evaluation",
+              "level": 3,
+              "page_start": 11,
+              "page_end": 11,
+              "paragraphs": [
+                {
+                  "text": "To evaluate the quality of LLM-generated labels, we compared them against the expert annotations described in the methodology. This evaluation provides insight into the effectiveness of using LLMs for weak supervision in medical imaging tasks.",
+                  "page": 11,
+                  "position": 186
+                },
+                {
+                  "text": "•Total Samples Evaluated: 210 chest X-ray reports. •Ground Truth Source: Annotated by a board- certified radiologist. •Ground Truth Distribution: 126 diseased, 84 no disease.",
+                  "page": 11,
+                  "position": 187
+                },
+                {
+                  "text": "The confusion matrix in Table 3 illustrates the agreement between LLM predictions and radiologist annotations.",
+                  "page": 11,
+                  "position": 188
+                },
+                {
+                  "text": "Classification metrics for each class are summarised in Table 4.",
+                  "page": 11,
+                  "position": 189
+                },
+                {
+                  "text": "3.2.1.1 Discussion The LLM demonstrates high precision (97.4%) and recall (90.5%) in identifying diseased reports, indicating that it both rarely misclassifies healthy cases as diseased and catches the vast majority of true disease cases. For “no disease” reports, the",
+                  "page": 11,
+                  "position": 190
+                },
+                {
+                  "text": "model exhibits similarly strong performance with high recall (96.4%) and precision (87.1%). The expanded 210-report validation set, with a higher proportion of diseased cases (126 vs. 84), provides a robust estimate of label quality and confirms the effectiveness of the structured clinical prompt designed in collaboration with a radiologist.",
+                  "page": 11,
+                  "position": 191
+                },
+                {
+                  "text": "Overall, the LLM achieves an excellent accuracy of 92.9%, and its balanced performance across both classes makes it a highly reliable tool for generating weak labels in downstream tasks. Future improvements may include ensemble LLMs or uncertainty-aware filtering to further enhance clinical utility.",
+                  "page": 11,
+                  "position": 192
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3.3 Quantitative results",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "To assess model stability and provide confidence intervals, each CNN architecture was trained across five random seeds (42–46) with patient-level re-splitting, and the model was trained from random initialisation. Final evaluation was performed on the held-out test set using the optimal threshold determined on the validation set. Table 5reports the mean and 95% confidence interval (CI) for each metric across the five seeds, using the t-distribution with 4 degrees of freedom. Table 6provides the per-seed breakdown for all metrics.",
+              "page": 11,
+              "position": 193
+            },
+            {
+              "text": "ConvNeXt-Tiny achieved the highest mean AUC (0.832, 95% CI [0.801, 0.863]) and the highest balanced accuracy (0.739). Paired t-tests on AUC across seeds revealed that ConvNeXt-Tiny significantly outperformed EfficientNet-B1 (DAUC ¼ 0:035, t ¼ 4:15, p ¼ 0:014) and showed a borderline advantage over DenseNet-121 (DAUC ¼ 0:024, t ¼ 2:74, p ¼ 0:052). The difference between ConvNeXt-Tiny and ResNet-18 was not statistically significant (DAUC ¼ 0:010, t¼ 1:20, p ¼ 0:297).",
+              "page": 11,
+              "position": 194
+            },
+            {
+              "text": "ResNet-18 demonstrated competitive AUC (0.822) and the highest mean F1-score (0.840), but exhibited higher variability in specificity across seeds (SD ¼ 0:103), indicating less stable performance on negative cases.",
+              "page": 11,
+              "position": 195
+            },
+            {
+              "text": "DenseNet-121 showed the most consistent sensitivity across seeds (SD ¼ 0:045), making it a reliable choice when high recall is prioritised.",
+              "page": 11,
+              "position": 196
+            },
+            {
+              "text": "EfficientNet-B1 yielded the lowest AUC (0.797) among the four architectures, although its specificity (0.641) was competitive with ResNet-18 and DenseNet-121.",
+              "page": 11,
+              "position": 197
+            },
+            {
+              "text": "All models achieved mean AUC values above 0.79, confirming that the GPT-4o-derived weak supervision signal was sufficient for effective training across diverse architectures. The confidence intervals for sensitivity and specificity were notably wider than those for AUC, reflecting the inherent trade-off modulated by",
+              "page": 11,
+              "position": 198
+            },
+            {
+              "text": "FIGURE 8 Distribution of GPT-generated binary labels.",
+              "page": 11,
+              "position": 199
+            },
+            {
+              "text": "TABLE 4 LLM label evaluation against radiologist ground truth.",
+              "page": 11,
+              "position": 200
+            },
+            {
+              "text": "Class Precision Recall F1 Score Support",
+              "page": 11,
+              "position": 201
+            },
+            {
+              "text": "Diseased 97.4% 90.5% 93.8% 126",
+              "page": 11,
+              "position": 202
+            },
+            {
+              "text": "No Disease 87.1% 96.4% 91.5% 84",
+              "page": 11,
+              "position": 203
+            },
+            {
+              "text": "Overall Accuracy 92.9%",
+              "page": 11,
+              "position": 204
+            },
+            {
+              "text": "Bold value indicates the overall accuracy across all evaluated reports.",
+              "page": 11,
+              "position": 205
+            },
+            {
+              "text": "TABLE 3 Confusion matrix: LLM vs. radiologist-annotated labels.",
+              "page": 11,
+              "position": 206
+            },
+            {
+              "text": "Actual/ Predicted",
+              "page": 11,
+              "position": 207
+            },
+            {
+              "text": "Predicted",
+              "page": 11,
+              "position": 208
+            },
+            {
+              "text": "Diseased",
+              "page": 11,
+              "position": 209
+            },
+            {
+              "text": "Predicted No",
+              "page": 11,
+              "position": 210
+            },
+            {
+              "text": "Disease",
+              "page": 11,
+              "position": 211
+            },
+            {
+              "text": "Actual Diseased 114 (TP) 12 (FN)",
+              "page": 11,
+              "position": 212
+            },
+            {
+              "text": "Actual No Disease 3 (FP) 81 (TN)",
+              "page": 11,
+              "position": 213
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 11,
+              "position": 214
+            },
+            {
+              "text": "Frontiers in Digital Health 12 frontiersin.org",
+              "page": 11,
+              "position": 215
+            },
+            {
+              "text": "the decision threshold A condensed summary of the four models’ performance is presented in Table 7.",
+              "page": 12,
+              "position": 216
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "3.4 Confusion matrices and error analysis",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "Confusion matrices were generated for all four CNN architectures to examine classification behaviour in detail, as presented in Figure 9for a representative seed. Across the five seeds, several consistent patterns emerged.",
+              "page": 12,
+              "position": 217
+            },
+            {
+              "text": "ConvNeXt-Tiny exhibited the lowest mean false positive count, consistent with its higher specificity (0.688). However, its sensitivity (0.789) was the lowest among the four models, with correspondingly higher false negatives. This indicates a conservative decision boundary that prioritises specificity at the expense of recall—a trade-off that may be appropriate in screening scenarios where false alarms are costly, but requires careful consideration in settings where missed pathology carries high clinical risk.",
+              "page": 12,
+              "position": 218
+            },
+            {
+              "text": "DenseNet-121 and ResNet-18 both achieved higher sensitivity (0.853–0.854), translating to fewer false negatives, but at the cost of lower specificity (0.608–0.616). This behaviour reflects a more permissive threshold that flags more studies as diseased. Such a",
+              "page": 12,
+              "position": 219
+            },
+            {
+              "text": "TABLE 7 Summary of CNN performance on test set (mean across 5 seeds [95% CI]).",
+              "page": 12,
+              "position": 220
+            },
+            {
+              "text": "Model F1 AUC Sens. Spec.",
+              "page": 12,
+              "position": 221
+            },
+            {
+              "text": "ResNet-18 0.840 [0.797,",
+              "page": 12,
+              "position": 222
+            },
+            {
+              "text": "0.884]",
+              "page": 12,
+              "position": 223
+            },
+            {
+              "text": "0.822 [0.791,",
+              "page": 12,
+              "position": 224
+            },
+            {
+              "text": "0.853]",
+              "page": 12,
+              "position": 225
+            },
+            {
+              "text": "0.854 [0.758,",
+              "page": 12,
+              "position": 226
+            },
+            {
+              "text": "0.950]",
+              "page": 12,
+              "position": 227
+            },
+            {
+              "text": "0.616 [0.487,",
+              "page": 12,
+              "position": 228
+            },
+            {
+              "text": "0.744]",
+              "page": 12,
+              "position": 229
+            },
+            {
+              "text": "DenseNet-121 0.837 [0.795,",
+              "page": 12,
+              "position": 230
+            },
+            {
+              "text": "0.879]",
+              "page": 12,
+              "position": 231
+            },
+            {
+              "text": "0.808 [0.787,",
+              "page": 12,
+              "position": 232
+            },
+            {
+              "text": "0.828]",
+              "page": 12,
+              "position": 233
+            },
+            {
+              "text": "0.853 [0.797,",
+              "page": 12,
+              "position": 234
+            },
+            {
+              "text": "0.908]",
+              "page": 12,
+              "position": 235
+            },
+            {
+              "text": "0.608 [0.546,",
+              "page": 12,
+              "position": 236
+            },
+            {
+              "text": "0.671]",
+              "page": 12,
+              "position": 237
+            },
+            {
+              "text": "EfficientNet-",
+              "page": 12,
+              "position": 238
+            },
+            {
+              "text": "B1",
+              "page": 12,
+              "position": 239
+            },
+            {
+              "text": "0.821 [0.781,",
+              "page": 12,
+              "position": 240
+            },
+            {
+              "text": "0.862]",
+              "page": 12,
+              "position": 241
+            },
+            {
+              "text": "0.797 [0.758,",
+              "page": 12,
+              "position": 242
+            },
+            {
+              "text": "0.835]",
+              "page": 12,
+              "position": 243
+            },
+            {
+              "text": "0.814 [0.756,",
+              "page": 12,
+              "position": 244
+            },
+            {
+              "text": "0.871]",
+              "page": 12,
+              "position": 245
+            },
+            {
+              "text": "0.641 [0.579,",
+              "page": 12,
+              "position": 246
+            },
+            {
+              "text": "0.703]",
+              "page": 12,
+              "position": 247
+            },
+            {
+              "text": "ConvNeXt-",
+              "page": 12,
+              "position": 248
+            },
+            {
+              "text": "Tiny",
+              "page": 12,
+              "position": 249
+            },
+            {
+              "text": "0.808 [0.744,",
+              "page": 12,
+              "position": 250
+            },
+            {
+              "text": "0.872]",
+              "page": 12,
+              "position": 251
+            },
+            {
+              "text": "0.832 [0.801,",
+              "page": 12,
+              "position": 252
+            },
+            {
+              "text": "0.863]",
+              "page": 12,
+              "position": 253
+            },
+            {
+              "text": "0.789 [0.628,",
+              "page": 12,
+              "position": 254
+            },
+            {
+              "text": "0.951]",
+              "page": 12,
+              "position": 255
+            },
+            {
+              "text": "0.688 [0.511,",
+              "page": 12,
+              "position": 256
+            },
+            {
+              "text": "0.865]",
+              "page": 12,
+              "position": 257
+            },
+            {
+              "text": "Bold value indicates the best performance for each metric among the four models.",
+              "page": 12,
+              "position": 258
+            },
+            {
+              "text": "TABLE 6 Per-seed test-set performance of all CNN architectures across five random seeds.",
+              "page": 12,
+              "position": 259
+            },
+            {
+              "text": "Model Seed AUC Acc. F1 Sens. Spec. Bal. Acc.",
+              "page": 12,
+              "position": 260
+            },
+            {
+              "text": "ConvNeXt-Tiny 42 0.835 0.819 0.870 0.901 0.648 0.775",
+              "page": 12,
+              "position": 261
+            },
+            {
+              "text": "43 0.856 0.685 0.739 0.607 0.901 0.754",
+              "page": 12,
+              "position": 262
+            },
+            {
+              "text": "44 0.855 0.766 0.830 0.893 0.541 0.717",
+              "page": 12,
+              "position": 263
+            },
+            {
+              "text": "45 0.811 0.763 0.827 0.844 0.597 0.720",
+              "page": 12,
+              "position": 264
+            },
+            {
+              "text": "46 0.801 0.717 0.775 0.701 0.755 0.728",
+              "page": 12,
+              "position": 265
+            },
+            {
+              "text": "ResNet-18 42 0.807 0.796 0.851 0.867 0.648 0.758",
+              "page": 12,
+              "position": 266
+            },
+            {
+              "text": "43 0.848 0.814 0.879 0.915 0.534 0.725",
+              "page": 12,
+              "position": 267
+            },
+            {
+              "text": "44 0.844 0.764 0.817 0.823 0.659 0.741",
+              "page": 12,
+              "position": 268
+            },
+            {
+              "text": "45 0.790 0.741 0.793 0.738 0.748 0.743",
+              "page": 12,
+              "position": 269
+            },
+            {
+              "text": "46 0.820 0.794 0.862 0.927 0.490 0.709",
+              "page": 12,
+              "position": 270
+            },
+            {
+              "text": "DenseNet-121 42 0.809 0.755 0.814 0.796 0.669 0.732",
+              "page": 12,
+              "position": 271
+            },
+            {
+              "text": "43 0.830 0.832 0.887 0.896 0.656 0.776",
+              "page": 12,
+              "position": 272
+            },
+            {
+              "text": "44 0.807 0.757 0.818 0.857 0.582 0.720",
+              "page": 12,
+              "position": 273
+            },
+            {
+              "text": "45 0.783 0.738 0.808 0.820 0.571 0.696",
+              "page": 12,
+              "position": 274
+            },
+            {
+              "text": "46 0.808 0.794 0.858 0.895 0.563 0.729",
+              "page": 12,
+              "position": 275
+            },
+            {
+              "text": "EfficientNet-B1 42 0.808 0.755 0.810 0.776 0.711 0.743",
+              "page": 12,
+              "position": 276
+            },
+            {
+              "text": "43 0.834 0.818 0.878 0.893 0.611 0.752",
+              "page": 12,
+              "position": 277
+            },
+            {
+              "text": "44 0.805 0.740 0.796 0.793 0.647 0.720",
+              "page": 12,
+              "position": 278
+            },
+            {
+              "text": "45 0.751 0.738 0.807 0.816 0.580 0.698",
+              "page": 12,
+              "position": 279
+            },
+            {
+              "text": "46 0.785 0.749 0.814 0.791 0.656 0.723",
+              "page": 12,
+              "position": 280
+            },
+            {
+              "text": "TABLE 5 Test-set performance of CNN models across five random seeds (mean [95% CI]).",
+              "page": 12,
+              "position": 281
+            },
+            {
+              "text": "Model AUC Acc. F1 Sens. Spec. Bal. Acc.",
+              "page": 12,
+              "position": 282
+            },
+            {
+              "text": "ResNet-18 0.822 [0.791, 0.853] 0.782 [0.746, 0.818] 0.840 [0.797, 0.884] 0.854 [0.758, 0.950] 0.616 [0.487, 0.744] 0.735 [0.712, 0.758]",
+              "page": 12,
+              "position": 283
+            },
+            {
+              "text": "DenseNet-121 0.808 [0.787, 0.828] 0.775 [0.728, 0.822] 0.837 [0.795, 0.879] 0.853 [0.797, 0.908] 0.608 [0.546, 0.671] 0.731 [0.694, 0.767]",
+              "page": 12,
+              "position": 284
+            },
+            {
+              "text": "EfficientNet-B1 0.797 [0.758, 0.835] 0.760 [0.719, 0.801] 0.821 [0.781, 0.862] 0.814 [0.756, 0.871] 0.641 [0.579, 0.703] 0.727 [0.701, 0.754]",
+              "page": 12,
+              "position": 285
+            },
+            {
+              "text": "ConvNeXt-Tiny 0.832 [0.801, 0.863] 0.750 [0.686, 0.814] 0.808 [0.744, 0.872] 0.789 [0.628, 0.951] 0.688 [0.511, 0.865] 0.739 [0.708, 0.769]",
+              "page": 12,
+              "position": 286
+            },
+            {
+              "text": "Bold value indicates the best performance for each metric among the four models.",
+              "page": 12,
+              "position": 287
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 12,
+              "position": 288
+            },
+            {
+              "text": "Frontiers in Digital Health 13 frontiersin.org",
+              "page": 12,
+              "position": 289
+            },
+            {
+              "text": "configuration may be preferable in triage applications where the priority is to avoid missing any positive case.",
+              "page": 13,
+              "position": 290
+            },
+            {
+              "text": "EfficientNet-B1 occupied an intermediate position, with moderate sensitivity (0.814) and specificity (0.641), resulting in the most balanced error profile among the four architectures, albeit with the lowest overall AUC.",
+              "page": 13,
+              "position": 291
+            },
+            {
+              "text": "The variability in confusion matrix patterns across seeds, particularly for ConvNeXt-Tiny (sensitivity SD ¼ 0:130, specificity SD ¼ 0:143), underscores the sensitivity of threshold- dependent metrics to the data split. This reinforces the importance of the multi-seed evaluation framework and the reporting of confidence intervals, as threshold-independent metrics such as AUC showed considerably lower variability.",
+              "page": 13,
+              "position": 292
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "4 Discussion",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 15,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "4.1 Overview",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "This study explored the use of large language models (LLMs), particularly GPT-4o, to generate binary disease labels from chest",
+              "page": 13,
+              "position": 293
+            },
+            {
+              "text": "X-ray radiology reports. These automatically generated labels were then used to train convolutional neural networks (CNNs) for image classification. The overarching aim was to assess whether supervision from generative AI could approximate manually curated annotations for medical image analysis. The findings demonstrate that this approach can yield competitive performance, suggesting the feasibility of integrating natural language processing with computer vision in a unified diagnostic framework.",
+              "page": 13,
+              "position": 294
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.2 Review of methodology",
+          "level": 2,
+          "page_start": 13,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "The study employed GPT-4o to extract disease presence information from unstructured radiology reports, thereby generating binary labels without the need for manual annotation. These labels were then used to train four convolutional neural network (CNN) architectures: ResNet18, DenseNet121, EfficientNet-B1, and ConvNeXt-Tiny. A patient- level split (70/10/20) was used to prevent data leakage, and the test-set performance of these models was assessed across five",
+              "page": 13,
+              "position": 295
+            },
+            {
+              "text": "FIGURE 9 Confusion matrices for the four CNN models: ResNet18, DenseNet121, EfficientNet-B1, and ConvNeXt-Tiny.",
+              "page": 13,
+              "position": 296
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 13,
+              "position": 297
+            },
+            {
+              "text": "Frontiers in Digital Health 14 frontiersin.org",
+              "page": 13,
+              "position": 298
+            },
+            {
+              "text": "random seeds using standard classification metrics, including accuracy, F1-score, AUC, sensitivity, specificity, and balanced accuracy, with 95% confidence intervals computed via the t-distribution.",
+              "page": 14,
+              "position": 299
+            },
+            {
+              "text": "To evaluate the quality of the LLM-generated labels, a set of 210 chest X-ray reports was manually annotated by a board- certified radiologist to serve as ground truth. This set comprised 126 diseased cases and 84 with no disease. The GPT-generated labels were then compared against these expert annotations using standard metrics, including precision, recall, F1-score, and overall accuracy.",
+              "page": 14,
+              "position": 300
+            },
+            {
+              "text": "The evaluation showed that the LLM achieved high precision (97.4%) and recall (90.5%) in identifying diseased cases, indicating strong performance in both avoiding false alarms and capturing true disease. For the “no disease” class, recall was high (96.4%) with good precision (87.1%), suggesting a well-balanced classifier. The overall accuracy reached 92.9%, with a confusion matrix revealing 114 true positives, 12 false negatives, 3 false positives, and 81 true negatives. These results indicate a high level of agreement with expert annotation and strongly support the feasibility of using LLM-generated labels as weak supervision signals for downstream model training.",
+              "page": 14,
+              "position": 301
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.3 Discussion of quantitative results",
+          "level": 2,
+          "page_start": 14,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "The quantitative evaluation across four CNN architectures trained with LLM-generated labels reveals several significant insights.",
+              "page": 14,
+              "position": 302
+            }
+          ],
+          "subsections": [
+            {
+              "title": "4.3.1 LLM label quality",
+              "level": 3,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "The GPT-4o model achieved an overall accuracy of 92.9% when its labels were compared against expert annotations on the full 210-report validation set. The precision for the diseased class reached 97.4%, indicating that nearly all positive predictions were correct, while the recall of 90.5% shows that most diseased cases were captured. For the no disease class, the model achieved high recall (96.4%) and good precision (87.1%), reflecting balanced performance with a low false positive rate. These values are reflected in the class-specific F1-scores: 93.8% for diseased and 91.5% for no disease. After further investigation into the quality of the difference between the LLM-generated labels and the radiologist’s labels, it became clear that the human expert disregarded non-significant clinical abnormalities.",
+                  "page": 14,
+                  "position": 303
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "4.3.2 Model performance",
+              "level": 3,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "All four CNN models trained on LLM-generated labels achieved mean AUC scores exceeding 0.79 on the held-out test set, confirming that the weak supervision signal was sufficient for effective training. ConvNeXt-Tiny achieved the highest mean AUC (0.832) and specificity (0.688), significantly outperforming EfficientNet-B1 in AUC (paired t-test, p ¼ 0:014) and showing a borderline advantage over DenseNet-121 (p ¼ 0:052). Its lower sensitivity (0.789) reflects a conservative decision threshold that prioritises specificity—a configuration that may be preferable in screening scenarios where false positives carry high downstream costs. ResNet-18 demonstrated the highest mean F1-score (0.840),",
+                  "page": 14,
+                  "position": 304
+                },
+                {
+                  "text": "while DenseNet-121 showed the most stable sensitivity across seeds (SD ¼ 0:045). EfficientNet-B1, despite the lowest AUC, maintained competitive specificity (0.641) with lower variability.",
+                  "page": 14,
+                  "position": 305
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "4.3.3 Sensitivity vs. specificity trade-off",
+              "level": 3,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "The results reveal a clear architectural spectrum in the sensitivity–specificity trade-off. DenseNet-121 and ResNet-18 are sensitivity-dominant, making them suitable for triage applications where minimising false negatives is paramount. ConvNeXt-Tiny is specificity-dominant, favouring applications with high costs associated with false positives. EfficientNet-B1 occupies an intermediate position with a more balanced trade- off. The width of the confidence intervals for sensitivity and specificity, particularly for ConvNeXt-Tiny (sensitivity SD ¼ 0:130, specificity SD ¼ 0:143), highlights the importance of the multi-seed evaluation: a single run could misleadingly suggest either excellent or poor threshold-dependent performance.",
+                  "page": 14,
+                  "position": 306
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "4.3.4 Multi-seed stability and confidence intervals",
+              "level": 3,
+              "page_start": 14,
+              "page_end": 14,
+              "paragraphs": [
+                {
+                  "text": "The use of five random seeds revealed that AUC—a threshold- independent metric—was the most stable across runs (mean coefficient of variation = 3.2%), while sensitivity and specificity showed substantially higher variability (CV = 5.7%–20.7%). This finding underscores the importance of reporting confidence intervals for threshold-dependent metrics in medical imaging studies, and supports the use of AUC as the primary metric for model comparison when the clinical decision threshold has not been externally validated.",
+                  "page": 14,
+                  "position": 307
+                },
+                {
+                  "text": "These quantitative findings validate the feasibility of using LLM-generated supervision for training CNNs in medical imaging and highlight the importance of architecture selection based on task-specific requirements.",
+                  "page": 14,
+                  "position": 308
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4.4 Results and comparison with existing literature",
+          "level": 2,
+          "page_start": 14,
+          "page_end": 14,
+          "paragraphs": [
+            {
+              "text": "Among the evaluated models, ConvNeXt-Tiny achieved the highest AUC and balanced accuracy on the held-out test set, while ResNet-18 showed competitive AUC and the highest F1-score. These results are consistent with prior studies that demonstrated the effectiveness of CNNs in chest X-ray classification (9). Moreover, our work extends previous efforts by integrating LLM-based label generation, as suggested in recent literature (28), but goes further by completing a full pipeline from clinical text to image-level model training with rigorous multi-seed evaluation. Unlike prior work that focused primarily on language tasks or required human-in-the-loop verification, this study demonstrates a fully automated supervision strategy with quantified uncertainty.",
+              "page": 14,
+              "position": 309
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.5 Summary of contributions",
+          "level": 2,
+          "page_start": 14,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "•Demonstrating the feasibility of using GPT-4o with a structured clinical protocol to generate weak supervision labels from clinical text.",
+              "page": 14,
+              "position": 310
+            },
+            {
+              "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+              "page": 14,
+              "position": 311
+            },
+            {
+              "text": "Frontiers in Digital Health 15 frontiersin.org",
+              "page": 14,
+              "position": 312
+            },
+            {
+              "text": "•Evaluating the performance of four CNN architectures under LLM-derived supervision using a patient-level split and multi-seed evaluation with 95% confidence intervals. •Quantifying model stability and statistical significance through paired t-tests, revealing ConvNeXt-Tiny’s significant advantage over EfficientNet-B1 (p ¼ 0:014). •Assessing the trade-offs between scalability and reliability in automated clinical pipelines.",
+              "page": 15,
+              "position": 313
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.6 Limitations",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "Despite promising outcomes, several limitations must be acknowledged. Firstly, GPT-4o does not have access to image content or structured patient metadata (in the configuration used here), which may introduce label noise. Secondly, the study was conducted using data from a single institution, potentially limiting generalisability. Thirdly, the binary classification setup oversimplifies the diagnostic landscape, where multiple co-existing conditions and severity levels are often present. Fourthly, while the multi-seed evaluation provides confidence intervals, the sample size of five seeds limits the precision of variance estimates, and the wide CIs for sensitivity and specificity suggest that threshold-dependent metrics should be interpreted with caution.",
+              "page": 15,
+              "position": 314
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.7 Future works",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "Future work could focus on extending the pipeline to multi- label classification, incorporating uncertainty estimation in label generation, and exploring multimodal LLMs that can directly process both images and text. The completed 210-report gold- standard validation set has strengthened the statistical rigour of the LLM label quality evaluation; further increases in seed count and validation set size, as well as validation across diverse institutions and clinical settings, remain important directions for enhancing robustness and scalability.",
+              "page": 15,
+              "position": 315
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "4.8 Conclusion",
+          "level": 2,
+          "page_start": 15,
+          "page_end": 15,
+          "paragraphs": [
+            {
+              "text": "The novelty of our approach lies in the fact that label creation requires substantial clinical time to construct robust data preprocessing for a deep learning system from free-text radiology reports. Our approach is to use a clinically informed and verified prompt on LLMs to generate labels. Label validation was conducted on a 10% subset of the entire dataset. The statistical soundness of the CNN was verified using performance scores, including confidence intervals. The clinical relevance lies in the usage of the model as a screening/triage system. This is particularly useful in a low-resource setting where radiologists are not readily available, but a clinical urgency needs to be indicated. The usefulness is demonstrated by the inclusion of clinical relevance in the definitions of the labels. When applied as a clinical decision support system (CDSS), it could reduce radiologists’ workload and enable early detection of clinically relevant findings in chest X-ray images, while keeping the human in the loop (the radiologist) as the final provider of the diagnosis. The approach’s explainability lies in the fact that the prompt for label generation is fully documented in the methodology.",
+              "page": 15,
+              "position": 316
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Data availability statement",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "Publicly available datasets were analyzed in this study. This data can be found here: https://physionet.org/content/mimic-cxr/2.1.0/.",
+          "page": 15,
+          "position": 317
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Ethics statement",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "The studies involving humans were approved by Institutional Review Board of Beth Israel Deaconess Medical Center (BIDMC) in Boston, MA. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study. Written informed consent was not obtained from the individual(s) for the publication of any potentially identifiable images or data included in this article because The Institutional Review Board at Beth Israel Deaconess Medical Center waived the requirement for individual patient consent because the project did not impact clinical care and all protected health information was removed to ensure patient privacy.",
+          "page": 15,
+          "position": 318
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Author contributions",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "QZ: Conceptualization, Data curation, Methodology, Software, Visualization, Writing – original draft, Writing – review & editing, Formal analysis. PV: Data curation, Investigation, Validation, Writing – review & editing. KL: Investigation, Methodology, Validation, Writing – review & editing. HK: Conceptualization, Formal analysis, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Writing – original draft, Writing – review & editing.",
+          "page": 15,
+          "position": 319
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Funding",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that financial support was not received for this work and/or its publication.",
+          "page": 15,
+          "position": 320
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conflict of interest",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 15,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
+          "page": 15,
+          "position": 321
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Generative AI statement",
+      "level": 1,
+      "page_start": 15,
+      "page_end": 16,
+      "paragraphs": [
+        {
+          "text": "The author(s) declared that Generative AI was used in the creation of this manuscript. Generative AI (Grammarly) was used to check the grammar and spellings.",
+          "page": 15,
+          "position": 322
+        },
+        {
+          "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.",
+          "page": 15,
+          "position": 323
+        },
+        {
+          "text": "Zhang et al. 10.3389/fdgth.2026.1883337",
+          "page": 15,
+          "position": 324
+        },
+        {
+          "text": "Frontiers in Digital Health 16 frontiersin.org",
+          "page": 15,
+          "position": 325
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Publisher’s note",
+      "level": 1,
+      "page_start": 16,
+      "page_end": 16,
+      "paragraphs": [
+        {
+          "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated",
+          "page": 16,
+          "position": 326
+        },
+        {
+          "text": "organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+          "page": 16,
+          "position": 327
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Alshmrani GMM, Ni Q, Jiang R, Pervaiz H, Elshennawy NM. A deep learning architecture for multi-class lung diseases classification using chest X-ray (CXR) images. Alex Eng J. (2023) 64:923–35. doi: 10.1016/j.aej.2022.10.053",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1016/j.aej.2022.10.053"
+    },
+    {
+      "id": 2,
+      "raw_text": "Sidume F, Muchuchuti S, Chengetenai G, Tamukate R, Ntwaetsile K, Ntekeng P. Deep learning techniques for tuberculosis detection on chest X-rays in low-resource settings: a survey of opportunities and challenges. In: 2024 international conference on electrical and computer engineering researches (ICECER) (IEEE) (2024), 1–10.",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 3,
+      "raw_text": "Çallı E, Sogancioglu E, Van Ginneken B, van Leeuwen KG, Murphy K. Deep learning for chest X-ray analysis: A survey. Med Image Anal. (2021) 72:102125. doi: 10.1016/j.media.2021.102125",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1016/j.media.2021.102125"
+    },
+    {
+      "id": 4,
+      "raw_text": "Maicas G, Bradley AP, Nascimento JC, Reid I, Carneiro G. Pre and post-hoc diagnosis and interpretation of malignancy from breast DCE-MRI. Med Image Anal. (2019) 58:101562. doi: 10.1016/j.media.2019.101562",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": "10.1016/j.media.2019.101562"
+    },
+    {
+      "id": 5,
+      "raw_text": "Shen L, Margolies LR, Rothstein JH, Fluder E, McBride R, Sieh W. Deep learning to improve breast cancer detection on screening mammography. Sci Rep. (2019) 9:12495. doi: 10.1038/s41598-019-48995-4",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": "10.1038/s41598-019-48995-4"
+    },
+    {
+      "id": 6,
+      "raw_text": "Liu X, Fan Y, Li S, Chen M, Li M, Hau WK, et al. Deep learning-based automated left ventricular ejection fraction assessment using 2-D echocardiography. Am J Physiol Heart Circ Physiol. (2021) 321:H390–9. doi: 10.1152/ajpheart.00416.2020",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": "10.1152/ajpheart.00416.2020"
+    },
+    {
+      "id": 7,
+      "raw_text": "Pham TC, Luong CM, Hoang VD, Doucet A. AI outperformed every dermatologist in dermoscopic melanoma diagnosis, using an optimized deep-CNN architecture with custom mini-batch logic and loss function. Sci Rep. (2021) 11:17485. doi: 10. 1038/s41598-021-96707-8",
+      "authors": [],
+      "title": null,
+      "year": 2021,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 8,
+      "raw_text": "Haenssle HA, Fink C, Schneiderbauer R, Toberer F, Buhl T, Blum A, et al. Man against machine: diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists. Ann Oncol. (2018) 29:1836–42. doi: 10.1093/annonc/mdy166",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1093/annonc/mdy166"
+    },
+    {
+      "id": 9,
+      "raw_text": "Rajpurkar P, Irvin J, Zhu K, Yang B, Mehta H, Duan T, et al. Chexnet: radiologist- level pneumonia detection on chest X-rays with deep learning. arXiv [Preprint]. arXiv:1711.05225 (2017).",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 10,
+      "raw_text": "Yosinski J, Clune J, Bengio Y, Lipson H. How transferable are features in deep neural networks? Adv. Neural Inf. Process. Syst. (2014) 27:3320–3328. doi: 10. 48550/arXiv. 1411.1792",
+      "authors": [],
+      "title": null,
+      "year": 2014,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 11,
+      "raw_text": "Baltruschat IM, Steinmeister L, Ittrich H, Adam G, Nickisch H, Saalbach A, et al. When does bone suppression and lung field segmentation improve chest X-ray disease classification? 2019 IEEE 16th international symposium on biomedical imaging (ISBI 2019) (IEEE) (2019), 1362–1366.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 12,
+      "raw_text": "Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, et al. Attention is all you need. Adv. Neural Inf. Process. Syst. (2017) 30:5998–6008. doi: 10.48550/arXiv.1706.03762",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": "10.48550/arXiv.1706.03762"
+    },
+    {
+      "id": 13,
+      "raw_text": "Devlin J, Chang MW, Lee K, Toutanova KB. Pre-training of deep bidirectional transformers for language understanding. In: Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers) (2019), 4171–4186.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 14,
+      "raw_text": "Brown T, Mann B, Ryder N, Subbiah M, Kaplan JD, Dhariwal P, et al. Language models are few-shot learners. Adv. Neural Inf. Process. Syst. (2020) 33:1877–1901. doi: 10.48550/arXiv.2005.14165",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.48550/arXiv.2005.14165"
+    },
+    {
+      "id": 15,
+      "raw_text": "Touvron H, Lavril T, Izacard G, Martinet X, Lachaux MA, Lacroix T, et al. LLaMA: open and efficient foundation language models. arXiv [Preprint] arXiv:2302.13971 (2023).",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 16,
+      "raw_text": "Yang R, Tan TF, Lu W, Thirunavukarasu AJ, Ting DSW, Liu N. Large language models in health care: Development, applications, and challenges. Health Care Sci. (2023) 2:255–63. doi: 10.1002/hcs2.61",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1002/hcs2.61"
+    },
+    {
+      "id": 17,
+      "raw_text": "Bedi S, Liu Y, Orr-Ewing L, Dash D, Koyejo S, Callahan A, et al. Testing and evaluation of health care applications of large language models: a systematic review. JAMA. (2025). 333:319–28. doi: 10.1001/jama. 2024.21700",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1001/jama"
+    },
+    {
+      "id": 18,
+      "raw_text": "Li C, Zhang Y, Weng Y, Wang B, Li Z. Natural language processing applications for computer-aided diagnosis in oncology. Diagnostics. (2023) 13:286. doi: 10.3390/ diagnostics13020286",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 19,
+      "raw_text": "Omoregbe NA, Ndaman IO, Misra S, Abayomi-Alli OO, Damaševičius R. Text messaging-based medical diagnosis using natural language processing and fuzzy logic. J Healthc Eng. (2020) 2020:8839524. doi: 10.1155/2020/ 8839524",
+      "authors": [],
+      "title": null,
+      "year": 2020,
+      "venue": null,
+      "doi": "10.1155/2020"
+    },
+    {
+      "id": 20,
+      "raw_text": "Liyanage CR, Gokani R, Mago V. GPT-4 as an X data annotator: Unraveling its performance on a stance classification task. PLoS ONE. (2024) 19:e0307741. doi: 10. 1371/journal.pone.0307741",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 21,
+      "raw_text": "Irvin J, Rajpurkar P, Ko M, Yu Y, Ciurea-Ilcus S, Chute C, et al. CheXpert: a large chest radiograph dataset with uncertainty labels and expert comparison. Proceedings of the AAAI conference on artificial intelligence (2019), 33, 590–597.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 22,
+      "raw_text": "Atf Z, Safavi-Naini SAA, Lewis PR, Mahjoubfar A, Naderi N, Savage TR, et al. The challenge of uncertainty quantification of large language models in medicine. arXiv [Preprint] arXiv:2504.05278 (2025).",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 23,
+      "raw_text": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition (2016), 770–778.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 24,
+      "raw_text": "Huang G, Liu Z, Van Der Maaten L, Weinberger KQ. Densely connected convolutional networks. In: Proceedings of the IEEE conference on computer vision and pattern recognition (2017), 4700–4708.",
+      "authors": [],
+      "title": null,
+      "year": 2017,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 25,
+      "raw_text": "Liu Z, Mao H, Wu CY, Feichtenhofer C, Darrell T, Xie S. A convnet for the 2020s. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (2022), 11976–11986.",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 26,
+      "raw_text": "Tan M, Le Q. Efficientnet: rethinking model scaling for convolutional neural networks. In: International conference on machine learning (PMLR) (2019), 6105– 6114.",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 27,
+      "raw_text": "Johnson AE, Pollard TJ, Berkowitz SJ, Greenbaum NR, Lungren MP, Deng CY, et al. MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports. Sci Data. (2019) 6:317. doi: 10.1038/s41597- 019-0322-0",
+      "authors": [],
+      "title": null,
+      "year": 2019,
+      "venue": null,
+      "doi": "10.1038/s41597"
+    },
+    {
+      "id": 28,
+      "raw_text": "Reichenpfader D, Müller H, Denecke K. Large language model- based information extraction from free-text radiology reports: a scoping review protocol. BMJ Open. (2023) 13:e076865. doi: 10.1136/bmjopen-2023- 076865 Zhang et al. 10.3389/fdgth.2026.1883337 Frontiers in Digital Health 17 frontiersin.org",
+      "authors": [],
+      "title": null,
+      "year": 2023,
+      "venue": null,
+      "doi": "10.1136/bmjopen-2023"
+    }
+  ],
+  "page_count": 17,
+  "warnings": []
+}

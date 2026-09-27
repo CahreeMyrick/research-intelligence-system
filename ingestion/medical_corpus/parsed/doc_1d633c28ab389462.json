@@ -1,0 +1,620 @@
+{
+  "identity": {
+    "id": "doc_1d633c28ab389462",
+    "source": {
+      "filename": "PMC13589448.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13589448.1/PMC13589448.1.pdf",
+      "content_hash": "1d633c28ab38946268a3ceb3f1f3a14887fc5276aea023c6885eb510ad2e11bc"
+    }
+  },
+  "metadata": {
+    "title": "Review began 08/08/2026",
+    "authors": [
+      "Review ended //"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.7759/cureus.114853",
+    "arxiv_id": null,
+    "abstract": "Negative-pressure pulmonary edema (NPPE) is an uncommon postoperative form of noncardiogenic pulmonary edema resulting from forceful inspiratory efforts against an obstructed upper airway. A 20-year- old man (62 kg, 172 cm; body mass index, 21.0 kg/m²) underwent laparoscopic appendectomy under general anesthesia. Preoperative oxygen saturation was 98% on room air. Immediately after extubation, laryngospasm occurred, followed by acute respiratory distress, oxygen desaturation to 74%, tachypnea at 35 breaths/min, and tachycardia at 125 beats/min. Arterial blood gas analysis showed pH 7.33, PaCO₂ 32 mmHg, and PaO₂ 53 mmHg. Chest radiography demonstrated bilateral patchy central air-space opacities, more pronounced in the right lung, without apparent cardiomegaly. High-sensitivity troponin T was within the reference range. NPPE secondary to post-extubation laryngospasm was diagnosed. Continuous positive airway pressure (CPAP) at 5 cmH₂O with supplemental oxygen was initiated, and a single 20-mg intravenous dose of furosemide was administered. Respiratory status progressively improved, and the patient was discharged in good condition on postoperative day 3. This case emphasizes rapid recognition of the laryngospasm-hypoxemia-pulmonary edema sequence and careful assessment of competing postoperative diagnoses. Categories: Family/General Practice, Emergency Medicine, Gastroenterology Keywords: continuous positive airway pressure, laparoscopic appendectomy, laryngospasm, negative-pressure pulmonary edema, post-extubation hypoxemia, postoperative pulmonary edema",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Review began 08/08/2026",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Review ended 08/18/2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Published 08/20/2026",
+          "page": 0,
+          "position": 2
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "© Copyright 2026",
+      "level": 4,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Awawdeh et al. This is an open access",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "article distributed under the terms of the",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Creative Commons Attribution License CC-",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "BY 4.0., which permits unrestricted use,",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "distribution, and reproduction in any",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "medium, provided the original author and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "source are credited.",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "DOI: 10.7759/cureus.114853",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Laryngospasm-Induced Negative-Pressure Pulmonary Edema After Laparoscopic Appendectomy in a Young Adult: A Case Report",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Mohammad Awawdeh , Ahmed Zareer , Ahmad Abdallah , Ilyas Awawdeh , Thaer Hamdan",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1. Department of Medicine, An-Najah National University, Nablus, PSE 2. Department of Medicine, Palestine Polytechnic University, Hebron, PSE",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "Corresponding author: Mohammad Awawdeh, mohammadawawdih@gmail.com",
+          "page": 0,
+          "position": 14
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Negative-pressure pulmonary edema (NPPE) is an uncommon postoperative form of noncardiogenic pulmonary edema resulting from forceful inspiratory efforts against an obstructed upper airway. A 20-year- old man (62 kg, 172 cm; body mass index, 21.0 kg/m²) underwent laparoscopic appendectomy under general anesthesia. Preoperative oxygen saturation was 98% on room air. Immediately after extubation, laryngospasm occurred, followed by acute respiratory distress, oxygen desaturation to 74%, tachypnea at 35 breaths/min, and tachycardia at 125 beats/min. Arterial blood gas analysis showed pH 7.33, PaCO₂ 32 mmHg, and PaO₂ 53 mmHg. Chest radiography demonstrated bilateral patchy central air-space opacities, more pronounced in the right lung, without apparent cardiomegaly. High-sensitivity troponin T was within the reference range. NPPE secondary to post-extubation laryngospasm was diagnosed. Continuous positive airway pressure (CPAP) at 5 cmH₂O with supplemental oxygen was initiated, and a single 20-mg intravenous dose of furosemide was administered. Respiratory status progressively improved, and the patient was discharged in good condition on postoperative day 3. This case emphasizes rapid recognition of the laryngospasm-hypoxemia-pulmonary edema sequence and careful assessment of competing postoperative diagnoses.",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Categories: Family/General Practice, Emergency Medicine, Gastroenterology Keywords: continuous positive airway pressure, laparoscopic appendectomy, laryngospasm, negative-pressure pulmonary edema, post-extubation hypoxemia, postoperative pulmonary edema",
+          "page": 0,
+          "position": 16
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Negative-pressure pulmonary edema (NPPE) is an acute noncardiogenic pulmonary edema caused by markedly negative intrathoracic pressure generated during forceful inspiration against an obstructed upper airway [1-3]. Post-extubation laryngospasm is a classic perioperative precipitant, particularly during emergence from general anesthesia [2-4]. The resulting pressure changes increase pulmonary vascular transmural pressure and favor rapid movement of fluid into the pulmonary interstitial and alveolar compartments; increased venous return, altered left ventricular loading, and stress on the alveolar-capillary interface may further contribute [1-4].",
+          "page": 0,
+          "position": 17
+        },
+        {
+          "text": "Clinical presentation is usually abrupt and may include hypoxemia, tachypnea, tachycardia, respiratory distress, and new pulmonary infiltrates [1-4]. Because aspiration pneumonitis, cardiogenic pulmonary edema, and perioperative fluid overload may present similarly, diagnosis depends heavily on the temporal relationship between upper-airway obstruction and respiratory deterioration [1-4]. NPPE after appendectomy has been reported previously [5,6]. We present a young adult who developed documented post-extubation laryngospasm followed by severe hypoxemia and radiographic pulmonary edema after laparoscopic appendectomy.",
+          "page": 0,
+          "position": 18
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Case Presentation",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 4,
+      "paragraphs": [
+        {
+          "text": "A 20-year-old man weighing 62 kg and measuring 172 cm in height (body mass index, 21.0 kg/m²) presented with acute periumbilical and lower abdominal pain. Preoperative oxygen saturation was 98% on room air, and respiratory rate was 17 breaths/min. Pre-anesthetic assessment included airway, cardiovascular, and respiratory examination; review of medications and allergies; confirmation of fasting status; and review of relevant laboratory investigations.",
+          "page": 0,
+          "position": 19
+        },
+        {
+          "text": "Abdominal ultrasonography demonstrated severe right hydronephrosis with marked dilatation of the renal pelvis and calyces, internal echoes/debris within the collecting system, cortical thinning, and no right ureteric dilatation. The right kidney measured approximately 13.5 cm in bipolar length, with reported cortical thickness of approximately 0.4 cm (Figure 1).",
+          "page": 0,
+          "position": 20
+        },
+        {
+          "text": "1 1 1 2 1",
+          "page": 0,
+          "position": 21
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Open Access Case Report",
+          "level": 4,
+          "page_start": 0,
+          "page_end": 1,
+          "paragraphs": [
+            {
+              "text": "How to cite this article Awawdeh M, Zareer A, Abdallah A, et al. (August 20, 2026) Laryngospasm-Induced Negative-Pressure Pulmonary Edema After Laparoscopic Appendectomy in a Young Adult: A Case Report. Cureus 18(8): e114853. DOI 10.7759/cureus.114853",
+              "page": 0,
+              "position": 22
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 1: Right Renal Ultrasonography.",
+          "level": 3,
+          "page_start": 1,
+          "page_end": 2,
+          "paragraphs": [
+            {
+              "text": "(A) Grayscale image from the right renal examination demonstrating marked fluid distension of the pelvicalyceal system. (B) Color Doppler image from the same renal examination. The ultrasound report described severe right hydronephrosis with cortical thinning and no ureteric dilatation.",
+              "page": 1,
+              "position": 23
+            },
+            {
+              "text": "Contrast-enhanced computed tomography showed a retrocecal appendix measuring up to 12 mm with surrounding fat stranding and adjacent fluid, consistent with acute retrocecal appendicitis. CT also demonstrated rotation of the right kidney, marked dilatation of the pelvicalyceal system, and moderate cortical thinning. A hyperdense renal-pelvic calculus measuring 2 × 2 × 0.6 cm with an attenuation of approximately 300 Hounsfield units was present, together with additional dependent lower-calyceal calculi (Figure 2). The right ureter was not dilated. The overall appearance was suggestive of pelviureteric junction stenosis, and the calculi were reported as non-obstructing.",
+              "page": 1,
+              "position": 24
+            },
+            {
+              "text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 2 of 7",
+              "page": 1,
+              "position": 25
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 2: Right Renal Pelvicalyceal Dilatation With Renal-Pelvic",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Calculus.",
+          "level": 3,
+          "page_start": 2,
+          "page_end": 3,
+          "paragraphs": [
+            {
+              "text": "Contrast-enhanced axial CT image demonstrating marked right pelvicalyceal dilatation and a hyperdense renal- pelvic calculus. Associated cortical thinning and absence of ureteric dilatation contributed to the radiologic impression of pelviureteric junction stenosis.",
+              "page": 2,
+              "position": 26
+            },
+            {
+              "text": "Initial laboratory findings are summarized in Table 1. C-reactive protein was markedly elevated, with neutrophil predominance. Serum creatinine remained within the expected adult range, and high-sensitivity troponin T was within the laboratory reference range.",
+              "page": 2,
+              "position": 27
+            },
+            {
+              "text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 3 of 7",
+              "page": 2,
+              "position": 28
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Laboratory test Result Reference range Interpretation",
+              "level": 4,
+              "page_start": 3,
+              "page_end": 3,
+              "paragraphs": [
+                {
+                  "text": "White blood cell count 9.21 ×10³/µL 4.0-11.0 ×10³/µL Within range",
+                  "page": 3,
+                  "position": 29
+                },
+                {
+                  "text": "Neutrophils 93.7% 40-75% High",
+                  "page": 3,
+                  "position": 30
+                },
+                {
+                  "text": "C-reactive protein 53.8 mg/L 0-5 mg/L High",
+                  "page": 3,
+                  "position": 31
+                },
+                {
+                  "text": "Blood urea nitrogen 6.67 mg/dL 6-20 mg/dL Within range",
+                  "page": 3,
+                  "position": 32
+                },
+                {
+                  "text": "Serum creatinine 0.773 mg/dL 0.6-1.3 mg/dL Within range",
+                  "page": 3,
+                  "position": 33
+                },
+                {
+                  "text": "Total bilirubin 2.13 mg/dL 0.2-1.2 mg/dL High",
+                  "page": 3,
+                  "position": 34
+                },
+                {
+                  "text": "Direct bilirubin 0.776 mg/dL 0-0.3 mg/dL High",
+                  "page": 3,
+                  "position": 35
+                },
+                {
+                  "text": "Aspartate aminotransferase 21.8 U/L 10-40 U/L Within range",
+                  "page": 3,
+                  "position": 36
+                },
+                {
+                  "text": "Alanine aminotransferase 9.07 U/L 7-56 U/L Within range",
+                  "page": 3,
+                  "position": 37
+                },
+                {
+                  "text": "High-sensitivity troponin T 5.72 ng/L 0-22 ng/L Within range",
+                  "page": 3,
+                  "position": 38
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "TABLE 1: Laboratory Findings at Presentation.",
+          "level": 3,
+          "page_start": 3,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Reference ranges are adult intervals used for interpretation of the reported laboratory results.",
+              "page": 3,
+              "position": 39
+            },
+            {
+              "text": "The patient underwent laparoscopic appendectomy under general anesthesia with endotracheal intubation and standard intraoperative monitoring. No clinically significant blood loss was recorded. Immediately after extubation, laryngospasm developed, followed by abrupt respiratory distress. Oxygen saturation decreased to 74%, respiratory rate increased to 35 breaths/min, and heart rate reached 125 beats/min. Arterial blood gas analysis demonstrated pH 7.33, PaCO₂ 32 mmHg, and PaO₂ 53 mmHg.",
+              "page": 3,
+              "position": 40
+            },
+            {
+              "text": "Postoperative chest radiography demonstrated bilateral patchy central/perihilar air-space opacities, substantially more pronounced in the right lung, without apparent cardiomegaly or a large pleural effusion (Figure 3). High-sensitivity troponin T was 5.72 ng/L, within the reference range. The immediate sequence of documented laryngospasm, profound hypoxemia, and new pulmonary edema supported the diagnosis of NPPE.",
+              "page": 3,
+              "position": 41
+            },
+            {
+              "text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 4 of 7",
+              "page": 3,
+              "position": 42
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "FIGURE 3: Post-Extubation Pulmonary Air-Space Opacities.",
+          "level": 3,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Postoperative chest radiograph obtained after laryngospasm and acute respiratory deterioration, demonstrating bilateral patchy central/perihilar air-space opacities, substantially more pronounced in the right lung, without apparent cardiomegaly.",
+              "page": 4,
+              "position": 43
+            },
+            {
+              "text": "Continuous positive airway pressure (CPAP) was initiated at 5 cmH₂O with supplemental oxygen and continued for approximately 12 hours per day during postoperative monitoring. Furosemide 20 mg was administered intravenously once. Urine output and fluid status were monitored, with approximately 2,000 mL of urine recorded during the monitored period. Respiratory status progressively improved. At discharge, the patient was breathing comfortably without significant respiratory distress, tolerating oral intake, and ambulating appropriately. He was discharged home in good clinical condition three days after surgery.",
+              "page": 4,
+              "position": 44
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 4,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "The diagnostic strength of this case lies in its temporal sequence. The patient had normal baseline oxygenation, developed documented laryngospasm immediately after extubation, and then developed profound hypoxemia with radiographic pulmonary edema. This sequence is characteristic of NPPE, in which vigorous inspiratory effort against an obstructed airway generates markedly negative intrathoracic pressure and promotes pulmonary fluid translocation [1-4].",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "NPPE after appendectomy is not unique. Perez et al. reported NPPE immediately after extubation in a healthy 20-year-old man undergoing appendectomy [5]. Wong and Campbell described an 18-year-old man with post-extubation NPPE after appendectomy [6]. Rinaldi et al. reported post-extubation pulmonary edema after laparoscopic appendicectomy in another young patient [7], while Du et al. described an atypical post-appendectomy NPPE presentation accompanied by myocardial injury [8]. The present case should therefore not be framed as the first such report. Its educational value lies in the clearly documented laryngospasm-to-hypoxemia sequence, severe arterial hypoxemia, right-predominant radiographic pattern, and successful use of noninvasive positive-pressure support.",
+          "page": 4,
+          "position": 46
+        },
+        {
+          "text": "The principal differential diagnoses were aspiration pneumonitis, cardiogenic pulmonary edema, and perioperative fluid overload. Aspiration warranted particular consideration because the radiographic abnormalities were right-predominant; however, markedly asymmetric NPPE has been described after acute upper-airway obstruction [9]. Cardiogenic edema was less favored by the patient's young age, absence of",
+          "page": 4,
+          "position": 47
+        },
+        {
+          "text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 5 of 7",
+          "page": 4,
+          "position": 48
+        },
+        {
+          "text": "apparent cardiomegaly, and normal high-sensitivity troponin T, although a normal troponin value alone cannot exclude cardiac dysfunction. Fluid overload was also considered. Renal function was preserved, and there was no clinically significant blood loss; however, the exact intraoperative intravenous fluid volume was unavailable, limiting complete assessment of perioperative fluid balance. Table 2 summarizes the case- specific differential diagnosis.",
+          "page": 5,
+          "position": 49
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Diagnosis Why Considered Case-Specific Interpretation",
+          "level": 4,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Negative- pressure pulmonary edema",
+              "page": 5,
+              "position": 50
+            },
+            {
+              "text": "Acute hypoxemia and new pulmonary edema after general",
+              "page": 5,
+              "position": 51
+            },
+            {
+              "text": "anesthesia",
+              "page": 5,
+              "position": 52
+            },
+            {
+              "text": "Documented laryngospasm immediately after extubation, followed by abrupt severe hypoxemia and compatible chest radiography strongly favored NPPE.",
+              "page": 5,
+              "position": 53
+            },
+            {
+              "text": "Aspiration pneumonitis",
+              "page": 5,
+              "position": 54
+            },
+            {
+              "text": "Peri-anesthetic hypoxemia with right-predominant opacities may overlap",
+              "page": 5,
+              "position": 55
+            },
+            {
+              "text": "The immediate laryngospasm-to-hypoxemia sequence favored NPPE; aspiration should not be stated as excluded unless specifically documented.",
+              "page": 5,
+              "position": 56
+            },
+            {
+              "text": "Cardiogenic pulmonary edema",
+              "page": 5,
+              "position": 57
+            },
+            {
+              "text": "Pulmonary edema can have a cardiac origin",
+              "page": 5,
+              "position": 58
+            },
+            {
+              "text": "Young age, no apparent cardiomegaly, and normal high-sensitivity troponin T made acute myocardial injury less likely, but did not fully exclude cardiac dysfunction.",
+              "page": 5,
+              "position": 59
+            },
+            {
+              "text": "Perioperative",
+              "page": 5,
+              "position": 60
+            },
+            {
+              "text": "fluid overload",
+              "page": 5,
+              "position": 61
+            },
+            {
+              "text": "Excess perioperative fluid can",
+              "page": 5,
+              "position": 62
+            },
+            {
+              "text": "cause pulmonary edema",
+              "page": 5,
+              "position": 63
+            },
+            {
+              "text": "Renal function was preserved, and no significant blood loss occurred; exact",
+              "page": 5,
+              "position": 64
+            },
+            {
+              "text": "intraoperative IV fluid volume was unavailable, limiting definitive assessment.",
+              "page": 5,
+              "position": 65
+            },
+            {
+              "text": "TABLE 2: Differential Diagnosis of Acute Post-Extubation Respiratory Deterioration.",
+              "page": 5,
+              "position": 66
+            },
+            {
+              "text": "IV: intravenous; NPPE: negative-pressure pulmonary edema. Source: Authors' synthesis based on published NPPE literature [1-4,9].",
+              "page": 5,
+              "position": 67
+            },
+            {
+              "text": "Treatment of NPPE centers on relieving airway obstruction, restoring oxygenation, and providing positive- pressure respiratory support when necessary [1-4]. In this case, CPAP at 5 cmH₂O provided noninvasive positive-pressure support. A single intravenous dose of furosemide was also administered. The role of diuretic therapy in NPPE remains controversial because the primary pathophysiology is related to pressure- mediated pulmonary fluid translocation rather than necessarily systemic volume excess [2,3]. This distinction is clinically important because over-diuresis with orthostatic hypotension was reported in a recent appendectomy-associated NPPE case [6]. Accordingly, furosemide in the present case is best described as adjunctive therapy rather than obligatory treatment.",
+              "page": 5,
+              "position": 68
+            },
+            {
+              "text": "The renal abnormality was clinically important but mechanistically separate from the pulmonary complication. Imaging suggested pelviureteric junction stenosis with hydronephrosis, cortical thinning, and a large renal-pelvic calculus, while overall renal function remained preserved. Importantly, the CT report characterized the calculi as non-obstructing. These findings represent concurrent urologic pathology and should not be invoked as the cause of the acute pulmonary edema. The principal limitations of this report are the absence of the exact intraoperative intravenous fluid volume and a documented time to complete radiographic resolution.",
+              "page": 5,
+              "position": 69
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "paragraphs": [
+        {
+          "text": "Post-extubation NPPE should be considered when acute respiratory deterioration follows laryngospasm or another form of upper-airway obstruction. In this patient, the immediate sequence of documented laryngospasm, severe hypoxemia, and new pulmonary opacities supported the diagnosis, with progressive improvement following positive-pressure respiratory support. Careful assessment for aspiration, cardiac dysfunction, and perioperative fluid overload remains important because these conditions may mimic NPPE. Concurrent abnormalities, such as unilateral pelviureteric junction pathology, should be evaluated independently rather than assumed to explain an acute perioperative pulmonary event.",
+          "page": 5,
+          "position": 70
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Additional Information",
+      "level": 1,
+      "page_start": 5,
+      "page_end": 6,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "Author Contributions",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "All authors have reviewed the final version to be published and agreed to be accountable for all aspects of the work.",
+              "page": 5,
+              "position": 71
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Concept and design:  Mohammad Awawdeh",
+              "level": 4,
+              "page_start": 5,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "Acquisition, analysis, or interpretation of data:  Mohammad Awawdeh, Ahmed Zareer, Ahmad Abdallah, Ilyas Awawdeh, Thaer Hamdan",
+                  "page": 5,
+                  "position": 72
+                },
+                {
+                  "text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 6 of 7",
+                  "page": 5,
+                  "position": 73
+                },
+                {
+                  "text": "Drafting of the manuscript:  Mohammad Awawdeh, Ahmad Abdallah, Ilyas Awawdeh, Thaer Hamdan",
+                  "page": 6,
+                  "position": 74
+                },
+                {
+                  "text": "Critical review of the manuscript for important intellectual content:  Mohammad Awawdeh, Ahmed Zareer, Ahmad Abdallah, Ilyas Awawdeh, Thaer Hamdan",
+                  "page": 6,
+                  "position": 75
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Disclosures",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "Human subjects: Informed consent for treatment and open access publication was obtained or waived by all participants in this study. Not applicable issued approval Not applicable. Not applicable — institutional policy does not require IRB/ethics committee review for a single-patient case report. Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all authors declare the following: Payment/services info: All authors have declared that no financial support was received from any organization for the submitted work. Financial relationships: All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work. Other relationships: All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.",
+              "page": 6,
+              "position": 76
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Acknowledgements",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 6,
+      "paragraphs": [
+        {
+          "text": "ChatGPT (OpenAI) was used to assist with language refinement and manuscript organization. All clinical data, references, interpretations, and final manuscript content were independently reviewed and verified by the authors, who take full responsibility for the article.",
+          "page": 6,
+          "position": 77
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Bhattacharya M, Kallet RH, Ware LB, Matthay MA: Negative-pressure pulmonary edema. Chest. 2016, 150:927-933. 10.1016/j.chest.2016.03.043 2. Ma J, Liu T, Wang Q, et al.: Negative pressure pulmonary edema (Review). Exp Ther Med. 2023, 26:455. 10.3892/etm.2023.12154 3. Lemyze M, Mallat J: Understanding negative pressure pulmonary edema. Intensive Care Med. 2014, 40:1140- 1143. 10.1007/s00134-014-3307-7 4. Krodel DJ, Bittner EA, Abdulnour R, Brown R, Eikermann M: Case scenario: acute postoperative negative pressure pulmonary edema. Anesthesiology. 2010, 113:200-207. 10.1097/ALN.0b013e3181e32e68 5. Perez RO, Bresciani C, Jacob CE, Perez CG, Coser RB, Honda LF, Gama-Rodrigues JJ: Negative pressure post- extubation pulmonary edema complicating appendectomy in a young patient: case report. Curr Surg. 2004, 61:463-465. 10.1016/j.cursur.2004.02.001 6. Wong GS, Campbell D: Postextubation negative-pressure pulmonary edema after an appendectomy . Radiol Case Rep. 2025, 20:3063-3066. 10.1016/j.radcr.2025.03.053 7. Rinaldi P, Mariani M, Alfieri S, Villani R, Notaro M: Post-extubation pulmonary edema following laparoscopic appendicectomy in a young patient. Minerva Anestesiol. 2025, 91:1225-1227. 10.23736/S0375- 9393.25.19347-4 8. Du J, He T, Wang X, et al.: Atypical negative pressure pulmonary edema with myocardial injury post- appendectomy: a case report. Medicine (Baltimore). 2026, 105:e46931. 10.1097/MD.0000000000046931 9. Peixoto AJ: Asymmetric negative pressure pulmonary edema after acute upper airway obstruction: case report [Article in Portuguese]. Rev Bras Anestesiol. 2002, 52:335-343. 10.1590/s0034-70942002000300009",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.1016/j.chest.2016.03.043"
+    },
+    {
+      "id": 2,
+      "raw_text": "2026 Awawdeh et al. Cureus 18(8): e114853. DOI 10.7759/cureus.114853 7 of 7",
+      "authors": [],
+      "title": null,
+      "year": 2026,
+      "venue": null,
+      "doi": "10.7759/cureus.114853"
+    }
+  ],
+  "page_count": 7,
+  "warnings": []
+}

@@ -1,0 +1,3320 @@
+{
+  "identity": {
+    "id": "doc_d9b900e88ad45371",
+    "source": {
+      "filename": "PMC13577916.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13577916.1/PMC13577916.1.pdf",
+      "content_hash": "d9b900e88ad45371f150e5dc6dd876e573c081d5947f41bcc1de70192ec499bd"
+    }
+  },
+  "metadata": {
+    "title": "https://doi.org/10.1038/s41591-026-04607-z Article Inhaled siRNA therapy targeting RAGE for pulmonary inflammation: a first-in-human randomized trial",
+    "authors": [],
+    "affiliations": [],
+    "publication_year": 2025,
+    "venue": null,
+    "doi": "10.1038/s41591-026-04607-z",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3339",
+          "page": 0,
+          "position": 0
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "nature medicine",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "https://doi.org/10.1038/s41591-026-04607-z Article Inhaled siRNA therapy targeting RAGE for pulmonary inflammation: a first-in-human randomized trial",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "The receptor for advanced glycation end products (RAGE), a multiligand receptor that is abundantly expressed by lung alveolar type-1 cells, amplifies and sustains the innate immune response in a variety of pulmonary disorders, including asthma and chronic obstructive pulmonary disease. Here we developed ARO-RAGE, an inhaled, lung-epithelium-targeted siRNA directed against pulmonary RAGE mRNA. Preclinical data from rat models of asthma, chronic obstructive pulmonary disease and acute lung injury, as well as mouse models for assessment of inflammatory responses, demonstrated deep and durable silencing of RAGE, limiting pulmonary inflammation. In macaques, ARO-RAGE produced dose-dependent reductions in membrane-bound RAGE levels in lung tissue and soluble RAGE (sRAGE) levels in serum; moreover, bronchoalveolar lavage showed post-dose decreases in sRAGE levels, consistent with robust silencing of lung membrane-bound RAGE. We then tested ARO-RAGE in a phase 1/2a, randomized, double-blinded, placebo-controlled trial designed to assess safety and tolerability (primary endpoint), pharmacokinetics (secondary endpoint) and pharmacodynamics (exploratory endpoint). In healthy volunteers (total n = 58, male n = 14) and in patients with asthma (total n = 19, male n = 6), inhaled ARO-RAGE was safe and well tolerated. No clinically relevant changes in chest x-ray findings, pulmonary function tests or systemic markers of inflammation were observed in the two cohorts. Plasma levels of ARO-RAGE were low, consistent with drug retention in the lung and minimal systemic bioavailability. Prolonged dose-responsive decreases in serum and bronchoalveolar lavage sRAGE levels indicated effective pulmonary target engagement. Together, these results demonstrate safe pulmonary delivery and target engagement of an inhaled, epithelial-targeted therapeutic siRNA, and support continued clinical development of ARO-RAGE. ClinicalTrials.gov registration: NCT05276570.",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Received: 30 September 2025",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Accepted: 27 July 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Published online: 9 September 2026",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Check for updates",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "e-mail: msalathe@kumc.edu",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "A list of authors and their affiliations appears at the end of the paper",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3340",
+          "page": 1,
+          "position": 9
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 1,
+          "position": 10
+        },
+        {
+          "text": "(Supplementary Data Fig. 1) to facilitate epithelial uptake. Based on tissue concentrations obtained in rat, the siRNA was predominantly distributed to the lung after inhaled-dose administration. The next highest concentration was observed in the trachea (6% of lung exposure (area under the curve; AUC0−t)), with minimal concentrations detected in nonrespiratory organs and tissues.",
+          "page": 1,
+          "position": 11
+        },
+        {
+          "text": "A single 0.5 mg kg−1 pulmonary deposited dose (PDD) of inhaled aerosolized siRNA silenced >90% of lung RAGE mRNA within 3 days, maintaining deep silencing for over 8 weeks (Fig. 1a) and uniformly reducing expression of RAGE protein throughout the lung (Fig. 1b). Proteolytic cleavage of the ectodomain of full-length membrane-bound RAGE (mRAGE) protein releases nonsignaling soluble RAGE (sRAGE) into airways and circulation where it can be measured as a biomarker of target engagement in the lung epithelium. Following siRNA inhalation, serum sRAGE gradually declined to nearly undetectable levels over 4 weeks (Fig. 1a), suggesting that the majority of circulating sRAGE in the rat originates in the lung.",
+          "page": 1,
+          "position": 12
+        },
+        {
+          "text": "We next assessed whether siRNA-mediated silencing of pulmo- nary RAGE would be sufficient to phenocopy the anti-inflammatory effects of RAGE deficiency. Homozygous RAGE knockout mice are protected in multiple models of eosinophilic and neutrophilic inflammation7,8,12,17, but the effects of partial RAGE deficiency in heterozygous knockout mice have not been previously reported. We determined that lung RAGE mRNA expression in heterozygous knockouts is approximately 50% of wild type, and that partial RAGE deficiency provides an intermediate level of protection in three mouse models of pulmonary inflammation (Extended Data Fig. 1a–d). These three disease models were explored to understand the role of RAGE in diverse inflammatory processes.",
+          "page": 1,
+          "position": 13
+        },
+        {
+          "text": "Rats challenged with extracts of the fungal allergen Alternaria alternata develop an allergic asthma-like T2 inflammatory response including airway recruitment of eosinophils and neutrophils18,19. Before allergen challenge, rats were dosed with siRNA and target engagement was confirmed by monitoring serum sRAGE (Extended Data Fig. 2a–c). RAGE silencing significantly limited allergen-induced recruitment of eosinophils and neutrophils (Fig. 1c,d) accompanied by signifi- cantly reduced concentrations of the macrophage inflammatory protein-alpha (MIP-1α) and interferon-γ-inducible protein 10 (IP-10) in bronchoalveolar lavage fluid (BALF) samples; pro-inflammatory cytokine IL-17α and the T2 inflammatory mediator IL-13 also decreased in concentration, but not to a statistically significant extent (Extended Data Fig. 2d–g). RAGE silencing also attenuated down- stream inflammatory effector pathways promoting mucin production (MUC5AC mRNA expression; Fig. 1e) and fibrosis (CHI3L1 or YKL-40 mRNA expression; Extended Data Fig. 2h).",
+          "page": 1,
+          "position": 14
+        },
+        {
+          "text": "Similarly, in an elastase-induced injury model of neutrophilic inflammation and COPD emphysema, siRNA-mediated pulmonary RAGE silencing prevented airway recruitment of neutrophils and mac- rophages (Fig. 1f,g) and reduced BAL protein (an index of alveolar- capillary permeability; Fig. 1h) and BAL sRAGE (Extended Data Fig. 3a,b), as well as multiple pro-inflammatory cytokines and chemokines, including IL-6 (Fig. 1i), IL-1β, IL-18, MIP1α, MIP-2, RANTES, KC, IFNγ, VEGF, MCP-1, TNF and IP-10 (Extended Data Fig. 3e). RAGE siRNA treatment significantly limited airway expression of the pro-inflammatory matrix metalloproteinases linked to emphysema progression including MMP12 (Fig. 1j), MMP2 and MMP9 (Extended Data Fig. 3c,d), as well as the pro-inflammatory alarmin HMGB1 (Fig. 1k).",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "Lipopolysaccharide (LPS)-induced acute lung injury is character- ized by profound neutrophil-mediated epithelial/endothelial damage. While RAGE silencing had a minimal effect upon acute neutrophil recruitment in response to LPS injury, siRNA treatment limited BAL neutrophil elastase and citrullinated histone H3 levels (indices of neu- trophil activation and formation of neutrophil extracellular traps), significantly reduced airway expression of multiple inflammatory",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "Inflammatory pulmonary diseases, including asthma and chronic obstructive pulmonary disease (COPD), represent substantial global health burdens, characterized by chronic airway inflammation, airflow obstruction and frequent exacerbations1,2. Asthma affects approxi- mately 300 million individuals worldwide, with severe asthma—defined as persistent symptoms despite inhaled corticosteroid and long-acting beta agonist therapy—occurring in roughly 4% of patients with asthma1. Traditional therapies, such as bronchodilators and corticosteroids, provide symptomatic relief but are limited by systemic side effects such as osteoporosis and incomplete efficacy in severe disease3,4.",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "Biologic therapies targeting type 2 (T2) inflammatory pathways, including monoclonal antibodies against thymic stromal lymphopoi- etin, interleukin (IL)-5 and IL-4Rα, have demonstrated efficacy in reduc- ing asthma exacerbations and improving symptom control. However, clinical remission rates remain modest (14–43%)5, and these therapies are notably less effective or ineffective in patients with T2-low inflam- mation, a phenotype characterized by neutrophilic or mixed inflam- matory profiles. Thus, there remains a critical unmet need for novel therapeutic strategies capable of addressing airway inflammation across both T2-high and T2-low asthma phenotypes.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "The receptor for advanced glycation end-products (RAGE) has emerged as a potential target in inflammatory pulmonary diseases6. RAGE is a pattern recognition receptor expressed on pulmonary epi- thelial cells that binds to several damage-associated molecular pat- terns, including advanced glycation end-products, high-mobility group box-1 (HMGB1) protein, complement components and S100 proteins. Upon activation, RAGE triggers a diverse array of intracel- lular signaling mechanisms including nuclear factor kappa-B (NF-κB), mitogen-activated protein kinase (MAPK) and Janus kinase/signal transducers and activators of transcription (JAK/STAT)-related path- ways7. RAGE has been implicated in the pathogenesis of a wide range of inflammatory diseases, including several pulmonary disorders6. In mouse models of allergic asthma, RAGE is necessary for airway influx of canonical T2 inflammatory mediators such as IL-33, IL-5, IL-13 and eosinophils8. Further, in models of neutrophilic airways disease, RAGE is necessary for inflammasome activation and upregulation of non-T2 inflammatory mediators including recruitment of neutrophils8. RAGE knockout mice are also protected against inflammatory response and destruction of parenchyma in several models of COPD-emphysema9–12. Despite its promise as a therapeutic target, the structural and func- tional complexity of RAGE has posed considerable challenges to tra- ditional drug discovery13. Therapeutic small interfering RNA (siRNA), however, can overcome limitations of protein-interacting small mol- ecules and biologics by directly reducing target mRNA translation.",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Here we report the development and testing of ARO-RAGE, a syn- thetic, double-stranded siRNA designed to specifically silence advanced glycosylation end-product receptor messenger RNA (AGER, aka RAGE mRNA) via an RNA interference (RNAi) mechanism to reduce RAGE expression14. This novel lung delivery platform comprises siRNA linked to a targeting ligand that binds epithelial ανβ6 integrins and facilitates selective delivery of siRNA to the pulmonary epithelium, enhancing tar- get engagement when administered via inhalation15,16. We hypothesized that an RNAi therapeutic that effectively and safely silences RAGE in the pulmonary compartment could provide broad anti-inflammatory effects in the airway and allow for the development of a novel therapy relevant to both T2-high and T2-low asthma. We describe the preclinical development pathway and provide results from the first-in-human trial of ARO-RAGE in healthy human volunteers and patients with asthma.",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "Results Silencing pulmonary RAGE with an epithelium-targeted siRNA limits inflammation in rat models of allergic asthma, COPD and acute lung injury Preclinical rat studies utilized a species-specific siRNA targeting the rat RAGE mRNA conjugated to an integrin ανβ6-selective ligand",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3341",
+          "page": 2,
+          "position": 22
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 2,
+          "position": 23
+        },
+        {
+          "text": "0 10 20 30 40 50 60",
+          "page": 2,
+          "position": 24
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 25
+        },
+        {
+          "text": "50",
+          "page": 2,
+          "position": 26
+        },
+        {
+          "text": "100",
+          "page": 2,
+          "position": 27
+        },
+        {
+          "text": "Days post-dose",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "Lung RAGE mRNA",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "Serum sRAGE protein",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "Naive SalsiRNA SalsiRNA",
+          "page": 2,
+          "position": 31
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 32
+        },
+        {
+          "text": "100",
+          "page": 2,
+          "position": 33
+        },
+        {
+          "text": "200",
+          "page": 2,
+          "position": 34
+        },
+        {
+          "text": "300",
+          "page": 2,
+          "position": 35
+        },
+        {
+          "text": "400",
+          "page": 2,
+          "position": 36
+        },
+        {
+          "text": "500 <0.0001 <0.0001",
+          "page": 2,
+          "position": 37
+        },
+        {
+          "text": "Veh Alternaria",
+          "page": 2,
+          "position": 38
+        },
+        {
+          "text": "Naive SalsiRNA SalsiRNA",
+          "page": 2,
+          "position": 39
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 40
+        },
+        {
+          "text": "10",
+          "page": 2,
+          "position": 41
+        },
+        {
+          "text": "20",
+          "page": 2,
+          "position": 42
+        },
+        {
+          "text": "30",
+          "page": 2,
+          "position": 43
+        },
+        {
+          "text": "40 0.0003 0.0027",
+          "page": 2,
+          "position": 44
+        },
+        {
+          "text": "Veh Alternaria",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "Naive SalsiRNA SalsiRNA 0",
+          "page": 2,
+          "position": 46
+        },
+        {
+          "text": "1,000",
+          "page": 2,
+          "position": 47
+        },
+        {
+          "text": "2,,000",
+          "page": 2,
+          "position": 48
+        },
+        {
+          "text": "3,000",
+          "page": 2,
+          "position": 49
+        },
+        {
+          "text": "4,000 0.0036",
+          "page": 2,
+          "position": 50
+        },
+        {
+          "text": "<0.0001",
+          "page": 2,
+          "position": 51
+        },
+        {
+          "text": "Veh Alternaria",
+          "page": 2,
+          "position": 52
+        },
+        {
+          "text": "Sal siRNA Sal siRNA 0",
+          "page": 2,
+          "position": 53
+        },
+        {
+          "text": "1,000",
+          "page": 2,
+          "position": 54
+        },
+        {
+          "text": "2,000",
+          "page": 2,
+          "position": 55
+        },
+        {
+          "text": "3,000 0.0001 0.0005",
+          "page": 2,
+          "position": 56
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 57
+        },
+        {
+          "text": "Sal siRNA Sal siRNA",
+          "page": 2,
+          "position": 58
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 59
+        },
+        {
+          "text": "500",
+          "page": 2,
+          "position": 60
+        },
+        {
+          "text": "1,000",
+          "page": 2,
+          "position": 61
+        },
+        {
+          "text": "1,500",
+          "page": 2,
+          "position": 62
+        },
+        {
+          "text": "2,000",
+          "page": 2,
+          "position": 63
+        },
+        {
+          "text": "2,500 0.0010 0.0101",
+          "page": 2,
+          "position": 64
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 65
+        },
+        {
+          "text": "Sal siRNA Sal siRNA 0",
+          "page": 2,
+          "position": 66
+        },
+        {
+          "text": "2",
+          "page": 2,
+          "position": 67
+        },
+        {
+          "text": "4",
+          "page": 2,
+          "position": 68
+        },
+        {
+          "text": "6",
+          "page": 2,
+          "position": 69
+        },
+        {
+          "text": "8",
+          "page": 2,
+          "position": 70
+        },
+        {
+          "text": "10 <0.0001 <0.0001",
+          "page": 2,
+          "position": 71
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 72
+        },
+        {
+          "text": "Sal siRNA Sal siRNA",
+          "page": 2,
+          "position": 73
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 74
+        },
+        {
+          "text": "2,000",
+          "page": 2,
+          "position": 75
+        },
+        {
+          "text": "4,000",
+          "page": 2,
+          "position": 76
+        },
+        {
+          "text": "6,000 0.0051 <0.0001",
+          "page": 2,
+          "position": 77
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 78
+        },
+        {
+          "text": "Sal siRNA Sal siRNA",
+          "page": 2,
+          "position": 79
+        },
+        {
+          "text": "0",
+          "page": 2,
+          "position": 80
+        },
+        {
+          "text": "1,000",
+          "page": 2,
+          "position": 81
+        },
+        {
+          "text": "2,000",
+          "page": 2,
+          "position": 82
+        },
+        {
+          "text": "3,000 0.0092 0.0265",
+          "page": 2,
+          "position": 83
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 84
+        },
+        {
+          "text": "Sal siRNA Sal siRNA 0",
+          "page": 2,
+          "position": 85
+        },
+        {
+          "text": "1000",
+          "page": 2,
+          "position": 86
+        },
+        {
+          "text": "2,000",
+          "page": 2,
+          "position": 87
+        },
+        {
+          "text": "3,000",
+          "page": 2,
+          "position": 88
+        },
+        {
+          "text": "4,000 <0.0001 0.0009",
+          "page": 2,
+          "position": 89
+        },
+        {
+          "text": "Veh PPE",
+          "page": 2,
+          "position": 90
+        }
+      ],
+      "subsections": [
+        {
+          "title": "a b",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "c d e",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "f g h",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 2,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "i j k",
+          "level": 2,
+          "page_start": 2,
+          "page_end": 4,
+          "paragraphs": [
+            {
+              "text": "Alternaria challenge",
+              "page": 2,
+              "position": 91
+            },
+            {
+              "text": "Elastase injury",
+              "page": 2,
+              "position": 92
+            },
+            {
+              "text": "Saline 1,000 µm",
+              "page": 2,
+              "position": 93
+            },
+            {
+              "text": "siRNA 1,000 µm",
+              "page": 2,
+              "position": 94
+            },
+            {
+              "text": "Relative expression (%)",
+              "page": 2,
+              "position": 95
+            },
+            {
+              "text": "BAL eosinophils (x104) BAL neutrophils (x105)",
+              "page": 2,
+              "position": 96
+            },
+            {
+              "text": "BAL neutrophils (x104)",
+              "page": 2,
+              "position": 97
+            },
+            {
+              "text": "Muc5ac mRNA (%)",
+              "page": 2,
+              "position": 98
+            },
+            {
+              "text": "BAL macrophages (x105)",
+              "page": 2,
+              "position": 99
+            },
+            {
+              "text": "BAL protein (mg ml–1)",
+              "page": 2,
+              "position": 100
+            },
+            {
+              "text": "BAL IL-6 (pg ml–1)",
+              "page": 2,
+              "position": 101
+            },
+            {
+              "text": "BAL MMP12 (pg ml–1)",
+              "page": 2,
+              "position": 102
+            },
+            {
+              "text": "BAL HMGB1 (pg ml–1)",
+              "page": 2,
+              "position": 103
+            },
+            {
+              "text": "Fig. 1 | Inhaled siRNA mediates sustained pulmonary RAGE silencing and attenuates inflammatory responses in rat models of asthma, COPD and acute lung injury.a, Rats received a single inhaled dose of a ligand-conjugated siRNA targeting RAGE (0.5 mg kg−1 PDD). Lung RAGE mRNA levels were quantified by RT–qPCR over time. Data are expressed as the geometric mean (95% CI). Circulating sRAGE, a pharmacodynamic biomarker, was measured in serum (N = 5 per time point, mean ± s.e.m.). b, Immunohistochemical detection of mRAGE protein in lung tissue on day 36. Representative images from saline-treated (left) and siRNA-treated (right) animals are shown (n = 5 per group). Higher- resolution images are shown in Supplementary Figs. 3–5. c–e, Rats received three intratracheal doses of siRNA (days 1, 8 and 29) before challenge with A. alternata extract (day 49). Groups included naive (gray open circles, n = 4), saline/vehicle (veh; dark-blue open circles, n = 6), siRNA/veh (blue squares, n = 4) and Alternaria-challenged saline (teal open circles, n = 8) or siRNA-treated (teal squares, n = 8) rats for BAL eosinophil counts (c), BAL neutrophil counts (d) and lung Muc5ac mRNA expression normalized to saline control (e). Bars and error",
+              "page": 2,
+              "position": 104
+            },
+            {
+              "text": "bars represent geometric mean x/geometric s.d.; each data point overlaid on the bar charts represents a single animal. BAL and tissue samples were collected 48 h post challenge. f–k, Rats received two inhaled siRNA doses (0.5 mg kg−1 PDD, days 1 and 34) before intratracheal instillation of PPE (day 81). Groups included saline/veh (blue open circles, n = 6), siRNA/veh (blue squares, n = 6), saline/ PPE (green open circles, n = 7) and siRNA/PPE (green squares, n = 7) for BAL neutrophil counts (f), BAL macrophage counts (g), BAL protein concentration (h), BAL IL-6 concentration (i) (additional BAL cytokine data in Extended Data Fig. 3e), BAL matrix metalloproteinase-12 (MMP12) concentration (j) and BAL HMGB1 concentration (k). BAL and tissue samples were collected 48 h after PPE instillation. Data are presented as mean ± s.e.m. Each data point overlaid on the bar charts represents a single animal. Statistical analysis was performed using one-way ANOVA with Tukey’s HSD for parametric data, or Kruskal–Wallis with Dunn’s test for nonparametric data. P values are shown above the bars; values <0.01 are considered significant.",
+              "page": 2,
+              "position": 105
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3342",
+              "page": 3,
+              "position": 106
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 3,
+              "position": 107
+            },
+            {
+              "text": "mediators (KC, IL-1α, IL-1β, IL-10, IL-17A, IP-10, leptin, MCP-1, MIP1α, RANTES and TNF) and mitigated BAL protein, consistent with protec- tion from vascular damage (Extended Data Fig. 4a–d).",
+              "page": 3,
+              "position": 108
+            },
+            {
+              "text": "Together, these studies confirm in rodents that siRNA-mediated silencing of pulmonary RAGE phenocopies anti-inflammatory features of RAGE deficiency and suggest potential therapeutic applications in both eosinophilic (for example, T2 asthma) and neutrophilic (for example, non-T2 asthma, COPD and cystic fibrosis) lung disease.",
+              "page": 3,
+              "position": 109
+            },
+            {
+              "text": "ARO-RAGE pharmacodynamics in cynomolgus macaques The clinical candidate ARO-RAGE is an integrin ανβ6-ligand-conjugated (Supplementary Data Fig. 1) siRNA optimized to silence human RAGE mRNA but is also fully homologous with the cynomolgus macaque RAGE transcript to facilitate preclinical assessments of pharmacoki- netics (PK), pharmacodynamics and safety. Thus, the same siRNA was used in both macaque and human studies. ARO-RAGE has a limited off-target profile, with only nine genes with two mismatches to the antisense strand (Supplementary Data Fig. 2a), only three of which are known to express protein. While two of these three have little or no expression in the lung, the third potential off-target gene, STARD7, has been linked to T2 inflammation and was studied in greater detail since the mismatches are conserved between human and cynomolgus monkey sequences. No change in STARD7 expression was observed in lung tissue from ARO-RAGE-dosed cynomolgus monkeys with deep on-target RAGE mRNA knockdown (Supplementary Data Fig. 2b). Potential off-target genes with three or more mismatches were not evaluated as they are unlikely to be silenced by ARO-RAGE. These findings reduce the likelihood of biologically meaningful off-target effects, although broader transcriptomic evaluation will be performed in future clinical studies.",
+              "page": 3,
+              "position": 110
+            },
+            {
+              "text": "When administered to cynomolgus macaques as a single aerosol exposure of 1 mg kg−1 PDD, ARO-RAGE uniformly silenced >90% of the target mRNA in regionally diverse lung tissues collected 2 weeks post dose (Fig. 2a). Next, we performed a dose–response study to examine the relationship between mRAGE protein in the lung (therapeutic tar- get) and sRAGE protein in the serum (target engagement biomarker). ARO-RAGE inhalation produced dose-dependent reductions in lung tissue mRAGE and serum sRAGE protein 4 weeks post dose, with tis- sue mRAGE showing generally deeper silencing than serum sRAGE (Fig. 2b). To evaluate duration of target engagement, animals received either one or two doses of 1.2 mg kg−1 PDD ARO-RAGE followed by weekly serum collections for 4 months. Serum sRAGE reached nadir 4 weeks after the first dose and gradually recovered towards baseline over the next 3 months; a second dose (administered 4 weeks after the first) maintained deep reductions in serum sRAGE for over 4 weeks (Fig. 2c). sRAGE protein in BAL samples collected from a subset of animals was reduced to near the lower limit of quantitation 4 weeks after the second dose, consistent with deep silencing of lung mRAGE protein (Extended Data Fig. 5a,b).",
+              "page": 3,
+              "position": 111
+            },
+            {
+              "text": "Design of the first-in-human study of ARO-RAGE Although the animal studies suggested potential applications in both eosinophilic (for example, T2 asthma) and neutrophilic (for example, non-T2 asthma, COPD and cystic fibrosis) lung disease, the ARO-RAGE first-in-human study focused on a single patient population: patients with asthma of mild-to-moderate severity with a T2 inflammatory pro- file, with an eosinophil count ≥200 cells μl−1. We conducted a phase 1/2a study (ClinicalTrials.Gov: NCT05276570) designed to assess the safety, tolerability, PK and pharmacodynamic effects of ARO-RAGE in healthy volunteers and in patients with asthma with a T2 inflammatory profile (see the study design shown in Fig. 3), with key endpoints related to safety (treatment-emergent adverse events (AEs)), PK parameters and additional assessments including forced expiratory volume in 1 s (FEV1), forced vital capacity (FVC) and diffusing capacity for carbon monoxide (DLCO). Given the known variability in key pulmonary function test",
+              "page": 3,
+              "position": 112
+            },
+            {
+              "text": "(PFT) readouts such as FEV1 in patients with obstructive airway disease (>20%)20, these measures as efficacy endpoints lack statistical power to detect an effect in a study this size; thus they were included as safety assessments only in this trial. Similarly, the study was not powered to examine the effect of ARO-RAGE on asthma exacerbation rate, a com- mon measure of efficacy in this population. Likewise, because of the relatively small number of participants in each cohort (single ascending dose (SAD), 31 female and 9 male; multiple ascending doses (MAD), 28 female and 13 male; asthma, 17 female and 8 male), sex-disaggregated analyses were not performed.",
+              "page": 3,
+              "position": 113
+            },
+            {
+              "text": "Baseline characteristics were well balanced between those assigned to placebo and to ARO-RAGE in both the healthy volunteer (single and multidose) and asthma cohorts (Table 1).",
+              "page": 3,
+              "position": 114
+            },
+            {
+              "text": "Safety (primary endpoint) The overall safety and tolerability profile of ARO-RAGE appears favora- ble, with no AEs leading to discontinuation of study drug or study (Table 2).",
+              "page": 3,
+              "position": 115
+            },
+            {
+              "text": "Among healthy volunteers, AEs occurred in 60.0% of partici- pants in the placebo group versus 86.7% of participants receiving ARO-RAGE in the SAD cohorts and 69.2% of placebo participants versus 78.6% of ARO-RAGE participants in the MAD cohorts. Headache and upper respiratory infection were the most common AEs reported in both cohorts. AEs were generally balanced across groups, except for COVID-19, which was reported more often in those randomized to ARO-RAGE (14/58 individuals) than to placebo (2/23 individuals). One serious AE (grade 1 pre-eclampsia) was reported in a healthy volunteer in the MAD Cohort B4 (92 mg ARO-RAGE). This occurred 263 days following her final dose of drug (after having become preg- nant ~1 month after the last ARO-RAGE dose), was deemed not related to study drug, and resolved with the delivery of a healthy baby. No clinically relevant changes in chest x-ray findings were reported, and PFT identified no clear decline in FEV1, FVC or DLCO following any dose of ARO-RAGE in either the SAD or MAD cohorts (Extended Data Fig. 6, left and center columns).",
+              "page": 3,
+              "position": 116
+            },
+            {
+              "text": "Among individuals with asthma, AEs occurred in 83.3% of patients in the placebo group versus 84.2% of patients receiving ARO-RAGE. Headache and upper respiratory infection were again the most com- mon AEs; no serious AEs occurred in either group. No clinically rel- evant chest x-ray findings were reported, and PFT demonstrated no negative impact on FEV1 or FVC. Transient reductions in DLCO were observed at day 57 for the two highest doses of ARO-RAGE, but these changes were mild (~10%), returned to baseline at day 113 and would be considered within the range of normal variation21 for this assay (Extended Data Fig. 6, right column).",
+              "page": 3,
+              "position": 117
+            },
+            {
+              "text": "Additional safety biomarkers, including systemic inflamma- tory cytokine levels (all participants) and BALF inflammatory cell counts (subset of healthy volunteers), were examined. As shown in Extended Data Fig. 7, there was no consistent increase in circulat- ing high-sensitivity C-reactive protein or IL-6 following any dose of ARO-RAGE administered to either healthy volunteers or patients with asthma. BALF inflammatory cell count was analyzed 4 weeks (day 31) after ARO-RAGE administration in all SAD cohorts, and at 4 and 8 weeks (day 57 and 85) following the final dose given to healthy volunteers in the 184 mg ARO-RAGE MAD cohort B5. As shown in Extended Data Fig. 8, ARO-RAGE did not induce any obvious increase in eosinophils, lympho- cytes, macrophages or neutrophils relative to placebo.",
+              "page": 3,
+              "position": 118
+            },
+            {
+              "text": "All participants and samples tested negative for antibody against ARO-RAGE; therefore, the treatment-emergent antidrug antibodies incidence rate among participants receiving active treatment was 0% (0/77). Together, ARO-RAGE administration by inhalation depleted serum sRAGE without resulting in any safety or tolerability concerns, and no systemic inflammatory changes or worsening of lung function were observed.",
+              "page": 3,
+              "position": 119
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3343",
+              "page": 4,
+              "position": 120
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 4,
+              "position": 121
+            },
+            {
+              "text": "PK (secondary endpoint) and pharmacodynamics (exploratory endpoint) in healthy volunteers and patients with asthma Plasma PK and metabolite identification. Following a single inhaled dose in healthy volunteer cohorts (SAD cohort), ARO-RAGE was rela- tively rapidly absorbed into systemic circulation. Plasma concen- trations peaked (Cmax) within 1–7 h (median Tmax), and Tmax occurred later with higher doses (Extended Data Fig. 9a). Low Cmax values were consistent with observations in nonclinical species, suggesting low",
+              "page": 4,
+              "position": 122
+            },
+            {
+              "text": "systemic bioavailability via inhalation dosing, with PDD probably retained in the lung. After reaching Cmax, ARO-RAGE plasma concen- trations declined in an approximately mono-exponential manner and cleared rapidly within 48 h post dose; thus, no systemic accumula- tion is anticipated with a 4-week (or less frequent) dosing interval in humans. The mean terminal-phase elimination t1/2 ranged from 6.1 (10 mg) to 16 h (184 mg). Similar to Tmax, t1/2 values were longer in the higher-dose cohorts, probably due to ARO-RAGE plasma clearance",
+              "page": 4,
+              "position": 123
+            },
+            {
+              "text": "1 15 29 43 57 71 85 99 113",
+              "page": 4,
+              "position": 124
+            },
+            {
+              "text": "0",
+              "page": 4,
+              "position": 125
+            },
+            {
+              "text": "50",
+              "page": 4,
+              "position": 126
+            },
+            {
+              "text": "100",
+              "page": 4,
+              "position": 127
+            },
+            {
+              "text": "150",
+              "page": 4,
+              "position": 128
+            },
+            {
+              "text": "Saline D1 ARO-RAGE (one dose)",
+              "page": 4,
+              "position": 129
+            },
+            {
+              "text": "ARO-RAGE (two doses)",
+              "page": 4,
+              "position": 130
+            },
+            {
+              "text": "Study day",
+              "page": 4,
+              "position": 131
+            },
+            {
+              "text": "0 0.1 0.2 0.3 0.4 0.5",
+              "page": 4,
+              "position": 132
+            },
+            {
+              "text": "0",
+              "page": 4,
+              "position": 133
+            },
+            {
+              "text": "50",
+              "page": 4,
+              "position": 134
+            },
+            {
+              "text": "100",
+              "page": 4,
+              "position": 135
+            },
+            {
+              "text": "150",
+              "page": 4,
+              "position": 136
+            },
+            {
+              "text": "ARO-RAGE (mg kg–1 PDD)",
+              "page": 4,
+              "position": 137
+            },
+            {
+              "text": "Lung mRAGE protein",
+              "page": 4,
+              "position": 138
+            },
+            {
+              "text": "Serum sRAGE protein",
+              "page": 4,
+              "position": 139
+            },
+            {
+              "text": "Distal Medial Proximal Distal Distal Medial Proximal Distal Medial Proximal Distal Distal Medial Proximal 0",
+              "page": 4,
+              "position": 140
+            },
+            {
+              "text": "50",
+              "page": 4,
+              "position": 141
+            },
+            {
+              "text": "100",
+              "page": 4,
+              "position": 142
+            },
+            {
+              "text": "150",
+              "page": 4,
+              "position": 143
+            },
+            {
+              "text": "200",
+              "page": 4,
+              "position": 144
+            },
+            {
+              "text": "250",
+              "page": 4,
+              "position": 145
+            },
+            {
+              "text": "Left lung Right lung",
+              "page": 4,
+              "position": 146
+            },
+            {
+              "text": "Saline ARO-RAGE (1 mg kg",
+              "page": 4,
+              "position": 147
+            },
+            {
+              "text": "–1 PDD)",
+              "page": 4,
+              "position": 148
+            },
+            {
+              "text": "Slice:",
+              "page": 4,
+              "position": 149
+            },
+            {
+              "text": "Lobe:",
+              "page": 4,
+              "position": 150
+            },
+            {
+              "text": "Caudal Caudal Cranial Cranial",
+              "page": 4,
+              "position": 151
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "a",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "b",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 4,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "c",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "RAGE mRNA",
+              "page": 4,
+              "position": 152
+            },
+            {
+              "text": "(percentage of saline control) Percentage of baseline Serum sRAGE",
+              "page": 4,
+              "position": 153
+            },
+            {
+              "text": "(percentage of baseline)",
+              "page": 4,
+              "position": 154
+            },
+            {
+              "text": "Fig. 2 | ARO-RAGE pharmacodynamics in cynomolgus macaques.a, RAGE mRNA expression in cynomolgus macaque lungs 14 days after a single inhaled dose of ARO-RAGE (1 mg kg−1 PDD). RT–qPCR was performed on tissues from both left and right lungs, including cranial and caudal lobes, and three longitudinal regions spanning from the carina to the periphery (proximal, medial and distal). Bars and error bars from saline-treated (blue open circles, n = 3) and ARO-RAGE- treated (aqua squares, n = 3) animals represent geometric mean x/geometric s.d.; each data point overlaid on the bar charts represents a single animal. A dotted red line indicates 90% mRNA silencing. b, Dose–response assessment of ARO-RAGE in cynomolgus macaques. Animals received a single inhaled dose of ARO-RAGE",
+              "page": 4,
+              "position": 155
+            },
+            {
+              "text": "(0.13, 0.20, 0.31 or 0.47 mg kg−1 PDD, n = 3 per group); tissue and serum samples were collected 28 days later. Membrane-bound mRAGE protein in lung tissue and sRAGE protein in serum were quantified by western analysis and immunoassay, respectively (see the representative western blot in Supplementary Fig. 6). Data are presented as mean ± s.d. c, Serum sRAGE protein kinetics following ARO- RAGE inhalation in cynomolgus macaques. Animals (n = 3 per group) received either saline vehicle on day 1 (blue circle), a single dose of ARO-RAGE (1.2 mg kg−1 PDD) on day 1 (aqua squares), or doses of ARO-RAGE on days 1 and 29 (purple squares). Weekly serum sRAGE data are presented mean ± range (shaded area), normalized to pre-dose baseline values.",
+              "page": 4,
+              "position": 156
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3344",
+              "page": 5,
+              "position": 157
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 5,
+              "position": 158
+            },
+            {
+              "text": "Dosing Bronchoscopy",
+              "page": 5,
+              "position": 159
+            },
+            {
+              "text": "NHV single dose",
+              "page": 5,
+              "position": 160
+            },
+            {
+              "text": "Safety evaluation",
+              "page": 5,
+              "position": 161
+            },
+            {
+              "text": "NHV multidose Asthma multidose",
+              "page": 5,
+              "position": 162
+            },
+            {
+              "text": "EOS D113",
+              "page": 5,
+              "position": 163
+            },
+            {
+              "text": "D31 Screen",
+              "page": 5,
+              "position": 164
+            },
+            {
+              "text": "D1",
+              "page": 5,
+              "position": 165
+            },
+            {
+              "text": "ARO-RAGE 10 mg Cohort A1",
+              "page": 5,
+              "position": 166
+            },
+            {
+              "text": "ARO-RAGE 20 mg Cohort A2",
+              "page": 5,
+              "position": 167
+            },
+            {
+              "text": "ARO-RAGE 44 mg Cohort A3",
+              "page": 5,
+              "position": 168
+            },
+            {
+              "text": "ARO-RAGE 92 mg Cohort A4",
+              "page": 5,
+              "position": 169
+            },
+            {
+              "text": "ARO-RAGE 184 mg Cohort A5",
+              "page": 5,
+              "position": 170
+            },
+            {
+              "text": "Safety evaluation",
+              "page": 5,
+              "position": 171
+            },
+            {
+              "text": "Safety evaluation",
+              "page": 5,
+              "position": 172
+            },
+            {
+              "text": "Safety evaluation",
+              "page": 5,
+              "position": 173
+            },
+            {
+              "text": "Safety evaluation",
+              "page": 5,
+              "position": 174
+            },
+            {
+              "text": "ARO-RAGE 10 mg Cohort B1",
+              "page": 5,
+              "position": 175
+            },
+            {
+              "text": "n = 6 (4:2)",
+              "page": 5,
+              "position": 176
+            },
+            {
+              "text": "ARO-RAGE 20 mg Cohort B2",
+              "page": 5,
+              "position": 177
+            },
+            {
+              "text": "n = 6 (4:2)",
+              "page": 5,
+              "position": 178
+            },
+            {
+              "text": "ARO-RAGE 44 mg Cohort B3",
+              "page": 5,
+              "position": 179
+            },
+            {
+              "text": "n = 6 (4:2)",
+              "page": 5,
+              "position": 180
+            },
+            {
+              "text": "ARO-RAGE 92 mg Cohort B4",
+              "page": 5,
+              "position": 181
+            },
+            {
+              "text": "n = 6 (4:2)",
+              "page": 5,
+              "position": 182
+            },
+            {
+              "text": "ARO-RAGE 184 mg Cohort B5",
+              "page": 5,
+              "position": 183
+            },
+            {
+              "text": "n = 9 (6:3)",
+              "page": 5,
+              "position": 184
+            },
+            {
+              "text": "ARO-RAGE 120 mg Cohort B6",
+              "page": 5,
+              "position": 185
+            },
+            {
+              "text": "n = 8 (6:2)",
+              "page": 5,
+              "position": 186
+            },
+            {
+              "text": "EOS D113",
+              "page": 5,
+              "position": 187
+            },
+            {
+              "text": "D57 Screen",
+              "page": 5,
+              "position": 188
+            },
+            {
+              "text": "D1 D29",
+              "page": 5,
+              "position": 189
+            },
+            {
+              "text": "D85",
+              "page": 5,
+              "position": 190
+            },
+            {
+              "text": "ARO-RAGE 44 mg Cohort C1",
+              "page": 5,
+              "position": 191
+            },
+            {
+              "text": "ARO-RAGE 92 mg Cohort C2",
+              "page": 5,
+              "position": 192
+            },
+            {
+              "text": "ARO-RAGE 184 mg Cohort C3",
+              "page": 5,
+              "position": 193
+            },
+            {
+              "text": "EOS D113 D1 D29",
+              "page": 5,
+              "position": 194
+            },
+            {
+              "text": "Eight participants each (6:2)",
+              "page": 5,
+              "position": 195
+            },
+            {
+              "text": "Fully enrolled",
+              "page": 5,
+              "position": 196
+            },
+            {
+              "text": "Six to nine participants each",
+              "page": 5,
+              "position": 197
+            },
+            {
+              "text": "Fully enrolled",
+              "page": 5,
+              "position": 198
+            },
+            {
+              "text": "Eight participants each (6:2)",
+              "page": 5,
+              "position": 199
+            },
+            {
+              "text": "Fully enrolled",
+              "page": 5,
+              "position": 200
+            },
+            {
+              "text": "Mild-to-moderate asthma",
+              "page": 5,
+              "position": 201
+            },
+            {
+              "text": "BEC ≥200 cells µl–1",
+              "page": 5,
+              "position": 202
+            },
+            {
+              "text": "ppFEV ≥70%",
+              "page": 5,
+              "position": 203
+            },
+            {
+              "text": "NHV MAD",
+              "page": 5,
+              "position": 204
+            },
+            {
+              "text": "Randomized",
+              "page": 5,
+              "position": 205
+            },
+            {
+              "text": "to placebo",
+              "page": 5,
+              "position": 206
+            },
+            {
+              "text": "n = 13",
+              "page": 5,
+              "position": 207
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 208
+            },
+            {
+              "text": "study n = 13",
+              "page": 5,
+              "position": 209
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 210
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 211
+            },
+            {
+              "text": "120 mg n = 6",
+              "page": 5,
+              "position": 212
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 213
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 214
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 215
+            },
+            {
+              "text": "1 discontinued 1 lost to follow-up",
+              "page": 5,
+              "position": 216
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 217
+            },
+            {
+              "text": "184 mg n = 6",
+              "page": 5,
+              "position": 218
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 219
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 220
+            },
+            {
+              "text": "n = 5",
+              "page": 5,
+              "position": 221
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 222
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 223
+            },
+            {
+              "text": "92 mg n = 4",
+              "page": 5,
+              "position": 224
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 225
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 226
+            },
+            {
+              "text": "n = 4",
+              "page": 5,
+              "position": 227
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 228
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 229
+            },
+            {
+              "text": "44 mg n = 4",
+              "page": 5,
+              "position": 230
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 231
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 232
+            },
+            {
+              "text": "n = 4",
+              "page": 5,
+              "position": 233
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 234
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 235
+            },
+            {
+              "text": "20 mg n = 4",
+              "page": 5,
+              "position": 236
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 237
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 238
+            },
+            {
+              "text": "n = 4",
+              "page": 5,
+              "position": 239
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 240
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 241
+            },
+            {
+              "text": "10 mg n = 4",
+              "page": 5,
+              "position": 242
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 243
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 244
+            },
+            {
+              "text": "n = 4",
+              "page": 5,
+              "position": 245
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 246
+            },
+            {
+              "text": "NHV SAD",
+              "page": 5,
+              "position": 247
+            },
+            {
+              "text": "Randomized",
+              "page": 5,
+              "position": 248
+            },
+            {
+              "text": "to placebo",
+              "page": 5,
+              "position": 249
+            },
+            {
+              "text": "n = 10",
+              "page": 5,
+              "position": 250
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 251
+            },
+            {
+              "text": "study n = 10",
+              "page": 5,
+              "position": 252
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 253
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 254
+            },
+            {
+              "text": "184 mg n = 6",
+              "page": 5,
+              "position": 255
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 256
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 257
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 258
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 259
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 260
+            },
+            {
+              "text": "92 mg n = 6",
+              "page": 5,
+              "position": 261
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 262
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 263
+            },
+            {
+              "text": "n = 5",
+              "page": 5,
+              "position": 264
+            },
+            {
+              "text": "1 discontinued 1 other",
+              "page": 5,
+              "position": 265
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 266
+            },
+            {
+              "text": "44 mg n = 6",
+              "page": 5,
+              "position": 267
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 268
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 269
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 270
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 271
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 272
+            },
+            {
+              "text": "20 mg n = 6",
+              "page": 5,
+              "position": 273
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 274
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 275
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 276
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 277
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 278
+            },
+            {
+              "text": "10 mg n = 6",
+              "page": 5,
+              "position": 279
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 280
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 281
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 282
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 283
+            },
+            {
+              "text": "Asthma MAD",
+              "page": 5,
+              "position": 284
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 285
+            },
+            {
+              "text": "92 mg n = 7",
+              "page": 5,
+              "position": 286
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 287
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 288
+            },
+            {
+              "text": "n = 7",
+              "page": 5,
+              "position": 289
+            },
+            {
+              "text": "1 discontinued 1 other",
+              "page": 5,
+              "position": 290
+            },
+            {
+              "text": "Randomized",
+              "page": 5,
+              "position": 291
+            },
+            {
+              "text": "to placebo",
+              "page": 5,
+              "position": 292
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 293
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 294
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 295
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 296
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 297
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 298
+            },
+            {
+              "text": "44 mg n = 6",
+              "page": 5,
+              "position": 299
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 300
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 301
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 302
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 303
+            },
+            {
+              "text": "Randomized to ARO-RAGE",
+              "page": 5,
+              "position": 304
+            },
+            {
+              "text": "184 mg n = 6",
+              "page": 5,
+              "position": 305
+            },
+            {
+              "text": "Completed",
+              "page": 5,
+              "position": 306
+            },
+            {
+              "text": "study",
+              "page": 5,
+              "position": 307
+            },
+            {
+              "text": "n = 6",
+              "page": 5,
+              "position": 308
+            },
+            {
+              "text": "0 discontinued",
+              "page": 5,
+              "position": 309
+            },
+            {
+              "text": "Fig. 3 | Study design. This was a phase 1/2a, randomized, double-blind, placebo- controlled study of ARO-RAGE in healthy volunteers and patients with asthma. Bronchoscopy was performed only in healthy volunteers, with timings shown at the top. The numbers indicate the planned enrollment for each cohort; the actual numbers of individuals who were randomized and who completed the study are",
+              "page": 5,
+              "position": 310
+            },
+            {
+              "text": "shown in the CONSORT diagram (bottom). Other measurements included PK, spirometry, DLCO, chest x-ray, serum sRAGE and blood inflammatory markers. BEC, blood eosinophil count; EOS, end of study; NHV, normal healthy volunteers. Credit: nasal and lung icons, Noun Project.",
+              "page": 5,
+              "position": 311
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3345",
+              "page": 6,
+              "position": 312
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 6,
+              "position": 313
+            },
+            {
+              "text": "being rate-limited by its systemic absorption from the lung, which was more sustained at higher PDDs. The apparent clearance (CL/F) of ARO-RAGE displayed a trend of decreasing values with increasing doses, with arithmetic mean values ranging from 752 l h−1 (at 10 mg) to 41 l h−1 (at 184 mg). The dose-dependent CL/F was probably due",
+              "page": 6,
+              "position": 314
+            },
+            {
+              "text": "to an increased fraction of plasma absorption with ascending doses rather than a dose-dependent change in ARO-RAGE systemic clear- ance. Results from exposure–dose proportionality analysis confirmed this. ARO-RAGE plasma exposures (Cmax, AUC from time 0 to the last measurable concentration (AUClast)) increased in a greater than dose",
+              "page": 6,
+              "position": 315
+            },
+            {
+              "text": "Table 1 | Baseline characteristics of participants in the clinical trial",
+              "page": 6,
+              "position": 316
+            },
+            {
+              "text": "Characteristic SAD healthy volunteers MAD healthy volunteers MAD patients with asthma",
+              "page": 6,
+              "position": 317
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Pooled placebo (N = 10)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 30)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled placebo (N = 13)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 28)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled placebo (N = 6)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 19)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "Age, median (range), years 35.5 (21–54) 34.0 (19–54) 33.0 (20–55) 33.0 (19–46) 39.5 (20–56) 35.0 (18–51)",
+                  "page": 6,
+                  "position": 318
+                },
+                {
+                  "text": "Age at asthma onset, median (range), years",
+                  "page": 6,
+                  "position": 319
+                },
+                {
+                  "text": "NA 4.5 (2–24) 8.0 (1–33)",
+                  "page": 6,
+                  "position": 320
+                },
+                {
+                  "text": "Male, n (%) 2 (20) 7 (23.3) 6 (46.2) 7 (25.0) 2 (33.3) 6 (31.6)",
+                  "page": 6,
+                  "position": 321
+                },
+                {
+                  "text": "Race, n (%)",
+                  "page": 6,
+                  "position": 322
+                },
+                {
+                  "text": "White 5 (50) 17 (57) 6 (46.2) 17 (60.7) 3 (50.0) 13 (68.4)",
+                  "page": 6,
+                  "position": 323
+                },
+                {
+                  "text": "American Indian/Alaska Native 0 0 0 1 (3.6) 0 0",
+                  "page": 6,
+                  "position": 324
+                },
+                {
+                  "text": "Asian 3 (30) 5 (17) 3 (23.1) 8 (28.6) 0 2 (10.5)",
+                  "page": 6,
+                  "position": 325
+                },
+                {
+                  "text": "Other 2 (20) 8 (27) 4 (30.8) 3 (10.7) 3 (50.0) 4 (21.1)",
+                  "page": 6,
+                  "position": 326
+                },
+                {
+                  "text": "Body mass index, median (range), kg m−2 24.75 (18.6–29.0) 25.35 (20.1–32.7) 25.70 (21.2–33.5) 25.95 (18.5–31.3) 22.95 (19.2–31.5) 25.50 (19.7–35.0)",
+                  "page": 6,
+                  "position": 327
+                },
+                {
+                  "text": "Serum sRAGE, mean (s.d.), pg/mL",
+                  "page": 6,
+                  "position": 328
+                },
+                {
+                  "text": "1,273 (531) 1,213 (541) 743 (282) 1,235 (444) 1,108 (458) 1,017 (338)",
+                  "page": 6,
+                  "position": 329
+                },
+                {
+                  "text": "BALF sRAGE, mean (s.d.), pg/mL 1,826 (1,054) 2,708 (1,848) 1,159 (414) 1,626 (874) NA NA",
+                  "page": 6,
+                  "position": 330
+                },
+                {
+                  "text": "preBD ppFEV1, mean (s.d.), % 94.9 (9.0) 97.9 (10.6) 96.3 (12.4) 95.4 (11.9) 95.8 (16.3) 91.4 (9.0)",
+                  "page": 6,
+                  "position": 331
+                },
+                {
+                  "text": "DLCO, mean (s.d.), mLCO min−1 mmgG−1 23.0 (4.5) 24.4 (5.3) 27.2 (6.7) 24.4 (3.4) 28.3 (5.5) 27.2 (5.8)",
+                  "page": 6,
+                  "position": 332
+                },
+                {
+                  "text": "Total daily ICS dosea, n (%)",
+                  "page": 6,
+                  "position": 333
+                },
+                {
+                  "text": "NA",
+                  "page": 6,
+                  "position": 334
+                },
+                {
+                  "text": "None 0 5 (26.3)",
+                  "page": 6,
+                  "position": 335
+                },
+                {
+                  "text": "Low 2 (33.3) 9 (47.4)",
+                  "page": 6,
+                  "position": 336
+                },
+                {
+                  "text": "Medium 4 (66.7) 4 (21.1)",
+                  "page": 6,
+                  "position": 337
+                },
+                {
+                  "text": "High 0 1 (5.3)",
+                  "page": 6,
+                  "position": 338
+                },
+                {
+                  "text": "Immunoglobulin E (IU ml−1), mean (s.d.)",
+                  "page": 6,
+                  "position": 339
+                },
+                {
+                  "text": "NA 401.0 (282.8) 408.4 (536.9)",
+                  "page": 6,
+                  "position": 340
+                },
+                {
+                  "text": "mLCO, milliliters of carbon monoxide; NA, not applicable; preBD, pre-bronchodilator. a Low, medium and high doses of ICS are defined per Gina 2021 guidelines1.",
+                  "page": 6,
+                  "position": 341
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "Table 2 | Safety results",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [
+                {
+                  "text": "AE, n (%) SAD healthy volunteers MAD healthy volunteers Multiple doses patients with",
+                  "page": 6,
+                  "position": 342
+                }
+              ],
+              "subsections": []
+            },
+            {
+              "title": "asthma",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled placebo (N = 10)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 30)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled placebo (N = 13)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 28)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled placebo (N = 6)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Pooled ARO-RAGE (N = 19)",
+              "level": 4,
+              "page_start": 6,
+              "page_end": 8,
+              "paragraphs": [
+                {
+                  "text": "≥1 TEAE 6 (60.0) 26 (86.7) 9 (69.2) 22 (78.6) 5 (83.3) 16 (84.2)",
+                  "page": 6,
+                  "position": 343
+                },
+                {
+                  "text": "Serious TEAE 0 0 0 1 (3.6) 0 0",
+                  "page": 6,
+                  "position": 344
+                },
+                {
+                  "text": "TEAE leading to study discontinuation 0 0 0 0 0 0",
+                  "page": 6,
+                  "position": 345
+                },
+                {
+                  "text": "TEAE leading to study drug withdrawal 0 0 0 0 0 0",
+                  "page": 6,
+                  "position": 346
+                },
+                {
+                  "text": "Common TEAEs",
+                  "page": 6,
+                  "position": 347
+                },
+                {
+                  "text": "Headache 2 (20) 8 (26.7) 2 (15.4) 3 (10.7) 0 5 (26.3)",
+                  "page": 6,
+                  "position": 348
+                },
+                {
+                  "text": "Upper respiratory infection 2 (20) 6 (20.0) 5 (38.5) 7 (25.0) 4 (66.7) 5 (26.3)",
+                  "page": 6,
+                  "position": 349
+                },
+                {
+                  "text": "COVID-19 1 (10) 5 (16.7) 1 (7.7) 9 (32.1) 0 2 (10.5)",
+                  "page": 6,
+                  "position": 350
+                },
+                {
+                  "text": "Oropharyngeal pain 1 (10) 2 (6.7) 0 6 (21.4) 0 1 (5.3)",
+                  "page": 6,
+                  "position": 351
+                },
+                {
+                  "text": "Chest x-ray (number of patients with clinically relevant changes from screening to day 113)",
+                  "page": 6,
+                  "position": 352
+                },
+                {
+                  "text": "0 (n = 10) 0 (n = 26*) 0 (n = 11*) 0 (n = 25*) 0 (n = 6) 0 (n = 18*)",
+                  "page": 6,
+                  "position": 353
+                },
+                {
+                  "text": "*Day 113 x-rays were not collected for 4 patients in the SAD cohorts (ARO-RAGE 20 mg (n = 2) and 92 mg (n = 2)), 5 individuals in the MAD cohort (placebo (n = 2), ARO-RAGE 20 mg (n = 1), 92 mg (n = 1) and 184 mg (n = 1)) and 1 patient in the asthma cohort (ARO-RAGE 44 mg). aNumber of patients with clinically relevant changes from screening to day 113.",
+                  "page": 6,
+                  "position": 354
+                },
+                {
+                  "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3346",
+                  "page": 7,
+                  "position": 355
+                },
+                {
+                  "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+                  "page": 7,
+                  "position": 356
+                },
+                {
+                  "text": "proportional manner over the dose range of 10 to 184 mg. However, due to the low systemic bioavailability (8.6% and 5.7% in rat and macaques, respectively), the PDD is probably primarily distributed to the lung, resulting in ARO-RAGE lung-tissue concentrations prob- ably approximately proportional to the dose. ARO-RAGE plasma expo- sures (Cmax and AUC values) exhibited relatively high interindividual variability. The geometric mean coefficient of variation ranged from 41.4% to 87.8%, 40.5% to 191%, and 39.9% to 55.9% for Cmax, AUClast and AUC from time 0 to infinity (AUCinf), respectively.",
+                  "page": 7,
+                  "position": 357
+                },
+                {
+                  "text": "Considering the relatively high PK variability associated with the inhalation administration, the observed ARO-RAGE plasma PK expo- sure parameters (Cmax and AUClast) were similar with repeated inhalation dosing on day 1 and day 29 (MAD cohorts) (Extended Data Fig. 9b), suggesting time-invariant exposure over the ARO-RAGE dose range of 10 to 184 mg. Trough ARO-RAGE levels on day 29 in the MAD cohorts were below the lower limit of quantitation, further confirming the absence of drug accumulation.",
+                  "page": 7,
+                  "position": 358
+                },
+                {
+                  "text": "Plasma ARO-RAGE PK profiles were comparable between healthy volunteers and patients with asthma. In patients with asthma, ARO-RAGE concentrations increased with increasing doses and gen- erally peaked between 1.5 and 6 h post dose (Extended Data Fig. 9c). Plasma exposure values (AUC24) were similar in the two populations, ranging from 256 to 1,580 ng h−1 ml−1 and 248 to 1,680 ng h−1 ml−1 for patients with asthma and in healthy volunteers, respectively. The PK data, while limited by relatively sparse sampling in asthmatic patients, nevertheless suggested that ARO-RAGE PK parameters were generally comparable between the two study populations.",
+                  "page": 7,
+                  "position": 359
+                },
+                {
+                  "text": "Plasma samples collected from study participants after a single inhalational dose of ARO-RAGE (184 mg) were pooled and extracted for liquid chromatography–high-resolution mass spectrometry (LC–HRMS) profiling to identify ARO-RAGE metabolites. Based on this semi-quantitative analysis, no circulating metabolites of ARO-RAGE with a relative abundance >10% of the total drug-related materials were found in plasma.",
+                  "page": 7,
+                  "position": 360
+                },
+                {
+                  "text": "Urine PK and metabolite identification. The amount of inhaled ARO-RAGE excreted unchanged in urine was very low, approximately 0.51% of the administered drug (based on estimated respirable deliv- ered dose). The renal clearance of ARO-RAGE was dose-independent, with the overall mean value of 0.414 l h−1. This is well below the typical glomerular filtration rate in healthy adults, indicating that circulatory ARO-RAGE is probably excreted by passive glomerular filtration while restricted by its small unbound fraction in plasma. These results sug- gest that renal excretion is a minor pathway of elimination in the total systemic clearance of ARO-RAGE.",
+                  "page": 7,
+                  "position": 361
+                },
+                {
+                  "text": "Urine samples collected from study participants after a single inhalational dose of ARO-RAGE (184 mg) were pooled and extracted for LC–HRMS profiling to identify ARO-RAGE metabolites. Based on the oligonucleotide metabolites detected in urine, the metab- olism of ARO-RAGE antisense strand predominantly involved nuclease-mediated hydrolysis from the 3′ end, while the metabolism of sense strand predominantly involved hydrolysis of the targeting ligand.",
+                  "page": 7,
+                  "position": 362
+                },
+                {
+                  "text": "Pharmacodynamics. ARO-RAGE pharmacodynamics were evaluated by monitoring levels of sRAGE in BALF (Fig. 4a,b) and serum (Fig. 4c,d) of study volunteers. Serum sRAGE levels in healthy volunteers treated with placebo remained stable over the course of the trial (Fig. 4c,d), while a dose-dependent decrease in serum sRAGE was evident in volun- teers, following a single dose of ARO-RAGE (Fig. 4c). Serum sRAGE levels decreased through nadir at study day 29. Maximum mean reductions of 76.6% ± 6.5% were observed in serum sRAGE 29 days after ARO-RAGE (184 mg) administration. sRAGE levels remained suppressed for an additional 4–6 weeks before gradually returning to baseline (Fig. 4c). Bronchoscopies performed at study day 31 demonstrated deep and dose-dependent reductions in pulmonary sRAGE levels (Fig. 4a).",
+                  "page": 7,
+                  "position": 363
+                },
+                {
+                  "text": "A mean maximum reduction of 90.2% ± 4.2% was observed in BALF samples following a single administration of ARO-RAGE (184 mg), while no changes were observed in sRAGE levels of volunteers who received placebo (0.1% ± 32.8%).",
+                  "page": 7,
+                  "position": 364
+                },
+                {
+                  "text": "The prolonged systemic decreases in serum sRAGE observed in vol- unteers after a single dose of ARO-RAGE became more pronounced and protracted following repeat dosing (Fig. 4d). Mean maximal reduction in serum sRAGE reached 88.7% ± 8.4% following ARO-RAGE (184 mg) administration on study day 1 and 29. Nadir occurred 1–2 weeks later in the MAD cohorts relative to the SAD cohorts. Combined with the deeper silencing observed in MAD cohorts, these data support multiple doses to achieve maximum target engagement in patients. Further, RAGE suppression was durable. BALF sRAGE showed a modest increase at day 85 compared to day 57 (average silencing 81.9% ± 11.6% versus 93.7% ± 3.9%, respectively; Fig. 4b). Serum sRAGE levels were slower to return to baseline following two doses of sRAGE. A mean reduction of 65.9% ± 17.4% was observed at the end of the treatment period (study day 113) in volunteers treated with 184 mg ARO-RAGE; serum sRAGE levels for these volunteers returned to at least 70% baseline within an additional 6 months (Fig. 4g).",
+                  "page": 7,
+                  "position": 365
+                },
+                {
+                  "text": "ARO-RAGE silencing of serum sRAGE in patients with asthma was consistent with observations in healthy volunteers (Fig. 4e). A dose-dependent reduction in serum sRAGE was observed, with a mean maximum reduction of 76.2% ± 12.0% at nadir following two doses of ARO-RAGE (184 mg). Patients with asthma demonstrated mean maximum reductions in serum sRAGE similar to healthy volunteers (Fig. 4f), although serum sRAGE levels in patients with asthma returned to baseline more quickly (Fig. 4g). At the end of the treatment period (day 113), patients with asthma had a 34.6% ± 13.8% mean reduction in serum sRAGE (Fig. 4e), indicating a trajectory of returning toward baseline values.",
+                  "page": 7,
+                  "position": 366
+                },
+                {
+                  "text": "Discussion This first-in-human study provides critical translational evidence that warrants further investigation into the therapeutic potential of ARO-RAGE, a novel inhaled siRNA designed to selectively silence pulmonary epithelial RAGE expression in individuals suffering from inflammatory airway disease. We demonstrate robust and sustained silencing of sRAGE in BALF and serum samples across preclinical mod- els (rodents and nonhuman primates) and in healthy volunteers and patients with asthma. Importantly, RAGE inhibition conferred consid- erable protection in multiple rodent models of pulmonary disease, including allergic asthma, acute lung injury and emphysema, reducing inflammatory cell infiltration, cytokine production and tissue injury markers. These findings align closely with prior genetic knockout stud- ies in mice9,11,12,17,22, which have consistently implicated RAGE signaling in pulmonary inflammation and airway remodeling. Finally, we showed that ARO-RAGE was safe and well tolerated in both healthy individu- als and those with asthma, indicating that inhalational siRNAs can be delivered without inducing any obvious pulmonary toxicity, even in those with airway disease (Extended Data Fig. 6).",
+                  "page": 7,
+                  "position": 367
+                },
+                {
+                  "text": "Despite advances in asthma and COPD management, a substantial proportion of patients remain refractory to standard inhaled corti- costeroids (ICSs) and bronchodilators (long-acting β2 agonists and long-acting muscarinic antagonists), necessitating novel therapeutic strategies23–28. Current biologics targeting T2 cytokines (for example, IL-5, IL-4Rα and thymic stromal lymphopoietin) have demonstrated improved outcomes in subsets of patients, particularly those with markers of elevated T2 inflammation. However, many individuals— particularly those with neutrophilic or mixed inflammatory phe- notypes—continue to experience exacerbations, progressive lung function decline and increased mortality, and are less responsive to current available biologics29,30. This underscores the urgent need for therapies capable of targeting a broader range of inflammatory pathways simultaneously2.",
+                  "page": 7,
+                  "position": 368
+                },
+                {
+                  "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3347",
+                  "page": 8,
+                  "position": 369
+                },
+                {
+                  "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+                  "page": 8,
+                  "position": 370
+                },
+                {
+                  "text": "RAGE is uniquely positioned as a therapeutic target owing to its central role in diverse inflammatory processes within the lung and involvement in asthma and COPD including emphysema pathogenesis. Highly expressed on alveolar epithelial cells, mRAGE binds numerous inhaled environmental insults and other pro-inflammatory danger signals that promote airway inflammation and tissue remodeling31,32. Human genetic studies have linked RAGE polymorphisms associated",
+                  "page": 8,
+                  "position": 371
+                },
+                {
+                  "text": "with increased ligand affinity to heightened airway inflammation, reduced lung function (FEV1), and increased severity of COPD and cystic fibrosis33,34. Preclinical studies further support the pathogenic role of RAGE—gain-of-function mouse models exhibit increased susceptibil- ity to emphysema-like alveolar destruction35, whereas RAGE knockout mice are protected from allergen-induced eosinophilic inflammation and T2 cytokine responses7,8,17,36. Our findings that siRNA-mediated",
+                  "page": 8,
+                  "position": 372
+                },
+                {
+                  "text": "NHVAsthmaNHVAsthmaNHVAsthmaNHVAsthma –100",
+                  "page": 8,
+                  "position": 373
+                },
+                {
+                  "text": "–75",
+                  "page": 8,
+                  "position": 374
+                },
+                {
+                  "text": "–50",
+                  "page": 8,
+                  "position": 375
+                },
+                {
+                  "text": "–25",
+                  "page": 8,
+                  "position": 376
+                },
+                {
+                  "text": "0",
+                  "page": 8,
+                  "position": 377
+                },
+                {
+                  "text": "25",
+                  "page": 8,
+                  "position": 378
+                },
+                {
+                  "text": "ARO-RAGE dose (days 1, 29)",
+                  "page": 8,
+                  "position": 379
+                },
+                {
+                  "text": "Mean maximum percentage",
+                  "page": 8,
+                  "position": 380
+                },
+                {
+                  "text": "change (±s.d.) from baseline",
+                  "page": 8,
+                  "position": 381
+                },
+                {
+                  "text": "PBO 44 mg 92 mg 184 mg",
+                  "page": 8,
+                  "position": 382
+                },
+                {
+                  "text": "Day 57 Day 85 Day 57 Day 85",
+                  "page": 8,
+                  "position": 383
+                },
+                {
+                  "text": "–100",
+                  "page": 8,
+                  "position": 384
+                },
+                {
+                  "text": "–50",
+                  "page": 8,
+                  "position": 385
+                },
+                {
+                  "text": "–25",
+                  "page": 8,
+                  "position": 386
+                },
+                {
+                  "text": "0",
+                  "page": 8,
+                  "position": 387
+                },
+                {
+                  "text": "25",
+                  "page": 8,
+                  "position": 388
+                },
+                {
+                  "text": "50",
+                  "page": 8,
+                  "position": 389
+                },
+                {
+                  "text": "75",
+                  "page": 8,
+                  "position": 390
+                },
+                {
+                  "text": "100",
+                  "page": 8,
+                  "position": 391
+                },
+                {
+                  "text": "BALF sRAGE",
+                  "page": 8,
+                  "position": 392
+                },
+                {
+                  "text": "mean percentage change (±s.d.)",
+                  "page": 8,
+                  "position": 393
+                },
+                {
+                  "text": "from baseline",
+                  "page": 8,
+                  "position": 394
+                },
+                {
+                  "text": "PBO 184 mg PBO 10 mg 20 mg 44 mg 92 mg 184 mg –100",
+                  "page": 8,
+                  "position": 395
+                },
+                {
+                  "text": "–75",
+                  "page": 8,
+                  "position": 396
+                },
+                {
+                  "text": "–50",
+                  "page": 8,
+                  "position": 397
+                },
+                {
+                  "text": "–25",
+                  "page": 8,
+                  "position": 398
+                },
+                {
+                  "text": "0",
+                  "page": 8,
+                  "position": 399
+                },
+                {
+                  "text": "25",
+                  "page": 8,
+                  "position": 400
+                },
+                {
+                  "text": "50",
+                  "page": 8,
+                  "position": 401
+                },
+                {
+                  "text": "75",
+                  "page": 8,
+                  "position": 402
+                },
+                {
+                  "text": "–75",
+                  "page": 8,
+                  "position": 403
+                },
+                {
+                  "text": "BALF sRAGE",
+                  "page": 8,
+                  "position": 404
+                },
+                {
+                  "text": "mean percentage change (±s.d.)",
+                  "page": 8,
+                  "position": 405
+                },
+                {
+                  "text": "from baseline to day 31",
+                  "page": 8,
+                  "position": 406
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "a b",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "10 mg 20 mg 44 mg 92 mg 184 mg PBO 120 mg",
+              "page": 8,
+              "position": 407
+            },
+            {
+              "text": "1 15 29 43 57 71 85 99 113",
+              "page": 8,
+              "position": 408
+            },
+            {
+              "text": "–100",
+              "page": 8,
+              "position": 409
+            },
+            {
+              "text": "–80",
+              "page": 8,
+              "position": 410
+            },
+            {
+              "text": "–60",
+              "page": 8,
+              "position": 411
+            },
+            {
+              "text": "–40",
+              "page": 8,
+              "position": 412
+            },
+            {
+              "text": "–20",
+              "page": 8,
+              "position": 413
+            },
+            {
+              "text": "0",
+              "page": 8,
+              "position": 414
+            },
+            {
+              "text": "20",
+              "page": 8,
+              "position": 415
+            },
+            {
+              "text": "40",
+              "page": 8,
+              "position": 416
+            },
+            {
+              "text": "Single-dose healthy volunteers",
+              "page": 8,
+              "position": 417
+            },
+            {
+              "text": "Study day",
+              "page": 8,
+              "position": 418
+            },
+            {
+              "text": "1 15 29 43 57 71 85 99 113",
+              "page": 8,
+              "position": 419
+            },
+            {
+              "text": "Study day",
+              "page": 8,
+              "position": 420
+            },
+            {
+              "text": "1 15 29 43 57 71 85 99 113",
+              "page": 8,
+              "position": 421
+            },
+            {
+              "text": "Study day",
+              "page": 8,
+              "position": 422
+            },
+            {
+              "text": "Serum sRAGE",
+              "page": 8,
+              "position": 423
+            },
+            {
+              "text": "mean percentage change (±s.d.)",
+              "page": 8,
+              "position": 424
+            },
+            {
+              "text": "from baseline",
+              "page": 8,
+              "position": 425
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "c d",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [
+            {
+              "text": "–100",
+              "page": 8,
+              "position": 426
+            },
+            {
+              "text": "–80",
+              "page": 8,
+              "position": 427
+            },
+            {
+              "text": "–60",
+              "page": 8,
+              "position": 428
+            },
+            {
+              "text": "–40",
+              "page": 8,
+              "position": 429
+            },
+            {
+              "text": "–20",
+              "page": 8,
+              "position": 430
+            },
+            {
+              "text": "0",
+              "page": 8,
+              "position": 431
+            },
+            {
+              "text": "20",
+              "page": 8,
+              "position": 432
+            },
+            {
+              "text": "40",
+              "page": 8,
+              "position": 433
+            },
+            {
+              "text": "Multiple-dose healthy volunteers",
+              "page": 8,
+              "position": 434
+            },
+            {
+              "text": "Serum sRAGE",
+              "page": 8,
+              "position": 435
+            },
+            {
+              "text": "mean percentage change (±s.d.)",
+              "page": 8,
+              "position": 436
+            },
+            {
+              "text": "from baseline",
+              "page": 8,
+              "position": 437
+            },
+            {
+              "text": "–100",
+              "page": 8,
+              "position": 438
+            },
+            {
+              "text": "–80",
+              "page": 8,
+              "position": 439
+            },
+            {
+              "text": "–60",
+              "page": 8,
+              "position": 440
+            },
+            {
+              "text": "–40",
+              "page": 8,
+              "position": 441
+            },
+            {
+              "text": "–20",
+              "page": 8,
+              "position": 442
+            },
+            {
+              "text": "0",
+              "page": 8,
+              "position": 443
+            },
+            {
+              "text": "20",
+              "page": 8,
+              "position": 444
+            },
+            {
+              "text": "40",
+              "page": 8,
+              "position": 445
+            },
+            {
+              "text": "Multiple-dose individuals with asthma",
+              "page": 8,
+              "position": 446
+            },
+            {
+              "text": "Serum sRAGE",
+              "page": 8,
+              "position": 447
+            },
+            {
+              "text": "mean percentage change (±s.d.)",
+              "page": 8,
+              "position": 448
+            },
+            {
+              "text": "from baseline",
+              "page": 8,
+              "position": 449
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "e f",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 8,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "g",
+          "level": 2,
+          "page_start": 8,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "Individuals with serum sRAGE ≥70% baseline",
+              "page": 8,
+              "position": 450
+            },
+            {
+              "text": "Multiple-dose healthy volunteers Multiple-dose individuals with asthma",
+              "page": 8,
+              "position": 451
+            },
+            {
+              "text": "D113 (EOS) D173 (F/Up 1) D233 (F/Up 2) D113 (EOS) D173 (F/Up 1) D233 (F/Up 2)",
+              "page": 8,
+              "position": 452
+            },
+            {
+              "text": "PBO 7/7 (100%) 7/7 (100%) 6/6 (100%) 6/6 (100%) 6/6 (100%)",
+              "page": 8,
+              "position": 453
+            },
+            {
+              "text": "44 mg 4/4 (100%) 4/4 (100%) 4/6 (66.7%) 5/6 (83.3%) 6/6 (100%)",
+              "page": 8,
+              "position": 454
+            },
+            {
+              "text": "92 mg 3/4 (75%) 3/4 (75%) 2/7 (28.6%) 3/7 (42.9%) 7/7 (100%)",
+              "page": 8,
+              "position": 455
+            },
+            {
+              "text": "184 mg",
+              "page": 8,
+              "position": 456
+            },
+            {
+              "text": "7/7 (100%)",
+              "page": 8,
+              "position": 457
+            },
+            {
+              "text": "3/4 (75%)",
+              "page": 8,
+              "position": 458
+            },
+            {
+              "text": "1/4 (25%)",
+              "page": 8,
+              "position": 459
+            },
+            {
+              "text": "0/6 (0%) 3/6 (50%) 5/6 (83.3%) 2/6 (33.3%) 5/6 (83.3%) 6/6 (100%)",
+              "page": 8,
+              "position": 460
+            },
+            {
+              "text": "Fig. 4 | Pharmacodynamic effects of ARO-RAGE administration in healthy volunteers and patients with asthma.a,b, RAGE levels in BALF 31 days after a single (day 1) administration of ARO-RAGE (a) or 57 and 85 days after repeat (days 1, 29) administration in healthy volunteers (b). c–e, Serum sRAGE levels over time following a single administration (c), repeat administration to healthy volunteers (d) or repeat administration to individuals with asthma (e). f, The mean maximum per cent change from baseline in serum sRAGE levels was",
+              "page": 8,
+              "position": 461
+            },
+            {
+              "text": "compared between normal healthy volunteers and patients with asthma. g, Follow-up (F/Up) of participants whose serum sRAGE concentration recovered to ≥70% of baseline beyond day 133 (end of study). Data are shown for multiple dose healthy volunteer cohorts at doses directly comparable to those administered in the multiple dose asthma patient cohorts. Bars charts show mean ± s.d.; data points overlaid on the bar charts indicate individual participants. Line charts show mean ± s.d.",
+              "page": 8,
+              "position": 462
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3348",
+              "page": 9,
+              "position": 463
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 9,
+              "position": 464
+            },
+            {
+              "text": "RAGE silencing recapitulates these protective knockout phenotypes across multiple rodent disease models strongly validate RAGE as a therapeutic target. The impact of ARO-RAGE on inflammatory pathways will be explored in future clinical trials.",
+              "page": 9,
+              "position": 465
+            },
+            {
+              "text": "Previous clinical attempts to inhibit RAGE signaling using small molecules have yielded limited success37, probably due to inadequate targeting, insufficient receptor blockade or unclear target engage- ment. Other attempts to target RAGE or its ligands with monoclonal antibodies or recombinant sRAGE have not progressed beyond pre- clinical studies38,39. By contrast, our approach leverages an inhaled double-stranded siRNA conjugated to an αvβ6 integrin-targeting ligand, facilitating efficient pulmonary epithelial uptake. This precision-targeted delivery strategy produced potent and sustained silencing of pulmonary RAGE mRNA and mRAGE protein in preclinical models, accompanied by reductions in systemic sRAGE, a main target engagement biomarker. Target engagement, informed by circulating sRAGE levels, was observed in both healthy volunteers and patients with asthma after one or two doses of ARO-RAGE, without evidence of pulmonary toxicity or systemic inflammation. Notably, the observed reduction in circulating sRAGE levels following silencing of pulmonary alveolar epithelial mRAGE suggests the lung as a primary source of circulating sRAGE. Although sRAGE has been proposed to function as an anti-inflammatory decoy receptor (reviewed in ref. 40), our data indicate that substantial reductions in sRAGE do not provoke systemic inflammation as reflected in the relative stability of biomarkers such as hsCRP and IL-6 and lack of an imbalance in treatment-related adverse effects, providing reassurance of the safety of prolonged RAGE inhibi- tion. Although mild, and within the range of normal variation for the assay, transient reductions in DLCO in patients with asthma were noted with the two highest doses of ARO-RAGE. A phase 2 trial is planned to further assess safety, including measurements of diffusing capacity, as well as to evaluate the efficacy of ARO-RAGE in allergen-induced mild asthma (NCT07241546)41.",
+              "page": 9,
+              "position": 466
+            },
+            {
+              "text": "Several limitations of this initial clinical study warrant consid- eration. First, the small sample size, short study duration and study population of mild/moderate asthma patients preclude definitive con- clusions regarding clinical efficacy endpoints such as improvements in FEV1 or reductions in exacerbation frequency. Future randomized controlled trials with larger patient cohorts and longer follow-up peri- ods are necessary to rigorously assess clinical efficacy. Second, we have not yet determined whether specific asthma or COPD phenotypes (for example, eosinophilic versus neutrophilic inflammation) differ in responsiveness to RAGE inhibition in humans. Subsequent studies should stratify patients by inflammatory phenotype and include other pulmonary disorders characterized by elevated RAGE expression such as smoking-related emphysema or refractory cystic fibrosis, both diseases with severe unmet need. Finally, bronchoscopic assessments were not conducted in the asthma cohorts owing to concerns about enrollment and study feasibility using bronchoscopy in an asthma population. Future studies may incorporate these assessments as a means of evaluating changes in deep lung inflammatory markers, RAGE expression or alternative markers of small airway dysfunction.",
+              "page": 9,
+              "position": 467
+            },
+            {
+              "text": "In conclusion, this study provides the first clinical evidence that inhaled siRNA therapy can safely and effectively silence pulmonary epithelial RAGE, a key mediator of airway inflammation and remod- eling. This study also generally supports the use of αvβ6 integrin ligand-targeted siRNA as a modality to silence targets expressed in the pulmonary alveolar epithelium. ARO-RAGE demonstrated robust effi- cacy across diverse preclinical models and excellent tolerability with substantial target engagement in nonhuman primates, healthy volun- teers and patients with asthma. These promising translational findings strongly support further clinical development of ARO-RAGE as a novel therapeutic strategy to reduce inflammation, prevent tissue damage, and potentially slow disease progression in treatment-resistant asthma and COPD.",
+              "page": 9,
+              "position": 468
+            },
+            {
+              "text": "Online content Any methods, additional references, Nature Portfolio reporting sum- maries, source data, extended data, supplementary information, acknowledgements, peer review information; details of author contri- butions and competing interests; and statements of data and code avail- ability are available at https://doi.org/10.1038/s41591-026-04607-z.",
+              "page": 9,
+              "position": 469
+            },
+            {
+              "text": "References 1. Global strategy for asthma management and prevention. GINA www.ginasthma.org (2025). 2. GOLD. Global Strategy for the Diagnosis, Management, and Prevention of Chronic Obstructive Pulmonary Disease 215 (Global Initiative for Chronic Obstructive Lung Disease, 2025). 3. Barnes, P. J. Inhaled corticosteroids are not beneficial in chronicobstructive pulmonary disease. Am. J. Respir. Crit. Care Med.161, 342–344 (2000). 4. Pace, W. D., Callen, E., Gaona-Villarreal, G., Shaikh, A. & Yawn, B. P. Adverse outcomes associated with inhaled corticosteroid use in individuals with chronic obstructive pulmonary disease. Ann. Fam. Med.23, 127–135 (2025). 5. Lugogo, N. L. et al. Are we ready for asthma remission as a clinical outcome? Chest164, 831–834 (2023). 6. Sukkar, M. B. et al. Rage: A new frontier in chronic airways disease. Br. J. Pharmacol.167, 1161–1176 (2012). 7. Perkins, T. N. et al. The receptor for advanced glycation end products is a critical mediator of type 2 cytokine signaling in the lungs. J. Allergy Clin. Immunol.144, 796–808 (2019). 8. Killian, K. N. et al. Rage contributes to allergen driven severe neutrophilic airway inflammation via nlrp3 inflammasome activation in mice. Front. Immunol.14, 1039997 (2023). 9. Waseda, K. et al. Emphysema requires the receptor for advanced glycation end-products triggering on structural cells. Am. J. Respir. Cell Mol. Biol.52, 482–491 (2015). 10.\tCaraher, E. J. et al. Receptor for advanced glycation end-products and world trade center particulate induced lung function loss: a case–cohort study and murine model of acute particulate exposure. PLoS ONE12, e0184331 (2017). 11. Lee, H. et al. Blockade of rage ameliorates elastase-induced emphysema development and progression via rage-damp signaling. FASEB J.31, 2076–2089 (2017). 12.\tSambamurthy, N., Leme, A. S., Oury, T. D. & Shapiro, S. D. The receptor for advanced glycation end products (rage) contributes to the progression of emphysema in mice. PLoS ONE10, e0118979 (2015). 13.\tArmando, R., Miguel, M., Ileana, G. & Paulina, A. Inhibition of rage axis signaling: a pharmacological challenge. Curr. Drug Targets 20, 340–346 (2019). 14.\tNicholas, A., Bush, E. W., Kasahara, D. I. & Schienebeck, C. M. RNAi agents for inhibiting expression of receptor for advanced glycation end-products, compositions thereof, and methods of use. US Patent 20220396791/A1 (Arrowhead Pharmaceuticals, 2022). 15.\tKasahara, D. et al. A clinical-stage inhaled rnai therapeutic for pulmonary inflammation mediates durable rage silencing in nonhuman primates (NHP). Eur. Respir. J.62, PA1289 (2023). 16.\tBush, E. W. et al. A novel targeted rnai molecule delivery platform for the therapeutic inhibition of enac in cystic fibrosis lung disease. Pediatr. Pulmonol.53, 256 (2018). 17.\tOczypok, E. A. et al. Pulmonary receptor for advanced glycation end-products promotes asthma pathogenesis through il-33 and accumulation of group 2 innate lymphoid cells. J. Allergy Clin. Immunol.136, 747–756 (2015). 18.\tCauston, B. et al. Carma3 mediates allergic lung inflammation in response to alternaria alternata. Am. J. Respir. Cell Mol. Biol.59, 684–694 (2018).",
+              "page": 9,
+              "position": 470
+            },
+            {
+              "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3349",
+              "page": 10,
+              "position": 471
+            },
+            {
+              "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+              "page": 10,
+              "position": 472
+            },
+            {
+              "text": "19.\tGil, M. A. et al. Anti-inflammatory actions of chemoattractant receptor-homologous molecule expressed on th2 by the antagonist mk-7246 in a novel rat model of Alternaria alternata elicited pulmonary inflammation. Eur. J. Pharmacol.743, 106–116 (2014). 20.\tPellegrino, R. et al. Interpretative strategies for lung function tests. Eur. Respir. J.26, 948–968 (2005). 21.\tDrummond, M. B. et al. Intersession variability in single-breath diffusing capacity in diabetics without overt lung disease. Am. J. Respir. Crit. Care Med.178, 225–232 (2008). 22.\tUllah, M. A. et al. Receptor for advanced glycation end products and its ligand high-mobility group box-1 mediate allergic airway sensitization and airway inflammation. J. Allergy Clin. Immunol. 134, 440–450 (2014). 23.\tMoore, W. C. et al. Identification of asthma phenotypes using cluster analysis in the severe asthma research program. Am. J. Respir. Crit. Care Med.181, 315–323 (2010). 24.\tHaldar, P. et al. Cluster analysis and clinical asthma phenotypes. Am. J. Respir. Crit. Care Med.178, 218–224 (2008). 25.\tWenzel, S. E. et al. Evidence that severe asthma can be divided pathologically into two inflammatory subtypes with distinct physiologic and clinical characteristics. Am. J. Respir. Crit. Care Med.160, 1001–1008 (1999). 26.\tThe ENFUMOSA Study Group. The ENFUMOSA cross-sectional European multicentre study of the clinical phenotype of chronic severe asthma. European Network for Understanding Mechanisms of Severe Asthma. Eur. Respir. J.22, 470–477 (2003). 27.\tCalverley, P. M. et al. Salmeterol and fluticasone propionate and survival in chronic obstructive pulmonary disease. N. Engl. J. Med. 356, 775–789 (2007). 28.\tWedzicha, J. A. et al. Indacaterol-glycopyrronium versus salmeterol-fluticasone for COPD. N. Engl. J. Med.374, 2222–2234 (2016). 29.\tKyriakopoulos, C., Gogali, A., Bartziokas, K. & Kostikas, K. Identification and treatment of T2-low asthma in the era of biologics. ERJ Open Res.7, 00309–02020 (2021). 30.\tHinks, T. S. C., Levine, S. J. & Brusselle, G. G. Treatment options in type-2 low asthma. Eur. Respir. J.57, 2000528 (2021). 31.\tBuckley, S. T. & Ehrhardt, C. The receptor for advanced glycation end products (RAGE) and the lung. J. Biomed. Biotechnol.2010, 917108 (2010). 32.\tOczypok, E. A., Perkins, T. N. & Oury, T. D. All the “rage” in lung disease: The receptor for advanced glycation endproducts (RAGE) is a major mediator of pulmonary inflammatory responses. Paediatr. Respir. Rev.23, 40–49 (2017). 33.\tBeucher, J. et al. Ager -429t/c is associated with an increased lung disease severity in cystic fibrosis. PLoS ONE7, e41913 (2012).",
+              "page": 10,
+              "position": 473
+            },
+            {
+              "text": "34.\tServeaux-Dancer, M. et al. Pathological implications of receptor for advanced glycation end-product (ager) gene polymorphism. Dis. Markers2019, 2067353 (2019). 35.\tStogsdill, M. P. et al. Conditional overexpression of receptors for advanced glycation end-products in the adult murine lung causes airspace enlargement and induces inflammation. Am. J. Respir. Cell Mol. Biol.49, 128–134 (2013). 36.\tMilutinovic, P. S., Alcorn, J. F., Englert, J. M., Crum, L. T. & Oury, T. D. The receptor for advanced glycation end products is a central mediator of asthma pathogenesis. Am. J. Pathol.181, 1215–1225 (2012). 37.\tBurstein, A. H. et al. Development of azeliragon, an oral small molecule antagonist of the receptor for advanced glycation endproducts, for the potential slowing of loss of cognition in mild Alzheimer’s disease. J. Prev. Alzheimers Dis.5, 149–154 (2018). 38.\tBlondonnet, R. et al. Rage inhibition reduces acute lung injury in mice. Sci. Rep.7, 7208 (2017). 39.\tZhang, F. et al. Srage alleviates neutrophilic asthma by blocking hmgb1/rage signalling in airway dendritic cells. Sci. Rep.7, 14268 (2017). 40.\tHudson, B. I. & Lippman, M. E. Targeting rage signaling in inflammatory disease. Annu. Rev. Med.69, 349–364 (2018). 41.\tUS National Library of Medicine. A Randomized, Double-blind, Placebo-Controlled Phase 2a Study off ARO-RAGE Inhalation Solution to Assess Efficacy on Small Airway Dysfunction in Allergen-Induced Mild Asthmahttps://clinicaltrials.gov/study/ nct07241546 (2025).",
+              "page": 10,
+              "position": 474
+            },
+            {
+              "text": "Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+              "page": 10,
+              "position": 475
+            },
+            {
+              "text": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.",
+              "page": 10,
+              "position": 476
+            },
+            {
+              "text": "© The Author(s) 2026",
+              "page": 10,
+              "position": 477
+            },
+            {
+              "text": "Mark O’Carroll 1, David Kasahara2, John Huetsch 2, Taylor Reed2, Timothy N. Perkins3, Rong Zhou2, Lindsey Moser2, Bianca Tomasini-Johansson2, Anh Ta 2, Tim D. Oury3, Tao Pei2, James Hamilton2, Erik W. Bush2, Nicholas J. Leeper 4 & Matthias Salathe 5 on behalf of the RAGE study consortium*",
+              "page": 10,
+              "position": 478
+            },
+            {
+              "text": "1Respiratory Services, Auckland City Hospital, Auckland, New Zealand. 2Arrowhead Pharmaceuticals, Pasadena, CA, USA. 3Department of Pathology, University of Pittsburgh, Pittsburgh, PA, USA. 4Department of Surgery, Division of Vascular Surgery, Stanford Medicine, Palo Alto, CA, USA. 5Department of Internal Medicine, University of Kansas Medical Center, Kansas City, KS, USA. *A list of authors and their affiliations appears at the end of the paper.",
+              "page": 10,
+              "position": 479
+            },
+            {
+              "text": "e-mail: msalathe@kumc.edu",
+              "page": 10,
+              "position": 480
+            }
+          ],
+          "subsections": [
+            {
+              "title": "the RAGE study consortium",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 13,
+              "paragraphs": [
+                {
+                  "text": "Mark O’Carroll1, John Blakely6, Adrian Barnett7, Eung gu Lee8, Sang Heon Kim9, YongChul Lee10, Michelle Baker11, Paul Hamilton12, Iwona Kobielsz-Gembala13, Zenon Siergiejko14, Elzbieta Hajol15, Mara Rachel16, Juan Roldan Sanchez17, Joaquin Sastre18, David Romero19, Kittipong Maneechotesuwan20, Watchara Boonsawat21, Kittima Bangpattanasiri22 & Nadwipa Yuangtrakul23",
+                  "page": 10,
+                  "position": 481
+                },
+                {
+                  "text": "Nature Medicine | Volume 32 | September2026 | 3339–3350 3350",
+                  "page": 11,
+                  "position": 482
+                },
+                {
+                  "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+                  "page": 11,
+                  "position": 483
+                },
+                {
+                  "text": "6Institution for Respiratory Health, Nedlands, Western Australia, Australia. 7Mater Hospital, South Brisbane, Queensland, Australia. 8The Catholic University of Korea Bucheon St. Mary’s Hospital, Bucheon-si, South Korea. 9Department of Respiratory and Allergy, Hanyang University Hospital, Seoul, South Korea. 10Specialized Care Center for Respiratory and Allergic Diseases, Jeonbuk National University Hospital, Jeonju-si, South Korea.",
+                  "page": 11,
+                  "position": 484
+                },
+                {
+                  "text": "11NZ Respiratory and Sleep Institute, Auckland, New Zealand. 12Pacific Clinical Research Network, Auckland, New Zealand. 13Medicome Sp. z o.o., Oświęcim, Poland. 14Prywatny Gabinet Internistyczno-Alergologiczny, Białystok, Poland. 15KRAK-MEDYK Sp. z o.o., Kraków, Poland. 16Podkarpacki Osrodek Pulmonologii i Alergologii, Rzeszów, Poland. 17Pectus Respiratory Health SL, Barcelona, Spain. 18Servicio de Alergología, Hospital Universitario Fundación, Madrid, Spain. 19UCICEC, Hospital La Paz Edificio de Traumatología-Consultas Externas, Madrid, Spain. 20Siriraj Hospital, Bangkok, Thailand. 21Khon Kaen University Hospital, Khon Kaen, Thailand. 22Central Chest Institute of Thailand, Nonthaburi, Thailand. 23Vajira Hospital, Bangkok, Thailand.",
+                  "page": 11,
+                  "position": 485
+                },
+                {
+                  "text": "Nature Medicine",
+                  "page": 12,
+                  "position": 486
+                },
+                {
+                  "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+                  "page": 12,
+                  "position": 487
+                },
+                {
+                  "text": "Methods Preclinical studies Animals. Rat models: rat models of allergic asthma, COPD and acute lung injury were used to assess the silencing of pulmonary RAGE. Sprague–Dawley rats (200–250 g) were purchased from Charles River Laboratories, Brown Norway rats (males, 150–180 g) from Envigo (an inotiv company) and Wistar rats (males, 200–250 g) from Jackson Laboratories. All procedures followed the Guide for the Care and Use of Laboratory Animals (eighth edition, 2011) and were approved by Arrowhead’s Institutional Animal Care and Use Committee (IACUC).",
+                  "page": 12,
+                  "position": 488
+                },
+                {
+                  "text": "Mouse models: wild-type (C57BL/6NTac, Taconic Biosciences), RAGE heterozygote deficient (+/−) and RAGE knockout (−/−) mice were used for the assessment of anti-inflammatory effects of RAGE deficiency. All animals were bred as described by Milutinovic et al.36. All mouse studies were approved by the IACUC at the University of Pittsburgh.",
+                  "page": 12,
+                  "position": 489
+                },
+                {
+                  "text": "All rodents were housed (two or three per cage for rats, and two to five per cage for mouse) in individual ventilated cages with a minimum of 11 air changes per hour. The temperature and relative humidity ranges were within 18 °C and 22 °C and 40–70%, respectively. Lighting was con- trolled automatically to give a cycle of 12 h of light and 12 h of darkness.",
+                  "page": 12,
+                  "position": 490
+                },
+                {
+                  "text": "Macaque models: adult male cynomolgus macaques (Macaca fascicularis) were used for assessment of ARO-RAGE pharmacology. Protocols complied with the Guide for the Care and Use of Laboratory Animals (eight edition, 2011), and were approved by the respective IACUC(s) (IIT Research Institute, Chicago, IL, for study 1; Lovelace Biomedical Research, Albuquerque, NM, for studies 2 and 3; studies described below). Macaques were housed individually during the dosing and recovery period, and provided with automatic watering system. Euthanasia was performed with overdose of sodium pento- barbital intravenous. For nonterminal study, nonhuman primates were returned to the colony.",
+                  "page": 12,
+                  "position": 491
+                },
+                {
+                  "text": "Materials. Rat studies utilized species-specific siRNA conjugated to an integrin ανβ6-selective ligand to target the rat RAGE mRNA. Porcine pancreatic elastase (PPE) and E. coli lipopolysaccharide were used to induce acute lung injury. Challenge materials for rat and mouse models included the following:",
+                  "page": 12,
+                  "position": 492
+                },
+                {
+                  "text": "•\tAlternaria alternata, Stagrallergy; Greer, XPM1D3A25 •\tPPE; Worthington Biochemical, LS00667 •\tLipopolysaccharide from E. coli serotype 0111:B4; Sigma-Aldrich, L4391 •\tHouse dust mite extract, D. pteronyssinus; Stallergenes-Greer, XPB82D3A2.5 •\tRecombinant mouse IL-33 (carrier-free); Biolegend, 580506",
+                  "page": 12,
+                  "position": 493
+                },
+                {
+                  "text": "Taqman probes for RT–qPCR",
+                  "page": 12,
+                  "position": 494
+                },
+                {
+                  "text": "•\tRat Ager (RAGE mRNA): assay ID Rn01525753_gl •\tRat Muc5ac: assay ID Rn01451252_m1 •\tRat Chi3l1: assay ID Rn01490608_m1 •\tRat B2M (endogenous gene): assay ID Rn00560865_m1 •\tCyno AGER (RAGE mRNA): assay ID Mf02837619_g1 •\tCyno ACTB (endogenous gene): Mf04354341_g1",
+                  "page": 12,
+                  "position": 495
+                },
+                {
+                  "text": "ELISA assays",
+                  "page": 12,
+                  "position": 496
+                },
+                {
+                  "text": "•\tPierce BCA protein assay; Thermo Scientific, A55865 •\tRat RAGE; R&D systems, DY1616 •\tRat HMGB1; Novus, NBP3-06661 •\tRat MMP2; R&D systems, MMP200 •\tRat MMP12; Novus, NBP3-06764 •\tRat MMP9; Novus, RMP900",
+                  "page": 12,
+                  "position": 497
+                },
+                {
+                  "text": "siRNA studies. Preclinical rat studies utilized a rat-specific siRNA targeting mRNA transcripts from the rat AGER gene. The sequences were as follows: antisense strand (AS), cPrpusUfsgsUfgUfuCfaG fuUfuCfcAfuUfcCfsg; sense strand (SS), Tri-SM6.1-avb6-(TA14)csggaau",
+                  "page": 12,
+                  "position": 498
+                },
+                {
+                  "text": "ggAfAfAfcugaacacaas(invAb). The human sequence was AS, cPrpusGf- sasuguuuugaGfcAfcCfuacusc; SS, Tri-SM6.1-avb6-(TA14)gsaguagGfuG fcUfcaaaacaucas(invAb). Nf are 2′-fluoro nucleotides, n are 2′-O-methyl nucleotides, invAb are inverted abasic residue, s are phosphorothioate linkages and cPrp are 5′ cyclopropyl phosphonate-modified nucleo- tides. The Tri-SM6.1-avb6-(TA14) targeting ligand, which was the same across species, is a tridentate integrin-targeting ligand (the structure is shown in Supplementary Fig. 1) (more details in patents US10590416B2 and US20220396791A1). The targeting ligand is covalently linked to the sense strand, which remains intact when aerosolized. The siRNA technology does not require a carrier as it is soluble in aqueous solu- tion and is formulated in normal saline to be delivered by inhalation of nebulized solution. A scrambled control was run in previous stud- ies (Supplementary Fig. 2); scramble siRNA has the same nucleotide composition but not the same sequence as the test siRNA and serves as a negative control.",
+                  "page": 12,
+                  "position": 499
+                },
+                {
+                  "text": "PDD calculation. For animal studies, sample collection filters collected inhaled particles (rodent siRNA conjugate or ARO-RAGE) for >1 min before, during, and after aerosol exposures to assess the amount of particles deposited in the tissue. The filter was weighted and the siRNA extracted and quantified using a UV–VIS spectrophotometer. PDD was calculated using the following equations:",
+                  "page": 12,
+                  "position": 500
+                },
+                {
+                  "text": "PDD(macaques) = M/t×T/BW×DF",
+                  "page": 12,
+                  "position": 501
+                },
+                {
+                  "text": "PDD(rats) = C×RMV×T×DF/BW",
+                  "page": 12,
+                  "position": 502
+                },
+                {
+                  "text": "where PDD is in mg kg−1, M is the average amount of siRNA of three filters (mg), t is the average sampling time of three filters, T is the exposure time of the animal (min), BW is the body weight of the animal (kg), DF is the deposition fraction (DF(macaque) is 0.25, DF(rat) is 0.1), C is the aerosol concentration (mg l−1) and RMV is the respiratory minute ventilation (0.608 × BW; l min−1).",
+                  "page": 12,
+                  "position": 503
+                },
+                {
+                  "text": "Rat studies. Adult male rats were dosed by intratracheal (i.t.) instilla- tion or by nose-only aerosol inhalation (ONARES, CH Technologies). Phosphate-buffered saline (PBS) served as the challenge control in all studies.",
+                  "page": 12,
+                  "position": 504
+                },
+                {
+                  "text": "•\tTissue distribution: male Sprague–Dawley rats received a single 0.5 mg kg−1 PDD inhaled aerosol dose of siRNA. Tissue siRNA con- centration was quantified using a peptide nucleic acid method, which detects the antisense strand. siRNA biodistribution and tissue PK profiles in a total of 14 selected organs and tissues were assessed on days 1 (0.5 h), 2, 3, 5, 8, 16, 29, 43, 57, 71 and 85. •\tGene silencing kinetics: male Sprague–Dawley rats received a single 0.5 mg kg−1 PDD inhaled aerosol dose of siRNA; RAGE mRNA expression and sRAGE were monitored through day 57; PDD was calculated using animal body weight, theoretical tidal volume, exposure time and drug amount deposited on a filter in the exposure tower sampling phrenum. Aerosol particle size was quantified using a cascade impactor. •\tAlternaria challenge: male brown Norway rats received i.t. instil- lations of 3 mg kg−1 of siRNA on days 1, 8 and 29 followed by a single i.t. challenge with A. alternata extract (400 μg in PBS) on day 49; inflammation was assessed on day 51. •\tElastase COPD/emphysema model: male Wistar rats were dosed with aerosolized 0.5 mg kg−1 PDD siRNA on days 1 and 34, then challenged i.t. with PPE (20 U kg−1 in PBS) on day 81; lung inflam- mation was measured on day 83. •\tLPS acute-injury model: male Sprague–Dawley rats received a single aerosol dose of saline or 0.34 mg kg−1 PDD siRNA on day 1 and challenged i.t. with LPS (2.5 mg kg−1) on day 42; endpoints were collected on day 43.",
+                  "page": 12,
+                  "position": 505
+                },
+                {
+                  "text": "Nature Medicine",
+                  "page": 13,
+                  "position": 506
+                },
+                {
+                  "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+                  "page": 13,
+                  "position": 507
+                },
+                {
+                  "text": "On the terminal study day, rats were anesthetized with isoflurane, before collection of blood and exsanguination. The trachea was surgi- cally exposed and cannulated, and BAL was performed with ice-cold PBS. Lavage fluid was centrifuged. Cell pellets were pooled. Superna- tant from the first lavage collection was reserved for quantification of inflammatory mediators and sRAGE; the remaining supernatant was pooled, aliquoted and frozen at −80 °C. BAL fluid and cell samples were assayed as described below.",
+                  "page": 13,
+                  "position": 508
+                },
+                {
+                  "text": "Mouse study on inflammation in RAGE-deficient mice. Wild-type (C57BL/6NTac), RAGE heterozygote deficient (+/−) and RAGE knockout (−/−) mice were challenged intranasally with A. alternata extract (25 µg on days 0, 3, 6 and 9), house dust mite extract (50 µg on days 0, 7, 14, 15, 16 and 17), mouse recombinant IL-33 (rIL-33, 1 µg on days 0, 1, 2 and 3) or saline (according to treatment regimen). Cellular lung inflammation was assessed 24 h following last challenge. Inflammatory mediators in BAL were also examined in the rIL-33-treated cohort.",
+                  "page": 13,
+                  "position": 509
+                },
+                {
+                  "text": "Rat and mouse BAL cell differential. Cell pellets were resuspended in PBS and counted manually or using an automated cell counter (LUNA II, Logos Biosystem). Cytospins were prepared and stained (Hemacolor, Sigma-Aldrich) for differential analysis. At least 300 cells/slides were counted for each sample.",
+                  "page": 13,
+                  "position": 510
+                },
+                {
+                  "text": "Rat serum and BAL sRAGE. Rat serum and BAL samples were diluted with assay diluent (serum) or PBS (BAL). Assay standards were diluted identically to samples. sRAGE was quantified by commercially available ELISA kits; plate absorbance was read in a VersaMax microplate reader (Molecular Devices) and analyzed with SoftMax Pro (v.7.1., Molecular Devices). Sample concentrations were calculated from a standard curve (four-parameter curve model).",
+                  "page": 13,
+                  "position": 511
+                },
+                {
+                  "text": "Inflammatory mediators in rat BALF. Inflammatory mediators in rat BALF samples were analyzed using a Luminex multiplex cytokine/ chemokine assay (Millipore-Sigma). Measured inflammatory mediators included eotaxin, EGF, fractalkines, IFNγ, IL-1α, IL-1β, IL-2, IL-4, IL-5, IL-6, IL-10, IL12p70, IL-13, IL-17A, IL-18, IP-10, GRO/KC, TNF, G-CSF, GM-CSF, MCP-1, Leptin, LIX, MIP-1α, MIP-2, RANTES and VEGF-A. BALF total protein was assessed by bicinchoninic acid protein assay (Pierce). Rat MMP2, MMP9, MMP12 and HMGB1 were analyzed by commercial ELISA. Plates were interpreted as described for sRAGE, above. All samples were assayed in duplicate and averaged to determine sample concentrations.",
+                  "page": 13,
+                  "position": 512
+                },
+                {
+                  "text": "Rat immunohistochemistry. Cannulated left lungs were inflated with 10% buffered formalin at 20 cm H2O, trachea was occluded and tissue immersed in 10% buffered formalin overnight at 4 °C. Formalin-fixed lungs were sliced and processed for histology (Excelsior AS Tissue Processor, Epredia). Lung slices were trimmed as needed, embedded in paraffin, and sliced into 5-μm sections. Sections were processed for immunohistochemistry, stained for membrane RAGE (Rabbit Anti-RAGE monoclonal IgG clone EPR21171 (Abcam ab216329) followed by HRP-conjugated anti-rabbit polymer (DS9800, Leica Biosystems)) and developed with DAB (DS9800, Leica Biosystems).",
+                  "page": 13,
+                  "position": 513
+                },
+                {
+                  "text": "Pharmacology studies in cynomolgus macaques. Adult cynomol- gus macaques (Macaca fascicularis) received aerosolized saline or ARO-RAGE under three delivery paradigms:",
+                  "page": 13,
+                  "position": 514
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "1 Lung-silencing study (female animals): helmet delivery,",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 33,
+      "paragraphs": [
+        {
+          "text": "1 mg kg−1 PDD; 2.\t Dose–response study (female animals): endotracheal-tube",
+          "page": 13,
+          "position": 515
+        },
+        {
+          "text": "delivery at 0.13, 0.20, 0.31 or 0.47 mg kg−1 PDD; and 3.\t Pharmacodynamic study (male animals): mask delivery,",
+          "page": 13,
+          "position": 516
+        },
+        {
+          "text": "1.2 mg kg−1 PDD on day 1, with a second dose on day 29 for one group of animals.",
+          "page": 13,
+          "position": 517
+        },
+        {
+          "text": "Control animals underwent an equivalent aerosol proce- dure with normal saline. Bronchoalveolar lavage was performed in sedated animals via a pediatric bronchoscope; serum samples were collected according to each facility’s standard operating procedures. For tissue collection, animals were humanely euthanized by sodium pentobarbital overdose while under isoflurane anesthesia followed by exsanguination.",
+          "page": 13,
+          "position": 518
+        },
+        {
+          "text": "1.\tSilencing: a single 1 mg kg−1 PDD dose of ARO-RAGE or saline was",
+          "page": 13,
+          "position": 519
+        },
+        {
+          "text": "delivered. On day 14, animals were euthanized, the lungs were excised and each lobe was sectioned sagittally into proximal, mid and distal thirds. Sections were further subdivided into two to five samples, snap-frozen in liquid nitrogen and stored at −80 °C. 2.\t Dose–response: intubated animals received a single aerosol",
+          "page": 13,
+          "position": 520
+        },
+        {
+          "text": "dose of ARO-RAGE (0.13–0.47 mg kg−1 PDD) or saline. On day 29, blood and BAL were collected under anesthesia; lungs were collected as in study 1. 3.\t Pharmacodynamic: animals received 1.2 mg kg−1 PDD via mask",
+          "page": 13,
+          "position": 521
+        },
+        {
+          "text": "on day 1 and, in a separate cohort, an additional dose on day 29. Serum was sampled weekly in conscious animals. Baseline and follow-up BALs were obtained under anesthesia and intubation.",
+          "page": 13,
+          "position": 522
+        },
+        {
+          "text": "Cynomolgus macaque serum and BAL sRAGE. sRAGE in cynomol- gus macaque serum and BAL were analyzed on Gyrolab Bioaffy 4000 CD with 1 nl s−1 spin for maximal sensitivity. Biotinylated polyclonal goat anti-human RAGE was used as capture antibody, and sRAGE was detected using Alexa Fluor 647-conjugated polyclonal goat anti-human RAGE (unconjugated goat anti-human RAGE polyclonal IgG; R&D Sys- tems AF1145). Human recombinant RAGE protein was used to prepare standard curves (Sino Biologics 11629-HCCH). The lower limit of quan- tification was 25 pg ml−1.",
+          "page": 13,
+          "position": 523
+        },
+        {
+          "text": "RT–qPCR. Frozen rat or cynomolgus macaque lung samples were pul- verized and aliquoted or directly homogenized with a phenol-guanidine thiocyanate (TRI-reagent RT, Molecular Research Center), followed by phase separation with 4-bromoanisole and isolation of total RNA using RNeasy Mini columns (Qiagen). Total RNA quality was assessed via a TapeStation (cynomologus samples) or a Nanodrop (rodent samples). Complementary DNA (cDNA) was generated using Super Script IV VILO (Life Technologies) and targeted gene expression examined using qPCR. Target and endogenous control genes were examined in each sample using commercial TaqMan probes (as listed in the reagent table) and the qPCR reaction run on a QuantStudio 7 Pro (ThermoFisher). Relative gene expression levels were calculated using ddCT method40.",
+          "page": 13,
+          "position": 524
+        },
+        {
+          "text": "Western blotting. Aliquots of frozen, pulverized lung tissues were homogenized in radioimmunoprecipitation assay (RIPA) buffer con- taining protease and phosphatase inhibitors and passed through a Qiagen shredder column. Total protein was quantified via a bicin- choninic acid protein assay (Pierce). Equal amounts of homogenate were mixed with 6× Laemmli buffer. Equal volumes of rat BALF sample were assayed. Samples were separated on a SDS–PAGE gel. Proteins were transferred to a 0.2-μm PVDF membrane, labeled with No-stain Protein label reagent (A44717, ThermoFisher Scientific) and the mem- brane was probed for RAGE protein (monoclonal rabbit anti-RAGE IgG clone EPR21171, Abcam ab216329, 1:1,000), rat BAL neutrophil elastase (mouse anti-rat neutrophil elastase monoclonal IgG1 clone 6B6G6, Novus NBP2-61657) or rat BAL citrullinated histone H3 (polyclonal rabbit anti-histone H3 (citrulline R2 + R8 + R17), Abcam ab5103) using Fast-Western Pico. Total cynomolgus macaque lung protein was also quantified (A44449, Invitrogen). Membranes were imaged for target protein (chemiluminescence) and total protein (fluorescence) using the iBright image acquisition system. Band densitometry was analyzed with iBright Analysis software (Invitrogen).",
+          "page": 13,
+          "position": 525
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 14,
+          "position": 526
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 14,
+          "position": 527
+        },
+        {
+          "text": "Statistical analysis. Preclinical data statistical analysis was per- formed using a one-way ANOVA with Tukey’s HSD for parametric data or Kruskal–Wallis with Dunn’s test for nonparametric data. Analysis and plots were performed using GraphPad Prism 10. Gene expression data are shown as geometric mean x/geometric s.d. or as geometric mean (CI 95%). Other data are shown as mean ± s.e.m. with individual animal plotted.",
+          "page": 14,
+          "position": 528
+        },
+        {
+          "text": "First-in-human clinical trial Study design and participants. This (NCT05276570, EudraCT2022- 003466-20) was a multisite, randomized, double-blind, placebo- controlled, phase 1/2a study in healthy volunteers and patients with asthma with a T2 inflammatory profile. The study was approved by the ethics committees and institutional review boards of participating centers. Clinical sites included Institute for Respiratory Health, Royal Prince Charles Hospital, and Mater Research in Australia; Pacific Clini- cal Research Network, Clinical Trial New Zealand Ltd., and New Zealand Respiratory and Sleep Institute in New Zealand; Siriraj Hospital, Khon Kaen University, New Zealand Clinical Research, Central Chest Insti- tute, and Vajira Hospital in Thailand; Hanyang University and Jeonbuk University in South Korea. Site investigators and clinical site details are listed in Supplementary Table 1. The study was conducted in accord- ance with the Declaration of Helsinki and International Council for Harmonisation Good Clinical Practice guidelines. Written informed consent was obtained from all participants. The Statistical Analysis Plan and Final Study Protocol are available in the Supplementary Infor- mation. Dose levels in healthy volunteers were studied to generate a baseline understanding of dose–response and safety in a population with normal airway physiology and limited concomitant medication use before evaluating dose levels in patients. The primary objective of the study was to assess the safety and tolerability of ARO-RAGE in healthy volunteers and patients with asthma; PK and pharmacody- namic effects were secondary and exploratory endpoints, respectively. This study was not powered to detect efficacy.",
+          "page": 14,
+          "position": 529
+        },
+        {
+          "text": "Key inclusion/exclusion criteria. Healthy volunteers were male or nonpregnant, nonlactating females aged 18–55 years; current non- smokers, those with subnormal FEV1, underlying pulmonary disease, or alanine transaminase (ALT) or aspartate transaminase (AST) above the upper limit of normal were excluded.",
+          "page": 14,
+          "position": 530
+        },
+        {
+          "text": "Asthma cohorts consisted of patients who were male or non-pregnant, nonlactating females aged 18–60 years (19–60 years in some localities) with a clinical diagnosis of asthma of mild-to-moderate severity (as per type/quantity of medication required to keep asthma under control). Patients with asthma were required to have a pre-bronchodilator normal per cent predicted FEV (ppFEV1) ≥70% and blood eosinophil count ≥200 cells μl−1. Participants with a recent asthma exacerbation or ALT or AST > 2× upper limit of normal were excluded. The number of patients with asthma and the number of healthy volunteers who were investigated are shown in Table 1.",
+          "page": 14,
+          "position": 531
+        },
+        {
+          "text": "Study treatment and procedures. Study doses were administered by the principal investigator or by appropriately trained and quali- fied clinical staff by inhalation of nebulized solution via PARI eFlow nebulizer. Based on the dose, volumes ranged from 1–4.6 ml and nebulization duration ranged from 3–14 min. Participants received single ascending doses (SAD, five sequentially enrolled, escalating single-dose healthy cohorts; 10 mg, 20 mg, 44 mg, 92 mg, 120 mg, 184 mg) or multiple ascending doses (MAD, six cohorts healthy volunteers (10 mg, 20 mg, 44 mg, 92 mg, 184 mg), three cohorts of patients with mild-to-moderate asthma; 44 mg, 92 mg, 184 mg) of ARO-RAGE (active) or volume-matched normal saline (PBO) to the corresponding ARO-RAGE dose volume (Fig. 3) on day 1 (SAD) or days 1 and 29 (MAD). Each SAD cohort was planned to enroll eight patients (active six, placebo two); ARO-RAGE or placebo was administered",
+          "page": 14,
+          "position": 532
+        },
+        {
+          "text": "to two sentinel participants (one ARO-RAGE, one placebo), with others dosed if there were no major safety concerns. SAD cohorts were required to stay in a clinical facility for 3 days (1 day before and 2 days after dosing). The MAD healthy volunteer B6 cohort, investigating a 120-mg dose level, was added following interim review. Each MAD healthy volunteer cohort was planned to enroll six individuals (four active, two placebo) in B1–B4 cohorts, nine (six active, three placebo) in B5, including bronchoscopic collections, and eight (six active, two placebo) in B6. All dose levels had already been tested in single dose cohorts, up to a maximum of 184 mg. Cohorts of patients with asthma (mild-to-moderate) (C1–C3) were planned to enroll eight patients (six active, two placebo). Partici- pants stayed at clinical facilities for approximately 8 h on dosing days unless additional monitoring was deemed necessary for safety reasons. Any individual participant/group of participants could stop trial early or discontinue treatment for a single serious AE, severe, nonserious AEs considered related to study drug in two participants in the same cohort, episodes of a drop from baseline FEV1 (which must be confirmed on repeat within 72 h) of ≥20% (that is, 20% absolute decline in per cent predicted FEV1) in two separate study participants that are both considered to be related to study drug by the study investigator, or positive pregnancy test. Escalation to the next highest dose level proceeded until the highest planned dose level was completed or trial halted prematurely by the investigator, data safety committee or sponsor due to safety or other concerns. Central laboratories were utilized; local laboratories could be used (including for screening) when central laboratories were not readily available and for emergent situations. Spirometry and DLCO data quality were assessed by central laboratory over-read.",
+          "page": 14,
+          "position": 533
+        },
+        {
+          "text": "Investigators and study participants were blinded to treatment allocation until database lock. Selected sponsor members were unblinded throughout the study. Treatment unblinding of an individual participant could occur if deemed necessary for treatment of an AE or to make a decision regarding trial continuation.",
+          "page": 14,
+          "position": 534
+        },
+        {
+          "text": "PK analysis. Plasma and urine concentrations of ARO-RAGE were analyzed using noncompartmental methods (see details below), with calculated parameters including maximum observed plasma concen- tration (Cmax), time to maximum observed plasma concentration (Tmax), area under the plasma concentration time curve (AUC) from time 0 to 24 h (AUC0–24), AUC from time 0 to the last quantifiable plasma con- centration (AUClast), AUC from time 0 extrapolated to infinity (AUCinf), terminal elimination half-life (t1/2), apparent systemic clearance (CL/F) and apparent terminal-phase volume of distribution (VZ/F).",
+          "page": 14,
+          "position": 535
+        },
+        {
+          "text": "PK assessment. Blood samples to determine the plasma concentration of ARO-RAGE were collected as follows: on day 1 (at pre-dose, 0.5, 1, 2, 4, 6, 8 and 12 h post dose), day 2 (24 h) and day 3 (48 h) for SAD cohorts; on day 1 and day 29 (at pre-dose, 0.5, 1, 2, 4 and 6 h post dose) for MAD healthy volunteer cohorts; on day 1 and day 29 (at pre-dose, 0.5, 1, 2, 4, 6 and 24 h post dose) for MAD asthma cohorts. Urine samples to deter- mine the urine concentration of ARO-RAGE were collected pre-dose, 0–6 h and 6–24 h post dose. Plasma and urine samples analysis were conducted at Key- stone Bioanalytical and were carried out following the principles of Good Laboratory Practices Regulations, the 2018 FDA Bioanalytical Method Validation Guidance and the 2012 EMA Bioanalytical Method Validation Guidance41,42.",
+          "page": 14,
+          "position": 536
+        },
+        {
+          "text": "All ARO-RAGE samples were measured using a hybridiza- tion sample processing procedure followed by a Good Laboratory Practices-validated high-pressure liquid chromatography (HPLC) fluorescence method developed for the quantification of ARO-RAGE in K2EDTA human plasma and human urine. siRNAs were first hybrid- ized with a fluorescently labeled peptide nucleic acid probe specific to the sequence of ARO-RAGE’s full-length AS strand, followed by",
+          "page": 14,
+          "position": 537
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 15,
+          "position": 538
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 15,
+          "position": 539
+        },
+        {
+          "text": "HPLC analysis of the resulting complex with fluorescent detection. The lower limit of quantitation was 1.00 ng ml−1 for both plasma and urine samples.",
+          "page": 15,
+          "position": 540
+        },
+        {
+          "text": "Metabolite identification. Plasma and urine samples collected from study participants after a single maximum dose of ARO-RAGE Inha- lation (184 mg) were pooled and extracted for LC–HRMS profiling and identification of ADS-015-AS, ADS-015-SS and small-molecule targeting ligand-derived metabolites in plasma and urine. The relative abundances of ADS-015-AS, ADS-015-SS and metabolites in processed samples were estimated based on LC–HRMS peak areas.",
+          "page": 15,
+          "position": 541
+        },
+        {
+          "text": "PK: statistical analyses. All participants who received at least one dose of study drug and who had at least one valid post dose measurable PK concentration data point were included in the PK analysis population. A participant was excluded from the PK summary and statistical analysis if protocol deviation(s) that might impact PK analysis had occurred. Respirable delivered dose was used for non-compartmental analysis and was calculated based on the nebulizer loaded doses of ARO-RAGE Inhalation Solution using the PARI eFlow nebulizer. Descriptive statis- tics of PK parameters included mean, standard deviation, coefficient of variation, median, minimum and maximum. PK results were evaluated for dose proportionality. Although exploratory PK analyses included evaluation for sex differences, the study was not powered to detect such differences and no conclusions were drawn.",
+          "page": 15,
+          "position": 542
+        },
+        {
+          "text": "PK analysis methods. Plasma PK parameters were determined where possible from the plasma concentrations time profiles of ARO-RAGE on days 1 and 29 using noncompartmental methods performed using Phoenix WinNonlin version 8.4 (Certara). Cmax and Tmax were taken directly from the observed plasma concentration data. The terminal-phase disposition rate constant (λz) was estimated using a log-linear regression of the concentration data in the terminal dis- position phase, and t1/2 was estimated as ln(2)/λz. AUClast and AUC0–24 were estimated using the linear trapezoidal rule for increasing con- centrations and the log-trapezoidal rule for decreasing concentra- tions (that is, ‘linear up/log down’ trapezoidal rule was selected), and the total AUCinf was calculated as AUClast+ Clast/λz. The apparent clear- ance (CL/F) was estimated as dose/AUCinf, and the terminal-phase volume of distribution (Vz/F) was estimated as dose/(AUCinf × λz). λz-related PK parameters were calculated only if R2",
+          "page": 15,
+          "position": 543
+        },
+        {
+          "text": "adjusted > 0.8, and the participant was flagged and noted in the footnote if AUCextra% >20%. ARO-RAGE cumulative amount excreted in urine (Ae0–24h) over 24 h post dose was calculated based on urine concentration and urine volume. The fraction of the drug recovered in the urine (fe) was determined from the ratio of the amount excreted unchanged in urine to the administered dose. The 24 h renal clearance (CLR) was estimated as Ae0–24h/AUC0–24h.",
+          "page": 15,
+          "position": 544
+        },
+        {
+          "text": "Dose-proportionality analysis. The dose-proportionality of ARO-RAGE plasma exposure values (Cmax and AUCs) was evaluated using power function of regression analysis (for example, AUCinf = α × doseβ), which was expressed as ln(AUCinf) = ln(α) + β × ln(dose). AUCinf was considered to increase proportionally to the dose if the 90% confidence interval of the slope β value included 1.",
+          "page": 15,
+          "position": 545
+        },
+        {
+          "text": "Secondary and exploratory objectives. Secondary study objectives were to assess the pulmonary safety of ARO-RAGE using spirometry and diffusion capacity measurements, and to assess PK in both healthy volunteers and patients. Exploratory objectives were to assess the pharmacodynamic effects of ARO-RAGE in healthy volunteers and patients, and to explore efficacy in patients.",
+          "page": 15,
+          "position": 546
+        },
+        {
+          "text": "Endpoints. The primary endpoint was the incidence and frequency of treatment-emergent AEs (TEAEs) over time through the end of study.",
+          "page": 15,
+          "position": 547
+        },
+        {
+          "text": "Secondary endpoints were plasma PK parameters and safety assessments including change from baseline over time through end of study of FEV1, FVC and DLCO.",
+          "page": 15,
+          "position": 548
+        },
+        {
+          "text": "Statistical analysis. No formal statistical tests of hypotheses were performed. Healthy volunteers and patients with asthma were analyzed separately and by cohort, and those receiving placebo or ARO-RAGE were pooled within each population. Descriptive statistics were pre- sented for all analyses.",
+          "page": 15,
+          "position": 549
+        },
+        {
+          "text": "Tolerability and safety analyses. Safety analyses were performed based on the safety analysis set, that is, all randomized participants who received at least 1 dose of study drug. TEAEs were summarized using the Medical Dictionary for Regulatory Activities (MedDRA, version 24.1), by System Organ Class (SOC) and Preferred Term. The incidence and frequency of TEAEs, serious AEs, related AEs, AEs leading to withdrawal, dose modification or treatment discontinuation were summarized by population and cohort per SOC, Preferred Term and severity. The incidence of laboratory abnormalities was assessed using descriptive summary statistics and shift tables. Vital sign measurements were summarized at each scheduled time point using descriptive statistics. Abnormal physical examination findings were summarized by time point and presented in participant listings. ECG parameters, changes from baseline and qualitative assessments were summarized. FEV1, FVC and DLCO values that met quality requirements and inflamma- tory markers from blood and BALF samples were summarized at each scheduled time point using descriptive statistics. Respiratory TEAEs were of special interest and included asthma exacerbation, lower/upper respiratory infection, dyspnea, cough, clinically relevant spirometry, DLCO, chest x-ray or oxygen saturation.",
+          "page": 15,
+          "position": 550
+        },
+        {
+          "text": "Spirometry and DLCO studies were conducted in accordance with American Thoracic Society and European Respiratory Society guidelines42, with acceptability of results confirmed via a central over-read for quality review. Only data that met quality review end- points were included in the analysis.",
+          "page": 15,
+          "position": 551
+        },
+        {
+          "text": "Pharmacodynamics. sRAGE protein concentration in serum and BAL was analyzed and the per cent change and duration of response from baseline to end-of-treatment were summarized by cohort. Descrip- tive summary of blood cytokines, serum IgE, blood eosinophil count and plasma periostin at each scheduled study visit and change from baseline were summarized by cohort, as applicable.",
+          "page": 15,
+          "position": 552
+        },
+        {
+          "text": "Exploratory endpoints. Exploratory safety endpoints included change from baseline in (1) BAL cell count and differential in healthy volunteers and (2) chest x-ray findings. Pharmacodynamic explora- tory endpoints included change from baseline in (1) sRAGE protein concentration from BALF in healthy volunteers, (2) sRAGE protein con- centration from serum, (4) serum total IgE concentration in patients, (5) plasma periostin in patients and (6) blood eosinophil count in patients.",
+          "page": 15,
+          "position": 553
+        },
+        {
+          "text": "The descriptive summary of FEV1 at each scheduled study visit and change from baseline was summarized by patient cohort. These were exploratory endpoints as the study was not powered to detect efficacy. Only data that met quality requirements were included in the analysis. Exploratory efficacy endpoints included change from baseline in prebronchodilator and postbronchodilator FEV1 in patients. Other exploratory endpoints included identification of ARO-RAGE metabolites in plasma and urine after a single dose of study drug in healthy volunteers, and incidence and titer of antidrug antibodies over time.",
+          "page": 15,
+          "position": 554
+        },
+        {
+          "text": "Reporting summary Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+          "page": 15,
+          "position": 555
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 16,
+          "position": 556
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 16,
+          "position": 557
+        },
+        {
+          "text": "Data availability Arrowhead Pharmaceuticals is committed to sharing anonymized data from our clinical trials without compromising the privacy of trial participants. Data requests may be sent by email to info@arrowhead- pharma.com. Analyses based on research proposals that demonstrate scientific merit will be considered. Requests may take up to 60 days for review. Arrowhead Pharmaceuticals intends to share data only once a trial has completed and the product/indication has been approved at least in the United States and the European Union.",
+          "page": 16,
+          "position": 558
+        },
+        {
+          "text": "References 42.\tGraham, B. L. et al. 2017 ers/ats standards for single-breath carbon monoxide uptake in the lung. Eur. Respir. J.52, 1650016 (2018).",
+          "page": 16,
+          "position": 559
+        },
+        {
+          "text": "Acknowledgements Arrowhead Pharmaceuticals and the authors would like to thank the patients who participated in the trial and their families, and all investigators and staff who completed the trial. Thanks to Arrowhead In Vitro Pharmacology and Bioassays teams for preclinical study support and Nathalie Kertesz of Arrowhead for contributions to writing and review. Ran Fu of Arrowhead provided analytical support. Saudha Parthasarathy of Innovation Communications Group, Inc. provided writing support and Heather Hartley-Thorne of Sephirus Communications Inc. provided graphical support on behalf of Arrowhead.",
+          "page": 16,
+          "position": 560
+        },
+        {
+          "text": "Author contributions Study conception and design by J. Huetsch, J. Hamilton, E.W.B., D.K. and L.M. Data acquisition by D.K., T.N.P., T.R. and M.O.’C. Data analysis by A.T., B.T.-J., L.M., E.W.B., D.K., R.Z., T.N.P. and T.D.O. Data interpretation by J. Huetsch, J. Hamilton, N.J.L., E.W.B., D.K., T.N.P. and T.D.O. Manuscript draft by E.W.B., D.K., N.J.L., L.M., A.T., J. Huetsch,",
+          "page": 16,
+          "position": 561
+        },
+        {
+          "text": "M.O.’C. and M.S. Manuscript reviewing and revision by all authors. All authors approved the final draft of the manuscript.",
+          "page": 16,
+          "position": 562
+        },
+        {
+          "text": "Funding This study was sponsored by Arrowhead Pharmaceuticals, Inc., Pasadena, California. Arrowhead Pharmaceuticals was involved in trial design and conduct, and data collection, management, analysis, and interpretation.",
+          "page": 16,
+          "position": 563
+        },
+        {
+          "text": "Competing interests M.O.’C., N.J.L., T.D.O., T.N.P. and M.S. have received consultation fees from Arrowhead Pharmaceuticals. D.K., J. Hamilton, E.W.B., T.P., L.M., T.R., R.Z. and B.T.-J. are employees of Arrowhead Pharmaceuticals. J. Huetsch is a former employee of Arrowhead Pharmaceuticals.",
+          "page": 16,
+          "position": 564
+        },
+        {
+          "text": "Additional information Extended data is available for this paper at https://doi.org/10.1038/s41591-026-04607-z.",
+          "page": 16,
+          "position": 565
+        },
+        {
+          "text": "Supplementary information The online version contains supplementary material available at https://doi.org/10.1038/s41591-026-04607-z.",
+          "page": 16,
+          "position": 566
+        },
+        {
+          "text": "Correspondence and requests for materials should be addressed to Matthias Salathe.",
+          "page": 16,
+          "position": 567
+        },
+        {
+          "text": "Peer review informationNature Medicine thanks Pascal Chanez, John Fahy, J. Virchow and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Primary Handling Editor: Michael Basson, in collaboration with the Nature Medicine team.",
+          "page": 16,
+          "position": 568
+        },
+        {
+          "text": "Reprints and permissions information is available at www.nature.com/reprints.",
+          "page": 16,
+          "position": 569
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 17,
+          "position": 570
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 17,
+          "position": 571
+        },
+        {
+          "text": "Extended Data Fig. 1 | RAGE heterozygous knockout mice exhibit an intermediate inflammatory response. Inflammatory responses were evaluated in wild-type (+/+), RAGE heterozygous (+/−), and RAGE homozygous (−/−) knockout mice following intranasal challenge with: a, Alternaria alternata extract. Total inflammatory cells were quantified in BAL samples (from left to right, N = 7, 9, 5, 5, 4 and 4). b, House dust mite (HDM) extract. Total inflammatory cells and eosinophils were quantified in BAL samples (from left to right, N = 4, 6, 4, 5, 3 and 4). c, Recombinant mouse IL-33 (rIL-33). Total inflammatory cells",
+          "page": 17,
+          "position": 572
+        },
+        {
+          "text": "and eosinophils were quantified in BAL samples. From left to right, N = 4, 6, 4, 5, 3, and 5. d, Pro-inflammatory mediators in BAL were measured following rIL-33 challenge (from left to right, N = 4, 6, 4, 5, 3, and 5). Data are presented as mean ± SEM. Statistical analysis was performed using one-way ANOVA with Tukey’s HSD for parametric data, or Kruskal-Wallis with Dunn’s test for non- parametric data. P-values are shown above the bars; values < 0.01 are considered significant.",
+          "page": 17,
+          "position": 573
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 18,
+          "position": 574
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 18,
+          "position": 575
+        },
+        {
+          "text": "Extended Data Fig. 2 | RAGE silencing reduces inflammatory cytokines in a rat model of allergic asthma. Rats received three intratracheal doses of siRNA (Days 1, 8, 29) prior to challenge with Alternaria alternata extract (Day 49). Groups included naïve (gray open circles, n = 4), saline/vehicle (blue open circles, n = 6), siRNA/vehicle (blue squares, n = 4), and Alternaria-challenged saline (light blue open circles, n = 8) or siRNA-treated (light blue squares, n = 8) rats. Bronchoalveolar lavage (BAL) and tissue samples were collected 48 h post-challenge. a, Lung RAGE mRNA expression (geomean x /geometric SD).",
+          "page": 18,
+          "position": 576
+        },
+        {
+          "text": "b, BAL sRAGE protein. c, Serum sRAGE protein. d–g, BAL cytokines, IL-17A, MP1a, IL-13 and IP-10. h, Lung Chi3l1 (chitinase-3-like 1) mRNA expression (geomean x /geometric SD). b-h, Data are presented as mean ± SEM with exception for gene expression. Statistical analysis was performed using one-way ANOVA with Tukey’s HSD for parametric data, or Kruskal-Wallis with Dunn’s test for non- parametric data. P-values are shown above the bars; values < 0.01 are considered significant.",
+          "page": 18,
+          "position": 577
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 19,
+          "position": 578
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 19,
+          "position": 579
+        },
+        {
+          "text": "Extended Data Fig. 3 | See next page for caption.",
+          "page": 19,
+          "position": 580
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 20,
+          "position": 581
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 20,
+          "position": 582
+        },
+        {
+          "text": "Extended Data Fig. 3 | RAGE silencing reduces inflammatory cytokines and matrix metalloproteases in a rat model of COPD. Rats received two inhaled siRNA doses (0.5 mg/kg PDD, Days 1 and 34) prior to intratracheal instillation of porcine pancreatic elastase (PPE, Day 81). Groups included saline/vehicle (blue open circles, n = 6), siRNA/vehicle (blue squares, n = 6), saline/PPE (green open circles, n = 7), and siRNA/PPE (green squares, n = 7). BAL and tissue samples were collected 48 h after PPE instillation. a, Lung RAGE mRNA expression (geomean x /geometric SD). b, BAL sRAGE protein. c, BAL matrix metalloproteinase 9",
+          "page": 20,
+          "position": 583
+        },
+        {
+          "text": "(MMP-9) protein. d, BAL matrix metalloproteinase 2 (MMP-2) protein. e, BAL inflammatory mediators (pg/mL). Cytokines/chemokines that were unchanged/ undetectable (eotaxin, EGF, fractalkines, IL-1a, IL-2, IL-4, IL-5, IL-10, IL12p70, IL-13, IL-17A, IP-10, TNFa, G-CSF, GM-CSF, MCP-1, Leptin, LIX) are not presented. Data are presented as mean ± SEM with the exception of gene expression. Statistical analysis was performed using one-way ANOVA with Tukey’s HSD for parametric data, or Kruskal-Wallis with Dunn’s test for non-parametric data. P-values are shown above the bars; values < 0.01 are considered significant.",
+          "page": 20,
+          "position": 584
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 21,
+          "position": 585
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 21,
+          "position": 586
+        },
+        {
+          "text": "Extended Data Fig. 4 | RAGE silencing reduces inflammatory cytokines and limits indices of neutrophil activation in a rat model of acute lung injury. Rats received one inhaled siRNA dose (0.34 mg/kg PDD, Day 1) prior to intratracheal instillation of lipopolysaccharide (LPS) on Day 42. Groups included saline/ vehicle (blue circles; n = 5), siRNA/vehicle (blue squares; n = 5), saline/LPS (purple circles; n = 8), and siRNA/ LPS (purple squares; n = 8). Samples were collected 24 h after LPS instillation. a, Lung injury assessed by BAL total protein. b, BAL neutrophil elastase protein (Western blot densitometry arbitrary units; full blot image provided in Supplementary Fig. 7). c, BAL citrullinated histone H3",
+          "page": 21,
+          "position": 587
+        },
+        {
+          "text": "protein (Western blot densitometry arbitrary units; full blot image provided in Supplementary Fig. 7). Vehicle controls shown as baseline reference. d, BAL inflammatory mediators (pg/mL). Cytokines/chemokines that were unchanged/ undetectable (eotaxin, EGF, fractalkines, IFNg, IL-2, IL-4, IL-5, IL12p70, IL-13, IL-18, G-CSF, GM-CSF, LIX, MIP-2, and VEGF-A) are not presented. Data are presented as mean ± SEM. Statistical analysis was performed using one-way ANOVA with Tukey’s HSD for parametric data, or Kruskal-Wallis with Dunn’s test for non- parametric data. P-values are shown above the bars; values < 0.01 are considered significant.",
+          "page": 21,
+          "position": 588
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 22,
+          "position": 589
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 22,
+          "position": 590
+        },
+        {
+          "text": "Extended Data Fig. 5 | BAL sRAGE protein kinetics in cynomolgus macaques following inhaled ARO-RAGE administration. Baseline BAL samples were collected prior to animals receiving an inhaled dose of aerosolized a, saline",
+          "page": 22,
+          "position": 591
+        },
+        {
+          "text": "vehicle (Day 1; BAL collections on Days 29 and 59) or b, two doses of 1.2 mg/kg PDD ARO-RAGE (Days 1 and 29; BAL collections on Day 57). BAL sRAGE data are shown for individual animals (LLOQ = 25 pg/mL).",
+          "page": 22,
+          "position": 592
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 23,
+          "position": 593
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 23,
+          "position": 594
+        },
+        {
+          "text": "Extended Data Fig. 6 | Minimal impact on pulmonary function tests in healthy subjects and patients with asthma following ARO-RAGE administration. Pulmonary function was monitored over the course of the trial by assessing pre- bronchodilator a-c, FEV1 and d-f, FVC as well as g-i, carbon monoxide diffusion capacity (DLCO). a, d, g, Participants in the SAD cohorts received a single dose",
+          "page": 23,
+          "position": 595
+        },
+        {
+          "text": "of ARO-RAGE on Day 1. b, e, h Participants in the MAD and c, f, i, asthma cohorts received the indicated dose of ARO-RAGE on study Day 1 and Day 29. Data are presented as mean percent change ± SD from baseline levels collected at Screening.",
+          "page": 23,
+          "position": 596
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 24,
+          "position": 597
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 24,
+          "position": 598
+        },
+        {
+          "text": "Extended Data Fig. 7 | Systemic inflammatory markers in healthy subjects and patients with asthma are stable following ARO-RAGE administration. Effect of ARO-RAGE on systemic inflammation was evaluated by monitoring blood a-c, high-sensitive C-reactive protein (hsCRP) and d-f, IL-6 levels in patients",
+          "page": 24,
+          "position": 599
+        },
+        {
+          "text": "throughout the clinical study. a, d, Participants in the SAD cohorts received a single dose of ARO-RAGE on Day 1. b, e, Participants in the MAD and c, f, asthma cohorts received the indicated dose of ARO-RAGE on study Day 1 and Day 29. Data are presented as mean ± SD.",
+          "page": 24,
+          "position": 600
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 25,
+          "position": 601
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 25,
+          "position": 602
+        },
+        {
+          "text": "Extended Data Fig. 8 | Similar changes in lung inflammatory cell populations following placebo or, ARO-RAGE administration in healthy subjects. Inflammatory cell populations in bronchial alveolar lavage fluid (BALF), including a, e, eosinophils, b, f, lymphocytes, c, g, macrophages, and d, h, neutrophils, were monitored at baseline and 4-8 weeks after final dosing. a-d, Cells were assessed",
+          "page": 25,
+          "position": 603
+        },
+        {
+          "text": "four weeks (Day 31) after a single dose of placebo or ARO-RAGE in SAD cohorts. e-h, MAD cohorts received either placebo or 184 mg ARO-RAGE at study Day 1 and Day 29; cell populations were examined at study Day 57 and Day 85, (four and eight weeks after the last dose, respectively). Data are presented as mean ± SD.",
+          "page": 25,
+          "position": 604
+        },
+        {
+          "text": "Nature Medicine",
+          "page": 26,
+          "position": 605
+        },
+        {
+          "text": "Article https://doi.org/10.1038/s41591-026-04607-z",
+          "page": 26,
+          "position": 606
+        },
+        {
+          "text": "Extended Data Fig. 9 | Pharmacokinetic profiles of ARO-RAGE in healthy human subjects and patients with asthma. PK time profiles by cohort are shown on a semi- log scale in a, healthy volunteers following a single inhaled dose of ARO-RAGE (Day 1) or following repeat dosing (Day 1 and 29) in b, healthy volunteers or c, in patients with asthma.",
+          "page": 26,
+          "position": 607
+        },
+        {
+          "text": "≥ μ",
+          "page": 28,
+          "position": 608
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [],
+  "page_count": 34,
+  "warnings": [
+    "no references detected"
+  ]
+}

@@ -1,0 +1,1356 @@
+{
+  "identity": {
+    "id": "doc_325d4b498a997247",
+    "source": {
+      "filename": "PMC13611314.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13611314.1/PMC13611314.1.pdf",
+      "content_hash": "325d4b498a9972479cdd2c8021f2702f1f6fe43e6a989b9aac6b2883240567d8"
+    }
+  },
+  "metadata": {
+    "title": "Academic Editor: Emilio Quaia",
+    "authors": [
+      "Received:  July"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.3390/tomography12090136",
+    "arxiv_id": null,
+    "abstract": "Background/Objectives:Despite the widespread adoption of minimally invasive video- assisted thoracoscopic surgery (VATS) for pulmonary lobectomy and Enhanced Recovery After Surgery (ERAS) protocols, routine chest X-rays (CXRs) in the Post-Anesthesia Care Unit (PACU) after VATS pulmonary lobectomy remain common.Evidence questioning their clinical utility in asymptomatic patients is growing.This study aimed to evaluate the therapeutic yield of routine PACU CXRs following VATS lobectomy, in a homogeneous cohort (PACU time point).Methods:This single-center retrospective cohort study included 554 consecutive patients who underwent elective VATS lobectomy (2014–2025).The pri- mary endpoint was the therapeutic yield of routine PACU CXRs, defined as the proportion directly leading to a documented change in postoperative management.Secondary out- comes included the yield of post-drain-removal CXRs, radiographic findings, and the yield in patients with intraoperative complications.Results:Among 554 routine PACU CXRs, only 12 (2.2%; 95% CI: 1.1–3.7) led to a management change; surgical re-intervention was required in 1 patient and chest tube reinsertion in 5 patients.By contrast, 93 post-drain- removal CXRs (16.8%; 95% CI: 13.7–20.0) led to a change (p < 0.001).The most frequent abnormalfindingswerepneumothorax(5.8%),atelectasis(4.5%),andpleuraleffusion (2.0%).Routine PACU imaging generated an estimated cost of €16.620 and a cumulative radiation exposure of 27.7 mSv.Conclusions:Routine PACU CXR after VATS lobectomy Tomography 2026, 12, 136 https://doi.org/10.3390/tomography12090136 Tomography 2026, 12, 136 2 of 16 has a very low therapeutic yield and rarely changes management in asymptomatic patients. These findings support a selective, symptom-driven imaging strategy, although further prospective studies are needed to confirm safety and effectiveness. Keywords:chestX-ray;thoracicsurgery;video-assistedthoracoscopicsurgery(VATS); pulmonarylobectomy;postoperativecare;EnhancedRecoveryAfterSurgery(ERAS); diagnostic yield",
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "(preamble)",
+      "level": 1,
+      "page_start": null,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "Academic Editor: Emilio Quaia",
+          "page": 0,
+          "position": 0
+        },
+        {
+          "text": "Received: 27 July 2026",
+          "page": 0,
+          "position": 1
+        },
+        {
+          "text": "Revised: 13 September 2026",
+          "page": 0,
+          "position": 2
+        },
+        {
+          "text": "Accepted: 14 September 2026",
+          "page": 0,
+          "position": 3
+        },
+        {
+          "text": "Published: 17 September 2026",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Copyright: © 2026 by the authors.",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "Licensee MDPI, Basel, Switzerland.",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "This article is an open access article",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "distributed under the terms and",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "conditions of theCreative Commons",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "Attribution (CC BY) license.",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "Article Routine Immediate Postoperative Chest Radiography After Minimally Invasive Pulmonary Lobectomy Has a Low Impact on Clinical Management:A Value-Based Imaging Analysis",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "Nicola Rotolo1,* , Andrea Imperatori2 , Alberto Colombo2 , Benedetta Bazzoli1 , Luca Filipponi3, Filippo Piacentino4 and Federico Fontana4",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "1 Research Center for Minimally Invasive Surgery, Department of Medicine and Technological Innovation, University Hospital of Insubria—Asst-Settelaghi, 21100 Varese, Italy; bbazzoli@studenti.uninsubria.it 2 Research Center for Thoracic Surgery, Department of Medicine and Surgery, University Hospital of Insubria—Asst-Settelaghi, 21100 Varese, Italy; andrea.imperatori@uninsubria.it (A.I.); acolombo1@studenti.uninsubria.it (A.C.) 3 Thoracic Surgery Unit, University Hospital of Insubria—Asst-Settelaghi, 21100 Varese, Italy; luca.filipponi@asst-settelaghi.it 4 Diagnostic and Interventional Radiology Unit, University Hospital of Insubria—Asst-Settelaghi, 21100 Varese, Italy; filippo.piacentino@asst-settelaghi.it (F.P.); federico.fontana@uninsubria.it (F.F.) * Correspondence:nicola.rotolo@uninsubria.it",
+          "page": 0,
+          "position": 13
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Simple Summary",
+      "level": 2,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [
+        {
+          "text": "The clinical benefit of routine chest X-rays performed immediately after minimally inva- sivepulmonarylobectomy,eveninasymptomaticpatients,isuncertain.Wereviewed 554 patients who underwent video-assisted thoracoscopic lobectomy to assess whether routineX-raysintherecoveryroomchangedmanagement.Only12outof554(2.2%) ledtoanychangeinpatientcare;1patientrequiredreoperation;5requiredchesttube reinsertions based on an X-ray finding without symptoms.Conversely, X-rays after chest tube removal more often led to clinical decisions.These findings support the consideration of a selective, symptom-driven imaging strategy in appropriately selected asymptomatic patients, although prospective validation is required.",
+          "page": 0,
+          "position": 14
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abstract",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 1,
+      "paragraphs": [
+        {
+          "text": "Background/Objectives:Despite the widespread adoption of minimally invasive video- assisted thoracoscopic surgery (VATS) for pulmonary lobectomy and Enhanced Recovery After Surgery (ERAS) protocols, routine chest X-rays (CXRs) in the Post-Anesthesia Care Unit (PACU) after VATS pulmonary lobectomy remain common.Evidence questioning their clinical utility in asymptomatic patients is growing.This study aimed to evaluate the therapeutic yield of routine PACU CXRs following VATS lobectomy, in a homogeneous cohort (PACU time point).Methods:This single-center retrospective cohort study included 554 consecutive patients who underwent elective VATS lobectomy (2014–2025).The pri- mary endpoint was the therapeutic yield of routine PACU CXRs, defined as the proportion directly leading to a documented change in postoperative management.Secondary out- comes included the yield of post-drain-removal CXRs, radiographic findings, and the yield in patients with intraoperative complications.Results:Among 554 routine PACU CXRs, only 12 (2.2%; 95% CI: 1.1–3.7) led to a management change; surgical re-intervention was required in 1 patient and chest tube reinsertion in 5 patients.By contrast, 93 post-drain- removal CXRs (16.8%; 95% CI: 13.7–20.0) led to a change (p < 0.001).The most frequent abnormalfindingswerepneumothorax(5.8%),atelectasis(4.5%),andpleuraleffusion (2.0%).Routine PACU imaging generated an estimated cost of €16.620 and a cumulative radiation exposure of 27.7 mSv.Conclusions:Routine PACU CXR after VATS lobectomy",
+          "page": 0,
+          "position": 15
+        },
+        {
+          "text": "Tomography 2026, 12, 136 https://doi.org/10.3390/tomography12090136",
+          "page": 0,
+          "position": 16
+        },
+        {
+          "text": "Tomography 2026, 12, 136 2 of 16",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "has a very low therapeutic yield and rarely changes management in asymptomatic patients. These findings support a selective, symptom-driven imaging strategy, although further prospective studies are needed to confirm safety and effectiveness.",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "Keywords:chestX-ray;thoracicsurgery;video-assistedthoracoscopicsurgery(VATS); pulmonarylobectomy;postoperativecare;EnhancedRecoveryAfterSurgery(ERAS); diagnostic yield",
+          "page": 1,
+          "position": 19
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "1.Introduction",
+      "level": 1,
+      "page_start": 1,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Postoperative chest radiography has long been a cornerstone of postoperative care in thoracic surgery.The traditional paradigm includes obtaining a chest X-ray (CXR) in the Post-Anesthesia Care Unit (PACU), followed by daily films during hospitalization and films before and after chest tube removal and even at outpatient follow-up [1–3]. This approach is historically tied to the imperative of rapidly identifying life-threatening complications such as pneumothorax, hemothorax, pleural effusions, or mispositioned drains in the immediate postoperative period [4].However, despite continuous advancements in thoracic surgical techniques and perioperative management that have fundamentally modified patient risk profiles and recovery pathways, this protocol-driven approach persists.The constantly increasing volume of lung resections, combined with evolving perioperative care models, has led to reconsideration of the value of such systematic imaging in question [2,5,6].",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "The widespread adoption of video-assisted thoracoscopic surgery (VATS) and robotic- assisted thoracoscopic surgery (RATS) for pulmonary lobectomy represents a paradigm shift.Minimally invasive lobectomy, compared to open thoracotomy, is associated with significantly reduced surgical trauma, less postoperative pain, a lower incidence and du- ration of air leak, and faster functional recovery [7,8].Concurrently, Enhanced Recovery After Surgery (ERAS) protocols have been implemented to standardize and optimize peri- operative care, emphasizing evidence-based interventions and the systematic elimination of unnecessary procedures [5,6,9].In this contemporary context, the patient undergoing VATS/RATS lobectomy is extubated in the operating room, often recovers in a standard wardwithoutintermediateorintensivecare,andismanagedwithasingle,small-bore chest drain.These developments collectively challenge many of the traditional indications for routine postoperative imaging, such as the need to verify the position of multiple drains or central venous catheters, no longer utilized in standard VATS lobectomy [2,5,6].",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Study Aim and Hypothesis",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "ThespecificvalueofthefirstpostoperativeCXRinahomogeneouspopulationof patients undergoing VATS lobectomy remains poorly defined.We hypothesize that in the context of elective,minimally invasive pulmonary lobectomy performed via VATS, the routine PACU CXR has an exceedingly low diagnostic and therapeutic yield.The primary aim of this retrospective cohort study is to quantify this yield, defined as the proportion of routine PACU CXRs that directly lead to a change in postoperative patient management (e.g.,reintervention,chesttubereinsertion,computedtomographyscan,unscheduled transfer in the ICU). Secondary aims include characterizing the spectrum of radiographic findings in the PACU setting and comparing the yield of routine PACU CXRs with that of routine post-drain-removal CXRs and evaluating the therapeutic yield of routine CXRs in patients with intraoperative complications.By providing procedure-specific data on a homogeneous cohort of VATS lobectomy patients, this study aims to inform evidence- based, value-driven imaging protocols aligned with ERAS principles, ultimately reducing unnecessary radiation exposure, costs, and workloads without compromising patient safety.",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090136",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "Tomography 2026, 12, 136 3 of 16",
+          "page": 2,
+          "position": 25
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "2.Materials and Methods",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 3,
+      "paragraphs": [
+        {
+          "text": "A retrospective, single-center, observational cohort study was conducted at a European tertiary referral center for thoracic surgery. The study was conducted in accordance with the Declaration of Helsinki.Due to the retrospective and non-interventional nature of the study, the requirement for ethical approval was waived, even though written informed consent was obtained from each patient.The manuscript was prepared following the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) guidelines, available in the Supplementary Materials.",
+          "page": 2,
+          "position": 26
+        },
+        {
+          "text": "2.1.Patient Population and Selection Criteria",
+          "page": 2,
+          "position": 27
+        },
+        {
+          "text": "All consecutive adult patients (≥18 years) who underwent elective pulmonary lobec- tomy via a VATS approach—either triportal, biportal, or uniportal—for primary lung cancer, pulmonary metastases, or benign conditions between 1 October 2014 and 31 December 2025 were identified from a prospectively maintained institutional surgical database.Exclusion criteria were conversion to thoracotomy, concomitant major procedures (e.g., chest wall resection, sleeve resection, diaphragmatic repair), emergency procedures, and missing or inaccessible postoperative imaging records or clinical data.",
+          "page": 2,
+          "position": 28
+        },
+        {
+          "text": "Our clinical institutional practice is to place one chest tube after lobectomy, through the utility incision in uniportal or biportal VATS and through the camera port in triportal VATS. All patients were transferred to the PACU immediately after surgery and underwent a routine postoperative CXR before being transferred to the ward on the same day.The chest tube was removed when no air leak was detected, and pleural effusion was less than 300 mL/24 h.After the first CXR in the PACU, patients underwent at least one CXR on the 3rd postoperative day (usually before chest tube removal) and after drainage removal (usually pre-discharge).",
+          "page": 2,
+          "position": 29
+        },
+        {
+          "text": "2.2.Data Collection",
+          "page": 2,
+          "position": 30
+        },
+        {
+          "text": "Data were manually extracted from electronic medical records using a standardized case report form and entered into a dedicated, password-protected database (Microsoft Excel, version 16.89.1 Microsoft Corporation, Redmond, WA, USA). Data on chest radio- graph findings were collected by reviewing medical records and were based exclusively on the interpretations provided by two experienced thoracic radiologists (F.F. and P.F.).All CXRs were performed as routine examinations in asymptomatic patients, according to the institutional protocol.For the purpose of this study, “asymptomatic” was defined as the absence of documented clinical signs or symptoms at the time of CXR request, including dyspnea, hemodynamic instability, oxygen desaturation, an increased oxygen requirement, chest pain, or other specific clinical concerns noted by the attending surgical team.For ev- ery immediate postoperative and post-drainage removal CXR, we recorded the time point (PACU or post-drain removal) and radiographic findings (normal, pneumothorax with size, pleural effusion quantified based on the Blackmore score [10], atelectasis, subcutaneous emphysema, mispositioned drain, or other).",
+          "page": 2,
+          "position": 31
+        },
+        {
+          "text": "2.3.Outcomes and Definitions",
+          "page": 2,
+          "position": 32
+        },
+        {
+          "text": "The primary endpoint was the therapeutic yield of routine PACU CXRs, defined as the proportion of CXRs that directly led to a documented change in patient management. For the purpose of this study, a PACU CXR was defined as “expected postoperative” if it demonstrated only radiological signs typically observed after uncomplicated minimally invasive lobectomy (e.g., mild pleural effusion, small non-tension pneumothorax, minor atelectasis along the staple line, surgical emphysema, and proper chest tube and clip po- sitioning),withnofindingswarrantingactiveclinicalintervention.Conversely,aCXR",
+          "page": 2,
+          "position": 33
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090136",
+          "page": 2,
+          "position": 34
+        },
+        {
+          "text": "Tomography 2026, 12, 136 4 of 16",
+          "page": 3,
+          "position": 35
+        },
+        {
+          "text": "was considered “clinically actionable” if it revealed findings potentially requiring addi- tional management, including large or tension pneumothorax, massive pleural effusion orhemothorax,contralateralpneumothorax,newextensiveconsolidation,mediastinal shift, or chest tube malposition requiring repositioning.A “change in management” was considered only if the CXR explicitly showed that the finding was the direct reason for initiating one of the following predefined actions:(I) surgical re-intervention;(II) chest tube insertion or re-insertion; (III) chest tube withdrawal or repositioning; (IV) computed tomography (CT) scan of the chest; (V) transfer to intensive care unit (ICU); (VI) repeat CXR (if explicitly justified by the index CXR finding); (VII) cancellation or delay of planned discharge (for CXR post-drain removal only).",
+          "page": 3,
+          "position": 36
+        },
+        {
+          "text": "The secondary outcomes were as follows:(I) therapeutic yield of post-drain-removal CXRs; (II) spectrum and frequency of radiographic findings in the PACU and post-drain- removal settings; (III) therapeutic yield of routine PACU CXRs associated with intraopera- tive complications.",
+          "page": 3,
+          "position": 37
+        },
+        {
+          "text": "The determination of whether a CXR was the direct reason for a management change was based on explicit documentation in the medical records by the attending surgeon.Two independent reviewers (F.F. and P.F.) reviewed the records to confirm the attribution.Any discrepancies were resolved based on a consensus.",
+          "page": 3,
+          "position": 38
+        },
+        {
+          "text": "2.4.Statistical Analysis",
+          "page": 3,
+          "position": 39
+        },
+        {
+          "text": "Categoricalvariablesarepresentedasfrequenciesandpercentages.Continuous variables are reported as the mean ± standard deviation (SD) if normally distributed or as the median and interquartile range (IQR) if non-normally distributed.Normality was assessedusingtheShapiro–Wilktest.Theprimaryendpointwasthetherapeuticyield of routine PACU CXRs calculated as the proportion of examinations directly leading to a documented change in management.Exact 95% confidence intervals (CIs) for proportions were calculated using the Clopper–Pearson method.Comparisons of therapeutic yields between postoperative time points were performed using the McNemar test, as appropriate. The McNemar test was chosen because the same patients were evaluated at both time points (PACU and post-drain removal), making the observations paired.The test compares the proportion of patients with a management change at each time point while accounting for the paired nature of the data.For subgroup and temporal analyses, the Kruskal–Wallis and Mann–Whitney U tests were used as appropriate.A multiple linear regression model was fitted to identify independent predictors of the number of CXRs, including the year of surgery, duration of chest tube drainage, and length of hospital stay as covariates.Model assumptionswereverifiedusingtheShapiro–WilktestandtheBreusch–Pagantest.A p-value<0.05wasconsideredstatisticallysignificant(two-tailed).Noformalapriori sample size calculation was performed, as this was a retrospective analysis of a consecutive cohort.Statistical analysis was performed using StatPlus:MACPro Statistics, version 8.0 (2010 AnalystSoft Inc., Brandon, FL, USA).",
+          "page": 3,
+          "position": 40
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "3.Results",
+      "level": 1,
+      "page_start": 3,
+      "page_end": 10,
+      "paragraphs": [
+        {
+          "text": "3.1.Patient Cohort and Baseline Characteristics",
+          "page": 3,
+          "position": 41
+        },
+        {
+          "text": "During the study period, a total of 554 consecutive patients underwent elective pul- monary lobectomy via a VATS approach (triportal, biportal, or uniportal) at our institution and met the inclusion criteria.The median age was 70 years (IQR: 63–76), and 315 (57%) were male.Surgical indication was primary non-small cell lung cancer (NSCLC) in 531 (96%), lung metastasis in 13 (2%), and benign disease in 10 (2%).A triportal VATS approach was used in 316 (57%) patients, while 154 (28%) underwent uniportal VATS and 84 (15%) biportalapproach.Right-sidedlobectomywasperformedin313(56.5%).Themedian",
+          "page": 3,
+          "position": 42
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090136",
+          "page": 3,
+          "position": 43
+        },
+        {
+          "text": "Tomography 2026, 12, 136 5 of 16",
+          "page": 4,
+          "position": 44
+        },
+        {
+          "text": "length of hospital stay was 6 days (IQR: 5–9; range 3–34 days).Baseline demographic and operative characteristics are summarized in Table 1.",
+          "page": 4,
+          "position": 45
+        },
+        {
+          "text": "Table 1.Baseline characteristics of the study population (N = 554).",
+          "page": 4,
+          "position": 46
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Characteristic Value",
+          "level": 2,
+          "page_start": 4,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Age, years, median (IQR) 70 (63–76) Sex, male, n (%) 315 (57)",
+              "page": 4,
+              "position": 47
+            },
+            {
+              "text": "Side of resection n (%) Right 313 (56.5)",
+              "page": 4,
+              "position": 48
+            },
+            {
+              "text": "Surgical indication n (%) NSCLC 531 (96) Metastasis 13 (2) Benign disease 10 (2)",
+              "page": 4,
+              "position": 49
+            },
+            {
+              "text": "VATS approach n (%) Triportal 316 (57) Uniportal 154 (28) Biportal 84 (15)",
+              "page": 4,
+              "position": 50
+            },
+            {
+              "text": "Site of surgery n (%) Right upper lobe 165 (30) Middle lobe 39 (7) Right lower lobe 102 (18) Bilobectomy 8 (1) Left upper lobe 144 (26) Left lower lobe 96 (17)",
+              "page": 4,
+              "position": 51
+            },
+            {
+              "text": "Intraoperative complications (Minor and major) 107 (19.3)",
+              "page": 4,
+              "position": 52
+            },
+            {
+              "text": "Length of stay, days, median (IQR), range 6 (5–9); 3–34 days",
+              "page": 4,
+              "position": 53
+            },
+            {
+              "text": "Postoperative CXRs (554 pts), n.IQR range 2130 (3–4) 2–18",
+              "page": 4,
+              "position": 54
+            },
+            {
+              "text": "IQR: interquartile; NSCLC: non-small cell lung cancer; VATS: video-assisted thoracic surgery; CXRs: chest X-rays.",
+              "page": 4,
+              "position": 55
+            },
+            {
+              "text": "3.2.Primary Outcome Therapeutic Yield of Routine PACU CXRs",
+              "page": 4,
+              "position": 56
+            },
+            {
+              "text": "Of the 554 postoperative routine CXRs performed in the PACU, only 12 (2.2%; 95% CI: 1.1–3.7) led to a documented change in patient management according to our predefined criteria.The most common actions were chest tube reinsertion [n = 5 (42%)], followed by repeat CXR [n = 4 (33%)].Chest tube withdrawal was performed in 2 patients and surgical re-intervention in 1 patient, with subsequent transfer to the ICU.",
+              "page": 4,
+              "position": 57
+            },
+            {
+              "text": "Of the 12 management changes triggered by routine PACU CXRs, 6 were classified asclinicallymeaningfulinterventions(chesttubereinsertionin5patientsandsurgical re-interventionin1patient).Overall,themanagement-changeratewas12/554(2.2%), while the rate of clinically meaningful interventions was 6/554 (1.1%).The remaining 6 changes consisted of repeat CXR (n = 4) or chest tube withdrawal (n = 2), although repeat CXR may not represent a true therapeutic intervention.",
+              "page": 4,
+              "position": 58
+            },
+            {
+              "text": "All5chesttubereinsertionswereperformedforpneumothoraxbasedsolelyona routine PACU CXR finding in the absence of clinical symptoms (Table 2) with a median size of 3 cm (IQR: 2–5 cm).In 4 patients, the pneumothorax was apical, while in 1 patient it was localized laterally.None of these patients had evidence of tension physiology or hemodynamic compromise.All 5 patients underwent uneventful chest tube reinsertion and had an uncomplicated subsequent course.No patient required surgical re-intervention or ICU admission.",
+              "page": 4,
+              "position": 59
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 4,
+              "position": 60
+            },
+            {
+              "text": "Tomography 2026, 12, 136 6 of 16",
+              "page": 5,
+              "position": 61
+            },
+            {
+              "text": "Table 2.Changes in management triggered by 12 of 554 routine PACU CXRs.",
+              "page": 5,
+              "position": 62
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Action Taken N(%)",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "Chest tube reinsertion 5 (42) Repeat CXR * 4 (33) Chest tube withdrawal 2 (17) Surgical re-intervention 1 (8) Total actions 12 (100)",
+              "page": 5,
+              "position": 63
+            },
+            {
+              "text": "* Repeat CXR is not clinically meaningful intervention.",
+              "page": 5,
+              "position": 64
+            },
+            {
+              "text": "3.3.Secondary Outcomes 3.3.1.Therapeutic Yield of Post-Drain Removal CXR",
+              "page": 5,
+              "position": 65
+            },
+            {
+              "text": "The therapeutic yield varied significantly across the two different postoperative time points:post-drain-removal CXRs, 93 out of 554 patients (16.8%; 95% CI: 13.7–20.0) required a change in management, compared to only 12 out of 554 (2.2%;95% CI: 1.1–3.7) in the PACU setting (p < 0.001) (Table 3).",
+              "page": 5,
+              "position": 66
+            },
+            {
+              "text": "Table 3.Therapeutic yield of routine CXRs by time point:PACU vs.post-drain removal.",
+              "page": 5,
+              "position": 67
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Time-Point CXRs",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "n",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "CXRs with Change of Management",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "n (%) 95% CI p-Value",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [
+            {
+              "text": "PACU (routine) 554 12 (2.2) 1.1–3.7 <0.001 Post-drain removal 554 93 (16.8) 13.7–20.0",
+              "page": 5,
+              "position": 68
+            },
+            {
+              "text": "CXRs:chest X-rays; CI: confidence interval; PACU: Post-Anesthesia Care Unit.",
+              "page": 5,
+              "position": 69
+            },
+            {
+              "text": "To further characterize the paired nature of these observations, we performed a McNe- mar test comparing management changes at the two time points within the same patients. Theunderlying2×2contingencytableispresentedinTable4;theMcNemartestwas highly significant (p < 0.001), confirming that the difference between the two time points is statistically significant.",
+              "page": 5,
+              "position": 70
+            },
+            {
+              "text": "Table4.PairedcomparisonofmanagementchangesbetweenPACUandpost-drainremovalof 554 CXRs.",
+              "page": 5,
+              "position": 71
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Post-Drain Removal:Change",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "Post-Drain Removal:",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 5,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "No Change Total",
+          "level": 2,
+          "page_start": 5,
+          "page_end": 6,
+          "paragraphs": [
+            {
+              "text": "PACU: Change 4 8 12 PACU: No Change 89 453 542 Total 93 461 554 McNemar test:p < 0.001.",
+              "page": 5,
+              "position": 72
+            },
+            {
+              "text": "Among the 93 patients with a change in management after post-drain-removal CXRs, themostcommonactionsweredelayeddischarge[n=48(51.6%)]andrepeatCXR [n = 20 (21.5%)].More invasive interventions, such as chest tube reinsertion [n = 4 (4.3%)] or surgical re-intervention [n = 1 (1.1%)], were rarely required.Details of the 93 cases with the therapeutic yield after chest-tube-removal CXRs are presented in Table 5.",
+              "page": 5,
+              "position": 73
+            },
+            {
+              "text": "Unlike the low-yield PACU CXRs, the higher diagnostic yield of post-drain-removal CXRs resulted in actionable clinical decisions, predominantly delayed discharge, allowing patients with radiographic abnormalities to be monitored or treated before discharge.None of the 93 patients required unplanned readmission.",
+              "page": 5,
+              "position": 74
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 5,
+              "position": 75
+            },
+            {
+              "text": "Tomography 2026, 12, 136 7 of 16",
+              "page": 6,
+              "position": 76
+            },
+            {
+              "text": "Table 5.Changes in management triggered by 93 of 554 routine post-drain-removal CXRs.",
+              "page": 6,
+              "position": 77
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Action Taken N(%)",
+          "level": 2,
+          "page_start": 6,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "Delayed discharge 48 (51.6) Repeat CXR 20 (21.5) Chest tube withdrawal or Heimlich valve placement 5 (5.4) Chest tube reinsertion 4 (4.3) CT scan 2 (2.2) Surgical re-intervention 1 (1.1) Other * 13 (14) Total 93 (100) Note:someCXRshadmultiplefindings.*Otheractionsincludedthefollowing:drainremoval (n = 4), abdominal X-ray (n = 1), and other non-specified conservative measures (n = 8).",
+              "page": 6,
+              "position": 78
+            },
+            {
+              "text": "3.3.2.Spectrum and Frequency of Radiographic Findings in the PACU Setting Versus Post-Drain-Removal CXRs",
+              "page": 6,
+              "position": 79
+            },
+            {
+              "text": "Among the 554 routine PACU CXRs, 473 (85.4%) were reported as “expected postop- erative” findings.The remaining 81 (14.6%) demonstrated at least one abnormal finding (some CXRs had multiple findings).Of these 81, 69 received no intervention whatsoever, and the finding was documented as “clinically insignificant” or “observation only.” The remaining 12 patients correspond to the cases with a change in management detailed in Table 3.The most frequent abnormal findings in PACU CXRs were pneumothorax [n = 32 (5.8%)], atelectasis [n = 25 (4.5%)], and pleural effusion [n = 11 (2.0%)].",
+              "page": 6,
+              "position": 80
+            },
+            {
+              "text": "By contrast,among the 554 routine post-drain-removal CXRs,322 (58.1%) were re- ported as “expected postoperative,” while 232 (41.9%) demonstrated at least one abnormal finding.The most frequent abnormal findings were pleural effusion [n = 77 (33.2%)], opaci- ties [n = 56 (24.1%), subcutaneous emphysema [n = 55 (23.7%)], and pneumothorax [n = 38 (16.4%)].A comparative summary of radiographic findings between routine PACU CXRs and post-drain-removal CXRs is presented in Table 6.Statistical comparisons of individual radiographic findings were not performed due to the descriptive nature of this analysis and the potential for multiple findings in the same patient.",
+              "page": 6,
+              "position": 81
+            },
+            {
+              "text": "Table6. ComparisonofradiographicfindingsbetweenroutinePACUCXRsandpost-drain- removal CXRs.",
+              "page": 6,
+              "position": 82
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Finding PACU CXRs",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "n.(%)",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Post-Drain-Removal CXRs",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 6,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "n.(%)",
+              "level": 3,
+              "page_start": 6,
+              "page_end": 7,
+              "paragraphs": [
+                {
+                  "text": "Expected post-operative CXRs 473 (85.4) 322 (58.1) Abnormal findings * 81 (14.6) 232 (41.9)",
+                  "page": 6,
+                  "position": 83
+                },
+                {
+                  "text": "Pneumothorax† 32 (5.8) 38 (6.8) Small (≤2 cm apical) 20 (62.5) 23 (60.5) Moderate (>2 cm) 10 (31.3) 9 (23.7) Large (≥50% hemithorax) 2 (6.3) 6 (15.8) Pleural effusion ** 11 (1.9) 77 (33.2) Atelectasis 25 (4.5) 56 (24.1) Subcutaneous emphysema 6 (1.1) 55 (23.7) Mispositioned drain 3 (0.5) -††",
+                  "page": 6,
+                  "position": 84
+                },
+                {
+                  "text": "Elevated hemidiaphragm 4 (0.7) 6 (1.1)",
+                  "page": 6,
+                  "position": 85
+                },
+                {
+                  "text": "Note:some CXRs had multiple findings.* Percentages calculated based on total 554 CXRs;†per- centage calculated based on total of pneumothoraces; ** pleural effusion was quantified based on the Blackmore score;††not observed in this setting.",
+                  "page": 6,
+                  "position": 86
+                },
+                {
+                  "text": "3.3.3.Therapeutic Yield of Routine CXRs Associated with Intraoperative Complications",
+                  "page": 6,
+                  "position": 87
+                },
+                {
+                  "text": "Intraoperative complications were recorded in 107 patients (19.3% of the cohort). These were classified as major (n = 27) and minor (n = 80).Major complications included bleeding",
+                  "page": 6,
+                  "position": 88
+                },
+                {
+                  "text": "https://doi.org/10.3390/tomography12090136",
+                  "page": 6,
+                  "position": 89
+                },
+                {
+                  "text": "Tomography 2026, 12, 136 8 of 16",
+                  "page": 7,
+                  "position": 90
+                },
+                {
+                  "text": ">200 mL requiring intervention (n = 13), complete lymphadenectomy-related difficulties (n=11),andbronchialinjury(n=3).Minorcomplicationsincludedairleaks(n=68), treated with sealants, sutures, or fibrin glue, and other technical difficulties (n = 10), such as pericardial or diaphragmatic sutures (n = 2).",
+                  "page": 7,
+                  "position": 91
+                },
+                {
+                  "text": "All107patientsunderwentaroutinePACUCXR.Amongthese,only4patients (3.7%) had a change in management triggered by the PACU CXR, accounting for 4 of the 12totalmanagementchangesobservedintheentirecohort(33.3%).Conversely,inthe subgroup without intraoperative complications (n = 447), 8 patients (1.8%) had a change in management.Due to the small number of events in the complicated subgroup, a formal statistical comparison was not performed (Table 7).",
+                  "page": 7,
+                  "position": 92
+                },
+                {
+                  "text": "Table 7.Therapeutic yield of routine PACU CXRs by intraoperative complication status.",
+                  "page": 7,
+                  "position": 93
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "Intraoperative Complications Patients, n Routine PACU",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 7,
+          "paragraphs": [],
+          "subsections": []
+        },
+        {
+          "title": "CXRs, n",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 7,
+          "paragraphs": [
+            {
+              "text": "CXRs with Change,",
+              "page": 7,
+              "position": 94
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "n (%)",
+          "level": 2,
+          "page_start": 7,
+          "page_end": 9,
+          "paragraphs": [
+            {
+              "text": "Yes 107 107 4 (3.7) No 447 447 8 (1.8) Total 554 554 12 (2.2)",
+              "page": 7,
+              "position": 95
+            },
+            {
+              "text": "Notably, even in patients with major intraoperative events, no surgical re-intervention wasperformedbasedsolelyonaroutinePACUCXRfindingintheabsenceofclinical symptoms.Thefourmanagementchangesobservedinthecomplicatedsubgroupall consisted of chest tube reinsertion, with no further invasive procedures required.Due to the small number of events, these data are inconclusive and should be interpreted with caution.A formal statistical comparison was not performed.",
+              "page": 7,
+              "position": 96
+            },
+            {
+              "text": "3.4.Postoperative Chest X-Rays:Overview and Analysis",
+              "page": 7,
+              "position": 97
+            },
+            {
+              "text": "A total of 2130 postoperative CXRs were performed on the 554 patients during hospi- talization, with a median of 3 CXRs per patient (IQR: 2–4; range:2–18).The distribution was right-skewed, with a peak at 3 CXRs [(n = 210 (37.9%)] and the majority of patients [(n = 425 (76.7%)] receiving between 2 and 4 CXRs (Figure 1).",
+              "page": 7,
+              "position": 98
+            },
+            {
+              "text": "Figure 1.Distribution of the number of postoperative CXRs per patient (N = 554).The majority of patients (n = 210, 37.9%) underwent three CXRs.The distribution was right-skewed;six patients (1.1%) received 10 or more CXRs.",
+              "page": 7,
+              "position": 99
+            },
+            {
+              "text": "Box plot analysis identified six patients (1.1%) with 10 or more CXRs, representing the tail of the distribution and likely reflecting complicated postoperative courses (Figure 2).",
+              "page": 7,
+              "position": 100
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 7,
+              "position": 101
+            },
+            {
+              "text": "Tomography 2026, 12, 136 9 of 16",
+              "page": 8,
+              "position": 102
+            },
+            {
+              "text": "Figure 2. Box plot of the number of postoperative CXRs per patient (N = 554), showing the distribution of postoperative CXRs.The box spans the interquartile range (IQR) from Q1 = 3 to Q3 = 4, with the median at 3 (horizontal line).Whiskers extend to 1.5 × IQR from the hinges.Circles indicate outliers (>1.5 × IQR above the upper quartile), while crosses indicate extreme outliers (>3 × IQR above the upper quartile).",
+              "page": 8,
+              "position": 103
+            },
+            {
+              "text": "Over the study period (2014–2025), a significant downward trend in CXR utilization was observed (Figure 3).The mean number of CXRs per patient decreased from 4.81 in 2016to3.31in2025(slope=−0.16CXRsperyear;95%CI:−0.21to−0.11;R2=0.83; p < 0.001).",
+              "page": 8,
+              "position": 104
+            },
+            {
+              "text": "Figure 3.Temporal trend in mean postoperative CXRs per patient from 2014 to 2025.Line graph showing the annual mean number of postoperative CXRs per patient over the study period.The solid line connects observed annual means, while the dashed line represents the linear regression trend.A significant downward trend was observed (slope = −0.16 CXRs per year; 95% CI: −0.21 to −0.11; R2= 0.83; p < 0.001).",
+              "page": 8,
+              "position": 105
+            },
+            {
+              "text": "When stratifying by period, the median number of CXRs decreased from 5 (IQR: 4–6) in 2014–2017 to 3 (IQR: 2.75–4) in 2024–2025 (Kruskal-Wallis H = 95.35; df = 3; p < 0.001) (Figure 4).",
+              "page": 8,
+              "position": 106
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 8,
+              "position": 107
+            },
+            {
+              "text": "Tomography 2026, 12, 136 10 of 16",
+              "page": 9,
+              "position": 108
+            },
+            {
+              "text": "Figure 4.Box plots of postoperative CXRs per patient by period showing the distribution of post- operative CXRs per patient stratified by four time periods.Each box spans the interquartile range (IQR) with the median as a horizontal line; whiskers extend to the most extreme values within 1.5 × IQR. Circles represent outliers (>1.5 × IQR from the box), whereas crosses represent extreme outliers (>3 × IQR from the box).A progressive reduction in both the median (from 5.0 to 3.0) and the upper tail of the distribution is observed over time.However, outliers persist in all periods, indicating that a subset of patients with complicated postoperative courses continued to receive multiple CXRs.",
+              "page": 9,
+              "position": 109
+            },
+            {
+              "text": "Amultiplelinearregressionmodelconfirmedthattheyearofsurgery(β=−0.16; p<0.001),durationofchesttubedrainage(β=0.12;p<0.001),andlengthofhospital stay (β = 0.10; p < 0.001) were factors independently associated with the number of CXRs explaining 83% of the variance (R2= 0.83) (Table 8).",
+              "page": 9,
+              "position": 110
+            },
+            {
+              "text": "Table8.Multiplelinearregressionanalysisoffactorsassociatedwiththenumberofpostopera- tive CXRs.",
+              "page": 9,
+              "position": 111
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "Variable Coefficient (β) 95% CI p-Value",
+          "level": 2,
+          "page_start": 9,
+          "page_end": 10,
+          "paragraphs": [
+            {
+              "text": "Year of surgery −0.16 −0.21 to −0.11 <0.001 Duration of chest tube drainage +0.12 +0.08 to +0.16 <0.001 Length of hospital stay +0.10 +0.06 to +0.14 <0.001",
+              "page": 9,
+              "position": 112
+            },
+            {
+              "text": "Note:R2= 0.83; Adjusted R2= 0.82.",
+              "page": 9,
+              "position": 113
+            },
+            {
+              "text": "3.5.Cost and Radiation Exposure Analysis",
+              "page": 9,
+              "position": 114
+            },
+            {
+              "text": "A hospital-perspective micro-costing analysis was performed using standard Italian public healthcare salary estimates for radiology technicians and radiologists, equipment amortization costs for digital radiography systems (assuming a 10-year lifecycle), main- tenance costs, and PACS/RIS overhead.The estimated institutional cost per examination was as follows:€30 for portable PACU CXR (including personnel, mobile equipment amor- tization, maintenance, and PACS/RIS overhead); €20 for fixed radiology CXR performed after chest drain removal.",
+              "page": 9,
+              "position": 115
+            },
+            {
+              "text": "Radiation exposure was estimated using reference effective dose values for adult chest radiography:portable antero-posterior (AP) CXR, 0.05 mSv; standard AP and latero-lateral CXR, 0.08 mSv.All 554 patients underwent both examinations (total of 1108 radiographs), generating an estimated total institutional cost of €27,700 and an estimated cumulative radiation exposure of 72.02 mSv across the cohort.Per patient, the combined exposure was 0.13 mSv, corresponding to approximately 4–5% of the average annual natural background radiationinEurope.Theseestimatesarebasedoninstitutionalassumptionsregarding personnel salaries, equipment amortization, and overhead and on reference effective doses rather than patient-specific dosimetry.They should therefore be considered approximate.",
+              "page": 9,
+              "position": 116
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 9,
+              "position": 117
+            },
+            {
+              "text": "Tomography 2026, 12, 136 11 of 16",
+              "page": 10,
+              "position": 118
+            },
+            {
+              "text": "The cost per management change for PACU imaging, given a 2.2% intervention rate (12 cases out of 554 CXRs), was approximately €1385 per clinically relevant modification. When considering only clinically meaningful interventions (6 cases), the cost per clinically meaningful intervention was approximately €2770.",
+              "page": 10,
+              "position": 119
+            },
+            {
+              "text": "The cumulative cohort exposure corresponded to an estimated total dose of (0.07202 Sv) [11] (Table 9).",
+              "page": 10,
+              "position": 120
+            },
+            {
+              "text": "Table 9.Combined economic and radiation burden.",
+              "page": 10,
+              "position": 121
+            }
+          ],
+          "subsections": [
+            {
+              "title": "Examination Type No.of Exams",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Cost per Exam (€)",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Total Cost",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "(€)",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Dose per Exam",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "(mSv)",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Total Dose",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "(mSv)",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [],
+              "subsections": []
+            },
+            {
+              "title": "Management Change Rate (%)",
+              "level": 3,
+              "page_start": 10,
+              "page_end": 10,
+              "paragraphs": [
+                {
+                  "text": "Portable CXR (PACU) 554 30 16,620 0.05 27.7 2.2",
+                  "page": 10,
+                  "position": 122
+                },
+                {
+                  "text": "Fixed CXR (post-drain) 554 20 11,080 0.08 44.32 16.8",
+                  "page": 10,
+                  "position": 123
+                },
+                {
+                  "text": "Total 1.108 50 27,700 — 72.02 —",
+                  "page": 10,
+                  "position": 124
+                }
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4.Discussion",
+      "level": 1,
+      "page_start": 10,
+      "page_end": 13,
+      "paragraphs": [
+        {
+          "text": "This retrospective cohort study provides the first dedicated analysis of the isolated PACU CXR, focusing on a homogeneous cohort of patients undergoing VATS pulmonary lobectomy.Our findings demonstrate that routine CXR performed in the PACU has a very low therapeutic yield:only 2.2% of examinations directly led to a change in postoperative management, and these changes were predominantly minor, with few invasive procedures. This result aligns with and extends the growing evidence questioning routine immediate postoperative imaging in the era of minimally invasive thoracic surgery.",
+          "page": 10,
+          "position": 125
+        },
+        {
+          "text": "TheimmediatepostoperativeCXRisoftenjustifiedasaroutinesafetycheckor “baseline”.However,itsabilitytodetectclinicallysignificant,unsuspectedpathology",
+          "page": 10,
+          "position": 126
+        },
+        {
+          "text": "thatmandatesimmediateactionisunclear.PreviousstudiesonPACUCXRsarefre- quentlypooledwithinlargercohortsthatincludewedgeresections,segmentectomies, mediastinoscopies,andopenapproaches,makingprocedure-specificconclusionsdiffi- cult [1,4]. Our study addresses this gap by isolating the PACU CXR in a homogeneous VATS lobectomy population.",
+          "page": 10,
+          "position": 127
+        },
+        {
+          "text": "The five asymptomatic patients who underwent chest tube reinsertion based on routine PACU CXR findings represent a clinically important subgroup.While these cases highlight the potential risk of omitting routine imaging, all patients were asymptomatic, and their managementwasdrivensolelybyradiographicfindings.Thefactthatnoneofthese patients developed complications or required further interventions suggests that even in these cases, the clinical relevance of the detected pneumothoraces remains debatable.",
+          "page": 10,
+          "position": 128
+        },
+        {
+          "text": "Availableevidencefrommixedcohortsconsistentlyshowslowyieldsforroutine CXRs.Bjerregaardetal.reportedthatonly0.9%of1097routinepostoperativeCXRs ledtoclinicalinterventionafterelectiveVATSprocedures[6].Porteretal.foundthat PACU and post-drain-removal CXRs predominantly generated repeat imaging without translating into therapeutic interventions [3,12], while Whitehouse et al.confirmed that most abnormal routine CXRs did not alter management [13].A meta-analysis by Galata et al.estimated a PACU CXR yield of 2.75% and a post-drain-removal yield of 7.3% across heterogeneous general thoracic surgery populations [1].Our procedure-specific analysis showsacomparablelowerPACUyield(2.2%),reinforcingtheneedfortailoredrather than generic recommendations.The higher therapeutic yield of post-drain-removal CXRs may partly reflect differences in the outcome definition rather than a direct difference in diagnostic usefulness.",
+          "page": 10,
+          "position": 129
+        },
+        {
+          "text": "As shown in Figure 4, the median number of CXRs decreased from 5.0 in 2014–2017 to 3.0 in 2024–2025, consistent with the downward trend observed in Figure 3.Notably,",
+          "page": 10,
+          "position": 130
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090136",
+          "page": 10,
+          "position": 131
+        },
+        {
+          "text": "Tomography 2026, 12, 136 12 of 16",
+          "page": 11,
+          "position": 132
+        },
+        {
+          "text": "the IQR also narrowed over time, from 4.0–6.0 to 2.5–4.0, suggesting a more standardized approach to postoperative imaging.However, outliers were present in all periods, with maximum values ranging from 9 to 18 CXRs, reinforcing the concept that a minority of patients with complex clinical courses still require intensive radiographic surveillance.The long study period (2014–2025) should be acknowledged as a potential source of confound- ing.During this time, significant changes occurred in VATS techniques, ERAS protocols, chest drain management, and institutional imaging practices.The observed decline in CXR utilizationovertimemaythereforereflecttheseseculartrendsratherthanadeliberate change in clinical practice.We also assessed whether the therapeutic yield of PACU CXR varied over time, but this analysis did not reveal significant changes.",
+          "page": 11,
+          "position": 133
+        },
+        {
+          "text": "Focusing on VATS lobectomy, our results are consistent with those of Hsu et al., who observed that asymptomatic patients with abnormal post-drain-removal CXRs required no intervention, whereas symptomatic patients often needed procedures regardless of the radiographic findings [7]. Even more compelling, Alcasid and coworkers demonstrated that postoperative signs and symptoms predicted the need for intervention with an odds ratio of approximately 48, while an abnormal postoperative day-1 CXR was not an independent predictor [2].These observations are supported by Whitehouse et al., who emphasized that clinically relevant events are almost always preceded by symptoms rather than isolated radiographic abnormalities [13].",
+          "page": 11,
+          "position": 134
+        },
+        {
+          "text": "Quality improvement initiatives have further shown that eliminating routine CXRs afterlungresectionissafe,significantlyreducingthenumberofexaminationswithout increasingcomplicationsorreadmissions[14].Table10summarizeskeyliteratureon routine postoperative CXRs in thoracic surgery.",
+          "page": 11,
+          "position": 135
+        },
+        {
+          "text": "Table 10.Key evidence from the recent literature on routine postoperative CXRs in thoracic surgery.",
+          "page": 11,
+          "position": 136
+        }
+      ],
+      "subsections": [
+        {
+          "title": "Focus Main Message Key Studies",
+          "level": 2,
+          "page_start": 11,
+          "page_end": 12,
+          "paragraphs": [
+            {
+              "text": "Post-pull CXR after minimally invasive resection",
+              "page": 11,
+              "position": 137
+            },
+            {
+              "text": "Pneumothoraces are frequent but never require intervention in asymptomatic patients",
+              "page": 11,
+              "position": 138
+            },
+            {
+              "text": "Dezube, 2021 [8]; Hsu, 2022 [7]; Zukowski, 2022 [9]",
+              "page": 11,
+              "position": 139
+            },
+            {
+              "text": "Routine CXR after elective VATS Only 0.9% lead to intervention; routine abolition suggested Bjerregaard, 2015 [6]",
+              "page": 11,
+              "position": 140
+            },
+            {
+              "text": "Perioperative CXR in thoracic surgery (meta-analysis)",
+              "page": 11,
+              "position": 141
+            },
+            {
+              "text": "No evidence for preoperative or daily CXRs; selective utility only Galata, 2022 [1]",
+              "page": 11,
+              "position": 142
+            },
+            {
+              "text": "Routine PACU and post-drain-removal CXR",
+              "page": 11,
+              "position": 143
+            },
+            {
+              "text": "Frequent abnormalities, no procedures; minimal clinical impact Porter, 2020 [3]",
+              "page": 11,
+              "position": 144
+            },
+            {
+              "text": "Quality improvement/ implementation",
+              "page": 11,
+              "position": 145
+            },
+            {
+              "text": "Eliminating routine CXRs does not increase complications or readmissions Vasey, 2025 [14]",
+              "page": 11,
+              "position": 146
+            },
+            {
+              "text": "Chest ultrasound (CUS) Can reduce CXRs by up to 60% with high therapeutic concordance Grapatsas, 2022 [15]",
+              "page": 11,
+              "position": 147
+            },
+            {
+              "text": "Meanwhile, Table 11 provides a direct comparison of studies specifically addressing PACU CXRs.",
+              "page": 11,
+              "position": 148
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 11,
+              "position": 149
+            },
+            {
+              "text": "Tomography 2026, 12, 136 13 of 16",
+              "page": 12,
+              "position": 150
+            },
+            {
+              "text": "Table 11.Summary of available evidence on routine PACU CXRs after thoracic surgery, with a specific focus on VATS lobectomy.",
+              "page": 12,
+              "position": 151
+            },
+            {
+              "text": "Study Study Design Population n pts (n CXR) Therapeutic Yield",
+              "page": 12,
+              "position": 152
+            }
+          ],
+          "subsections": []
+        },
+        {
+          "title": "PACU CXR (%)",
+          "level": 2,
+          "page_start": 12,
+          "page_end": 13,
+          "paragraphs": [
+            {
+              "text": "Bjerregaard 2015 [6] Retrospective observational",
+              "page": 12,
+              "position": 153
+            },
+            {
+              "text": "Mixed elective VATS",
+              "page": 12,
+              "position": 154
+            },
+            {
+              "text": "surgery (all procedures)",
+              "page": 12,
+              "position": 155
+            },
+            {
+              "text": "1002 (1097) 0.9%",
+              "page": 12,
+              "position": 156
+            },
+            {
+              "text": "Porter 2020 [3] Retrospective",
+              "page": 12,
+              "position": 157
+            },
+            {
+              "text": "General thoracic surgery",
+              "page": 12,
+              "position": 158
+            },
+            {
+              "text": "mixed procedures",
+              "page": 12,
+              "position": 159
+            },
+            {
+              "text": "(VATS/Open)",
+              "page": 12,
+              "position": 160
+            },
+            {
+              "text": "241 (482) 0.4%",
+              "page": 12,
+              "position": 161
+            },
+            {
+              "text": "Galata 2022 [1] Review and meta-analysis",
+              "page": 12,
+              "position": 162
+            },
+            {
+              "text": "General thoracic surgery",
+              "page": 12,
+              "position": 163
+            },
+            {
+              "text": "mixed procedures 3841 (4784) 2.75% (pooled PACU",
+              "page": 12,
+              "position": 164
+            },
+            {
+              "text": "estimate)",
+              "page": 12,
+              "position": 165
+            },
+            {
+              "text": "Alcasid 2024 [2] Retrospective VATS/RATS",
+              "page": 12,
+              "position": 166
+            },
+            {
+              "text": "lobectomies 362 (NA)§ NA for PACU0",
+              "page": 12,
+              "position": 167
+            },
+            {
+              "text": "HSU 2022 [7] Retrospective VATS lobectomies 208 (NA)§ NA for PACU0",
+              "page": 12,
+              "position": 168
+            },
+            {
+              "text": "Cerfolio 2011 [16] Retrospective Pulmonary thoracotomic resection 1037 (1037) NA",
+              "page": 12,
+              "position": 169
+            },
+            {
+              "text": "Rotolo 2026 * Retrospective VATS lobectomies 554 (554) 2.2% (95% CI: 1.1–3.7)",
+              "page": 12,
+              "position": 170
+            },
+            {
+              "text": "NA: not available/not reported separately for PACU time point;§all postoperative CXRs;0PACU not isolated.* Present study.",
+              "page": 12,
+              "position": 171
+            },
+            {
+              "text": "Previous investigations have examined later time points such as post-drain removal [7] or post-operative day 1 (POD1) [2], and meta-analyses have pooled heterogeneous pop- ulations[1].Incontrast,ourstudyisolatesandquantifiesthetherapeuticyieldofthe immediate PACU CXR in a homogeneous VATS lobectomy cohort.Our observed yield of 2.2% is consistent with the pooled estimate of 2.75% from Galata et al.and with the 0.4–0.9% range reported in mixed cohorts [1].This consistency across different settings reinforces the robustness of the evidence and supports the feasibility of a selective, symptom-driven imaging strategy in asymptomatic patients.Our secondary analysis of post-drain-removal CXRs aligns with the extensive literature showing that post-pull pneumothorax is common butalmostalwaysclinicallyirrelevant.Dezubeetal.foundthat55%ofpatientsafter minimally invasive resections had a small pneumothorax, with none requiring interven- tion [8].Zukowski et al.reported that 33.2% of post-pull CXRs were abnormal, but only 3% required drain reinsertion, and all were symptomatic [9].Some authors confirmed that a symptom-only strategy does not increase complications or readmissions [17,18].These findings collectively argue that routine post-drain-removal CXRs in asymptomatic VATS patientsarelow-valueandshouldbereservedforsymptomaticpatientsorthosewith high-risk features (e.g., prolonged air leak, positive clamp trial).",
+              "page": 12,
+              "position": 172
+            },
+            {
+              "text": "Although our study did not specifically address daily CXRs, the literature consistently indicatesthatroutinedailyCXRsafterpulmonaryresectionhavelimitedvalueinnon- hypoxic patients and can be safely replaced by an on-demand strategy [1,13].Our finding thateventhefirstpostoperativeCXRhasalowyieldindirectlysupportstheviewthat subsequent daily CXRs are even less justifiable, consistent with the literature.",
+              "page": 12,
+              "position": 173
+            },
+            {
+              "text": "4.1.Safety, Cost, and Radiation Considerations",
+              "page": 12,
+              "position": 174
+            },
+            {
+              "text": "One of the most consistent messages from the literature is that eliminating routine CXRsissafe,sincereducingCXRutilizationdoesnotincreasecomplicationsorread-",
+              "page": 12,
+              "position": 175
+            },
+            {
+              "text": "https://doi.org/10.3390/tomography12090136",
+              "page": 12,
+              "position": 176
+            },
+            {
+              "text": "Tomography 2026, 12, 136 14 of 16",
+              "page": 13,
+              "position": 177
+            },
+            {
+              "text": "missions[3,14,17];Porteretal.reportedreductionsof>25–40%inCXRuse[12].Our economic analysis (Section 3.5) estimated a total institutional cost of €27,700 for routine PACU and post-drain-removal CXRs, with an approximate cost per PACU management change of €1385.Combined with an estimated cumulative radiation exposure of 72.02 mSv (0.13mSvperpatient)andanear-zeroclinicalyield,thesefindingsdonotsupportthe routine use of PACU imaging in asymptomatic patients.They align with radiation man- agement principles and the growing emphasis on value-based perioperative care and are consistentwiththegrowingbodyofliteraturedemonstratingthateliminatingroutine imagingdoesnotincreasecomplicationsorreadmissions[3,12,14,17].However,these estimates are based on institutional assumptions and the reference dose value and should therefore be interpretated as approximate rather than patient-specific measurements.",
+              "page": 13,
+              "position": 178
+            },
+            {
+              "text": "Anemergingalternativeischestultrasound(CUS).Grapatsasetal.documented that selective CUS can reduce postoperative CXRs by up to 60%, with therapeutic concor- dance rates as high as 97%, reserving CXR for cases of massive subcutaneous emphysema, complex effusions, or inconclusive ultrasound findings [15].",
+              "page": 13,
+              "position": 179
+            },
+            {
+              "text": "4.2.Study Limitations",
+              "page": 13,
+              "position": 180
+            },
+            {
+              "text": "Our study has several limitations.First, as a retrospective single-center design, inher- ent biases and dependence on accurate documentation cannot be eliminated, and results maynotbegeneralizabletocenterswithdifferentprotocolsorcasemixes.Second,no formal sample size calculation was performed. However, the sample size provided a reason- ably precise estimate of the primary endpoint, as reflected by the 95% confidence interval (2.2%, 95% CI: 1.1–3.7).Nevertheless, it was insufficient to robustly analyze subgroups. Third, our analysis was limited to routine CXRs performed in asymptomatic patients; we didnotevaluatetheyieldofCXRsobtainedforclinicalindications,whichmayhavea different profile.Additionally, we did not systematically collect data on chest ultrasounds or patient-reported outcomes, which represent important directions for future research.",
+              "page": 13,
+              "position": 181
+            },
+            {
+              "text": "Prospective, randomized trials focused on specific procedures (VATS lobectomy) and specifictimepoints(PACU,post-drainremoval,follow-up)areneededtoconsolidate recommendationsintoformalguidelines.Nevertheless,thisisoneofthefewstudies focusing exclusively on VATS lobectomy, providing procedure-specific rather than pooled data and using a predefined definition of “therapeutic yield” to avoid overestimating the clinical impact.Our cohort reflects real-world contemporary practice in a high-volume thoracic surgery center.In conjunction with the extensive literature reviewed, our findings support a paradigm shift in postoperative imaging after VATS lobectomy.",
+              "page": 13,
+              "position": 182
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "5.Conclusions",
+      "level": 1,
+      "page_start": 13,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "Routine CXRs in the PACU following VATS lobectomy have minimal therapeutic yields and rarely alter clinical management in asymptomatic patients.The literature consistently demonstratesthatclinicalsignsandsymptomsarefarmorepredictiveoftheneedfor interventionthanroutineradiographicfindings.Ourfindings,inconjunctionwiththe available literature, support the evaluation of a more selective, symptom-driven imaging strategy.Prospectivestudiesareneededtoconfirmthesafetyandeffectivenessofthis approach in appropriately selected patients.",
+          "page": 13,
+          "position": 183
+        },
+        {
+          "text": "SupplementaryMaterials:Thefollowingsupportinginformationcanbedownloadedat:https: //www.mdpi.com/article/10.3390/tomography12090136/s1, STROBE Statement.",
+          "page": 13,
+          "position": 184
+        },
+        {
+          "text": "Author Contributions: Conceptualization, N.R.; methodology, F.P. and A.I.; software, A.C.; validation, F.F.;formal analysis, N.R. and F.F.;investigation and resources, B.B., A.C. and L.F.;data curation, N.R.andB.B.;writing—originaldraftpreparation,N.R.;writing—reviewandediting,N.R.,F.P.,",
+          "page": 13,
+          "position": 185
+        },
+        {
+          "text": "https://doi.org/10.3390/tomography12090136",
+          "page": 13,
+          "position": 186
+        },
+        {
+          "text": "Tomography 2026, 12, 136 15 of 16",
+          "page": 14,
+          "position": 187
+        },
+        {
+          "text": "A.I., L.F. and F.F.; supervision, N.R. All authors have read and agreed to the published version of the manuscript.",
+          "page": 14,
+          "position": 188
+        },
+        {
+          "text": "Funding:This research received no external funding.",
+          "page": 14,
+          "position": 189
+        },
+        {
+          "text": "Institutional Review Board Statement:Ethical review and approval for this study were waived in accordance with Italian legislation (Legislative Decree 196/2003, Art.110) and the GDPR 2016/679, whichexemptpurelyretrospective,observational,non-interventionalstudiesbasedonexisting anonymized clinical data from formal ethical review.This approach is consistent with the favorable opinion expressed by our Institutional Ethics Committee, which reviewed the study protocol and confirmed its ethical acceptability (Review Board Statement No.0119180 of 19 October 2023).The study was conducted in accordance with the principles of the Declaration of Helsinki.",
+          "page": 14,
+          "position": 190
+        },
+        {
+          "text": "Informed Consent Statement:Written informed consent was obtained from all subjects involved in the study.",
+          "page": 14,
+          "position": 191
+        },
+        {
+          "text": "Data Availability Statement:The anonymized datasets generated and analyzed during the current study are available from the corresponding author upon reasonable request, due to ethical restrictions related to patient privacy and in accordance with national data protection laws.",
+          "page": 14,
+          "position": 192
+        },
+        {
+          "text": "Conflicts of Interest:The authors declare no conflicts of interest.",
+          "page": 14,
+          "position": 193
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Abbreviations",
+      "level": 1,
+      "page_start": 14,
+      "page_end": 14,
+      "paragraphs": [
+        {
+          "text": "The following abbreviations are used in this manuscript:",
+          "page": 14,
+          "position": 194
+        },
+        {
+          "text": "VATS Video-assisted thoracic surgery ERAS Enhanced Recovery After Surgery CXRs Chest X-rays PACU Post-Anesthesia Care Unit CI Confidence interval RATS Robotic-assisted thoracic surgery ICU Intensive care unit CT Computed tomography SD Standard deviation IQR Interquartile NSCLC Non-small cell lung cancer R2 Coefficient of determinations € Euro mSv milliSievert",
+          "page": 14,
+          "position": 195
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "Galata, C.; Cascant Ortolano, L.; Shafiei, S.; Hetjens, S.; Müller, L.; Stauber, R.H.; Stamenovic, D.; Roessner, E.D.; Karampinis, I. Are Routine Chest X-rays Necessary Following Thoracic Surgery?A Systematic Literature Review and Meta-Analysis.Cancers 2022, 14, 4361.[CrossRef] [PubMed] 2. Alcasid, N.J.; Banks, K.C.; Jiang, S.F.; Susai, C.J.; Hsu, D.; Carroway, W.; Williams, K.; Patel, A.; Ashiku, S.; Velotta, J.B. Are routine daily chest radiographs (CXR) necessary following minimally invasive lobectomy?J. Thorac.Dis.2023, 15, 456–464. 3. Porter, E.D.; Fay, K.A.; Hasson, R.M.; Millington, T.M.; Finley, D.J.; Phillips, J.D. Routine Chest X-Rays After Thoracic Surgery Are Unnecessary.J. Surg.Res.2020, 250, 188–192.[CrossRef] [PubMed] 4. Reeb, J.; Falcoz, P.E.; Olland, A.; Massard, G. Are daily routine chest radiographs necessary after pulmonary surgery in adult patients?Interdiscip.Cardiovasc.Thorac.Surg.2013, 17, 995–998.[CrossRef] [PubMed] 5. Batchelor, T.J.P.; Rasburn, N.J.; Abdelnour-Berchtold, E.; Brunelli, A.; Cerfolio, R.J.; Gonzalez, M.; Ljungqvist, O.; Petersen, R.H.; Popescu, W.M.; Slinger, P.D.; et al.Guidelines for enhanced recovery after lung surgery:Recommendations of the Enhanced Recovery After Surgery (ERAS) Society and the European Society of Thoracic Surgeons (ESTS). Eur.J. Cardiothorac.Surg.2019, 55, 91–115.[CrossRef] [PubMed] 6. Bjerregaard, L.S.; Jensen, K.; Petersen, R.H.; Hansen, H.J. Routinely obtained chest X-rays after elective video-assisted thora- coscopic surgery can be omitted in most patients; a retrospective, observational study.Gen.Thorac.Cardiovasc.Surg.2015, 63, 465–471.[CrossRef] [PubMed] https://doi.org/10.3390/tomography12090136 Tomography 2026, 12, 136 16 of 16",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": "10.3390/tomography12090136"
+    },
+    {
+      "id": 2,
+      "raw_text": "Hsu, D.S.; Banks, K.C.; Jiang, S.F.; Phillips, J.L.; Ely, S.; Heinz, B.B.; Maxim, C.L.; Ashiku, S.K.; Patel, A.R.; Velotta, J.B. Routine post-pull chest radiograph is not necessary after VATS lobectomy.Surg.Pract.Sci.2022, 12, 100151.[CrossRef] [PubMed] 8. Dezube, A.; Deeb, A.; De Leon, L.E.; Kucukak, S.; Marshall, M.B.; Jaklitsch, M.T.; Rochefort, M.M. Routine Chest Roentgenogram After Chest Tube Removal Is Not Indicated for Minimally Invasive Lung Resection.Ann.Thorac.Surg.2022, 114, 2108–2114. [CrossRef] [PubMed] 9. Zukowski, M.; Haas, A.; Schaefer, E.W.; Shen, C.; Reed, M.F.; Taylor, M.D.; Go, P.H. Are Routine Chest Radiographs After Chest Tube Removal in Thoracic Surgery Patients Necessary?J. Surg.Res.2022, 276, 160–167.[CrossRef] [PubMed] 10. Blackmore, C.C.; Black, W.C.; Dallas, R.V.; Crow, H.C. Pleural fluid volume estimation:A chest radiograph prediction rule.Acad. Radiol.1996, 3, 103–109.[CrossRef] [PubMed] 11. ICRP. The 2007 Recommendations of the International Commission on Radiological Protection; ICRP Publication 103; Annals of the ICRP: London, UK, 2007; p.37. 12. Porter, E.D.; Kelly, J.L.; Fay, K.A.; Hasson, R.M.; Millington, T.M.; Finley, D.J.; Joseph, D.; Phillips, J.D. Reducing Unnecessary Chest X-Ray Films After Thoracic Surgery:A Quality Improvement Initiative.Ann.Thorac.Surg.2021, 111, 1012–1018.[CrossRef] [PubMed] 13. Whitehouse, M.R.; Patel, A.; Morgan, J.A. The necessity of routine post-thoracostomy tube chest radiographs in post-operative thoracic surgery patients.Surgeon 2009, 7, 79–81.[CrossRef] [PubMed] 14. Vasey, B.;Laurent, M.;Demarchi, M.S.;Triponez, F.;Karenovics, W.;Bédat, B. Elimination of routine chest X-rays after lung resection:A quality improvement initiative.J. Thorac.Dis.2025, 17, 8421–8429.[CrossRef] [PubMed] 15. Grapatsas,K.;Leivaditis,V.;Ehle,B.;Papaporfyriou,A.CanChestUltrasoundReplaceChestX-rayinThoracicSurgery? Tomography 2022, 8, 2083–2092.[CrossRef] [PubMed] 16. Cerfolio,R.J.;Bryant,A.S.DailyChestRoentgenogramsAreUnnecessaryinNonhypoxicPatientsWhoHaveUndergone Pulmonary Resection by Thoracotomy.Ann.Thorac.Surg.2011, 92, 440–444.[CrossRef] [PubMed] 17. Heidel, J.S.; Miller, J.; Donovan, E.; Handa, R.; Van Haren, R.; Salfity, H.; Starnes, S.L. Routine chest radiography after thoracostomy tube removal and during postoperative follow-up is not necessary after lung resection.J. Thorac.Cardiovasc.Surg.2024, 167, 517–525.e2.[CrossRef] [PubMed] 18. Cunningham, J.P.; Knott, E.M.; Gasior, A.C.; Juang, D.; Snyder, C.L.; Peter, S.D.S.; Ostlie, D.J. Is routine chest radiograph necessary after chest tube removal?J. Pediatr.Surg.2014, 49, 1493–1495.[CrossRef] [PubMed] Disclaimer/Publisher’sNote:Thestatements,opinionsanddatacontainedinallpublicationsaresolelythoseoftheindividual author(s) and contributor(s) and not of MDPI and/or the editor(s).MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content. https://doi.org/10.3390/tomography12090136",
+      "authors": [],
+      "title": null,
+      "year": 2022,
+      "venue": null,
+      "doi": "10.3390/tomography12090136"
+    }
+  ],
+  "page_count": 16,
+  "warnings": []
+}

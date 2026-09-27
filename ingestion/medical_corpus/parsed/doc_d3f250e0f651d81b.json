@@ -1,0 +1,946 @@
+{
+  "identity": {
+    "id": "doc_d3f250e0f651d81b",
+    "source": {
+      "filename": "PMC13577619.1.pdf",
+      "path": "/Users/cahree/dev/research-intelligence-system/ingestion/chest_xray_rag/PMC13577619.1/PMC13577619.1.pdf",
+      "content_hash": "d3f250e0f651d81b1d149cfd1863326abe8b5f89b7d5a73062557410f6a11120"
+    }
+  },
+  "metadata": {
+    "title": "Cannulatipseparationandconﬁgurationasdeterminantsof recirculationinvenovenousECMO",
+    "authors": [
+      "ElliottTWorku(MBBS",
+      "FCICM)",
+      "MichaelGPittard(BMed",
+      "FCICM)",
+      "andRichardJTotaro (MBBS",
+      "FCICM)"
+    ],
+    "affiliations": [],
+    "publication_year": 2026,
+    "venue": null,
+    "doi": "10.1051/ject/2026010",
+    "arxiv_id": null,
+    "abstract": null,
+    "other_identifiers": {}
+  },
+  "sections": [
+    {
+      "title": "Cannulatipseparationandconﬁgurationasdeterminantsof recirculationinvenovenousECMO",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 0,
+      "paragraphs": [],
+      "subsections": [
+        {
+          "title": "ElliottTWorku(MBBS,FCICM)1,2,*,MichaelGPittard(BMed,FCICM)1,andRichardJTotaro (MBBS,FCICM)1,2",
+          "level": 2,
+          "page_start": 0,
+          "page_end": 0,
+          "paragraphs": [
+            {
+              "text": "1IntensiveCareService,RoyalPrinceAlfredHospital,Camperdown,Sydney2050,Australia 2FacultyofMedicine,UniversityofSydney,Camperdown,Sydney,Australia",
+              "page": 0,
+              "position": 0
+            },
+            {
+              "text": "Received28August2025,Accepted9April2026",
+              "page": 0,
+              "position": 1
+            },
+            {
+              "text": "Abstract – Background: Recirculation during venovenous extracorporeal membraneoxygenation (VV ECMO) is an importantphenomenonthatlimitstheefﬁciencyofsupport.Femoro-jugular(FJ)cannulationmaybeassociatedwith lowerrecirculationthanfemoro-femoral(FF)conﬁgurations.LocalpracticeistoroutinelyoverlapcannulaintheFJ conﬁguration;thisapproachremainspoorlydescribed,anditsimpactonrecirculationisnotunderstood.Methods: Thesaturation-basedformulawasusedtoassessrecirculationfractionamongst24patientsreceivingVVECMObe- tweenJuly2018andMarch2025inthissingle-centreretrospectivestudy.AllreceivedVVECMOviaamultistage drainage cannula and a single-stagereturn. Factors consideredrelevant to recirculationwere also collected at the time of a recirculation assessment, and cannula separation was obtained from chest X-ray imaging. Recirculation was com- pared between conﬁgurations, with further analysis where an overlap of cannula was present. Univariate and multivari- ateregressionwereperformedtoevaluatetheinﬂuenceonrecirculationandclinicaloutcomes.Results:Demography wassimilarbetweenconﬁgurations,withthemajorityofVVECMOindicationsbeingARDSsecondarytobacterial pneumonia. Patients in whom recirculationwas assessable were similar to those excluded. Recirculation was non sig- niﬁcantly lower amongst patients with FJ cannulation and lacked a clear relationship to extracorporeal blood ﬂow and drainagetipposition.Therewerenosigniﬁcantdifferencesinclinicaloutcomesbetweencannulaconﬁgurations, numericallyhigher rates of tracheostomy and awake ECMO were observed for FJ cannulations. Olderage and higher vasoactiveburdenwereassociatedwithlengthofstayandsurvival.Conclusion:Thereareadearthofstudiesinves- tigatingrecirculationinpatientswithdeliberateoverlapoffemoralandjugularcannula,particularlyinthecontextof largecalibremultistagedrainagedevices.Aprospectivestudyisnecessarytosystematicallyevaluatetheinﬂuenceof thispracticeonVVECMOefﬁciency,ideallyusingadvancedrecirculationmeasurementsandcontemporaneouscar- diacoutputmonitoring.",
+              "page": 0,
+              "position": 2
+            },
+            {
+              "text": "Key words: Extracorporeal Membrane Oxygenation (ECMO), Acute Respiratory Distress Syndrome (ARDS), Recir- culation,Cannulaconﬁguration.",
+              "page": 0,
+              "position": 3
+            }
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "level": 1,
+      "page_start": 0,
+      "page_end": 2,
+      "paragraphs": [
+        {
+          "text": "Veno-venousextracorporealmembraneoxygenation(VV ECMO) is indicated in the management of severe acute hypox- aemic and hypercapnic respiratory failure and is associated with survivalbeneﬁt[1].",
+          "page": 0,
+          "position": 4
+        },
+        {
+          "text": "Someofthatbeneﬁtislikelyderivedfromreductionsin mechanicalpowerdeliverytothenativelungfacilitatedby extracorporealgasexchange[2–5].However,ultraprotective “rest”ventilationsettingsmayworsenatelectasis[6,7],while supraphysiologicalpulmonaryarterialoxygensaturationmay impair hypoxic pulmonary vasoconstriction [8, 9], exacerbating",
+          "page": 0,
+          "position": 5
+        },
+        {
+          "text": "nativelungshunt.Thus,highECMOdependencyisoften incurredintheearlypost-implantationphase[10].",
+          "page": 0,
+          "position": 6
+        },
+        {
+          "text": "The arterialised efﬂuent exiting the ECMO membrane con- tainssigniﬁcantlyelevated boundandsolubilised oxygen [11], however, the portion that is delivered to the patient is inﬂuenced byrecirculation.Recirculationdescribestheportionofreturn fromthemembraneoxygenatorbeingentraineddirectlyinto the ECMO drainagecannula, ratherthanenteringthe systemic venouscirculation[12](Figure1).",
+          "page": 0,
+          "position": 7
+        },
+        {
+          "text": "Increasedrecirculationmaynecessitatetheimpositionof therapiessuchassedation,neuromuscularblockade,andﬂuid administrationtoachieveadequateoxygendelivery[13].",
+          "page": 0,
+          "position": 8
+        },
+        {
+          "text": "Persistinghypoxaemiaduetorecirculationmayeven requiremanipulationofcannulapositioning,riskinginfective complications and accidental decannulation [14], or an *Corresponding author: elliott.worku@health.nsw.gov.au",
+          "page": 0,
+          "position": 9
+        },
+        {
+          "text": "ThisisanOpenAccessarticledistributedunderthetermsoftheCreativeCommonsAttributionLicense(https://creativecommons.org/licenses/by/4.0),",
+          "page": 0,
+          "position": 10
+        },
+        {
+          "text": "whichpermitsunrestricteduse,distribution,andreproductioninanymedium,providedtheoriginalworkisproperlycited.",
+          "page": 0,
+          "position": 11
+        },
+        {
+          "text": "ORIGINALARTICLE",
+          "page": 0,
+          "position": 12
+        },
+        {
+          "text": "JExtraCorporTechnol2026,58,255–266 \u0001TheAuthor(s),publishedbyEDPSciences,2026 https://doi.org/10.1051/ject/2026010",
+          "page": 0,
+          "position": 13
+        },
+        {
+          "text": "Availableonlineat: ject.edpsciences.org",
+          "page": 0,
+          "position": 14
+        },
+        {
+          "text": "additionalcannulatofacilitatehighﬂowconﬁgurations[15]. Increasingextracorporealbloodﬂow(ECBF)canovercome thedeleteriousinﬂuenceofrecirculation[16],butatthecost ofmorenegativevenousaccesspressures,andpotentially greaterbloodtrauma.",
+          "page": 1,
+          "position": 15
+        },
+        {
+          "text": "Recirculationisadynamicphenomenoninﬂuencedby patientandcircuitfactors[17,18].Aduallumencannula anatomicallyseparatescavaldrainageandreinfusion[12], inherentlylimitingrecirculation,whilemultistagedrainage devices are superior to single-stage drainage [12, 19, 20]. Com- putational ﬂuid dynamics also suggests that within a multistage cannula,sideholedesignmaydifferentiallymodulateshear stressandrecirculation[21].",
+          "page": 1,
+          "position": 16
+        },
+        {
+          "text": "A higher ratio of cardiac output to ECBF reduces the recir- culation fraction(Rf)[22,23],however,thisriskshypoxaemia onECMOduetoadmixture[10].Intrathoracicpressure[24], cannulatipseparationandorientationofthereturnbloodﬂow inrelation to drainage mayalsobe relevant [25,26].Ofthese, cannulapositioningisamodiﬁablefactorthatclinicianscan optimise.",
+          "page": 1,
+          "position": 17
+        },
+        {
+          "text": "Datacomparingrecirculationbetweenfemoro-jugular(FJ) andfemoro-femoral(FF)conﬁgurationsareinconsistent,the",
+          "page": 1,
+          "position": 18
+        },
+        {
+          "text": "formermaypermitalargerdrainagecannulatobeused[27, 28]. Consistent clinical beneﬁt to prefer one conﬁguration over theotherislacking,andjugularinstrumentationmayentail higherproceduralrisk[29,30].",
+          "page": 1,
+          "position": 19
+        },
+        {
+          "text": "Atourcentre,femoro-jugularcannulationisperformedin the majority of VV ECMO initiations (Supplementary Table 1). Uniquely,weintentionallytargetoverlapofthefemoraldrai- nageandjugularreturninourlocalpractice(Figure2).",
+          "page": 1,
+          "position": 20
+        },
+        {
+          "text": "WehypothesisedthatFJcannulationwouldbeassociated withfavourablerecirculationanddrainagehaemodynamics comparedtoFFcannulation.Furthermore,wewishedto describe recirculationcharacteristics in patients withthis rarely reportedoverlapbetweendrainageandreturncannulas.",
+          "page": 1,
+          "position": 21
+        },
+        {
+          "text": "Materialsandmethods",
+          "page": 1,
+          "position": 22
+        },
+        {
+          "text": "Thisretrospectivemonocentricstudywasconductedin accordance with the principles stated in the Declaration of Hel- sinki.Thestudyprotocol(X25-0188)wasapprovedbythe local ethics committee (2025/ETH01463), andthe requirement for informed consent to participate was waived due to its obser- vationalandretrospectivenature.Recirculationwasmeasured according to the saturation-based equation described previously [17,18].",
+          "page": 1,
+          "position": 23
+        },
+        {
+          "text": "Rf% ð Þ ¼SpreO2–SvO2",
+          "page": 1,
+          "position": 24
+        },
+        {
+          "text": "\u0001 \u0003",
+          "page": 1,
+          "position": 25
+        },
+        {
+          "text": "=SpostO2–SvO2",
+          "page": 1,
+          "position": 26
+        },
+        {
+          "text": "\u0001 \u0003",
+          "page": 1,
+          "position": 27
+        },
+        {
+          "text": "\u0002 100",
+          "page": 1,
+          "position": 28
+        },
+        {
+          "text": "Pre;premembrane,post;postmembrane Rf%=recirculationfraction(percentage)",
+          "page": 1,
+          "position": 29
+        },
+        {
+          "text": "Patientpopulation",
+          "page": 1,
+          "position": 30
+        },
+        {
+          "text": "EligiblepatientswerethosereceivingVVECMOviatwo single-lumencannulasineitherfemoro-femoral(FF)or femoro-jugular (FJ) conﬁguration, from July 2018 (programme inception)until1stMarch2025.Patientsreceivinghybrid ECMOentailinganarterialreturn,ahighﬂowconﬁguration, or a dual lumen cannula at the time of a recirculation measure- mentwereexcluded.",
+          "page": 1,
+          "position": 31
+        },
+        {
+          "text": "Recirculationmeasurements",
+          "page": 1,
+          "position": 32
+        },
+        {
+          "text": "Patientsmanagedinourintensivecareunithaveclinical, physiologicalandECMOdatauploadedathourlyintervalsto the electronic medical record (EMR) (Philips Intelli Space Crit- icalCareandAnaesthesia,PhilipsHealthcare,TheNether- lands).TheEMRofeachpatientwasreviewedtodetermine whetherpre-andpost-membranebloodgasanalysis,andcon- temporaneousSvO2measurementswereavailable,permitting calculationoftherecirculationfractionaccordingtotheCVL (centralvenousline)methodandsaturationequationatleast onceusingtheequationprovidedabove[17].Localpractice istoreservethefemoralveinsandrightinternaljugularfor VVECMO,andifnecessary,escalationtohighﬂowconﬁgu- ration,theleftinternaljugularveiniswherethemajorityof 20cmCVLsareplaced,withthetipgenerallyterminatingin theSVCorrightatrium.Dailypre-andpost-membraneblood",
+          "page": 1,
+          "position": 33
+        },
+        {
+          "text": "Figure 1.Plainﬁlmradiographdemonstratinga femoralmultistage drainage cannula with tip in the IVC, and a right internal jugular vein single-stagereturncannulawithtipintherightatrium.Arrows illustrateﬂowdirectionandpotentialsitesofrecirculation:blue indicatesdrainageﬂow,redindicatesreturnﬂow,andpurple indicatesrecirculatedbloodre-enteringthedrainagecannula. IVC:InferiorVenaCava.",
+          "page": 1,
+          "position": 34
+        },
+        {
+          "text": "256 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+          "page": 1,
+          "position": 35
+        },
+        {
+          "text": "gases are not mandated in our service and thus were not present forallpatients.",
+          "page": 2,
+          "position": 36
+        },
+        {
+          "text": "Simultaneous ventilator, physiological data, vasoactive ino- tropicscores[31],cumulativeﬂuidbalanceandairwaytype wereextracted.TheCXR(chestX-ray)closesttothetiming ofarecirculationcalculationwasevaluated,andthecannula tippositionandseparationwereassessedbyanexperienced ECMOspecialist[32]InFJcannulations,crossoverofthe accessandreturnwasdenotedbyanegativenumber(e.g., 2cmcrossoverequatesto\u00032cm). OutcomedatawereobtainedfromtheEMR.Palliative decannulationwithclinicaldocumentationtothateffectwas deemedECMOnon-survival.",
+          "page": 2,
+          "position": 37
+        },
+        {
+          "text": "Statisticalanalysis",
+          "page": 2,
+          "position": 38
+        },
+        {
+          "text": "Demographicandclinicalcharacteristicsweresummarized usingfrequenciesandpercentagesforcategoricalvariables, and median (IQR) for continuous variables, given the small data set and assumption of non-normality. The Mann-Whitney U test was performed to compare the medians of categorical variables, andANOVAtocomparethreeormoregroups.Correlations wereassessedbyPearson’scoefﬁcients,withsigniﬁcanceset ataPvalue<0.05",
+          "page": 2,
+          "position": 39
+        },
+        {
+          "text": "Tocomparemortalityoutcomes,chi-squaredanalysiswas performed using categorical data from each group. Multivariate linear regression was applied to factors previously identiﬁed to inﬂuencerecirculation.",
+          "page": 2,
+          "position": 40
+        },
+        {
+          "text": "Theprimaryoutcomewastherecirculationfractionbased on conﬁguration at the time of assessment and by the separation distance between drainage and return cannula as measured radi- ologically.Weperformedfurtheranalysesonvariouspatient andECMO-relatedfactors,includingdrainagecannulasize anddrainagetiplocation[19].Statisticalanalysiswasper- formedusingMicrosoftExcelwiththeAnalysisToolPak add-in(MicrosoftCorporation,Redmond,WA,USA).",
+          "page": 2,
+          "position": 41
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Results",
+      "level": 1,
+      "page_start": 2,
+      "page_end": 6,
+      "paragraphs": [
+        {
+          "text": "During the study period, 163 patients were identiﬁed. After exclusions for misclassiﬁcation of Veno arterial ECMO, hybrid conﬁgurations (VAV ECMO), dual lumen cannula, or for insuf- ﬁcientdata(eitherlackofSvO2orpre-andpost-membrane bloodgasanalysis)tomakearecirculationassessment,24 patientsremained(Figure3).Ofthese,17underwentFJ,and 7FFcannulations.Hybridconﬁgurationsexcludedwerehigh ﬂowVVECMOusingtwodrainagecannula,andVAV(Veno arteriovenous)ECMO.Intheformer,therearetwodrainage cannulasharingthetotalECBF,andnosinglecannulasepara- tion to report. In the latter, total circuit ﬂow is diverted between an arterial and venous return; the arterial oxygen saturations and SvO2arevariablyinﬂuencedbythearterialreturnandbythe phenomenonofdifferentialoxygenation,whichwouldaffect recirculationassessmentsintheVVportionofthecircuit.",
+          "page": 2,
+          "position": 42
+        },
+        {
+          "text": "Of the 106 VV ECMO patients excluded from the primary study,99patientshadSvO2monitoringavailable.Usinga",
+          "page": 2,
+          "position": 43
+        },
+        {
+          "text": "Figure 2.Plainﬁlmradiographdemonstratinga femoralmultistage drainagecannulawithtipintheSVC,andarightinternaljugular vein single-stage return cannula with tip in the right atrium. Overlap anddirectionofinﬂowandreturnannotatedwitharrows:blue indicatesdrainageﬂow,andredindicatesreturnﬂow.Key:SVC, SuperiorVenaCava.",
+          "page": 2,
+          "position": 44
+        },
+        {
+          "text": "E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266 257",
+          "page": 2,
+          "position": 45
+        },
+        {
+          "text": "SvO2>75%andhypoxaemiadeﬁnedasSpO2<88%,we undertook to describe the demography, outcomes, recirculation incidence,andratesofrecirculation-relatedhypoxaemiain thesepatientsdescribedinSupplementaryTable1.",
+          "page": 3,
+          "position": 46
+        },
+        {
+          "text": "Demographyofthe24patientsinthemainstudyissum- marisedinTable1.Therewerenosigniﬁcantdifferencesin patientage,sex,height,BMI,orECMOindicationbetween conﬁgurations. Overall, ARDS secondary to bacterial pneumo- nia was the most common aetiology, and COVID-19 was diag- nosed in 20% (FJ) and 28.6% (FF) of patients, respectively (ns). Most patients were ventilated via an oral endotracheal tube dur- ing ECMO, with the majority receiving a pressure control mode (PCACandPCSIMV);50%ofpatientsintheFJgroupand 34.9%oftheFFgroup(ns)weretracheostomisedatthetime ofrecirculationassessment.",
+          "page": 3,
+          "position": 47
+        },
+        {
+          "text": "BMIBodyMassIndex;COVID-19Coronavirusdisease 2019;ECMOExtracorporealMembraneOxygenation;FF Femoro-femoral;FJFemoro-jugular; ICUIntensive Care Unit; IQRInterquartileRange.",
+          "page": 3,
+          "position": 48
+        },
+        {
+          "text": "AwakeECMO(extubationbeforedecannulation)waspro- videdinonethirdofpatientsintheFJgroup,and14.3%in theFFgroup(ns).",
+          "page": 3,
+          "position": 49
+        },
+        {
+          "text": "There were no signiﬁcant differences in ventilation and res- piratory parameters, VIS, nor cumulative ﬂuid balance; periph-",
+          "page": 3,
+          "position": 50
+        },
+        {
+          "text": "eralsaturationsweresigniﬁcantlylowerintheFJcohort,93% vs.99%(p=0.05)(Table2).",
+          "page": 3,
+          "position": 51
+        },
+        {
+          "text": "Recirculationfraction",
+          "page": 3,
+          "position": 52
+        },
+        {
+          "text": "Themedianrecirculationfractionwasnonsigniﬁcantly lowerinFJcomparedwithFFcannulations,29.3%(8.5; 48.7)vs.41.5(27.3;47.6)p=0.49(Figure4). There was no difference in SvO2 between FF and FJ [56% (52;58.5)vs.63.5%(54;\u000375.8),p>0.1](Table2).",
+          "page": 3,
+          "position": 53
+        },
+        {
+          "text": "ECMOcharacteristics",
+          "page": 3,
+          "position": 54
+        },
+        {
+          "text": "Extracorporeal blood ﬂow was similar (4.45 vs. 4.18 LPM, p=0.3),aswerepumpspeed,venousaccesspressure,and FdO2.TheeffectiveECMObloodﬂow[ECBF\u0002(1\u0003Rf/ 100)]wasnonsigniﬁcantlyhigherinFJ[3.15(2.48;3.58)vs. 2.31(1.52;4.47)p=0.96]cannulations.Sweepgasﬂowrate washigherinpatientswithFJcannulation(8vs.6LPM, p=0.05)(Table2).",
+          "page": 3,
+          "position": 55
+        },
+        {
+          "text": "Cannulasize",
+          "page": 3,
+          "position": 56
+        },
+        {
+          "text": "Similarmultistagedrainagecannulawereusedbetween conﬁgurations(SupplementaryTable2).InFFcannulations, 21Frlongsingle-stagereturncannulas(Maquet,Getinge,",
+          "page": 3,
+          "position": 57
+        },
+        {
+          "text": "Figure 3.Box-and-whisker plot showing recirculation fraction (%) by cannulation conﬁguration. Patients are grouped by femoro-femoral (FF) andfemoro-jugular(FJ)venovenousECMOconﬁgurations.Therewasnosigniﬁcantdifferenceinrecirculationfractionbetweengroups. Key:FF–Femoro-femoral;FJ–Femoro-jugular.",
+          "page": 3,
+          "position": 58
+        },
+        {
+          "text": "258 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+          "page": 3,
+          "position": 59
+        },
+        {
+          "text": "Rastat,Germany)wereusedexclusively,butarangeofshort “arterial cannula” from 19–23Fr were employed in FJ cannula- tions. BothMaquet (Getinge,Rastatt,Germany)and Bio-med-",
+          "page": 4,
+          "position": 60
+        },
+        {
+          "text": "icus(Medtronic,Dublin,Ireland)drainageandreturncannula were used. When Rf was compared by drainage and return can- nulasize,nodifferencesemerged(SupplementaryTable3).",
+          "page": 4,
+          "position": 61
+        },
+        {
+          "text": "Table1.Patientdemographics,diagnoses,andoutcomesbycannulationconﬁguration.Dataarepresentedasmedian(IQR)orpercentageas appropriate.ComparisonsbetweengroupswereperformedusingtheMann–WhitneyUtestorChi-squaretest(*).",
+          "page": 4,
+          "position": 62
+        },
+        {
+          "text": "Demographics FJ(n=17) FF(n=7) p-value Age 47(40–56) 46(40–52) 0.52 Sex(Male) 64.7% 71.4% 0.75 Height(cm) 170(160–178) 173(170–176) 0.70 BMI(Kg/m2) 31.3(25.7–33.5) 24.2(22.9–38) 0.13 Diagnosis BacterialPneumonia 41.2% 28.6% 0.75* ViralPneumonia 11.8% 14.3% - COVID 11.8% 28.6% - Aspiration 5.9% 14.3% - Misc 29.3% 14.3% - Outcomes ECMOduration(days) 11.2(8.3–23.1) 29.2(9.0–42.9) 0.18 ECMOsurvival 52.9% 55.5% 0.86 ICULOS(days) 26(16–41) 58(28–84) 0.45 ICUSurvival 52.9% 44.4% 0.32 TracheostomyonECMO 50% 34.9% 0.55* ExtubatedonECMO 33.3% 14.3% 0.26 HospitalLOS 48(27–84) 87(29–111) 0.45 HospitalSurvival 52.9% 33.3% 0.34",
+          "page": 4,
+          "position": 63
+        },
+        {
+          "text": "Table2.ComparisonofphysiologicalandECMOparametersatthetimeofrecirculationmeasurementbetweenfemoro-jugular(FJ)and femoro-femoral(FF)cannulationconﬁgurations.Valuesarepresentedasmedian(interquartilerange).Comparisonsweremadeusingthe Mann–WhitneyUtest.yEffectiveﬂowcalculatedas:ECMObloodﬂow\u0002(1–Recirculationfraction/100).",
+          "page": 4,
+          "position": 64
+        },
+        {
+          "text": "Femoro-Jugularcannulation Femoro-Femoralcannulation p-value Cannulaseparation(cm) 5.7(0.425–8.725) 5.5(2.8–5.75) 0.63 ECBF(L/min) 4.45(3.92–5.50) 4.18(3.67–4.76) 0.30 Pumpspeed(RPM) 3003(2674–3505) 3150(2936–3240) 0.78 Accesspressure(Pven,mmHg) \u000357(\u000380to\u000344.5) \u000343.5(\u000364.25to\u000334) 0.22 Recirculationfraction(%) 29.3(8.5–48.7) 41.5(27.3–47.6) 0.49 Effectiveﬂow(L/min)y 3.15(2.48–3.58) 2.31(1.52–4.47) 0.96 Sweepgasﬂowrate(L/min) 8(5–9) 6(2.5–7.38) 0.05 FdO2(%) 100(100–100) 100(85–100) 0.43 Pre-membraneSO2(%) 78(69–83) 75(71.3–77.8) 0.38 SvO2(%) 63.5(54–75.8) 56(52–58.5) 0.19 PlasmafreeHb(mg/dL) 640(450–1090) 500(240–990) 0.52 D-dimer(mg/L) 7.45(2.28–19.32) 17.5(3.93–18.72) 0.86 Hb(g/dL) 92(78–101.5) 92(82.3–103.5) 0.32 Cumulativeﬂuidbalance(mL) 3531(\u0003255–6509) 6564(1941–8215) 0.2 Vasoactive-inotropicscore 4.85(0.25–18.93) 0.75(0–6.95) 0.2 Peakairwaypressure(cmH2O) 20(23–26) 23.5(21.3–25.5) 0.76 PEEP(cmH2O) 12(10–12) 10(9–11) 0.23 Respiratoryrate(bpm) 12(10–15.5) 10(10–21) 0.83 Expiredtidalvolume(mL) 220(66–384) 177(139–287) 0.91 FiO2(%) 60(60–77.5) 60(50–60) 0.11 SaO2(%) 93(87.8–96.3) 99(95.3–99.8) 0.05 PaO2(mmHg) 66(58–86) 94.5(75.3–106.3) 0.15 PaCO2(mmHg) 43(37.5–53.5) 42.5(39–47.5) 0.76 PaO2FiO2ratio 101(79–147.5) 193.5(113–222.3) 0.16",
+          "page": 4,
+          "position": 65
+        },
+        {
+          "text": "ECBF: Extracorporeal blood ﬂow; ECMO: Extracorporeal membrane oxygenation; FdO2: Fraction of delivered oxygen; FF: Femoro-femoral; FiO2:Fractionofinspiredoxygen;FJ:Femoro-jugular;Hb:Haemoglobin;PaCO2:Arterialpartialpressureofcarbondioxide;PaO2:Arterial partialpressureofoxygen;PEEP:Positiveend-expiratorypressure;Pven:Accesspressure;SaO2:Arterialoxygensaturation;SO2:Oxygen saturation;SvO2:Venousoxygensaturation(measuredonECMOconsole);VIS:Vasoactive-inotropicscore;RPM:Revolutionsperminute.",
+          "page": 4,
+          "position": 66
+        },
+        {
+          "text": "E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266 259",
+          "page": 4,
+          "position": 67
+        },
+        {
+          "text": "Cannulaseparation",
+          "page": 5,
+          "position": 68
+        },
+        {
+          "text": "Median cannula separation was similar betweenFJ and FF cannulation:5.7(0.4;8.7)vs.5.5(2.8;5.8)cm,p=0.63. WithintheFJgroup,signiﬁcantdifferencesemerged;7.0 (3.9;9.0)cmvs.\u00032.3(\u00033.2;\u00031.9)cm,p<0.001,and betweenallthreegroups(FJcrossed,FJuncrossed,FF) p<0.001(Table3).",
+          "page": 5,
+          "position": 69
+        },
+        {
+          "text": "SigniﬁcantcorrelationwasnotfoundbetweenRfandcan- nulaseparationoverall.",
+          "page": 5,
+          "position": 70
+        },
+        {
+          "text": "IntheFJgroup,therewasamoderatestatisticallysigniﬁ- cantcorrelationintheuncrossedconﬁguration(r=0.48, p=0.03).",
+          "page": 5,
+          "position": 71
+        },
+        {
+          "text": "Asimplequadraticpolynomialregressionwasappliedfor FJ cannulations, revealing a U-shaped line of best ﬁt with weak, non-signiﬁcantcorrelation(r2=0.21,p=0.07).",
+          "page": 5,
+          "position": 72
+        },
+        {
+          "text": "Highandlowseparation",
+          "page": 5,
+          "position": 73
+        },
+        {
+          "text": "Recirculation fractionwasassessed above andbelow 5cm ofcannulaseparationusingunpairedttests.Thisvaluewas recently demonstrated to be an inﬂection point for recirculation inabenchstudyofECMOusingtheultrasounddilution method[22].",
+          "page": 5,
+          "position": 74
+        },
+        {
+          "text": "Recirculation was non signiﬁcantly higher when FF cannula separation was less than 5 cm (Supplementary Figure 1). Recir- culation trended to be higher when FJ cannulas were more than 5cmapart(ns).Inthecaseofcrossedcannulas,wechoseto exploreRfaboveandbelowthemedianoverlapdistanceof 2.5cmtopermitmoreequitablesubgroups(Supplementary Figure2).Meanrecirculationfractionwassigniﬁcantlyhigher whenthecannulashadgreateroverlap;53.0%(2.83)vs. 15.1%(17.6),p<0.01. ThesetrendsalignwiththepossibilityofaU-shapedrela- tionshipteasedpreviously.",
+          "page": 5,
+          "position": 75
+        },
+        {
+          "text": "Cannulasub-conﬁgurations",
+          "page": 5,
+          "position": 76
+        },
+        {
+          "text": "We further divided patients into 6 subgroups based on con- ﬁguration and drainage tip position [19] (Figure 5). There were nosigniﬁcantdifferencesinRfbetweenallsixgroups.",
+          "page": 5,
+          "position": 77
+        },
+        {
+          "text": "ECBFandrecirculation",
+          "page": 5,
+          "position": 78
+        },
+        {
+          "text": "StrongnegativecorrelationbetweenECBFandRfwas foundfor FFcannulations,r=\u00030.881,p=0.02.Norelation- shipwasevidentforFJcannulation,norforthecohortasa whole(r=\u00030.09,p=0.63).",
+          "page": 5,
+          "position": 79
+        },
+        {
+          "text": "Flowdynamics",
+          "page": 5,
+          "position": 80
+        },
+        {
+          "text": "Flowwassigniﬁcantlyhigherhoweverwhena29Frdrai- nagecannulawasusedinsteadofa25Frcannula;1.50(1.43; 1.58)vs.1.34(1.25;1.42)Litresper1000RPM,p<0.01. Weakpositivecorrelationwasevidencedbetweencannula separationandECBF/1000RPM,r=0.3125,p<0.05.",
+          "page": 5,
+          "position": 81
+        },
+        {
+          "text": "Clinicaloutcomes",
+          "page": 5,
+          "position": 82
+        },
+        {
+          "text": "ECMO duration, ICU LOS, and hospital LOS were all non- signiﬁcantlyshorterinpatientswhounderwentFJcannulation (Table1).Therewasnomissingdata.Survivaldidnotdiffer atanytimepoint.OnepatientintheFJcohortproceededto organdonationonECMO,andonepatientintheFFgroup wastransferredtoanexternalcentreforconsiderationoflung transplantation.Despitealengthyhospitalepisodefollowing transplant,thispatientdied.AsbothECMOdurationand ICULOSwereinﬂuencedbythewaitfororganallocation, analyseswererepeatedwiththisoutlierpatientexcluded.This didnotsigniﬁcantlyalterresults.",
+          "page": 5,
+          "position": 83
+        },
+        {
+          "text": "Univariateanalysis",
+          "page": 5,
+          "position": 84
+        },
+        {
+          "text": "Pearson’s correlation coefﬁcients were assessed for cumula- tive ﬂuidbalance (r <0.05),peak airwaypressure (r =\u00030.28, p = 0.25), tidal volume (r = \u00030.21, p = 0.2), PEEP (r = \u00030.18, p=0.4),drainagecannulasize(r=\u00030.156,p=0.39),and returncannulasize(r=0.082,p=0.65),withnosigniﬁcant resultselicited.",
+          "page": 5,
+          "position": 85
+        },
+        {
+          "text": "Multivariateregression",
+          "page": 5,
+          "position": 86
+        },
+        {
+          "text": "Regression was performed to evaluate recirculation fraction in models combining conﬁguration, cannula separation, ECBF, Pven, VIS, CFB, and PEEP, with no signiﬁcant results yielded. Multivariateanalysiswassubsequentlyperformedforclinical outcomesbasedonage,BMI,gender,conﬁguration,Rf,VIS, and cumulative ﬂuid balance. Only age and VIS produced sig- niﬁcantresults(Table4).",
+          "page": 5,
+          "position": 87
+        },
+        {
+          "text": "Secondarycohort",
+          "page": 5,
+          "position": 88
+        },
+        {
+          "text": "Ninety-nine patients ineligible for the main study were anal- ysedseparately(SupplementaryTable1).TheirSvO2values weretranscribedfromtheECMOconsole(Cardiohelp\u0003,",
+          "page": 5,
+          "position": 89
+        },
+        {
+          "text": "Figure 4.Recirculation fraction (%) stratiﬁed by access cannula tip position in femoro-femoral (FF) and femoro-jugular (FJ) VV ECMO conﬁgurations. Tip position determined by chest X-ray and categorisedassuperiorvenacava(SVC),rightatrium(RA),or inferior vena cava (IVC) [19]. There was no signiﬁcant difference in recirculationfractionbetweengroups.Key:FF:Femoro-femoral; FJ:Femoro-jugular;NS:nonsigniﬁcant;SVC:Superiorvenacava; RA:Rightatrium;IVC:Inferiorvenacava;VVECMO:veno- venousextracorporealmembraneoxygenation.",
+          "page": 5,
+          "position": 90
+        },
+        {
+          "text": "260 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+          "page": 5,
+          "position": 91
+        },
+        {
+          "text": "Getinge,Rastatt,Germany).Recirculationwasdeﬁnedas SvO2 > 75%, sustained if present for >4 h; recirculation-related hypoxaemiawasdeﬁnedasSpO2<88%occurringduringa period of high SvO2 or documented circuit intervention explic- itlyperformedtoamelioraterecirculation.",
+          "page": 6,
+          "position": 92
+        },
+        {
+          "text": "Of the 99 patients, the majority (82.8%) underwent FJ can- nulation,ofwhich63.3%wereuncrossed.Overall,60%of patientsweremale,higherintheFJuncrossedcohort(76.9% uncrossedvs40%crossed).FFpatientswerecannulatedwith a25Frmultistagedrainagecannula,inFJcannulations,a 29Fr drainage cannula predominated, and both groups received a 21Fr single-stage return cannula. The incidence of “recircula- tion” was 50.5%, and sustained high SvO2 was demonstrated in 32.3% – non different between groups. Hypoxaemia associated with recirculation occurred in 7.1% of the 99 ECMO runs, and was sustained in 5.1%, again not different between groups. Ten patientsintotalunderwentinterventionstomanagerecircula- tion-relatedhypoxaemia:9cannularetractions,1upgradeto high ﬂow VV ECMO. Clinical outcomes did not differ between conﬁgurations,ECMOdurationwas8days,ECMOsurvival 70.7%,and25.3%ofpatientsunderwenttracheostomy.Inten- sivecaresurvivalwas53.5%overall.Intensivecareunitsur- vivalwasessentiallythesameasthatobservedinthemain studycohort.However,the24patientswithrecirculation assessmentsinthemainstudycohortexperiencedlonger ECMOdurations,particularlyfortheFFgroup(median 29days),althoughthiswasnotassessedforstatisticalsigniﬁ- cance.Overall,therecirculationcohortof24patientsincluded inthemainstudyappearsreasonablyrepresentativeofthe largerVVECMOcohortmanagedatourcentreduringthe studyperiod.",
+          "page": 6,
+          "position": 93
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Discussion",
+      "level": 1,
+      "page_start": 6,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "Recirculationisanimportantandprevalentphenomenon duringVVECMO,inﬂuencedbyboththeECMOcircuitand",
+          "page": 6,
+          "position": 94
+        },
+        {
+          "text": "patient-relatedfactors,including cannula design, conﬁguration, andcardiacoutput,bodyposition,andECBF[17,18].High levelsofrecirculationmayhaveimplicationsforhypoxaemia duringECMO,andbedeleterioustoaspectsofpatientcare such as ﬂuid balance management [33–35], and awake ECMO [36].Cannulageometryrepresentsamodiﬁableandimportant determinantofVVECMOefﬁciency.",
+          "page": 6,
+          "position": 95
+        },
+        {
+          "text": "Ourstudyfailedtoidentifysigniﬁcantdifferencesinrecir- culationfractionbyconﬁguration,butthiswasnumerically lowerinFJcannulations[27,37]andthevaluesweobtained broadlyagreewiththosereportedelsewhere[19].",
+          "page": 6,
+          "position": 96
+        },
+        {
+          "text": "Fisser echoed a similar pattern of results in a bicentric study and also found a correlation between Rf and cannula separation [38].Inthisstudy,theRegensbergpatientsreceivedashort 21Fr (38 cm) femoral access cannula (implying IVC drainage), withjugularreturn.IncontrasttheKarolinskacohortreceived larger25Frdrainageviathejugularvein,advancedtositin the more capacious right atrium. In both centres, cannula sepa- ration was substantial, which, in conjunction with relatively low ECBF, justiﬁes the very low recirculation values yielded in this study[38].",
+          "page": 6,
+          "position": 97
+        },
+        {
+          "text": "Table 3. Comparison of physiologic and circuit variables between femoro-jugular (FJ) ECMO patients with crossed vs uncrossed cannulation, and femoro-femoral (FF) patients. Data are presented as median (interquartile range). P values represent pairwise comparison between crossed anduncrossedFJgroups(Mann–WhitneyUtest),andbetweenallthreegroupsusingone-wayANOVA.",
+          "page": 6,
+          "position": 98
+        },
+        {
+          "text": "FJCrossed FJUncrossed p-value (FJgroups)",
+          "page": 6,
+          "position": 99
+        },
+        {
+          "text": "FF p-value (ANOVA) Cannulaseparation(cm) \u00032.3(\u00033.2–\u00031.9) 7.0(3.9–9.0) <0.0001 5.5(2.8–5.8) <0.00001 Recirculationfraction(%) 30.2(6.8–46.5) 29.4(11.4–46.2) 0.83 41.5(27.3–47.6) 0.79 ECBF(L/min) 4.32(3.66–4.89) 4.45(3.62–5.52) 0.48 4.18(3.67–4.76) 0.50 Effectiveﬂow(L/min) 2.51(1.91–3.57) 3.19(2.65–3.57) 0.52 2.31(1.52–4.47) 0.90 Pumpspeed(RPM) 2975(2660–3315) 3030(2715–3540) 0.77 3150(2936–3240) 0.89 Venouspressure(mmHg) \u000336.5(\u000327.0–\u000357.3)\u000361.0(\u000350.0–\u000380.0) 0.69 \u000343.5(\u000364.3–\u000334.0) 0.06 Pre-membranesaturation(%) 82(77–84) 76(68–80) 0.37 75(71–78) 0.66 PEEP(cmH2O) 10(8–14) 12(10–12) 0.87 10(9–11) 0.45 Respiratoryrate(bpm) 11(10–15) 12(10–14.5) 0.98 10(10–21) 0.88 Meanairwaypressure(Paw,cmH2O) 20(20–28) 23.5(20–26) 0.76 23.5(21.3–25.5) 0.81 Expiredtidalvolume(Vte,mL) 231(220–320) 219(55–401) 0.76 177(139–287) 0.95 VIS 5.75(0–25.95) 4.85(1.75–13.25) 0.83 0.75(0–6.95) 0.48 Cumulativeﬂuidbalance(mL) 4716(3302–6249) 1796(\u0003488–7096) 0.45 6564(1941–8215) 0.17",
+          "page": 6,
+          "position": 100
+        },
+        {
+          "text": "Key: ECBF: Extracorporeal blood ﬂow; FJ: Femoro-jugular; FF: Femoro-femoral; PEEP: Positive end-expiratory pressure; RPM: Revolutions perminute.",
+          "page": 6,
+          "position": 101
+        },
+        {
+          "text": "Figure5.Conﬁgurationofaccesscannulatippositionvs.recircu- lationfraction.",
+          "page": 6,
+          "position": 102
+        },
+        {
+          "text": "E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266 261",
+          "page": 6,
+          "position": 103
+        },
+        {
+          "text": "In our experience, the relationship between cannula separa- tion andrecirculation was not asclear.Wefoundgreaterrecir- culationwhenfemoraldrainagecannulaweremoreproximate (< 5 cm apart) [22], but in the FJ conﬁguration, the relationship was more complex, possibly representing a U-shaped relationship.",
+          "page": 7,
+          "position": 104
+        },
+        {
+          "text": "Whencannulatipsaredistracted,thedrainageinﬂowmay aligndirectlywiththepressurisedreturnblood(Figure1). However,whenthetipsareadjacent,thisdirectconfrontation isminimised.Oncethecannulasoverlap,theremaybean increaseinrecirculationbyentrainmentviathesideholesof the multistage drainage cannula(Figure2)[26]. When the tips wereadjacentratherthanseparatedorcrossed,thisgenerally pertainedtothecannulatipsbothresidingintherightatrium. In patients with high CO to ECBF ratios, this could prefer for- wardﬂowofarterialisedreturnthroughthetricuspidvalve, reducingrecirculation[23].However,thismaybehighly dependenton individual rightatrial/vena cavahaemodynamics [39],heartrate[23],andpreciseorientationofthereturncan- nula to the tricuspid valve [16, 39] Given that a signiﬁcant pro- portionoftheinﬂowforthemultistagecannulaisachieved throughthesideholes,positioningofthedrainagecannulais likelycrucial[12,16],asistheratioofSVCtoIVCblood ﬂow[39].",
+          "page": 7,
+          "position": 105
+        },
+        {
+          "text": "Despite our preference for overlap of the ECMO cannula in theFJconﬁguration,thissituationisonlyanecdotallyrepre- sentedintheliterature[19,26,40,41].",
+          "page": 7,
+          "position": 106
+        },
+        {
+          "text": "Inonecasereport,dynamicassessmentofrecirculation using the ultrasound dilution method was employed to optimise drainagecannulapositioning,resultinginacrossedcannula conﬁguration [26]. Modiﬁcations to the return cannula mandrel havealsobeendescribed,suchthatthereturnjetissteered towardsthetricuspidvalve.Thisadjustmenthasbeenassoci- atedwithfavourablerecirculationcharacteristicsandimprove- mentsinpatientoxygenation[40,41]Inacomputational ﬂuidmodel,alteringlieofthereturncannulafrom0\u0004to30\u0004 wasassociatedwithareductioninrecirculationfractionfrom approximately30%tolessthan10%[39],reinforcingthe importance of return cannula orientation in relation to right ven- tricularinﬂow.",
+          "page": 7,
+          "position": 107
+        },
+        {
+          "text": "We found ECBF to be strongly negatively correlated with Rf in FF cannulations, but not in FJ cannulations, whereas a positive relationshipisoftenreported[23,38].Thismaybeduetothe inﬂuenceofomittedvariables,includingnativecardiacoutput.",
+          "page": 7,
+          "position": 108
+        },
+        {
+          "text": "Despite higher recirculation fractions with increased ECBF, Geh- ron et al. found that higher ECBF was also associated with linear increases in membrane oxygen transfer and subsequently periph- eral oxygen saturations [23]. In a bench study, the ratio of cardiac outputtoECBFwasnegativelycorrelatedwithRf,andatCO/ ECBFratios>1.5,singlelumencannulasizesexertedminimal effect on modelled recirculation [22].",
+          "page": 7,
+          "position": 109
+        },
+        {
+          "text": "Whileweusedlargerdrainageandreturncannulasthan generallyreported[19,38],cannulasizedidnotinﬂuenceRf.",
+          "page": 7,
+          "position": 110
+        },
+        {
+          "text": "Larger drainagesizedid,however,affordmore bloodﬂow for a given pump speed; in this way, larger multistage cannulas maysupportsufﬁcientECBFandavoidtheneedforhybrid reconﬁgurationstomanagehypoxaemia[23].",
+          "page": 7,
+          "position": 111
+        },
+        {
+          "text": "Jung et al. recently described similar Rf between FF and FJ cannulationsmeasuredusingtheultrasounddilutionmethod [19]Theauthorssubdividedcannulationsbydrainagetiploca- tion, failing to elicit a correlation between recirculation and can- nulaseparation,norbydrainagetipposition.Theauthors surmisedthattheinﬂuenceofconﬁgurationonrecirculation may be limited when such multistage devices are implanted [19].",
+          "page": 7,
+          "position": 112
+        },
+        {
+          "text": "Wesimilarlyfailedtoﬁnddifferencesinrecirculationby drainagetiplocation(Figure5),whichagainmayrelateto the size and design of our drainage cannula. One study reported greater transition to awake ECMO and more negative ﬂuid bal- ance in patients with a drainage tip in the atrium as opposed to theIVC,suggestingauxiliarybeneﬁtstoconsider[34].",
+          "page": 7,
+          "position": 113
+        },
+        {
+          "text": "Signiﬁcant recirculation lacks a consensus deﬁnition, but an arbitrarythresholdofRf>30–35%hasbeensuggested[23]. Pragmatically,anydegreeofrecirculationthatnecessitates patient or circuit intervention to ameliorate hypoxaemia should beconsideredrelevant.Peripheralsaturationslessthan90% (nadir85%)weremeasuredinapproximatelyonequarterofour cases,withonethirdofventilatorFiO2set>60%(70–100%) suggestingthatrecirculationmayhavebeensigniﬁcant,how- everhypoxaemiaduringVVECMOmaybemultifactorial, relatingtotheinteractionbetweenECBFandnativeCO,and nativeconsumptionandthuscannotbeattributedinretrospect solelytorecirculation.However,nopatientsunderwentreme- dialcannulamanipulationsspeciﬁcallytoaddressrecirculation accordingtotheEMR.",
+          "page": 7,
+          "position": 114
+        },
+        {
+          "text": "Weobservedanon-signiﬁcanttrendtowardshighertra- cheostomy(50%vs.34.9%),andhigherratesofextubation beforeECMOdecannulationintheFJcohort(33.3%vs. 14.3%).Coupledwithnumericallylowercumulativeﬂuidbal-",
+          "page": 7,
+          "position": 115
+        },
+        {
+          "text": "Table4.Multivariatelinearregressionanalysisofageandvasoactive-inotropicscore(VIS)inrelationtokeyclinicaloutcomes.Valuesare presented as regression coefﬁcients (standard error), with associated p-values. Non-signiﬁcant results are denoted as ns. Models were adjusted forbodymassindex(BMI),gender,cannulationconﬁguration,recirculationfraction(Rf),andcumulativeﬂuidbalance(CFB).",
+          "page": 7,
+          "position": 116
+        },
+        {
+          "text": "Predictor Outcome Betacoefﬁcient(SE) p-value Age ECMODuration –0.442(0.217) 0.057 ICULOS –1.044(0.326) <0.01 HospitalLOS –1.987(0.610) <0.01 VIS ECMODuration ns ns ICULOS –0.830(0.269) <0.01 HospitalLOS –1.666(0.504) <0.01",
+          "page": 7,
+          "position": 117
+        },
+        {
+          "text": "Key: VIS: Vasoactive-inotropic score; LOS: Length of stay; ECMO: Extracorporeal membrane oxygenation; Rf: Recirculation fraction; CFB: Cumulativeﬂuidbalance.",
+          "page": 7,
+          "position": 118
+        },
+        {
+          "text": "262 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+          "page": 7,
+          "position": 119
+        },
+        {
+          "text": "ance and the trend in clinical outcomes for the FJ patients, there iscompellingindicationtorepeatevaluationinaprospective manner.",
+          "page": 8,
+          "position": 120
+        },
+        {
+          "text": "Advancedageandhighervasoactiveinotropicscoreatthe point of recirculation measurements were the only factors asso- ciatedwithclinicaloutcomes,withgreatershockassociated withlongerdurationsofcareandpoorersurvival.",
+          "page": 8,
+          "position": 121
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Limitations",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "Whileourstudyissubjecttothecaveatsofretrospective unicentric design, the dearth of data points and limited individ- ualpatientmeasurementsreﬂectstheinfrequencywithwhich objectiverecirculationassessmentsaremadewithinourhigh- volume service. The requirement for non-mandatory blood tests toenablerecirculationassessmentpotentiallyintroducessam- plingbias.Itremainsunknowntowhatextentrecirculation waspresent,anditsramiﬁcationsinexcludedpatients.Severe hypoxaemiaduringVVECMOisrarewithinourcohort;typi- cally, just 1 or 2 VV ECMO patients undergo circuit modiﬁca- tionssuchashighﬂowreconﬁgurationperannum.Discrete assessmentsofrecirculationbasedonsingletimepointsduring ECMO runs (median 11 days FJ and 29 days FF) may not pro- videmeaningfulinsightswithrespecttothedegreeofrecircu- lation,northescopeofimpactonpatientsandoutcomes.We did not indicate where, in each individual ECMO journey, recir- culation was measured. Episodes of high Rf may be relevant at initiationandperiodsofhighECMOdependency,butlessso whenapproachingliberation.",
+          "page": 8,
+          "position": 122
+        },
+        {
+          "text": "The lack of asigniﬁcanteffectinrecirculationbyconﬁgu- ration may be a result of low power or due to the proximity of cannulasinthefemoro-jugularconﬁguration,obviatingpoten- tial differences. In the bench study by Bukova et al., high recir- culationoccurredwithlessthan5cmseparation.Atthis proximity, recirculation was independent of factors such as car- diacoutputandECBF[22].",
+          "page": 8,
+          "position": 123
+        },
+        {
+          "text": "Althoughallpatientsunderwentinitialechocardiography, acutecorpulmonaleisprevalentinARDSpatients[42],and mayhavedevelopedlater,potentiallyimpactingrecirculation [17,43].",
+          "page": 8,
+          "position": 124
+        },
+        {
+          "text": "We were compelled to use the CVL method to assess recir- culation,which,althoughwelldescribed,maynotaccurately representmixedvenoussaturationsinboththeSVCand IVC,dependingonthesamplinglumenposition[12,18]. The veracity of SvO2 measurements can be enhanced by cessa- tionofsweepgas[44],andbyanoxygencontent-based approach[45].However,interruptiontoECMOsupport,even brief,maybeassociatedwithsigniﬁcantpatientdecompensa- tion,andtoleranceof SGOTmay indicatereadiness forlibera- tionwhenrecirculationhaslessdeleteriouspotential[46].",
+          "page": 8,
+          "position": 125
+        },
+        {
+          "text": "The ultrasound dilution method has emerged as a non-inva- sivetechniquepermittingrepeatedrecirculationmeasurements [17, 19, 23, 37, 44, 47]. It entails administration of a small vol- umeofsalinetothepostmembranecircuit;theensuing haemodilution alters the measured ultrasound velocity. By com- paringtheareasunderthecurveforDopplervelocitiesinthe pre- and post-membrane circuit, a ratio is produced correspond- ing to the degree of recirculation [17]. The increasing utilisation ofthismethodmayprovideastandardisationofrecirculation",
+          "page": 8,
+          "position": 126
+        },
+        {
+          "text": "assessment, and use has been demonstrated in situations involv- ingcannulaoverlap[26].Unfortunately,thisdeviceisnot licensedlocally.",
+          "page": 8,
+          "position": 127
+        },
+        {
+          "text": "Thermal andindicatordilution-basedmethods of recircula- tionassessmentalsoexist[17],withtheaddedadvantagesof simultaneouscardiacoutputmeasurement[48].",
+          "page": 8,
+          "position": 128
+        },
+        {
+          "text": "Ourstudywasalsonotpoweredtoevaluatehaemolysis, whichdidnotdifferbetweenconﬁgurations[38].BothRota- ﬂow\u0003(Getinge,Rastatt,Germany)andCardiohelp\u0003(Getinge, Rastatt, Germany) ECMO consoles were used at our institution, whichhavebeenshowntohavedifferinghaemodynamicper- formance [49], however, data could not be analysed by the plat- form.Whetherthecannulasize[39,50]andtippositioning modulatesbloodtrauma[38]issimilarlybeyondscope.",
+          "page": 8,
+          "position": 129
+        },
+        {
+          "text": "Finally,cannulaseparationwasassessedfromplainﬁlm chestradiographsbyanaccreditedECMOpractitioner.The inherent limitations of this modality mean that actual separation in3Dspacemaybeoverestimatedorunderestimated[51]. Fisseretal.identiﬁeddifferentstrengthsofassociationforthe relationshipbetweencannulaseparationandrecirculation dependingontheimagingmodalityfromwhichseparation wasmeasured[38].Whileourmethodformeasurementwas internallyconsistent,CTimagingoffersbetterappreciationof the orientation of cannula to one another, cava and right atrium, and the orientation of the return cannula with respect to the tri- cuspidvalve.",
+          "page": 8,
+          "position": 130
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Conclusion",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 8,
+      "paragraphs": [
+        {
+          "text": "There is an evident need to more comprehensively measure anddeﬁne clinically relevant recirculation, andtofurtherchar- acterise this phenomenon in cases of cannula overlap. As such, intentional cannula overlap in the femoro-jugular conﬁguration cannotberecommendedcurrently.",
+          "page": 8,
+          "position": 131
+        },
+        {
+          "text": "Recirculationisdynamicandrequireslongitudinalevalua- tiontounderstanditsclinicalimpactonECMOefﬁciency andclinicaloutcomes.",
+          "page": 8,
+          "position": 132
+        },
+        {
+          "text": "Future studies should include repeated measures of recircu- lation,includingduringawakeECMOandambulation.",
+          "page": 8,
+          "position": 133
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "title": "Acknowledgments",
+      "level": 1,
+      "page_start": 8,
+      "page_end": 9,
+      "paragraphs": [
+        {
+          "text": "TheauthorsacknowledgeLiLokforherassistancewithdata collection.",
+          "page": 8,
+          "position": 134
+        },
+        {
+          "text": "Funding",
+          "page": 8,
+          "position": 135
+        },
+        {
+          "text": "Thisresearchdidnotreceiveanyspeciﬁcfunding.",
+          "page": 8,
+          "position": 136
+        },
+        {
+          "text": "Conﬂictsofinterest",
+          "page": 8,
+          "position": 137
+        },
+        {
+          "text": "Theauthorsdeclarednoconﬂictofinterest.",
+          "page": 8,
+          "position": 138
+        },
+        {
+          "text": "Dataavailabilitystatement",
+          "page": 8,
+          "position": 139
+        },
+        {
+          "text": "Allavailabledataareincorporatedintothearticle.",
+          "page": 8,
+          "position": 140
+        },
+        {
+          "text": "Authorcontributionstatement",
+          "page": 8,
+          "position": 141
+        },
+        {
+          "text": "E.W.andR.T.designedthestudy.E.W.andM.P.performeddata collection.E.W.analysedthedata.E.W.wrotetheinitialmanuscript",
+          "page": 8,
+          "position": 142
+        },
+        {
+          "text": "E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266 263",
+          "page": 8,
+          "position": 143
+        },
+        {
+          "text": "draft,andallauthorscontributedtoongoingmanuscriptreviewand approvedtheﬁnalversion.",
+          "page": 9,
+          "position": 144
+        },
+        {
+          "text": "Ethicsapproval",
+          "page": 9,
+          "position": 145
+        },
+        {
+          "text": "Datacollectionwasconductedasaretrospectivestudyaimedat identifyingrecirculationfractionsacrossvariouscannulapositionsin venovenousextracorporealmembraneoxygenation(VVECMO). The study protocol adhered to the principles outlined in the Declaration ofHelsinkiandwasapprovedbytheinstitutionalethics(2025/ ETH01463) committee at Royal Prince Alfred Hospital, Sydney, Aus- tralia.Allmedicalresearchinvolvinghumanparticipantswascon- ductedinaccordancewithethicalstandardsdesignedtoensure respectforindividualsandtosafeguardtheirhealthandrights.",
+          "page": 9,
+          "position": 146
+        },
+        {
+          "text": "Supplementarymaterial",
+          "page": 9,
+          "position": 147
+        },
+        {
+          "text": "Supplementary Figure 1: Box-and-whisker plot showing recirculation fraction(%)inpatientswithfemoro-femoralvenovenousECMO, stratifiedbydrainage-to-returncannulatipseparationonchest radiograph.Patientsaregroupedbyseparationdistance<5cmor \u00045 cm as assessed by an experienced ECMO specialist. No significant differenceinrecirculationfractionwasobservedbetweengroups. SupplementaryFigure2:Box-and-whiskerplotsshowingrecircula- tionfraction(%)infemoro-jugularvenovenousECMOpatients, stratifiedbycannulatipseparationonchestradiograph.Toppanel: Patientswithuncrossedcannulas,groupedbyseparation<5cmvs \u00045 cm. No statistically significant difference. Bottom panel: Patients withcrossedcannulas,groupedbyoverlap<2.5cmvs\u00042.5cm. Recirculation fraction was significantly lower in patients with greater tipseparation(p<0.01). SupplementaryTable1:Assessmentofpotentialrecirculationin99 patients excluded from the primary study based on SvO2 monitoring. SupplementaryTable2:Cannulasizesusedbyconfiguration. SupplementaryTable3:RecirculationbyDrainageandReturn CannulaSizeinFJandFFConfigurations.",
+          "page": 9,
+          "position": 148
+        },
+        {
+          "text": "Thesupplementarymaterialofthisarticleisavailableathttps://ject. edpsciences.org/10.1051/ject/2026010/olm.",
+          "page": 9,
+          "position": 149
+        }
+      ],
+      "subsections": []
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "raw_text": "1.GoligherEC,TomlinsonG,HajageD,WijeysunderaDN,Fan E,JuniP,etal.Extracorporealmembraneoxygenationfor severeacuterespiratorydistresssyndromeandposteriorprob- abilityofmortalitybeneﬁtinaposthocBayesiananalysisofa randomizedclinicaltrial.JAMA.2018;320(21):2251–2259. https://doi.org/10.1001/jama.2018.14276. 2.SpinelliE,CarlessoE,MauriT.Extracorporealsupportto achievelung-protectiveanddiaphragm-protectiveventilation. Curr Opin Crit Care. 2020;26(1):66–72. https://doi.org/10.1097/ MCC.0000000000000686. 3.Serpa Neto A, Deliberato RO, Johnson AEW, Bos LD, Amorim P, PereiraSM,etal.Mechanicalpowerofventilationisassociated withmortalityincriticallyillpatients:ananalysisofpatientsin two observational cohorts. Intensive Care Med. 2018; 44(11):1914–1922.https://doi.org/10.1007/s00134-018-5375-6. 4.SchmidtM,PhamT,ArcadipaneA,AgerstrandC,OhshimoS, PellegrinoV,etal.Mechanicalventilationmanagementduring extracorporealmembraneoxygenationforacuterespiratory distresssyndrome.AnInternationalMulticenterProspective Cohort.AmJRespirCritCareMed.2019;200(8):1002–1012. https://doi.org/10.1164/rccm.201806-1094OC.",
+      "authors": [],
+      "title": null,
+      "year": 2018,
+      "venue": null,
+      "doi": "10.1001/jama.2018.14276"
+    },
+    {
+      "id": 2,
+      "raw_text": "5.CressoniM,Gotti M,ChiurazziC, MassariD,AlgieriI,Amini M,etal.Mechanicalpoweranddevelopmentofventilator- inducedlunginjury.Anesthesiology.2016;124(5):1100–1108. https://doi.org/10.1097/ALN.0000000000001056. 6.Worku ET, Yeung F, Anstey C, Shekar K. The impact of reduction inintensityofmechanicalventilationuponvenovenousECMO initiationonradiographicallyassessedlungedemascores:A retrospective observational study. Front Med (Lausanne). 2022;9:1005192.https://doi.org/10.3389/fmed.2022.1005192. 7.JamadarDA,KazerooniEA,CascadePN,FazzalariFL, Vydareny KH, Bartlett RH. Extracorporeal membrane oxygena- tioninadults:radiographicﬁndingsandcorrelationoflung opacitywithpatientmortality.Radiology.1996;198(3):693– 698.https://doi.org/10.1148/radiology.198.3.8628856. 8.ReisMirandaD,vanThielR,BrodieD,BakkerJ.Right ventricular unloading after initiation of venovenous extracorporeal membraneoxygenation.AmJRespirCritCareMed.2015;191 (3):346–348.https://doi.org/10.1164/rccm.201408-1404LE. 9.MendesPV,ParkM,deAzevedoLCP,MoraisCCA,Amato MBP,CostaELV.Lungperfusionduringveno-venousextra- corporealmembraneoxygenationinamodelofhypoxemic respiratoryfailure.IntensiveCareMedExp.2022;10(1):15. https://doi.org/10.1186/s40635-022-00442-x. 10.SchmidtM,TachonG,DevilliersC,MullerG,HekimianG, BrechotN,etal.Bloodoxygenationanddecarboxylation determinantsduringvenovenousECMOforrespiratoryfailure inadults.IntensiveCareMed.2013;39(5):838–846.https://doi. org/10.1007/s00134-012-2785-8. 11.MullerMC,WilkeSK,DobbermannA,KirstenS,RussM, Weber-CarstensS,etal.Dissolvedoxygenrelevantlycon- tributestosystemicoxygenationduringvenovenousextracor- porealmembraneoxygenationsupport.ASAIOJ.2024;70 (8):667–674.https://doi.org/10.1097/MAT.0000000000002171. 12.PalmerO,PalmerK,HultmanJ,BromanM.Cannuladesign andrecirculationduringvenovenousextracorporealmembrane oxygenation.ASAIOJ.2016;62(6):737–742.https://doi.org/ 10.1097/MAT.0000000000000440. 13.NunesLB,MendesPV,HirotaAS,BarbosaEV,MacielAT, SchettinoGP,etal.Severehypoxemiaduringveno-venous extracorporealmembraneoxygenation:exploringthelimitsof extracorporealrespiratorysupport.Clinics(SaoPaulo).2014; 69(3):173–178.https://doi.org/10.6061/clinics/2014(03)05. 14.CrnichCJ,MakiDG.Thepromiseofnoveltechnologyforthe preventionofintravasculardevice-relatedbloodstreaminfec- tion. II.Long-term devices. Clin InfectDis. 2002;34(10):1362– 1368.https://doi.org/10.1086/340105. 15.DaveSB,LeiendeckerE,Creel-BulosC,MillerCF,Boorman DW,JavidfarJ,etal.Outcomesfollowingadditionaldrainage duringveno-venousextracorporealmembraneoxygenation:A single-centerretrospectivestudy.Perfusion.2025;40(3):647– 656.https://doi.org/10.1177/02676591241249609. 16.LeoniM,SzaszJ,MeierJ,Gerardo-GiordaL.Bloodﬂowbut notcannulapositioninginﬂuencestheefﬁcacyofVeno-Venous ECMOtherapy.SciRep.2022;12(1):20950.https://doi.org/ 10.1038/s41598-022-23159-z. 17.GagliardiV,GagliardiG.Recirculationinveno-venousextra- corporealmembraneoxygenation.Medicina(Kaunas).2024; 60(12).https://doi.org/10.3390/medicina60121936. 18.XieA,YanTD,ForrestP.Recirculationinvenovenous extracorporeal membrane oxygenation. J Crit Care. 2016;36:107–110.https://doi.org/10.1016/j.jcrc.2016.05.027.",
+      "authors": [],
+      "title": null,
+      "year": 2016,
+      "venue": null,
+      "doi": "10.1097/ALN.0000000000001056"
+    },
+    {
+      "id": 3,
+      "raw_text": "264 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 4,
+      "raw_text": "19.Jung YC, Chong Y, Han SJ, Park SJ, Kwak Y, Kim SY, et al. Impact ofmultistagecannulaonrecirculationinvariousvenovenous extracorporeal membrane oxygenation cannulation strategies. ASAIOJ.2025.https://doi.org/10.1097/MAT.0000000000002384. 20.Abrams D, Bacchetta M, Brodie D. Recirculation in venovenous extracorporealmembraneoxygenation.ASAIOJ.2015;61(2): 115–121.https://doi.org/10.1097/MAT.0000000000000179. 21.WickramarachchiA,GregorySD,BurrellAJC,KhamooshiM. FlowcharacterizationofMaquetandBio-Medicusmulti-stage drainage cannulae during venoarterial extracorporeal membrane oxygenation.ComputBiolMed.2024;171:108135.https://doi. org/10.1016/j.compbiomed.2024.108135. 22.BukovaM,SchumacherT,MantlM,FunkenD,HoefﬂerK, KoeditzH,etal.Factorsinﬂuencingrecirculationinveno- venousextracorporealmembraneoxygenation:insightsfroma controlled bench study. ASAIO J. 2025. https://doi.org/10.1097/ MAT.0000000000002465. 23.GehronJ,BandorskiD,MayerK,BoningA.theimpactof recirculationonextracorporealgasexchangeandpatient oxygenationduringveno-venousextracorporealmembrane oxygenation-resultsofanobservationalclinicaltrial.JClin Med.2023;12(2).https://doi.org/10.3390/jcm12020416. 24.AntonsenLP,EspinozaA,HalvorsenPS,SchalitI,BerganH, LiljaD,etal.TheimpactofhypovolemiaandPEEPon recirculationinvenovenousECMO:anexperimentalporcine model.IntensiveCareMedExp.2024;12(1):51.https://doi.org/ 10.1186/s40635-024-00636-5. 25.TogoK,TakewaY,KatagiriN,FujiiY,KishimotoS,DateK, etal.Impactofbypassﬂowrateandcatheterpositioninveno- venousextracorporealmembraneoxygenationongasexchange invivo.JArtifOrgans.2015;18(2):128–135.https://doi.org/ 10.1007/s10047-014-0810-0. 26.KoUW,ChoiCH,ParkCH,LeeSI.Alternativepositionof cannulae in veno-venous extracorporeal membrane oxygenation for maintainingsufﬁcientﬂowsupport.GenThoracCardiovascSurg. 2023;71(6):369–372.https://doi.org/10.1007/s11748-023-01924-9. 27.Rich PB, Awad SS, Crotti S, Hirschl RB, Bartlett RH, Schreiner RJ. A prospective comparison of atrio-femoral and femoro-atrial ﬂowinadultvenovenousextracorporeallifesupport.JThorac Cardiovasc Surg. 1998;116(4):628–632. https://doi.org/ 10.1016/S0022-5223(98)70170-9. 28.Togo K, Takewa Y, Katagiri N, Fujii Y, Yamashita AC, Tastumi E. Optimaldrainagecannulapositionindualcannulationforveno- venousextracorporealmembraneoxygenation.IntJArtifOrgans. 2018;41(12):867–871.https://doi.org/10.1177/0391398818795357. 29.RubinoA,VuylstekeA,JenkinsDP,FowlesJA,HockingsL, ValchanovK.DirectcomplicationsoftheAvalonbicavaldual- lumencannulainrespiratoryextracorporealmembraneoxy- genation (ECMO): Single-center experience. Int J Artif Organs. 2014;37(10):741–747.https://doi.org/10.5301/ijao.5000357. 30.LimSY,AhnS,HongSB,ChungCR,JeonK,LeeSM,etal. Clinicaloutcomesaccordingtocannulaconﬁgurationsin patientswithacuterespiratorydistresssyndromeunderveno- venousextracorporealmembraneoxygenation:aKoreanmul- ticenterstudy.AnnIntensiveCare.2020;10(1):86.https://doi. org/10.1186/s13613-020-00700-9. 31.Gaies MG, Gurney JG, Yen AH, Napoli ML, Gajarski RJ, Ohye RG, et al. Vasoactive-inotropic score as a predictor of morbidity andmortalityininfantsaftercardiopulmonarybypass.Pediatr CritCareMed.2010;11(2):234–238.https://doi.org/10.1097/ PCC.0b013e3181b806fc.",
+      "authors": [],
+      "title": null,
+      "year": 2025,
+      "venue": null,
+      "doi": "10.1097/MAT.0000000000002384"
+    },
+    {
+      "id": 5,
+      "raw_text": "32.DufﬁnSC,AskewJH,SouthwoodTJ,ForrestP,PlunkettB, Totaro RJ. An intensivist-ledECMOaccreditation pathway and safetydataovertheﬁrst4years.CritCareResusc.2024;26 (1):41–46.https://doi.org/10.1016/j.ccrj.2023.11.006. 33.McCannyP,SmithMW,O'BrienSG,BuscherH,CartonEG. Fluid balance and recovery of native lung function in adult patients supportedbyvenovenousextracorporealmembraneoxygenation andcontinuousrenalreplacementtherapy.ASAIOJ.2019;65 (6):614–619.https://doi.org/10.1097/MAT.0000000000000860. 34.SongK,NaSJ,ChungCR,JeonK,SuhGY,ChungS,etal. Optimal position of a femorojugular cannulation for venovenous extracorporealmembraneoxygenationinacuterespiratory distresssyndrome.AnnThoracSurg.2023;115(4):1016–1022. https://doi.org/10.1016/j.athoracsur.2022.10.023. 35.FamousKR,DelucchiK,WareLB,KangelarisKN,LiuKD, ThompsonBT,etal.Acuterespiratorydistresssyndrome subphenotypesresponddifferentlytorandomizedﬂuidman- agementstrategy.AmJRespirCritCareMed.2017;195 (3):331–338.https://doi.org/10.1164/rccm.201603-0645OC. 36.Abrams D, Garan AR, Brodie D. Awake and fully mobile patients oncardiacextracorporeallifesupport.AnnCardiothoracSurg. 2019;8(1):44–53.https://doi.org/10.21037/acs.2018.08.03. 37.Pooth JS, Forster JK, Benk C, Diel P, Brixius SJ, Maier S, et al. Impact of cannulation strategy and extracorporeal blood ﬂow on recirculationduringveno-venousextracorporealmembrane oxygenation.ArtifOrgans.2025;49(6):1012–1020.https://doi. org/10.1111/aor.14961. 38.FisserC,PalmerO,SallisalmiM,PaulusM,FoltanM,Philipp A,etal.Recirculationinsinglelumencannulavenovenous extracorporealmembraneoxygenation:Anon-randomizedbi- centrictrial. FrontMed(Lausanne).2022;9:973240. https://doi. org/10.3389/fmed.2022.973240. 39.ConradSA,WangD.Evaluationofrecirculationduring venovenousextracorporealmembraneoxygenationusingcom- putationalﬂuiddynamicsincorporatingﬂuid-structureinterac- tion.ASAIOJ.2021;67(8):943–953.https://doi.org/10.1097/ MAT.0000000000001314. 40.BonacchiM,HarmelinG,PerisA,SaniG.Anovelstrategyto improvesystemicoxygenationinvenovenousextracorporeal membraneoxygenation:the“chi-conﬁguration”.JThorac Cardiovasc Surg. 2011;142(5):1197–1204. https://doi.org/ 10.1016/j.jtcvs.2011.01.046. 41.LinTY,HorngFM,ChiuKM,ChuSH,ShiehJS.Asimple modiﬁcationofinﬂowcannulatoreducerecirculationof venovenousextracorporealmembraneoxygenation.JThorac Cardiovasc Surg. 2009;138(2):503–506. https://doi.org/ 10.1016/j.jtcvs.2008.02.095. 42.MekontsoDessapA,BoissierF,CharronC,BegotE,Repesse X,LegrasA,etal.Acutecorpulmonaleduringprotective ventilationforacuterespiratorydistresssyndrome:prevalence, predictors, and clinical impact. Intensive Care Med. 2016;42(5): 862–870.https://doi.org/10.1007/s00134-015-4141-2. 43.Heuts S, Ubben JF, Banks-Gonzales V, Sels JW, Lorusso R, van MookW,etal.Nitricoxideventilationimprovesrecirculation andrightventricularfunctionduringveno-venousextracorpo- realmembraneoxygenationinaCOVID-19patient.JCardio- thoracVascAnesth.2021;35(9):2763–2767.https://doi.org/ 10.1053/j.jvca.2020.09.137. 44.van Heijst AF, van der Staak FH, de Haan AF, Liem KD, Festen C,GevenWB,etal.Recirculationindoublelumencatheter veno-venousextracorporealmembraneoxygenationmeasured",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1016/j.ccrj.2023.11.006"
+    },
+    {
+      "id": 6,
+      "raw_text": "E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266 265",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    },
+    {
+      "id": 7,
+      "raw_text": "by an ultrasound dilution technique. ASAIO J. 2001;47(4):372– 376.https://doi.org/10.1097/00002480-200107000-00015. 45.LindstromSJ,MennenMT,RosenfeldtFL,SalamonsenRF. Quantifying recirculation in extracorporeal membrane oxygena- tion:anewtechniquevalidated.IntJArtifOrgans.2009;32 (12):857–863.https://doi.org/10.1177/039139880903201204. 46.Masi P, Gouriet L, Radu C, Folliguet T, Fiore A, Gallet R, et al. Immediateclinicalcomplicationsoccurringduringmembrane changeinpatientsonveno-venousextracorporealmembrane oxygenation.ASAIOJ.2025;71(2):120–127.https://doi.org/ 10.1097/MAT.0000000000002270. 47.WalkerJ,PrimmerJ,SearlesBE,DarlingEM.The potentialof accurateSvO2monitoringduringvenovenousextracorporeal membraneoxygenation:aninvitromodelusingultrasound dilution. Perfusion. 2007;22(4):239–244. https://doi.org/ 10.1177/0267659107083656. 48.MazzefﬁM,GutscheJ.Thermodilution-derivedrecirculation andcardiacoutputmeasurementduringveno-venousextracor-",
+      "authors": [],
+      "title": null,
+      "year": 2001,
+      "venue": null,
+      "doi": "10.1097/00002480-200107000-00015"
+    },
+    {
+      "id": 8,
+      "raw_text": "porealmembraneoxygenation:DoWeneedmorebellsand whistles? Anesthesiology. 2024;140(5):887–889. https://doi.org/ 10.1097/ALN.0000000000004930. 49.UndarA,WangS,MoroiM,KunselmanAR,BrehmCE. Evaluationandcomparisonofhemodynamicperformanceof threeECLSsystemsinasimulatedadultcardiogenicshock model. Artif Organs. 2018;42(8):776–785. https://doi.org/ 10.1111/aor.13126. 50.JoycePR,HodgsonCL,BellomoR,GregorySD,RamanJ, StephensAF,etal.Smallerreturncannulainvenoarterial extracorporealmembraneoxygenationdoesnotincreasehemol- ysis: a single-center, Cohort Study. ASAIO J. 2023;69(11):1004– 1008.https://doi.org/10.1097/MAT.0000000000002027. 51.KellyAM,WeldonD,TsangAY,GrahamCA.Comparison betweentwomethodsforestimatingpneumothoraxsizefrom chestX-rays.RespirMed.2006;100(8):1356–1359.https://doi. org/10.1016/j.rmed.2005.11.022.",
+      "authors": [],
+      "title": null,
+      "year": 2024,
+      "venue": null,
+      "doi": "10.1097/ALN.0000000000004930"
+    },
+    {
+      "id": 9,
+      "raw_text": "Citethisarticleas:WorkuET,PittardMG&TotaroRJ.Cannulatipseparationandconfigurationasdeterminantsofrecirculationin venovenousECMO.JExtraCorporTechnol2026,58,255–266.https://doi.org/10.1051/ject/2026010.",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": "10.1051/ject/2026010"
+    },
+    {
+      "id": 10,
+      "raw_text": "266 E.TWorkuetal.:JExtraCorporTechnol2026,58,255–266",
+      "authors": [],
+      "title": null,
+      "year": null,
+      "venue": null,
+      "doi": null
+    }
+  ],
+  "page_count": 12,
+  "warnings": []
+}
